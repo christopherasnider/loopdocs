@@ -28,5 +28,3 @@ jobs:
           src_branch: master-da
           # The branch name of the destination repository
           dst_branch: master-da
-          # A glob pattern for excluding paths
-          exclude: *.md
