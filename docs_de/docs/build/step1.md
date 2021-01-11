@@ -1,10 +1,10 @@
-# Step 1: Compatible Computer
+# Schritt 1: Kompatibler Computer
 
-!!!danger "Time Estimate"
-    * 5 minutes, if already have Mojave or Catalina macOS
-    * 30-60 minutes, if need to install macOS updates
+!!!Gefahr "Geschätzte Zeit"
+    * 5 Minuten, wenn du bereits Mojave (10.14) oder Catalina (10.15) auf deinem Apple Computer installiert hast
+    * 30-60 Minuten, falls MacOS-Updates installiert werden müssen
 
-!!!info "Summary"
+!!! Info "Zusammenfassung"
     * Check your macOS and make sure it is Mojave or Catalina. **If you have the latest iOS version on the iPhone that will be using Loop...then you need Catalina.**
     * Do not use any of the beta macOS versions. (If you don't know what that means, don't worry...that means you aren't using one.)
     * If your macOS is not Mojave or Catalina, check to see if you can up update your macOS to one of those.
