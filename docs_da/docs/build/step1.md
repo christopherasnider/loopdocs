@@ -35,23 +35,23 @@ Har du brug for Catalina eller Mojave? Svaret vil afhænge af iOS på din iPhone
 
 **Hvis du har iOS 13.4 eller nyere**, vil du ikke være i stand til at bruge Mojave og vil have brug for Catalina på et minimum. Med andre ord, du har brug for macOS 10.15.2 på et minimum for at bygge Loop på en iPhone, der kører iOS 13.4 eller nyere.
 
-!!!danger "iOS dictates your computer needs" Put simply for Loopers...the more up-to-date you keep your iOS, the more up-to-date your computer and macOS will need to be, too. That's not necessarily a bad thing, and you can't avoid iOS updates forever...you just do need to be aware of how they relate to each other if your computer is "getting on the older side".
+!!!danger "iOS dikterer din computer behov" sagt kort for Loopers ... Jo mere opdateret du holder din iOS, jo mere opdateret skal din computer og macOS også være. Det er ikke nødvendigvis en dårlig ting, og du kan ikke undgå iOS opdateringer for evigt ... du bare nødt til at være opmærksom på, hvordan de relaterer til hinanden, hvis din computer er "at kommet op i årene".
 
-## Check your macOS
-You need an Apple computer that has at least the minimum macOS version as described above; Mojave macOS 10.14.4 (or newer) or Catalina macOS 10.15 (or newer). To find out which version you have installed, click on the little Apple icon in your computer's upper left corner and select the `About this Mac`. It doesn't matter if the computer is a MacBook, iMac, macMini, etc...just so long as it has the minimum you'll need.
+## Tjek din macOS
+Du har brug for en Apple-computer, der har mindst den minimale macOS-version som beskrevet ovenfor; Mojave macOS 10. 4.4 (eller nyere) eller Catalina macOS 10.15 (eller nyere). For at finde ud af, hvilken version du har installeret, skal du klikke på det lille Apple-ikon i computerens øverste venstre hjørne og vælge `Om denne Mac`. Det betyder ikke noget, hvis computeren er en MacBook, iMac, macMini, etc ... bare så længe den har det mindste du har brug for.
 
-If your computer does not have the required minimum version, you'll need to check the `Software Update` button on that screen to see if you can update.
+Hvis computeren ikke har den nødvendige minimumversion, skal du kontrollere knappen `Software Update` på skærmen for at se, om du kan opdatere.
 
 <p align="center">
 <img src="https://loopkit.github.io/loopdocs/build/img/macosx.png" width="500">
 </p>
 
-If your computer does not give you the option to update to the newer macOS (in other words you are stuck on older versions)...it is quite possible that Apple has decided your computer is too old to run the latest and greatest. How old is too old? That will depend on your computer model and year as shown below:
+Hvis din computer ikke giver dig mulighed for at opdatere til de nyere macOS (med andre ord du sidder fast på ældre versioner) ... det er meget muligt, at Apple har besluttet din computer er for gammel til at køre den nyeste og bedste. Hvor gammel er for gammel? Det vil afhænge af din computer model og år som vist nedenfor:
 
 <p align="center">
 <img src="https://loopkit.github.io/loopdocs/build/img/mojave-minimum.png" width="750">
 </p>
 
-## Next Step: Compatible iPhone/iPod touch
+## Næste trin: Kompatibel iPhone/iPod touch
 
-Now you are ready to move onto Step 2 to check if you have a [Compatible iPhone/iPod touch](https://loopkit.github.io/loopdocs/build/step2/).
+Nu er du klar til at gå videre til trin 2 for at kontrollere, om du har en [kompatibel iPhone/iPod touch](https://loopkit.github.io/loopdocs/build/step2/).

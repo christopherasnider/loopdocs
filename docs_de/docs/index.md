@@ -16,7 +16,7 @@ Die App verwendet als Grundlage [LoopKit](https://github.com/LoopKit/LoopKit). L
     - höchst experimentell
     - nicht für therapeutische Zwecke zugelassen
 
-      **Du trägst die alleinige Verantwortung dafür die Loop-App zu erstellen und anzuwenden, du tust dies auf dein eigenes Risiko.**
+      **Du trägst die alleinige Verantwortung dafür die Loop-App zu erstellen und anzuwenden. Du tust dies auf dein eigenes Risiko.**
 
 Mit Hilfe der Open-Source Programmiervorlage für Loop kannst du eine App erstellen, die alle möglichen kommerziellen und frei verfügbaren Hard- und Softwaretechnologien verwendet, um deine Insulinpumpe, kontinuierliches Bluzuckermesssystem (CGM) und Algorithmen zur Berechnung von Insulinmengen zu einem System zu vereint, welches sich um die automatisierte Dosierung und Lieferung deines Basalinsulins kümmert.  Diese Loop-App errechnet den zukünftigen Blutzuckerverlauf auf Grundlage deiner zeitlichen Basalraten, Kohlenhydrataufnahme, Restinsulin (IOB) und aktuellen Bluzuckermesswerten.  Diese Bluzuckervorhersagen ermöglichen es der Loop-App temporäre Basalraten vorzuschlagen, um einen bestimmten zukünftigen Blutzuckerzielwert zu erreichen.  Das System kann entweder “open-loop” arbeiten in dem es dir lediglich Vorschläge macht, die auf deine Bestätigung hin auch angewendet werden oder es kann im “closed-loop” Modus arbeiten, in dem es die vorgeschlagenen temporären Basalraten automatisch selbst anwendet.
 
