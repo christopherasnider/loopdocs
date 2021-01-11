@@ -1,78 +1,78 @@
 ## Tilpasning af kode
-Baseret på Loop-brugernes oplevelse er der nogle tilpasninger, som du måske vil indarbejde forud for opbygningen af din Loop-app og Apple Watch-appen.  These customizations must be done prior to building the Loop app onto your iPhone, they cannot be done from within the app itself.
+Baseret på Loop-brugernes oplevelse er der nogle tilpasninger, som du måske vil indarbejde forud for opbygningen af din Loop-app og Apple Watch-appen.  Disse tilpasninger skal ske, før du bygger Loop-appen på din iPhone, de kan ikke foretages inde fra selve appen.
 
-!!!info "Line numbers may change" Every effort will be made to update the line numbers as the code is updated, but there may be times where the screenshots and line numbers are slightly different than the current version of Loop code.  These instructions have been updated for Loop v2.0 master branch. If you can't find the same exact line on that line number listed, then look nearby and you'll likely find it just a couple lines away.
+!!!info "Linjenumre kan ændre sig" Der vil blive gjort alt for at opdatere linjenumrene, efterhånden som koden opdateres, men der kan være tidspunkter, hvor skærmbillederne og linjenumrene er lidt anderledes end den aktuelle version af Loop-koden.  Denne vejledning er blevet opdateret til Loop v2.0-master branch. Hvis du ikke kan finde den samme nøjagtige linje på den angivne linjenummer, så se i nærheden, og du vil sandsynligvis finde det kun et par linjer væk.
 
-### Disable Authentication for Bolusing
+### Deaktivér godkendelse til bolus
 
-Depending on your iPhone preferences and model, you may have Face ID or Touch ID enabled.  Those security features will also be used to authenticate bolus delivery in Loop.  You can choose to disable authentication (i.e., not require Face ID, Touch ID, or passcode for bolusing) through the following code customization:
+Afhængigt af dine iPhone-præferencer og -model, kan du have Face ID eller Touch ID aktiveret.  Disse sikkerhedsfunktioner vil også blive brugt til at godkende bolus levering i Loop.  Du kan vælge at deaktivere godkendelse (dvs. ikke kræver Face ID, Touch ID eller adgangskode til bolus) gennem følgende kode tilpasning:
 
- Modify Line 201 in the Loop>>View Controllers>>BolusViewController.swift.  Add the `false &&` as shown in the screenshot below:
+ Ændre linje 201 i Loop>>Se controllere>>BolusViewController.swift.  Tilføj `false &&` som vist på skærmbilledet nedenfor:
 
 <p align="center">
 <img src="../img/custom-id.png" width="750">
 </p>
 
-### Default Carb Absorption Times
+### Standard kulhydrate absorbering tider
 
 <img style="float: right;" width="200" src="../img/carb_screen.png" />
 
-Loop’s default carb absorption times are based on the high, medium, and low glycemic index absorption curves presented in <i>Think Like A Pancreas</i> by Gary Scheiner.  Currently the lollipop (fast) icon is set for 2 hours, taco (medium) icon for 3 hours, and pizza (slow) icon for 4 hours.
+Loops standard carb absorptionstider er baseret på det høje, medium, og lave glykæmiske indeks absorptionskurver præsenteret i <i>Think Like A Pancreas</i> af Gary Scheiner.  I øjeblikket slikkepind (hurtig) ikon er indstillet til 2 timer, taco (medium) ikon for 3 timer, og pizza (langsom) ikon for 4 timer.
 
-If you would like to modify those defaults, you can do so in the Loop Core>>LoopSettings.swift Line 16.
+Hvis du vil ændre disse standarder, kan du gøre det i Loop Core>>LoopSettings.swift Linje 16.
 
 <p align="center">
 <img src="../img/carb_times.png" width="750">
 </p>
 
-For example, if you wanted to make lollipop a 30 minute absorption and pizza a 5 hour absorption, the edit would look like below:
+For eksempel, hvis du ønskede at gøre slikkepind en 30 minutters absorption og pizza en 5 timers absorption, vil redigeringen se ud nedenfor:
 
 <p align="center">
 <img src="../img/carb_times_example.png" width="750">
 </p>
 
-### Exponential Insulin Curve
-The Exponential Insulin Curve Models (Rapid-Acting Adult, Rapid-Acting Child, and Fiasp) default to an insulin duration of 360 minutes...but the peak activity of the various curves differs, as follows:
+### Eksponentiel insulinkurve
+De eksponentielle insulinkurve modeller (Rapid-Acting Adult, Rapid-Acting Barn, og Fiasp) standard til en insulinvarighed på 360 minutter. .men de forskellige kurvers maksimale aktivitet er forskellig som følger:
 
-* Rapid-acting adult curve peaks at 75 minutes
-* Rapid-acting child curve peaks at 65 minutes
-* Fiasp peaks curve peaks at 55 minutes
+* Hurtigtvirkende voksenkurve topper ved 75 minutter
+* Hurtigtvirkende barnekurve topper efter 65 minutter
+* Fiasp kurven topper ved 55 minutter
 
-If you wish to customize these values, you can adjust them on Lines 34-38 in the LoopCore>>Insulin>>ExponentialInsulinModelPreset.swift.
+Hvis du vil tilpasse disse værdier, kan du justere dem på linje 34-38 i LoopCore>>Insulin>>ExponentialInsulinModelPreset.swift.
 
 <p align="center">
 <img src="../img/exponential.png" width="750">
 </p>
 
 ### Loop Logo
-If you want an app logo other than the default green circle for your Loop app, you can easily customize this.  To make it easy to generate the correct sizes of icons, you can use a site like [appicon.build](http://www.appicon.build/) or [appicon.co](https://appicon.co/) and just drag and drop your source image. The source image needs to be 1024 pixels x 1024 pixels.  The site will email you a zip file or automatically download a set of files.  Highlight and copy the contents of the Appicon.appiconset that you are sent, including the Contents.json file
+Hvis du vil have et andet applogo end standardgrøn cirkel til din Loop-app, kan du nemt tilpasse dette.  For at gøre det nemt at generere de korrekte størrelser af ikoner, kan du bruge et websted som [appicon.build](http://www.appicon.build/) eller [appicon.co](https://appicon.co/) og bare trække og slippe dit kildebillede. Kildebilledet skal være 1024 pixel x 1024 pixel.  Sitet vil e-maile dig en zip-fil eller automatisk downloade et sæt af filer.  Fremhæv og kopiér indholdet af det Appicon.appiconset, du har sendt, herunder filen Contents.json
 
-Now navigate to the corresponding Loop folder (DefaultAssessts.xcassets, Appicon.appiconset) as shown below.  
+Naviger nu til den tilsvarende loop-mappe (DefaultAssessts.xcassets, Appicon.appiconset) som vist nedenfor.  
 
 <p align="center">
 <img src="../img/appicon1.png" width="650">
 </p>
 
-Replace the contents of the Appicon.appiconset with your copied images and Contents.json file.
+Erstat indholdet af Appicon.appiconset med dine kopierede billeder og Contents.json-filen.
 
 <p align="center">
 <img src="../img/appicon2.png" width="650">
 </p>
 
-You can confirm the successful change by looking in Xcode under Loop -> DefaultAssets.xcassets -> Appicon.  You should see your custom logo in the Appicon set now.  You may also see a yellow alert that there are “unassigned children” depending on the images the app icon generator tool produced. The unassigned children alert will not prevent your app from building, it’s simply because there are more more sizes of images than Loop app uses.  You can just leave the unassigned children alone (wow...how often do you get to say that phrase?).
+Du kan bekræfte den vellykkede ændring ved at kigge i Xcode under Loop -> DefaultAssets.xcassets -> Appicon.  Du bør se dit brugerdefinerede logo i Appicon-sættet nu.  Du får muligvis også vist en gul advarsel om, at der er "unassigned children", afhængigt af de billeder, som appikongeneratorværktøjet har produceret. Advarslen om "unassigned children" forhindrer ikke din app i at bygge, det er simpelthen fordi der er flere størrelser af billeder, end Loop-appen bruger.  Du kan bare lade de "unassigned children" være.
 
 <p align="center">
 <img src="../img/appicon3.png" width="650">
 </p>
 
-And now you'll be the proud new owner of a custom Loop icon.
+Og nu vil du være den stolte nye ejer af et brugerdefineret Loop-ikon.
 
 <p align="center">
 <img src="../img/unicorn-logo.jpeg" width="350">
 </p>
 
-### Adjust the sensitivity of Watch's digital crown for carb and bolus entry
-The rate of change of the carb and bolus entry pickers when using the digital crown can be altered. You'll need to edit two lines in files within the WatchApp Extension>>Controllers folder.  In BolusInterfaceController.swift edit line 191, and in AddCarbsInterfaceController.swift edit line 249. The 1/24 value is the ratio of rotations of the crown to the amount of change in the value. Changing it to 1/12 would mean that twice as many turns would be needed for the same amount of carb or bolus entry.
+### Juster følsomheden af Watch's digitale krone for carb og bolus indtastning
+Hastigheden af ændringen af carb og bolus indtastning, når du bruger den digitale krone kan ændres. Du skal redigere to linjer i filer i WatchApp Extension>>Controllers mappe.  I BolusInterfaceController.swift redigere linje 191, og i AddCarbsInterfaceController.swift redigere linje 249. Værdien 1/24 er forholdet mellem rotationer af kronen og mængden af ændring i værdien. Ændring til 1/12 ville betyde, at dobbelt så mange drej ville være nødvendigt for den samme mængde af carb eller bolus.
 
 <p align="center">
 <img src="../img/sensitivity1.png" width="800">
