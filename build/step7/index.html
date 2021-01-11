@@ -1,0 +1,1905 @@
+
+<!doctype html>
+<html lang="da" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
+    
+    
+      
+        <title>Trin 7 Installer Homebrew - Loop dokumentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.15aa0b43.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.75751829.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#step-7-install-homebrew" class="md-skip">
+          Gå til indholdet
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Mitigate bug: https://github.com/mkdocs/mkdocs/issues/2191 -->
+
+
+
+<!-- Application header -->
+<header class="md-header" data-md-component="header">
+
+  <!-- Top-level navigation -->
+  <nav class="md-header-nav md-grid" aria-label="Header">
+
+    <!-- Link to home -->
+    <a
+      href="../.."
+      title="Loop dokumentation"
+      class="md-header-nav__button md-logo"
+      aria-label="Loop dokumentation"
+    >
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+
+    <!-- Button to open drawer -->
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+
+    <!-- Header title -->
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            Loop dokumentation
+            &nbsp;&nbsp;&nbsp;
+            <a href="../"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0z" fill="none"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg> da  </a>
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              Trin 7 Installer Homebrew
+            
+          </span>
+        </div>
+      </div>
+
+    </div>
+    
+
+
+    <!-- Button to open search dialogue -->
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+
+      <!-- Search interface -->
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Søg" placeholder="Søg" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+   
+    <!-- Repository information -->
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/cfaagaard/MultiLangTest/" title="Åbn arkiv" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Hjem
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../faqs/docs-faqs/" class="md-tabs__link">
+        FAQs
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../overview/" class="md-tabs__link md-tabs__link--active">
+        Byg app
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../operation/overview/" class="md-tabs__link">
+        Opsætning af app
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../operation/features/carbs/" class="md-tabs__link">
+        Brugervejledning
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../nightscout/overview/" class="md-tabs__link">
+        Nightscout
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Loop dokumentation" class="md-nav__button md-logo" aria-label="Loop dokumentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Loop dokumentation
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/cfaagaard/MultiLangTest/" title="Åbn arkiv" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Hjem
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+    
+    <label class="md-nav__link" for="nav-2">
+      FAQs
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="FAQs" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        FAQs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/docs-faqs/" class="md-nav__link">
+      Hvad er FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/FAQs/" class="md-nav__link">
+      Generelt Loop FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/omnipod-faqs/" class="md-nav__link">
+      Omnipod FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/branch-faqs/" class="md-nav__link">
+      Branch FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/update-faqs/" class="md-nav__link">
+      Opdatere Loop FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/ios13/" class="md-nav__link">
+      iOS 13 FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/rileylink-faqs/" class="md-nav__link">
+      RileyLink FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/algorithm-faqs/" class="md-nav__link">
+      Algorithm FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/cgm-faqs/" class="md-nav__link">
+      Sensor FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/safety-faqs/" class="md-nav__link">
+      Sikkerhed
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  
+
+
+  
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Byg app
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Byg app" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Byg app
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../overview/" class="md-nav__link">
+      Overblik
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step1/" class="md-nav__link">
+      Trin 1 Kompatibel computer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step2/" class="md-nav__link">
+      Trin 2 Kompatibel iPhone/iPod touch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step3/" class="md-nav__link">
+      Trin 3 Kompatibel pumpe
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step4/" class="md-nav__link">
+      Trin 4 Kompatibel CGM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step5/" class="md-nav__link">
+      Trin 5 Bestil en RileyLink
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step6/" class="md-nav__link">
+      Trin 6 Tilmeld dig Apple Developer Program
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Trin 7 Installer Homebrew
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Trin 7 Installer Homebrew
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Indholdsfortegnelse">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indholdsfortegnelse
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#user-needs-to-be-an-admin-account-on-computer" class="md-nav__link">
+    User needs to be an Admin account on computer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-homebrew" class="md-nav__link">
+    Installing Homebrew
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-carthage" class="md-nav__link">
+    Install Carthage
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uninstall-homebrew" class="md-nav__link">
+    Uninstall Homebrew
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-step-download-xcode" class="md-nav__link">
+    Next Step: Download Xcode
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step8/" class="md-nav__link">
+      Trin 8 Download Xcode
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step9/" class="md-nav__link">
+      Trin 9 Xcode-præferencer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step10/" class="md-nav__link">
+      Trin 10 Test indstillinger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step11/" class="md-nav__link">
+      Trin 11 Lav planer for Loop Data
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step12/" class="md-nav__link">
+      Trin 12 Mød fællesskabet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step13/" class="md-nav__link">
+      Trin 13 Download Loopkode
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../step14/" class="md-nav__link">
+      Trin 14 Build Loop-app
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../build_errors/" class="md-nav__link">
+      Åh gud! Byg fejl ?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../code_customization/" class="md-nav__link">
+      Tilpas din Loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../updating/" class="md-nav__link">
+      Opdatering af din Loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../loopworkspace/" class="md-nav__link">
+      LoopWorkspace
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    
+    <label class="md-nav__link" for="nav-4">
+      Opsætning af app
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Opsætning af app" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Opsætning af app
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/overview/" class="md-nav__link">
+      Oversigt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../health/" class="md-nav__link">
+      Trin 1 Sundhedstilladelser
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3" >
+    
+    <label class="md-nav__link" for="nav-4-3">
+      Trin 2 Tilføj pumpe
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Trin 2 Tilføj pumpe" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        <span class="md-nav__icon md-icon"></span>
+        Trin 2 Tilføj pumpe
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/mdt-pump/" class="md-nav__link">
+      Tilføj Medtronic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/omnipod-pump/" class="md-nav__link">
+      Tilføj Omnipod
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/cgm/" class="md-nav__link">
+      Trin 3 Tilføj CGM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/configurations/" class="md-nav__link">
+      Trin 4 Konfigurationer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/services/" class="md-nav__link">
+      Trin 5 Loop Services
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/displays/" class="md-nav__link">
+      Loop Display
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/rileylink/" class="md-nav__link">
+      RileyLink-menu
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+    
+    <label class="md-nav__link" for="nav-5">
+      Brugervejledning
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Brugervejledning" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Brugervejledning
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1" >
+    
+    <label class="md-nav__link" for="nav-5-1">
+      Sådan bruges Loop App
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Sådan bruges Loop App" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-1">
+        <span class="md-nav__icon md-icon"></span>
+        Sådan bruges Loop App
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/carbs/" class="md-nav__link">
+      Carb-indgange
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/bolus/" class="md-nav__link">
+      Bolus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/workout/" class="md-nav__link">
+      Overrides
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/premeal/" class="md-nav__link">
+      Før-måltid
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/healthapp/" class="md-nav__link">
+      Sundhedsapp
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/ice/" class="md-nav__link">
+      Brug af ICE-info
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/watch/" class="md-nav__link">
+      Apple Watch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/widget/" class="md-nav__link">
+      iPhone-widget
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/notifications/" class="md-nav__link">
+      Loop Notifications
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/battery/" class="md-nav__link">
+      Pumpebatteri
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2" >
+    
+    <label class="md-nav__link" for="nav-5-2">
+      Looping Tips
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Looping Tips" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        <span class="md-nav__icon md-icon"></span>
+        Looping Tips
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop/open-loop/" class="md-nav__link">
+      Åben loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop/close-loop/" class="md-nav__link">
+      Lukket loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop/looptips/" class="md-nav__link">
+      Loop Tips
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-3" type="checkbox" id="nav-5-3" >
+    
+    <label class="md-nav__link" for="nav-5-3">
+      Algoritme
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Algoritme" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-3">
+        <span class="md-nav__icon md-icon"></span>
+        Algoritme
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/algorithm/overview/" class="md-nav__link">
+      Oversigt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/algorithm/bolus/" class="md-nav__link">
+      Bolusanbefalinger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/algorithm/prediction/" class="md-nav__link">
+      Glucose Prediction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/algorithm/temp-basal/" class="md-nav__link">
+      Temp Basal Adjustments
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-4" type="checkbox" id="nav-5-4" >
+    
+    <label class="md-nav__link" for="nav-5-4">
+      Fejlfinding
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Fejlfinding" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-4">
+        <span class="md-nav__icon md-icon"></span>
+        Fejlfinding
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/overview/" class="md-nav__link">
+      Oversigt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/loop-crashing/" class="md-nav__link">
+      Loop App går ned
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/yellow-red-loop/" class="md-nav__link">
+      Red Loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/pod-pairing/" class="md-nav__link">
+      Pod-parringsfejl
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/uncertain-bolus/" class="md-nav__link">
+      Pod usikre boluser
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/priming/" class="md-nav__link">
+      MDT Priming og Sites
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/time-change/" class="md-nav__link">
+      Tidsændringer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/pump-errors/" class="md-nav__link">
+      MDT-pumpefejl
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/omnipod-faults/" class="md-nav__link">
+      Omnipod-fejl
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+    
+    <label class="md-nav__link" for="nav-6">
+      Nightscout
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Nightscout" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Nightscout
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/overview/" class="md-nav__link">
+      Oversigt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/new_user/" class="md-nav__link">
+      Helt ny NS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/update_user/" class="md-nav__link">
+      Eftermontering Eksisterende NS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/troublehoot/" class="md-nav__link">
+      Fejlfinding ved opsætning
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/remote-overrides/" class="md-nav__link">
+      Fjernstyring
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/ifttt/" class="md-nav__link">
+      IFTTT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/pebble/" class="md-nav__link">
+      Pebble
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/pushover/" class="md-nav__link">
+      Fjernunderretninger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/reports/" class="md-nav__link">
+      Rapporter
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/cfaagaard/MultiLangTest/edit/main/loopdocs/da/docs/build/step7.md" title="Redigér denne side" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="step-7-install-homebrew">Step 7: Install Homebrew<a class="headerlink" href="#step-7-install-homebrew" title="Permanent link">&para;</a></h1>
+<div class="admonition danger">
+<p class="admonition-title">Time Estimate</p>
+<ul>
+<li>10-15 minutes assuming you know your computer's password</li>
+<li>35 minutes if you can't remember your password and have to guess</li>
+</ul>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Summary</p>
+<ul>
+<li>Install Homebrew by simply copying and pasting a long line of gibberish into the ugly Terminal application.</li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">FAQs</p>
+<ul>
+<li><strong>"What if I don't get an "Installation successful" message?"</strong> If you don't see a successful installation message, please try the copy-paste again. If you fail to get Homebrew installed, your Loop build will also fail. You can't just skip this step. The most common cause of errors is failing to copy the ENTIRE line of code ...people sometimes fail to get that last <code>"</code> at the end of the line. Also, you need to be using a user account on the computer that has "admin" rights, since this process is installing a program on the computer.</li>
+</ul>
+</div>
+<p>Breath deep...this step looks kind of "programmer code" weirdness. BUT, it isn't. Well, it is...but we will be just simply copying and pasting one line of the weirdness and then walking away. We don't actually have to know much about Homebrew itself or what the line of code means exactly.</p>
+<h2 id="user-needs-to-be-an-admin-account-on-computer">User needs to be an Admin account on computer<a class="headerlink" href="#user-needs-to-be-an-admin-account-on-computer" title="Permanent link">&para;</a></h2>
+<p>Homebrew is a program that will allow us to install the needed packages to build Loop. Before installing Homebrew, we need to double check one thing...that the user account on the computer that you are using to build Loop, that <strong>user account needs to have Administrative rights on the computer</strong>. How can you tell? Go to the computer's System Preferences application, open the Users &amp; Groups section. If your account that you are using doesn't say "Admin" under your name, then you need to click the lock and change that to an Admin account before proceeding. If you are using a work computer, you may not have admin rights on that computer...so be aware that you may have restrictions on company owned computers.</p>
+<p align="center">
+<img src="../img/admin-user.png" width="550">
+</p>
+
+<p>Side note: If you are a (1) computer-savvy person and (2) already installed Homebrew on a different user account on the computer previously...please go use that user account on the computer to build Loop. Or, delete Homebrew from that User account and install on your account. Homebrew is a bit picky.</p>
+<h2 id="installing-homebrew">Installing Homebrew<a class="headerlink" href="#installing-homebrew" title="Permanent link">&para;</a></h2>
+<p>Ok, now that we have the user account confirmed, let's open the Terminal application on your computer. It is located in your Applications folder and then look in the Utilities subfolder...the Terminal application is in there like shown in the screenshot below.</p>
+<p align="center">
+<img src="https://loopkit.github.io/loopdocs/build/img/terminal.png" width="550">
+</p>
+
+<p>!!!info "New Apple M1 chip users: IMPORTANT STEP" If you purchased one of the new Apple computers that have the brand new Apple M1 chip, you will need to do a little step to start with. Homebrew doesn't run natively on the new M1 chips...so we have to open Terminal app using a little "converter" app, in these situations, called Rosetta. It's no big deal...simply find the Terminal app like was described above and instead of opening it by double clicking...I want you to click on the Terminal app's name just once so it is highlighted. Then right-click on the Terminal app's name to bring up some additional choices. You will want to select the "Get Info" option.</br></br></p>
+<pre><code>&lt;p align="center"&gt;
+&lt;img src="../img/get-info.png" width="550"&gt;
+&lt;/p&gt;
+
+Now in the informational window that appears...you'll see a checkbox that says "Open using Rosetta". Check that box...that will allow Terminal app to open in such a way that we can install Homebrew in the next steps.  You can close that informational window, after you check the box for "Open using Rosetta", and proceed with the rest of the directions just like normal. Thanks!
+&lt;p align="center"&gt;
+&lt;img src="../img/rosetta.png" width="350"&gt;
+&lt;/p&gt;
+</code></pre>
+<p>Now that you've located where the Terminal app is located in the Utilities folder (and already turned on Rosetta check box, if you are an M1 user)...double-click the Terminal app's name so that the app opens. The Terminal app is very plain looking when you open it. That is normal. Copy and paste the line in the little grey box below into Terminal prompt.</p>
+<p><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></p>
+<p>Your screen should look like something like this after you copy it in...if it does, then go ahead and press return to continue on with the installation command.</p>
+<p align="center">
+<img src="https://loopkit.github.io/loopdocs/build/img/homebrew-copy-line.png" width="450">
+</p>
+<p></br></p>
+<p>There will be a prompt asking if you want to continue.  Press return to continue, then it will prompt for your password.  <u>The password is your computer's password.</u></p>
+<p><strong><u><font color = "red">Don't freak out that you can't see your password while you type. That is normal. The Terminal app doesn't show keystrokes when you enter passwords, but it is still recording your password entry. If you think you messed up because you were confused, press the delete key a bunch of times and then start fresh with the password entry.</font></u></strong></p>
+<p>Wait while the script does its thing...you’ll see info scroll by and then it will pause for a while. Eventually, it will be done and you’ll see something that says “Installation successful” and you’ll have a ready Terminal prompt again.</br></br></p>
+<p align="center">
+<img src="https://loopkit.github.io/loopdocs/build/img/carthage.jpg" width="450">
+</p>
+<p></br></p>
+<p>!!!info "If you get an error about homebrew-core being a "shallow clone"" You will need to follow the instructions given in the error, and update your homebrew installation with the following command:</p>
+<pre><code>`git -C "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core" fetch --unshallow`
+</code></pre>
+<h2 id="install-carthage">Install Carthage<a class="headerlink" href="#install-carthage" title="Permanent link">&para;</a></h2>
+<p>We are going to finish with one little last installation of something called Carthage. It's a helper that does some of the work during Loop building. Technically, Loop has an automated script that will use Homebrew to install Carthage when you first build Loop.</p>
+<p>Now that Homebrew has successfully installed, copy and paste the line in the little grey box below into Terminal prompt (similar to how you did for Homebrew installation line above).</p>
+<p><code>brew install carthage</code></p>
+<p>You should see something like below when the command has finished running successfully. Your messages might look slightly different (version number might be newer, for example), but the summary should look similar to seeing a carthage version installed and complete.</p>
+<p align="center">
+<img src="../img/carthage-done.png" width="550">
+</p>
+<p></br></p>
+<p>You can close the Terminal application now. You’re done with it. You do not need to do these steps again for any subsequent Loop builds. This is one of those "just do it once" on new computer installations. If you get a new computer though, you will have to repeat this step for the new computer.</p>
+<h2 id="uninstall-homebrew">Uninstall Homebrew<a class="headerlink" href="#uninstall-homebrew" title="Permanent link">&para;</a></h2>
+<p>If you have something go wrong in Homebrew installation, want to delete it and start fresh, the uninstall command is:</p>
+<p><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"</code></p>
+<p>Copy and paste that entire line into Terminal application. Then you can retry the installation of Homebrew using the install command listed earlier in this page.</p>
+<h2 id="next-step-download-xcode">Next Step: Download Xcode<a class="headerlink" href="#next-step-download-xcode" title="Permanent link">&para;</a></h2>
+<p>Now you are ready to move onto Step 8 to <a href="https://loopkit.github.io/loopdocs/build/step8/">download Xcode</a>.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+  <script src="https://utteranc.es/client.js"
+  repo="cfaagaard/MultiLangTest"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script>
+  <!-- Link to previous and/or next page -->
+  
+    <div class="md-footer-nav">
+      <nav
+        class="md-footer-nav__inner md-grid"
+        aria-label="Footer"
+      >
+
+        <!-- Link to previous page -->
+        
+          <a
+            href="../step6/"
+            class="md-footer-nav__link md-footer-nav__link--prev"
+            rel="prev"
+          >
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Forrige
+                </span>
+                Trin 6 Tilmeld dig Apple Developer Program
+              </div>
+            </div>
+          </a>
+        
+
+        <!-- Link to next page -->
+        
+          <a
+            href="../step8/"
+            class="md-footer-nav__link md-footer-nav__link--next"
+            rel="next"
+          >
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Næste
+                </span>
+                Trin 8 Download Xcode
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+
+      <!-- Copyright and theme information -->
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a
+          href="https://squidfunk.github.io/mkdocs-material/"
+          target="_blank" rel="noopener"
+        >
+          Material for MkDocs
+        </a>
+      </div>
+
+      <!-- Social links -->
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Kopi\u00e9r til udklipsholderen", "clipboard.copied": "Kopieret til udklipsholderen", "search.config.lang": "da", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "S\u00f8g", "search.result.placeholder": "Indtast s\u00f8geord", "search.result.none": "Ingen resultater fundet", "search.result.one": "1 resultat", "search.result.other": "# resultater", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['navigation.tabs', 'toc.integrate'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

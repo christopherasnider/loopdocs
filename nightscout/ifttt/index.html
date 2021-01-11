@@ -1,0 +1,2016 @@
+
+<!doctype html>
+<html lang="da" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
+    
+    
+      
+        <title>IFTTT - Loop dokumentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.15aa0b43.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.75751829.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ifttt-integration" class="md-skip">
+          Gå til indholdet
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Mitigate bug: https://github.com/mkdocs/mkdocs/issues/2191 -->
+
+
+
+<!-- Application header -->
+<header class="md-header" data-md-component="header">
+
+  <!-- Top-level navigation -->
+  <nav class="md-header-nav md-grid" aria-label="Header">
+
+    <!-- Link to home -->
+    <a
+      href="../.."
+      title="Loop dokumentation"
+      class="md-header-nav__button md-logo"
+      aria-label="Loop dokumentation"
+    >
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+
+    <!-- Button to open drawer -->
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+
+    <!-- Header title -->
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            Loop dokumentation
+            &nbsp;&nbsp;&nbsp;
+            <a href="../"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0z" fill="none"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg> da  </a>
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              IFTTT
+            
+          </span>
+        </div>
+      </div>
+
+    </div>
+    
+
+
+    <!-- Button to open search dialogue -->
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+
+      <!-- Search interface -->
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Søg" placeholder="Søg" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+   
+    <!-- Repository information -->
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/cfaagaard/MultiLangTest/" title="Åbn arkiv" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Hjem
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../faqs/docs-faqs/" class="md-tabs__link">
+        FAQs
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../build/overview/" class="md-tabs__link">
+        Byg app
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../operation/overview/" class="md-tabs__link">
+        Opsætning af app
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../operation/features/carbs/" class="md-tabs__link">
+        Brugervejledning
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../overview/" class="md-tabs__link md-tabs__link--active">
+        Nightscout
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Loop dokumentation" class="md-nav__button md-logo" aria-label="Loop dokumentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Loop dokumentation
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/cfaagaard/MultiLangTest/" title="Åbn arkiv" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Hjem
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+    
+    <label class="md-nav__link" for="nav-2">
+      FAQs
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="FAQs" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        FAQs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/docs-faqs/" class="md-nav__link">
+      Hvad er FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/FAQs/" class="md-nav__link">
+      Generelt Loop FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/omnipod-faqs/" class="md-nav__link">
+      Omnipod FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/branch-faqs/" class="md-nav__link">
+      Branch FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/update-faqs/" class="md-nav__link">
+      Opdatere Loop FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/ios13/" class="md-nav__link">
+      iOS 13 FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/rileylink-faqs/" class="md-nav__link">
+      RileyLink FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/algorithm-faqs/" class="md-nav__link">
+      Algorithm FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/cgm-faqs/" class="md-nav__link">
+      Sensor FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/safety-faqs/" class="md-nav__link">
+      Sikkerhed
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    
+    <label class="md-nav__link" for="nav-3">
+      Byg app
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Byg app" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Byg app
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/overview/" class="md-nav__link">
+      Overblik
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step1/" class="md-nav__link">
+      Trin 1 Kompatibel computer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step2/" class="md-nav__link">
+      Trin 2 Kompatibel iPhone/iPod touch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step3/" class="md-nav__link">
+      Trin 3 Kompatibel pumpe
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step4/" class="md-nav__link">
+      Trin 4 Kompatibel CGM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step5/" class="md-nav__link">
+      Trin 5 Bestil en RileyLink
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step6/" class="md-nav__link">
+      Trin 6 Tilmeld dig Apple Developer Program
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step7/" class="md-nav__link">
+      Trin 7 Installer Homebrew
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step8/" class="md-nav__link">
+      Trin 8 Download Xcode
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step9/" class="md-nav__link">
+      Trin 9 Xcode-præferencer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step10/" class="md-nav__link">
+      Trin 10 Test indstillinger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step11/" class="md-nav__link">
+      Trin 11 Lav planer for Loop Data
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step12/" class="md-nav__link">
+      Trin 12 Mød fællesskabet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step13/" class="md-nav__link">
+      Trin 13 Download Loopkode
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step14/" class="md-nav__link">
+      Trin 14 Build Loop-app
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/build_errors/" class="md-nav__link">
+      Åh gud! Byg fejl ?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/code_customization/" class="md-nav__link">
+      Tilpas din Loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/updating/" class="md-nav__link">
+      Opdatering af din Loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/loopworkspace/" class="md-nav__link">
+      LoopWorkspace
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    
+    <label class="md-nav__link" for="nav-4">
+      Opsætning af app
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Opsætning af app" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Opsætning af app
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/overview/" class="md-nav__link">
+      Oversigt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/health/" class="md-nav__link">
+      Trin 1 Sundhedstilladelser
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3" >
+    
+    <label class="md-nav__link" for="nav-4-3">
+      Trin 2 Tilføj pumpe
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Trin 2 Tilføj pumpe" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        <span class="md-nav__icon md-icon"></span>
+        Trin 2 Tilføj pumpe
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/mdt-pump/" class="md-nav__link">
+      Tilføj Medtronic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/omnipod-pump/" class="md-nav__link">
+      Tilføj Omnipod
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/cgm/" class="md-nav__link">
+      Trin 3 Tilføj CGM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/configurations/" class="md-nav__link">
+      Trin 4 Konfigurationer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/services/" class="md-nav__link">
+      Trin 5 Loop Services
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/displays/" class="md-nav__link">
+      Loop Display
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/rileylink/" class="md-nav__link">
+      RileyLink-menu
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+    
+    <label class="md-nav__link" for="nav-5">
+      Brugervejledning
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Brugervejledning" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Brugervejledning
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1" >
+    
+    <label class="md-nav__link" for="nav-5-1">
+      Sådan bruges Loop App
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Sådan bruges Loop App" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-1">
+        <span class="md-nav__icon md-icon"></span>
+        Sådan bruges Loop App
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/carbs/" class="md-nav__link">
+      Carb-indgange
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/bolus/" class="md-nav__link">
+      Bolus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/workout/" class="md-nav__link">
+      Overrides
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/premeal/" class="md-nav__link">
+      Før-måltid
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/healthapp/" class="md-nav__link">
+      Sundhedsapp
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/ice/" class="md-nav__link">
+      Brug af ICE-info
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/watch/" class="md-nav__link">
+      Apple Watch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/widget/" class="md-nav__link">
+      iPhone-widget
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/notifications/" class="md-nav__link">
+      Loop Notifications
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/battery/" class="md-nav__link">
+      Pumpebatteri
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2" >
+    
+    <label class="md-nav__link" for="nav-5-2">
+      Looping Tips
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Looping Tips" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        <span class="md-nav__icon md-icon"></span>
+        Looping Tips
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop/open-loop/" class="md-nav__link">
+      Åben loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop/close-loop/" class="md-nav__link">
+      Lukket loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop/looptips/" class="md-nav__link">
+      Loop Tips
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-3" type="checkbox" id="nav-5-3" >
+    
+    <label class="md-nav__link" for="nav-5-3">
+      Algoritme
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Algoritme" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-3">
+        <span class="md-nav__icon md-icon"></span>
+        Algoritme
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/algorithm/overview/" class="md-nav__link">
+      Oversigt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/algorithm/bolus/" class="md-nav__link">
+      Bolusanbefalinger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/algorithm/prediction/" class="md-nav__link">
+      Glucose Prediction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/algorithm/temp-basal/" class="md-nav__link">
+      Temp Basal Adjustments
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-4" type="checkbox" id="nav-5-4" >
+    
+    <label class="md-nav__link" for="nav-5-4">
+      Fejlfinding
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Fejlfinding" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-4">
+        <span class="md-nav__icon md-icon"></span>
+        Fejlfinding
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/overview/" class="md-nav__link">
+      Oversigt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/loop-crashing/" class="md-nav__link">
+      Loop App går ned
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/yellow-red-loop/" class="md-nav__link">
+      Red Loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/pod-pairing/" class="md-nav__link">
+      Pod-parringsfejl
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/uncertain-bolus/" class="md-nav__link">
+      Pod usikre boluser
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/priming/" class="md-nav__link">
+      MDT Priming og Sites
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/time-change/" class="md-nav__link">
+      Tidsændringer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/pump-errors/" class="md-nav__link">
+      MDT-pumpefejl
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/omnipod-faults/" class="md-nav__link">
+      Omnipod-fejl
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  
+
+
+  
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+    
+    <label class="md-nav__link" for="nav-6">
+      Nightscout
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Nightscout" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Nightscout
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../overview/" class="md-nav__link">
+      Oversigt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../new_user/" class="md-nav__link">
+      Helt ny NS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../update_user/" class="md-nav__link">
+      Eftermontering Eksisterende NS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../troublehoot/" class="md-nav__link">
+      Fejlfinding ved opsætning
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../remote-overrides/" class="md-nav__link">
+      Fjernstyring
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        IFTTT
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      IFTTT
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Indholdsfortegnelse">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indholdsfortegnelse
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-get-your-api-secret-hash" class="md-nav__link">
+    Step 1: Get your API Secret Hash
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-create-your-applets" class="md-nav__link">
+    Step 2: Create your "Applets"
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-enable-ifttt-in-your-nightscout-site" class="md-nav__link">
+    Step 3: Enable IFTTT in your Nightscout site
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-install-ifttt-app-on-your-iphoneandroid" class="md-nav__link">
+    Step 4: Install IFTTT app on your iPhone/Android
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-credit-alexa-integration" class="md-nav__link">
+    Extra Credit: Alexa integration
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../pebble/" class="md-nav__link">
+      Pebble
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../pushover/" class="md-nav__link">
+      Fjernunderretninger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../reports/" class="md-nav__link">
+      Rapporter
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/cfaagaard/MultiLangTest/edit/main/loopdocs/da/docs/nightscout/ifttt.md" title="Redigér denne side" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="ifttt-integration">IFTTT Integration<a class="headerlink" href="#ifttt-integration" title="Permanent link">&para;</a></h1>
+<p>If This, Then That (IFTTT) is a useful Nightscout integration.  By using IFTTT, you can have single button presses on your iPhone that will set an override, log a cannula change, log a sensor change and much more.</p>
+<h2 id="step-1-get-your-api-secret-hash">Step 1: Get your API Secret Hash<a class="headerlink" href="#step-1-get-your-api-secret-hash" title="Permanent link">&para;</a></h2>
+<p>First we need to gather one thing called your "hashed API Secret". In your internet browser, open a "console" window while viewing your Nightscout site.  Make sure you have "authenticated" your site by using your API secret in the Nightscout settings area (hint: if you see a little padlock in the upper left corner of the site, you haven't authenticated it).  Refresh the site and your hashed secret key will be shown as "apisecrethash: "xxxxxxxxxx...""</p>
+<p><strong>For Safari users on Mac</strong>, you can open the console window by selecting "Develop" from the Safari top menu, and then "Show Page Source" (if you do not see "Develop" in the top menu, activate it by going to Safari &gt; Preferences... &gt; Advanced, and checking the "Show Develop menu in menu bar" option).  If you're having problems seeing the apisecrethash, click the little grey triangle next to the "status isAuthenticated" line and the objects below it will display (see screenshot).  Your hashed API secret can be copied and pasted from that line, as shown below.  Save that somewhere easy to get to again, because you will be using it later.</p>
+<p align="center">
+<img src="../img/hashed_API.png" width="750">
+</p>
+
+<p><strong>For Chrome users</strong>, the console window is found through the View &gt;&gt; Developer &gt;&gt; View Source. Click on the Console tab and scroll to find the "status isAuthenticated" row to find your apisecrethash. Copy your API hash to somewhere you can retreive it again, we will be copy/pasting it in Step 2.</p>
+<p align="center">
+<img src="../img/hashed_API2.png" width="750">
+</p>
+
+<h2 id="step-2-create-your-applets">Step 2: Create your "Applets"<a class="headerlink" href="#step-2-create-your-applets" title="Permanent link">&para;</a></h2>
+<p>IFTTT calls their little actions that you'll create an "applet". I have no idea why. But, I will go along and use their terminology so we are all consistent. We are basically interested in creating applets that will be buttons on your phone to do cool things in Nightscout. So, you'll have a button that will log when you changed your sensor last...letting you see in Nightscout easily just how old a sensor is at any given time. Or you can create a button that will turn on an "exercise" override that you already programmed into your kid's Loop app. So, let's make our first applet (aka button).</p>
+<ul>
+<li>Get an <a href="https://ifttt.com/join">IFTTT account</a></li>
+</ul>
+<p align="center">
+<img src="../img/IFTTT_signup.png" width="650">
+</p>
+
+<ul>
+<li>
+<p>Login to your IFTTT.com account and select click <a href="https://ifttt.com/create">this link</a> to get to the page for creating your first "New Applet". (You can also get to this Applet creation page by selecting your Account icon in the upper right of the IFTTT website, then clicking on "Create".)</p>
+</li>
+<li>
+<p>In the screen that appears, click on the black "+this" part of the screen</p>
+</li>
+</ul>
+<p align="center">
+<img src="../img/IFTTT_this.png" width="650">
+</p>
+
+<ul>
+<li>In the next screen, type "button" in the search field and then click on the red box labelled "ButtonWidget"</li>
+</ul>
+<p align="center">
+<img src="../img/IFTTT_button.png" width="650">
+</p>
+
+<ul>
+<li>Connect the button widget by clicking on the large black"connect" button twice, once on the main screen and then second on the pop-up window that will appear immediately after that. (You will only have to "connect" the widgets for the first applet you make.  After that the widgets will already connected to your IFTTT account.)</li>
+</ul>
+<p align="center">
+<img src="../img/IFTTT_connect1.png" width="650">
+</p>
+
+<ul>
+<li>Click on the large red "button press" box</li>
+</ul>
+<p align="center">
+<img src="../img/IFTTT_buttonpress.png" width="650">
+</p>
+
+<ul>
+<li>Click on the black "+that" text</li>
+</ul>
+<p align="center">
+<img src="../img/IFTTT_that.png" width="650">
+</p>
+
+<ul>
+<li>Enter "Webhooks" in the search field and click on the Webhooks app</li>
+</ul>
+<p align="center">
+<img src="../img/webhooks1.png" width="650">
+</p>
+
+<ul>
+<li>Connect the Webhooks app</li>
+</ul>
+<p align="center">
+<img src="../img/webhooks2.png" width="650">
+</p>
+
+<ul>
+<li>Select the blue "Make a Web Request" box</li>
+</ul>
+<p align="center">
+<img src="../img/webhooks24.png" width="650">
+</p>
+
+<ul>
+<li>Now you will have a blank web request template to complete.  Screenshot below is an example of a completed recipe for eating soon IFTTT action. There are four parts you will need to fill in, and they are described below the screenshot.</li>
+</ul>
+<p align="center">
+<img src="../img/webhooks25.png" width="650">
+</p>
+
+<p>!!!danger "URL" <code>https://yoursite.herokuapp.com/api/v1/treatments.json</code> (for all IFTTT recipes that are NOT remote overrides...so things like cannula changes, sensor changes, pump battery changes, etc.)</br></br> Change the "yoursite" to your actual site's info.</p>
+<p>!!!warning "Method" The method will be <code>POST</code></p>
+<p>!!!info "Content Type" The content type will be <code>application/json</code>.</p>
+<p>!!!danger "Body" The content of the body will depend on the action that you would like this particular button press to perform. While many recipes are available, any recipe that log carbs to NS will only display the carbs in Nightscout...Loop will not "use" those carbs in treatment or prediction math. The display of carbs in NS though may still be helpful for remote care givers to leave an indication that a low is being noticed and treated.  Some sample content for actions that may be useful in Loop:</br></br> <strong>Pump Site Change</strong></br>
+    {"enteredBy": "IFTTT-button", "eventType": "Site Change", "duration": 0, "secret": "your_hashed_api_goes_here!!!"}</br></br> <strong>CGM Sensor Start</strong></br>
+    {"enteredBy": "IFTTT-button", "eventType": "Sensor Start", "duration": 0, "secret": "your_hashed_api_goes_here!!!"}</br></br> <strong>Note</strong></br>
+    {"enteredBy": "IFTTT-button", "eventType": "Note", "notes": "Hi mom, please don't text me for a bit.  I'm taking a test.", "secret": "your_hashed_api_goes_here!!!"}</br></br></p>
+<p>!!!warning "Special note for IFTTT to set a Remote Override with dev branch" Triggering a remote override with IFTTT takes a couple considerations;</br></br> 1. You have followed <a href="https://loopkit.github.io/loopdocs/nightscout/remote-overrides/">the directions for setting up remote overrides</a> in Nightscout already.</br></br> 2. Remote overrides will use <strong><code>https://yoursite.herokuapp.com/api/v2/notifications/loop</code></strong> for the URL line of the applet. Notice that is different from the other type of applets' URL.</br></br> 3. The Body message of the applet needs to match the override already programmed in Loop app; the reason, reasonDisplay, and duration all need to match what is preset in your Loop app. The "duration" is giving in minutes in the body message (vs hours in Loop), and if the override is one that is "enabled indefinitely" then the duration is "infinite". The "reason" is the name of the override but NO EMOJI, and the "reasonDisplay" is the override name with the emoji. Check out the samples Body messages for overrides below. You will have to edit your body messages to match your reason and reasonDisplay. The target range and duration of the override does not need to be specified. </br></br> <strong>Body message for override named "hormones"</strong></br>
+    {"eventType": "Temporary Override", "reason": "hormones", "reasonDisplay": "🧟‍♀️ hormones", "secret": "your_hashed_api_goes_here!!!"}</br></br> <strong>Body message for override named "running"</strong></br>
+    {"eventType": "Temporary Override", "reason": "running", "reasonDisplay": "🏃‍♀️ running", "secret": "your_hashed_api_goes_here!!!"}</br></br> <strong>Body message for override named "Low Treatment"</strong></br>
+    {"eventType": "Temporary Override", "reason": "Low Treatment", "reasonDisplay": "🍬 Low Treatment", "secret": "your_hashed_api_goes_here!!!"}</br></br> <strong>Body message to cancel any override</strong></br>
+    {"eventType": "Temporary Override Cancel", "secret": "your_hashed_api_goes_here!!!"}</br></br></p>
+<ul>
+<li>
+<p>Click the <code>Create Action</code> button on the bottom of the screen when you finish.</p>
+</li>
+<li>
+<p>Now is your chance to change the title of your applet now to something meaningful.  You can turn on notifications, too, using the slider shown. If you turn on the notifications, you will get an alert on your phone and pebble watch when the button press has been successfully deployed.  Finish the IFTTT button by clicking on the Finish button that appears.</p>
+</li>
+</ul>
+<p align="center">
+<img src="../img/webhooks26.png" width="650">
+</p>
+
+<ul>
+<li>Repeat the setup for new applets for as many automated actions/overrides as you would like to setup.</li>
+</ul>
+<p align="center">
+<img src="../img/webhooks27.png" width="650">
+</p>
+
+<h2 id="step-3-enable-ifttt-in-your-nightscout-site">Step 3: Enable IFTTT in your Nightscout site<a class="headerlink" href="#step-3-enable-ifttt-in-your-nightscout-site" title="Permanent link">&para;</a></h2>
+<p>Now that we have cool applets made, we need to give Nightscout some information so that it will accept commands from our applets. It's pretty simple to do...just a couple additions to your Heroku settings.</p>
+<ul>
+<li>Find your Maker Key by going to your IFTTT account icon in upper right corner, choose "My services" and then click on the Webhooks service, settings.</li>
+</ul>
+<hr />
+<p align="center">
+<img src="../img/webhooks10.png" width="650">
+</p>
+
+<ul>
+<li>You will see your Maker Key as the last part of the URL after the <code>use/</code>; copy and paste that last part (the red circled part as shown)</li>
+</ul>
+<p align="center">
+<img src="../img/webhooks11.png" width="650">
+</p>
+
+<ul>
+<li>Login to your Nightscout site host (azure or heroku) and (1) add your Maker Key to the MAKER_KEY line and (2) add "maker" to your ENABLE line.</li>
+</ul>
+<p align="center">
+<img src="../img/IFTTT_NSkey.png" width="650">
+</p>
+
+<p align="center">
+<img src="../img/IFTTT_enable.png" width="650">
+</p>
+
+<h2 id="step-4-install-ifttt-app-on-your-iphoneandroid">Step 4: Install IFTTT app on your iPhone/Android<a class="headerlink" href="#step-4-install-ifttt-app-on-your-iphoneandroid" title="Permanent link">&para;</a></h2>
+<p>Now that all the hard work is done, we can take easy street and just add that work to the phone via the IFTTT app. By accessing the IFTTT widget on your iPhone, you'll be able to easily and quickly access the useful buttons you've just created.</p>
+<ul>
+<li>
+<p>Download the IFTTT app on your phone and log in using your IFTTT account.</p>
+</li>
+<li>
+<p>For iPhone users, if you swipe right from your iPhone's home screen, you will have the Today view showing.  Scroll to the bottom, click "edit". This should show a list of existing widgets, followed by a list of "more widgets" with green + signs.  Click on the IFTTT's green circle and the widget will be moved to the top, active widgets area.  You can hold your finger on the three left lines of the IFTTT widget row to drag it to the top of your widget panel, if you prefer to have it as the top-most widget.</p>
+</li>
+</ul>
+<p align="center">
+<img src="../img/IFTTT_today.PNG" width="550">
+</p>
+
+<p>If you end up with more than four IFTTT applets, they will appear in reverse-order of when they were created...which may not be the same as you'd prefer them to appear on your widget bar.  If you'd like to reorder them:</p>
+<ul>
+<li>go into your iPhone's IFTTT app</li>
+<li>click on My Applets</li>
+<li>click on the gear icon in upper left of screen</li>
+<li>click on Widgets</li>
+<li>click on the pencil icon in upper right of screen</li>
+<li>click and hold the three lines that appear on the right side of the widget that you want to move.  Drag the widget to the order in the list that you'd like it to appear in your widget quickscreen.</li>
+</ul>
+<p align="center">
+<img src="../img/IFTTT_reorder.png" width="550">
+</p>
+
+<h2 id="extra-credit-alexa-integration">Extra Credit: Alexa integration<a class="headerlink" href="#extra-credit-alexa-integration" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Since you have IFTTT/Maker requests working, you can get it to work with anything that supports IFTTT, including Alexa. You will need to add "alexa" to your ENABLE line in your Heroku settings.  And then repeat the steps above, but instead of using "ButtonWidget" service we started with earlier (the "+if" part of the setup)...you will use the "AmazonAlexa" service.</li>
+</ul>
+<p align="center">
+<img src="../img/alexa_maker.png" width="750">
+</p>
+
+<ul>
+<li>Alexa requests do not need underscores, FYI.</li>
+</ul>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+  <script src="https://utteranc.es/client.js"
+  repo="cfaagaard/MultiLangTest"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script>
+  <!-- Link to previous and/or next page -->
+  
+    <div class="md-footer-nav">
+      <nav
+        class="md-footer-nav__inner md-grid"
+        aria-label="Footer"
+      >
+
+        <!-- Link to previous page -->
+        
+          <a
+            href="../remote-overrides/"
+            class="md-footer-nav__link md-footer-nav__link--prev"
+            rel="prev"
+          >
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Forrige
+                </span>
+                Fjernstyring
+              </div>
+            </div>
+          </a>
+        
+
+        <!-- Link to next page -->
+        
+          <a
+            href="../pebble/"
+            class="md-footer-nav__link md-footer-nav__link--next"
+            rel="next"
+          >
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Næste
+                </span>
+                Pebble
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+
+      <!-- Copyright and theme information -->
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a
+          href="https://squidfunk.github.io/mkdocs-material/"
+          target="_blank" rel="noopener"
+        >
+          Material for MkDocs
+        </a>
+      </div>
+
+      <!-- Social links -->
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Kopi\u00e9r til udklipsholderen", "clipboard.copied": "Kopieret til udklipsholderen", "search.config.lang": "da", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "S\u00f8g", "search.result.placeholder": "Indtast s\u00f8geord", "search.result.none": "Ingen resultater fundet", "search.result.one": "1 resultat", "search.result.other": "# resultater", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['navigation.tabs', 'toc.integrate'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
