@@ -1704,9 +1704,7 @@
 <p>To determine the corrective temporary basal rate to implement, Loop calculates a “dose” in the same way doses are calculated in both open-loop and traditional insulin pump therapy. It's also the same math many people on multiple-daily injection therapy use. The benefit of Loop (and all other close-loop algorithms) is that it does this math every 5 minutes, and is far less prone to error than humans doing the math. Loop also does its math based on predicting into the future, which traditional pumps and humans, do not always have the time or inclination to do.</p>
 <p>The amount of insulin needed, or dose, is calculated using the desired reduction in blood glucose and the user’s ISF. For the Loop algorithm, the desired reduction in blood glucose is the delta between the eventual blood glucose and the correction target:</p>
 <p><img alt="basal dose equation" src="../img/dose_equation.png" /></p>
-<div class="admonition note">
-<p>A major difference between traditional pump therapy and how the Loop calculates dose is that in pump therapy the current blood glucose is used to estimate the dose, whereas in the Loop algorithm the eventual and minimum blood glucose predictions are also used in determining dosing decisions.</p>
-</div>
+<p>!!!note "" A major difference between traditional pump therapy and how the Loop calculates dose is that in pump therapy the current blood glucose is used to estimate the dose, whereas in the Loop algorithm the eventual and minimum blood glucose predictions are also used in determining dosing decisions.</p>
 <p>Loop then converts the dose into a basal rate using the Loop’s temporary basal rate duration of 30 minutes:</p>
 <p><img alt="basal dose equation" src="../img/br.png" /><img alt="basal dose equation" src="../img/br2.png" /></p>
 <p>where BR is the basal rate (U/hr), which is the amount of insulin needed over the next 30 minutes to bring the eventual blood glucose to the correction target. The basal rate, however, is the amount of basal rate needed beyond the user’s scheduled basal rate. As such, the required basal rate can be determined by:</p>
@@ -1715,31 +1713,31 @@
 <p>Finally, Loop compares the RBR with the user-specified maximum temporary basal rate setting to determine the temporary basal to issue:</p>
 <ul>
 <li>
-<p>If RBR ≥ maximum basal rate, then Loop will issue the maximum basal rate  </p>
+<p>If RBR ≥ maximum basal rate, then Loop will issue the maximum basal rate</p>
 </li>
 <li>
-<p>If RBR &lt; maximum temporary basal rate, then Loop will issue RBR </p>
+<p>If RBR &lt; maximum temporary basal rate, then Loop will issue RBR</p>
 </li>
 </ul>
-<p>After running the temporary basal calculation described above, Loop checks whether there is already an appropriate basal running with at least 10 minutes remaining. If so, Loop will not reissue the temporary basal. However, if the recommended temporary basal differs from the currently running temporary basal — or the current scheduled basal if no temporary is running —  then Loop will replace the current basal rate with the recommended temporary basal rate. </p>
+<p>After running the temporary basal calculation described above, Loop checks whether there is already an appropriate basal running with at least 10 minutes remaining. If so, Loop will not reissue the temporary basal. However, if the recommended temporary basal differs from the currently running temporary basal — or the current scheduled basal if no temporary is running —  then Loop will replace the current basal rate with the recommended temporary basal rate.</p>
 <p>As mentioned at the beginning of this section, the process of determining whether a temporary basal should be issued is repeated every 5 minutes.</p>
 <h2 id="temporary-basal-rate-calculation-example">Temporary Basal Rate Calculation Example<a class="headerlink" href="#temporary-basal-rate-calculation-example" title="Permanent link">&para;</a></h2>
 <p>To illustrate how the Loop calculates the temporary basal rate to issue, consider the calculation for the following scenario:</p>
 <ul>
 <li>
-<p>Eventual blood glucose = 200 mg/dL  </p>
+<p>Eventual blood glucose = 200 mg/dL</p>
 </li>
 <li>
-<p>Correction target = 100 mg/dL  </p>
+<p>Correction target = 100 mg/dL</p>
 </li>
 <li>
-<p>ISF = 50 mg/dL/U  </p>
+<p>ISF = 50 mg/dL/U</p>
 </li>
 <li>
-<p>Current scheduled basal rate (SBR) is 1 U/hr  </p>
+<p>Current scheduled basal rate (SBR) is 1 U/hr</p>
 </li>
 <li>
-<p>Maximum basal setting (set by user in Loop) = 6 U/hr  </p>
+<p>Maximum basal setting (set by user in Loop) = 6 U/hr</p>
 </li>
 </ul>
 <p></br>First, calculate the dose:</p>

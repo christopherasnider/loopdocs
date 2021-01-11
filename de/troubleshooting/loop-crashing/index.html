@@ -1641,7 +1641,7 @@
                 
                 <h1 id="loop-crashes-upon-opening">Loop Crashes Upon Opening<a class="headerlink" href="#loop-crashes-upon-opening" title="Permanent link">&para;</a></h1>
 <p>If your Loop app crashes immediately upon opening, you have a problem that needs to be fixed. What do I mean by "crashes"? That your Loop app immediately turns to a white screen and shuts itself down, landing you back at your iPhone's main screen. No amount of tapping will let you keep your Loop app open.</p>
-<p>There are only two potential causes of this: </p>
+<p>There are only two potential causes of this:</p>
 <ol>
 <li>App expired, or</li>
 <li>A correction range was saved backward.</li>
@@ -1653,17 +1653,14 @@
 <li>If you build with a paid account, your app will expire after 12 months.</li>
 </ul>
 <p>Many people <em>accidentally</em> build with their old free account even after buying a paid account. How can you tell which you're signing with? The free signing team has the <code>(Personal Team)</code> listed after your name in the signing team.</p>
-<p>If your app expires, you simply need to plug your phone back into the computer and press the play button on your project again. This will rebuild. If you want to change to a paid signing team before rebuilding, please make sure to double-check which signing team is selected before building again. </p>
+<p>If your app expires, you simply need to plug your phone back into the computer and press the play button on your project again. This will rebuild. If you want to change to a paid signing team before rebuilding, please make sure to double-check which signing team is selected before building again.</p>
 <h2 id="incorrectly-entered-correction-range">Incorrectly entered correction range<a class="headerlink" href="#incorrectly-entered-correction-range" title="Permanent link">&para;</a></h2>
-<div class="admonition info">
-<p class="admonition-title">Important To Know</p>
-<p>Correction ranges in Loop are to be entered in minimum-maximum...in other words, LOW-HIGH. If you enter the range backward, your app will crash as soon as Loop tries to use that backward target range...that could be immediately or at a time in the future, depending on when the backwards entry is in your schedule.</p>
-<ul>
-<li>An example of a properly entered correction range: 100-120 mg/dL</li>
-<li>An example of an improperly entered correction range: 120-100 mg/dL</li>
-</ul>
-<p>Please be careful when entering in the correction range. Follow the greyed out text suggestions in the Loop user interface that say <code>min-max</code>.</p>
-</div>
+<p>!!!info "Important To Know" Correction ranges in Loop are to be entered in minimum-maximum...in other words, LOW-HIGH. If you enter the range backward, your app will crash as soon as Loop tries to use that backward target range...that could be immediately or at a time in the future, depending on when the backwards entry is in your schedule.</p>
+<pre><code>* An example of a properly entered correction range: 100-120 mg/dL
+* An example of an improperly entered correction range: 120-100 mg/dL
+
+Please be careful when entering in the correction range. Follow the greyed out text suggestions in the Loop user interface that say `min-max`.
+</code></pre>
 <p>This issue has been fixed in the latest release of Loop.  If your app crashes because of an improperly set correction range, verify you are running Loop v2.0.</p>
 <p>If you continue to experience similar crashes with Loop v2.0 or later, generate an <a href="https://loopkit.github.io/loopdocs/troubleshooting/overview/#issue-report">Issue Report</a> and submit it to the Loop developers via GitHub.</p>
                 

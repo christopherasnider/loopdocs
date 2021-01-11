@@ -1717,14 +1717,11 @@
 </div>
 <h2 id="step-1-updating-loop-app-and-iphone-settings">Step 1: Updating Loop app and iPhone settings<a class="headerlink" href="#step-1-updating-loop-app-and-iphone-settings" title="Permanent link">&para;</a></h2>
 <p>Remote overrides were in dev branch of Loop beginning October 13, 2019 and in master branch as of December 31, 2019. If you built one of those branches before those dates, you'll need to update your Loop app to be able to access remote overrides.  Be sure to review all the steps for updating your Loop app <a href="https://loopkit.github.io/loopdocs/build/updating/">here</a>.</p>
-<div class="admonition danger">
-<p class="admonition-title">iPhone settings specific for remote overrides</p>
-<p>For remote overrides to successfully deploy on a Looper's iPhone, they will need to have two settings on the iPhone enabled. First, Loop's slider in iPhone Settings, Notifications needs to be turned on.  Without notifications, the person trying to set a remote override will see the message about "no deviceToken" and no remote override will actually enact. Second, the Looper's iphone needs the slide on in iPhone Settings, General, Background App Refresh. If this is not enabled, the remote overrides will not enact if the Loop app is not actively open on the phone's main screen.</p>
-</div>
+<p>!!!danger "iPhone settings specific for remote overrides" For remote overrides to successfully deploy on a Looper's iPhone, they will need to have two settings on the iPhone enabled. First, Loop's slider in iPhone Settings, Notifications needs to be turned on.  Without notifications, the person trying to set a remote override will see the message about "no deviceToken" and no remote override will actually enact. Second, the Looper's iphone needs the slide on in iPhone Settings, General, Background App Refresh. If this is not enabled, the remote overrides will not enact if the Loop app is not actively open on the phone's main screen.</p>
 <h2 id="step-2-apple-push-notifications">Step 2: Apple Push Notifications<a class="headerlink" href="#step-2-apple-push-notifications" title="Permanent link">&para;</a></h2>
 <p>The next part of this will help your Loop app give permissions to your Nightscout site to remotely interact with it.</br></br>
 1. Login to your <a href="https://developer.apple.com/account/">Apple developer account</a> with the Apple ID associated with your developer team that you used to sign your Loop app.</br></br>
-2. Click on "Certificates, Indentifiers &amp; Profiles" and then, on the next page, click on "Keys" (located on the left-hand column). Click on the blue "Create a new key" <strong>OR</strong> the "+" icon to add a new key. </p>
+2. Click on "Certificates, Indentifiers &amp; Profiles" and then, on the next page, click on "Keys" (located on the left-hand column). Click on the blue "Create a new key" <strong>OR</strong> the "+" icon to add a new key.</p>
 <p align="center">
 <img src="https://loopkit.github.io/loopdocs/nightscout/img/apns-add-key.png" width="550">
 </p>
@@ -1760,21 +1757,17 @@
 <p></br></br></p>
 <h2 id="step-3-update-nightscout-site">Step 3: Update Nightscout site<a class="headerlink" href="#step-3-update-nightscout-site" title="Permanent link">&para;</a></h2>
 <p>You'll need to update your Nightscout site to use the latest version of cgm-remote-monitor. It is called Ketchup and the version number is 13.0.1. You can check your version number by looking at the bottom of your NS site's settings, near where the authentication button is located. The easiest way to do to update your Nightscout site is to follow the steps in the video below.</p>
-<div class="admonition danger">
-<p>Use this video for an easy process to update your Nightscout site:
-<p align="center">
-<a href="https://youtu.be/C0edTQhO21g"><strong>Easy Nightscout Update Video</strong></a></p>
-<p>A quick note about the video instructions:
-</p> 
-If you don't see any branches to select to deploy and are missing the deploy button when you get to that step...you need to do one easy step. Select/click the "GitHub" icon from the middle of your Heroku screen. Then enter your GitHub account name to connect to that account. Once connected to your account, enter <code>cgm-remote-monitor</code> as the repo you'd like to use to connect with specifically. That will fix the issue and you'll then see the deploy buttons like in the video.</p>
-</div>
+<p>!!!danger "" Use this video for an easy process to update your Nightscout site: <p align="center"> <a href="https://youtu.be/C0edTQhO21g"><strong>Easy Nightscout Update Video</strong></a></p>
+<pre><code>A quick note about the video instructions:
+&lt;/p&gt; 
+If you don't see any branches to select to deploy and are missing the deploy button when you get to that step...you need to do one easy step. Select/click the "GitHub" icon from the middle of your Heroku screen. Then enter your GitHub account name to connect to that account. Once connected to your account, enter `cgm-remote-monitor` as the repo you'd like to use to connect with specifically. That will fix the issue and you'll then see the deploy buttons like in the video.
+</code></pre>
 <p>Once you have your Nightscout deployment updated to the latest master branch of cgm-remote-monitor, now we need to add a couple new variables.</p>
-<p>Go to the <code>Settings</code> tab near the top of the screen on your Heroku app and then click on <code>Reveal Config Vars</code>.  </p>
+<p>Go to the <code>Settings</code> tab near the top of the screen on your Heroku app and then click on <code>Reveal Config Vars</code>.</p>
 <p align="center">
 <img src="../img/heroku5.png" width="650">
 </p>
-<p></br></br>
-Scroll down the bottom of the Config Vars lines until you find the last blank one.  You are going to add three new rows of config vars for remote overrides as shown below:</p>
+<p></br></br> Scroll down the bottom of the Config Vars lines until you find the last blank one.  You are going to add three new rows of config vars for remote overrides as shown below:</p>
 <p align="center">
 <img src="../img/add_vars.jpg" width="650">
 </p>
@@ -1820,19 +1813,19 @@ Scroll down the bottom of the Config Vars lines until you find the last blank on
 <h2 id="step-4-faqs-on-remote-overrides">Step 4: FAQs on Remote Overrides<a class="headerlink" href="#step-4-faqs-on-remote-overrides" title="Permanent link">&para;</a></h2>
 <p>Don't forget to read Loopdocs pages about how regular overrides work. For remote overrides in particular:</p>
 <ol>
-<li><strong>Can I set different override in Nighscout than I have programmed into Loop app?</strong> Answer: No. You will only be able to enact override presets already programmed into the Loop app.</li>
+<li><strong>Can I schedule a remote override ahead of time using Nightscout?</strong> No. When you set a remote override in Nightscout, it will begin immediately and last for whatever duration is programmed for that override in the Loop app. You can set an override for ahead of time using the Looping App only.</li>
 <li><strong>If I didn't start the override in Nightscout (it was started in Loop itself), can I still use Nightscout to cancel it?</strong> Answer: Yes. You can cancel a Loop-set override with a Nightscout-set cancel "temporary override" command in careportal.</li>
-<li><strong>"Can I override a Loop-set override with a Nightscout-set override?"</strong> Answer: Yes. </li>
-<li><strong>If I have multiple Nightscout sites because I have multiple kiddos with T1D looping, do I need multiple APNs Keys?</strong> Answer: No. If you have multiple kids looping, you can use the one APNs key in each of their Nightscout sites. </li>
+<li><strong>"Can I override a Loop-set override with a Nightscout-set override?"</strong> Answer: Yes.</li>
+<li><strong>If I have multiple Nightscout sites because I have multiple kiddos with T1D looping, do I need multiple APNs Keys?</strong> Answer: No. If you have multiple kids looping, you can use the one APNs key in each of their Nightscout sites. If you have multiple kids looping, you can use the one APNs key in each of their Nightscout sites.</li>
 <li><strong>How can I tell if it worked?</strong> Answer: You should see your override pill in Nightscout, with the NEXT Loop cycle, reflecting that the desired override action took place. If you are near the Loop app, you should see the new override within less than 30 seconds or so.</li>
 <li>
-<p><strong>Can I set see on Nightscout when a temporary override has been set using the looper’s phone?</strong> Yes. There will be a grey bar with the name of the override noted and the Loop Pill will display the targets and duration. Remember, there is a KNOWN issue with the grey bars, so use the pill as your best guide. </p>
+<p><strong>Can I set see on Nightscout when a temporary override has been set using the looper’s phone?</strong> Yes. There will be a grey bar with the name of the override noted and the Loop Pill will display the targets and duration. Remember, there is a KNOWN issue with the grey bars, so use the pill as your best guide.</p>
 </li>
 <li>
-<p><strong>Can a looper cancel a remote override</strong>? Yes. They can tap the heart icon in Loop so that it is no longer highlighted. This turns off the override, regardless of where it was initiated. </p>
+<p><strong>Can a looper cancel a remote override</strong>? Yes. They can tap the heart icon in Loop so that it is no longer highlighted. This turns off the override, regardless of where it was initiated.</p>
 </li>
 <li>
-<p><strong>I set a remote override in Nightscout but the looper tapped the heart symbol in the Loop app, so the override turned off. Will the override get reinstated next time Loop completes with internet access?</strong> No. The APN is only sent once. You can set the remote override again if need be.</p>
+<p><strong>I set a remote override in Nightscout but the looper tapped the heart symbol in the Loop app, so the override turned off. Will the override get reinstated next time Loop completes with internet access?</strong> No. The APN is only sent once. The APN is only sent once. You can set the remote override again if need be.</p>
 </li>
 <li>
 <p><strong>Can I schedule a remote override ahead of time using Nightscout?</strong> No. When you set a remote override in Nightscout, it will begin immediately and last for whatever duration is programmed for that override in the Loop app. You can set an override for ahead of time using the Looping App only.</p>
@@ -1851,16 +1844,14 @@ Scroll down the bottom of the Config Vars lines until you find the last blank on
 <img src="https://loopkit.github.io/loopdocs/nightscout/img/override_notification.jpeg" width="550">
 </p>
 <p></br></br></p>
-<p>Canceling an override through Nightscout careportal is as simple as selecting the event type "Temporary Override Cancel" and submitting. </p>
+<p>Canceling an override through Nightscout careportal is as simple as selecting the event type "Temporary Override Cancel" and submitting.</p>
 <h3 id="shortcuts">Shortcuts<a class="headerlink" href="#shortcuts" title="Permanent link">&para;</a></h3>
-<p>If you want to make your life SUPER AMAZING, check out using the iPhone's Shortcuts app. The Shortcuts app is for making little automations (like mini apps) that can integrate parts of your life. In this case, we've written a couple shortcuts for you that integrate Loop overrides with Nightscout. </p>
+<p>If you want to make your life SUPER AMAZING, check out using the iPhone's Shortcuts app. The Shortcuts app is for making little automations (like mini apps) that can integrate parts of your life. In this case, we've written a couple shortcuts for you that integrate Loop overrides with Nightscout.</p>
 <div class="admonition info">
-<p class="admonition-title">Important note</p>
-<p>Before you click that download below...save some trouble. Download the Shortcuts app if you don't have it yet and choose to run any shortcut from the Gallery. It can be the laundry timer...I don't care, just pick one and run it.  THEN go to download the shortcut of your choice below. The shortcuts that aren't run through the Gallery option are called "untrusted". And you need a slider in your iPhone to trust the "untrusted" shortcuts you would be downloading here. But...in lovely iOS glitch...that slider doesn't appear unless you've run a trusted shortcut first. So, run one now. Then you'll have the slider in iPhone Settings, Shortcuts app to turn "Allow Untrusted Shortcuts" on when you will see a message "This shortcut cannot be opened because your Shortcuts security system settings don't allow untrusted shortcuts."</p>
+<p class="admonition-title">Important note" Before you click that download below...save some trouble. Download the Shortcuts app if you don't have it yet and choose to run any shortcut from the Gallery. It can be the laundry timer...I don't care, just pick one and run it.  THEN go to download the shortcut of your choice below. The shortcuts that aren't run through the Gallery option are called "untrusted". And you need a slider in your iPhone to trust the "untrusted" shortcuts you would be downloading here. But...in lovely iOS glitch...that slider doesn't appear unless you've run a trusted shortcut first. So, run one now. Then you'll have the slider in iPhone Settings, Shortcuts app to turn "Allow Untrusted Shortcuts" on when you will see a message "This shortcut cannot be opened because your Shortcuts security system settings don't allow untrusted shortcuts.</p>
 </div>
 <p>Click these links on your iphone and you'll be prompted to download the premade shortcuts (assuming you open the links in Safari browser in iPhone):</p>
-<p><a href="https://www.icloud.com/shortcuts/b8c0998a61e54b6eba2325fa78b4cf3a">Comprehensive Loop Shortcut</a>
- <em>includes Set Remote Override, Cancel Override, Loop Troubleshooting Tips, Quick Text options, Manual BG entry, Bookmarks to websites, etc.</em></p>
+<p><a href="https://www.icloud.com/shortcuts/b8c0998a61e54b6eba2325fa78b4cf3a">Comprehensive Loop Shortcut</a> <em>includes Set Remote Override, Cancel Override, Loop Troubleshooting Tips, Quick Text options, Manual BG entry, Bookmarks to websites, etc.</em></p>
 <p>And if you want to save one click to get to these one functions more directly: these shortcuts are simplified to offer only one function:</p>
 <p><a href="https://www.icloud.com/shortcuts/d52d7aefb62b47c1b2e71d3724a3b5ab">Set Remote Override only shortcut</a></p>
 <p><a href="https://www.icloud.com/shortcuts/27be8282bce3433b83b4751cd8c43f6e">Cancel Override only shortcut</a></p>
@@ -1868,7 +1859,7 @@ Scroll down the bottom of the Config Vars lines until you find the last blank on
 <ol>
 <li>You will need iOS 13 at a minimum on the phone you'd like to trigger these shortcuts from. Looper's phone can still be lower than iOS 13, but your phone as the shortcut user would need iOS 13.</li>
 <li>You need to open those links in the Safari browser on your iPhone. When you do that click the button to get the shortcut. Then wait a bit, and the shortcut's inner guts will be there...scroll ALL the way down to the bottom to click the button to save the untrusted shortcut.</li>
-<li>When you enter your Nightscout URL in the "URL" field of the Loop shortcut setup, make sure you don't include a trailing "/" or the API calls to Heroku will error out. </li>
+<li>When you enter your Nightscout URL in the "URL" field of the Loop shortcut setup, make sure you don't include a trailing "/" or the API calls to Heroku will error out.</li>
 <li>When a remote override is set properly, you'll see an "ok" message displayed. If there is an error, you'll see an error message. Most errors will be that you have an API secret wrong (make sure there isn't a space at the end of you API Secret that you don't see) or you failed to do the steps to setup NS and update your Loop app as described in steps 1-3 above.</li>
 <li>You can absolutely customize these bits and pieces within the shortcut. Change the text messages, change the links...totally up to you.</li>
 </ol>

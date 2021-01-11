@@ -1758,15 +1758,12 @@
 </p>
 
 <h2 id="order-rileylink">Order RileyLink<a class="headerlink" href="#order-rileylink" title="Permanent link">&para;</a></h2>
-<p>This is an easy step. You need to order a RileyLink from the <a href="https://getrileylink.org">GetRiley website</a>. </p>
-<p>There are two types of RileyLinks; <a href="https://getrileylink.org/product/rileylink433">one for Omnipod</a> users and <a href="https://getrileylink.org/product/rileylink916">one for Medtronic</a> users. Order the RileyLink specifically for the pump you'll be Looping with. </p>
+<p>This is an easy step. You need to order a RileyLink from the <a href="https://getrileylink.org">GetRiley website</a>.</p>
+<p>There are two types of RileyLinks; <a href="https://getrileylink.org/product/rileylink433">one for Omnipod</a> users and <a href="https://getrileylink.org/product/rileylink916">one for Medtronic</a> users. Order the RileyLink specifically for the pump you'll be Looping with.</p>
 <h2 id="assemble-rileylink">Assemble RileyLink<a class="headerlink" href="#assemble-rileylink" title="Permanent link">&para;</a></h2>
 <p>Your RL will come with the battery disconnected and the parts not already inside the case. It will be up to you to put the RL in the case and attach the battery.</p>
 <p>Make sure the lipo battery is well-plugged into the connection. Line up the little ridge appropriately, and push fairly firmly to get the connection tight.  Poor battery cable connection can make the Loop communications fail.  See photos below, for example.</p>
-<div class="admonition info">
-<p class="admonition-title">Common new user errors</p>
-<p>The most common two errors for new RL owners are (1) not fully pushing in the lipo battery cable connection and (2) failing to charge the RL. Compare your lipo battery cable with the photos; it takes a bit of oomph to push that plug fully in like the photos shown below. Remember to charge your RL each night.</p>
-</div>
+<p>!!!info "Common new user errors" The most common two errors for new RL owners are (1) not fully pushing in the lipo battery cable connection and (2) failing to charge the RL. Compare your lipo battery cable with the photos; it takes a bit of oomph to push that plug fully in like the photos shown below. Remember to charge your RL each night.</p>
 <p><figure align="center">
 <img src="../img/battery-cables.jpg" width="400">
 <figcaption>Loose battery cable on left, Proper battery cable on right</figcaption>
@@ -1780,11 +1777,8 @@
 <p>When your RL and pump are first paired, Loop performs a series of tests that you won't see...they are tuning tests. Basically, RL sends little test messages to the pump and waits for a response. The RL tries this same "ping" to the pump a range of various radio frequencies. The range of radio frequencies it tries is based on the pump you've told RL to expect (Omnipod, Medtronic NA/CA, or Medtronic WW).  RL will then record the radio frequencies that provided the strongest response and use that frequency for future pump communications.</p>
 <p>Usually this best frequency is pretty constant for any given pump+RL, but during temperature changes it may be that the best frequency is not the one currently set. In the event that RL has problems communicating with the pump, Loop has code built-in that will automatically tell the RL "Hey, try that tuning pump thing again...maybe there's a better frequency we need to try." This retuning is started automatically if pump communications fail for 14 minutes (in other words, two looping cycles).</p>
 <h3 id="bluetooth-communications">Bluetooth communications<a class="headerlink" href="#bluetooth-communications" title="Permanent link">&para;</a></h3>
-<p>RL communicates with your iPhone and Loop app through Bluetooth (BT).  </p>
-<div class="admonition info bluetooth troubleshooting">
-<p class="admonition-title">Info</p>
-</div>
-<p>If your iPhone has BT issues, your Loop will have failures.  There have been reports of BT audio devices (such as BT pairings in your car or home audio BT speakers) interfering with the Loop.  If you are finding Loop failures frequently happening at a particular location, you may try to troubleshoot if there are BT problems in the area.</p>
+<p>RL communicates with your iPhone and Loop app through Bluetooth (BT).</p>
+<p>!!!info Bluetooth Troubleshooting If your iPhone has BT issues, your Loop will have failures.  There have been reports of BT audio devices (such as BT pairings in your car or home audio BT speakers) interfering with the Loop.  If you are finding Loop failures frequently happening at a particular location, you may try to troubleshoot if there are BT problems in the area.</p>
 <p>Your BT signal strength can be seen in the Loop settings, under the RL menu, on the <code>Signal Strength</code> line. As you move closer and further away from your phone, you can watch that number dynamically change. This line is <strong>not</strong> displaying the signal strength of your pump communications discussed above.</p>
 <p align="center">
 <img src="../img/RL_bt.jpg" width="400">
@@ -1817,7 +1811,7 @@
 <p>The battery that comes with RL is not likely charged completely when it is shipped, so feel free to charge it up.  You'll need a <a href="https://www.amazon.com/AmazonBasics-USB-2-0-Cable--Male/dp/B00NH13S44">mini-USB cable</a> and <a href="https://www.amazon.com/Cellet-Powered-Charger-iPhones-Smartphones-/dp/B00FE8WFCO">0.5A USB charging power supply</a> like your iPhone power supply.  RL takes about 2 hours to fully charge (the red light will turn off when fully charged, read note above about red light patterns) and should easily last at least a full day of constant Loop use.  Typically, it can go into the 30-hour range without any problems.  Most people charge their RL each night when they are sleeping.  You don't have to worry about leaving the RL plugged in "too long" for charging.  It will automatically stop charging the battery when it is fully charged.</p>
 <p>Since the best practice is to charge your RL overnight while you sleep, and the battery lasts safely over 24 hours, there is no battery level indicator for the RL.  The RL's charge level is not viewable on Nightscout, nor within the Loop app.  If you forget to charge your RL overnight, you can recharge it with a portable USB battery in a pinch.  A <a href="https://www.adafruit.com/product/899">short mini-USB cable</a> could be a good addition to a small gear bag.</p>
 <h3 id="range">Range<a class="headerlink" href="#range" title="Permanent link">&para;</a></h3>
-<p>The range that your RL will function is <strong>heavily</strong> dependent on the environment that you are in. Most people wear the RL in a pocket or carry a belt holster during the day. The radio frequency communications will have a shorter range than the BT communications, therefore RL will do better closer to the pump rather than the iPhone if you are deciding on options for carrying gear. </p>
+<p>The range that your RL will function is <strong>heavily</strong> dependent on the environment that you are in. Most people wear the RL in a pocket or carry a belt holster during the day. The radio frequency communications will have a shorter range than the BT communications, therefore RL will do better closer to the pump rather than the iPhone if you are deciding on options for carrying gear.</p>
 <p>Problematic environments will be places like technical conferences, sports arenas, and other places where wireless communications are heavy and plenty.</p>
 <h3 id="lipo-battery">Lipo Battery<a class="headerlink" href="#lipo-battery" title="Permanent link">&para;</a></h3>
 <p>Keep your RL and lipo battery protected from damage.  Lipo batteries are unsafe when damaged or punctured, so the case is an important part of safe Looping. If your battery is damaged in some way, please disconnect it immediately, and dispose of it (they should be recycled). You can order new batteries on the <a href="http://getrileylink.org/">GetRileyLink website</a></p>
