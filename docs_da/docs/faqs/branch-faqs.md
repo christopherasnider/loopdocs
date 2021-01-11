@@ -28,7 +28,7 @@ Efter mange test og justeringer, får opskrifterne i sidste ende den rette smag 
 
 Omnipod Loop udviklings test (vi taler ikke om det faktiske hacking arbejde, der gik forud for) blev udført af en mindre gruppe af personer i måneder og måneder før offentlig frigivelse af omnipod-test branch. Denne mindre gruppe af personer (flere dusin) var hele tiden opmærksom på deres Omnipod Loops og samlede fejlrapporter sammen. Det var en masse arbejde der blev udført af testere og Pete Schwamb (Loop Developer) for at få koden temmelig stabil og pålidelig.
 
-Da koden kom til en stabil, pålidelig tilstand og var klar til et større publikum, blev omnipod-test branch stillet til rådighed som en "offentlig test" branch. Denne branch var temmelig godt testet før den blev offentlig udgivet, men den ville ikke nødvendigvis vil den være perfekt for alle lige med det samme. There were expectations that some user-interface requests might be asked for after having a wider audience of users.
+Da koden kom til en stabil, pålidelig tilstand og var klar til et større publikum, blev omnipod-test branch stillet til rådighed som en "offentlig test" branch. Denne branch var temmelig godt testet før den blev offentlig udgivet, men den ville ikke nødvendigvis være perfekt for alle lige med det samme. There were expectations that some user-interface requests might be asked for after having a wider audience of users.
 
 Also, omnipod-testing branch was not going to undergo a lot of active revisions to it when it was released. The intent was to keep it as a fairly known, unchanged product for people rather than a constantly changing code set...that way if people noted a bug, it would be a more "known" code base to work to debug.
 
