@@ -1,0 +1,1890 @@
+
+<!doctype html>
+<html lang="da" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
+    
+    
+      
+        <title>MDT-pumpefejl - Loop dokumentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.15aa0b43.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.75751829.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#medtronic-pump-errors" class="md-skip">
+          Gå til indholdet
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Mitigate bug: https://github.com/mkdocs/mkdocs/issues/2191 -->
+
+
+
+<!-- Application header -->
+<header class="md-header" data-md-component="header">
+
+  <!-- Top-level navigation -->
+  <nav class="md-header-nav md-grid" aria-label="Header">
+
+    <!-- Link to home -->
+    <a
+      href="../.."
+      title="Loop dokumentation"
+      class="md-header-nav__button md-logo"
+      aria-label="Loop dokumentation"
+    >
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+
+    <!-- Button to open drawer -->
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+
+    <!-- Header title -->
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            Loop dokumentation
+            &nbsp;&nbsp;&nbsp;
+            <a href="../"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0z" fill="none"/><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg> da  </a>
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              MDT-pumpefejl
+            
+          </span>
+        </div>
+      </div>
+
+    </div>
+    
+
+
+    <!-- Button to open search dialogue -->
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+
+      <!-- Search interface -->
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Søg" placeholder="Søg" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+   
+    <!-- Repository information -->
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Hjem
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../faqs/docs-faqs/" class="md-tabs__link">
+        FAQs
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../build/overview/" class="md-tabs__link">
+        Byg app
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../operation/overview/" class="md-tabs__link">
+        Opsætning af app
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../operation/features/carbs/" class="md-tabs__link md-tabs__link--active">
+        Brugervejledning
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../nightscout/overview/" class="md-tabs__link">
+        Nightscout
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Loop dokumentation" class="md-nav__button md-logo" aria-label="Loop dokumentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Loop dokumentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Hjem
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+    
+    <label class="md-nav__link" for="nav-2">
+      FAQs
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="FAQs" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        FAQs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/docs-faqs/" class="md-nav__link">
+      Hvad er FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/FAQs/" class="md-nav__link">
+      Generelt Loop FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/omnipod-faqs/" class="md-nav__link">
+      Omnipod FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/branch-faqs/" class="md-nav__link">
+      Branch FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/update-faqs/" class="md-nav__link">
+      Opdatere Loop FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/ios13/" class="md-nav__link">
+      iOS 13 FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/rileylink-faqs/" class="md-nav__link">
+      RileyLink FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/algorithm-faqs/" class="md-nav__link">
+      Algorithm FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/cgm-faqs/" class="md-nav__link">
+      Sensor FAQs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../faqs/safety-faqs/" class="md-nav__link">
+      Sikkerhed
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    
+    <label class="md-nav__link" for="nav-3">
+      Byg app
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Byg app" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Byg app
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/overview/" class="md-nav__link">
+      Overblik
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step1/" class="md-nav__link">
+      Trin 1 Kompatibel computer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step2/" class="md-nav__link">
+      Trin 2 Kompatibel iPhone/iPod touch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step3/" class="md-nav__link">
+      Trin 3 Kompatibel pumpe
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step4/" class="md-nav__link">
+      Trin 4 Kompatibel CGM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step5/" class="md-nav__link">
+      Trin 5 Bestil en RileyLink
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step6/" class="md-nav__link">
+      Trin 6 Tilmeld dig Apple Developer Program
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step7/" class="md-nav__link">
+      Trin 7 Installer Homebrew
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step8/" class="md-nav__link">
+      Trin 8 Download Xcode
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step9/" class="md-nav__link">
+      Trin 9 Xcode-præferencer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step10/" class="md-nav__link">
+      Trin 10 Test indstillinger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step11/" class="md-nav__link">
+      Trin 11 Lav planer for Loop Data
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step12/" class="md-nav__link">
+      Trin 12 Mød fællesskabet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step13/" class="md-nav__link">
+      Trin 13 Download Loopkode
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/step14/" class="md-nav__link">
+      Trin 14 Build Loop-app
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/build_errors/" class="md-nav__link">
+      Åh gud! Byg fejl ?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/code_customization/" class="md-nav__link">
+      Tilpas din Loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/updating/" class="md-nav__link">
+      Opdatering af din Loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/loopworkspace/" class="md-nav__link">
+      LoopWorkspace
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    
+    <label class="md-nav__link" for="nav-4">
+      Opsætning af app
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Opsætning af app" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Opsætning af app
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/overview/" class="md-nav__link">
+      Oversigt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../build/health/" class="md-nav__link">
+      Trin 1 Sundhedstilladelser
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3" >
+    
+    <label class="md-nav__link" for="nav-4-3">
+      Trin 2 Tilføj pumpe
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Trin 2 Tilføj pumpe" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        <span class="md-nav__icon md-icon"></span>
+        Trin 2 Tilføj pumpe
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/mdt-pump/" class="md-nav__link">
+      Tilføj Medtronic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/omnipod-pump/" class="md-nav__link">
+      Tilføj Omnipod
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/cgm/" class="md-nav__link">
+      Trin 3 Tilføj CGM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/configurations/" class="md-nav__link">
+      Trin 4 Konfigurationer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/services/" class="md-nav__link">
+      Trin 5 Loop Services
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/displays/" class="md-nav__link">
+      Loop Display
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop-settings/rileylink/" class="md-nav__link">
+      RileyLink-menu
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  
+
+
+  
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Brugervejledning
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Brugervejledning" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Brugervejledning
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1" >
+    
+    <label class="md-nav__link" for="nav-5-1">
+      Sådan bruges Loop App
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Sådan bruges Loop App" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-1">
+        <span class="md-nav__icon md-icon"></span>
+        Sådan bruges Loop App
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/carbs/" class="md-nav__link">
+      Carb-indgange
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/bolus/" class="md-nav__link">
+      Bolus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/workout/" class="md-nav__link">
+      Overrides
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/premeal/" class="md-nav__link">
+      Før-måltid
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/healthapp/" class="md-nav__link">
+      Sundhedsapp
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/ice/" class="md-nav__link">
+      Brug af ICE-info
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/watch/" class="md-nav__link">
+      Apple Watch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/widget/" class="md-nav__link">
+      iPhone-widget
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/notifications/" class="md-nav__link">
+      Loop Notifications
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/features/battery/" class="md-nav__link">
+      Pumpebatteri
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2" >
+    
+    <label class="md-nav__link" for="nav-5-2">
+      Looping Tips
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Looping Tips" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        <span class="md-nav__icon md-icon"></span>
+        Looping Tips
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop/open-loop/" class="md-nav__link">
+      Åben loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop/close-loop/" class="md-nav__link">
+      Lukket loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/loop/looptips/" class="md-nav__link">
+      Loop Tips
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-3" type="checkbox" id="nav-5-3" >
+    
+    <label class="md-nav__link" for="nav-5-3">
+      Algoritme
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Algoritme" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-3">
+        <span class="md-nav__icon md-icon"></span>
+        Algoritme
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/algorithm/overview/" class="md-nav__link">
+      Oversigt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/algorithm/bolus/" class="md-nav__link">
+      Bolusanbefalinger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/algorithm/prediction/" class="md-nav__link">
+      Glucose Prediction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../operation/algorithm/temp-basal/" class="md-nav__link">
+      Temp Basal Adjustments
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  
+
+
+  
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-4" type="checkbox" id="nav-5-4" checked>
+    
+    <label class="md-nav__link" for="nav-5-4">
+      Fejlfinding
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Fejlfinding" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-4">
+        <span class="md-nav__icon md-icon"></span>
+        Fejlfinding
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../overview/" class="md-nav__link">
+      Oversigt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../loop-crashing/" class="md-nav__link">
+      Loop App går ned
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../yellow-red-loop/" class="md-nav__link">
+      Red Loop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../pod-pairing/" class="md-nav__link">
+      Pod-parringsfejl
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../uncertain-bolus/" class="md-nav__link">
+      Pod usikre boluser
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../priming/" class="md-nav__link">
+      MDT Priming og Sites
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../time-change/" class="md-nav__link">
+      Tidsændringer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        MDT-pumpefejl
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      MDT-pumpefejl
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Indholdsfortegnelse">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indholdsfortegnelse
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a21-error" class="md-nav__link">
+    A21 error
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#batt-out-limit" class="md-nav__link">
+    Batt Out Limit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#button-error" class="md-nav__link">
+    Button Error
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crackmissing-piece-repairs" class="md-nav__link">
+    Crack/Missing Piece Repairs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motor-error" class="md-nav__link">
+    Motor error
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a33-error" class="md-nav__link">
+    A33 error
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a32-and-e22-error-loop" class="md-nav__link">
+    A32 and E22 error loop
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../omnipod-faults/" class="md-nav__link">
+      Omnipod-fejl
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+    
+    <label class="md-nav__link" for="nav-6">
+      Nightscout
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Nightscout" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Nightscout
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/overview/" class="md-nav__link">
+      Oversigt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/new_user/" class="md-nav__link">
+      Helt ny NS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/update_user/" class="md-nav__link">
+      Eftermontering Eksisterende NS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/troublehoot/" class="md-nav__link">
+      Fejlfinding ved opsætning
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/remote-overrides/" class="md-nav__link">
+      Fjernstyring
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/ifttt/" class="md-nav__link">
+      IFTTT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/pebble/" class="md-nav__link">
+      Pebble
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/pushover/" class="md-nav__link">
+      Fjernunderretninger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../nightscout/reports/" class="md-nav__link">
+      Rapporter
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="medtronic-pump-errors">Medtronic Pump Errors<a class="headerlink" href="#medtronic-pump-errors" title="Permanent link">&para;</a></h1>
+<p>The Medtronic pumps are used and typically not under warranty.  Use this section at your own risk.  However, that said, some of the most common pump errors are repairable, or not actually a real problem.</p>
+<h2 id="a21-error">A21 error<a class="headerlink" href="#a21-error" title="Permanent link">&para;</a></h2>
+<p>This error message is common when a pump has been stored for a period of time without a battery.  Most pumps will show an A21 error when you first purchase them on the used market.  Not a big deal.  Press the down arrow (also has the symbol of a light bulb on it) and the pump screen message will scroll down to let you know how to clear that error message (press ESC then ACT).  If the message is coming up on a pump that hasn't been in storage, pull the battery out and replace with a fresh, new battery.  Chances are your battery or battery cap are old.  Look for signs of dirt or rust in the battery cap, give it a little cleaning.</p>
+<p>!!!info "Display Tip" When the pump screen has a little black/white bar on the right side, that is a scroll bar.  Use the arrow keys on the right of the pump screen to scroll and see the additional information.</p>
+<p align="center">
+<img src="../img/A21.jpg" width="400">
+</p>
+
+<h2 id="batt-out-limit">Batt Out Limit<a class="headerlink" href="#batt-out-limit" title="Permanent link">&para;</a></h2>
+<p>This error message "battery out of limits" has to do with the internal pump battery, not the AAA battery you replace.  The internal battery cannot be replaced, and unfortunately also has a finite lifespan.  The error message is more of an annoyance than a true problem.  You can try to change the AAA battery faster.  But, the worst-case scenario is that you'll have to re-enter the time and date when you get this message more often.  (Don't forget to use RileyLink to set the time after you get this message.)</p>
+<p align="center">
+<img src="../img/batt-out.jpg" width="400">
+</p>
+
+<h2 id="button-error">Button Error<a class="headerlink" href="#button-error" title="Permanent link">&para;</a></h2>
+<p>The Button Error message usually happens from water, moisture, or dust getting under the pump's button pad and causing button(s) to fail.  The fix luckily is quite straight-forward and takes less than 30 minutes.  Check out the fix <a href="" title="troubleshooting/time-change.md">here for a YouTube video</a> or <a href="https://imgur.com/a/iOXAP">here for photo gallery</a></p>
+<p align="center">
+<img src="../img/button-error.jpg" width="400">
+</p>
+
+<p>The solution involves simply prying up the button pad's sticker face to expose the layers beneath.</p>
+<p align="center">
+<img src="../img/button-fix.jpg" width="400">
+</p>
+
+<p>You can see some evidence of crud/rust on the underside of this button pad which caused the button error.</p>
+<p align="center">
+<img src="../img/dirty-button.jpg" width="400">
+</p>
+
+<p>After you finish your fix, another excellent idea is to make sure you add a length of clear packing tape across the front face of the pump to prevent errant water or dirt from having easy access to the button pad seams.</p>
+<p align="center">
+<img src="../img/taped-pump.jpg" width="400">
+</p>
+
+<h2 id="crackmissing-piece-repairs">Crack/Missing Piece Repairs<a class="headerlink" href="#crackmissing-piece-repairs" title="Permanent link">&para;</a></h2>
+<p>Another common issue on these Medtronic pumps are cracks and/or missing bits of plastic near the battery cap or reservoir sleeve. You can repair these fairly easily. For filling small cracks, <a href="https://www.amazon.com/Cement-Glue-Value-Testors-tubes/dp/B0013D53CS/ref=sr_1_2?s=toys-and-games&amp;ie=UTF8&amp;qid=1550883077&amp;sr=1-2&amp;keywords=testors+plastic+cement">Testor's plastic cement</a> or <a href="https://www.amazon.com/Gorilla-Epoxy-Minute-ounce-Syringe/dp/B001Z3C3AG/ref=sr_1_1_sspa?ie=UTF8&amp;qid=1550883118&amp;sr=8-1-spons&amp;keywords=gorilla+epoxy&amp;psc=1">Gorilla epoxy</a> are good choices.</p>
+<p>For more extensive repairs to replace missing chunks of plastic, <a href="https://www.amazon.com/Gorilla-Epoxy-Minute-ounce-Syringe/dp/B001Z3C3AG/ref=sr_1_1_sspa?ie=UTF8&amp;qid=1550883118&amp;sr=8-1-spons&amp;keywords=gorilla+epoxy&amp;psc=1">Gorilla epoxy</a> or <a href="https://www.amazon.com/Sugru-Mouldable-Glue-Original-Formula/dp/B01BFE0KNQ/ref=sr_1_4?ie=UTF8&amp;qid=1550883178&amp;sr=8-4&amp;keywords=sugru">Sugru</a> are excellent choices.</p>
+<p>You can use <a href="https://www.amazon.com/LASCO-11-1033-Sealant-2-Inch-100-Inch/dp/B00ITPHXZI/ref=sr_1_17?ie=UTF8&amp;qid=1550883881&amp;sr=8-17&amp;keywords=teflon+thread+tape">teflon thread tape</a> on the battery cap to make sure the epoxy or Sugru don't stick to the battery cap, but still recreate the threads.  The first photos are of a Sugru repair and second set of photos are Gorilla epoxy repair.</p>
+<p align="center">
+<img src="../img/after-sugru.jpg" width="750">
+</p>
+
+<p align="center">
+<img src="../img/epoxy-1.jpg" width="750">
+</p>
+
+<h2 id="motor-error">Motor error<a class="headerlink" href="#motor-error" title="Permanent link">&para;</a></h2>
+<p>Often a motor error is the result of a poorly seated reservoir or tubing cap.  If you get a motor error, the first thing you should do is detach from your infusion site.  Remove and reseat the reservoir, prime again, and see if the motor error resolves.  If it does not, try replacing the tubing cap on the reservoir (new tubing).  If that does not resolve the motor error, also replace the entire reservoir.</p>
+<p align="center">
+<img src="../img/motor-error.jpg" width="400">
+</p>
+
+<h2 id="a33-error">A33 error<a class="headerlink" href="#a33-error" title="Permanent link">&para;</a></h2>
+<p>!!!warning "Safety warning" If you get this error, DO NOT push on the bulged out end cap.  Always detach your tubing from your infusion set before addressing this error message.  If you push on the end cap in an attempt to get it back flush, you may delivery a dangerous amount of insulin mistakenly.</p>
+<p>This error is a bit more involved to repair.  The problem is that there is a loose drive support cap.  Most of the time this error message will appear during a priming event as the end cap of the drive will slip, releasing the ability of the reservoir plunger to get pressure to delivery insulin.  The pump senses the lack of pressure and delivers the A33 error.</p>
+<p align="center">
+<img src="../img/A33-2.jpg" width="400">
+</p>
+
+<p align="center">
+<img src="../img/A33.jpg" width="400">
+</p>
+
+<p>The solution is to UNHOOK from your site.  See warning above.  Remove reservoir and put your finger inside the reservoir sleeve.  Push on the drive so that the end cap is pushed out the most possible.  This will give your the most surface area possible to place the super glue GEL that you will use.  (don't use regular super glue...it must be gel.)  Remove the sticker that covers the end cap, save it for later because you can reattach when repair is completed.</p>
+<p>With the end cap pushed out, take some glue gel with the toothpick and apply it on the outside of the popped out cap . Be generous cause you can do this only once . Once you are done take a napkin and press hard the cap toward the pump so it can go back inside and keep it pressed for a few seconds. Then remove all the small parts of the napkin that has glued to the pump. Leave the pump to dry for about 10-15 minutes.</p>
+<p align="center">
+<img src="../img/A33-4.jpg" width="400">
+</p>
+
+<p>Now to test whether the pumps was glued well. You have already waited about 10-15 minutes so put your finger back in and press hard the plunger.  If you glued it well, the end cap will not move.  If the cap goes out again, you have to glue one more time. If all looks well, put some glue back on top of the pump cap and reattach the sticker that was removed to start.</p>
+<h2 id="a32-and-e22-error-loop">A32 and E22 error loop<a class="headerlink" href="#a32-and-e22-error-loop" title="Permanent link">&para;</a></h2>
+<p>From what we know, this set of error codes seems like a pump killer.  A call to Medtronic support gave this less than hopeful information:</p>
+<p>A32 - failure of flash memory E22 - software re-installation is necessary</p>
+<p>We don't have any reports of a good fix for these error codes.  When seen, usually the E22 error comes up and as soon as it is cleared, the A32 error comes up.  And the loop continues with a pump restart.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+  <script src="https://utteranc.es/client.js"
+  repo="cfaagaard/MultiLangTest"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script>
+  <!-- Link to previous and/or next page -->
+  
+    <div class="md-footer-nav">
+      <nav
+        class="md-footer-nav__inner md-grid"
+        aria-label="Footer"
+      >
+
+        <!-- Link to previous page -->
+        
+          <a
+            href="../time-change/"
+            class="md-footer-nav__link md-footer-nav__link--prev"
+            rel="prev"
+          >
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Forrige
+                </span>
+                Tidsændringer
+              </div>
+            </div>
+          </a>
+        
+
+        <!-- Link to next page -->
+        
+          <a
+            href="../omnipod-faults/"
+            class="md-footer-nav__link md-footer-nav__link--next"
+            rel="next"
+          >
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Næste
+                </span>
+                Omnipod-fejl
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+
+      <!-- Copyright and theme information -->
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a
+          href="https://squidfunk.github.io/mkdocs-material/"
+          target="_blank" rel="noopener"
+        >
+          Material for MkDocs
+        </a>
+      </div>
+
+      <!-- Social links -->
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Kopi\u00e9r til udklipsholderen", "clipboard.copied": "Kopieret til udklipsholderen", "search.config.lang": "da", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "S\u00f8g", "search.result.placeholder": "Indtast s\u00f8geord", "search.result.none": "Ingen resultater fundet", "search.result.one": "1 resultat", "search.result.other": "# resultater", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['navigation.tabs', 'toc.integrate'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
