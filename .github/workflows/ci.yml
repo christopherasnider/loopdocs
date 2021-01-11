@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
 # Controls when the action will run. 
@@ -12,14 +10,19 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - name: Copycat Action
+        # You may pin to the exact commit or the version.
+        # uses: andstor/copycat-action@10a8fce94cc066110cb394d6f06814b7f5f06a34
+        uses: andstor/copycat-action@v3.2.3
         with:
-          python-version: 3.x
-      - run: pip install mkdocs-material
-      - run: mkdocs build --config-file docs_da/mkdocs.yml
-
-      - uses: JamesIves/github-pages-deploy-action@3.7.1
-        with:
-          BRANCH: gh-pages_da
-          FOLDER: docs_da/site
+          src_path: docs
+          # The destination path to copy the file(s) or folder(s) to
+          dst_path: docs_da_test
+          # The name of the owner of the repository to push to
+          dst_owner: loopdocs
+          # The name of the repository to push to
+          dst_repo_name: loopdocs.da
+          # The branch name of the source repository
+          src_branch: master-da
+          # The branch name of the destination repository
+          dst_branch: master-da
