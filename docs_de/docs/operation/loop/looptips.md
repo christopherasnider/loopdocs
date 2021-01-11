@@ -1,6 +1,6 @@
 # Loop Tips
 
-These docs are a great resource for the technical aspects of building your Loop app.  However, they don't really cover in detail a lot of the frequently asked questions about *USING* Loop. 
+These docs are a great resource for the technical aspects of building your Loop app.  However, they don't really cover in detail a lot of the frequently asked questions about *USING* Loop.
 
 Things such as:
 
@@ -11,7 +11,7 @@ Things such as:
 * What about pizza boluses?</br></br>
 * What do I do when I shower or swim?</br></br>
 
-All of those usability questions and more are addressed over in the companion site called [Looptips](https://looptips.org).  
+All of those usability questions and more are addressed over in the companion site called [Looptips](https://looptips.org).
 
 Please head over to Looptips in order to read some really helpful tips to make your Looping easier.
 

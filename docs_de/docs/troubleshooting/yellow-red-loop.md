@@ -9,23 +9,22 @@ Quick side note: Do not quickly decide to pull an omnipod that isn't responding 
 
 ## Option 1: Easy Steps
 
-!!!danger ""
-    You don't care what the heck is causing the issue, you just want to get on with life as quickly as possible? Ok, fair enough, then do the following:
+!!!danger "" You don't care what the heck is causing the issue, you just want to get on with life as quickly as possible? Ok, fair enough, then do the following:
 
     * Turn your RileyLink off/on at its physical power switch located on the side of the RileyLink. Use a small pointy object to carefully move the slider away from the charging port and then back up towards the charging port. A paperclip on the keyring can provide the help you need to reach the switch in the recessed case, and double as a [screaming pod silencer tool](https://loopkit.github.io/loopdocs/faqs/omnipod-faqs/#what-do-you-do-to-stop-a-screaming-pod).
     * Close your Loop app (upswiping it in the iPhone's app selector) and reopen it.
-    
-    <p align="center">
-    <img src="../img/riley-switch.png" width="450">
-    </p></br>
+      
+      <p align="center">
+        <img src="../img/riley-switch.png" width="450" />
+      </p>
+    </br>
 
     That's pretty much all you need to do for option 1 to restore a green Loop within 5 minutes, 99% of the time. You can confirm things are back to working order by seeing a green loop again and/or issuing a "test command" or "button press" successfully through the RileyLink menu.
-    
+
 
 ## Option 2: Look for Cause
 
-!!!info ""
-    So if Option 1 didn't work to fix your problem...next you'll need to look a little deeper. There can be a variety of causes for why Option 1 did not work to restore your Loop's function, so you'll need to sort out the root cause. There are a few basic categories:
+!!!info "" So if Option 1 didn't work to fix your problem...next you'll need to look a little deeper. There can be a variety of causes for why Option 1 did not work to restore your Loop's function, so you'll need to sort out the root cause. There are a few basic categories:
 
     1. RileyLink is broken
     2. CGM values are not being collected by Loop
@@ -73,7 +72,7 @@ Here's some things to check if you have frequent red loops:
 
 * Have you [cleaned your mLab database in Nightscout](https://loopkit.github.io/loopdocs/nightscout/mlab_cleanup/) recently? If your database gets backlogged (or Nightscout otherwise isn't working properly), Loop can get clogged up with a bunch of unfinished Nightscout uploads. This clogged condition can cause red loops. So, make sure you are periodically checking your mLab and cleaning it. Try deleting your Nightscout account from Loop settings and see if your Loop stops having red loops. If it does, then you'll need to assess what's going wrong in your Nightscout site and fix it. Most of the time that is your mLab database cleanup needing to be done.
 
-* Is your [RileyLink battery plugged in all the way](https://loopkit.github.io/loopdocs/build/step5/#assemble-rileylink) on the board? 
+* Is your [RileyLink battery plugged in all the way](https://loopkit.github.io/loopdocs/build/step5/#assemble-rileylink) on the board?
 
 * Has your RL been fully charged? Try charging your RL for an hour or two, make sure the red light comes on while charging. Try a new charger.
 
@@ -83,8 +82,8 @@ Here's some things to check if you have frequent red loops:
 
 # Posting for Help
 
-Before you post on Looped group for help with a red loop, please make sure you've tried Option 1 and have restarted your RileyLink and Loop app. 
+Before you post on Looped group for help with a red loop, please make sure you've tried Option 1 and have restarted your RileyLink and Loop app.
 
-Before you post for help, please also check your mLab and Nightscout status. This step is often overlooked and yet solves a lot of problems. 
+Before you post for help, please also check your mLab and Nightscout status. This step is often overlooked and yet solves a lot of problems.
 
 When posting for help, include two screenshots of Loop's main screen; one with the red loop's error message and the other just the plain Loop main screen. Include a detailed description of what you have tried doing from the troubleshooting list above. For example, state if you've double checked the transmitter ID, deleted the Share account info from Loop settings, and updated your Loop app since July 19, 2019 so that we can rule out some of the causes of CGM issues.

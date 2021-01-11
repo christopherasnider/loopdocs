@@ -1,24 +1,22 @@
 # Velkommen til Loop
 
-
-
 <img src="img/phones.png" width="300" alt="iPhone Screenshot" />
 <img src="img/watch.png" alt="Apple Watch Screenshots" />
 
 ## Introduktion
 
-[Loop](https://github.com/LoopKit/Loop) er en app-skabelon til opbygning af et automatiseret insulinleveringssystem.
+[Loop](https://github.com/LoopKit/Loop) er en app-skabelon til opbygning af et automatiseret insulinleveringssystem. It is a stone resting on the boulders of work done by many others.
 
-Den app er bygget oven på [LoopKit](https://github.com/LoopKit/LoopKit). LoopKit er et sæt af rammer, der leverer datalagring, hentning og beregning samt standardvisninger, der bruges i Loop.
+The app is built on top of [LoopKit](https://github.com/LoopKit/LoopKit). LoopKit is a set of frameworks that provide data storage, retrieval, and calculation, as well as boilerplate view controllers used in Loop.
 
-!!!warning "Important"
+!!!warning "Vigtigt"
 
     Forstå venligst, at dette projekt:
-Translationtest: added new sentence. (This one). Changed "not" to NOTNOT below. Deleted a sentence below.
 
-    - Is NOTNOT approved for therapy
+    - Er meget eksperimentel
+    - Er ikke godkendt til behandling
 
-      **You take full responsibility for building and running this system and do so at your own risk.**
+      **Du tager det fulde ansvar for at bygge og køre dette system og gør det på egen risiko.**
 
 Using the open-source Loop app template, you can build an insulin delivery system that uses specific commercial and open-source hardware and software technologies to bring together the insulin pump, continuous glucose monitor (CGM), and insulin dosing algorithm to create a continuous insulin basal dosing “Loop”.  This Loop predicts future glucose based on basal-rate schedules, carbohydrate intake, insulin on board, and current CGM readings.  These glucose forecasts provide Loop with the information needed to recommend a temporary basal rate to attain a targeted glucose range in the future.  The system can either operate as an “open-loop” by making recommendations to the user for their approval before enacting or as a “closed-loop” by automatically setting the recommended temporary basal rate.
 

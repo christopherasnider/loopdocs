@@ -20,7 +20,7 @@ Lithium batteries have a much steadier voltage output over time, as shown below.
 <img src="../img/lithium.jpg" width="250">
 </p>
 
-What does the above information mean in terms of Looping?  A lithium battery at 1.3v is going to have a much quicker time to death than an alkaline battery sitting at 1.3v.  You might only get a couple of hours of looping left when a lithium battery is at 1.3v, but an alkaline battery at 1.3v might go for several more days.  So when we talk about setting alarm levels in either system, your battery type is an important consideration.
+What does the above information mean in terms of Looping?  A lithium battery at 1.3v is going to have a much quicker time to death than an alkaline battery sitting at 1.3v.  You might only get a couple of hours of looping left when a lithium battery is at 1.3v, but an alkaline battery at 1.3v might go for several more days.  You might only get a couple of hours of looping left when a lithium battery is at 1.3v, but an alkaline battery at 1.3v might go for several more days.  So when we talk about setting alarm levels in either system, your battery type is an important consideration.
 
 ## Medtronic Pump Battery Level Indicator
 
@@ -42,8 +42,7 @@ In summary, that little pump battery indicator on the Medtronic pump screen is O
 * using Energizer alkaline batteries, and
 * in the temperature environment similar to their testing.
 
-!!!info ""
-    Loop users should not rely on their Medtronic pump screen's pump battery indicator, and instead use the Loop's pump battery level indicator.
+!!!info "" Loop users should not rely on their Medtronic pump screen's pump battery indicator, and instead use the Loop's pump battery level indicator.
 
 
 ## Loop's Pump Battery Level Indicator
@@ -75,15 +74,14 @@ The Nightscout alarms are based on the Heroku settings that you have input speci
 
 Nightscout pump battery levels, if you leave things at default installation, will not trigger alarms.  If however you add a setting of `PUMP_ENABLE_ALERTS` to `true`, you will receive pump battery notifications according to the levels shown in the parenthesis above.  For example, your x23 pump is reporting its levels in percent, therefore you'd receive a yellow warning alarm at 30% and an urgent red alarm at 20%.  Your x22 pump however is reporting its levels at voltage readings, therefore you'd receive a warning yellow alarm at 1.35v and an urgent red alarm at 1.30v.
 
-!!!info ""
-    Are the default NS alarm levels going to work for you?  The answer depends on what type of battery level you are using, what model pump you are using, and how much advance notification you want to receive before needing to change a pump battery.  There is a bit of personal preference and experimentation to finding what works for you.
+!!!info "" Are the default NS alarm levels going to work for you?  The answer depends on what type of battery level you are using, what model pump you are using, and how much advance notification you want to receive before needing to change a pump battery.  There is a bit of personal preference and experimentation to finding what works for you.
 
 <p align="center">
 <u><b>For x22 or x15 pump users, the NS alert settings that may need to be adjusted are the ones based on voltage.</b></u>
 </p>
 Generally speaking, for a x22 or x15 pump using alkaline batteries, the default NS alarm levels will be too early to be useful and lead you to change out your battery too frequently.  Alkaline batteries can go to low 1.2s or high 1.1s before Looping starts to have communication problems.  How much lower than the default voltage 1.35/1.30 alarm levels you want to go will depend on how far in advance you want to be warned about an upcoming battery change.
 
-If however, you are using a x22 or x15 pump with lithium batteries, the default 1.35v/1.30v alarm levels may be completely appropriate.  Remember how the lithium battery curves at the start of this discussion died off quickly around 1.3v?  You won't get hardly any heads-up notice for a lithium battery if you set the alarm below 1.3v.
+If however, you are using a x22 or x15 pump with lithium batteries, the default 1.35v/1.30v alarm levels may be completely appropriate.  Remember how the lithium battery curves at the start of this discussion died off quickly around 1.3v?  Remember how the lithium battery curves at the start of this discussion died off quickly around 1.3v?  You won't get hardly any heads-up notice for a lithium battery if you set the alarm below 1.3v.
 
 <p align="center">
 <u><b>For x23 or x54 pump users, the NS alert settings that may need to be adjusted are the ones based on percentage settings.</b></u>

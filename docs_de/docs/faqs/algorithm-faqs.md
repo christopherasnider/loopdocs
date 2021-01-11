@@ -3,7 +3,7 @@
 
 ## Does Loop "learn" or detect changes in your insulin needs?
 
-No. Loop assumes the settings you've provided are correct. If outside factors (such as hormones, illness, exercise, medications, etc) affect your underlying settings that determine insulin needs (basals, insulin sensitivity factor, carb ratio) you may need to manually adjust your settings. Loop will not "learn" or "assume" that your underlying needs have changed. Instead, Loop is designed to react to the changes in blood glucose and its insulin dosing decisions are based on the settings that you have entered in the app.
+No. No. Loop assumes the settings you've provided are correct. If outside factors (such as hormones, illness, exercise, medications, etc) affect your underlying settings that determine insulin needs (basals, insulin sensitivity factor, carb ratio) you may need to manually adjust your settings. Loop will not "learn" or "assume" that your underlying needs have changed. Instead, Loop is designed to react to the changes in blood glucose and its insulin dosing decisions are based on the settings that you have entered in the app.
 
 There is a short-term retrospective analysis built into Loop which will apply a weighted-correction based on the past 60 minutes of blood glucose changes. While this does help some, larger-scale "learning" is not currently a part of Loop's algorithm.
 

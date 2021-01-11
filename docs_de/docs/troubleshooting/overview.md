@@ -2,7 +2,7 @@
 
 After you have been using Loop for a while, there's a potential that you will run across a behavior or issue that you wonder if it is normal or intended.  When that happens, there are a few things that we'd recommend doing to resolve the issue.
 
-## Issues with 
+## Issues with
 
 
 
@@ -28,7 +28,7 @@ Check the current list of [GitHub Loop Issues](https://github.com/LoopKit/Loop/i
 </p>
 
 ### Zulipchat and Facebook
-Search in [Zulipchat]( https://loop.zulipchat.com) or [Facebook](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf).  Quite possibly someone else has already posted about the same issue and perhaps a resolution has already been provided.  
+Search in [Zulipchat](https://loop.zulipchat.com) or [Facebook](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf).  Quite possibly someone else has already posted about the same issue and perhaps a resolution has already been provided.
 
 ## Ask for Help
 If you can't find any information in the Loop docs, GitHub Issues, Zulipchat, or Facebook...PLEASE post and ask for help.  GitHub Issues list is an EXCELLENT place to post issues of unexpected Loop behavior (that you believe are errant or need improvement).  However, if you are just seeking clarifications on Loop, but don't necessarily expect that there's a problem with the underlying code, then Facebook and Gitter would be a good place.  For example, Zulipchat and Facebook are great for asking about bolus strategies or exercise target use...those aren't really code issues.

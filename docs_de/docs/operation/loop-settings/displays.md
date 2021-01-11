@@ -1,6 +1,6 @@
 # Loop Displays
 
-This section of the docs will go over the Loop displays available and what information they offer.  Information about your Loop's actions (or inactions) can often be found simply by looking at the visuals presented in the app.  
+This section of the docs will go over the Loop displays available and what information they offer.  Information about your Loop's actions (or inactions) can often be found simply by looking at the visuals presented in the app.
 
 ## Status Screen
 The Status Screen is the main root navigation screen in Loop. It is broken up into 3 main display areas; Heads Up Display (HUD), Charts, and Toolbar. The HUD is the top area of the screen. This shows the status of the last time loop ran, current BG Reading, current temp basal, and current pump information. The next area is the charting area. This includes, glucose trend and prediction, Active Insulin, Insulin Delivery, and Carbohydrates. The final display area is the toolbar which has buttons for Carbs, Pre-Meal, Bolus, Overrides, and Settings.
@@ -8,7 +8,6 @@ The Status Screen is the main root navigation screen in Loop. It is broken up in
 <p align="center">
 <img src="../img/main_screen.jpg" width="550">
 </p>
-
 
 ### Heads Up Display
 
@@ -51,7 +50,6 @@ The Loop Status is the colored circle in the upper left corner of the main Loop 
 <td>When the circle is notched and not complete, that means the Loop is operating in “open-loop” mode.  When the “closed-loop” setting is turned on, the loop status will show a completed circle.</td>
 </tr>
 </table>
-
 
 The loop status circle will pulse slightly when the RileyLink is giving the pump a new temp basal setting.  The pulsing will stop when the temp basal has been set by the pump.
 
@@ -171,7 +169,7 @@ Please be patient for a bolus delivery to appear.  There is a lag time from when
 <img src="../img/insulin_hidden.jpg" width="500">
 </p>
 
-Clicking on either the Active Insulin or Insulin Delivery charts will open your Insulin Delivery history.  The top of the screen will display the current IOB and the total insulin delivered for the day since midnight (or since the time the loop became active if you started Loop after midnight). There are two viewing options; Reservoir or Event History.  
+Clicking on either the Active Insulin or Insulin Delivery charts will open your Insulin Delivery history.  The top of the screen will display the current IOB and the total insulin delivered for the day since midnight (or since the time the loop became active if you started Loop after midnight). There are two viewing options; Reservoir or Event History.
 
 * Reservoir: Omnipod users will not have a reservoir history displayed, simply because pods do not report or track insulin remaining until their reservoirs get below 50 units remaining. Medtronic users will have reservoir history displayed in 5-minute increments, unless Loop has been having communication issues.
 

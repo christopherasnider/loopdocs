@@ -26,7 +26,7 @@ Loop has both hardware and software requirements. In general, to use Loop you ne
 
 ## Can I download Loop from the App store?
 
-No. Loop is not available for download. You must build your own Loop app. Loop app will not be available in the Apple App store because that would be distribution of a medical device, and we are not in that "business".  You can build yourself, but we are not distributors.
+No. No. Loop is not available for download. You must build your own Loop app. Loop app will not be available in the Apple App store because that would be distribution of a medical device, and we are not in that "business".  You can build yourself, but we are not distributors.
 
 Don't worry though, building your Loop app is actually quite easy and that's what these docs are all about. The harder part will be having the patience to read all the documents before you start. New Loop users are so excited to get started that they skip reading all the great info that these docs contain. So, as you begin the build...please include time to read the documents that follow what happens AFTER you successfully build your Loop app.
 
@@ -38,7 +38,7 @@ No, this is purely iPhone or iPod touch.
 
 ## Do I have to be "tech-smart" to build Loop?
 
-No. You do not need any experience in code or computers to build Loop. If you have already owned an Apple computer and iPhone, you already have the required level of experience. Beyond that, simply read the directions slowly and diligently...all the information you will need are in these documents.
+No. No. You do not need any experience in code or computers to build Loop. If you have already owned an Apple computer and iPhone, you already have the required level of experience. Beyond that, simply read the directions slowly and diligently...all the information you will need are in these documents.
 
 Often times the non-tech people do better than the tech people in building Loop. Why? Because the non-tech people take the time to read slowly and look at the screenshots in the directions. The tech people often skim read and miss sentences...which then leads to build errors that have to be retraced and fixed.
 
@@ -80,7 +80,7 @@ The longer answer is that Loop code is updated periodically to include new featu
 
 ## Will I need to build a new Loop if I switch between Medtronic and Omnipod?
 
-No. Loop will have the option to move between different pump types from within the same Loop app. You'll simply use the "Switch from Omnipods" or "Delete Pump" options to move to the other kind of pump.
+No. No. Loop will have the option to move between different pump types from within the same Loop app. You'll simply use the "Switch from Omnipods" or "Delete Pump" options to move to the other kind of pump.
 
 ## Can I use someone else's Apple Developer account for my Loop build?
 
@@ -120,14 +120,11 @@ When you get a new iPhone, Loop will need to be built onto that new iPhone in th
 
 Hey now...let's be grateful for what we have first. The ability to use Loop is the result of tremendous amounts of effort, time, and sacrifice by volunteers. Cracking the pumps for Loop use is a large undertaking. If and when another set of people spend a large amount of time figuring out other pumps, then they could conceivably be added to Loop. But, you don't need to let us know that you'd love to see more pumps compatible with Loop. So would we. There is just an awful lot of work that needs to happen and it is not easy nor quick.
 
-Tandem pumps are not Loop compatible.
-Animas pumps are not Loop compatible.
-DASH pods are not Loop compatible.
-And those all likely won't be compatible anytime in the future.
+Tandem pumps are not Loop compatible. Animas pumps are not Loop compatible. DASH pods are not Loop compatible. And those all likely won't be compatible anytime in the future.
 
 ## Can I have more than one Loop app on a phone?
 
-Yes, technically possible. You can have multiple Loop apps built onto the same iPhone. However, having multiple Loop apps on a single phone may lead to unexpected conflicts that can negatively affect your Loop's ability to stay green (keep looping). Additionally, your Pod will only work on one Loop app at a time anyways. So for smooth looping, just keep one Loop app on any phone for looping use. 
+Yes, technically possible. You can have multiple Loop apps built onto the same iPhone. However, having multiple Loop apps on a single phone may lead to unexpected conflicts that can negatively affect your Loop's ability to stay green (keep looping). Additionally, your Pod will only work on one Loop app at a time anyways. So for smooth looping, just keep one Loop app on any phone for looping use.
 
 ## Will I be able to Loop on a plane? Or in the mountains?
 

@@ -1,5 +1,5 @@
 # Step 3: Compatible Pump
-    
+
 !!!danger "Time Estimate"
     * Omnipod users: 3 seconds to remember which PDM you've been using.
     * Medtronic users: 10 minutes to put a battery in and look at model and firmware
@@ -8,7 +8,7 @@
 !!!info "Summary"
     * If you have a big clunky PDM with built-in BG meter...you can use your pods for Loop.
     * If you have a slim touch screen android-looking PDM...you can NOT use your pods for Loop.
-    * If you have a Medtronic, check the list to ensure compatible model/firmware.    
+    * If you have a Medtronic, check the list to ensure compatible model/firmware.
 
 !!!warning "FAQs"
     * **"How can I find a compatible Medtronic pump?"** That question is answered in the Extra Details section below.
@@ -40,11 +40,7 @@ To determine your pump model, look at the backside of your pump.  There should b
 
 ![Pump](img/pump_model.jpg)
 
-!!!note ""
-    MMT ---> Pump Manufacturer Model (MiniMed Medtronic)</br>
-    722 ---> Pump Model Number</br>
-    NA ---> Pump Region (NA=North America, CA=Canada/Australia, WW=Worldwide)</br>
-    S ---> Pump Color (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)</br>
+!!!note "" MMT ---> Pump Manufacturer Model (MiniMed Medtronic)</br> 722 ---> Pump Model Number</br> NA ---> Pump Region (NA=North America, CA=Canada/Australia, WW=Worldwide)</br> S ---> Pump Color (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)</br>
 
 Some pumps may have an “L” or “S” or "R" before the pump region, e.g. a model number like MMT-722LNAS.  This does not affect Loop compatibility.
 
@@ -52,21 +48,15 @@ Some pumps may have an “L” or “S” or "R" before the pump region, e.g. a 
 
 A pump’s firmware is the internal software that runs your pump.  Older Medtronic firmware allows Loop to act as a “remote control” to set temp basals and report back pump data.  Newer firmware disabled that “remote control” access and therefore cannot be used with these DIY closed-loop systems.  There is currently no ability to downgrade a pump’s firmware or replace it with older firmware.  Before you buy a used pump, make sure you are getting one with compatible firmware.
 
-!!!note ""
-    The firmware on all 515/715 and 522/722 model Medtronic pumps are all compatible with Loop. You will only need to check the firmware version for 523/723 and 554/754 model Medtronic pumps.</br></br>
-    + Medtronic 515 or 715 --> any firmware</br>
-    + Medtronic 522 or 722  --> any firmware</br>
-    + Medtronic 523 or 723 --> firmware 2.4 or lower</br>
-    + Medtronic Worldwide Veo 554 or 754 --> firmware 2.6A or lower</br>
-    + Medtronic Canadian/Australian Veo 554 or 754 --> firmware 2.7A or lower</br>
+!!!note "" The firmware on all 515/715 and 522/722 model Medtronic pumps are all compatible with Loop. You will only need to check the firmware version for 523/723 and 554/754 model Medtronic pumps.</br></br> + Medtronic 515 or 715 --> any firmware</br> + Medtronic 522 or 722  --> any firmware</br> + Medtronic 523 or 723 --> firmware 2.4 or lower</br> + Medtronic Worldwide Veo 554 or 754 --> firmware 2.6A or lower</br> + Medtronic Canadian/Australian Veo 554 or 754 --> firmware 2.7A or lower</br>
 
-To find your pump’s firmware you will need to power it on. If the pump has not been powered on for some time (i.e., has been in storage without a battery for a while), it will run through a start-up count and the firmware version will appear on the bottom right of the pump’s screen.  Don’t turn away, as the version number will only be displayed for a little while before the screen moves onto other information displays.  
+To find your pump’s firmware you will need to power it on. If the pump has not been powered on for some time (i.e., has been in storage without a battery for a while), it will run through a start-up count and the firmware version will appear on the bottom right of the pump’s screen.  Don’t turn away, as the version number will only be displayed for a little while before the screen moves onto other information displays.
 
 If the pump has been active recently or has a reservoir installed, follow these steps:
 
-1. Press the <img src="../img/esc.png" width="40" alt="ESC"> button on your pump.  
+1. Press the <img src="../img/esc.png" width="40" alt="ESC" /> button on your pump.
 
-2. Scroll down with the <img src="../img/light_button.png" width="40" alt="Down Arrow"> button to the bottom of the status display.  
+2. Scroll down with the <img src="../img/light_button.png" width="40" alt="Down Arrow" /> button to the bottom of the status display.
 
 3. Read the bottom line of the display.
 
@@ -116,11 +106,11 @@ Finding a compatible Medtronic pump is probably the most difficult part for most
 
 * Talk to friends in the diabetic community.
 
-* Ask your endocrinologist.  
+* Ask your endocrinologist.
 
-* Ask at a local JDRF chapter meeting if someone has an old backup pump they'd be willing to donate to you.  
+* Ask at a local JDRF chapter meeting if someone has an old backup pump they'd be willing to donate to you.
 
-* Join diabetic supply groups on Facebook; both for-trade and for-sale groups.  
+* Join diabetic supply groups on Facebook; both for-trade and for-sale groups.
 
 * Check Craigslist often and be willing to expand your search area to include larger cities.
 
@@ -136,7 +126,7 @@ Medwow has been fairly frustrating for most people; poor response rate and high 
 
 If you choose to purchase from a remote or unknown seller, here are some tips for safe purchasing:
 
-* Use PayPal and purchase using the "Goods and Services" payment option. This costs nothing for the buyer, but the seller will lose 2.95% of the sale to PayPal fees. PayPal offers some protection for both buyer and seller in the event of fraud.  
+* Use PayPal and purchase using the "Goods and Services" payment option. This costs nothing for the buyer, but the seller will lose 2.95% of the sale to PayPal fees. PayPal offers some protection for both buyer and seller in the event of fraud.
 
 * Ask for photos of the pump. Check to make sure the serial number of the pump on the backside matches the serial number of the pump showing in the display menu. Ask for a short video of the pump, or at least a photo of the pump turned on, so that you can see the pump's firmware and model number. Cracks and some wear on these pumps are expected. These pumps are not usually free of marks. Many people are successfully looping on pumps that have cracks and rub marks, but you may want to ask if you are concerned about any you see in photos.
 
@@ -144,13 +134,13 @@ If you choose to purchase from a remote or unknown seller, here are some tips fo
 
 * Repairs to cracks or missing bits of plastic on battery cap area and reservoir caps are possible and not very difficult in most situations. You can read more about how to repair those [here](https://loopkit.github.io/loopdocs/troubleshooting/pump-errors/#crackmissing-piece-repairs).
 
-* Ask for shipping that includes a tracking number. USPS Priority Mail's smallest box is a great option.  It's only $7.20 domestically in the US and includes tracking. Ask the seller to add a small bit of packing protection such as bubble wrap around the pump to keep it safe during shipping. Make sure you get a tracking number within a reasonable period of time after you have paid.  
+* Ask for shipping that includes a tracking number. USPS Priority Mail's smallest box is a great option.  It's only $7.20 domestically in the US and includes tracking. Ask the seller to add a small bit of packing protection such as bubble wrap around the pump to keep it safe during shipping. Make sure you get a tracking number within a reasonable period of time after you have paid.
 
 Red flags that may indicate a scam:
 
-* Asking for payment through "friends and family" on PayPal, especially if you don't know the person or have any solid references for them. Paying in that way offers you no buyer protection. It's just like giving the seller cash, so you had better trust the seller.  
+* Asking for payment through "friends and family" on PayPal, especially if you don't know the person or have any solid references for them. Paying in that way offers you no buyer protection. It's just like giving the seller cash, so you had better trust the seller.
 
-* Offering an "almost new" pump is a big red flag. These pumps should be at least 5-years-old by now. Do you really think a 5 year old pump should be unused and sitting in shrink wrap at this point? This seems highly suspicious. There are some out there, but they are very infrequent.  
+* Offering an "almost new" pump is a big red flag. These pumps should be at least 5-years-old by now. Do you really think a 5 year old pump should be unused and sitting in shrink wrap at this point? This seems highly suspicious. There are some out there, but they are very infrequent.
 
 * Not able to provide new pictures of the pump when requested. Sure they posted some pictures with the ad, but what if they just downloaded them from other people's ads? The seller should be able to furnish a couple of "new" photos at your request. A good one to ask for is the battery and reservoir tops so you can see the condition of those.
 
@@ -160,8 +150,7 @@ Medtronic will not typically sell pump supplies directly to customers who have n
 
 ## Extra Details on Omnipods
 
-!!!warning "Reminder and Disclaimer"
-    Through the work of the DIY community, Insulet's Omnipod (Eros) system is now Loop compatible. Using Eros pods with Loop is not supported by Insulet. Do not call Insulet asking for help with your Loop build, setup, or operation. This project is not FDA-approved and you are using this project under your own responsibility and risk. Please read these documents and familiarize yourself with Loop before using. 
+!!!warning "Reminder and Disclaimer" Through the work of the DIY community, Insulet's Omnipod (Eros) system is now Loop compatible. Using Eros pods with Loop is not supported by Insulet. Do not call Insulet asking for help with your Loop build, setup, or operation. This project is not FDA-approved and you are using this project under your own responsibility and risk. Please read these documents and familiarize yourself with Loop before using.
 
 ### Eros
 

@@ -38,7 +38,7 @@ It was a busy day and I really didn't want to count carbs.  Ok, even on the slow
 <img src="../img/ice-2.jpg" width="700">
 </p>
 
-Watching what was going on a little later...BGs were rising at a decent clip and I had a feeling I really didn't cover things super well...so I edited the original 70g entry, adding 10g and making it 80g instead.  (That's why there is a 2U bolus around 4:20pm.)  And of course around 5:40pm there was a little bit of nibbling on the leftovers as we put them into the fridge.  We gave 10g for that.  BGs climbed a bit more, not surprising given how we were underestimating fast carbs at this point...but still not so bad at 180 peak BG.  (Anna gave 2 units correction at the peak because there was dessert coming later that night and she wanted to be ready for it without too much pre-bolus.)
+Watching what was going on a little later...BGs were rising at a decent clip and I had a feeling I really didn't cover things super well...so I edited the original 70g entry, adding 10g and making it 80g instead.  (That's why there is a 2U bolus around 4:20pm.)  (That's why there is a 2U bolus around 4:20pm.)  And of course around 5:40pm there was a little bit of nibbling on the leftovers as we put them into the fridge.  We gave 10g for that.  BGs climbed a bit more, not surprising given how we were underestimating fast carbs at this point...but still not so bad at 180 peak BG.  (Anna gave 2 units correction at the peak because there was dessert coming later that night and she wanted to be ready for it without too much pre-bolus.)
 
 <p align="center">
 <img src="../img/ice-5.png" width="500">

@@ -18,7 +18,7 @@ Yes. We have not had one iOS update that has broken Loop apps already installed 
 
 ## Do I have to update my Loop if I change to iOS 13?
 
-No. You don't have to. 
+Nope. Unless you want to try dark mode which is in dev branch and being developed there...that's about the only thing that is iOS 13 specific in Loop.
 
 ## Is there a benefit to updating my Loop if I use iOS 13?
 
