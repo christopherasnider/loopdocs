@@ -28,7 +28,5 @@ jobs:
           src_branch: master-da
           # The branch name of the destination repository
           dst_branch: master-da
-          # A glob pattern for filtering file paths to be included for copying
-          file_filter: *.png
           # A glob pattern for excluding paths
-          exclude: *.md, *.yml
+          exclude: *.md
