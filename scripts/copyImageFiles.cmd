@@ -1,0 +1,1 @@
+robocopy  "../docs" "../docs_da/docs" /S /XF *.md
