@@ -1,0 +1,107 @@
+site_name: Loop dokumentation
+repo_url: https://github.com/cfaagaard/MultiLangTest/
+edit_uri: edit/main/loopdocs/da/docs
+
+markdown_extensions:
+    - meta
+    - admonition
+    - toc:
+        permalink: true
+    
+
+plugins:
+  - search
+
+theme:
+  name: material
+  custom_dir: ../overrides
+  language: da
+  features:
+      - navigation.tabs
+      - toc.integrate
+
+nav:
+- Hjem: index.md
+- FAQs:
+    - Hvad er FAQ: faqs/docs-faqs.md
+    - Generelt Loop FAQs: faqs/FAQs.md
+    - Omnipod FAQs: faqs/omnipod-faqs.md
+    - Branch FAQs: faqs/branch-faqs.md
+    - Opdatere Loop FAQs: faqs/update-faqs.md
+    - iOS 13 FAQs: faqs/ios13.md
+    - RileyLink FAQs: faqs/rileylink-faqs.md
+    - Algorithm FAQs: faqs/algorithm-faqs.md
+    - Sensor FAQs: faqs/cgm-faqs.md
+    - Sikkerhed: faqs/safety-faqs.md
+- Byg app:
+     - Overblik: build/overview.md
+     - Trin 1 Kompatibel computer: build/step1.md
+     - Trin 2 Kompatibel iPhone/iPod touch: build/step2.md
+     - Trin 3 Kompatibel pumpe: build/step3.md
+     - Trin 4 Kompatibel CGM: build/step4.md
+     - Trin 5 Bestil en RileyLink: build/step5.md
+     - Trin 6 Tilmeld dig Apple Developer Program: build/step6.md
+     - Trin 7 Installer Homebrew: build/step7.md
+     - Trin 8 Download Xcode: build/step8.md
+     - Trin 9 Xcode-præferencer: build/step9.md
+     - Trin 10 Test indstillinger: build/step10.md
+     - Trin 11 Lav planer for Loop Data: build/step11.md
+     - Trin 12 Mød fællesskabet: build/step12.md
+     - Trin 13 Download Loopkode: build/step13.md
+     - Trin 14 Build Loop-app: build/step14.md
+     - Åh gud! Byg fejl ?: build/build_errors.md
+     - Tilpas din Loop: build/code_customization.md
+     - Opdatering af din Loop: build/updating.md
+     - LoopWorkspace: build/loopworkspace.md
+- Opsætning af app:
+    - Oversigt: operation/overview.md
+    - Trin 1 Sundhedstilladelser: build/health.md
+    - Trin 2 Tilføj pumpe:
+        - Tilføj Medtronic: operation/loop-settings/mdt-pump.md
+        - Tilføj Omnipod: operation/loop-settings/omnipod-pump.md
+    - Trin 3 Tilføj CGM: operation/loop-settings/cgm.md
+    - Trin 4 Konfigurationer: operation/loop-settings/configurations.md
+    - Trin 5 Loop Services: operation/loop-settings/services.md
+    - Loop Display: operation/loop-settings/displays.md
+    - RileyLink-menu: operation/loop-settings/rileylink.md
+- Brugervejledning:
+    - Sådan bruges Loop App:
+        - Carb-indgange: operation/features/carbs.md
+        - Bolus: operation/features/bolus.md
+        - Overrides: operation/features/workout.md
+        - Før-måltid: operation/features/premeal.md
+        - Sundhedsapp: operation/features/healthapp.md
+        - Brug af ICE-info: operation/features/ice.md
+        - Apple Watch: operation/features/watch.md
+        - iPhone-widget: operation/features/widget.md
+        - Loop Notifications: operation/features/notifications.md
+        - Pumpebatteri: operation/features/battery.md
+    - Looping Tips:
+        - Åben loop: operation/loop/open-loop.md
+        - Lukket loop: operation/loop/close-loop.md
+        - Loop Tips: operation/loop/looptips.md
+    - Algoritme:
+        - Oversigt: operation/algorithm/overview.md
+        - Bolusanbefalinger: operation/algorithm/bolus.md
+        - Glucose Prediction: operation/algorithm/prediction.md
+        - Temp Basal Adjustments: operation/algorithm/temp-basal.md
+    - Fejlfinding:
+        - Oversigt: troubleshooting/overview.md
+        - Loop App går ned: troubleshooting/loop-crashing.md
+        - Red Loop: troubleshooting/yellow-red-loop.md
+        - Pod-parringsfejl: troubleshooting/pod-pairing.md
+        - Pod usikre boluser: troubleshooting/uncertain-bolus.md
+        - MDT Priming og Sites: troubleshooting/priming.md
+        - Tidsændringer: troubleshooting/time-change.md
+        - MDT-pumpefejl: troubleshooting/pump-errors.md
+        - Omnipod-fejl: troubleshooting/omnipod-faults.md
+- Nightscout:
+    - Oversigt: nightscout/overview.md
+    - Helt ny NS: nightscout/new_user.md
+    - Eftermontering Eksisterende NS: nightscout/update_user.md
+    - Fejlfinding ved opsætning: nightscout/troublehoot.md
+    - Fjernstyring: nightscout/remote-overrides.md
+    - IFTTT: nightscout/ifttt.md
+    - Pebble: nightscout/pebble.md
+    - Fjernunderretninger: nightscout/pushover.md
+    - Rapporter: nightscout/reports.md
