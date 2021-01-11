@@ -32,13 +32,13 @@ Da koden kom til en stabil, pålidelig tilstand og var klar til et større publi
 
 Also, omnipod-testing branch was not going to undergo a lot of active revisions to it when it was released. The intent was to keep it as a fairly known, unchanged product for people rather than a constantly changing code set...that way if people noted a bug, it would be a more "known" code base to work to debug.
 
-Omnipod-testing branch has served its purpose as an initial platform to test Pod looping. It has been officially retired now and is no longer needed. Omnipod support has been folded into the normal master and dev branches now.  Thank you, omnipod-testing branch...you served us well. Happy retirement.
+Omnipod-test branch har tjent sit formål som en indledende platform til at teste looping med Omnipod looping. Branchen er officielt blevet pensioneret og er ikke længere nødvendig. Omnipod understøttelsen er nu i den normale master og dev branch.  Tak, omnipod-test branch ... du gjorde det godt. God pension.
 
 ## Loop v2.0
 
-On December 31, 2019, Loop released Loop v2.0 (also said as "Loop updated Master branch"). This means that the cookbook from dev branch (to use our earlier analogy) was merged into master. On December 31st, master and dev branches were identical.
+Den 31. december 2019, blev Loop v2.0 udgivet (også kendt som "Loop opdateret Master branch"). Det betyder, at kogebogen fra dev branch (for at bruge vores tidligere analogi) blev fusioneret til master branch. Den 31. december var master og dev branch identiske.
 
-From that date forward though, dev branch will start to work on its new recipes again. Dev branch will start to diverge from master branch with untested changes and development of new code. Dev branch may start to have some bugs and regressions as a result of the coming/going of code changes that will happen without much announcement or discussion.
+Fra denne dato og fremadrettet, vil Dev branch begynde at arbejde på sine nye opskrifter (kode) igen. Dev-branch vil begynde at afvige fra master branch med uprøvede ændringer og udvikling af ny kode. Dev branch may start to have some bugs and regressions as a result of the coming/going of code changes that will happen without much announcement or discussion.
 
 So, most all users should now start building with master branch again...you will be getting the latest Loop release everytime you build with Loop master branch. That branch will stay in the same stable condition it has been for awhile now. Only use dev branch if you are interested in actively testing new code and have the ability to track/document bugs.
 
