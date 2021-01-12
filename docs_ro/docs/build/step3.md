@@ -40,7 +40,12 @@ To determine your pump model, look at the backside of your pump.  There should b
 
 ![Pump](img/pump_model.jpg)
 
-!!!note "" MMT ---> Pump Manufacturer Model (MiniMed Medtronic)</br> 722 ---> Pump Model Number</br> NA ---> Pump Region (NA=North America, CA=Canada/Australia, WW=Worldwide)</br> S ---> Pump Color (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)</br>
+!!!note ""
+
+    MMT ---> Pump Manufacturer Model (MiniMed Medtronic)</br>
+    722 ---> Pump Model Number</br>
+    NA ---> Pump Region (NA=North America, CA=Canada/Australia, WW=Worldwide)</br>
+    S ---> Pump Color (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)</br>
 
 Some pumps may have an “L” or “S” or "R" before the pump region, e.g. a model number like MMT-722LNAS.  This does not affect Loop compatibility.
 
@@ -48,7 +53,14 @@ Some pumps may have an “L” or “S” or "R" before the pump region, e.g. a 
 
 A pump’s firmware is the internal software that runs your pump.  Older Medtronic firmware allows Loop to act as a “remote control” to set temp basals and report back pump data.  Newer firmware disabled that “remote control” access and therefore cannot be used with these DIY closed-loop systems.  There is currently no ability to downgrade a pump’s firmware or replace it with older firmware.  Before you buy a used pump, make sure you are getting one with compatible firmware.
 
-!!!note "" The firmware on all 515/715 and 522/722 model Medtronic pumps are all compatible with Loop. You will only need to check the firmware version for 523/723 and 554/754 model Medtronic pumps.</br></br> + Medtronic 515 or 715 --> any firmware</br> + Medtronic 522 or 722  --> any firmware</br> + Medtronic 523 or 723 --> firmware 2.4 or lower</br> + Medtronic Worldwide Veo 554 or 754 --> firmware 2.6A or lower</br> + Medtronic Canadian/Australian Veo 554 or 754 --> firmware 2.7A or lower</br>
+!!!note ""
+
+    The firmware on all 515/715 and 522/722 model Medtronic pumps are all compatible with Loop. You will only need to check the firmware version for 523/723 and 554/754 model Medtronic pumps.</br></br>
+    + Medtronic 515 or 715 --> any firmware</br>
+    + Medtronic 522 or 722  --> any firmware</br>
+    + Medtronic 523 or 723 --> firmware 2.4 or lower</br>
+    + Medtronic Worldwide Veo 554 or 754 --> firmware 2.6A or lower</br>
+    + Medtronic Canadian/Australian Veo 554 or 754 --> firmware 2.7A or lower</br>
 
 To find your pump’s firmware you will need to power it on. If the pump has not been powered on for some time (i.e., has been in storage without a battery for a while), it will run through a start-up count and the firmware version will appear on the bottom right of the pump’s screen.  Don’t turn away, as the version number will only be displayed for a little while before the screen moves onto other information displays.
 
@@ -150,7 +162,9 @@ Medtronic will not typically sell pump supplies directly to customers who have n
 
 ## Extra Details on Omnipods
 
-!!!warning "Reminder and Disclaimer" Through the work of the DIY community, Insulet's Omnipod (Eros) system is now Loop compatible. Using Eros pods with Loop is not supported by Insulet. Do not call Insulet asking for help with your Loop build, setup, or operation. This project is not FDA-approved and you are using this project under your own responsibility and risk. Please read these documents and familiarize yourself with Loop before using.
+!!!warning "Reminder and Disclaimer"
+
+    Through the work of the DIY community, Insulet's Omnipod (Eros) system is now Loop compatible. Using Eros pods with Loop is not supported by Insulet. Do not call Insulet asking for help with your Loop build, setup, or operation. This project is not FDA-approved and you are using this project under your own responsibility and risk. Please read these documents and familiarize yourself with Loop before using.
 
 ### Eros
 
