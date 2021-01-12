@@ -35,9 +35,7 @@ Har du brug for Catalina eller Mojave? Svaret vil afhænge af iOS på din iPhone
 
 **Hvis du har iOS 13.4 eller nyere**, vil du ikke være i stand til at bruge Mojave og vil have brug for Catalina på et minimum. Med andre ord, du har brug for macOS 10.15.2 på et minimum for at bygge Loop på en iPhone, der kører iOS 13.4 eller nyere.
 
-!!!danger "iOS dictates your computer needs"
-
-    Put simply for Loopers...the more up-to-date you keep your iOS, the more up-to-date your computer and macOS will need to be, too. That's not necessarily a bad thing, and you can't avoid iOS updates forever...you just do need to be aware of how they relate to each other if your computer is "getting on the older side".
+!!!danger "iOS dictates your computer needs" Put simply for Loopers...the more up-to-date you keep your iOS, the more up-to-date your computer and macOS will need to be, too. That's not necessarily a bad thing, and you can't avoid iOS updates forever...you just do need to be aware of how they relate to each other if your computer is "getting on the older side".
 
 ## Tjek din macOS
 Du har brug for en Apple-computer, der har mindst den minimale macOS-version som beskrevet ovenfor; Mojave macOS 10. 4.4 (eller nyere) eller Catalina macOS 10.15 (eller nyere). For at finde ud af, hvilken version du har installeret, skal du klikke på det lille Apple-ikon i computerens øverste venstre hjørne og vælge `Om denne Mac`. Det betyder ikke noget, hvis computeren er en MacBook, iMac, macMini, etc ... bare så længe den har det mindste du har brug for.
