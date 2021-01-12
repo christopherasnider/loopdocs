@@ -23,25 +23,25 @@ Why is Loop limited to just iPhones and iPod touches? Why can't you use an iPad?
 
 The next compatibility check is that we need a minimum version of the operating software, called the phone's "iOS", on those iPhones and iPod touches. Loop is compatible with iPhone and iPod touch devices with iOS 12.4 or newer. Therefore, the compatible devices include:
 
-* iPhone 11, 11 Pro, 11 Pro Max 
+* iPhone 11, 11 Pro, 11 Pro Max
 
-* iPhone X, XS, XR, XS Max 
+* iPhone X, XS, XR, XS Max
 
-* iPhone 8, 8+ 
+* iPhone 8, 8+
 
-* iPhone 7, 7+ 
+* iPhone 7, 7+
 
-* iPhone 6s, 6s+ 
+* iPhone 6s, 6s+
 
-* iPhone SE 
+* iPhone SE
 
-* iPod Touch, 7th generation 
+* iPod Touch, 7th generation
 
 ## Devices that will be incompatible "soon"
 
 * iPhone 5s, 6, 6+
 
-* iPod Touch, 6th generation 
+* iPod Touch, 6th generation
 
 Apple has decided that those models have lived their useful life and can no longer be be updated past iOS 12.4. They've reached the end of their "apple supported" update life cycle. Apple released iOS 13 and iOS 14 in the recent past and those models cannot be updated to use them. This does not pose a problem currently...you can still build Loop's master branch so long as your device has iOS 12.4 at a minimum. HOWEVER, there are upcoming Loop changes that will require users to have iOS 13 on their devices to build Loop onto the device. There is no set timeframe for when that minimum requirement will be changed.  We will make an announcement when it does and the docs will be updated here.
 

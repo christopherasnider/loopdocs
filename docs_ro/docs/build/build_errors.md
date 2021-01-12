@@ -31,10 +31,10 @@ If you have checked all those steps above and think you have a true build error.
 3. Copy and paste this command and press return: `rm -rf ~/Library/Caches/org.carthage.CarthageKit` Note: you won't see any message back if the command runs successfully.
 4. Copy and paste this command and press return: `rm -rf ~/Library/Developer/Xcode/DerivedData` Note: you won't see any message back if the command runs successfully.
 5. **(As of October 12, 2020...please ignore this step for now.  Don't do it as Amplitude framework will cause this command to fail prematurely right now. When Amplitude is fixed, then I'll delete this note.) **Enter the command `cd ~/downloads/loop-master && carthage update`.  **NOTE:  YOU MAY HAVE TO CHANGE THE COMMAND SLIGHTLY if your folder isn't named loop-master as shown in the command.**  If your loop folder isn't named loop-master and instead is loop-dev or some other folder name...change the command to match your folder's actual name. Replace the "loop-master" with your folder's actual name. Carthage update will take about 15-25 minutes to run successfully.  A successful carthage update will look like the following:
-
-</p>
 <p align="center">
 <img src="../img/carthage-update-success.png" width="550">
+</p>
+
 </p>
 6. Return to Xcode and now trying building your app again.
 
@@ -62,10 +62,10 @@ Helpful tip: Shift-Command-4-spacebar will give you a screenshot tool that you c
 ## Find your error message(s)
 
 To begin fixing the error, use the Report Navigator view to find your error message.
-
-</p>
 <p align="center">
 <img src="../img/report-nav.png" width="750">
+</p>
+
 </p>
 
 The key is to (1) ***READ THE ERROR MESSAGE*** and then (2) ***FIND YOUR MESSAGE IN ONE OF THE TOPICS BELOW***.
@@ -79,18 +79,17 @@ Notice how in the screenshots in the topics below, there are red circles highlig
 * Take the error message from your Xcode screen and read through EACH OF THE TOPICS BELOW. Check each of the red circles to see if you have a match. Kind of like a matching puzzle.
 
 For example, if you see "Invalid active developer path (/Library/Developer/CommandLineTools)" in your error message, use the search tool in LoopDocs with simply "invalid active". You will get a couple of links and one is the Command Line Tools fix for that error message. Click on the link and you'll find your solution.
-
-</p>
 <p align="center">
 <img src="../img/search-errors.png" width="650">
+</p>
+
 </p>
 
 ## Specific Error Messages
 
 ### Error: homebrew-core is a shallow clone.
 
-If you get an error about homebrew-core being a "shallow clone""
-You will need to follow the instructions given in the error, and update your homebrew installation with the following command:
+If you get an error about homebrew-core being a "shallow clone"" You will need to follow the instructions given in the error, and update your homebrew installation with the following command:
 
 `git -C "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core" fetch --unshallow`
 
@@ -102,11 +101,11 @@ If you see an error message that says "Could not locate device support files." T
 <img src="../img/device-support-files.jpg" width="750">
 </p></br>
 
-Often people get confused at this point because their App Store may be telling them "no updates available" for Xcode, so they incorrectly assume that they have the most current Xcode.  
+Often people get confused at this point because their App Store may be telling them "no updates available" for Xcode, so they incorrectly assume that they have the most current Xcode.
 
 Instead, realize that the App Store only shows the updates available for your macOS version. If your macOS version falls behind...then the App Store will not show you Xcode versions that are incompatible with your older macOS. In other words if you are have Mojave macOS, you won't see newer versions of Xcode in the App Store that would require you to have the newer Catalina macOS.
 
-How are the versions all related? Use the figure below to determine your minimum.  
+How are the versions all related? Use the figure below to determine your minimum.
 
 (Source for the figure below is [wikipedia](https://en.wikipedia.org/wiki/Xcode#11.x_series))
 
@@ -120,10 +119,10 @@ If you're using iOS 13.4.x on your iPhone, you'll need Catalina macOS 10.15.x at
 ### No such module 'LoopKit' or similar message
 
 If you see a **Cartfile failure** and several other red errors (in particular saying there is "no such module 'LoopKit'"), double click on the Cartfile error message.  If it says that the build failed in one of the schemes, as shown in the screenshot below, then re-run the fix listed above.
-
-</p>
 <p align="center">
 <img src="../img/exit-code-65.png" width="850">
+</p>
+
 </p>
 
 ### Developer License Update
@@ -156,8 +155,6 @@ Now try building your Loop app again, you shouldn't have any problems.
 ### Could not get a container directory URL
 
 Error message: "**<u>Could not get a container directory URL. Please ensure App Groups are set up correctly in entitlements.</u>**"
-
-</p>
 <p align="center">
 <img src="../img/container-1.png" width="750">
 </p>
@@ -172,6 +169,8 @@ Error message: "**<u>Could not get a container directory URL. Please ensure App 
 <img src="../img/container-3.png" width="750">
 </p>
 
+</p>
+
 To resolve this error, you will need to click on the Loop target's signing area and then the plus-sign in the App Groups area under the signing. Copy and paste the bundle indentifier into the new container that starts with `group.` and then add `Group` to the end of the name. Click OK to save.
 
 The final App Group should now have a blue check box, the name should start with `group` and end with `LoopGroup`. See the screenshot as an example. Click the build button after your App Group is setup similarly and you should be good.
@@ -179,8 +178,6 @@ The final App Group should now have a blue check box, the name should start with
 ### Missing Command Line Tools
 
 Error message:  "**<u>Invalid active developer path (/Library/Developer/CommandLineTools)</u>**" or "**<u>unable to find utility "xcodebuild", not a developer tool or in PATH</u>**"
-
-</p>
 <p align="center">
 <img src="../img/command-line-error-1.jpg" width="550">
 </p>
@@ -190,11 +187,13 @@ Error message:  "**<u>Invalid active developer path (/Library/Developer/CommandL
 <img src="../img/command-line-error-2.jpg" width="550">
 </p>
 
-Solution: Go to your Xcode preferences and under the Locations tab, select "Xcode 11.3" in the dropdown menu for Command Line Tools.
-
 </p>
+
+Solution: Go to your Xcode preferences and under the Locations tab, select "Xcode 11.3" in the dropdown menu for Command Line Tools.
 <p align="center">
 <img src="../img/command-line-error-3.png" width="550">
+</p>
+
 </p>
 
 ### Device Management could not launch Loop
@@ -251,14 +250,13 @@ For double measure, you can verify that the iOS development certificates are all
 <img src="../img/verify_cert.png" width="650">
 </p>
 
-
 ### Command CodeSign failed
 
 Error message: "**<u>errSecInternalComponent,  Command CodeSign failed with a nonzero exit code</u>**"
-
-</p>
 <p align="center">
 <img src="../img/errsecinternal.jpg" width="850">
+</p>
+
 </p>
 
 
@@ -267,10 +265,10 @@ Solution:  This error message is likely due to inadvertently saying "no" to allo
 1. Close Xcode
 2. Open your Keychain Access application (found in Applications within the Utilities folder, similar to where Terminal app is found)
 3. In the upper left corner of keychain access, make sure you have the keychain `login` highlighted and then right-click the lock next to the `login`.  Click the lock closed, and then click the lock to open it again. You will be prompted for a password.  Enter your computer admin password.  Close Keychain Access app.
-
-</p>
 <p align="center">
 <img src="../img/keychain4.png" width="450">
+</p>
+
 </p>
 
 4. Open your Loop project again in Xcode.
@@ -280,8 +278,6 @@ Solution:  This error message is likely due to inadvertently saying "no" to allo
 ### Unrecognized arguments: --cache-builds
 
 Error message: "**<u>Unrecognized arguments: --cache-builds</u>**"
-
-</p>
 <p align="center">
 <img src="../img/cache-builds.png" width="850">
 </p>
@@ -289,6 +285,8 @@ Error message: "**<u>Unrecognized arguments: --cache-builds</u>**"
 </p>
 <p align="center">
 <img src="../img/exit-code-1-cartfile.jpg" width="850">
+</p>
+
 </p>
 
 
@@ -310,7 +308,7 @@ Solution: Usually because you have not updated to watchOS prior to when you buil
 ### Apple Watch: Loop app not installing
 Error: **<u>The Loop app appears on the list of apps available to install on the watch, but when you press "install", and it goes through the animation of filling in the circle while it's installing, but then at the end it just toggles back to saying "INSTALL"</u>**.
 
-Solution:  Plug your iPhone into the computer and start Xcode.  On your watch, look for a prompt that says "Trust this computer".  Scroll down on the watch face and select the "Trust" button.  
+Solution:  Plug your iPhone into the computer and start Xcode.  On your watch, look for a prompt that says "Trust this computer".  Scroll down on the watch face and select the "Trust" button.
 
 Now we need to do one step before rebuilding Loop app again. Go to the top menu bar of Xcode and select "Clean Build Folder" from the Product menu option. Rebuild your Loop app.
 

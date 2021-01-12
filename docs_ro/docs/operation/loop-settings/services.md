@@ -4,10 +4,10 @@ At the bottom of your Loop settings screen is a section called "Services". <u>Th
 
 <p align="center">
 <img src="../img/services.JPG" width="350">
-</p> 
+</p>
 
 ## Nightscout
-If you have an existing Nightscout site, add the Site URL and API Secret to have your Loop data transmitted to your Nightscout site. If you can’t remember your API Secret, it can be found under Settings, Reveal Config Vars for Heroku sites (or Application Settings, Connection Strings for Azure sites). 
+If you have an existing Nightscout site, add the Site URL and API Secret to have your Loop data transmitted to your Nightscout site. If you can’t remember your API Secret, it can be found under Settings, Reveal Config Vars for Heroku sites (or Application Settings, Connection Strings for Azure sites).
 
 The two most common errors in filling out this section are:
 
@@ -19,14 +19,14 @@ The two most common errors in filling out this section are:
 
 <p align="center">
 <img src="../img/loggly.png" width="500">
-</p> 
+</p>
 
 ## Amplitude
 [Amplitude](https://amplitude.com) is a remote event monitoring service and can be used to quickly identify errors and events with Loop. Amplitude stores the events and allows you to view those events as points in time. To retrieve the details of the events you will need to look at corresponding mLab data entries to get a complete picture of the issues. If you sign up for a free account with Amplitude, you will be given an API Key that you can enter here to have Loop integration setup.
 
 <p align="center">
 <img src="../img/amplitude.png" width="500">
-</p> 
+</p>
 
 ## Next Step: Loop Displays
 

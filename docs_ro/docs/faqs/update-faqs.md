@@ -4,7 +4,7 @@ SOOOO many questions about updating or rebuilding Loop. The general answer is th
 
 First, please take a minute to understand what the words mean.
 
-"Updating Loop" is the process of getting a new download of Loop's code and using that to update your Loop. You do this when you want to switch branches. You do this when you want to get fixes or new features from the same branch. The process doesn't care if you are moving from omnipod-testing -> dev or jojo -> dev or master -> dev or any other combination. 
+"Updating Loop" is the process of getting a new download of Loop's code and using that to update your Loop. You do this when you want to switch branches. You do this when you want to get fixes or new features from the same branch. The process doesn't care if you are moving from omnipod-testing -> dev or jojo -> dev or master -> dev or any other combination.
 
 Updating Loop is the same idea as what happens to your other apps on your iPhone when you update them from the App Store on the phone. A refreshed version of the same app appears on the phone, simply replacing-in-place the same Loop you were using with an updated version.
 
@@ -31,7 +31,7 @@ No. Do not delete your old Loop. In fact, that is a bad idea as you will lose yo
 
 ## Does updating make a separate, second Loop app?
 
-No. Loop is simply updated in-place, written right over the old version. 
+No. Loop is simply updated in-place, written right over the old version.
 
 The only exception to this is if you update/build using a different developer signing team than your original Loop app was built with. The app's identity on your phone is defined by the developer team that you signed the app with. That team has a unique ID to identify the app. So, if you change that unique ID, your phone interprets that as a unique app as well...giving you two Loop apps on the phone. Therefore, if changing developer accounts...you will get a new Loop app, and you would need a new Pod. You'll need to transfer your settings manually to the new app and delete your old app.
 

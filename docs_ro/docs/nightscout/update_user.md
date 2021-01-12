@@ -18,7 +18,7 @@ The modifications for retrofitting an existing NS site for new Loop users will r
 
 <p align="center">
 <img src="../img/heroku5.png" width="450">
-</p> 
+</p>
 
 ### Step 2: Edit/Add Config Vars
 
@@ -26,7 +26,7 @@ Click on `Reveal Config Vars`.  Scroll down the bottom of the Config Vars lines 
 
 <p align="center">
 <img src="../img/add_vars.jpg" width="450">
-</p> 
+</p>
 
 <table>
 <thead>
@@ -106,7 +106,7 @@ Click on `Open App` in the top right corner of your Heroku site.
 
 <p align="center">
 <img src="../img/open_app.jpg" width="450">
-</p> 
+</p>
 
 ### Step 4: Turn on Plugins
 
@@ -114,7 +114,7 @@ Click on the settings (those three horizontal lines in the upper right corner). 
 
 <p align="center">
 <img src="../img/settings_ns.jpg" width="450">
-</p> 
+</p>
 
 ### Step 5: Update Profile Settings
 
@@ -130,27 +130,32 @@ Simply put, the [Update tool](http://nightscout.github.io/pages/update-fork/) wi
 <p align="center">
 <img src="../img/ns-tool.png" width="750">
 </p> 
-</br>
-You'll click on the green `Continue updating at GitHub` button, read the directions that will appear as a pop-up and then finish the update process. 
+</br> You'll click on the green `Continue updating at GitHub` button, read the directions that will appear as a pop-up and then finish the update process.
 
-Click the big green `Create pull request` button. 
+Click the big green `Create pull request` button.
 
 * For most people, another screen will appear like shown in the screenshots below with a green `Able to merge` message. Fill in a title and click the button to create the pull request, and then you can `Merge pull request`, and finally `Confirm merge`.</br>
 
 * However, for some of you may encounter a red error message `x Can't automatically merge` message. If you have that message, you may want to post in FB for help on resolving that error message before proceeding any further.
 
 *********
+
 <p align="center">
 <img src="../img/update1.jpg" width="650">
-</p> 
+</p>
+
 *********
+
 <p align="center">
 <img src="../img/update2.jpg" width="650">
-</p> 
+</p>
+
 **********
+
 <p align="center">
 <img src="../img/update3.jpg" width="650">
-</p> 
+</p>
+
 **********
 Your cgm-remote-monitor repository is now up-to-date.  Nice work, and almost done.
 

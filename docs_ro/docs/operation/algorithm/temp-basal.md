@@ -5,7 +5,7 @@ The Loop algorithm takes one of four actions depending upon the eventual blood g
 ## Four Possible Actions
 Loop implements one of four possible basal actions: **decrease**, **increase**, **suspend**, or **resume** a scheduled basal rate.
 
-###  Decrease Basal Rate
+### Decrease Basal Rate
 If the eventual blood glucose is less than the correction range and all of the predicted glucose values are above the suspend threshold, then Loop will issue a temporary basal rate that is lower than the current scheduled basal rate to bring the eventual blood glucose up to the correction target.
 
 ![decrease basal rate example](img/decrease.png)
@@ -40,8 +40,7 @@ The amount of insulin needed, or dose, is calculated using the desired reduction
 
 ![basal dose equation](img/dose_equation.png)
 
-!!!note ""
-    A major difference between traditional pump therapy and how the Loop calculates dose is that in pump therapy the current blood glucose is used to estimate the dose, whereas in the Loop algorithm the eventual and minimum blood glucose predictions are also used in determining dosing decisions.
+!!!note "" A major difference between traditional pump therapy and how the Loop calculates dose is that in pump therapy the current blood glucose is used to estimate the dose, whereas in the Loop algorithm the eventual and minimum blood glucose predictions are also used in determining dosing decisions.
 
 Loop then converts the dose into a basal rate using the Loop’s temporary basal rate duration of 30 minutes:
 
@@ -55,26 +54,26 @@ where RBR is the required basal rate and SBR is the scheduled basal rate.
 
 Finally, Loop compares the RBR with the user-specified maximum temporary basal rate setting to determine the temporary basal to issue:
 
-* If RBR ≥ maximum basal rate, then Loop will issue the maximum basal rate  
+* If RBR ≥ maximum basal rate, then Loop will issue the maximum basal rate
 
-* If RBR < maximum temporary basal rate, then Loop will issue RBR 
+* If RBR < maximum temporary basal rate, then Loop will issue RBR
 
-After running the temporary basal calculation described above, Loop checks whether there is already an appropriate basal running with at least 10 minutes remaining. If so, Loop will not reissue the temporary basal. However, if the recommended temporary basal differs from the currently running temporary basal — or the current scheduled basal if no temporary is running —  then Loop will replace the current basal rate with the recommended temporary basal rate. 
+After running the temporary basal calculation described above, Loop checks whether there is already an appropriate basal running with at least 10 minutes remaining. If so, Loop will not reissue the temporary basal. However, if the recommended temporary basal differs from the currently running temporary basal — or the current scheduled basal if no temporary is running —  then Loop will replace the current basal rate with the recommended temporary basal rate.
 
 As mentioned at the beginning of this section, the process of determining whether a temporary basal should be issued is repeated every 5 minutes.
 
 ## Temporary Basal Rate Calculation Example
 To illustrate how the Loop calculates the temporary basal rate to issue, consider the calculation for the following scenario:
 
-* Eventual blood glucose = 200 mg/dL  
+* Eventual blood glucose = 200 mg/dL
 
-* Correction target = 100 mg/dL  
+* Correction target = 100 mg/dL
 
-* ISF = 50 mg/dL/U  
+* ISF = 50 mg/dL/U
 
-* Current scheduled basal rate (SBR) is 1 U/hr  
+* Current scheduled basal rate (SBR) is 1 U/hr
 
-* Maximum basal setting (set by user in Loop) = 6 U/hr  
+* Maximum basal setting (set by user in Loop) = 6 U/hr
 
 </br>First, calculate the dose:
 

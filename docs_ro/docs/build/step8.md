@@ -20,10 +20,10 @@ Open your App Store in your computer and search for Xcode...you'll either be dow
 </p></br>
 
 !!!warning "Two important facts"
-    
-    1. The minimum version of Xcode that you need is dependent on the version of iOS you have on the iPhone. The newer the version of iOS, the newer of Xcode you'll also need. </br></br>The most current version of iOS (14+) requires Xcode 12 and macOS 10.15.4 at a minimum</br></br> 
-    2. The newest Xcode version **may also require you to update your macOS version**. If you have an old version of macOS, then the App Store will not show you that a newer version of Xcode is available. This can create confusion because your iOS could be requiring a newer Xcode, but the App Store won't show it as available. 
-    
+
+    1. The minimum version of Xcode that you need is dependent on the version of iOS you have on the iPhone. The newer the version of iOS, the newer of Xcode you'll also need. </br></br>The most current version of iOS (14+) requires Xcode 12 and macOS 10.15.4 at a minimum</br></br>
+    2. The newest Xcode version **may also require you to update your macOS version**. If you have an old version of macOS, then the App Store will not show you that a newer version of Xcode is available. This can create confusion because your iOS could be requiring a newer Xcode, but the App Store won't show it as available.
+
 ## How do all the minimum versions relate to each other?
 
 Most often what happens is that people will update their iOS on the iPhones more often than they update their macOS or Xcode.  You know how it goes...you're tapping on your phone one day and it says there's a new version of iOS available for your phone. Want to update it now? Or be reminded of it later? Or maybe you even have the setting on your phone set to automatically install iOS updates.
@@ -31,16 +31,13 @@ Most often what happens is that people will update their iOS on the iPhones more
 Because the update looks so innocuous and we all lead busy lives, we forget that there might be consequences to iOS updates.
 
 
-!!!danger "Loop and iOS updates"
-    For Loopers...the consequence to an iOS update is nothing immediate. Your Loop app won't die, it will keep humming along. </br></br>BUT, before you ***<u>update or rebuild</u>*** your Loop app on that phone, you will likely need to update your macOS and Xcode applications because of the newer iOS.  And you will need to do the updates/checks in a certain order:</br></br>
-    1st: Check if your macOS has updates</br></br>
-    2nd: Check for an Xcode update.</br></br>
+!!!danger "Loop and iOS updates" For Loopers...the consequence to an iOS update is nothing immediate. Your Loop app won't die, it will keep humming along. </br></br>BUT, before you ***<u>update or rebuild</u>*** your Loop app on that phone, you will likely need to update your macOS and Xcode applications because of the newer iOS.  And you will need to do the updates/checks in a certain order:</br></br> 1st: Check if your macOS has updates</br></br> 2nd: Check for an Xcode update.</br></br>
 
-The chart below is a helpful visual of the minimum versions you'll need based on your iOS. 
+The chart below is a helpful visual of the minimum versions you'll need based on your iOS.
 
-* macOS: If you are running an iPhone with iOS 14, you need to make sure your macOS is 10.15.4 at a minimum as the first step. If you don't have the minimum version, go to [Step 1 Compatible Computer](https://loopkit.github.io/loopdocs/build/step1/#check-your-macos) and follow directions for updating your macOS. 
+* macOS: If you are running an iPhone with iOS 14, you need to make sure your macOS is 10.15.4 at a minimum as the first step. If you don't have the minimum version, go to [Step 1 Compatible Computer](https://loopkit.github.io/loopdocs/build/step1/#check-your-macos) and follow directions for updating your macOS.
 
-* Xcode: Now that your macOS is updated to 10.15.4 minimum, the App Store in your computer will have Xcode 12.0.1 (or newer) available for you to download/update. 
+* Xcode: Now that your macOS is updated to 10.15.4 minimum, the App Store in your computer will have Xcode 12.0.1 (or newer) available for you to download/update.
 
 If you have a brainfart and leave your macOS back at 10.15.2...the App Store won't even tell you Xcode version 12 or newer exists. That's why it is important to do the macOS updates FIRST. I can't tell you how many people post for help saying "I'm trying to update my Loop app but am getting errors." If I ask what Xcode version they have and if they've updated, the response is "I don't have any Xcode updates available in the App Store...so I must be running the most current version." When actually what's happened is they have forgotten to check for macOS updates FIRST and therefore cannot see the needed Xcode update yet.
 
@@ -57,9 +54,9 @@ It isn't some catastrophic failure if you try to build with an outdated Xcode wi
 <p align="center">
 <img src="../img/device-support-files.jpg" width="750">
 </p></br>
-    
+
 So, if you see that error message realize you may have to update your macOS to be able to see the newest Xcode version that you will need. Make sure to check that chart to see what your minimum versions are for the iOS you are running on your iPhone.
-    
+
 ## Next Step: Xcode Preferences
 
 Now you are ready to move onto Step 9 to [work on Xcode Preferences](https://loopkit.github.io/loopdocs/build/step9/).

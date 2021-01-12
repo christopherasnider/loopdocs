@@ -21,9 +21,7 @@ Loop is built to operate fully across time zone and daylight savings time change
 
 When you're ready to update the pump's time, simply <u>**use the Loop's "Change Time" command** </u>. This will also shift your configuration schedules to the current time zone.
 
-!!!danger "Medtronic Users Only"
-    **Always use RileyLink to change pump time instead of the Medtronic Pump's screen.  If you fail to set the pump time by using the RileyLink, Loop will not function properly.**
-    <p align="center">
+!!!danger "Medtronic Users Only" **Always use RileyLink to change pump time instead of the Medtronic Pump's screen.  If you fail to set the pump time by using the RileyLink, Loop will not function properly.** <p align="center">
     <img src="../img/time_change.png" width="400">
     </p>
 

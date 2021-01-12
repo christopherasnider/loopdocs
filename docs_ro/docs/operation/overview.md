@@ -1,6 +1,6 @@
 # How to set up your Loop app
 
-This section of LoopDocs, under the general menu tab "Set up App", goes through all the important information about the process to properly set up all your needed information. You will need to work through the steps listed in the headings under this page one by one. Please follow along with each page's information to make sure that you don't miss any valuable information about your Loop's settings and function. 
+This section of LoopDocs, under the general menu tab "Set up App", goes through all the important information about the process to properly set up all your needed information. You will need to work through the steps listed in the headings under this page one by one. Please follow along with each page's information to make sure that you don't miss any valuable information about your Loop's settings and function.
 
 ## Add Pump
 
