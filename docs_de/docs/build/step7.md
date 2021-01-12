@@ -29,10 +29,8 @@ Ok, now that we have the user account confirmed, let's open the Terminal applica
 <img src="../img/terminal.png" width="550">
 </p>
 
-!!!info "New Apple M1 chip users: IMPORTANT STEP"
+!!!info "New Apple M1 chip users: IMPORTANT STEP" If you purchased one of the new Apple computers that have the brand new Apple M1 chip, you will need to do a little step to start with. Homebrew doesn't run natively on the new M1 chips...so we have to open Terminal app using a little "converter" app, in these situations, called Rosetta. It's no big deal...simply find the Terminal app like was described above and instead of opening it by double clicking...I want you to click on the Terminal app's name just once so it is highlighted. Then right-click on the Terminal app's name to bring up some additional choices. You will want to select the "Get Info" option.</br></br>
 
-    If you purchased one of the new Apple computers that have the brand new Apple M1 chip, you will need to do a little step to start with. Homebrew doesn't run natively on the new M1 chips...so we have to open Terminal app using a little "converter" app, in these situations, called Rosetta. It's no big deal...simply find the Terminal app like was described above and instead of opening it by double clicking...I want you to click on the Terminal app's name just once so it is highlighted. Then right-click on the Terminal app's name to bring up some additional choices. You will want to select the "Get Info" option.</br></br>
-    
     <p align="center">
     <img src="../img/get-info.png" width="550">
     </p>
@@ -65,10 +63,8 @@ Wait while the script does its thing...you’ll see info scroll by and then it w
 </p>
 </br>
 
-!!!info "If you get an error about homebrew-core being a "shallow clone""
+!!!info "If you get an error about homebrew-core being a "shallow clone"" You will need to follow the instructions given in the error, and update your homebrew installation with the following command:
 
-    You will need to follow the instructions given in the error, and update your homebrew installation with the following command:
-    
     `git -C "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core" fetch --unshallow`
 
 
