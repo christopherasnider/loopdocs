@@ -45,7 +45,7 @@ Sætningerne er farvet i:
 
 !!!important
 
-    Remember to click the save button otherwise your translation will not get saved.
+    Husk at klikke på gem-knappen ellers din oversættelse vil ikke blive gemt.
 
 **4. Suggested translation of the sentence** - her vil du se en liste over sætninger, som Crowdin foreslår at bruge til din oversættelse. Du kan endda se oversættelsen til andre sprog nederst på listen. Hvis du ønsker at bruge den foreslåede oversættelse, kan du blot klikke på den og sætningen bliver overført til "Enter your translation". Derefter kan du redigere sætningen og klikke på gem. Hvis du bare ønsker at bruge den foreslåede sætning og ikke redigere det, kan du blot klikke på "Use and save".
 
@@ -55,4 +55,4 @@ Sætningerne er farvet i:
 
 !!!info
 
-    It is standard practice to use the source language for comments -> english.
+    Det er almindelig praksis at bruge kildesproget til kommentarer -> engelsk.
