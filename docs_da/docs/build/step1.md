@@ -12,9 +12,9 @@
     * Tjek `Softwareopdateringen` for at se, om din computer har opdateringer tilgængelige, siden du først installerede den.
 
 !!!warning "FAQs"
-    * **"Kan jeg bruge en pc eller Windows-computer? Jeg ejer ikke en Apple-computer."** Ja...sådan da Se venligst [denne FAQ om brug af Virtual Machine](https://loopkit.github.io/loopdocs/faqs/FAQs/#can-i-use-a-pc-or-windows-computer-to-build). Windows-computere med AMD-processorer vil ikke være i stand til at opbygge med succes ved hjælp af Virtual Machine, så sørg for at tjekke din processor type før du indleder Virtual Machine sti.
+    * **"Kan jeg bruge en pc eller Windows-computer? Jeg ejer ikke en Apple-computer."** Ja...sådan da Please see [this FAQ about using Virtual Machine](/faqs/FAQs/#can-i-use-a-pc-or-windows-computer-to-build). Windows-computere med AMD-processorer vil ikke være i stand til at opbygge med succes ved hjælp af Virtual Machine, så sørg for at tjekke din processor type før du indleder Virtual Machine sti.
     * **"Hvad kan jeg gøre, hvis min computer er for gammel til at blive opgraderet til Catalina?** Du kan tage et kig på ved hjælp af [Catalina Patcher](http://dosdude1.com/catalina/), men dette er helt på egen hånd og ikke en del af disse instruktioner. Bare tilbyder svaret på FAQ... det er op til dig at læse om patcher værktøj og hvilke risici det kan indebære for dig.
-    * **"Kan jeg låne en andens Apple-computer?"** Ja, se [dette FAQ om at låne en computer](https://loopkit.github.io/loopdocs/faqs/FAQs/#do-i-need-to-own-my-own-apple-computer) for at lære mere.
+    * **"Can I borrow someone else's Apple computer?"** Yes, please see [this FAQ about borrowing a computer](/faqs/FAQs/#do-i-need-to-own-my-own-apple-computer) to learn more.
     * **"Hvor ofte skal jeg bruge computeren?** Computeradgang er kun påkrævet, når du i første omgang installerer Loop app eller opdaterer til en nyere Loop release. Du behøver IKKE adgang til en Apple-computer for at fejlfinde eller ændre Loop indstillinger, såsom basalrater eller kulhydratsforhold.
 
 ## Nye M1 chip Apple-computere
@@ -43,15 +43,15 @@ Du har brug for en Apple-computer, der har mindst den minimale macOS-version som
 Hvis computeren ikke har den nødvendige minimumversion, skal du kontrollere knappen `Software Update` på skærmen for at se, om du kan opdatere.
 
 <p align="center">
-<img src="https://loopkit.github.io/loopdocs/build/img/macosx.png" width="500">
+<img src="img/macosx.png" width="500">
 </p>
 
 Hvis din computer ikke giver dig mulighed for at opdatere til de nyere macOS (med andre ord du sidder fast på ældre versioner) ... det er meget muligt, at Apple har besluttet din computer er for gammel til at køre den nyeste og bedste. Hvor gammel er for gammel? Det vil afhænge af din computer model og år som vist nedenfor:
 
 <p align="center">
-<img src="https://loopkit.github.io/loopdocs/build/img/mojave-minimum.png" width="750">
+<img src="img/mojave-minimum.png" width="750">
 </p>
 
 ## Næste trin: Kompatibel iPhone/iPod touch
 
-Nu er du klar til at gå videre til trin 2 for at kontrollere, om du har en [kompatibel iPhone/iPod touch](https://loopkit.github.io/loopdocs/build/step2/).
+Now you are ready to move onto Step 2 to check if you have a [Compatible iPhone/iPod touch](step2.md).
