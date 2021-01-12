@@ -1736,27 +1736,28 @@
 
 <p>Once Xcode has finished indexing, the Loop project's various folders and files will appear in the far left column. We are now going to make three important sets of clicks:</p>
 <ol>
-<li>
-<p>First click: At the very top of all the folders and files listed, click on the blue "Loop". This will populate the middle part of the Xcode window with some information. <strong>If a couple of little boxes appear saying "The folder “DerivedWatchAssets.xcassets” doesn’t exist."...just click the ok buttons and ignore those. They will come up a couple of times during your build if you are using dev branch right now...don't worry, won't be a problem.</strong></p>
-<p><p align="center">
-<img src="../../build/img/loop-first-click.png" width="550">
-</p></p>
-</li>
-<li>
-<p>Second (set of) clicks: Now click on the box in the middle screen to reveal the targets column underneath that box. The four targets we will sign in the upcoming steps are now easily viewable. Now also click on the Loop target like shown in the screenshot below. It will be highlighted in blue to let you know it is selected. Loop, Loop Status Extension, Watch App, and WatchApp Extension are the targets we are interested in later.</p>
-<p><p align="center">
-<img src="../../build/img/loop-second-click.png" width="550">
-</p></p>
-</li>
-<li>
-<p>Third Click: With the Loop target selected, click on the "Signing &amp; Capabilities" up near the top of the screen. After you click on that, you should see a "Signing" section occupying the bulk of your middle window. If you are missing the "Signing &amp; Capabilities" section and didn't have to click somewhere else to see that part...that means you have missed updating to Xcode 11 from an older version of Xcode. Please go back and update Xcode now. Thanks.</p>
-<p><p align="center">
-<img src="../../build/img/loop-third-click.png" width="550">
-</p></p>
-</li>
+<li>First click: At the very top of all the folders and files listed, click on the blue "Loop". This will populate the middle part of the Xcode window with some information. <strong>If a couple of little boxes appear saying "The folder “DerivedWatchAssets.xcassets” doesn’t exist."...just click the ok buttons and ignore those. They will come up a couple of times during your build if you are using dev branch right now...don't worry, won't be a problem.</strong></li>
 </ol>
+<p align="center">
+     <img src="../../build/img/loop-first-click.png" width="550" />
+   </p>
+
+<ol>
+<li>Second (set of) clicks: Now click on the box in the middle screen to reveal the targets column underneath that box. The four targets we will sign in the upcoming steps are now easily viewable. Now also click on the Loop target like shown in the screenshot below. It will be highlighted in blue to let you know it is selected. Loop, Loop Status Extension, Watch App, and WatchApp Extension are the targets we are interested in later.</li>
+</ol>
+<p align="center">
+     <img src="../../build/img/loop-second-click.png" width="550" />
+   </p>
+
+<ol>
+<li>Third Click: With the Loop target selected, click on the "Signing &amp; Capabilities" up near the top of the screen. After you click on that, you should see a "Signing" section occupying the bulk of your middle window. If you are missing the "Signing &amp; Capabilities" section and didn't have to click somewhere else to see that part...that means you have missed updating to Xcode 11 from an older version of Xcode. Please go back and update Xcode now. Thanks.</li>
+</ol>
+<p align="center">
+     <img src="../../build/img/loop-third-click.png" width="550" />
+   </p>
+
 <h2 id="connect-your-iphone-to-computer">Connect your iPhone to Computer<a class="headerlink" href="#connect-your-iphone-to-computer" title="Permanent link">&para;</a></h2>
-<p>Connect your iPhone via cable to the computer, select your iPhone from the very top of the drop-down list.  Your <strong><u>iPhone’s personal name</u></strong> should be at the top of the list. Don't accidentally select the generic iOS simulators listed below your iPhone's name.  </p>
+<p>Connect your iPhone via cable to the computer, select your iPhone from the very top of the drop-down list.  Your <strong><u>iPhone’s personal name</u></strong> should be at the top of the list. Don't accidentally select the generic iOS simulators listed below your iPhone's name.</p>
 <div class="admonition info">
 <p class="admonition-title">Helpful Tips</p>
 <ul>
@@ -1789,13 +1790,11 @@
 <img src="../img/register_device.png" width="750">
 </p>
 
-<div class="admonition danger">
-<p class="admonition-title">Free Developer Account Users: READ ME</p>
-<p>If you are using a free developer account to sign your targets, you will need to do an extra step. As a free developer, you are restricted from building apps that have Siri or push notification capabilities built-in. Loop has both of these capabilities...so you will need to disable them before proceeding on with signing and building your app. The push notification capability is used for setting remote overrides; disabling it will not affect regular notifications (like ones for Loop not looping). Click on the small x next to the Siri and push notification lines located at the bottom of your Signing &amp; Capabilities page. You need to do this in both the Loop and WatchApp Extension targets.</p>
-<p><p align="center">
-<img src="../img/siri-errors.png" width="750">
-</p></p>
-</div>
+<p>!!!danger "Free Developer Account Users: READ ME" If you are using a free developer account to sign your targets, you will need to do an extra step. As a free developer, you are restricted from building apps that have Siri or push notification capabilities built-in. Loop has both of these capabilities...so you will need to disable them before proceeding on with signing and building your app. The push notification capability is used for setting remote overrides; disabling it will not affect regular notifications (like ones for Loop not looping). Click on the small x next to the Siri and push notification lines located at the bottom of your Signing &amp; Capabilities page. You need to do this in both the Loop and WatchApp Extension targets.</p>
+<pre><code>&lt;p align="center"&gt;
+&lt;img src="../img/siri-errors.png" width="750"&gt;
+&lt;/p&gt;
+</code></pre>
 <p>A successfully signed target will have a provisioning profile and signing certificate similar to the screenshot below.  Click on each of the three remaining targets, and repeat the signing steps by choosing the same team name as you selected in the first target.</p>
 <p align="center">
 <img src="../img/success.png" width="750">
@@ -1816,12 +1815,9 @@
 <img src="https://media.giphy.com/media/xT9DPJVjlYHwWsZRxm/source.gif" width="400">
 </p>
 
-<div class="admonition warning">
-<p class="admonition-title">DO NOT WING THE SETUP</p>
-<p>I have warnings all over these instructions to <strong>continue to use these docs to finish setting up your app after it builds. DO NOT IGNORE THAT ADVICE. DO NOT ENTER ONE LOOP APP SETTING WITHOUT HAVING THE DOCS OPEN AND FOLLOWING ALONG AT THE SAME TIME.</strong></p>
-</div>
-<p>The section in these docs called "Set up App" (See it? Look for it now...at the top of your webpage) needs to be used to input all the settings in your Loop app when it is done building. READ ALONG WITH THE DOCS to enter those settings. There are important safety tips and advice in there. And then after you finish setup, you need to read the "Operate" section...like BEFORE YOU OPERATE LOOP. Don't bolus for a meal, or enter a meal, until you've read through the Operate section. </p>
-<p>I'm worried you will fail to heed the advice about using the setup and operate sections. People have ignored it before. They skim read and think that's good enough. DO NOT BE LIKE THAT. Read each section. </p>
+<p>!!!warning "DO NOT WING THE SETUP" I have warnings all over these instructions to <strong>continue to use these docs to finish setting up your app after it builds. DO NOT IGNORE THAT ADVICE. DO NOT ENTER ONE LOOP APP SETTING WITHOUT HAVING THE DOCS OPEN AND FOLLOWING ALONG AT THE SAME TIME.</strong></p>
+<p>The section in these docs called "Set up App" (See it? Look for it now...at the top of your webpage) needs to be used to input all the settings in your Loop app when it is done building. READ ALONG WITH THE DOCS to enter those settings. There are important safety tips and advice in there. And then after you finish setup, you need to read the "Operate" section...like BEFORE YOU OPERATE LOOP. Don't bolus for a meal, or enter a meal, until you've read through the Operate section.</p>
+<p>I'm worried you will fail to heed the advice about using the setup and operate sections. People have ignored it before. They skim read and think that's good enough. DO NOT BE LIKE THAT. Read each section.</p>
 <p>BUT, to mitigate the inevitable people who will ignore that advice....here's the two most important safety tips that I feel obliged to present out of order because (damn it), people will ignore my advice still.</p>
 <div class="admonition warning">
 <p class="admonition-title">TOP TWO SAFETY MISTAKES YOU SHOULD AVOID</p>
@@ -1842,58 +1838,44 @@
 <img src="../img/build_button.png" width="750">
 </p>
 
-<p>You’ll see the progression of the build in the status window (top middle of Xcode). New builds can take about 40-60 minutes depending on the speed of the computer and the internet.  <strong>Just be patient.</strong>  The progress will get "stuck" on one step/task for a very long time, and then the others will fly by when that one slow step is done. Not every step is equal in duration. Do not give up on the build. <u><strong>Xcode will ALWAYS tell you eventually that the build either succeeded or failed via a short (self-disappearing) pop-up message on the computer display. If you miss the message, you can look at the top of the Xcode window to see a "Running Loop..." (success) or "Build Failed" (failure) message where the step progress was previously counting down.</strong></u>  </p>
-<div class="admonition danger">
-<p class="admonition-title">Are you the impatient type?</p>
-<p>If you just simply can't bear the uncertainty of not seeing that things are progressing, you can take a peek "under the hood" and watch the individual build steps by clicking on the report navigator icon and then the build row at the top of the list. You can watch the slow list of scheme building while you wait.
-<p align="center">
-<img src="../img/build-scheme.png" width="650">
-</p></br></p>
-</div>
-<div class="admonition info">
-<p class="admonition-title">First-time builders</p>
-<p>Be aware though! Sometime during your first ever build on a computer, be ready for a codesign/keychain access prompt that you will see part-way through the build process.</br></br></p>
-<p><p align="center">
-<img src="../img/keychain-prompt.png" width="350">
-</p></br></p>
-<p>This prompt above, when you see it, requires you to enter your computer password and then select "Always Allow". Normal behavior, this prompt will come up four times in a row even after you enter the correct password. In frustration, people think the prompt must be broken because it keeps reappearing and then people will press deny or cancel. <strong>Don't press deny.</strong> Keep entering your computer password and pressing the "Always Allow" button...as many times as it takes (four times to be exact; one for each target that Xcode is saving the password for). After four times of successful password entry, the build will keep proceeding.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">While I have you here...</p>
-<p>While I have you here, I'm going to give you a piece of Loop troubleshooting advice for once you start looping. This is a little out of order, but too many people miss this super simple <strong>troubleshooting step when their Loop turns red</strong>. Try turning your RileyLink off/on at its physical switch on the side of the case. Carrying a paperclip on the keychain can help you access that recessed switch. The other useful troubleshooting step is to simply close the Loop app (upswipe in iPhone app selector) and reopen it. Wait 5 minutes after each of these steps and see if your issue resolves. It usually will. Don't forget to do these two simple steps to get back to a green loop.  For more red loop troubleshooting, you can check out <a href="https://loopkit.github.io/loopdocs/troubleshooting/yellow-red-loop/">this page</a>.</p>
-<p>Also, be aware that there's a <strong>troubleshooting page for Pod pairing</strong> issues, too. If you run into any issues during Pod pairing, PLEASE make sure to read <a href="https://loopkit.github.io/loopdocs/troubleshooting/pod-pairing/">this page</a> to save yourself from wasting Pods unnecessarily.</p>
-<p>Ok, back to the building instructions.</p>
-</div>
+<p>You’ll see the progression of the build in the status window (top middle of Xcode). New builds can take about 40-60 minutes depending on the speed of the computer and the internet.  <strong>Just be patient.</strong>  The progress will get "stuck" on one step/task for a very long time, and then the others will fly by when that one slow step is done. Not every step is equal in duration. Do not give up on the build. <u><strong>Xcode will ALWAYS tell you eventually that the build either succeeded or failed via a short (self-disappearing) pop-up message on the computer display. If you miss the message, you can look at the top of the Xcode window to see a "Running Loop..." (success) or "Build Failed" (failure) message where the step progress was previously counting down.</strong></u></p>
+<p>!!!danger "Are you the impatient type?" If you just simply can't bear the uncertainty of not seeing that things are progressing, you can take a peek "under the hood" and watch the individual build steps by clicking on the report navigator icon and then the build row at the top of the list. You can watch the slow list of scheme building while you wait.
+    <p align="center">
+    <img src="../img/build-scheme.png" width="650">
+    </p></br></p>
+<p>!!!info "First-time builders" Be aware though! Sometime during your first ever build on a computer, be ready for a codesign/keychain access prompt that you will see part-way through the build process.</br></br></p>
+<pre><code>&lt;p align="center"&gt;
+&lt;img src="../img/keychain-prompt.png" width="350"&gt;
+&lt;/p&gt;&lt;/br&gt;
+
+This prompt above, when you see it, requires you to enter your computer password and then select "Always Allow". Normal behavior, this prompt will come up four times in a row even after you enter the correct password. In frustration, people think the prompt must be broken because it keeps reappearing and then people will press deny or cancel. **Don't press deny.** Keep entering your computer password and pressing the "Always Allow" button...as many times as it takes (four times to be exact; one for each target that Xcode is saving the password for). After four times of successful password entry, the build will keep proceeding.
+</code></pre>
+<p>!!!warning "While I have you here..." While I have you here, I'm going to give you a piece of Loop troubleshooting advice for once you start looping. This is a little out of order, but too many people miss this super simple <strong>troubleshooting step when their Loop turns red</strong>. Try turning your RileyLink off/on at its physical switch on the side of the case. Carrying a paperclip on the keychain can help you access that recessed switch. The other useful troubleshooting step is to simply close the Loop app (upswipe in iPhone app selector) and reopen it. Wait 5 minutes after each of these steps and see if your issue resolves. It usually will. Don't forget to do these two simple steps to get back to a green loop.  For more red loop troubleshooting, you can check out <a href="https://loopkit.github.io/loopdocs/troubleshooting/yellow-red-loop/">this page</a>.</p>
+<pre><code>Also, be aware that there's a **troubleshooting page for Pod pairing** issues, too. If you run into any issues during Pod pairing, PLEASE make sure to read [this page](https://loopkit.github.io/loopdocs/troubleshooting/pod-pairing/) to save yourself from wasting Pods unnecessarily.
+
+Ok, back to the building instructions.
+</code></pre>
 <h2 id="build-finished">Build Finished<a class="headerlink" href="#build-finished" title="Permanent link">&para;</a></h2>
-<div class="admonition info">
-<p class="admonition-title">First time building on a new device?</p>
-<p>If this is the first time you have installed an app on your iPhone using your developer account, you may get a warning like below after a successful build. Don't worry, Loop usually installed just fine on the phone but needs you to do an extra step on the phone before Loop app can open. Just follow the directions shown in the warning for what you need to do on your iPhone. Go to Settings-&gt;General-&gt;Device Management (or profiles, Profiles &amp; Device Management on newer iOS) and enable trust for your Developer Account. If you are missing the Device Management/Profiles option in your iPhone settings, then head over to <a href="https://loopkit.github.io/loopdocs/build/build_errors/#device-management-could-not-launch-loop">this Build Error section</a> to find the solution.
-<p align="center">
-<img src="../img/trust_device.jpg" width="750">
-</p></p>
-</div>
-<div class="admonition danger">
-<p class="admonition-title">BUILD SUCCEEDED</p>
-<p>Congrats! If the build is successful, you'll see the message or "Running Loop..." across the top of the Xcode window. Your brand new Loop app will have a screen open immediately on the iPhone asking about allowing Loop notifications and Health App access. <code>Allow</code> Loop to send you notifications. In the next screen that follows that, click on the <code>Turn All Categories On</code> line and then click <code>Allow</code> in the upper right corner. </p>
-<p><p align="center">
-<img src="../img/health-start.JPEG" width="450">
-</p></br></br></p>
-<p><strong>You can unplug your phone from the computer now.</strong> And like we promised earlier, you will use the <a href="https://loopkit.github.io/loopdocs/operation/loop-settings/settings/">Setup App section of this website</a> to keep proceeding safely.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">FAQ: But what about those yellow alerts that remain in Xcode? Should I worry about them?</p>
-<p>If you see yellow alerts after your build is done...those are not an issue. Whether your build succeeded or failed...the yellow warnings play no role in either outcome. Don't try to resolve them or fret about them. They mean nothing to the successful use of your Loop app.
-<p align="center">
-<img src="../img/yellow-warnings.png" width="750">
- </p></p>
-</div>
-<div class="admonition danger">
-<p class="admonition-title">BUILD FAILED</p>
-<p>Don't despair. Build failures are pretty easily fixed. If you get a message that your build failed and see <strong>RED ERROR</strong> messages, just go to the <a href="../build_errors/">Build Errors</a> page to find the steps to fix your build error based on the message displayed.</p>
-<p><p align="center">
-<img src="../img/general-error.jpg" width="750">
-</p></p>
-</div>
+<p>!!! info "First time building on a new device?" If this is the first time you have installed an app on your iPhone using your developer account, you may get a warning like below after a successful build. Don't worry, Loop usually installed just fine on the phone but needs you to do an extra step on the phone before Loop app can open. Just follow the directions shown in the warning for what you need to do on your iPhone. Go to Settings-&gt;General-&gt;Device Management (or profiles, Profiles &amp; Device Management on newer iOS) and enable trust for your Developer Account. If you are missing the Device Management/Profiles option in your iPhone settings, then head over to <a href="https://loopkit.github.io/loopdocs/build/build_errors/#device-management-could-not-launch-loop">this Build Error section</a> to find the solution.
+    <p align="center">
+    <img src="../img/trust_device.jpg" width="750">
+    </p></p>
+<p>!!!danger "BUILD SUCCEEDED" Congrats! If the build is successful, you'll see the message or "Running Loop..." across the top of the Xcode window. Your brand new Loop app will have a screen open immediately on the iPhone asking about allowing Loop notifications and Health App access. <code>Allow</code> Loop to send you notifications. In the next screen that follows that, click on the <code>Turn All Categories On</code> line and then click <code>Allow</code> in the upper right corner. </p>
+<pre><code>&lt;p align="center"&gt;
+&lt;img src="../img/health-start.JPEG" width="450"&gt;
+&lt;/p&gt;&lt;/br&gt;&lt;/br&gt;
+
+**You can unplug your phone from the computer now.** And like we promised earlier, you will use the [Setup App section of this website](https://loopkit.github.io/loopdocs/operation/loop-settings/settings/) to keep proceeding safely.
+</code></pre>
+<p>!!!warning "FAQ: But what about those yellow alerts that remain in Xcode? Should I worry about them?" If you see yellow alerts after your build is done...those are not an issue. Whether your build succeeded or failed...the yellow warnings play no role in either outcome. Don't try to resolve them or fret about them. They mean nothing to the successful use of your Loop app.
+    <p align="center">
+    <img src="../img/yellow-warnings.png" width="750">
+     </p></p>
+<p>!!!danger "BUILD FAILED" Don't despair. Build failures are pretty easily fixed. If you get a message that your build failed and see <strong>RED ERROR</strong> messages, just go to the <a href="../build_errors/">Build Errors</a> page to find the steps to fix your build error based on the message displayed.</p>
+<pre><code>&lt;p align="center"&gt;
+&lt;img src="../img/general-error.jpg" width="750"&gt;
+&lt;/p&gt;
+</code></pre>
 <h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
 <p>If your build failed, you need to proceed to the <a href="../build_errors/">Build Errors</a> page to find the solution. Please head there to find the help you need.</p>
 <p>If no build errors, you're done building your Loop app...</p>
