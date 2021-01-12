@@ -5,7 +5,7 @@
     * 30-60 Minuten, falls MacOS-Updates installiert werden müssen
 
 !!! Info "Zusammenfassung"
-    * Check your macOS and make sure it is Mojave or Catalina. **If you have the latest iOS version on the iPhone that will be using Loop...then you need Catalina.**
+    * Überprüfe deine MacOS Version, es sollte Mojave oder Catalina sein. **Wenn auf deinem iPhone, auf dem du Loop installieren wirst, die aktuelle iOS Version (14.x) läuft, dann musst du MacOS Catalina auf deinem Apple Computer installiert haben.**
     * Do not use any of the beta macOS versions. (If you don't know what that means, don't worry...that means you aren't using one.)
     * If your macOS is not Mojave or Catalina, check to see if you can up update your macOS to one of those.
     * If you cannot upgrade your existing computer to Mojave or Catalina, you'll need to check into a borrowed computer, patcher tool, or perhaps a new/used computer compatible with Mojave or Catalina.
