@@ -14,33 +14,40 @@ You can now use your Nightscout site to remotely set and cancel your override pr
 
 Remote overrides were in dev branch of Loop beginning October 13, 2019 and in master branch as of December 31, 2019. If you built one of those branches before those dates, you'll need to update your Loop app to be able to access remote overrides.  Be sure to review all the steps for updating your Loop app [here](../build/updating.md).
 
-!!!danger "iPhone settings specific for remote overrides" For remote overrides to successfully deploy on a Looper's iPhone, they will need to have two settings on the iPhone enabled. First, Loop's slider in iPhone Settings, Notifications needs to be turned on.  Without notifications, the person trying to set a remote override will see the message about "no deviceToken" and no remote override will actually enact. Second, the Looper's iphone needs the slide on in iPhone Settings, General, Background App Refresh. If this is not enabled, the remote overrides will not enact if the Loop app is not actively open on the phone's main screen.
+!!!danger "iPhone settings specific for remote overrides"
+
+    For remote overrides to successfully deploy on a Looper's iPhone, they will need to have two settings on the iPhone enabled. First, Loop's slider in iPhone Settings, Notifications needs to be turned on.  Without notifications, the person trying to set a remote override will see the message about "no deviceToken" and no remote override will actually enact. Second, the Looper's iphone needs the slide on in iPhone Settings, General, Background App Refresh. If this is not enabled, the remote overrides will not enact if the Loop app is not actively open on the phone's main screen.
 
 
 ## Step 2: Apple Push Notifications
-The next part of this will help your Loop app give permissions to your Nightscout site to remotely interact with it.</br></br>
-1. Login to your [Apple developer account](https://developer.apple.com/account/) with the Apple ID associated with your developer team that you used to sign your Loop app.</br></br>
+
+The next part of this will help your Loop app give permissions to your Nightscout site to remotely interact with it.
+
+1. Login to your [Apple developer account](https://developer.apple.com/account/) with the Apple ID associated with your developer team that you used to sign your Loop app.
 2. Click on "Certificates, Indentifiers & Profiles" and then, on the next page, click on "Keys" (located on the left-hand column). Click on the blue "Create a new key" **OR** the "+" icon to add a new key.
 
 <p align="center">
 <img src="../img/apns-add-key.png" width="550">
-</p> 
-</br></br>
+</p>
+
 3. In the form that appears, click the checkbox for enabling "Apple Push Notifications service (APNs)" and enter a name for the key such as "Nightscout". Then click the "Continue" button in the upper right of the screen.
 
 <p align="center">
 <img src="../img/key-apns.png" width="550">
-</p> </br></br>
+</p>
+
 4. In the screen that follows, click the blue "Register" button.
 
 <p align="center">
 <img src="../img/apns-register.png" width="550">
-</p> </br></br>
+</p>
+
 5. In the screen that follows, click the blue "Download" button. This step will download a file with a name that starts with "AuthKey" and ends with ".p8".
 
 <p align="center">
 <img src="../img/apns-download.png" width="550">
-</p> </br></br>
+</p>
+
 6. Find your AuthKey download in your downloads folder. Double-click to open it and you will be presented a message asking how you'd like to open it. Click on "Choose Application..." and then select "TextEdit" as your application to open it with.
 
 <p align="center">
@@ -49,19 +56,24 @@ The next part of this will help your Loop app give permissions to your Nightscou
 
 <p align="center">
 <img src="../img/apns-textedit.png" width="550">
-</p> </br></br>
+</p>
+
 7. When the file opens, it will look similar to the screenshot below. In a few minutes, after we do a few other steps first, we will need to highlight **ALL OF THE CONTENTS** of that file and copy it because we will be pasting it in Heroku. Yes, allllll of the contents. So, easiest way is to click inside that file and then press `command-a` to highlight all the text and then `command-c` to copy it all to the clipboard. You don't have to do it right now...just keep that window open in the background for now until we need it a little further down. Then we will copy all that text.
 
 <p align="center">
 <img src="../img/apns-copy-key.png" width="550">
-</p> </br></br>
+</p>
 
 ## Step 3: Update Nightscout site
 
 You'll need to update your Nightscout site to use the latest version of cgm-remote-monitor. It is called Ketchup and the version number is 13.0.1. You can check your version number by looking at the bottom of your NS site's settings, near where the authentication button is located. The easiest way to do to update your Nightscout site is to follow the steps in the video below.
 
-!!!danger "" Use this video for an easy process to update your Nightscout site: <p align="center"> [**Easy Nightscout Update Video**](https://youtu.be/C0edTQhO21g)
+!!!danger
 
+    Use this video for an easy process to update your Nightscout site:
+    <p align="center">
+    [**Easy Nightscout Update Video**](https://youtu.be/C0edTQhO21g)
+    
     A quick note about the video instructions:
     </p> 
     If you don't see any branches to select to deploy and are missing the deploy button when you get to that step...you need to do one easy step. Select/click the "GitHub" icon from the middle of your Heroku screen. Then enter your GitHub account name to connect to that account. Once connected to your account, enter `cgm-remote-monitor` as the repo you'd like to use to connect with specifically. That will fix the issue and you'll then see the deploy buttons like in the video.

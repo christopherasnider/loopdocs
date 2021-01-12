@@ -6,7 +6,7 @@ Override presets are (1) optional and (2) can be configured within Loop's workou
 
 <p align="center">
 <img src="../img/toolbar.png" width="450">
-</p></br>
+</p>
 
 ## How overrides work
 
@@ -24,7 +24,9 @@ Recapping: If you set an overall insulin needs adjustment below 100%, you are te
 
 Overrides will work while you are Looping. Sounds obvious, right? But, the thing to remember is that the adjustments (multipliers) that overrides make are not saved back to your Medtronic pump or Omnipod. They only exist in the Loop app.
 
-!!!danger "If you walk away from iPhone and/or RileyLink..." If you stop Looping (i.e., walk away from your gear), your existing temp basal will complete the remainder of whatever is left of its original 30 minutes and you will return to scheduled basal rates AS DEFINED IN YOUR LOOP SETTINGS. Your adjusted needs as set-up in any override will not continue if your Loop is not running properly. So you cannot set a 50% override and then hop in the ocean for a 2-mile swim without your iPhone and RileyLink and expect decreased basals of 50%. Just be aware that in situations where you need prolonged lower basals while away from Looping gear, you will need to edit your scheduled basals.
+!!!danger "If you walk away from iPhone and/or RileyLink..."
+
+    If you stop Looping (i.e., walk away from your gear), your existing temp basal will complete the remainder of whatever is left of its original 30 minutes and you will return to scheduled basal rates AS DEFINED IN YOUR LOOP SETTINGS. Your adjusted needs as set-up in any override will not continue if your Loop is not running properly. So you cannot set a 50% override and then hop in the ocean for a 2-mile swim without your iPhone and RileyLink and expect decreased basals of 50%. Just be aware that in situations where you need prolonged lower basals while away from Looping gear, you will need to edit your scheduled basals.
 
 Overrides also should not be used as a temporary sledgehammer to force Loop into an immediate suspend. There have been users, for example, setting a 10% override to force Loop to suspend. Then they've decided to manually bolus for food during the time that override is active. Loop will be assuming you only need 10% of your usual insulin needs...so the insulin you delivered to cover the meal will be perceived as ridiculously too much and your predicted BG curve will turn very, very low for the next 6 hours or so. Instead of trying to use a 10% override to force Loop into a suspend, you are better off simply issuing a suspend command to the pod and setting a reminder in your phone to resume insulin deliver later. Another option would be (assuming you aren't going out for a swim away from your Loop gear)...just let Loop do its thing and suspend insulin delivery via temp basals as needed.
 
@@ -41,7 +43,6 @@ All the rows need to be filled out in the preset in order to save your new prese
 * Select whether you want the override to run indefinitely or for a finite time.
 
 When you've made all those adjustments, save the the preset using the "Save" button in the upper right corner.
-
 
 ## Activating your override
 
