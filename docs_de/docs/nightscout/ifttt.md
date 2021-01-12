@@ -85,43 +85,23 @@ IFTTT calls their little actions that you'll create an "applet". I have no idea 
 <img src="../img/webhooks25.png" width="650">
 </p>
 
-!!!danger "URL"
+!!!danger "URL" `https://yoursite.herokuapp.com/api/v1/treatments.json` (for all IFTTT recipes that are NOT remote overrides...so things like cannula changes, sensor changes, pump battery changes, etc.)</br></br> Change the "yoursite" to your actual site's info.
 
-    `https://yoursite.herokuapp.com/api/v1/treatments.json` (for all IFTTT recipes that are NOT remote overrides...so things like cannula changes, sensor changes, pump battery changes, etc.)</br></br>
-    Change the "yoursite" to your actual site's info.
+!!!warning "Method" The method will be `POST`
 
-!!!warning "Method"
+!!!info "Content Type" The content type will be `application/json`.
 
-    The method will be `POST`
-
-!!!info "Content Type"
-
-    The content type will be `application/json`.
-
-!!!danger "Body"
-
-    The content of the body will depend on the action that you would like this particular button press to perform. While many recipes are available, any recipe that log carbs to NS will only display the carbs in Nightscout...Loop will not "use" those carbs in treatment or prediction math. The display of carbs in NS though may still be helpful for remote care givers to leave an indication that a low is being noticed and treated.  Some sample content for actions that may be useful in Loop:</br></br>
-    **Pump Site Change**</br>
-    {"enteredBy": "IFTTT-button", "eventType": "Site Change", "duration": 0, "secret": "your_hashed_api_goes_here!!!"}</br></br>
-    **CGM Sensor Start**</br>
-    {"enteredBy": "IFTTT-button", "eventType": "Sensor Start", "duration": 0, "secret": "your_hashed_api_goes_here!!!"}</br></br>
-    **Note**</br>
+!!!danger "Body" The content of the body will depend on the action that you would like this particular button press to perform. While many recipes are available, any recipe that log carbs to NS will only display the carbs in Nightscout...Loop will not "use" those carbs in treatment or prediction math. The display of carbs in NS though may still be helpful for remote care givers to leave an indication that a low is being noticed and treated.  Some sample content for actions that may be useful in Loop:</br></br> **Pump Site Change**</br>
+    {"enteredBy": "IFTTT-button", "eventType": "Site Change", "duration": 0, "secret": "your_hashed_api_goes_here!!!"}</br></br> **CGM Sensor Start**</br>
+    {"enteredBy": "IFTTT-button", "eventType": "Sensor Start", "duration": 0, "secret": "your_hashed_api_goes_here!!!"}</br></br> **Note**</br>
     {"enteredBy": "IFTTT-button", "eventType": "Note", "notes": "Hi mom, please don't text me for a bit.  I'm taking a test.", "secret": "your_hashed_api_goes_here!!!"}</br></br>
 
-!!!warning "Special note for IFTTT to set a Remote Override with dev branch"
-
-    Triggering a remote override with IFTTT takes a couple considerations;</br></br>
-    1. You have followed [the directions for setting up remote overrides](remote-overrides.md) in Nightscout already.</br></br>
-    2. Remote overrides will use **`https://yoursite.herokuapp.com/api/v2/notifications/loop`** for the URL line of the applet. Notice that is different from the other type of applets' URL.</br></br>
-    3. The Body message of the applet needs to match the override already programmed in Loop app; the reason, reasonDisplay, and duration all need to match what is preset in your Loop app. The "duration" is giving in minutes in the body message (vs hours in Loop), and if the override is one that is "enabled indefinitely" then the duration is "infinite". The "reason" is the name of the override but NO EMOJI, and the "reasonDisplay" is the override name with the emoji. Check out the samples Body messages for overrides below. You will have to edit your body messages to match your reason and reasonDisplay. The target range and duration of the override does not need to be specified. </br></br>
-    **Body message for override named "hormones"**</br>
-    {"eventType": "Temporary Override", "reason": "hormones", "reasonDisplay": "🧟‍♀️ hormones", "secret": "your_hashed_api_goes_here!!!"}</br></br>
-    **Body message for override named "running"**</br>
-    {"eventType": "Temporary Override", "reason": "running", "reasonDisplay": "🏃‍♀️ running", "secret": "your_hashed_api_goes_here!!!"}</br></br>
-    **Body message for override named "Low Treatment"**</br>
-    {"eventType": "Temporary Override", "reason": "Low Treatment", "reasonDisplay": "🍬 Low Treatment", "secret": "your_hashed_api_goes_here!!!"}</br></br>
-    **Body message to cancel any override**</br>
+!!!warning "Special note for IFTTT to set a Remote Override with dev branch" Triggering a remote override with IFTTT takes a couple considerations;</br></br> 1. You have followed [the directions for setting up remote overrides](remote-overrides.md) in Nightscout already.</br></br> 2. Remote overrides will use **`https://yoursite.herokuapp.com/api/v2/notifications/loop`** for the URL line of the applet. Notice that is different from the other type of applets' URL.</br></br> 3. The Body message of the applet needs to match the override already programmed in Loop app; the reason, reasonDisplay, and duration all need to match what is preset in your Loop app. The "duration" is giving in minutes in the body message (vs hours in Loop), and if the override is one that is "enabled indefinitely" then the duration is "infinite". The "reason" is the name of the override but NO EMOJI, and the "reasonDisplay" is the override name with the emoji. Check out the samples Body messages for overrides below. You will have to edit your body messages to match your reason and reasonDisplay. The target range and duration of the override does not need to be specified. </br></br> **Body message for override named "hormones"**</br>
+    {"eventType": "Temporary Override", "reason": "hormones", "reasonDisplay": "🧟‍♀️ hormones", "secret": "your_hashed_api_goes_here!!!"}</br></br> **Body message for override named "running"**</br>
+    {"eventType": "Temporary Override", "reason": "running", "reasonDisplay": "🏃‍♀️ running", "secret": "your_hashed_api_goes_here!!!"}</br></br> **Body message for override named "Low Treatment"**</br>
+    {"eventType": "Temporary Override", "reason": "Low Treatment", "reasonDisplay": "🍬 Low Treatment", "secret": "your_hashed_api_goes_here!!!"}</br></br> **Body message to cancel any override**</br>
     {"eventType": "Temporary Override Cancel", "secret": "your_hashed_api_goes_here!!!"}</br></br>
+
 
 * Click the `Create Action` button on the bottom of the screen when you finish.
 
