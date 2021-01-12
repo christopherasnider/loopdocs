@@ -6,13 +6,13 @@
 
 !!! Info "Zusammenfassung"
     * Überprüfe deine MacOS Version, es sollte Mojave oder Catalina sein. **Wenn auf deinem iPhone, auf dem du Loop installieren wirst, die aktuelle iOS Version (14.x) läuft, dann musst du MacOS Catalina auf deinem Apple Computer installiert haben.**
-    * Arbeite nicht mit einer Beta MacOS Version. (Ignoriere diesen Punkt, wenn du nicht weist, was das ist... es bedeutet, dass du kein Beta MacOS auf deinem Apple Computer verwendest.)
+    * Arbeite nicht mit einer Beta MacOS Version. (Du kannst diesen Punkt ignorieren, wenn du nicht weist, was das ist... es bedeutet, dass du kein Beta MacOS auf deinem Apple Computer verwendest.)
     * Solltest du nicht MacOS Mojave oder Catalina verwenden ueberpruefe, ob du auf eines davon aktualisieren kannst.
     * Wenn du deinen Apple Computer nicht auf Mojave oder Catalina aktualieren kannst, bleiben dir die folgenden Optionen. Einen passenden Computer ausleihen, ein "patcher tool" verwenden, oder einen neuen/gebrauchten kompatiblen Apple Computer kaufen.
     * Überprüfe `Software Aktualisierungen`, ob dein Computer auf dem letzten Stand ist. Wenn nicht, führe die Aktualisierungen zuerst durch.
 
 !!!warning "FAQs"
-    * **"Kann ich auch einen PC / Windows benutzen? Ich habe keinen Apple Computer."**Ja, es geht schon... Info [this FAQ about using Virtual Machine](/faqs/FAQs/#can-i-use-a-pc-or-windows-computer-to-build). PCs mit einem AMD Prozessor Chip können keinen Apple Computer emulieren. Wenn du das probieren möchtest schaue also zuerst nach, welchen Prozessor Chip du in deinem PC hast.
+    * **"Kann ich auch einen PC/Windows benutzen? Ich habe keinen Apple Computer."** Ja, es geht schon... Info [this FAQ about using Virtual Machine](/faqs/FAQs/#can-i-use-a-pc-or-windows-computer-to-build). PCs mit einem AMD Prozessor Chip können keinen Apple Computer emulieren. Wenn du das probieren möchtest schaue also zuerst nach, welchen Prozessor Chip du in deinem PC hast.
     * **"What can I do if my computer is too old to be upgraded to Catalina?"** You could take a look at using [Catalina Patcher](http://dosdude1.com/catalina/), but this is totally on your own and not part of these instructions. Just offering the answer to the FAQ...it is up to you to read about the patcher tool and what risks it may involve for you.
     * **"Can I borrow someone else's Apple computer?"** Yes, please see [this FAQ about borrowing a computer](/faqs/FAQs/#do-i-need-to-own-my-own-apple-computer) to learn more.
     * **"How often do I need to use the computer?"** Computer access is only required when you are initially installing the Loop app or updating to a newer Loop release. You do NOT need access to an Apple computer in order to troubleshoot or change Loop settings, such as basal profiles or carb ratios.
