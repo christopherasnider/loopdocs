@@ -1,9 +1,6 @@
 site_name: Loop documentation
 repo_url: https://github.com/LoopKit/loopdocs
 
-google_analytics:
-  - G-0R6XF6D528
-  - auto
 
 markdown_extensions:
     - meta

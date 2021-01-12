@@ -6,10 +6,6 @@ markdown_extensions:
     - toc:
         permalink: true
 
-google_analytics:
-  - G-0R6XF6D528
-  - auto
-
 plugins:
   - search
 
