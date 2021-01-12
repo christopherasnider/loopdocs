@@ -40,6 +40,7 @@ Your RL will come with the battery disconnected and the parts not already inside
 Make sure the lipo battery is well-plugged into the connection. Line up the little ridge appropriately, and push fairly firmly to get the connection tight.  Poor battery cable connection can make the Loop communications fail.  See photos below, for example.
 
 !!!info "Common new user errors"
+
     The most common two errors for new RL owners are (1) not fully pushing in the lipo battery cable connection and (2) failing to charge the RL. Compare your lipo battery cable with the photos; it takes a bit of oomph to push that plug fully in like the photos shown below. Remember to charge your RL each night.
 
 <p><figure align="center">
