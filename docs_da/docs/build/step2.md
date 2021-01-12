@@ -1,20 +1,20 @@
-# Step 2: Compatible iPhone or iPod touch
+# Trin 2: Kompatibel iPhone eller iPod touch
 
-!!!danger "Time Estimate"
-    * 5 minutes, if already have iOS 12.4 or newer
-    * 20 minutes, if need to update your compatible device to iOS 12.4 or newer
-    * 10 minutes, if you need to order a device from Apple website
-    * 0 minutes, if you own an Android and won't buy Apple products...that's fine, too.
+!!!danger "Tidsestimat"
+    * 5 minutter, hvis allerede har iOS 12.4 eller nyere
+    * 20 minutter, hvis det er nødvendigt at opdatere din kompatible enhed til iOS 12.4 eller nyere
+    * 10 minutter, hvis du har brug for at bestille en enhed fra Apples hjemmeside
+    * 0 minutter, hvis du ejer en Android og ikke vil købe Apple-produkter... det er fint, også.
 
-!!!info "Summary"
-    * Check your iOS version and make sure you have 12.4 minimum.
-    * Do not use any of the beta iOS versions. (Don't worry...if you don't know what that means, then you aren't using one.)
-    * If using Dexcom CGM, your Looping iPhone/iPod touch will need the Dexcom app installed on it in order to Loop without an internet connection.
+!!!info "Resume"
+    * Tjek din iOS-version og sørg for at du har 12,4 minimum.
+    * Brug ikke nogen af beta- macOS-versionerne. (Bare rolig ... hvis du ikke ved, hvad det betyder, så er du ikke bruger en.)
+    * Hvis du bruger Dexcom CGM, din Looping iPhone / iPod touch skal Dexcom app installeret på den for at Loop uden en internetforbindelse.
 
 !!!warning "FAQs"
-    * **"Can I use an android?"** No.
-    * **"But why not?"** Because Loop is written in Apple's Swift language, which does not compile onto Android operating systems.  Loop also relies on Apple Health, and Android does not have a suitable native equivalent.
-    * **"Can I use an iPad?"** No. iPads do not support Apple Health and that is an important part of Loop's inner workings.
+    * **"Kan jeg bruge en android?"** Nej.
+    * **"Men hvorfor ikke?"** Fordi Loop er skrevet i Apples Swift-sprog, som ikke kompilerer til Android-operativsystemer.  Loop er også afhængig af Apple Health, og Android har ikke en passende native tilsvarende.
+    * **"Kan jeg bruge en iPad?"** Nej. iPads understøtter ikke Apple Health, og det er en vigtig del af Loop's funktioner.
     * **"Does my iPhone need cell plan?"** No. Loop will work without an internet connection...however you will not have Dexcom Follow data or Nightscout data if you choose to use a device that doesn't have an internet connection. In other words Loop will work, but remotely watching followers won't see Looping data unless the Loop device has an internet connection.
 
 ## Which Devices are compatible? Why those?

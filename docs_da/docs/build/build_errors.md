@@ -1,76 +1,76 @@
-# Build Errors
+# Byg Fejl
 
-There are two types of build errors that happen; they are yellow warnings and red alerts. You'll see the warnings and alerts in the left-hand column of the Xcode window.
+Der er to typer af byggefejl, der sker. De er gule advarsler og røde advarsler. Du vil se advarsler og advarsler i venstre kolonne i Xcode vinduet.
 
-<font color="orange">**Yellow warnings**</font> do not cause the build to fail, those are just warnings.  Occasionally, a Loop version may have some minor discrepancies that cause a yellow alert...ignore those. Do not try to do anything to fix those...leave them alone.
+<font color="orange">**Gule advarsler**</font> får ikke bygningen til at mislykkes, det er bare advarsler.  Lejlighedsvis, en Loop version kan have nogle mindre uoverensstemmelser, der forårsager en gul advarsel...ignorere dem. Forsøg ikke at gøre noget for at rette dem... lad dem alene.
 
-<font color="red">**Red error alerts** </font> will have to be resolved before you can successfully build the Loop app. The steps below explain how to resolve them based on the messages you are seeing.
+<font color="red">**Rød fejl advarsler** </font> skal løses, før du kan opbygge Loop appen. Nedenstående trin forklarer, hvordan du løser dem baseret på de meddelelser, du ser.
 
-## Start with the obvious error causes
+## Start med den åbenlyse fejl årsager
 
-Before you start trying to resolve your red errors...start with the most obvious things that can cause a red error message:
+Før du begynder at forsøge at løse dine røde fejl...starte med de mest indlysende ting, der kan forårsage en rød fejlmeddelelse:
 
-1. **DO NOT USE BETA VERSIONS**  If you are using an iOS beta version or an Xcode beta version, your Loop will not build. If you have Xcode beta, uninstall it and get regular Xcode. If you have iOS beta on your iPhone, you will need to restore your iPhone entirely. You can restore to either (1) the last non-beta backup version you saved or (2) restore as a new iPhone (default settings). Yes, deleting iOS beta is a pain...so don't install it in the first place.
+1. **BRUG IKKE BETA VERSIONS**  Hvis du bruger en iOS beta version eller en Xcode beta version, vil din Loop ikke bygges. Hvis du har Xcode beta, afinstallere det og få en ikke-beta version af Xcode. Hvis du har iOS beta på din iPhone, skal du gendanne din iPhone helt. Du kan gendanne til enten (1) den sidste ikke-beta-backup version, du har gemt, eller (2) gendanne som en ny iPhone (standardindstillinger). Ja, sletning af iOS beta er en smerte ... så du skal ikke installere det i første omgang.
 
-2. **Did you check for Xcode updates?** Cannot emphasize this one enough...you should check for Xcode updates (and install them) before building. If you are updating your Loop app, you often have updated your iOS since the previous build. This may require a macOS update in order to have the App Store tell you there's an even newer Xcode available. So...check both macOS and then Xcode for updates!!
+2. **Har du tjekket for Xcode opdateringer?** Kan ikke understrege dette nok... du bør tjekke for Xcode opdateringer (og installere dem), før du bygger. Hvis du opdaterer din Loop app, har du ofte opdateret din iOS siden forrige build. Dette kan kræve en macOS-opdatering for at få App Store til at fortælle dig, at der er en endnu nyere Xcode tilgængelig. Så tjek både macOS og derefter Xcode for opdateringer!!
 
-3. **Did you check your Apple developer account for new license agreement?** Periodically, Apple will release a new developer license agreement that you need to sign before you can build new apps. You will get a build failure if there is a pending license agreement to sign. [Login to your Apple developer account](https://developer.apple.com/account) to check if there's a new license agreement.
+3. **Kontrollerede du din Apple-udviklerkonto for ny licensaftale?** Periodisk vil Apple frigive en ny udvikler licensaftale, som du skal underskrive, før du kan bygge nye apps. Du vil få en byggefejl, hvis der er en ventende licensaftale at underskrive. [Log på din Apple-udviklerkonto](https://developer.apple.com/account) for at kontrollere, om der er en ny licensaftale.
 
-4. **Did you reboot your computer after updating Xcode?** Yup...that was in the reminder on the page about updating your Loop app...did you ignore it? ;)
+4. **Har du genstartet din computer efter opdatering Xcode?** Yup... der var i påmindelsen på siden om opdatering af din Loop-app... ignorerede du det? ;)
 
-5. **Did you get a fresh download of Loop code, don't just recycle an old download that you built with a long time ago?** That old version may not be compatible with new iOS and new Xcode versions.
+5. **Har du fået en frisk download af Loop kode, ikke bare genbruge en gammel download, som du bygget med lang tid siden?** Den gamle version er muligvis ikke kompatibel med nye iOS og nye Xcode versioner.
 
-6. **Are you are using a free developer account?** Make sure you finished the [removal of Siri and Push Notification capabilities](https://loopkit.github.io/loopdocs/build/step14/#sign-four-targets).
+6. **Bruger du en gratis udviklerkonto?** Sørg for at du er færdig med [fjernelse af Siri og Push Notification kapaciteter](https://loopkit.github.io/loopdocs/build/step14/#sign-four-targets).
 
-## First good step to 95% of all errors
+## Første gode skridt til 95% af alle fejl
 
-If you have checked all those steps above and think you have a true build error...here's the best starting place that resolves 95% of all build errors.
+Hvis du har tjekket alle disse trin ovenfor og tror, du har en sand byggefejl ... her er det bedste udgangspunkt, der løser 95 % af alle byggefejl.
 
-1. Open your project in Xcode as normal. Then go to the Xcode menu at the top of the screen and find the "Product" menu item. Use the drop down selection for "Clean Build Folder" or press shift-command-K. Either will work the same.
-2. Open the Terminal app on your computer.
-3. Copy and paste this command and press return: `rm -rf ~/Library/Caches/org.carthage.CarthageKit` Note: you won't see any message back if the command runs successfully.
-4. Copy and paste this command and press return: `rm -rf ~/Library/Developer/Xcode/DerivedData` Note: you won't see any message back if the command runs successfully.
-5. **(As of October 12, 2020...please ignore this step for now.  Don't do it as Amplitude framework will cause this command to fail prematurely right now. When Amplitude is fixed, then I'll delete this note.) **Enter the command `cd ~/downloads/loop-master && carthage update`.  **NOTE:  YOU MAY HAVE TO CHANGE THE COMMAND SLIGHTLY if your folder isn't named loop-master as shown in the command.**  If your loop folder isn't named loop-master and instead is loop-dev or some other folder name...change the command to match your folder's actual name. Replace the "loop-master" with your folder's actual name. Carthage update will take about 15-25 minutes to run successfully.  A successful carthage update will look like the following:
+1. Åbn dit projekt i Xcode som normalt. Gå derefter til Xcode menuen øverst på skærmen og find menupunktet "Product". Brug dropdown markeringen til "Clean Build Folder" eller tryk på shift-command-K. Begge vil have samme virkning.
+2. Åbn Terminal-appen på din computer.
+3. Kopier og indsæt denne kommando og tryk returnering: `rm -rf ~/Library/Caches/org.carthage.CarthageKit` Bemærk: du vil ikke se nogen besked tilbage, hvis kommandoen kører med succes.
+4. Kopier og indsæt denne kommando og tryk return: `rm -rf ~/Library/Developer/Xcode/DerivedData` Bemærk: du vil ikke se nogen besked tilbage, hvis kommandoen kører med succes.
+5. **(Fra og med den 12. oktober, 2020...bedes du ignorere dette trin for nu.  Gør det ikke som Amplitude framework vil få denne kommando til at mislykkes for tidligt lige nu. Når Amplitude er rettet, så vil jeg slette denne note.) **Indtast kommandoen `cd ~/downloads/loop-master && carthage update`.  **BEMÆRK: Du skal muligvis ændre kommandoen en smule, hvis din mappe ikke er navngivet loop-master som vist i kommandoen.**  Hvis din Loop-mappe ikke hedder loop-master og i stedet er loop-dev eller et andet mappenavn... ændre kommandoen, så den passer til mappens faktiske navn. Erstat "loop-master" med din mappe's faktiske navn. Carthage opdatering vil tage omkring 15-25 minutter at køre med succes.  En vellykket carthage opdatering vil se ud som følgende:
 <p align="center">
 <img src="../img/carthage-update-success.png" width="550">
 </p>
 
 </p>
-6. Return to Xcode and now trying building your app again.
+6. Vend tilbage til Xcode, og prøv nu at bygge din app igen.
 
-If the build fails again, look through the list below and see if you can match up your error message with one specific error messages listed in the later section of this page. If you really can't find your solution (PLEASE LOOK for it...you need to see the circled bits to know where to look perhaps. There's a section below to help you with finding the error message), then post for help. BUT, use the section below to post. WE CANNOT HELP without that info covered in the section.
+Hvis build mislykkes igen, skal du gennemgå listen nedenfor og se, om du kan matche din fejlmeddelelse med en bestemt fejlmeddelelse, der er angivet i det senere afsnit på denne side. Hvis du virkelig ikke kan finde din løsning (se efter det ... du har brug for at se de kredsede bits at vide, hvor de skal lede, måske. Der er et afsnit nedenfor for at hjælpe dig med at finde fejlmeddelelsen), og derefter lave et opslag for at få hjælp. MEN, brug afsnittet nedenfor for at lave opslaget. Vi kan IKKE HJÆLPEN uden at oplysningerne, som er nævnt i afsnittet.
 
-## Posting for help
+## Opslag for at få hjælp
 
-STOP!!  Read this section! Important!
+STOP!!  Læs denne sektion! Vigtigt!
 
-Before you post in Zulipchat or Looped Group asking for help with build errors, <u>do your work first</u>. The build errors listed below (and the obvious checks listed above) are very successful ***IF PEOPLE READ THIS PAGE***. The volunteer group of people answering questions in Looped and Zulipchat would love to spend more time on improving Loop in other ways than answering build error questions that can be answered by using this page as a first step.
+Før du laver et opslag i Zulipchat eller Looped gruppen og beder om hjælp med bygge fejl, <u>gør dit arbejde først</u>. De bygge fejl, der er anført nedenfor (og de åbenlyse kontroller, der er anført ovenfor) er meget vellykket ***hvis folk læser denne side***. Den frivillige gruppe af mennesker, der besvarer spørgsmål i Looped og Zulipchat ville elske at bruge mere tid på at forbedre Loop på andre måder end at besvare bygge fejl spørgsmål, der kan besvares ved at bruge denne side som et første skridt.
 
-Therefore, first use the error topics (listed in sections below) to try to resolve your build error yourself. Then, if you need to post for help because this page did not fix your problem, you'll need to include information with the post so we (the troubleshooters) know you read this page and where you are in your troubleshooting attempts
+Derfor skal du først bruge fejlemner (angivet i afsnit nedenfor) for at forsøge at løse din build fejl selv. Derefter, hvis du har brug for hjælp, fordi denne side ikke løse dit problem, skal du inkludere oplysninger med indlægget, så vi (fejlfinderne) ved, at du læser denne side, og hvor du er i dine fejlfindingsforsøg
 
-!!!danger "Must include in your post"
-    * The version of Xcode you are using
-    * The version of Loop you are building with
-    * The version of iOS on your Loop iPhone
-    * Specify if you are using a free or paid account, and if free...confirm you deleted Siri and Push Notification capabilities
-    * Confirm you are not using an Xcode beta or iOS beta version (so we don't have to ask, actually type "I am not using beta versions"...this will save a lot of time and hassle)
-    * Screenshots of your WHOLE Xcode window and/or Terminal window showing your error and any messages you've seen while working through the build errors/solutions.  NOT phone pics.  See below for instructions on how to do this.
-    * **<u>State which fixes from the below list that you have already tried AND post the screenshots of the results of those fix attempts.</u>**
+!!!danger "Skal inkludere i dit indlæg"
+    * Den version af Xcode du bruger
+    * Versionen af Loop du bygger
+    * Versionen af iOS på din Loop iPhone
+    * Angiv, om du bruger en gratis eller betalt konto, og hvis gratis...bekræft at du har slettet Siri og Push Notification kapaciteter
+    * Bekræft, at du ikke bruger en Xcode beta- eller iOS-betaversion (så vi behøver ikke at spørge, faktisk skrive "Jeg bruger ikke betaversioner"... dette vil spare en masse tid og besvær)
+    * Skærmbilleder af hele Xcode-vinduet og/eller terminalvinduet, der viser din fejl og eventuelle meddelelser, du har set, mens du arbejder dig igennem buildfejl/-løsningerne.  IKKE billeder fra telefonen.  Se nedenfor for instruktioner om, hvordan man gør dette.
+    * **<u>Fortæl hvilke rettelser fra nedenstående liste, som du allerede har prøvet OG send screenshots af resultaterne af disse rettelsesforsøg.</u>**
 
-Helpful tip: Shift-Command-4-spacebar will give you a screenshot tool that you can use to click on the Xcode window to grab a screenshot. The screenshot will save to your desktop so you can include it in your post. Phone photos of your computer screen won't likely be of sufficient clarity to read the needed information and often cuts off valuable information that we look for in the various parts of the Xcode window. Use the whole Xcode window's screenshot when posting for help.
+Nyttigt tip: Shift-Command-4-spacebar vil give dig et screenshot værktøj, som du kan bruge til at klikke på Xcode vinduet for at få fat i et skærmbillede. Skærmbilledet vil gemme på skrivebordet, så du kan inkludere det i dit indlæg. Telefon billeder af din computerskærm vil sandsynligvis ikke være af tilstrækkelig klarhed til at læse de nødvendige oplysninger og ofte afskære værdifulde oplysninger, som vi leder efter i de forskellige dele af Xcode vinduet. Brug hele Xcode vinduets skærmbillede, når du sender til hjælp.
 
-## Find your error message(s)
+## Find din fejlmeddelelse
 
-To begin fixing the error, use the Report Navigator view to find your error message.
+For at begynde at rette fejlen, skal du bruge Rapport Navigator visningen til at finde din fejlmeddelelse.
 <p align="center">
 <img src="../img/report-nav.png" width="750">
 </p>
 
 </p>
 
-The key is to (1) ***READ THE ERROR MESSAGE*** and then (2) ***FIND YOUR MESSAGE IN ONE OF THE TOPICS BELOW***.
+Det centrale er at (1) ***læse fejlmeddelelsen*** og derefter (2) ***finde din besked i et af emnerne nedenfor***.
 
-Here's a super tip: Merely seeing the "exit code" in Xcode is not enough information to discern what error is causing your build to fail - some exit codes can have multiple causes. Look at the detailed message to really help guide your search for the matching solution.
+Her er en super tip: Blot at se "exit kode" i Xcode er ikke nok oplysninger til at skelne, hvad fejl er årsag din bygge til at mislykkes - nogle exit-koder kan have flere årsager. Look at the detailed message to really help guide your search for the matching solution.
 
 Notice how in the screenshots in the topics below, there are red circles highlighting certain error messages? Read your error messages similar to where those red circles are in the screenshots below. Once you find your error message (hint: not "exit code"), you can either:
 

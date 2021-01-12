@@ -1,10 +1,10 @@
-# Overview of Build Process
+# Übersicht des Build-Prozesses
 
-The overall installation process is pretty simple. We start with checking that you have the compatible gear needed to Loop, do a couple of  preparation steps on the computer, and then move onto building the Loop app.
+Der Installationsprozess ist einfach. Überprüfe zuerst, ob Du die kompatible Ausstattung hast, um Loop benutzen zu können. Dann musst Du ein paar Dinge mit dem Computer vorbereiten und kannst anschliessend mit der Erstellung der Loop-App beginnen.
 
-While all of this is probably quite intimidating at first, I promise that it is quite doable by the average computer user.
+Obwohl dies alles auf den ersten Blick einschüchternd sein kann, verspreche ich dir, dass es trozdem für den durchschnittlichen Computer-Benutzer gut machbar ist.
 
-!!!info "Take it one step at a time..." If you are worried about how long this will take, you can always stop at one of the steps and come back later. The steps are meant to be nice stopping points to take breaks if needed.
+!!!info "Einfach einen Schritt nach dem andern..." Wenn es einmal zu lange dauert, du unterbrechen möchtest, oder etwas noch nicht ganz klar ist, kannst du immer an einem der Schritte anhalten und später weitermachen. Genau aus diesem Grund ist der Build-Prozess in die einzellnen Schritte unterteilt.
 
 <p align="center">
 <img src="https://media.giphy.com/media/xThta8UkUaoqJoJQC4/giphy.gif" width="400">

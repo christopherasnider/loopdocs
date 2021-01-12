@@ -1,16 +1,16 @@
-# Algorithm FAQs
+# Algoritme FAQs
 
 
-## Does Loop "learn" or detect changes in your insulin needs?
+## Lærer Loop eller opdager den ændringer i dit insulinbehov?
 
-No. Loop assumes the settings you've provided are correct. If outside factors (such as hormones, illness, exercise, medications, etc) affect your underlying settings that determine insulin needs (basals, insulin sensitivity factor, carb ratio) you may need to manually adjust your settings. Loop will not "learn" or "assume" that your underlying needs have changed. Instead, Loop is designed to react to the changes in blood glucose and its insulin dosing decisions are based on the settings that you have entered in the app.
+Nej. Loop antager, at de indstillinger, du har angivet, er korrekte. Hvis eksterne faktorer (såsom hormoner, sygdom, motion, medicin, osv) påvirker dine grundlæggende indstillinger, der bestemme insulin behov (basale, insulinsensitivitetsfaktor, Carb ratio) kan det være nødvendigt at justere dine indstillinger manuelt. Loop vil ikke "lære" eller "antage", at dine grundlæggende behov har ændret sig. I stedet er Loop designet til at reagere på ændringerne i blodsukkeret, og dens beslutninger om insulindosering er baseret på de indstillinger, du har indtastet i appen.
 
 There is a short-term retrospective analysis built into Loop which will apply a weighted-correction based on the past 60 minutes of blood glucose changes. While this does help some, larger-scale "learning" is not currently a part of Loop's algorithm.
 
-Perhaps in subsequent versions of Loop, auto-adjustment of settings or machine learning could be incorporated. Until then, you will need to tell Loop if your underlying settings need updating or make temporary adjustments for short term issues. To understand why your settings matter, check out [Looptips.org](https://looptips.org).
+Måske i de kommende versioner af Loop, kunne auto-justering af indstillinger eller machine learning være med. Indtil da skal du fortælle Loop, om dine grundlæggende indstillinger skal opdateres eller foretage midlertidige justeringer for kortsigtede problemer. For at forstå, hvorfor dine indstillinger er vigtige, tjek [Looptips.org](https://looptips.org).
 
-## What does negative Active Insulin mean?
+## Hvad betyder negativt aktivt insulin?
 
-When Loop withholds or suspends some of your expected basal insulin, that starts an accumulation of insulin deficit. Similar to if you have a kinked cannula and insulin is not delivered, you'd call yourself "lacking insulin". That is the same concept of having negative active insulin (aka negative insulin on board). When you have negative insulin on board, it is a sign that Loop has been actively helping you prevent a low blood sugar. If you find significant negative insulin on board regularly, you probably need to [adjust/test your settings](https://kdisimone.github.io/looptips/settings/settings/).
+Når Loop tilbageholder eller suspenderer noget af dit forventede basale insulin, starter en ophobning af insulinunderskud. Svarende til, hvis du har en knækket kanyle og insulin ikke er blevet indgivet så vil du kalde det for "manglende insulin". Det er det samme begreb for at have negative aktive insulin (aka negativ insulin om bord). Når du har negativ insulin om bord, er det et tegn på, at Loop aktivt har hjulpet dig med at forhindre et lavt blodsukker. Hvis du jævnligt har væsentligt negativ insulin, skal du [justere/teste dine indstillinger](https://kdisimone.github.io/looptips/settings/settings/).
 
 ## 
