@@ -38,15 +38,15 @@ Omnipod-test branch har tjent sit formål som en indledende platform til at test
 
 Den 31. december 2019, blev Loop v2.0 udgivet (også kendt som "Loop opdateret Master branch"). Det betyder, at kogebogen fra dev branch (for at bruge vores tidligere analogi) blev fusioneret til master branch. Den 31. december var master og dev branch identiske.
 
-Fra denne dato og fremadrettet, vil Dev branch begynde at arbejde på sine nye opskrifter (kode) igen. Dev-branch vil begynde at afvige fra master branch med uprøvede ændringer og udvikling af ny kode. Dev branch may start to have some bugs and regressions as a result of the coming/going of code changes that will happen without much announcement or discussion.
+Fra denne dato og fremadrettet, vil Dev branch begynde at arbejde på sine nye opskrifter (kode) igen. Dev-branch vil begynde at afvige fra master branch med uprøvede ændringer og udvikling af ny kode. Dev branch kan nu have nogle fejl og tilbageløb som følge af de kode ændringer der bliver fortaget. Det vil ske uden at der bliver givet besked.
 
-So, most all users should now start building with master branch again...you will be getting the latest Loop release everytime you build with Loop master branch. That branch will stay in the same stable condition it has been for awhile now. Only use dev branch if you are interested in actively testing new code and have the ability to track/document bugs.
+Så, de fleste bør begynde at bygge med master branch ... du vil få den nyeste Loop udgivelse, hver gang du bygger med Loop master branch. Master branch vil blive i den samme stabile tilstand, som den har været i et stykke tid. Brug kun udviklings branch, hvis du er interesseret i aktivt at teste ny kode og har mulighed for at spore og dokumenter fejl.
 
-## What's new in Loop v2.0?
+## Hvad er nyt i Loop v2.0?
 
-This is definitely a popular question and comes in a few forms...
+Dette er absolut et populært spørgsmål og der er flere svar på det spørgsmål...
 
-What's new in Loop v2.0? What is the difference between Loop v2.0 and dev branch? Should I update if I use dev branch now?
+Hvad er nyt i Loop v2.0? Hvad er forskellen mellem Loop v2.0 og dev branch? Skal jeg opdatere, hvis jeg bruger udviklings branch?
 
 The question about what differences someone will notice between their existing Loop app and the new release...well I can only answer that if I knew which version/branch you are currently using (AND what date you built on if you are using dev branch). Because dev branch changes so often, the version someone is using from October 2019 won't necessarily be the same as the version someone built in November 2019.
 
