@@ -6,9 +6,11 @@ Kontroller først om dit sprog er på Loopdoc sprogside. Sproget siden kan finde
 
 Hvis dit sprog er opført her, er oversættelsesprojektet allerede opsat, og du kan blive medlem af oversættelsesteamet ved at følge vejledningen nedenfor.
 
-!!!note Hvis dit sprog ikke er listet og du gerne vil begynde at oversætte Loopdocs til et nyt sprog, opret venligst et 'issue' på github  \[here\](https://www.github.com/LoopDocs/loopdocs/issues/new?title=New language request&body=Can you please add [ENTER COUNTRY] for translation.).
+!!!note
 
-    Oversættelsesteamet vil derefter konfigurere det for dig. Når den er klar til oversættelse, giver vi dig besked i issuet, og så kan du blive en del af Crowdin-teamet.
+    If your language is not listed and you want to start translating Loopdocs into a new language, please submit an issue on github [here](https://www.github.com/LoopDocs/loopdocs/issues/new?title=New language request&body=Can you please add [ENTER COUNTRY] for translation.).
+    
+    The translation team will then setup it up for you. Once it ready for translation, we will notify you in the issue and then you can join the Crowdin Team.
 
 ## Bliv en del af Crowdin-teamet
 
@@ -41,7 +43,9 @@ Sætningerne er farvet i:
 
 **3. Enter translation here** - det er her du indtaster din oversættelse. Når du har indtastet din oversættelse klik på gem knappen. Crowdin vil derefter tage dig til næste sætning.
 
-!!!important Husk at klikke på gem-knappen ellers din oversættelse vil ikke blive gemt.
+!!!important
+
+    Husk at klikke på gem-knappen ellers din oversættelse vil ikke blive gemt.
 
 **4. Suggested translation of the sentence** - her vil du se en liste over sætninger, som Crowdin foreslår at bruge til din oversættelse. Du kan endda se oversættelsen til andre sprog nederst på listen. Hvis du ønsker at bruge den foreslåede oversættelse, kan du blot klikke på den og sætningen bliver overført til "Enter your translation". Derefter kan du redigere sætningen og klikke på gem. Hvis du bare ønsker at bruge den foreslåede sætning og ikke redigere det, kan du blot klikke på "Use and save".
 
@@ -49,4 +53,6 @@ Sætningerne er farvet i:
 
 **5. Comments** - Her kan du indtaste kommentarer om den oversættelse, du laver. Andre brugere kan se det, og du kan have en diskussion om brugen af sætningen.
 
-!!!info Det er almindelig praksis at bruge kildesproget til kommentarer. Det vil sige på engelsk.
+!!!info
+
+    Det er almindelig praksis at bruge kildesproget til kommentarer -> engelsk.

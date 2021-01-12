@@ -2,17 +2,17 @@
 
 !!!Gefahr "Geschätzte Zeit"
     * 5 Minuten, wenn du bereits Mojave (10.14) oder Catalina (10.15) auf deinem Apple Computer installiert hast
-    * 30-60 Minuten, falls MacOS-Updates installiert werden müssen
+    * 30-60 Minuten, falls MacOS Aktualisierungen installiert werden müssen
 
 !!! Info "Zusammenfassung"
-    * Check your macOS and make sure it is Mojave or Catalina. **If you have the latest iOS version on the iPhone that will be using Loop...then you need Catalina.**
-    * Do not use any of the beta macOS versions. (If you don't know what that means, don't worry...that means you aren't using one.)
-    * If your macOS is not Mojave or Catalina, check to see if you can up update your macOS to one of those.
-    * If you cannot upgrade your existing computer to Mojave or Catalina, you'll need to check into a borrowed computer, patcher tool, or perhaps a new/used computer compatible with Mojave or Catalina.
-    * Check the `Software Update` to see if your computer has any updates available since you first installed it.
+    * Überprüfe deine MacOS Version, es sollte Mojave oder Catalina sein. **Wenn auf deinem iPhone, auf dem du Loop installieren wirst, die aktuelle iOS Version (14.x) läuft, dann musst du MacOS Catalina auf deinem Apple Computer installiert haben.**
+    * Arbeite nicht mit einer Beta MacOS Version. (Ignoriere diesen Punkt, wenn du nicht weist, was das ist... es bedeutet, dass du kein Beta MacOS auf deinem Apple Computer verwendest.)
+    * Solltest du nicht MacOS Mojave oder Catalina verwenden ueberpruefe, ob du auf eines davon aktualisieren kannst.
+    * Wenn du deinen Apple Computer nicht auf Mojave oder Catalina aktualieren kannst, bleiben dir die folgenden Optionen. Einen passenden Computer ausleihen, ein "patcher tool" verwenden, oder einen neuen/gebrauchten kompatiblen Apple Computer kaufen.
+    * Überprüfe `Software Aktualisierungen`, ob dein Computer auf dem letzten Stand ist. Wenn nicht, führe die Aktualisierungen zuerst durch.
 
 !!!warning "FAQs"
-    * **"Can I use a PC or Windows computer? I don't own an Apple computer."** Yes...sort of. Please see [this FAQ about using Virtual Machine](/faqs/FAQs/#can-i-use-a-pc-or-windows-computer-to-build). Windows computers with AMD processors will not be able to successfully build using Virtual Machine, so please make sure you check your processor type before embarking down the Virtual Machine path.
+    * **"Kann ich auch einen PC / Windows benutzen? Ich habe keinen Apple Computer."**Ja, es geht schon... Info [this FAQ about using Virtual Machine](/faqs/FAQs/#can-i-use-a-pc-or-windows-computer-to-build). PCs mit einem AMD Prozessor Chip können keinen Apple Computer emulieren. Wenn du das probieren möchtest schaue also zuerst nach, welchen Prozessor Chip du in deinem PC hast.
     * **"What can I do if my computer is too old to be upgraded to Catalina?"** You could take a look at using [Catalina Patcher](http://dosdude1.com/catalina/), but this is totally on your own and not part of these instructions. Just offering the answer to the FAQ...it is up to you to read about the patcher tool and what risks it may involve for you.
     * **"Can I borrow someone else's Apple computer?"** Yes, please see [this FAQ about borrowing a computer](/faqs/FAQs/#do-i-need-to-own-my-own-apple-computer) to learn more.
     * **"How often do I need to use the computer?"** Computer access is only required when you are initially installing the Loop app or updating to a newer Loop release. You do NOT need access to an Apple computer in order to troubleshoot or change Loop settings, such as basal profiles or carb ratios.

@@ -20,9 +20,9 @@ Før du begynder at forsøge at løse dine røde fejl...starte med de mest indly
 
 5. **Har du fået en frisk download af Loop kode, ikke bare genbruge en gammel download, som du bygget med lang tid siden?** Den gamle version er muligvis ikke kompatibel med nye iOS og nye Xcode versioner.
 
-6. **Are you are using a free developer account?** Make sure you finished the [removal of Siri and Push Notification capabilities](/build/step14/#sign-four-targets).
+6. **Bruger du en gratis udviklerkonto?** Sørg for at du er færdig med [fjernelse af Siri og Push Notification kapaciteter](/build/step14/#sign-four-targets).
 
-## Første gode skridt til 95% af alle fejl
+## Første gode skridt til at løse 95% af alle fejl
 
 Hvis du har tjekket alle disse trin ovenfor og tror, du har en sand byggefejl ... her er det bedste udgangspunkt, der løser 95 % af alle byggefejl.
 
