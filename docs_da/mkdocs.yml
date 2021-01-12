@@ -103,3 +103,5 @@ nav:
     - Pebble: nightscout/pebble.md
     - Fjernunderretninger: nightscout/pushover.md
     - Rapporter: nightscout/reports.md
+- Pay It Forward:
+    - Oversæt Loopdocs: payitforward/translateloopdocs.md

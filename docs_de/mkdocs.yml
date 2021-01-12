@@ -102,3 +102,5 @@ nav:
     - Pebble Smartwatch: nightscout/pebble.md
     - Fernbenachrichtgung: nightscout/pushover.md
     - Berichte: nightscout/reports.md
+- Pay It Forward:
+    - Translate Loopdocs: payitforward/translateloopdocs.md
