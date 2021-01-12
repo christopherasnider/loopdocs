@@ -7,7 +7,7 @@ First check to see if your language is in the Loopdoc language page. The languag
 If your language is listed here the translation-project is already setup and you can join the translation team by follow the guide below.
 
 !!!note
-    If your language is not listed and you want to start translating Loopdocs into a new language, please submit an issue on github [here](https://github.com/> LoopDocs/loopdocs/issues/new?title=New language request&body=Can you please add [ENTER COUNTRY] for translation.).
+    If your language is not listed and you want to start translating Loopdocs into a new language, please submit an issue on github [here](https://www.github.com/LoopDocs/loopdocs/issues/new?title=New language request&body=Can you please add [ENTER COUNTRY] for translation.).
 
     The translation team will then setup it up for you. Once it ready for translation, we will notify you in the issue and then you can join the Crowdin Team.
 
@@ -50,7 +50,7 @@ The sentences are colored in:
 
 ![Suggestion](images/suggestion.png)
 
-**5. Comments** - Here you can enter you comments about the translation that you are doing. Other users can see it and you can have a discussion about the usage of the sentence. 
+**5. Comments** - Here you can enter you comments about the translation that you are doing. Other users can see it and you can have a discussion about the usage of the sentence.
 
 !!!info
     It is standard practice to use the source language for comments -> english.
