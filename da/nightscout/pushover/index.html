@@ -1865,7 +1865,10 @@
 </p>
 
 <h2 id="enable-ifttt-webhooks-in-your-nightscout-site">Enable IFTTT Webhooks in your Nightscout site<a class="headerlink" href="#enable-ifttt-webhooks-in-your-nightscout-site" title="Permanent link">&para;</a></h2>
-<p>!!!info "" If you already have created IFTTT buttons previously to work with your NS site, you can skip this section.  If those buttons are working, then you've already added your MAKER_KEY and "maker" to your ENABLE line in Heroku.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>If you already have created IFTTT buttons previously to work with your NS site, you can skip this section.  If those buttons are working, then you've already added your MAKER_KEY and "maker" to your ENABLE line in Heroku.</p>
+</div>
 <ul>
 <li>To actually make that first applet work, we need to enter a "Maker Key" to get NS and IFTTT talking to each other.  Find your Maker Key by going to your IFTTT account, Services and then clicking on Webhooks.  (Your screen may not have as many services showing; the example account below just happens to already use several services.)</li>
 </ul>
@@ -1932,17 +1935,21 @@
 <img src="../img/webhooks14.png" width="550">
 </p>
 
-<p>!!!info "" This applet can't be created unless your filename (alarm spreadsheet) already exists.  If your 1st applet we created above hasn't run for a long time, the spreadsheets may not exist yet because the alarms haven't triggered.  You have two options...(1) manually create the file in your Google Drive so that you can finish the applet now or (2) wait several days/weeks for the alarms to happen and that will automatically create the files in your Google drive.</br></br> If you choose option 1, here's a partial list of some of the filenames you could create in advance:</p>
-<pre><code>* Loop isn't looping
-* Cannula age 48 hours
-* Cannula age 72 hours
-* Meal Bolus
-* Warning, Pump Reservoir Low
-* Warning Uploader Battery is Low
-* Temporary Override
-
-Depending on your alert levels you specified in NS, some of the hours in the titles may vary to match your settings
-</code></pre>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This applet can't be created unless your filename (alarm spreadsheet) already exists.  If your 1st applet we created above hasn't run for a long time, the spreadsheets may not exist yet because the alarms haven't triggered.  You have two options...(1) manually create the file in your Google Drive so that you can finish the applet now or (2) wait several days/weeks for the alarms to happen and that will automatically create the files in your Google drive.</br></br>
+If you choose option 1, here's a partial list of some of the filenames you could create in advance:</p>
+<ul>
+<li>Loop isn't looping</li>
+<li>Cannula age 48 hours</li>
+<li>Cannula age 72 hours</li>
+<li>Meal Bolus</li>
+<li>Warning, Pump Reservoir Low</li>
+<li>Warning Uploader Battery is Low</li>
+<li>Temporary Override</li>
+</ul>
+<p>Depending on your alert levels you specified in NS, some of the hours in the titles may vary to match your settings</p>
+</div>
 <ul>
 <li>Click on the blue "+that" text</li>
 </ul>

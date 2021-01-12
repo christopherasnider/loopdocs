@@ -1716,9 +1716,12 @@
 <p align="center">
 <img src="../img/pod-hud-fault.png" width="250">
 </p>
-<p></br></p>
+
 <p>Loop will put a higher battery load on a pod than the PDM due to its regular and repeated communications. A pod with lower battery level appears to be more likely to fault for conditions like static electricity and occlusions/pump issues that Loop is not directly causing, like internal fault codes 052, 061, 064 and 066. Pods always perform safety checks and if a potential problem is found, the pod will end itself by screaming and stop with the insulin delivery.</p>
-<p>!!! note During extensive tests after getting all commands working properly, many failures due to one specific safety check were still encountered. This check needed to recover its counter within 30 minutes after a temp basal returning to a normal basal schedule, or else the pod would scream. Eventually, this was resolved by disabling <em>only</em> this particular check. Therefore the 096-106 faults are always ignored in the current configuration of Loop.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>During extensive tests after getting all commands working properly, many failures due to one specific safety check were still encountered. This check needed to recover its counter within 30 minutes after a temp basal returning to a normal basal schedule, or else the pod would scream. Eventually, this was resolved by disabling <em>only</em> this particular check. Therefore the 096-106 faults are always ignored in the current configuration of Loop.</p>
+</div>
 <h2 id="known-internal-pod-fault-codes">Known internal pod fault codes<a class="headerlink" href="#known-internal-pod-fault-codes" title="Permanent link">&para;</a></h2>
 <p>The currently known pod faults are listed here on the openomni wiki page: <a href="https://github.com/openaps/openomni/wiki/Fault-event-codes">Pod Fault codes</a></p>
 <h2 id="ways-to-reduce-the-possibility-of-a-fault">Ways to reduce the possibility of a fault<a class="headerlink" href="#ways-to-reduce-the-possibility-of-a-fault" title="Permanent link">&para;</a></h2>
@@ -1729,9 +1732,11 @@
 <li>Use a 433 Mhz RileyLink</li>
 </ul>
 <h2 id="not-replacement-pod-situations">Not "replacement pod" situations<a class="headerlink" href="#not-replacement-pod-situations" title="Permanent link">&para;</a></h2>
-<p>Normal pod use can still give these two internal pod faults, which are not eligible for a replacement pod:
-* 028, Pod expired
-* 024, Empty reservoir</p>
+<p>Normal pod use can still give these two internal pod faults, which are not eligible for a replacement pod:</p>
+<ul>
+<li>028, Pod expired</li>
+<li>024, Empty reservoir</li>
+</ul>
 <h2 id="replacement-pod-situations">Replacement pod situations<a class="headerlink" href="#replacement-pod-situations" title="Permanent link">&para;</a></h2>
 <p>You can always call Insulet tech support if a pod has a clear failure on the pod, such as:</p>
 <ul>
