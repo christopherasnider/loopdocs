@@ -16,7 +16,7 @@ While the CGM is in warm-up, Loop will return to your scheduled basal delivery (
 
 ## What do I do when I switch transmitters?
 
-When you change transmitters, you will need to update the transmitter ID in your Loop settings. This is pretty simple task. 
+When you change transmitters, you will need to update the transmitter ID in your Loop settings. This is pretty simple task.
 
 When you change transmitters, select the `Delete CGM` button at the very bottom of the CGM info page in Loop. Then you will select your Dexcom system again and add the new transmitter ID. You cannot just tap on your old transmitter ID to update it.
 
@@ -32,7 +32,7 @@ If you want to use a Libre sensor you will need to modify Loop to accomplish tha
 
 ## Can I use Eversense?
 
-Nope. Eversense does not write to Apple Health nor has the BT communications protocol been reverse engineered the way it has been done with Dexcom.  
+Nope. Eversense does not write to Apple Health nor has the BT communications protocol been reverse engineered the way it has been done with Dexcom.
 
 ## Can Loop read CGM data from Nightscout?
 
