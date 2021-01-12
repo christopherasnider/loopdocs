@@ -18,11 +18,11 @@ Probably the next most difficult transition involves using carb absorption as a 
 
 ## Troubleshooting
 
-Get used to carrying the RileyLink around.  Find how far your connectivity stretches before you have pump communication problems.  Get used to troubleshooting yellow and red loops, finding out the pattern/cause of any potential loop issues.  You'll be less frustrated starting on closed loop if you aren't dealing with learning new electronics at the same time as you are learning carb absorption times in a closed loop.  Learn how to retune your RL. 
+Get used to carrying the RileyLink around.  Find how far your connectivity stretches before you have pump communication problems.  Get used to troubleshooting yellow and red loops, finding out the pattern/cause of any potential loop issues.  You'll be less frustrated starting on closed loop if you aren't dealing with learning new electronics at the same time as you are learning carb absorption times in a closed loop.  Learn how to retune your RL.
 
 ## Bolus
 
-Bolus meals from the Loop, rather than the pump.  Become familiar with entering carbs into the Loop app, as well as editing them.  Watch how long it takes for Loop app to display the bolus after you enact it (hint: there's a delay until the bolus finishes delivery and the pump gets read).  Familiarize yourself with the "Bolus May Have Failed" notifications and how to handle them.  Double-check the pump and verify that the bolus didn't enact before trying to give the bolus again.  
+Bolus meals from the Loop, rather than the pump.  Become familiar with entering carbs into the Loop app, as well as editing them.  Watch how long it takes for Loop app to display the bolus after you enact it (hint: there's a delay until the bolus finishes delivery and the pump gets read).  Familiarize yourself with the "Bolus May Have Failed" notifications and how to handle them.  Double-check the pump and verify that the bolus didn't enact before trying to give the bolus again.
 
 ## Caregiver training
 
