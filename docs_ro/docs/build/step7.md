@@ -29,13 +29,12 @@ Ok, now that we have the user account confirmed, let's open the Terminal applica
 <img src="https://loopkit.github.io/loopdocs/build/img/terminal.png" width="550">
 </p>
 
-!!!info "New Apple M1 chip users: IMPORTANT STEP"
-    If you purchased one of the new Apple computers that have the brand new Apple M1 chip, you will need to do a little step to start with. Homebrew doesn't run natively on the new M1 chips...so we have to open Terminal app using a little "converter" app, in these situations, called Rosetta. It's no big deal...simply find the Terminal app like was described above and instead of opening it by double clicking...I want you to click on the Terminal app's name just once so it is highlighted. Then right-click on the Terminal app's name to bring up some additional choices. You will want to select the "Get Info" option.</br></br>
+!!!info "New Apple M1 chip users: IMPORTANT STEP" If you purchased one of the new Apple computers that have the brand new Apple M1 chip, you will need to do a little step to start with. Homebrew doesn't run natively on the new M1 chips...so we have to open Terminal app using a little "converter" app, in these situations, called Rosetta. It's no big deal...simply find the Terminal app like was described above and instead of opening it by double clicking...I want you to click on the Terminal app's name just once so it is highlighted. Then right-click on the Terminal app's name to bring up some additional choices. You will want to select the "Get Info" option.</br></br>
 
     <p align="center">
     <img src="../img/get-info.png" width="550">
     </p>
-
+    
     Now in the informational window that appears...you'll see a checkbox that says "Open using Rosetta". Check that box...that will allow Terminal app to open in such a way that we can install Homebrew in the next steps.  You can close that informational window, after you check the box for "Open using Rosetta", and proceed with the rest of the directions just like normal. Thanks!
     <p align="center">
     <img src="../img/rosetta.png" width="350">
@@ -55,7 +54,7 @@ Your screen should look like something like this after you copy it in...if it do
 
 There will be a prompt asking if you want to continue.  Press return to continue, then it will prompt for your password.  <u>The password is your computer's password.</u>
 
-**<u><font color = "red">Don't freak out that you can't see your password while you type. That is normal. The Terminal app doesn't show keystrokes when you enter passwords, but it is still recording your password entry. If you think you messed up because you were confused, press the delete key a bunch of times and then start fresh with the password entry.</font></u>**  
+**<u><font color = "red">Don't freak out that you can't see your password while you type. That is normal. The Terminal app doesn't show keystrokes when you enter passwords, but it is still recording your password entry. If you think you messed up because you were confused, press the delete key a bunch of times and then start fresh with the password entry.</font></u>**
 
 Wait while the script does its thing...you’ll see info scroll by and then it will pause for a while. Eventually, it will be done and you’ll see something that says “Installation successful” and you’ll have a ready Terminal prompt again.</br></br>
 
@@ -64,8 +63,7 @@ Wait while the script does its thing...you’ll see info scroll by and then it w
 </p>
 </br>
 
-!!!info "If you get an error about homebrew-core being a "shallow clone""
-    You will need to follow the instructions given in the error, and update your homebrew installation with the following command:
+!!!info "If you get an error about homebrew-core being a "shallow clone"" You will need to follow the instructions given in the error, and update your homebrew installation with the following command:
 
     `git -C "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core" fetch --unshallow`
 
