@@ -19,9 +19,7 @@ Das ist zwar keine Frage, ich habe aber trotzdem eine Antwort für dich. Die Loo
 * Die einzelnen Schritte sind der Reihenfolge gezeigt, wie du sie erledigen sollst. Also starte bei 1 und arbeite dich voran.</br></br>
 * Jeder Schritt endet mit einem Link zum nächsten Schritt, um dich dahin zu führen, wo du weitermachen sollst. Also schwimme einfach weiter zum nächsten Schritt oder gönne dir eine kurze Pause.
 
-!!!info "One step at a time..."
-
-    Don't look at the whole build process at once...that's overwhelming. Instead view it as several smaller tasks to be accomplished and work one step at a time. Start at Step 1 and just read slowly and follow the screenshots. Don't skip steps or skip paragraphs.
+!!!info "One step at a time..." Don't look at the whole build process at once...that's overwhelming. Instead view it as several smaller tasks to be accomplished and work one step at a time. Start at Step 1 and just read slowly and follow the screenshots. Don't skip steps or skip paragraphs.
 
 ## Was ist, wenn ich nicht mehr weiter komme?
 
