@@ -47,7 +47,7 @@ nav:
      - Trin 9 Xcode-præferencer: build/step9.md
      - Trin 10 Test indstillinger: build/step10.md
      - Trin 11 Lav planer for Loop Data: build/step11.md
-     - Trin 12 Mød fællesskabet: build/step12.md
+     - Trin 12 Mød community: build/step12.md
      - Trin 13 Download Loopkode: build/step13.md
      - Trin 14 Build Loop-app: build/step14.md
      - Åh gud! Byg fejl ?: build/build_errors.md
@@ -67,7 +67,7 @@ nav:
     - RileyLink-menu: operation/loop-settings/rileylink.md
 - Brugervejledning:
     - Sådan bruges Loop App:
-        - Carb-indgange: operation/features/carbs.md
+        - Carb-indtastning: operation/features/carbs.md
         - Bolus: operation/features/bolus.md
         - Overrides: operation/features/workout.md
         - Før-måltid: operation/features/premeal.md
@@ -99,12 +99,12 @@ nav:
 - Nightscout:
     - Oversigt: nightscout/overview.md
     - Helt ny NS: nightscout/new_user.md
-    - Eftermontering Eksisterende NS: nightscout/update_user.md
+    - Eksisterende NS: nightscout/update_user.md
     - Fejlfinding ved opsætning: nightscout/troublehoot.md
-    - Fjernstyring: nightscout/remote-overrides.md
+    - Remote overrides: nightscout/remote-overrides.md
     - IFTTT: nightscout/ifttt.md
     - Pebble: nightscout/pebble.md
-    - Fjernunderretninger: nightscout/pushover.md
+    - Remote notifcations: nightscout/pushover.md
     - Rapporter: nightscout/reports.md
 - Pay It Forward:
     - Oversæt Loopdocs: payitforward/translateloopdocs.md
