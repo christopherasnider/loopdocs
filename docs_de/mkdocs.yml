@@ -1,5 +1,10 @@
 site_name: Loop documentation
 
+
+google_analytics:
+  - G-0R6XF6D528
+  - auto
+  
 markdown_extensions:
     - meta
     - admonition
