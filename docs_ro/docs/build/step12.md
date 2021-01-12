@@ -29,7 +29,7 @@ Descriptive language doesn't mean the four-letter words that get you frowns at t
 ### Example 1
 **Bad:** "It's not working." <----makes me wonder what "it" is? What part of "it" isn't working exactly? The app? The BG control? The pump integration? Alarms? Bolusing? Their Dexcom?
 
-**Ok:** "My Loop app won't open." <---- Ok, so now I know the Loop app itself seems to be the problem, but still don't know if this is a build error or an error that has happened after building. The solutions would be different potentially. 
+**Ok:** "My Loop app won't open." <---- Ok, so now I know the Loop app itself seems to be the problem, but still don't know if this is a build error or an error that has happened after building. The solutions would be different potentially.
 
 **Better:** "My Loop app was working yesterday just fine, and now today it's not doing the things like I expect." <----- Getting closer. Now I know this is not a build error and that it sounds like a more recent issue. I'm starting to narrow down the potential causes...this is about as much detail as it takes for me, as a volunteer, to consider to start helping. I might not have to ask 42 questions but instead only 4 questions now to find the remaining information for troubleshooting. But, if there were more details...I'd be more likely to wade in to help because more details saves me from questions.
 
@@ -44,7 +44,7 @@ Descriptive language doesn't mean the four-letter words that get you frowns at t
 
 **Better:** "I have a macOS Mojave 10.14.5 computer with Xcode 10.3. Downloaded Loop-omnipod-testing branch this morning and I'm getting some red errors about an exit code that I don't understand." <----- Cool, now I don't have to ask if they updated their macOS like the directions say to do, and I can rule out Xcode being old. Still would be great to have screenshots so I can see the exact error message.
 
-**Awesome:** "I have a macOS Mojave 10.14.5 computer with Xcode 10.3. Downloaded Loop-omnipod-testing branch this morning and I'm getting some red errors about an exit code that I don't understand. I've tried everything in the docs and nothing worked." <---- While I'm super happy they "tried everything", I'm no closer to knowing what the exact error message is nor which "stuff" exactly they tried. 
+**Awesome:** "I have a macOS Mojave 10.14.5 computer with Xcode 10.3. Downloaded Loop-omnipod-testing branch this morning and I'm getting some red errors about an exit code that I don't understand. I've tried everything in the docs and nothing worked." <---- While I'm super happy they "tried everything", I'm no closer to knowing what the exact error message is nor which "stuff" exactly they tried.
 
 **GOLD MEDAL WORTHY:** "I have a macOS Mojave 10.14.5 computer with Xcode 10.3. Downloaded Loop-omnipod-testing branch this morning and I'm getting some red errors about an exit code 645 that I don't understand. Here's the screenshot of the error message. I tried searching the docs for "exit code 645" and didn't see any responses that helped. I tried the "carthage update" solution but got an error message during that too...here's the screenshot for that as well." <---- OH BABY I love you. This is the kind of detail that will get you to an answer very fast.
 
@@ -52,7 +52,7 @@ Descriptive language doesn't mean the four-letter words that get you frowns at t
 
 A lot of time, the answer to your question for help will be answered with a link. Please don't take offense to getting a quick link back to LoopDocs or LoopTips. This is most often because the question is already answered there and the person is simply saving time by not typing out what already exists elsewhere.  There's a ton of information between these two sites, so it can be easy to overlook something if you're not sure what to search for.
 
-If you've searched the docs and read the info already, then please include that in your post. That way you don't get linked back to the same part you're already confused about. Plus, letting us know when these docs can be improved is very useful. 
+If you've searched the docs and read the info already, then please include that in your post. That way you don't get linked back to the same part you're already confused about. Plus, letting us know when these docs can be improved is very useful.
 
 ## Next Step: Download Loop Code
 
