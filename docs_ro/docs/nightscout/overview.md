@@ -1,12 +1,12 @@
 # Overview
 
-Nightscout (NS) is an excellent tool for remotely viewing Loop's actions.  It allows for easy remote monitoring of Loop activities, troubleshooting of Loop errors, history of CGM, carbs, boluses, & temp basals, reports analyzing data trends and patterns. There is a Nightscout app in your iPhone App Store, or you can use a web browser to view the data.  Setting up Nightscout is free and fairly quick.  Once set up, the site can be accessed by anyone that you share your unique Nightscout URL with.  
+Nightscout (NS) is an excellent tool for remotely viewing Loop's actions.  It allows for easy remote monitoring of Loop activities, troubleshooting of Loop errors, history of CGM, carbs, boluses, & temp basals, reports analyzing data trends and patterns. There is a Nightscout app in your iPhone App Store, or you can use a web browser to view the data.  Setting up Nightscout is free and fairly quick.  Once set up, the site can be accessed by anyone that you share your unique Nightscout URL with.
 
 Nightscout is highly recommended for Loop users, especially those using Loop as caregivers to t1ds.  Nightscout displays are often the easiest way to troubleshoot Loop settings, if you are having problems and seeking input from others.  Below is some discussion about the general Nightscout display, as well as some Loop-specific display information.
 
 <p align="center">
 <img src="../img/example.jpg" width="600">
-</p> 
+</p>
 
 </br>
 <dl>
@@ -33,20 +33,7 @@ Nightscout is highly recommended for Loop users, especially those using Loop as 
 
 !!! info "Loop Pill status indicator symbols"
     <font style='font-size: 1.2em;'>X</font> &nbsp;
-    Error in Loop
-
-    <font style='font-size: 1.4em;'>ϕ</font> &nbsp;
-    Recommending basal, but not enacting (open loop or pump suspended)
-
-    <font style='font-size: 2em;'>⌁</font> &nbsp;
-    Enacted a new temp basal
-
-    <font style='font-size: 1.5em;'>↻</font> &nbsp;
-    Loop is continuing with last temp basal, no change
-
-    <font style='font-size: 1.5em;'>⚠</font> &nbsp;
-    Warning indicating Loop is either red or has failed to upload to Nightscout for a longer period of time.
-Mouseover or Touch the Loop pill to view a tool tip containing one or more of the latest status messages. The most up-to-date NS also includes information in the Loop pill for the minimum and maximum predicted BG, eventual and predicted BG.
+    Error in Loop!!crwd_CB_1_BC_dwrc!!Mouseover or Touch the Loop pill to view a tool tip containing one or more of the latest status messages. The most up-to-date NS also includes information in the Loop pill for the minimum and maximum predicted BG, eventual and predicted BG.
 
 <img src="../img/loop_pill_message.png" width="750"></dd>
 
