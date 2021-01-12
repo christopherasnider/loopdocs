@@ -2,7 +2,7 @@
 
 !!!danger "Time Estimate"
     * 10 minutes to read through this page
-    
+
 !!!info "Summary"
     * If you use a Dexcom G4 Share, G5, or G6 CGM system...you are good to use Loop.
     * If you use a Medtronic sensor compatible with a Loop-compatible Medtronic pump...you are good to use Loop.
@@ -15,15 +15,15 @@
 
 A continuous glucose monitor (CGM) provides Loop with current blood glucose readings. These readings allow Loop to predict what the current glucose trend is, and predict future blood glucose based on carbohydrate input and your Loop settings. The following are the types of CGMs compatible with Loop. CGM readings are a required part of looping. If your Loop is unable to retrieve BG data, it will not be able to loop.
 
-## Dexcom G5 and G6 CGM <img src="../img/g5.jpg" width="150" alt="G5">
+## Dexcom G5 and G6 CGM <img src="../img/g5.jpg" width="150" alt="G5" />
 
 Dexcom G5 and G6 receives CGM data directly to the Dexcom app on your iPhone via Bluetooth. Neither of these two systems require the use of a stand-alone receiver. For Loop to function, you will need the Dexcom app running.
 
-## Dexcom G4 CGM with Share Receiver <img src="../img/g4_receiver.png" width="150" alt="G4 With Receiver">
+## Dexcom G4 CGM with Share Receiver <img src="../img/g4_receiver.png" width="150" alt="G4 With Receiver" />
 
 Dexcom G4 Share system transmits CGM data from the transmitter to a Dexcom G4 Share Receiver. The receiver, in turn, connects to the Dexcom Share2 app on your iPhone via Bluetooth. The Share2 app uploads CGM data to the Dexcom servers. For Loop to function, you will need the Dexcom app running.
 
-## Medtronic CGM <img src="../img/enlite.png" width="150" alt="Enlite">
+## Medtronic CGM <img src="../img/enlite.png" width="150" alt="Enlite" />
 
 The Minimed Enlite CGM, available with the Medtronic 522/722, 523/723, and 554/754, wirelessly sends blood glucose readings to the pump. Loop can read the Medtronic CGM data directly from the pump using the RileyLink.
 

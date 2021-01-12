@@ -29,9 +29,9 @@ The RileyLink (RL) is an open-source hardware device that can bridge Bluetooth L
 </p>
 
 ## Order RileyLink
-This is an easy step. You need to order a RileyLink from the [GetRiley website](https://getrileylink.org). 
+This is an easy step. You need to order a RileyLink from the [GetRiley website](https://getrileylink.org).
 
-There are two types of RileyLinks; [one for Omnipod](https://getrileylink.org/product/rileylink433) users and [one for Medtronic](https://getrileylink.org/product/rileylink916) users. Order the RileyLink specifically for the pump you'll be Looping with. 
+There are two types of RileyLinks; [one for Omnipod](https://getrileylink.org/product/rileylink433) users and [one for Medtronic](https://getrileylink.org/product/rileylink916) users. Order the RileyLink specifically for the pump you'll be Looping with.
 
 ## Assemble RileyLink
 
@@ -39,8 +39,7 @@ Your RL will come with the battery disconnected and the parts not already inside
 
 Make sure the lipo battery is well-plugged into the connection. Line up the little ridge appropriately, and push fairly firmly to get the connection tight.  Poor battery cable connection can make the Loop communications fail.  See photos below, for example.
 
-!!!info "Common new user errors"
-    The most common two errors for new RL owners are (1) not fully pushing in the lipo battery cable connection and (2) failing to charge the RL. Compare your lipo battery cable with the photos; it takes a bit of oomph to push that plug fully in like the photos shown below. Remember to charge your RL each night.
+!!!info "Common new user errors" The most common two errors for new RL owners are (1) not fully pushing in the lipo battery cable connection and (2) failing to charge the RL. Compare your lipo battery cable with the photos; it takes a bit of oomph to push that plug fully in like the photos shown below. Remember to charge your RL each night.
 
 <p><figure align="center">
 <img src="../img/battery-cables.jpg" width="400">
@@ -63,10 +62,9 @@ Usually this best frequency is pretty constant for any given pump+RL, but during
 
 ### Bluetooth communications
 
-RL communicates with your iPhone and Loop app through Bluetooth (BT).  
+RL communicates with your iPhone and Loop app through Bluetooth (BT).
 
-!!!info Bluetooth Troubleshooting
-If your iPhone has BT issues, your Loop will have failures.  There have been reports of BT audio devices (such as BT pairings in your car or home audio BT speakers) interfering with the Loop.  If you are finding Loop failures frequently happening at a particular location, you may try to troubleshoot if there are BT problems in the area.
+!!!info Bluetooth Troubleshooting If your iPhone has BT issues, your Loop will have failures.  There have been reports of BT audio devices (such as BT pairings in your car or home audio BT speakers) interfering with the Loop.  If you are finding Loop failures frequently happening at a particular location, you may try to troubleshoot if there are BT problems in the area.
 
 Your BT signal strength can be seen in the Loop settings, under the RL menu, on the `Signal Strength` line. As you move closer and further away from your phone, you can watch that number dynamically change. This line is **not** displaying the signal strength of your pump communications discussed above.
 
@@ -100,7 +98,7 @@ Since the best practice is to charge your RL overnight while you sleep, and the 
 
 ### Range
 
-The range that your RL will function is **heavily** dependent on the environment that you are in. Most people wear the RL in a pocket or carry a belt holster during the day. The radio frequency communications will have a shorter range than the BT communications, therefore RL will do better closer to the pump rather than the iPhone if you are deciding on options for carrying gear. 
+The range that your RL will function is **heavily** dependent on the environment that you are in. Most people wear the RL in a pocket or carry a belt holster during the day. The radio frequency communications will have a shorter range than the BT communications, therefore RL will do better closer to the pump rather than the iPhone if you are deciding on options for carrying gear.
 
 Problematic environments will be places like technical conferences, sports arenas, and other places where wireless communications are heavy and plenty.
 

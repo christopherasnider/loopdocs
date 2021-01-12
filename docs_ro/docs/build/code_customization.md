@@ -1,8 +1,7 @@
 ## Code Customizations
 Based on Loop users’ experience, there are some customizations that you may want to incorporate ahead of building your Loop app and Apple Watch app.  These customizations must be done prior to building the Loop app onto your iPhone, they cannot be done from within the app itself.
 
-!!!info "Line numbers may change"
-    Every effort will be made to update the line numbers as the code is updated, but there may be times where the screenshots and line numbers are slightly different than the current version of Loop code.  These instructions have been updated for Loop v2.0 master branch. If you can't find the same exact line on that line number listed, then look nearby and you'll likely find it just a couple lines away.
+!!!info "Line numbers may change" Every effort will be made to update the line numbers as the code is updated, but there may be times where the screenshots and line numbers are slightly different than the current version of Loop code.  These instructions have been updated for Loop v2.0 master branch. If you can't find the same exact line on that line number listed, then look nearby and you'll likely find it just a couple lines away.
 
 ### Disable Authentication for Bolusing
 
@@ -16,9 +15,9 @@ Depending on your iPhone preferences and model, you may have Face ID or Touch ID
 
 ### Default Carb Absorption Times
 
-<img style="float: right;" width="200" src="../img/carb_screen.png">
+<img style="float: right;" width="200" src="../img/carb_screen.png" />
 
-Loop’s default carb absorption times are based on the high, medium, and low glycemic index absorption curves presented in <i>Think Like A Pancreas</i> by Gary Scheiner.  Currently the lollipop (fast) icon is set for 2 hours, taco (medium) icon for 3 hours, and pizza (slow) icon for 4 hours.  
+Loop’s default carb absorption times are based on the high, medium, and low glycemic index absorption curves presented in <i>Think Like A Pancreas</i> by Gary Scheiner.  Currently the lollipop (fast) icon is set for 2 hours, taco (medium) icon for 3 hours, and pizza (slow) icon for 4 hours.
 
 If you would like to modify those defaults, you can do so in the Loop Core>>LoopSettings.swift Line 16.
 
@@ -31,7 +30,6 @@ For example, if you wanted to make lollipop a 30 minute absorption and pizza a 5
 <p align="center">
 <img src="../img/carb_times_example.png" width="750">
 </p>
-
 
 ### Exponential Insulin Curve
 The Exponential Insulin Curve Models (Rapid-Acting Adult, Rapid-Acting Child, and Fiasp) default to an insulin duration of 360 minutes...but the peak activity of the various curves differs, as follows:

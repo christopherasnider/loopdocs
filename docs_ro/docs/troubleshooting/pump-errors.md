@@ -6,8 +6,7 @@ The Medtronic pumps are used and typically not under warranty.  Use this section
 
 This error message is common when a pump has been stored for a period of time without a battery.  Most pumps will show an A21 error when you first purchase them on the used market.  Not a big deal.  Press the down arrow (also has the symbol of a light bulb on it) and the pump screen message will scroll down to let you know how to clear that error message (press ESC then ACT).  If the message is coming up on a pump that hasn't been in storage, pull the battery out and replace with a fresh, new battery.  Chances are your battery or battery cap are old.  Look for signs of dirt or rust in the battery cap, give it a little cleaning.
 
-!!!info "Display Tip"
-    When the pump screen has a little black/white bar on the right side, that is a scroll bar.  Use the arrow keys on the right of the pump screen to scroll and see the additional information.
+!!!info "Display Tip" When the pump screen has a little black/white bar on the right side, that is a scroll bar.  Use the arrow keys on the right of the pump screen to scroll and see the additional information.
 
 <p align="center">
 <img src="../img/A21.jpg" width="400">
@@ -20,7 +19,6 @@ This error message "battery out of limits" has to do with the internal pump batt
 <p align="center">
 <img src="../img/batt-out.jpg" width="400">
 </p>
-
 
 ## Button Error
 
@@ -52,7 +50,7 @@ After you finish your fix, another excellent idea is to make sure you add a leng
 
 Another common issue on these Medtronic pumps are cracks and/or missing bits of plastic near the battery cap or reservoir sleeve. You can repair these fairly easily. For filling small cracks, [Testor's plastic cement](https://www.amazon.com/Cement-Glue-Value-Testors-tubes/dp/B0013D53CS/ref=sr_1_2?s=toys-and-games&ie=UTF8&qid=1550883077&sr=1-2&keywords=testors+plastic+cement) or [Gorilla epoxy](https://www.amazon.com/Gorilla-Epoxy-Minute-ounce-Syringe/dp/B001Z3C3AG/ref=sr_1_1_sspa?ie=UTF8&qid=1550883118&sr=8-1-spons&keywords=gorilla+epoxy&psc=1) are good choices.
 
-For more extensive repairs to replace missing chunks of plastic, [Gorilla epoxy](https://www.amazon.com/Gorilla-Epoxy-Minute-ounce-Syringe/dp/B001Z3C3AG/ref=sr_1_1_sspa?ie=UTF8&qid=1550883118&sr=8-1-spons&keywords=gorilla+epoxy&psc=1) or [Sugru](https://www.amazon.com/Sugru-Mouldable-Glue-Original-Formula/dp/B01BFE0KNQ/ref=sr_1_4?ie=UTF8&qid=1550883178&sr=8-4&keywords=sugru) are excellent choices.  
+For more extensive repairs to replace missing chunks of plastic, [Gorilla epoxy](https://www.amazon.com/Gorilla-Epoxy-Minute-ounce-Syringe/dp/B001Z3C3AG/ref=sr_1_1_sspa?ie=UTF8&qid=1550883118&sr=8-1-spons&keywords=gorilla+epoxy&psc=1) or [Sugru](https://www.amazon.com/Sugru-Mouldable-Glue-Original-Formula/dp/B01BFE0KNQ/ref=sr_1_4?ie=UTF8&qid=1550883178&sr=8-4&keywords=sugru) are excellent choices.
 
 You can use [teflon thread tape](https://www.amazon.com/LASCO-11-1033-Sealant-2-Inch-100-Inch/dp/B00ITPHXZI/ref=sr_1_17?ie=UTF8&qid=1550883881&sr=8-17&keywords=teflon+thread+tape) on the battery cap to make sure the epoxy or Sugru don't stick to the battery cap, but still recreate the threads.  The first photos are of a Sugru repair and second set of photos are Gorilla epoxy repair.
 
@@ -74,8 +72,7 @@ Often a motor error is the result of a poorly seated reservoir or tubing cap.  I
 
 ## A33 error
 
-!!!warning "Safety warning"
-    If you get this error, DO NOT push on the bulged out end cap.  Always detach your tubing from your infusion set before addressing this error message.  If you push on the end cap in an attempt to get it back flush, you may delivery a dangerous amount of insulin mistakenly.
+!!!warning "Safety warning" If you get this error, DO NOT push on the bulged out end cap.  Always detach your tubing from your infusion set before addressing this error message.  If you push on the end cap in an attempt to get it back flush, you may delivery a dangerous amount of insulin mistakenly.
 
 This error is a bit more involved to repair.  The problem is that there is a loose drive support cap.  Most of the time this error message will appear during a priming event as the end cap of the drive will slip, releasing the ability of the reservoir plunger to get pressure to delivery insulin.  The pump senses the lack of pressure and delivers the A33 error.
 
@@ -101,8 +98,7 @@ Now to test whether the pumps was glued well. You have already waited about 10-1
 
 From what we know, this set of error codes seems like a pump killer.  A call to Medtronic support gave this less than hopeful information:
 
-A32 - failure of flash memory
-E22 - software re-installation is necessary
+A32 - failure of flash memory E22 - software re-installation is necessary
 
 We don't have any reports of a good fix for these error codes.  When seen, usually the E22 error comes up and as soon as it is cleared, the A32 error comes up.  And the loop continues with a pump restart.
 

@@ -4,8 +4,7 @@ The Pebble Watchface called `SkyLoop Predict` can be used with either Loop or Op
 
 <p align="center">
 <img src="../img/skyloop.png" width="700">
-</p> 
-
+</p>
 
 <p align="center">
 <img src="../img/skyloop1.jpg" width="700">

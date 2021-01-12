@@ -130,15 +130,16 @@ This IFTTT/Nightscout-Alarms folder will eventually contain numerous Google Spre
 
 ## Enable IFTTT Webhooks in your Nightscout site
 
-!!!info ""
-    If you already have created IFTTT buttons previously to work with your NS site, you can skip this section.  If those buttons are working, then you've already added your MAKER_KEY and "maker" to your ENABLE line in Heroku.
+!!!info "" If you already have created IFTTT buttons previously to work with your NS site, you can skip this section.  If those buttons are working, then you've already added your MAKER_KEY and "maker" to your ENABLE line in Heroku.
 
 * To actually make that first applet work, we need to enter a "Maker Key" to get NS and IFTTT talking to each other.  Find your Maker Key by going to your IFTTT account, Services and then clicking on Webhooks.  (Your screen may not have as many services showing; the example account below just happens to already use several services.)
 
 <p align="center">
 <img src="../img/webhooks9.png" width="550">
 </p>
+
 ********
+
 <p align="center">
 <img src="../img/webhooks10.png" width="550">
 </p>
@@ -191,10 +192,8 @@ This IFTTT/Nightscout-Alarms folder will eventually contain numerous Google Spre
 <img src="../img/webhooks14.png" width="550">
 </p>
 
-!!!info ""
-    This applet can't be created unless your filename (alarm spreadsheet) already exists.  If your 1st applet we created above hasn't run for a long time, the spreadsheets may not exist yet because the alarms haven't triggered.  You have two options...(1) manually create the file in your Google Drive so that you can finish the applet now or (2) wait several days/weeks for the alarms to happen and that will automatically create the files in your Google drive.</br></br>
-    If you choose option 1, here's a partial list of some of the filenames you could create in advance:
-    
+!!!info "" This applet can't be created unless your filename (alarm spreadsheet) already exists.  If your 1st applet we created above hasn't run for a long time, the spreadsheets may not exist yet because the alarms haven't triggered.  You have two options...(1) manually create the file in your Google Drive so that you can finish the applet now or (2) wait several days/weeks for the alarms to happen and that will automatically create the files in your Google drive.</br></br> If you choose option 1, here's a partial list of some of the filenames you could create in advance:
+
     * Loop isn't looping
     * Cannula age 48 hours
     * Cannula age 72 hours
@@ -202,7 +201,7 @@ This IFTTT/Nightscout-Alarms folder will eventually contain numerous Google Spre
     * Warning, Pump Reservoir Low
     * Warning Uploader Battery is Low
     * Temporary Override
-    
+
     Depending on your alert levels you specified in NS, some of the hours in the titles may vary to match your settings
 
 * Click on the blue "+that" text
@@ -226,9 +225,7 @@ This IFTTT/Nightscout-Alarms folder will eventually contain numerous Google Spre
 *  Delete the contents of the "Title" and "Message" and "URL" boxes.  For the Title, click the "Add Ingredient" button and add `ColumnC`.  For the "Message", click the "Add Ingredient" button and add the values of various columns from your spreadsheet for the information you would like to include.  For the alerts: `ColumnC` contains the alarm name, `ColumnA` is the date/time of the alarm, and `ColumnD` has more detailed information about the info/alarm.  This is a pretty decent recipe to follow to get the useful information in your notification.
 <p align="center">
 <img src="../img/webhooks17.png" width="550">
-</p>
-
-* Select the "Message Priority" that you would like for this particular alarm type.
+</p>* Select the "Message Priority" that you would like for this particular alarm type.
 
 <p align="center">
 <img src="../img/webhooks18.png" width="550">
@@ -322,7 +319,6 @@ Putting all these notifications together may cause you to want to revisit the al
 </tr>
 </tbody>
 </table>
-
 
 ## Final notes
 

@@ -8,7 +8,7 @@ If you add an Apple Watch after building Loop, you will need to pair your watch 
 
 Loop is currently supported with all released versions of the Apple Watch and Apple watchOS 4.1 and newer.  The cool factor is increased since the Loop user can directly enter carbs and boluses straight from the watch, without needing to access the iPhone.  The Loop watch app shows the Loop status, current BG, eventual BG, carb tool, and bolus tool.
 
-By tapping on the carb or bolus tools, you can adjust the entries using the crown to dial in more/less.  You can manually scroll to change the desired bolus amount, if you want to decrease/increase from recommended amount.  
+By tapping on the carb or bolus tools, you can adjust the entries using the crown to dial in more/less.  You can manually scroll to change the desired bolus amount, if you want to decrease/increase from recommended amount.
 
 If you swipe the Apple Watch Loop screen from right-to-left, a second screen is available.  This second screen displays a graph of recent BG and predicted BG data.  The crown can be turned to display IOB and COB as well.
 

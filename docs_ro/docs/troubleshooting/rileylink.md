@@ -15,9 +15,9 @@ Knowing a little about the strength of the radio communications will help you tr
 <img src="../img/rl_tune.jpg" width="400">
 </p>
 
-Generally, if you have tuning in the -90s, your RileyLink-pump communications will not work.  If you have tuning in the -80s, you may have periodic communication failures.  If your tuning is in the -70s or better, your communications should be pretty stable.  
+Generally, if you have tuning in the -90s, your RileyLink-pump communications will not work.  If you have tuning in the -80s, you may have periodic communication failures.  If your tuning is in the -70s or better, your communications should be pretty stable.
 
-Experiment with your RileyLink by moving it closer and farther away from the pump.  Try putting it on the other side of your body, or put it in a purse.  Test the tuning results in real world situations that you think you'd be encountering, such as where you will have the RileyLink placed during overnight charging. Perform tunes at the various distances and situations.  This will help you understand how far from the pump your RileyLink can get before it will affect Loop performance.  
+Experiment with your RileyLink by moving it closer and farther away from the pump.  Try putting it on the other side of your body, or put it in a purse.  Test the tuning results in real world situations that you think you'd be encountering, such as where you will have the RileyLink placed during overnight charging. Perform tunes at the various distances and situations.  This will help you understand how far from the pump your RileyLink can get before it will affect Loop performance.
 
 ## Bluetooth
 

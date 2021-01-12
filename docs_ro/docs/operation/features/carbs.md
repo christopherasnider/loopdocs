@@ -16,10 +16,7 @@ To begin a new meal entry, simply enter the number of carbs to be eaten in the `
 
 ## Avoid Double Carb Entries
 
-!!!info "Be Aware"
-    When you press `Save` for a carb entry, Loop will consider that carb entry saved and use it for calculating temp basals and recommended boluses.  Be cautious about repeated attempts to enter the same meal...Loop will continue to save the carb entries UNLESS you push cancel on the carb entry screen.</br></br>
-    **Simply canceling a bolus does not cancel the carb entry.**</br></br>
-    If you have accidentally made multiple entries for the same carbs, click on the Carbs Chart in the main Loop display and you can delete the redundant carb entries by swiping left on the entries.
+!!!info "Be Aware" When you press `Save` for a carb entry, Loop will consider that carb entry saved and use it for calculating temp basals and recommended boluses.  Be cautious about repeated attempts to enter the same meal...Loop will continue to save the carb entries UNLESS you push cancel on the carb entry screen.</br></br> **Simply canceling a bolus does not cancel the carb entry.**</br></br> If you have accidentally made multiple entries for the same carbs, click on the Carbs Chart in the main Loop display and you can delete the redundant carb entries by swiping left on the entries.
 
 
 ## Carb Absorption Time
@@ -50,8 +47,8 @@ You do not have to enter all carbs for a meal at the same absorption or eating t
 
 Pressing the `Save` button in the top right corner will save the carbs into the Loop app and bring up the Loop's bolus tool.  When entering multiple carb absorption durations for a single meal, press save on the carb entry and then press cancel on the bolus tool when it appears.  When you have entered your last carb entry for the meal, then use the bolus tool to deliver the bolus for the entire meal.  Loop will provide a recommendation based on all the saved carbs and their respective absorption durations in total.
 
-## Prebolus 
-You can let Loop know you are going to prebolus a meal by adjusting the time of the carb entry on the “date” line of the carb entry.  If you are prebolusing by 20 minutes, simply add 20 minutes to the carb entry time.  
+## Prebolus
+You can let Loop know you are going to prebolus a meal by adjusting the time of the carb entry on the “date” line of the carb entry.  If you are prebolusing by 20 minutes, simply add 20 minutes to the carb entry time.
 
 ## Edit Carbs
 

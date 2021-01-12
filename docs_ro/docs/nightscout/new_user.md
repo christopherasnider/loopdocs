@@ -1,14 +1,12 @@
 # New Nightscout Users
 
-!!!info "Is Nightscout required for Loop?"
-    Nope...you don't NEED to have a Nightscout site in order to use Loop. A Nightscout site is completely optional. However, if you want to see Loop's actions anywhere other than the Looper's iPhone...then you will want a Nightscout site. For example, parents of little Loop users may want to see the temporary basal rates Loop is setting, the current insulin on board, or a recent bolus and carb entry.  That's what Nightscout will provide...remote viewing of Loop actions.
+!!!info "Is Nightscout required for Loop?" Nope...you don't NEED to have a Nightscout site in order to use Loop. A Nightscout site is completely optional. However, if you want to see Loop's actions anywhere other than the Looper's iPhone...then you will want a Nightscout site. For example, parents of little Loop users may want to see the temporary basal rates Loop is setting, the current insulin on board, or a recent bolus and carb entry.  That's what Nightscout will provide...remote viewing of Loop actions.
 
 There are two options for setting up Nightscout; one option requires a small fee but automates both the setup and periodic updating/cleaning database, the other option is free but requires your effort to build and update. You choose which works best for you. Isn't it nice to have options?
 
 ## T1Pal (paid service)
 
-!!! warning "European Nightscout Dexcom Devices"
-    T1Pal does NOT support European Dexcom Devices at this time.
+!!! warning "European Nightscout Dexcom Devices" T1Pal does NOT support European Dexcom Devices at this time.
 
 [T1Pal is only dedicated NS hosting](https://t1pal.com/) company.  There is a hosting fee required which is used to help ensure Nightscout runs without limits and receives improvements.  Setup is simple and loop plugins are configured automatically during the setup guide.
 
@@ -25,7 +23,7 @@ Two options exist for easy DIY hosting of NS; Azure or Heroku. Both hosting serv
 
 There's great news though! The documentation and instructions for building your own Nightscout site have recently been completely overhauled and are WONDERFUL!
 
-Please visit [The Nightscout site](http://nightscout.github.io/nightscout/new_user/) for directions on how to set up your new Nightscout website. 
+Please visit [The Nightscout site](http://nightscout.github.io/nightscout/new_user/) for directions on how to set up your new Nightscout website.
 
 ## Add Nightscout to Loop
 

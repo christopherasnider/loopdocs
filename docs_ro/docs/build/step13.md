@@ -3,14 +3,14 @@
 !!!danger "Time Estimate"
     * 1 minute to download Loop code
     * 10 minutes to read this page
-    
+
 !!!info "Summary"
     * Master branch of Loop has been recently updated to Loop v2.0
     * All branches of Loop support both Medtronic and Omnipod pump users.
-    
+
 !!!warning "FAQs"
     * **"What the heck is a branch?"** That's a great question. We have a page all about [Branch FAQs](https://loopkit.github.io/loopdocs/faqs/branch-faqs/)
-    * **"How can I tell which version I have downloaded if I'm unsure?"** The downloaded Loop folder's name will give you an indication of which branch you downloaded. The folder name will be in the format `Loop-BranchName`. 
+    * **"How can I tell which version I have downloaded if I'm unsure?"** The downloaded Loop folder's name will give you an indication of which branch you downloaded. The folder name will be in the format `Loop-BranchName`.
     * **"When do I need to download new Loop code?"** Anytime you want to update your Loop app to get new features, you'll simply download the code again by clicking on the links below. The links always go to the most recent version of each of the branches. It's a good idea is to delete your old downloads before making a new one, just to avoid confusion.
 
 ## Pick a branch to download
@@ -18,13 +18,10 @@ You’ll need to download the Loop code in order to build the app on your comput
 
 Master vs Dev vs some other branch? Generally speaking, most users should stick to using Master branch. Experimental features and new code changes will be testing in the dev branch first...so that dev branch can be prone to having periodic glitches or regressions as the new features are developed. If you aren't a developer or debugging, stick to Master branch.  Click on ONE of the links below to download Loop code...hint hint...**<u>click on the Master branch for 99% of users</u>**.
 
-</br></br>
-<p align="center">
-[Loop: Master branch](https://github.com/LoopKit/Loop/archive/master.zip)</br></br>
+</br></br> <p align="center"> [Loop: Master branch](https://github.com/LoopKit/Loop/archive/master.zip)</br></br>
 ********************
 
-[Dev branch---in very rough shape right now, please only build if developer interested in debugging](https://github.com/LoopKit/Loop/archive/dev.zip)</br></br>
-[Automatic-bolus branch---do your research before using as well, if you are asking what it is then you haven't researched enough yet](https://github.com/LoopKit/Loop/archive/automatic-bolus.zip)</br></br>
+[Dev branch---in very rough shape right now, please only build if developer interested in debugging](https://github.com/LoopKit/Loop/archive/dev.zip)</br></br> [Automatic-bolus branch---do your research before using as well, if you are asking what it is then you haven't researched enough yet](https://github.com/LoopKit/Loop/archive/automatic-bolus.zip)</br></br>
 
 *********************
 

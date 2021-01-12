@@ -120,14 +120,11 @@ When you get a new iPhone, Loop will need to be built onto that new iPhone in th
 
 Hey now...let's be grateful for what we have first. The ability to use Loop is the result of tremendous amounts of effort, time, and sacrifice by volunteers. Cracking the pumps for Loop use is a large undertaking. If and when another set of people spend a large amount of time figuring out other pumps, then they could conceivably be added to Loop. But, you don't need to let us know that you'd love to see more pumps compatible with Loop. So would we. There is just an awful lot of work that needs to happen and it is not easy nor quick.
 
-Tandem pumps are not Loop compatible.
-Animas pumps are not Loop compatible.
-DASH pods are not Loop compatible.
-And those all likely won't be compatible anytime in the future.
+Tandem pumps are not Loop compatible. Animas pumps are not Loop compatible. DASH pods are not Loop compatible. And those all likely won't be compatible anytime in the future.
 
 ## Can I have more than one Loop app on a phone?
 
-Yes, technically possible. You can have multiple Loop apps built onto the same iPhone. However, having multiple Loop apps on a single phone may lead to unexpected conflicts that can negatively affect your Loop's ability to stay green (keep looping). Additionally, your Pod will only work on one Loop app at a time anyways. So for smooth looping, just keep one Loop app on any phone for looping use. 
+Yes, technically possible. You can have multiple Loop apps built onto the same iPhone. However, having multiple Loop apps on a single phone may lead to unexpected conflicts that can negatively affect your Loop's ability to stay green (keep looping). Additionally, your Pod will only work on one Loop app at a time anyways. So for smooth looping, just keep one Loop app on any phone for looping use.
 
 ## Will I be able to Loop on a plane? Or in the mountains?
 
