@@ -4,9 +4,7 @@ Your Loop won’t have much showing initially until we get some basic settings i
 
 ## Prepare Medtronic Pump
 
-!!!info ""
-
-    Before you begin the rest of the setup process, there are several steps on your Medtronic pump that you will need to complete prior to moving on with Loop setup. **DO NOT SKIP THESE STEPS OR YOUR LOOP WILL NOT WORK.**
+!!!info "" Before you begin the rest of the setup process, there are several steps on your Medtronic pump that you will need to complete prior to moving on with Loop setup. **DO NOT SKIP THESE STEPS OR YOUR LOOP WILL NOT WORK.**
 
 1. Turn off Patterns under the basal menu settings. This will force Loop to use your "Standard" basal rate schedule.</br></br>
 2. Make sure your standard basal rate schedule is up-to-date and accurate. Loop will automatically import your pump's existing standard basal rate schedule when you add your pump in the subsequent parts of this page. **If you change basal rates later...make sure to make those changes in the Loop app and use Loop to save the changes back to the pump.  If you make changes directly in the pump, Loop will not automatically know about those changes and you will cause a mismatch.**</br></br>
@@ -58,3 +56,4 @@ Now that your pump is paired with Loop, you will be finishing these steps:
 ## Next Step: Add CGM
 
  Congrats! You've added your Medtronic pump to your Loop app. Now, click on the settings button in the upper left corner to take you back to Loop's settings menu. Your next step is to [Add CGM](cgm.md) to your Loop app. After all, without CGM data, your Loop won't loop.
+ 
