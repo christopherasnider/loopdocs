@@ -4,7 +4,10 @@ Der Installationsprozess ist einfach. Überprüfe zuerst, ob Du die kompatible A
 
 Obwohl dies alles auf den ersten Blick einschüchternd sein kann, verspreche ich dir, dass es trozdem für den durchschnittlichen Computer-Benutzer gut machbar ist.
 
-!!!info "Einfach einen Schritt nach dem andern..." Wenn es einmal zu lange dauert, du unterbrechen möchtest, oder etwas noch nicht ganz klar ist, kannst du immer an einem der Schritte anhalten und später weitermachen. Genau aus diesem Grund ist der Build-Prozess in die einzellnen Schritte unterteilt.
+!!!info "Take it one step at a time..."
+
+    If you are worried about how long this will take, you can always stop at one of the steps and come back later. The steps are meant to be nice stopping points to take breaks if needed.
+    
 
 <p align="center">
 <img src="https://media.giphy.com/media/xThta8UkUaoqJoJQC4/giphy.gif" width="400">
