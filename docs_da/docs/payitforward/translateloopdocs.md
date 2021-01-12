@@ -6,7 +6,7 @@ Kontroller først om dit sprog er på Loopdoc sprogside. Sproget siden kan finde
 
 Hvis dit sprog er opført her, er oversættelsesprojektet allerede opsat, og du kan blive medlem af oversættelsesteamet ved at følge vejledningen nedenfor.
 
-!!!note Hvis dit sprog ikke er listet og du gerne vil begynde at oversætte Loopdocs til et nyt sprog, opret venligst et 'issue' på github  \[here\](https://www.github.com/LoopDocs/loopdocs/issues/new?title=New language request&body=Can you please add [ENTER COUNTRY] for translation.).
+!!!note Hvis dit sprog ikke er listet og du gerne vil begynde at oversætte Loopdocs til et nyt sprog, opret venligst et 'issue' på github  \[her\](https://www.github.com/LoopDocs/loopdocs/issues/new?title=New language request&body=Can you please add [ENTER COUNTRY] for translation.).
 
     Oversættelsesteamet vil derefter konfigurere det for dig. Når den er klar til oversættelse, giver vi dig besked i issuet, og så kan du blive en del af Crowdin-teamet.
 
