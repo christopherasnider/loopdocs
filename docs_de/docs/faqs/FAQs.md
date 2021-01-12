@@ -12,13 +12,13 @@ Klicke auf das untere Bild, um eine kurze [Einführung in Loop (englisch)](https
 
 Loop hat sowohl Hard-, als auch Software-Anforderungen. Allgemein brauchst du sieben Komponenten:
 
-- Eine kompatible Insulinpumpe: [Medtronic or Omnipod](https://loopkit.github.io/loopdocs/build/step3/)
-- [Compatible CGM](Einen <a href="https://loopkit.github.io/loopdocs/build/step5/">RileyLink</a>)
-- [RileyLink](<a href="https://loopkit.github.io/loopdocs/build/step8/">Xcode</a> (frei verfügbares Programm von Apple))
-- [Ein [kompatibles iPhone und/oder iPod Touch](https://loopkit.github.io/loopdocs/build/step2/)](Eine <a href="https://loopkit.github.io/loopdocs/build/step6/">Apple Entwickler Mitgliedschaft</a>)
-- [Einen [Apple Computer mit Mojave macOS 10.14.3 oder neuer](https://loopkit.github.io/loopdocs/build/step1/).](https://loopkit.github.io/loopdocs/build/step1/)
-- [Xcode (a free Apple application)](https://loopkit.github.io/loopdocs/build/step8/)
-- [Apple Developer Membership](https://loopkit.github.io/loopdocs/build/step6/)
+- Compatible insulin pump: [Medtronic or Omnipod](../build/step3.md)
+- [Compatible CGM](../build/step4.md)
+- [RileyLink](../build/step5.md)
+- [Ein [kompatibles iPhone und/oder iPod Touch](https://loopkit.github.io/loopdocs/build/step2/)](../build/step2.md)
+- [Einen [Apple Computer mit Mojave macOS 10.14.3 oder neuer](https://loopkit.github.io/loopdocs/build/step1/).](../build/step1.md)
+- [Xcode (a free Apple application)](../build/step8.md)
+- [Apple Developer Membership](../build/step6.md)
 
 <p align="center">
 <img src="../img/loop_gear.jpg" width="500">
@@ -50,7 +50,7 @@ Sicher. Schau dir das mal an [PDF Download für diabetische Hilfskräfte und Pro
 
 Die Antwort variert, aber es dauert schon ein paar Stunden, um das Ganze von Anfang bis zum Ende durchzuarbeiten, je nachdem wie vertraut du mit deinem Rechner bist.
 
-Um dir die Einteilung in einzelne kleine Schritte zu erleichtern, wurde das Kapitel [`Loop-App Erstellung`](https://loopkit.github.io/loopdocs/build/step1/) in bequeme Teile zerlegt, jeweils mit einer Zeitaufwandsangabe für jeden Schritt. Du kannst dann einen oder mehrere Schriite abarbeiten, je nachdem wieviel Zeit du aufbringen kannst.
+If you'd rather break it up into several shorter bits of effort, the [`Build App`](../build/step1.md) section is divided into convenient stopping points with Time Estimates for each step. Du kannst dann einen oder mehrere Schriite abarbeiten, je nachdem wieviel Zeit du aufbringen kannst.
 
 ## Kostet die Loop-App Geld?
 
@@ -64,7 +64,7 @@ Ansonsten gibt es keine weiteren Kosten, weder laufende, noch einmalige.
 
 ## Brauche ich meinen eigenen Apple Computer?
 
-Du brauchst keinen eigenen. Du kannst dir entweder einen leihen oder dir einen virtuellen Apple Rechner auf deinen Windows Computer zaubern (https://macosvmware.tech.blog/). It would be really good to have longer term ability to borrow that computer again for [updating Loop](https://loopkit.github.io/loopdocs/build/updating/#when-to-update) later, when needed.
+Du brauchst keinen eigenen. Du kannst dir entweder einen leihen oder dir einen virtuellen Apple Rechner auf deinen Windows Computer zaubern (https://macosvmware.tech.blog/). It would be really good to have longer term ability to borrow that computer again for [updating Loop](../build/updating.md#when-to-update) later, when needed.
 
 Wenn du dir einen Apple leihst, solltest du die Person bitten, erstens mindestens auf Mojave zu aktualisieren und zweitens [XCode](https://developer.apple.com/xcode/) zu installieren, bevor du ans Zusammenbauen der Loop-App gehst. The updates and download of Xcode can take a couple hours depending on the person's internet speed...so best to do those steps well ahead of time to save trouble.
 
@@ -76,7 +76,7 @@ Ja, du kannst. Es gibt einen "Hacker-Weg" ein MacOs als virtuelle Maschine auf e
 
 Die kurze Antwort ist: Einmal wenn du die App installierst und danach einmal pro Jahr. Falls du dich für ein kostenloses Apple Entwickler Account entschieden hast, musst du einmal pro Woche an den Rechner.
 
-Die lange Antwort ist: Der Progarmmcode für die Loop-App wird immer wieder aktualisiert und verbessert, um neue Features ein- und Bugs auszubauen. When those updates are released, you'll need access to an Apple computer again to update your Loop app.  Updates für die Loop-App werden nicht über den App-Store von Apple zur Verfügung gestellt. Stattdessen musst du die [Updates](https://loopkit.github.io/loopdocs/build/updating/) selbst installieren. Im Allgemeinen gibt es mehrmals pro Jahr ein Update, für das du dir vielleicht Zeit zum Installieren nehmen möchtest.
+Die lange Antwort ist: Der Progarmmcode für die Loop-App wird immer wieder aktualisiert und verbessert, um neue Features ein- und Bugs auszubauen. When those updates are released, you'll need access to an Apple computer again to update your Loop app.  Loop updates are not available through the iPhone's app store...instead you do the app update yourself with [update instructions here](../build/updating.md). Im Allgemeinen gibt es mehrmals pro Jahr ein Update, für das du dir vielleicht Zeit zum Installieren nehmen möchtest.
 
 ## Muss ich die Loop-App neu erstellen, wenn ich zwischen der Medtronic und Omnipod Pumpe wechseln will?
 
@@ -98,7 +98,7 @@ Aber das größte Problem ist sicherlich, dass die Leute, für die du die Loop-A
 
 ## Wie kann ich eine kompatible Pumpe finden? Gibt es Nachschub?
 
-Es gibt eine extra Seite mit [detaillierten Informationen über Metronic Pumpen](https://loopkit.github.io/loopdocs/build/step3/); woher ich sie bekomme und wie komme ich an Nachschub und Hilfe bei der Einschätzung, ob deine Medtronic Pumpe kompatibel ist. Schau dir diese Seite an, falls du diesbezüglich Fragen hast.
+There is a [whole page with detailed information about Medtronic pumps](../build/step3.md); how to find them, how to find supplies, and assessing whether your Medtronic pump is compatible. Schau dir diese Seite an, falls du diesbezüglich Fragen hast.
 
 Zusätzlich kannst du auch den Omniport Support auf die gleiche Weise befragen, wie du es normalerweise gwohnt bist.
 
