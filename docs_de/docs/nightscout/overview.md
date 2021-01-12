@@ -31,11 +31,7 @@ Nightscout is highly recommended for Loop users, especially those using Loop as 
 ##<dt>Loop pill</dt>
 <dd>The Loop pill is the little display box which when hovered over, or clicked, will provide additional information about recent Loop activities and status.  Information included is the last time Loop ran, the temp basal set, IOB, and COB.  Looking at the Loop pill is a quick method for assessing if you loop is currently active, as well.</br>
 
-!!! Looking at the Loop pill is a quick method for assessing if you loop is currently active, as well.</br>
-
-!!! info "Loop Pill status indicator symbols"
-    <font style='font-size: 1.2em;'>X</font> &nbsp;
-    Error in Loop!!crwd_CB_1_BC_dwrc!!Mouseover or Touch the Loop pill to view a tool tip containing one or more of the latest status messages. The most up-to-date NS also includes information in the Loop pill for the minimum and maximum predicted BG, eventual and predicted BG.
+!!!info "Loop Pill status indicator symbols"!!crwd_CB_1_BC_dwrc!!Mouseover or Touch the Loop pill to view a tool tip containing one or more of the latest status messages. The most up-to-date NS also includes information in the Loop pill for the minimum and maximum predicted BG, eventual and predicted BG.
 
 <img src="../img/loop_pill_message.png" width="750"></dd>
 
