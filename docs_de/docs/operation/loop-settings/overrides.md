@@ -6,7 +6,7 @@ Override presets are (1) optional and (2) can be configured within Loop's workou
 
 <p align="center">
 <img src="../img/toolbar.png" width="450">
-</p></br>
+</p>
 
 ## How overrides work
 
@@ -18,7 +18,7 @@ Recapping: If you set an overall insulin needs adjustment below 100%, you are te
 
 <p align="center">
 <img src="../img/override-entry.jpeg" width="500">
-</p></br>
+</p>
 
 ## How overrides do NOT work
 
