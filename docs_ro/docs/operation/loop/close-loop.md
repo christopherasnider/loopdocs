@@ -1,6 +1,6 @@
 # Close-Loop
 
-When you feel like you have learned what you need from open-loop, you should be ready to switch to close-loop.  There are several ways you can help make that transition as smooth as possible.  
+When you feel like you have learned what you need from open-loop, you should be ready to switch to close-loop.  There are several ways you can help make that transition as smooth as possible.
 
 ## Timing
 
@@ -8,7 +8,7 @@ Many people choose to transition to close-loop in a step-wise fashion.  Starting
 
 ## Maximum Basal Rate
 
-When you are first beginning to close-loop, it is important to be conservative (low) in setting your maximum basal rate.  If your settings are incorrect in other areas (basal rates, carb absorption time, carb ratio, etc), Loop may enact incorrectly aggressive high temp basals.  Gradually increase your maximum basal rate as your comfort and confidence in Loop increase.  Typically, experienced closed loop users set their max basal rate no more than 3-4 times their average basal rate.  
+When you are first beginning to close-loop, it is important to be conservative (low) in setting your maximum basal rate.  If your settings are incorrect in other areas (basal rates, carb absorption time, carb ratio, etc), Loop may enact incorrectly aggressive high temp basals.  Gradually increase your maximum basal rate as your comfort and confidence in Loop increase.  Typically, experienced closed loop users set their max basal rate no more than 3-4 times their average basal rate.
 
 ## BG targets
 
