@@ -7,6 +7,7 @@ First check to see if your language is in the Loopdoc language page. The languag
 If your language is listed here the translation-project is already setup and you can join the translation team by follow the guide below.
 
 !!!note
+
     If your language is not listed and you want to start translating Loopdocs into a new language, please submit an issue on github [here](https://www.github.com/LoopDocs/loopdocs/issues/new?title=New language request&body=Can you please add [ENTER COUNTRY] for translation.).
 
     The translation team will then setup it up for you. Once it ready for translation, we will notify you in the issue and then you can join the Crowdin Team.
@@ -44,6 +45,7 @@ The sentences are colored in:
 **3. Enter translation here** - this is where you enter you translation. After you have entered your translation click the save button. Crowdin will then take you to the next sentence.
 
 !!!important
+
     Remember to click the save button otherwise your translation will not get saved.
 
 **4. Suggested translation of the sentence** - here you will see a list of sentences that Crowdin suggest to use for your translation. You can even see the translation for other languages at the bottom of the list. If you want to use the suggested translation you can just click it and the sentence goes into the "Enter your translation". Then you can edit the sentence and click save. If you just want to use the suggested sentence and not edit it, you can just click "Use and save".
@@ -53,4 +55,5 @@ The sentences are colored in:
 **5. Comments** - Here you can enter you comments about the translation that you are doing. Other users can see it and you can have a discussion about the usage of the sentence.
 
 !!!info
+
     It is standard practice to use the source language for comments -> english.
