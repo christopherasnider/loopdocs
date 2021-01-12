@@ -2,7 +2,7 @@
 
 <p align="center">
 <img src="../img/toolbar.png" width="300">
-</p> 
+</p>
 
 Bolus entries can be made manually through the bolus tool (double orange triangles) in the toolbar, either as part of a meal bolus or as a correction for a high BG.
 
@@ -13,7 +13,7 @@ The bolus tool will not offer a recommended bolus if your BG is predicted to go 
 
 <p align="center">
 <img src="../img/below_min.png" width="400">
-</p> 
+</p>
 
 ## Correction Bolus
 Occasionally, a recommended bolus will be offered in the bolus tool unrelated to a newly saved carb entry. In those cases, Loop is calculating that it will not be able to stay in the BG correction range through the use of high temp basals alone and is offering a “correction bolus”. Correction boluses will not be delivered automatically by Loop, they must be delivered by the user. Loop will also not give an alert when a correction bolus is being offered, the bolus entry tool must be clicked to check for one. The Loop pill in Nightscout will display when Loop has a recommended bolus calculated. In a well-tuned Loop with decent carb counting, correction boluses should be infrequently needed.
