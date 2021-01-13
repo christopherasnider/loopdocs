@@ -1866,14 +1866,14 @@ You can't clone mutliple "LoopWorkspaces" into the exact same home directory (be
 <li>Press build button</li>
 </ol>
 <h2 id="checking-out-different-branches-within-a-loopworkspace">Checking out different branches within a LoopWorkspace<a class="headerlink" href="#checking-out-different-branches-within-a-loopworkspace" title="Permanent link">&para;</a></h2>
-<p>More advanced users...I'm not going to explain this in quite so much detail, but yes, you can individually change the branches in a LoopWorkspace. </p>
-<p>There are 2 main ways to do this. </p>
+<p>More advanced users...I'm not going to explain this in quite so much detail, but yes, you can individually change the branches in a LoopWorkspace.</p>
+<p>There are 2 main ways to do this.</p>
 <ol>
 <li>
 <p>If you're already familiar with Git, the easiest way is to <code>cd</code> into the appropriate repository (like <code>cd rileylink_ios</code>) and <code>checkout</code> the desired branch.</p>
 </li>
 <li>
-<p>If you're not as familiar with Git, if you edit your .gitmodules directory in LoopWorkspace, you can specify other repos to use (and add a line to specify branches, too). Then if you do a <code>git submodule sync</code> the workspace will sync to new submodules. Then <code>git submodule update --init --recursive --remote</code> will update all the submodules to the right branches and get HEADs detached correctly, etc. </p>
+<p>If you're not as familiar with Git, if you edit your .gitmodules directory in LoopWorkspace, you can specify other repos to use (and add a line to specify branches, too). Then if you do a <code>git submodule sync</code> the workspace will sync to new submodules. Then <code>git submodule update --init --recursive --remote</code> will update all the submodules to the right branches and get HEADs detached correctly, etc.</p>
 </li>
 </ol>
 </p>
