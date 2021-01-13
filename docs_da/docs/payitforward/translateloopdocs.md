@@ -6,7 +6,7 @@ Kontroller først om dit sprog er på Loopdoc sprogside. Sproget siden kan finde
 
 Hvis dit sprog er opført her, er oversættelsesprojektet allerede opsat, og du kan blive medlem af oversættelsesteamet ved at følge vejledningen nedenfor.
 
-!!!note
+!!!note "Is your language not there?"
 
     Hvis dit sprog ikke er listet og du gerne vil begynde at oversætte Loopdocs til et nyt sprog, opret venligst et 'issue' på github  [her](https://www.github.com/LoopDocs/loopdocs/issues/new?title=New language request&body=Can you please add [ENTER COUNTRY] for translation.).
     
@@ -43,7 +43,7 @@ Sætningerne er farvet i:
 
 **3. Enter translation here** - det er her du indtaster din oversættelse. Når du har indtastet din oversættelse klik på gem knappen. Crowdin vil derefter tage dig til næste sætning.
 
-!!!important
+!!!important "Save your work!"
 
     Husk at klikke på gem-knappen ellers din oversættelse vil ikke blive gemt.
 
@@ -53,6 +53,6 @@ Sætningerne er farvet i:
 
 **5. Comments** - Her kan du indtaste kommentarer om den oversættelse, du laver. Andre brugere kan se det, og du kan have en diskussion om brugen af sætningen.
 
-!!!info
+!!!info "All translators read the comments"
 
-    Det er almindelig praksis at bruge kildesproget til kommentarer -> engelsk.
+    It is standard practice to use the source language for comments in this case you should use english.
