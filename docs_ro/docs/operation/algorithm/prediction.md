@@ -164,7 +164,7 @@ After the estimated absorbed carbohydrates have been subtracted from each meal e
 
 ## Retrospective Correction Effect
 
-!!!note
+!!!note ""
 
     The retrospective correction effect allows the Loop algorithm to account for effects that are not modeled with the insulin and carbohydrate effects, by comparing historical predictions to the actual blood glucose.
 
@@ -263,7 +263,7 @@ Here’s an example below that shows the retrospective correction effect when th
 
 ## Blood Glucose Momentum Effect
 
-!!!note
+!!!note ""
 
     The blood glucose momentum effect incorporates a prediction component based on the assumption that recent blood glucose trends tend to persist for a short period of time. In other words, the best predictor of the future is the recent past.
 
@@ -338,6 +338,7 @@ This example is illustrated in the figure below.
 It is also worth noting that Loop will not calculate blood glucose momentum in instances where CGM data is not continuous (i.e., must have at least three continuous CGM readings to draw the best-fit straight line trend). It also will not calculate blood glucose momentum when the last three CGM readings contain any calibration points, as those may not be representative of true blood glucose momentum trends.
 
 ## Predicting Glucose
+
 As described in the momentum effect section, the momentum effect is blended with the insulin, carbohydrate, and retrospective correction effects to predict the change in blood glucose:
 
 ![predicted glucose equation](img/delta_predicted_equation.png)
@@ -349,6 +350,3 @@ Lastly, the forecast or predicted blood glucose BG at time *t* is the current bl
 Each individual effect along with the combined effects are illustrated in the figure below. As shown, blood glucose is trending slightly upwards at the time of the prediction. Therefore, the blood glucose momentum effect’s contribution is pulling up the overall prediction from the other three effects for a short time. Retrospective correction is having a dampening effect on the prediction, indicating that the recent rise in blood glucose was not as great as had been previously predicted in the recent past.
 
 ![combined effects curve](img/combined_effects.png)
-
-
-

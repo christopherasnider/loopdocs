@@ -6,7 +6,7 @@ First check to see if your language is in the Loopdoc language page. The languag
 
 If your language is listed here the translation-project is already setup and you can join the translation team by follow the guide below.
 
-!!!note
+!!!note "Is your language not there?"
 
     If your language is not listed and you want to start translating Loopdocs into a new language, please submit an issue on github [here](https://www.github.com/LoopDocs/loopdocs/issues/new?title=New language request&body=Can you please add [ENTER COUNTRY] for translation.).
     
@@ -43,7 +43,7 @@ The sentences are colored in:
 
 **3. Enter translation here** - this is where you enter you translation. After you have entered your translation click the save button. Crowdin will then take you to the next sentence.
 
-!!!important
+!!!important "Save your work!"
 
     Remember to click the save button otherwise your translation will not get saved.
 
@@ -53,6 +53,14 @@ The sentences are colored in:
 
 **5. Comments** - Here you can enter you comments about the translation that you are doing. Other users can see it and you can have a discussion about the usage of the sentence.
 
-!!!info
+!!!info "All translators read the comments"
 
-    It is standard practice to use the source language for comments -> english.
+    It is standard practice to use the source language for comments in this case you should use english.
+
+## To translate or not to translate
+
+In most files there is sections the text "!!!note" or "!!!danger" or something other text with "!!!" in front. It is shown like this in Crowdin:
+
+![image](images/admontion.png)
+
+You should NOT translate the text just after the "!!!" in this case "warning", but you should translate "FAQs" in this case. Sometimes there is no text after "!!!warning" you should still NOT translate this. Some of Crowdins translation suggestions would like to translate the "warning" text.

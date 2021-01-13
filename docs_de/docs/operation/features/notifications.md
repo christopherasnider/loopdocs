@@ -70,4 +70,4 @@ Loop will notify when battery levels have approximately 8-10 hours of battery li
 
 ## Remote Notifications
 
-Loop does not have a remote notification to other devices.  If you are a remotely monitoring parent, you will want to read [here](../nightscout/../../nightscout/pushover.md#pushover) about setting up pushover alerts using your Nightscout site if you want proactive notifications of looping related information.
+Loop does not have a remote notification to other devices.  If you are a remotely monitoring parent, you will want to read [here](../../nightscout/pushover.md#pushover) about setting up pushover alerts using your Nightscout site if you want proactive notifications of looping related information.

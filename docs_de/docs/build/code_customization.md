@@ -1,11 +1,12 @@
-## Code Customizations
+# Code Customizations
+
 Based on Loop users’ experience, there are some customizations that you may want to incorporate ahead of building your Loop app and Apple Watch app.  These customizations must be done prior to building the Loop app onto your iPhone, they cannot be done from within the app itself.
 
 !!!info "Line numbers may change"
 
     Every effort will be made to update the line numbers as the code is updated, but there may be times where the screenshots and line numbers are slightly different than the current version of Loop code.  These instructions have been updated for Loop v2.0 master branch. If you can't find the same exact line on that line number listed, then look nearby and you'll likely find it just a couple lines away.
 
-### Disable Authentication for Bolusing
+## Disable Authentication for Bolusing
 
 Depending on your iPhone preferences and model, you may have Face ID or Touch ID enabled.  Those security features will also be used to authenticate bolus delivery in Loop.  You can choose to disable authentication (i.e., not require Face ID, Touch ID, or passcode for bolusing) through the following code customization:
 
@@ -15,7 +16,7 @@ Depending on your iPhone preferences and model, you may have Face ID or Touch ID
 <img src="../img/custom-id.png" width="750">
 </p>
 
-### Default Carb Absorption Times
+## Default Carb Absorption Times
 
 <img style="float: right;" width="200" src="../img/carb_screen.png" />
 
@@ -33,7 +34,8 @@ For example, if you wanted to make lollipop a 30 minute absorption and pizza a 5
 <img src="../img/carb_times_example.png" width="750">
 </p>
 
-### Exponential Insulin Curve
+## Exponential Insulin Curve
+
 The Exponential Insulin Curve Models (Rapid-Acting Adult, Rapid-Acting Child, and Fiasp) default to an insulin duration of 360 minutes...but the peak activity of the various curves differs, as follows:
 
 * Rapid-acting adult curve peaks at 75 minutes
@@ -46,7 +48,8 @@ If you wish to customize these values, you can adjust them on Lines 34-38 in the
 <img src="../img/exponential.png" width="750">
 </p>
 
-### Loop Logo
+## Loop Logo
+
 If you want an app logo other than the default green circle for your Loop app, you can easily customize this.  To make it easy to generate the correct sizes of icons, you can use a site like [appicon.build](http://www.appicon.build/) or [appicon.co](https://appicon.co/) and just drag and drop your source image. The source image needs to be 1024 pixels x 1024 pixels.  The site will email you a zip file or automatically download a set of files.  Highlight and copy the contents of the Appicon.appiconset that you are sent, including the Contents.json file
 
 Now navigate to the corresponding Loop folder (DefaultAssessts.xcassets, Appicon.appiconset) as shown below.  
@@ -73,7 +76,8 @@ And now you'll be the proud new owner of a custom Loop icon.
 <img src="../img/unicorn-logo.jpeg" width="350">
 </p>
 
-### Adjust the sensitivity of Watch's digital crown for carb and bolus entry
+## Adjust the sensitivity of Watch's digital crown for carb and bolus entry
+
 The rate of change of the carb and bolus entry pickers when using the digital crown can be altered. You'll need to edit two lines in files within the WatchApp Extension>>Controllers folder.  In BolusInterfaceController.swift edit line 191, and in AddCarbsInterfaceController.swift edit line 249. The 1/24 value is the ratio of rotations of the crown to the amount of change in the value. Changing it to 1/12 would mean that twice as many turns would be needed for the same amount of carb or bolus entry.
 
 <p align="center">
@@ -83,5 +87,3 @@ The rate of change of the carb and bolus entry pickers when using the digital cr
 <p align="center">
 <img src="../img/sensitivity2.png" width="800">
 </p>
-
-
