@@ -3,7 +3,6 @@ site_name: Loop dokumentation
 markdown_extensions:
     - meta
     - admonition
-    - attr_list
     - toc:
         permalink: true
     
