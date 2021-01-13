@@ -42,8 +42,12 @@ Make sure the lipo battery is well-plugged into the connection. Line up the litt
 !!!info "Common new user errors"
 
     The most common two errors for new RL owners are (1) not fully pushing in the lipo battery cable connection and (2) failing to charge the RL. Compare your lipo battery cable with the photos; it takes a bit of oomph to push that plug fully in like the photos shown below. Remember to charge your RL each night.
-<p><figure align="center"> <img src="../img/battery-cables.jpg" width="400" /> <figcaption>Loose battery cable on left, Proper battery cable on right</figcaption> </figure>
 
+<p><figure align="center">
+<img src="../img/battery-cables.jpg" width="400">
+<figcaption>Loose battery cable on left, Proper battery cable on right</figcaption>
+</figure>
+</p>
 Finally, the board and the battery fit into the slim case fairly tightly as well.  Click on the image below to watch a helpful [assembly video](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be).
 
 <a href="https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be" target="_blank"><img src="../img/slimcase.png"  title="RileyLink assembly video" /></a>
