@@ -291,11 +291,10 @@ Error message: "**<u>Unrecognized arguments: --cache-builds</u>**"
 <img src="../img/exit-code-1-cartfile.jpg" width="850">
 </p>
 
-
 Solution: Please open your Terminal app found in the Applications>>Utilities folder and then enter `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`  Confirm installation by pressing enter, and then typing in your computer password.  When the installation finishes, use the command `brew link --overwrite carthage`.  After those two steps, you can close out Terminal app, return to Xcode and press the build/play button again.
 
-
 ### Abort with Payload
+
 Error message: "**<u>Abort with payload</u>**"  Your app will only open briefly with a white screen and then close, if you build with this error.
 <p align="center">
 <img src="../img/abort_payload.png" width="750">
@@ -303,11 +302,13 @@ Error message: "**<u>Abort with payload</u>**"  Your app will only open briefly 
 Solution: This error message is caused by having Loop download folder in an iCloud mapped drive.  Move your download folder back to the Downloads folder, then rebuild.
 
 ### Apple Watch: Loop app not appearing
+
 Error: **<u>Apple watch app is not appearing</u>**.
 
 Solution: Usually because you have not updated to watchOS prior to when you built Loop, or you didn't have your Apple watch paired at the time of building Loop.  Don't forget to open the iPhone's Watch app, select My Watch tab on the bottom left, scroll all the way down, and click `Install` for the Loop app listed at the very bottom under "available apps".
 
 ### Apple Watch: Loop app not installing
+
 Error: **<u>The Loop app appears on the list of apps available to install on the watch, but when you press "install", and it goes through the animation of filling in the circle while it's installing, but then at the end it just toggles back to saying "INSTALL"</u>**.
 
 Solution:  Plug your iPhone into the computer and start Xcode.  On your watch, look for a prompt that says "Trust this computer".  Scroll down on the watch face and select the "Trust" button.  
