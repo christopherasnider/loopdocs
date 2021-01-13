@@ -15,8 +15,8 @@ Loop hat sowohl Hard-, als auch Software-Anforderungen. Allgemein brauchst du si
 - Compatible insulin pump: [Medtronic or Omnipod](../build/step3.md)
 - [Compatible CGM](../build/step4.md)
 - [RileyLink](../build/step5.md)
-- [Ein [kompatibles iPhone und/oder iPod Touch](https://loopkit.github.io/loopdocs/build/step2/)](../build/step2.md)
-- [Einen [Apple Computer mit Mojave macOS 10.14.3 oder neuer](https://loopkit.github.io/loopdocs/build/step1/).](../build/step1.md)
+- [Ein \[kompatibles iPhone und/oder iPod Touch\](https://loopkit.github.io/loopdocs/build/step2/)](../build/step2.md)
+- [Einen \[Apple Computer mit Mojave macOS 10.14.3 oder neuer\](https://loopkit.github.io/loopdocs/build/step1/).](../build/step1.md)
 - [Xcode (a free Apple application)](../build/step8.md)
 - [Apple Developer Membership](../build/step6.md)
 
@@ -76,7 +76,7 @@ Ja, du kannst. Es gibt einen "Hacker-Weg" ein MacOs als virtuelle Maschine auf e
 
 Die kurze Antwort ist: Einmal wenn du die App installierst und danach einmal pro Jahr. Falls du dich für ein kostenloses Apple Entwickler Account entschieden hast, musst du einmal pro Woche an den Rechner.
 
-Die lange Antwort ist: Der Progarmmcode für die Loop-App wird immer wieder aktualisiert und verbessert, um neue Features ein- und Bugs auszubauen. When those updates are released, you'll need access to an Apple computer again to update your Loop app.  Loop updates are not available through the iPhone's app store...instead you do the app update yourself with [update instructions here](../build/updating.md). Im Allgemeinen gibt es mehrmals pro Jahr ein Update, für das du dir vielleicht Zeit zum Installieren nehmen möchtest.
+Die lange Antwort ist: Der Progarmmcode für die Loop-App wird immer wieder aktualisiert und verbessert, um neue Features ein- und Bugs auszubauen. When those updates are released, you'll need access to an Apple computer again to update your Loop app.  Im Allgemeinen gibt es mehrmals pro Jahr ein Update, für das du dir vielleicht Zeit zum Installieren nehmen möchtest. Loop updates are not available through the iPhone's app store...instead you do the app update yourself with [update instructions here](../build/updating.md).
 
 ## Muss ich die Loop-App neu erstellen, wenn ich zwischen der Medtronic und Omnipod Pumpe wechseln will?
 
