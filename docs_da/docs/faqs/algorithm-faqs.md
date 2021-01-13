@@ -5,7 +5,7 @@
 
 Nej. Loop antager, at de indstillinger, du har angivet, er korrekte. Hvis eksterne faktorer (såsom hormoner, sygdom, motion, medicin, osv) påvirker dine grundlæggende indstillinger, der bestemme insulin behov (basale, insulinsensitivitetsfaktor, Carb ratio) kan det være nødvendigt at justere dine indstillinger manuelt. Loop vil ikke "lære" eller "antage", at dine grundlæggende behov har ændret sig. I stedet er Loop designet til at reagere på ændringerne i blodsukkeret, og dens beslutninger om insulindosering er baseret på de indstillinger, du har indtastet i appen.
 
-There is a short-term retrospective analysis built into Loop which will apply a weighted-correction based on the past 60 minutes of blood glucose changes. While this does help some, larger-scale "learning" is not currently a part of Loop's algorithm.
+Der er en kortsigtet retrospektiv analyse indbygget i Loop, som vil anvende en vægtet korrektion baseret på de seneste 60 minutters blodglukoseændringer. Mens dette hjælper nogle, større skala "læring" er i øjeblikket ikke en del af Loop's algoritme.
 
 Måske i de kommende versioner af Loop, kunne auto-justering af indstillinger eller machine learning være med. Indtil da skal du fortælle Loop, om dine grundlæggende indstillinger skal opdateres eller foretage midlertidige justeringer for kortsigtede problemer. For at forstå, hvorfor dine indstillinger er vigtige, tjek [Looptips.org](https://looptips.org).
 

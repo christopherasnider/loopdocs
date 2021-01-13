@@ -1,7 +1,9 @@
 ## Tilpasning af kode
 Baseret på Loop-brugernes oplevelse er der nogle tilpasninger, som du måske vil indarbejde forud for opbygningen af din Loop-app og Apple Watch-appen.  Disse tilpasninger skal ske, før du bygger Loop-appen på din iPhone, de kan ikke foretages inde fra selve appen.
 
-!!!info "Linjenumre kan ændre sig" Der vil blive gjort alt for at opdatere linjenumrene, efterhånden som koden opdateres, men der kan være tidspunkter, hvor skærmbillederne og linjenumrene er lidt anderledes end den aktuelle version af Loop-koden.  Denne vejledning er blevet opdateret til Loop v2.0-master branch. Hvis du ikke kan finde den samme nøjagtige linje på den angivne linjenummer, så se i nærheden, og du vil sandsynligvis finde det kun et par linjer væk.
+!!!info "Line numbers may change"
+
+    Every effort will be made to update the line numbers as the code is updated, but there may be times where the screenshots and line numbers are slightly different than the current version of Loop code.  These instructions have been updated for Loop v2.0 master branch. If you can't find the same exact line on that line number listed, then look nearby and you'll likely find it just a couple lines away.
 
 ### Deaktivér godkendelse til bolus
 

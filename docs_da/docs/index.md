@@ -5,9 +5,9 @@
 
 ## Introduktion
 
-[Loop](https://github.com/LoopKit/Loop) er en app-skabelon til opbygning af et automatiseret insulinleveringssystem. It is a stone resting on the boulders of work done by many others.
+[Loop](https://github.com/LoopKit/Loop) er en app-skabelon til opbygning af et automatiseret insulinleveringssystem.
 
-The app is built on top of [LoopKit](https://github.com/LoopKit/LoopKit). LoopKit is a set of frameworks that provide data storage, retrieval, and calculation, as well as boilerplate view controllers used in Loop.
+Den app er bygget oven på [LoopKit](https://github.com/LoopKit/LoopKit). LoopKit er et sæt af rammer, der leverer datalagring, hentning og beregning samt standardvisninger, der bruges i Loop.
 
 !!!warning "Vigtigt"
 
