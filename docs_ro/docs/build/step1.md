@@ -46,12 +46,12 @@ You need an Apple computer that has at least the minimum macOS version as descri
 If your computer does not have the required minimum version, you'll need to check the `Software Update` button on that screen to see if you can update.
 
 <p align="center">
-<img src="img/macosx.png" width="500">
+<img src="../img/macosx.png" width="500">
 </p>
 If your computer does not give you the option to update to the newer macOS (in other words you are stuck on older versions)...it is quite possible that Apple has decided your computer is too old to run the latest and greatest. How old is too old? That will depend on your computer model and year as shown below:
 
 <p align="center">
-<img src="img/mojave-minimum.png" width="750">
+<img src="../img/mojave-minimum.png" width="750">
 </p>
 
 ## Next Step: Compatible iPhone/iPod touch
