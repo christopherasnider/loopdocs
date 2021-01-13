@@ -12,5 +12,3 @@ While all of this is probably quite intimidating at first, I promise that it is 
 <p align="center">
 <img src="https://media.giphy.com/media/xThta8UkUaoqJoJQC4/giphy.gif" width="400">
 </p>
-
-
