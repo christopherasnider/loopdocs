@@ -6,7 +6,7 @@ Kontroller først om dit sprog er på Loopdoc sprogside. Sproget siden kan finde
 
 Hvis dit sprog er opført her, er oversættelsesprojektet allerede opsat, og du kan blive medlem af oversættelsesteamet ved at følge vejledningen nedenfor.
 
-!!!note "Is your language not there?"
+!!!note "Er dit sprog ikke der?"
 
     Hvis dit sprog ikke er listet og du gerne vil begynde at oversætte Loopdocs til et nyt sprog, opret venligst et 'issue' på github  [her](https://www.github.com/LoopDocs/loopdocs/issues/new?title=New language request&body=Can you please add [ENTER COUNTRY] for translation.).
     
@@ -53,14 +53,14 @@ Sætningerne er farvet i:
 
 **5. Comments** - Her kan du indtaste kommentarer om den oversættelse, du laver. Andre brugere kan se det, og du kan have en diskussion om brugen af sætningen.
 
-!!!info "All translators read the comments"
+!!!info "Alle oversættere læser kommentarerne"
 
-    It is standard practice to use the source language for comments in this case you should use english.
+    Det er almindelig praksis at bruge kildesproget til kommentarer i dette tilfælde skal du bruge engelsk.
 
-## To translate or not to translate
+## At oversætte eller ikke at oversætte
 
-In most files there is sections the text "!!!note" or "!!!danger" or something other text with "!!!" in front. It is shown like this in Crowdin:
+I de fleste filer er der sektioner teksten "!!! note" eller "!!! fare" eller noget andet tekst med "!!!" foran. Det er vist på denne måde i Crowdin:
 
 ![image](images/admontion.png)
 
-You should NOT translate the text just after the "!!!" in this case "warning", but you should translate "FAQs" in this case. Sometimes there is no text after "!!!warning" you should still NOT translate this. Some of Crowdins translation suggestions would like to translate the "warning" text.
+Du bør IKKE oversætte teksten lige efter "!!!" i dette tilfælde "advarsel", men du bør oversætte "FAQs" i dette tilfælde. Nogle gange er der ingen tekst efter "!!!advarsel", men du skal du stadig IKKE oversætte dette. Nogle af Crowdins oversættelse forslag vil gerne oversætte "warning" tekst.
