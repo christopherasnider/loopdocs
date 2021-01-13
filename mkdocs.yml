@@ -3,8 +3,10 @@ theme: flatly
 
 extra_css:
     - css/admonitions.css
+    
 markdown_extensions:
     - admonition
+    - attr_list
     - toc:
         permalink: ⌁
 

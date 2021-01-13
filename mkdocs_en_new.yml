@@ -5,6 +5,7 @@ repo_url: https://github.com/LoopKit/loopdocs
 markdown_extensions:
     - meta
     - admonition
+    - attr_list
     - toc:
         permalink: true
     
