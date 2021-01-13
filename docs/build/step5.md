@@ -47,7 +47,7 @@ Make sure the lipo battery is well-plugged into the connection. Line up the litt
 <img src="../img/battery-cables.jpg" width="400">
 <figcaption>Loose battery cable on left, Proper battery cable on right</figcaption>
 </figure>
-
+</p>
 Finally, the board and the battery fit into the slim case fairly tightly as well.  Click on the image below to watch a helpful [assembly video](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be).
 
 <a href="https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be" target="_blank"><img src="../img/slimcase.png"  title="RileyLink assembly video" /></a>

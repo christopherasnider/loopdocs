@@ -1,10 +1,6 @@
 site_name: LoopDocs
 theme: flatly
 
-google_analytics:
-  - G-0R6XF6D528
-  - auto
-
 extra_css:
     - css/admonitions.css
 markdown_extensions:
