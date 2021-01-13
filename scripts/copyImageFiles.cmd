@@ -3,3 +3,4 @@
 robocopy  "../docs" "../docs_da/docs" /S /XF *.md /MIR
 robocopy  "../docs" "../docs_de/docs" /S /XF *.md /MIR
 robocopy  "../docs" "../docs_ro/docs" /S /XF *.md /MIR
+robocopy  "../docs" "../docs_fr/docs" /S /XF *.md /MIR

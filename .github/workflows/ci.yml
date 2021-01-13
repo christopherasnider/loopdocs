@@ -24,7 +24,9 @@ jobs:
       - run: mkdocs build --config-file mkdocs_en_new.yml --site-dir site/en_new
       - run: mkdocs build --config-file docs_da/mkdocs.yml --site-dir ../site/da
       - run: mkdocs build --config-file docs_de/mkdocs.yml --site-dir ../site/de
-      - run: mkdocs build --config-file docs_ro/mkdocs.yml --site-dir ../site/ro        
+      - run: mkdocs build --config-file docs_ro/mkdocs.yml --site-dir ../site/ro   
+      - run: mkdocs build --config-file docs_fr/mkdocs.yml --site-dir ../site/fr
+              
       - uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           BRANCH: gh-pages-translation
