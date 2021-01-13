@@ -56,3 +56,11 @@ Sætningerne er farvet i:
 !!!info "All translators read the comments"
 
     It is standard practice to use the source language for comments in this case you should use english.
+
+## To translate or not to translate
+
+In most files there is sections the text "!!!note" or "!!!danger" or something other text with "!!!" in front. It is shown like this in Crowdin:
+
+![image](images/admontion.png)
+
+You should NOT translate the text just after the "!!!" in this case "warning", but you should translate "FAQs" in this case. Sometimes there is no text after "!!!warning" you should still NOT translate this. Some of Crowdins translation suggestions would like to translate the "warning" text.
