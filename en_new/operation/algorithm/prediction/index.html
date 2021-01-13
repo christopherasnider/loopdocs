@@ -2074,13 +2074,13 @@
 </table>
 <p>This example is illustrated in the figure below.</p>
 <p><img alt="blood glucose momentum graphic" src="../img/momentum_graphic.png" /></p>
-<p>It is also worth noting that Loop will not calculate blood glucose momentum in instances where CGM data is not continuous (i.e., must have at least three continuous CGM readings to draw the best-fit straight line trend). It also will not calculate blood glucose momentum when the last three CGM readings contain any calibration points, as those may not be representative of true blood glucose momentum trends. </p>
+<p>It is also worth noting that Loop will not calculate blood glucose momentum in instances where CGM data is not continuous (i.e., must have at least three continuous CGM readings to draw the best-fit straight line trend). It also will not calculate blood glucose momentum when the last three CGM readings contain any calibration points, as those may not be representative of true blood glucose momentum trends.</p>
 <h2 id="predicting-glucose">Predicting Glucose<a class="headerlink" href="#predicting-glucose" title="Permanent link">&para;</a></h2>
 <p>As described in the momentum effect section, the momentum effect is blended with the insulin, carbohydrate, and retrospective correction effects to predict the change in blood glucose:</p>
 <p><img alt="predicted glucose equation" src="../img/delta_predicted_equation.png" /></p>
 <p>Lastly, the forecast or predicted blood glucose BG at time <em>t</em> is the current blood glucose BG plus the sum of all blood glucose effects BG over the time interval [t5, t]:</p>
 <p><img alt="adding all the deltas" src="../img/sigma_bg_delta.png" /></p>
-<p>Each individual effect along with the combined effects are illustrated in the figure below. As shown, blood glucose is trending slightly upwards at the time of the prediction. Therefore, the blood glucose momentum effect’s contribution is pulling up the overall prediction from the other three effects for a short time. Retrospective correction is having a dampening effect on the prediction, indicating that the recent rise in blood glucose was not as great as had been previously predicted in the recent past. </p>
+<p>Each individual effect along with the combined effects are illustrated in the figure below. As shown, blood glucose is trending slightly upwards at the time of the prediction. Therefore, the blood glucose momentum effect’s contribution is pulling up the overall prediction from the other three effects for a short time. Retrospective correction is having a dampening effect on the prediction, indicating that the recent rise in blood glucose was not as great as had been previously predicted in the recent past.</p>
 <p><img alt="combined effects curve" src="../img/combined_effects.png" /></p>
                 
               
