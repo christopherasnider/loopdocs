@@ -62,7 +62,9 @@ After you've finished the updates to your devices listed above, you can move ont
 
 ---
 
-[Dev branch---in very rough shape right now, please only build if developer interested in debugging](https://github.com/LoopKit/Loop/archive/dev.zip) [Automatic-bolus branch---do your research before using as well, if you are asking what it is then you haven't researched enough yet](https://github.com/LoopKit/Loop/archive/automatic-bolus.zip)
+[Dev branch---in very rough shape right now, please only build if developer interested in debugging](https://github.com/LoopKit/Loop/archive/dev.zip)
+
+[Automatic-bolus branch---do your research before using as well, if you are asking what it is then you haven't researched enough yet](https://github.com/LoopKit/Loop/archive/automatic-bolus.zip)
 
 ---
 

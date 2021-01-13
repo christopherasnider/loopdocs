@@ -26,7 +26,6 @@ Du solltest dieses Projekt in einzelnen Etappen angehen. For example, first “o
 
 Loop wurde als open-source und geteiltes Projekt entwickelt.  Ein sehr interessanter Artikel über die Entwicklungsgeschichte von Loop wurde vom Loop-Entwickler Nate Racklyeft geschrieben und befindet sich hier: [History of Loop and LoopKit](https://medium.com/@loudnate/the-history-of-loop-and-loopkit-59b3caf13805).  Das Projekt wird fortgeführt als ein Liebesdienst einer Gemeinschaft von Anwendern, verwaltet und weiterentwickelt von Freiwilligen.
 
-
 ## Verwendung der Dokumentation
 
 * Benutze das Navigationsmenu am oberen Rand um die Information zu finden, nach der du suchst.
@@ -34,7 +33,6 @@ Loop wurde als open-source und geteiltes Projekt entwickelt.  Ein sehr interessa
 * Du kannst die Loop Docs Seite auch durchsuchen, indem du auf dieses Icon klickst <img src="img/search_icon.png" width="50px" />.
 
     <img src="img/search_example.png" width="400" />
-
 
 ## Bleib in der Schleife!
 

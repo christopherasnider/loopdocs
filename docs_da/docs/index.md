@@ -26,7 +26,6 @@ You should undertake this project in stages. For example, first “open loop” 
 
 Loop has been developed as an open-source, shared project.  For a really interesting read about the history of Loop development, check out this [History of Loop and LoopKit](https://medium.com/@loudnate/the-history-of-loop-and-loopkit-59b3caf13805) post, written by Loop developer Nate Racklyeft.  The project continues to be a labor-of-love by a community of users; maintained and improved by volunteers.
 
-
 ## Sådan bruges disse dokumenter
 
 * Brug navigationsmenuen øverst på skærmen til at finde de oplysninger, du leder efter.
@@ -34,7 +33,6 @@ Loop has been developed as an open-source, shared project.  For a really interes
 * Du kan søge på Loop Docs-webstedet ved at klikke på <img src="img/search_icon.png" width="50px" /> ikonet.
 
     <img src="img/search_example.png" width="400" />
-
 
 ## Hold dig orienteret!
 

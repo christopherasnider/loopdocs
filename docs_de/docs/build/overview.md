@@ -12,5 +12,3 @@ Obwohl dies alles auf den ersten Blick einschüchternd sein kann, verspreche ich
 <p align="center">
 <img src="https://media.giphy.com/media/xThta8UkUaoqJoJQC4/giphy.gif" width="400">
 </p>
-
-

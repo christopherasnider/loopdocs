@@ -17,4 +17,3 @@ You also need to enable your Dexcom app to write to the Health app. You can find
 <img src="../img/health_g5.jpg" width="550">
 </p>
 </br></br>
-

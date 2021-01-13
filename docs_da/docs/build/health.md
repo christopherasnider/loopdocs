@@ -17,4 +17,3 @@ Du skal også aktivere din Dexcom app for at skrive til appen Sundhed. Du kan fi
 <img src="../img/health_g5.jpg" width="550">
 </p>
 </br></br>
-

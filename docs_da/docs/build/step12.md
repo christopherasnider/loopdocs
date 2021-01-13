@@ -1,17 +1,17 @@
-# Step 12: Meet the Community
+# Trin 12: Mød Fællesskabet
 
-!!!danger "Time Estimate"
-    * Joining Looped Group: 5 minutes
-    * Joining Zulipchat: 10 minutes
+!!!danger "Tidsestimat"
+    * Tilmelde sig Looped Gruppe: 5 minutter
+    * Vær med på Zulipchat: 10 minutter
 
-!!!info "Summary"
-    * Use the search tools in Looped, Zulipchat, Loopdocs, and Looptips
-    * If asking for help, remember the motto "Help me help you"...provide information. Avoid vague phrases and the word "it". Aim for details and specifics. Screenshots are gold.
+!!!info "Resume"
+    * Brug søgeværktøjerne i Looped, Zulipchat, Loopdocs og Looptips
+    * Hvis du beder om hjælp, så husk mottoet "Hjælp mig med at hjælpe dig"... give oplysninger. Undgå vage sætninger og ordet "det". Sigt efter detaljer og detaljer. Screenshots er guld.
 
 !!!warning "FAQs"
-    * **"I'm worried I'll ask a stupid question"** Don't worry about that...instead just focus on asking a **thorough** question. A thorough question explains what you've already tried or read, has screenshots of what you are confused by, and any other details that you can provide.
+    * **"Jeg er bange for jeg vil stille et dumt spørgsmål"** Skal du ikke bekymre dig om, at ... i stedet bare fokusere på at stille **grundig** spørgsmål. Et grundigt spørgsmål forklarer, hvad du allerede har prøvet eller læst, har skærmbilleder af, hvad du er forvirret over, og alle andre detaljer, som du kan give.
 
-## Online groups
+## Onlinegrupper
 There's a whole wonderful community of people already Looping who willing to help you through the process. You can find them in two main areas; [Looped group on Facebook](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf) and [Zulipchat](https://loop.zulipchat.com).
 
 These groups, as with Loop itself, are entirely driven by VOLUNTEERS. None of the people are paid to answer questions or spend time troubleshooting...they do it because they want to help others. Please decrease that support burden by doing some simple steps yourself before turning to others for help. Please click the image below to watch this video full of tips to make the most of your online resources.

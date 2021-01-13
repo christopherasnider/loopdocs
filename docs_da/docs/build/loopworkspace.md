@@ -47,7 +47,6 @@ Automatic-bolus branch command would be: `git clone --branch=automatic-bolus --r
 
 Dev branch command would be: `git clone --branch=dev --recurse-submodules https://github.com/LoopKit/LoopWorkspace`
 
-
 ## Where does the clone go?
 
 A cloned version of Loop doesn't go to your "Downloads" folder like you are used to with the usual version of building Loop app.  Instead, the cloned version of the LoopWorkspace will go into whatever directory you were sitting in in Terminal app when you did the command. Terminal app by default drops you into your User account's home directory when you first open it, so that's a good assumption on where your cloned LoopWorkspace will go.
@@ -131,7 +130,6 @@ More advanced users...I'm not going to explain this in quite so much detail, but
 There are 2 main ways to do this.
 
 1. If you're already familiar with Git, the easiest way is to `cd` into the appropriate repository (like `cd rileylink_ios`) and `checkout` the desired branch.
-
 
 2. If you're not as familiar with Git, if you edit your .gitmodules directory in LoopWorkspace, you can specify other repos to use (and add a line to specify branches, too). Then if you do a `git submodule sync` the workspace will sync to new submodules. Then `git submodule update --init --recursive --remote` will update all the submodules to the right branches and get HEADs detached correctly, etc.
 <p align="center">
