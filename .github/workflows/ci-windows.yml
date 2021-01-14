@@ -20,7 +20,7 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-bootswatch
       - run: .\scripts\buildsite.ps1
-              
+      - run: pip install rsync        
       - uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           BRANCH: gh-pages-translation
