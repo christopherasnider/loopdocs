@@ -76,7 +76,7 @@ Yes, you can...sort of. There is a hacked way of installing macOS on a Windows c
 
 The short answer is (1) when you first build and (2) once per year minimum after that. (If you decide to use a free Apple Developer Account, you will need to get on the computer every 7 days.)
 
-The longer answer is that Loop code is updated periodically to include new features and bug fixes. When those updates are released, you'll need access to an Apple computer again to update your Loop app.  Loop updates are not available through the iPhone's app store...instead you do the app update yourself with [update instructions here](../build/updating.md). In general, probably a few times a year there are updates to Loop released that you'd want to take the time to install.
+The longer answer is that Loop code is updated periodically to include new features and bug fixes. When those updates are released, you'll need access to an Apple computer again to update your Loop app.  In general, probably a few times a year there are updates to Loop released that you'd want to take the time to install. Loop updates are not available through the iPhone's app store...instead you do the app update yourself with [update instructions here](../build/updating.md).
 
 ## Will I need to build a new Loop if I switch between Medtronic and Omnipod?
 
