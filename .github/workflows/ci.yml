@@ -19,7 +19,7 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material
       - run: pip install mkdocs-bootswatch
-      - run: python .\scripts\buildsite.py
+      - run: python 'scripts/buildsite.py'
               
       - uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
