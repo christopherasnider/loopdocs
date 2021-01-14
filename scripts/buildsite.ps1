@@ -11,7 +11,7 @@ Get-ChildItem $topdirectory | Where-Object{ $_.Name -like "docs_*" } | ForEach-O
 
     $lang=$_.Name.Substring(5,2)
 
-    $template=Get-Content -path "template_mkdocs.yml" -Raw
+    $template=Get-Content -path "$($PSScriptRoot)\template_mkdocs.yml" -Raw
     $nav=Get-Content -path "$topdirectory\$($_.Name)\docs\nav.yml" -Raw
     $newcontent=$template -replace "{replacenavhere}", $nav
     $newcontent=$newcontent -replace "{language}", $lang
