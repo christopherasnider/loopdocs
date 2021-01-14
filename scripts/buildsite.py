@@ -8,7 +8,8 @@ def runmkdocs(configfile,sitedir):
 def right(s, amount):
     return s[-amount:]
 
-scriptdirectory=os.getcwd()
+scriptdirectory=os.path.join(os.getcwd(),"scripts")
+print(scriptdirectory)
 path = Path(scriptdirectory)
 topdirectory=path.parent
 sitedir=os.path.join(topdirectory,".buildsite") 
