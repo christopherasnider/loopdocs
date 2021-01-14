@@ -59,8 +59,14 @@ The sentences are colored in:
 
 ## To translate or not to translate
 
+### The "!!!" text
+
 In most files there is sections the text "!!!note" or "!!!danger" or something other text with "!!!" in front. It is shown like this in Crowdin:
 
 ![image](images/admontion.png)
 
 You should NOT translate the text just after the "!!!" in this case "warning", but you should translate "FAQs" in this case. Sometimes there is no text after "!!!warning" you should still NOT translate this. Some of Crowdins translation suggestions would like to translate the "warning" text.
+
+### The "<0>" text
+
+There can be strings in a sentence that looks like this "<0>". Just ignore them and do not translate them. They should be untouched.

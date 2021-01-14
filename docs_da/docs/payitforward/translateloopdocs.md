@@ -59,8 +59,14 @@ Sætningerne er farvet i:
 
 ## At oversætte eller ikke at oversætte
 
+### The "!!!" text
+
 I de fleste filer er der sektioner teksten "!!! note" eller "!!! fare" eller noget andet tekst med "!!!" foran. Det er vist på denne måde i Crowdin:
 
 ![image](images/admontion.png)
 
 Du bør IKKE oversætte teksten lige efter "!!!" i dette tilfælde "advarsel", men du bør oversætte "FAQs" i dette tilfælde. Nogle gange er der ingen tekst efter "!!!advarsel", men du skal du stadig IKKE oversætte dette. Nogle af Crowdins oversættelse forslag vil gerne oversætte "warning" tekst.
+
+### The "<0>" text
+
+There can be strings in a sentence that looks like this "<0>". Just ignore them and do not translate them. They should be untouched.
