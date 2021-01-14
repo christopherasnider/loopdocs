@@ -29,7 +29,7 @@ Hvis du ønsker en mere detaljeret forklaring på, hvordan du bruger Crowdin, ka
 
 Når du har valgt dit sprog og en fil, åbnes Crowdin-editoren.
 
-Crowdin-editoren har 5 hovedområder, som er fremhævet nedenfor: ![Crowdin områder](images/crowdinareas.png)
+Crowdin-editoren har 5 hovedområder, som er fremhævet nedenfor: ![Crowdin områder](img/crowdinareas.png)
 
 **1. Document to translate** - indeholder alle sætninger i dokumentet. Du oversætter en sætning ad gangen.</0> Du kan klikke på den sætning, du vil oversætte. Når du klikker på en sætning, ændres de fire andre områder.
 
@@ -49,7 +49,7 @@ Sætningerne er farvet i:
 
 **4. Suggested translation of the sentence** - her vil du se en liste over sætninger, som Crowdin foreslår at bruge til din oversættelse. Du kan endda se oversættelsen til andre sprog nederst på listen. Hvis du ønsker at bruge den foreslåede oversættelse, kan du blot klikke på den og sætningen bliver overført til "Enter your translation". Derefter kan du redigere sætningen og klikke på gem. Hvis du bare ønsker at bruge den foreslåede sætning og ikke redigere det, kan du blot klikke på "Use and save".
 
-![Forslag](images/suggestion.png)
+![Forslag](img/suggestion.png)
 
 **5. Comments** - Her kan du indtaste kommentarer om den oversættelse, du laver. Andre brugere kan se det, og du kan have en diskussion om brugen af sætningen.
 
@@ -59,14 +59,14 @@ Sætningerne er farvet i:
 
 ## At oversætte eller ikke at oversætte
 
-### The "!!!" text
+### Teksten "!!!"
 
 I de fleste filer er der sektioner teksten "!!! note" eller "!!! fare" eller noget andet tekst med "!!!" foran. Det er vist på denne måde i Crowdin:
 
-![image](images/admontion.png)
+![image](img/admontion.png)
 
 Du bør IKKE oversætte teksten lige efter "!!!" i dette tilfælde "advarsel", men du bør oversætte "FAQs" i dette tilfælde. Nogle gange er der ingen tekst efter "!!!advarsel", men du skal du stadig IKKE oversætte dette. Nogle af Crowdins oversættelse forslag vil gerne oversætte "warning" tekst.
 
-### The "<0>" text
+### Teksten "<0>"
 
-There can be strings in a sentence that looks like this "<0>". Just ignore them and do not translate them. They should be untouched.
+Der kan være strenge i en sætning, der ser sådan ud "<0>". Bare ignorere dem og oversætte dem ikke.
