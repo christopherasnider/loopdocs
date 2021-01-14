@@ -36,12 +36,12 @@ Loop er udviklet som et open source, delt projekt.  For en virkelig interessant 
 
 ## Hold dig orienteret!
 
-[Sign up for the Loop Users announcement list](https://groups.google.com/forum/#!forum/loop-ios-users) to stay informed of critical issues that may arise.
+[Tilmeld dig til Loop-annoncering](https://groups.google.com/forum/#!forum/loop-ios-users) for at holde dig orienteret om kritiske problemer, der måtte opstå.
 
-Join the Zulipchat at [https://loop.zulipchat.com](https://loop.zulipchat.com)
+Deltag i Zulipchat på [https://loop.zulipchat.com](https://loop.zulipchat.com)
 
-There is also a [Looped Facebook Group](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf) that you might wish to join for support.  When you request to join the group, please remember to check your messages box on facebook and respond to the message.
+Der er også en [Looped Facebook Group](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf), som du måske ønsker at deltage i for support.  Når du anmoder om at deltage i gruppen, skal du huske at tjekke dine beskeder boks på facebook og svare på meddelelsen.
 
 ## Bidrag
 
-Please consider submitting any updates and improvements to the documentation that you want to share by submitting a Pull Request to the [loopdocs repo](https://github.com/LoopKit/loopdocs). For more information on how to contribute to an open-source project, this [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) guide may be useful. Also, please review the Loop [LICENSE](https://github.com/LoopKit/Loop/blob/master/LICENSE.md) and Loop [CODE_OF_CONDUCT](https://github.com/LoopKit/Loop/blob/master/CODE_OF_CONDUCT.md).
+Overvej venligst at indsende opdateringer og forbedringer til den dokumentation, du ønsker at dele, ved at indsende en Pull Request til [loopdocs repo](https://github.com/LoopKit/loopdocs). For mere information om, hvordan man bidrager til et open source-projekt, kan denne [Sådan bidrager du til Open Source](https://opensource.guide/how-to-contribute/) guide være nyttig. Læs også Loop [LICENSE](https://github.com/LoopKit/Loop/blob/master/LICENSE.md) og Loop [CODE_OF_CONDUCT](https://github.com/LoopKit/Loop/blob/master/CODE_OF_CONDUCT.md).
