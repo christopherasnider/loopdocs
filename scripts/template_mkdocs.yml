@@ -1,0 +1,20 @@
+site_name: Loop
+
+markdown_extensions:
+    - meta
+    - admonition
+    - toc:
+        permalink: true
+    
+plugins:
+  - search
+
+theme:
+  name: material
+  custom_dir: ../overrides
+  language: {language}
+  features:
+      - navigation.tabs
+
+nav:
+{replacenavhere}

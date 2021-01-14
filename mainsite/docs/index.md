@@ -5,7 +5,7 @@ hide:
 ---
 # Choose language
 
-<a href='en_new/'><span class="flag-icon flag-icon-us"></span> English </a> <a href='en/'>(original)</a>
+<a href='en/'><span class="flag-icon flag-icon-us"></span> English </a> <a href='en_old/'>(original)</a>
 
 <a href='da/'><span class="flag-icon flag-icon-dk"></span> Danish</a>
 

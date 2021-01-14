@@ -10,7 +10,7 @@ on: workflow_dispatch
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: windows-2019
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
@@ -18,13 +18,7 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material
       - run: pip install mkdocs-bootswatch
-      - run: mkdocs build --config-file mainsite/mkdocs.yml --site-dir ../site
-      - run: mkdocs build --config-file mkdocs_old.yml --site-dir site/en_old
-      - run: mkdocs build --config-file mkdocs_en.yml --site-dir site/en
-      - run: mkdocs build --config-file docs_da/mkdocs.yml --site-dir ../site/da
-      - run: mkdocs build --config-file docs_de/mkdocs.yml --site-dir ../site/de
-      - run: mkdocs build --config-file docs_ro/mkdocs.yml --site-dir ../site/ro   
-      - run: mkdocs build --config-file docs_fr/mkdocs.yml --site-dir ../site/fr
+      - run: .\scripts\buildsite.ps1
               
       - uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
