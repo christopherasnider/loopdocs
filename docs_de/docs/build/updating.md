@@ -112,6 +112,9 @@ An ounce of prevention is worth a pound of cure.  Since we already have Terminal
     <p align="center">
     <img src="../img/cleaned-terminal.png" width="650">
     </p>
+    <p align="center">
+    <img src="../img/cleaned-terminal.png" width="650">
+    </p>
 
 ## Step 5: Build like normal
 
