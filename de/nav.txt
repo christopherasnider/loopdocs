@@ -1,0 +1,86 @@
+- Home: index.md
+- FAQs:
+    - Über die Seite FAQs: faqs/docs-faqs.md
+    - Allgemeine Loop-App FAQs: faqs/FAQs.md
+    - Omnipod FAQs: faqs/omnipod-faqs.md
+    - Branch FAQs: faqs/branch-faqs.md
+    - Aktualisierung und Neuerstellung der Loop-App FAQs: faqs/update-faqs.md
+    - iOS 13 FAQs: faqs/ios13.md
+    - RileyLink FAQs: faqs/rileylink-faqs.md
+    - Algorithmus FAQs: faqs/algorithm-faqs.md
+    - CGM FAQs: faqs/cgm-faqs.md
+    - Sicherheitstipps: faqs/safety-faqs.md
+- Erstellung der App:
+    - Übersicht: build/overview.md
+    - Schritt 1 Kompatible Betriebssysteme: build/step1.md
+    - Schritt 2 Kompatible iPhone/iPod touch: build/step2.md
+    - Schritt 3 Kompatible Pumpen: build/step3.md
+    - Schritt 4 Kompatible CGM: build/step4.md
+    - Schritt 5 Bestellung eines RileyLink: build/step5.md
+    - Schritt 6 Einschreibung ins Apple Developer Program: build/step6.md
+    - Schritt 7 Installation von Homebrew: build/step7.md
+    - Schritt 8 Herunterladen von Xcode: build/step8.md
+    - Schritt 9 Xcode Einstellungen: build/step9.md
+    - Schritt 10 Test der Einstellungen: build/step10.md
+    - Schritt 11 Überdenken der Speicherung der Daten der Loop-App: build/step11.md
+    - Schritt 12 Triff dich in der Gruppe: build/step12.md
+    - Schritt 13 Herunterladen des Loop-App Quellcodes: build/step13.md
+    - Schritt 14 Erstellen der Loop-App: build/step14.md
+    - Mist! Build-Fehler?: build/build_errors.md
+    - Anpassen deiner Loop-App: build/code_customization.md
+    - Aktualisieren/neuerstellen deiner Loop-App: build/updating.md
+    - LoopWorkspace: build/loopworkspace.md
+- Einrichten der Loop-App:
+    - Übersicht: operation/overview.md
+    - Schritt 1 Health-Berechtigungen: build/health.md
+    - Schritt 2 Pumpe hinzufügen:
+        - Medtronic-Pumpe hinzufügen: operation/loop-settings/mdt-pump.md
+        - Omnipod-Pumpe hinzufügen: operation/loop-settings/omnipod-pump.md
+    - Schritt 3 CGM hinzufügen: operation/loop-settings/cgm.md
+    - Schritt 4 Konfiguartionen: operation/loop-settings/configurations.md
+    - Schritt 5 Loop Dienste: operation/loop-settings/services.md
+    - Loop-App Ansichten: operation/loop-settings/displays.md
+    - RileyLink Menü: operation/loop-settings/rileylink.md
+- Betrieb der Loop-App:
+    - Wie benutze ich die Loop-App:
+        - Eintragen von Kohlenhydraten: operation/features/carbs.md
+        - Bolus-Werte: operation/features/bolus.md
+        - Overrides: operation/features/workout.md
+        - Pre-meal target: operation/features/premeal.md
+        - Health App: operation/features/healthapp.md
+        - Benutzung der ICE Info: operation/features/ice.md
+        - Apple Watch: operation/features/watch.md
+        - iPhone Widgets: operation/features/widget.md
+        - Loop-App Benachrichtigungen: operation/features/notifications.md
+        - Pumpenbatterie: operation/features/battery.md
+    - Looping Tipps:
+        - Offene/Open Loop: operation/loop/open-loop.md
+        - Geschlossene/Closed Loop: operation/loop/close-loop.md
+        - Loop Tips: operation/loop/looptips.md
+    - Algorithmus:
+        - Übersicht: operation/algorithm/overview.md
+        - Bolus Empfehlungen: operation/algorithm/bolus.md
+        - BZ Vorhersagen: operation/algorithm/prediction.md
+        - Temporäre Basalanpassungen: operation/algorithm/temp-basal.md
+    - Fehlerbehebung:
+        - Übersicht: troubleshooting/overview.md
+        - Loop-App Absturtz: troubleshooting/loop-crashing.md
+        - Rote Loop: troubleshooting/yellow-red-loop.md
+        - Pod-Kopplungsprobleme: troubleshooting/pod-pairing.md
+        - Pod Unsichere Boli: troubleshooting/uncertain-bolus.md
+        - MDT Priming and Sites: troubleshooting/priming.md
+        - Time Changes: troubleshooting/time-change.md
+        - MDT/Medtronic Pumpenfehler: troubleshooting/pump-errors.md
+        - Omnipod Pumpenfehler: troubleshooting/omnipod-faults.md
+- Nightscout:
+    - Übersicht: nightscout/overview.md
+    - Brandneues Nightscout: nightscout/new_user.md
+    - Nachrüsten eines existierenden Nightscout: nightscout/update_user.md
+    - Einrichtung und Fehlerbehebung: nightscout/troublehoot.md
+    - Ferngesteuerte Overrides: nightscout/remote-overrides.md
+    - Wenn dies, dann das: nightscout/ifttt.md
+    - Pebble Smartwatch: nightscout/pebble.md
+    - Fernbenachrichtgung: nightscout/pushover.md
+    - Berichte: nightscout/reports.md
+- Pay It Forward:
+    - Translate Loopdocs: payitforward/translateloopdocs.md
