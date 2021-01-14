@@ -57,4 +57,4 @@ Now that your pump is paired with Loop, you will be finishing these steps:
 
 ## Next Step: Add CGM
 
- Congrats! You've added your Medtronic pump to your Loop app. Now, click on the settings button in the upper left corner to take you back to Loop's settings menu. Your next step is to [Add CGM](cgm.md) to your Loop app. After all, without CGM data, your Loop won't loop.
+ Congrats! You've added your Medtronic pump to your Loop app. Now, click on the settings button in the upper left corner to take you back to Loop's settings menu. After all, without CGM data, your Loop won't loop. Your next step is to [Add CGM](cgm.md) to your Loop app.

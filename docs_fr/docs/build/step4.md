@@ -37,7 +37,7 @@ In some rare instances, the Loop may fail to eavesdrop on the Bluetooth transmis
 
 ## CGMs not natively supported in Loop
 
-Libre (with BluCon or Miao Miao), Eversense, Medtronic Guardian sensors, etc.  Yes, there are other CGM systems available out there. Loop does not natively support those CGMs.  If you would like to use one of those alternate CGMs and Loop...you will need to look into third-party integrations to allow Loop to access the blood glucose data.  These docs do not cover the alternate methods of unsupported CGM systems or apps like Spike.
+Libre (with BluCon or Miao Miao), Eversense, Medtronic Guardian sensors, etc. Yes, there are other CGM systems available out there. Loop does not natively support those CGMs.  If you would like to use one of those alternate CGMs and Loop...you will need to look into third-party integrations to allow Loop to access the blood glucose data.  These docs do not cover the alternate methods of unsupported CGM systems or apps like Spike.
 
 ## Next Step: Order a RileyLink
 

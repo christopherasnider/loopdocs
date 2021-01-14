@@ -29,7 +29,7 @@ Insulin will remain suspended until the user either clicks on the "Tap to Resume
 
 ## Can I prime or set my own temp basal on Loop?
 
-No. No. No. Loop does not allow you to pick your own temp basal rate or prime insulin in.
+No. No. No. No. Loop does not allow you to pick your own temp basal rate or prime insulin in.
 
 If you find yourself in a situation where you would like to specify an exact temp basal rate of your own, you would need to (1) change your scheduled basal rate for the time(s) that you'd like a temp basal rate to run, and (2) suspend/resume insulin delivery (in order to cancel any currently running temp basal that Loop has running) and then (3) turn the slider so that you are running in "open loop" mode for the duration of the time you want to use that specific basal rate.
 
