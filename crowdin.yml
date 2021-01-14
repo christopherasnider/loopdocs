@@ -1,5 +1,3 @@
 files:
   - source: /docs/**/*.md
     translation: /docs_%two_letters_code%/docs/**/%original_file_name%
-  - source: /docs/nav.yml
-    translation: /docs_%two_letters_code%/docs/%original_file_name%
