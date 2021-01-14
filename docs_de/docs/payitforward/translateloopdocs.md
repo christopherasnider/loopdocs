@@ -29,7 +29,7 @@ If you want a more detailed explanation of how to use Crowdin, please visit [Cro
 
 When you have selected your language and a file, the Crowdin editor opens.
 
-The Crowdin editor has 5 main areas which are highlighted below: ![Crowdin areas](images/crowdinareas.png)
+The Crowdin editor has 5 main areas which are highlighted below: ![Crowdin areas](img/crowdinareas.png)
 
 **1. Document to translate** - contain all the sentences in the document.You translate one sentence at the time. You can click the sentence you want to translate. When you click a sentence the 4 other areas change.
 
@@ -49,7 +49,7 @@ The sentences are colored in:
 
 **4. Suggested translation of the sentence** - here you will see a list of sentences that Crowdin suggest to use for your translation. You can even see the translation for other languages at the bottom of the list. If you want to use the suggested translation you can just click it and the sentence goes into the "Enter your translation". Then you can edit the sentence and click save. If you just want to use the suggested sentence and not edit it, you can just click "Use and save".
 
-![Suggestion](images/suggestion.png)
+![Suggestion](img/suggestion.png)
 
 **5. Comments** - Here you can enter you comments about the translation that you are doing. Other users can see it and you can have a discussion about the usage of the sentence.
 
@@ -63,7 +63,7 @@ The sentences are colored in:
 
 In most files there is sections the text "!!!note" or "!!!danger" or something other text with "!!!" in front. It is shown like this in Crowdin:
 
-![image](images/admontion.png)
+![image](img/admontion.png)
 
 You should NOT translate the text just after the "!!!" in this case "warning", but you should translate "FAQs" in this case. Sometimes there is no text after "!!!warning" you should still NOT translate this. Some of Crowdins translation suggestions would like to translate the "warning" text.
 
