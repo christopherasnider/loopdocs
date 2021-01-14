@@ -15,7 +15,6 @@ theme:
   language: ro
   features:
       - navigation.tabs
-      - toc.integrate
 
 
 nav:

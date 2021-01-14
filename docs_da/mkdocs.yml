@@ -1,4 +1,5 @@
-site_name: Loop dokumentation
+site_name: Loop Dokumentation
+
 
 markdown_extensions:
     - meta
@@ -15,7 +16,6 @@ theme:
   language: da
   features:
       - navigation.tabs
-      - toc.integrate
 
 nav:
 - Hjem: index.md
