@@ -1772,7 +1772,7 @@
 <h2 id="step-1-install-macos-and-xcode-updates">Step 1: Install macOS and Xcode updates<a class="headerlink" href="#step-1-install-macos-and-xcode-updates" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Update to macOS (10.15.4 minimum currently for iOS 14)</p>
-<p>Between Loop app builds, there's a high likelihood that Apple has updated one or more of the systems involved in your Loop app. If you miss macOS or Xcode updates, you may run into build problems. For example, the newest iOS 14.1 on your phone requires the newest Xcode version to properly build Loop.  In order to get that update, you need to be running macOS 10.15.4 at a minimum. Check for macOS updates and install as needed. </p>
+<p>Between Loop app builds, there's a high likelihood that Apple has updated one or more of the systems involved in your Loop app. If you miss macOS or Xcode updates, you may run into build problems. For example, the newest iOS 14.1 on your phone requires the newest Xcode version to properly build Loop.  In order to get that update, you need to be running macOS 10.15.4 at a minimum. Check for macOS updates and install as needed.</p>
 </div>
 <div class="admonition danger">
 <p class="admonition-title">Update to Xcode (12.1 minimum currently for iOS 14.1)</p>
@@ -1816,11 +1816,10 @@
 <li>Open your Terminal app.</br></br></li>
 <li>Copy and paste the line in the little grey box below into the Terminal prompt. Press enter after you paste it.</br></br></li>
 </ul>
-<p><code>rm ~/Library/MobileDevice/Provisioning\ Profiles/*.mobileprovision</code>
-</br></br>You won't see anything special after you enter the command...your Terminal screen should look as boring as shown below when successful.
-<p align="center">
-<img src="../img/empty-profiles.png" width="650">
-</p></p>
+<p><code>rm ~/Library/MobileDevice/Provisioning\ Profiles/*.mobileprovision</code> </br></br>You won't see anything special after you enter the command...your Terminal screen should look as boring as shown below when successful.</p>
+<p><p align="center">
+    <img src="../img/empty-profiles.png" width="650" />
+  </p></p>
 </div>
 <h2 id="step-4b-clean-cache-and-dervied-data">Step 4b: Clean cache and dervied data<a class="headerlink" href="#step-4b-clean-cache-and-dervied-data" title="Permanent link">&para;</a></h2>
 <p>An ounce of prevention is worth a pound of cure.  Since we already have Terminal app open, let's prevent one of the possible sources of build errors in advance by cleaning out straggler data from previous Loop builds.</p>

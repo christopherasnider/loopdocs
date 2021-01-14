@@ -1794,27 +1794,28 @@
 
 <p>Once Xcode has finished indexing, the Loop project's various folders and files will appear in the far left column. We are now going to make three important sets of clicks:</p>
 <ol>
-<li>
-<p>First click: At the very top of all the folders and files listed, click on the blue "Loop". This will populate the middle part of the Xcode window with some information. <strong>If a couple of little boxes appear saying "The folder “DerivedWatchAssets.xcassets” doesn’t exist."...just click the ok buttons and ignore those. They will come up a couple of times during your build if you are using dev branch right now...don't worry, won't be a problem.</strong></p>
-<p><p align="center">
-<img src="../../build/img/loop-first-click.png" width="550">
-</p></p>
-</li>
-<li>
-<p>Second (set of) clicks: Now click on the box in the middle screen to reveal the targets column underneath that box. The four targets we will sign in the upcoming steps are now easily viewable. Now also click on the Loop target like shown in the screenshot below. It will be highlighted in blue to let you know it is selected. Loop, Loop Status Extension, Watch App, and WatchApp Extension are the targets we are interested in later.</p>
-<p><p align="center">
-<img src="../../build/img/loop-second-click.png" width="550">
-</p></p>
-</li>
-<li>
-<p>Third Click: With the Loop target selected, click on the "Signing &amp; Capabilities" up near the top of the screen. After you click on that, you should see a "Signing" section occupying the bulk of your middle window. If you are missing the "Signing &amp; Capabilities" section and didn't have to click somewhere else to see that part...that means you have missed updating to Xcode 11 from an older version of Xcode. Please go back and update Xcode now. Thanks.</p>
-<p><p align="center">
-<img src="../../build/img/loop-third-click.png" width="550">
-</p></p>
-</li>
+<li>First click: At the very top of all the folders and files listed, click on the blue "Loop". This will populate the middle part of the Xcode window with some information. <strong>If a couple of little boxes appear saying "The folder “DerivedWatchAssets.xcassets” doesn’t exist."...just click the ok buttons and ignore those. They will come up a couple of times during your build if you are using dev branch right now...don't worry, won't be a problem.</strong></li>
 </ol>
+<p align="center">
+     <img src="../../build/img/loop-first-click.png" width="550" />
+   </p>
+
+<ol>
+<li>Second (set of) clicks: Now click on the box in the middle screen to reveal the targets column underneath that box. The four targets we will sign in the upcoming steps are now easily viewable. Now also click on the Loop target like shown in the screenshot below. It will be highlighted in blue to let you know it is selected. Loop, Loop Status Extension, Watch App, and WatchApp Extension are the targets we are interested in later.</li>
+</ol>
+<p align="center">
+     <img src="../../build/img/loop-second-click.png" width="550" />
+   </p>
+
+<ol>
+<li>Third Click: With the Loop target selected, click on the "Signing &amp; Capabilities" up near the top of the screen. After you click on that, you should see a "Signing" section occupying the bulk of your middle window. If you are missing the "Signing &amp; Capabilities" section and didn't have to click somewhere else to see that part...that means you have missed updating to Xcode 11 from an older version of Xcode. Please go back and update Xcode now. Thanks.</li>
+</ol>
+<p align="center">
+     <img src="../../build/img/loop-third-click.png" width="550" />
+   </p>
+
 <h2 id="connect-your-iphone-to-computer">Connect your iPhone to Computer<a class="headerlink" href="#connect-your-iphone-to-computer" title="Permanent link">&para;</a></h2>
-<p>Connect your iPhone via cable to the computer, select your iPhone from the very top of the drop-down list.  Your <strong><u>iPhone’s personal name</u></strong> should be at the top of the list. Don't accidentally select the generic iOS simulators listed below your iPhone's name.  </p>
+<p>Connect your iPhone via cable to the computer, select your iPhone from the very top of the drop-down list.  Your <strong><u>iPhone’s personal name</u></strong> should be at the top of the list. Don't accidentally select the generic iOS simulators listed below your iPhone's name.</p>
 <div class="admonition info">
 <p class="admonition-title">Helpful Tips</p>
 <ul>
@@ -1878,8 +1879,8 @@
 <p class="admonition-title">DO NOT WING THE SETUP</p>
 <p>I have warnings all over these instructions to <strong>continue to use these docs to finish setting up your app after it builds. DO NOT IGNORE THAT ADVICE. DO NOT ENTER ONE LOOP APP SETTING WITHOUT HAVING THE DOCS OPEN AND FOLLOWING ALONG AT THE SAME TIME.</strong></p>
 </div>
-<p>The section in these docs called "Set up App" (See it? Look for it now...at the top of your webpage) needs to be used to input all the settings in your Loop app when it is done building. READ ALONG WITH THE DOCS to enter those settings. There are important safety tips and advice in there. And then after you finish setup, you need to read the "Operate" section...like BEFORE YOU OPERATE LOOP. Don't bolus for a meal, or enter a meal, until you've read through the Operate section. </p>
-<p>I'm worried you will fail to heed the advice about using the setup and operate sections. People have ignored it before. They skim read and think that's good enough. DO NOT BE LIKE THAT. Read each section. </p>
+<p>The section in these docs called "Set up App" (See it? Look for it now...at the top of your webpage) needs to be used to input all the settings in your Loop app when it is done building. READ ALONG WITH THE DOCS to enter those settings. There are important safety tips and advice in there. And then after you finish setup, you need to read the "Operate" section...like BEFORE YOU OPERATE LOOP. Don't bolus for a meal, or enter a meal, until you've read through the Operate section.</p>
+<p>I'm worried you will fail to heed the advice about using the setup and operate sections. People have ignored it before. They skim read and think that's good enough. DO NOT BE LIKE THAT. Read each section.</p>
 <p>BUT, to mitigate the inevitable people who will ignore that advice....here's the two most important safety tips that I feel obliged to present out of order because (damn it), people will ignore my advice still.</p>
 <div class="admonition warning">
 <p class="admonition-title">TOP TWO SAFETY MISTAKES YOU SHOULD AVOID</p>
@@ -1900,7 +1901,7 @@
 <img src="../img/build_button.png" width="750">
 </p>
 
-<p>You’ll see the progression of the build in the status window (top middle of Xcode). New builds can take about 40-60 minutes depending on the speed of the computer and the internet.  <strong>Just be patient.</strong>  The progress will get "stuck" on one step/task for a very long time, and then the others will fly by when that one slow step is done. Not every step is equal in duration. Do not give up on the build. <u><strong>Xcode will ALWAYS tell you eventually that the build either succeeded or failed via a short (self-disappearing) pop-up message on the computer display. If you miss the message, you can look at the top of the Xcode window to see a "Running Loop..." (success) or "Build Failed" (failure) message where the step progress was previously counting down.</strong></u>  </p>
+<p>You’ll see the progression of the build in the status window (top middle of Xcode). New builds can take about 40-60 minutes depending on the speed of the computer and the internet.  <strong>Just be patient.</strong>  The progress will get "stuck" on one step/task for a very long time, and then the others will fly by when that one slow step is done. Not every step is equal in duration. Do not give up on the build. <u><strong>Xcode will ALWAYS tell you eventually that the build either succeeded or failed via a short (self-disappearing) pop-up message on the computer display. If you miss the message, you can look at the top of the Xcode window to see a "Running Loop..." (success) or "Build Failed" (failure) message where the step progress was previously counting down.</strong></u></p>
 <div class="admonition danger">
 <p class="admonition-title">Are you the impatient type?</p>
 <p>If you just simply can't bear the uncertainty of not seeing that things are progressing, you can take a peek "under the hood" and watch the individual build steps by clicking on the report navigator icon and then the build row at the top of the list. You can watch the slow list of scheme building while you wait.
