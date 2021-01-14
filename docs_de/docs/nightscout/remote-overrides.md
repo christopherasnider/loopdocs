@@ -161,7 +161,7 @@ To use remote overrides, I'm assuming you've setup your Nightscout site accordin
 The Looper will see a banner notification that an override has been set (or canceled, as the case may be).
 
 <p align="center">
-<img src="../img/override_notification.jpeg" width="550">
+<img src="../img/override_notification.jpg" width="550">
 </p> </br></br>
 
 Canceling an override through Nightscout careportal is as simple as selecting the event type "Temporary Override Cancel" and submitting.
