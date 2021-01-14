@@ -7,7 +7,7 @@ mkdocs build --config-file $topdirectory\mainsite\mkdocs.yml --site-dir $sitedir
 mkdocs build --config-file $topdirectory\mkdocs_en.yml --site-dir $sitedir\en
 mkdocs build --config-file $topdirectory\mkdocs_old.yml --site-dir $sitedir\en_old
 
-Get-ChildItem "../" | Where-Object{ $_.Name -like "docs_*" } | ForEach-Object { 
+Get-ChildItem $topdirectory | Where-Object{ $_.Name -like "docs_*" } | ForEach-Object { 
 
     $lang=$_.Name.Substring(5,2)
 
