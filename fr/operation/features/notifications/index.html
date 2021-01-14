@@ -326,9 +326,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="Loop documentation" class="md-nav__button md-logo" aria-label="Loop documentation">
       
@@ -1733,6 +1731,86 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#notification-settings-for-loop" class="md-nav__link">
+    Notification settings for Loop
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#loop-failure" class="md-nav__link">
+    Loop Failure
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bolus-failure" class="md-nav__link">
+    Bolus Failure
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#low-reservoir" class="md-nav__link">
+    Low Reservoir
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#empty-reservoir" class="md-nav__link">
+    Empty Reservoir
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pod-expiration-omnipod" class="md-nav__link">
+    Pod Expiration (Omnipod)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#low-battery-medtronic" class="md-nav__link">
+    Low Battery (Medtronic)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remote-notifications" class="md-nav__link">
+    Remote Notifications
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1933,7 +2011,7 @@ Need the utteranc-app on repository.
       <script>
         app = initialize({
           base: "../../..",
-          features: ['navigation.tabs', 'toc.integrate'],
+          features: ['navigation.tabs'],
           search: Object.assign({
             worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)

@@ -326,9 +326,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Loop documentation" class="md-nav__button md-logo" aria-label="Loop documentation">
       
@@ -1719,6 +1717,72 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#airports" class="md-nav__link">
+    Airports
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#airplane-mode" class="md-nav__link">
+    Airplane Mode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changing-timezones-and-daylight-savings-time" class="md-nav__link">
+    Changing Timezones and Daylight Savings Time
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iphone" class="md-nav__link">
+    iPhone
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minimed-pump-and-cgm" class="md-nav__link">
+    Minimed Pump and CGM
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dexcom-cgm" class="md-nav__link">
+    Dexcom CGM
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1883,7 +1947,7 @@ Need the utteranc-app on repository.
       <script>
         app = initialize({
           base: "../..",
-          features: ['navigation.tabs', 'toc.integrate'],
+          features: ['navigation.tabs'],
           search: Object.assign({
             worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)

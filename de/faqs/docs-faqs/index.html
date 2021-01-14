@@ -326,9 +326,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Loop documentation" class="md-nav__button md-logo" aria-label="Loop documentation">
       
@@ -1703,6 +1701,58 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wo-fange-ich-an-ich-weiss-nicht-was-loop-ist" class="md-nav__link">
+    Wo fange ich an? Ich weiss nicht was Loop ist.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#das-sieht-alles-so-schwer-aus-ich-weiss-nicht-ob-ich-das-schaffe" class="md-nav__link">
+    Das sieht alles so schwer aus. Ich weiss nicht, ob ich das schaffe!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#was-ist-wenn-ich-nicht-mehr-weiter-komme" class="md-nav__link">
+    Was ist, wenn ich nicht mehr weiter komme?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#also-die-app-ist-zusammengebaut-und-bin-ich-dann-fertig" class="md-nav__link">
+    Also, die App ist zusammengebaut und bin ich dann fertig?
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1872,7 +1922,7 @@ Need the utteranc-app on repository.
       <script>
         app = initialize({
           base: "../..",
-          features: ['navigation.tabs', 'toc.integrate'],
+          features: ['navigation.tabs'],
           search: Object.assign({
             worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)

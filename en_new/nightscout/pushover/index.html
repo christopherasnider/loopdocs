@@ -339,9 +339,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Loop documentation" class="md-nav__button md-logo" aria-label="Loop documentation">
       
@@ -1750,6 +1748,79 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#get-prepped" class="md-nav__link">
+    Get Prepped
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-a-google-drive-folder" class="md-nav__link">
+    Add a Google Drive folder
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-1st-ifttt-applet-to-log-ns-alarms" class="md-nav__link">
+    Make 1st IFTTT Applet to Log NS Alarms
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enable-ifttt-webhooks-in-your-nightscout-site" class="md-nav__link">
+    Enable IFTTT Webhooks in your Nightscout site
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-2nd-ifttt-applet-to-send-pushover-notifications" class="md-nav__link">
+    Make 2nd IFTTT Applet to send Pushover notifications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revisit-nightscout-alert-levels" class="md-nav__link">
+    Revisit Nightscout Alert Levels
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-notes" class="md-nav__link">
+    Final notes
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -2266,7 +2337,7 @@ Need the utteranc-app on repository.
       <script>
         app = initialize({
           base: "../..",
-          features: ['navigation.tabs', 'toc.integrate'],
+          features: ['navigation.tabs'],
           search: Object.assign({
             worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)

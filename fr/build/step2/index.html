@@ -326,9 +326,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Loop documentation" class="md-nav__button md-logo" aria-label="Loop documentation">
       
@@ -1703,6 +1701,58 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#which-devices-are-compatible-why-those" class="md-nav__link">
+    Which Devices are compatible? Why those?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#devices-that-will-be-incompatible-soon" class="md-nav__link">
+    Devices that will be incompatible "soon"
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#find-your-devices-ios" class="md-nav__link">
+    Find your device's iOS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-step-compatible-pump" class="md-nav__link">
+    Next Step: Compatible Pump
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1914,7 +1964,7 @@ Need the utteranc-app on repository.
       <script>
         app = initialize({
           base: "../..",
-          features: ['navigation.tabs', 'toc.integrate'],
+          features: ['navigation.tabs'],
           search: Object.assign({
             worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)

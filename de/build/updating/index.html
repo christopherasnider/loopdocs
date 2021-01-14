@@ -326,9 +326,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Loop documentation" class="md-nav__button md-logo" aria-label="Loop documentation">
       
@@ -1731,6 +1729,86 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#when-to-update-loop" class="md-nav__link">
+    When to Update Loop
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-install-macos-and-xcode-updates" class="md-nav__link">
+    Step 1: Install macOS and Xcode updates
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-check-your-developer-account" class="md-nav__link">
+    Step 2: Check your Developer Account
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-download-updated-loop-code" class="md-nav__link">
+    Step 3: Download Updated Loop Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4a-delete-old-provisioning-profiles" class="md-nav__link">
+    Step 4a: Delete old provisioning profiles
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4b-clean-cache-and-dervied-data" class="md-nav__link">
+    Step 4b: Clean cache and dervied data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-build-like-normal" class="md-nav__link">
+    Step 5: Build like normal
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-check-build-errors-page-if-needed" class="md-nav__link">
+    Step 6: Check Build Errors page if needed
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1981,7 +2059,7 @@ Need the utteranc-app on repository.
       <script>
         app = initialize({
           base: "../..",
-          features: ['navigation.tabs', 'toc.integrate'],
+          features: ['navigation.tabs'],
           search: Object.assign({
             worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)

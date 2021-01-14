@@ -326,9 +326,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="Loop documentation" class="md-nav__button md-logo" aria-label="Loop documentation">
       
@@ -1719,6 +1717,72 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Cuprins">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Cuprins
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#meal-bolus" class="md-nav__link">
+    Meal Bolus
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#correction-bolus" class="md-nav__link">
+    Correction Bolus
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starting-bolus-notification" class="md-nav__link">
+    Starting Bolus Notification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bolus-failure-notifications" class="md-nav__link">
+    Bolus Failure Notifications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#square-or-dual-waves" class="md-nav__link">
+    Square or Dual Waves
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#glucodyn" class="md-nav__link">
+    Glucodyn
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -1891,7 +1955,7 @@ Need the utteranc-app on repository.
       <script>
         app = initialize({
           base: "../../..",
-          features: ['navigation.tabs', 'toc.integrate'],
+          features: ['navigation.tabs'],
           search: Object.assign({
             worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)
