@@ -1,4 +1,4 @@
-# Übersicht des Build-Prozesses
+# Installationsübersicht
 
 Der Installationsprozess ist einfach. Überprüfe zuerst, ob Du die kompatible Ausstattung hast, um Loop benutzen zu können. Dann musst Du ein paar Dinge mit dem Computer vorbereiten und kannst anschliessend mit der Erstellung der Loop-App beginnen.
 
