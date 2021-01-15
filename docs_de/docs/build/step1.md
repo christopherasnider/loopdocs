@@ -43,17 +43,17 @@ Brauchst Du Catalina oder Mojave? Die Antwort hängt von der iOS Version deines 
 
 Du benötigst einen Apple-Computer, der die Mindestvoraussetzung des MacOS wie oben beschrieben erfüllt; d.h. Mojave MacOS 10. 4.4 (oder neuer) oder Catalina MacOS 10.15 (oder neuer). Um herauszufinden, welche Version du installiert hast, klicken auf das kleine Apple-Symbol in der oberen linken Ecke des Computers und wähle `Über diesen Mac` aus. Es spielt dabei keine Rolle, ob der Computer ein MacBook, iMac, Mac mini usw. ist, solange er die Mindestvoraussetzungen erfüllt.
 
-Wenn dein Computer nicht das mindestens erforderliche MacOS installiert hat, musst du mit `Software-Update` überprüfen, ob du es aktualisieren kannst.
+Wenn dein Computer nicht das mindestens erforderliche MacOS installiert hat, musst du mit `Software-Update` überprüfen (siehe das Bild unten), ob du es aktualisieren kannst.
 
 <p align="center">
 <img src="../img/macosx.png" width="500">
 </p>
-If your computer does not give you the option to update to the newer macOS (in other words you are stuck on older versions)...it is quite possible that Apple has decided your computer is too old to run the latest and greatest. How old is too old? That will depend on your computer model and year as shown below:
+Wenn dein Computer keine Update auf ein neueres MacOS anbietet, kann es sein, dass Apple entschieden hat, dass dein Computer zu alt dafür ist. Wie alt ist zu alt? Das hängt von deinem Computermodell und Jahr ab (siehe die Bilder unten):
 
 <p align="center">
 <img src="../img/mojave-minimum.png" width="750">
 </p>
 
-## Next Step: Compatible iPhone/iPod touch
+## Nächster Schritt: Kompatible iPhone/iPod touch
 
-Now you are ready to move onto Step 2 to check if you have a [Compatible iPhone/iPod touch](step2.md).
+Jetzt kannst du mit Schritt 2 weitermachen, um zu überprüfen, ob du ein [kompatibles iPhone/iPod touch](step2.md) hast.
