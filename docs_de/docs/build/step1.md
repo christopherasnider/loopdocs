@@ -45,14 +45,11 @@ Du benötigst einen Apple-Computer, der die Mindestvoraussetzung des MacOS wie o
 
 Wenn auf deinem Computer nicht das mindestens erforderliche MacOS installiert ist, musst du mit `Software-Update` überprüfen (siehe das Bild unten), ob du es aktualisieren kannst.
 
-<p align="center">
-<img src="../img/macosx.png" width="500">
-</p>
-Falls dein Computer keine Update auf ein neueres MacOS anbietet, kann es sein, dass Apple entschieden hat, dass dein Computer zu alt dafür ist. Wie alt ist zu alt? Das hängt von deinem Computermodell und Jahr ab (siehe die Bilder unten):
+![../img/macosx.png](img/macosx.png)
 
-<p align="center">
-<img src="../img/mojave-minimum.png" width="750">
-</p>
+Wenn dein Computer keine Update auf ein neueres MacOS anbietet, kann es sein, dass Apple entschieden hat, dass dein Computer zu alt dafür ist. Wie alt ist zu alt? Das hängt von deinem Computermodell und Jahr ab (siehe die Bilder unten):
+
+![img/mojave-minimum.png](img/mojave-minimum.png)
 
 ## Nächster Schritt: Kompatible iPhone/iPod touch
 
