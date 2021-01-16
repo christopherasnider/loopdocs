@@ -22,7 +22,7 @@ jobs:
       - run: pip install pyyaml
       - run: python 'scripts/python/buildsite.py'
               
-      # - uses: JamesIves/github-pages-deploy-action@3.7.1
-      #   with:
-      #     BRANCH: gh-pages-translation
-      #     FOLDER: .buildsite
+      - uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          BRANCH: gh-pages-translation
+          FOLDER: .buildsite
