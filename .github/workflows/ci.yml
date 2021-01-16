@@ -20,7 +20,7 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-bootswatch
       - run: pip install pyyaml
-      - run: python 'scripts/buildsite.py'
+      - run: python 'scripts/python/buildsite.py'
               
       # - uses: JamesIves/github-pages-deploy-action@3.7.1
       #   with:
