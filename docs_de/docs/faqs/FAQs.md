@@ -1,42 +1,42 @@
-# Allgemeine Loop FAQs
+# Allgemeine Loop-App FAQs
 
 Willkommen bei den LoopDocs - ein Platz für alle häufigen Fragen (FAQs).
 
-## Was ist Loop?
+## Was ist die Loop-App?
 
-Klicke auf das untere Bild, um eine kurze [Einführung in Loop (englisch)](https://youtu.be/qw_u1lqboCs) zu sehen.
+Durch Klicken auf das untere Bild kommst du zu einer kurzen [Einführung in Loop (englisch)](https://youtu.be/qw_u1lqboCs) .
 
 <a href="https://youtu.be/qw_u1lqboCs" target="_blank"><img src="../img/intro-to-loop.png"  title="Einführung in Loop (englisch)" /></a>
 
 ## Was benötige ich, um zu loopen?
 
-Loop hat sowohl Hard-, als auch Software-Anforderungen. Allgemein brauchst du sieben Komponenten:
+Die Loop-App hat sowohl Hard-, als auch Software-Anforderungen. Allgemein brauchst du sieben Komponenten:
 
-- Compatible insulin pump: [Medtronic or Omnipod](../build/step3.md)
+- Eine kompatible Insulinpumpe: [Medtronic or Omnipod](https://loopkit.github.io/loopdocs/build/step3/)
 - [Compatible CGM](../build/step4.md)
 - [RileyLink](../build/step5.md)
 - [Ein \[kompatibles iPhone und/oder iPod Touch\](https://loopkit.github.io/loopdocs/build/step2/)](../build/step2.md)
 - [Einen \[Apple Computer mit Mojave macOS 10.14.3 oder neuer\](https://loopkit.github.io/loopdocs/build/step1/).](../build/step1.md)
-- [Xcode (a free Apple application)](../build/step8.md)
-- [Apple Developer Membership](../build/step6.md)
+- [[Xcode](https://loopkit.github.io/loopdocs/build/step8/) (frei verfügbares Programm von Apple)](../build/step8.md)
+- [Eine [Apple Entwickler Mitgliedschaft](https://loopkit.github.io/loopdocs/build/step6/)](../build/step6.md)
 
 <p align="center">
 <img src="../img/loop_gear.jpg" width="500">
 </p>
 
-## Kann ich Loop einfach aus dem App Store herunterladen und installieren?
+## Kann ich die Loop-App einfach aus dem App Store herunterladen und installieren?
 
-Nein. Loop ist nicht zum Download verfügbar. Du musst dir die App selbst bauen. Wenn Loop im App Store zum Download verfügbar wäre, würde dies der Verteilung eines medizinischem Gerätes gleich kommen und wir bewegen uns halt nicht in diesem Bereich ;-).  Du kannst es dir selbst zusammenbauen, aber wir sind nicht der Verteiler.
+Nein. Die Loop-App ist nicht zum Download verfügbar. Du musst dir die App selbst bauen. Wenn die Loop-App im App Store zum Download verfügbar wäre, würde dies der Verteilung eines medizinischem Gerätes gleich kommen und wir bewegen uns halt nicht in diesem Bereich ;-).  Du kannst es dir selbst zusammenbauen, aber wir sind nicht der Verteiler.
 
-Keine Angst, das Übersetzen und Zusammenbauen der App ist eigentlich ganz einfach und genau darum dreht es in dieser Dokumentation ja gerade. Der schwierigere Teil für dich ist allerdings, die Geduld aufzubringen, die gesamte Dokumentation durchzulesen, bevor du mit dem Übersetzen und Zusammenbau startest. Neue Loop Benutzer sind so aufgeregt, dass sie die ganzen wichtigen Informationen beim Durchlesen dieser Dokumentation verpassen. Also, starte mit dem Zusammenbau, aber plane die Zeit für das Durcharbeiten der Dokumentation ein, nachdem du erfolgreich die Loop App zusammengebaut hast.
+Keine Angst, das Übersetzen und Zusammenbauen der App ist eigentlich ganz einfach und genau darum dreht es in dieser Dokumentation ja gerade. Der schwierigere Teil für dich ist allerdings, die Geduld aufzubringen, die gesamte Dokumentation durchzulesen, bevor du mit dem Übersetzen und Zusammenbau startest. Neue Loop-App Benutzer sind so aufgeregt, dass sie die ganzen wichtigen Informationen beim Durchlesen dieser Dokumentation verpassen. Also, starte mit dem Zusammenbau, aber plane die Zeit für das Durcharbeiten der Dokumentation ein, nachdem du erfolgreich die Loop-App zusammengebaut hast.
 
 Falls du irgendwelche Fragen hast, findest du eine nette kleine Suchfunktionalität am oberen Rand der Seite, die dir die Antwort auf deine Frage schnell geben kann.
 
-## Kann ich ein Android Handy für Loop benutzen?
+## Kann ich ein Android Handy für die Loop-App benutzen?
 
-Nein, Loop funktioniert nur auf einem iPhone und iPod touch.
+Nein, die Loop-App funktioniert nur auf einem iPhone und iPod touch.
 
-## Muss ich technisch affin sein, um Loop zusammenzubauen?
+## Muss ich technisch affin sein, um die Loop-App zusammenzubauen?
 
 Nein, nein und nochmals nein! Nein, du brauchst keinerlei Erfahrungen im Programmieren oder Umgang mit deinem Computer, um die Loop-App zu erstellen. If you have already owned an Apple computer and iPhone, you already have the required level of experience. Beyond that, simply read the directions slowly and diligently...all the information you will need are in these documents.
 
@@ -50,7 +50,7 @@ Sicher. Schau dir das mal an [PDF Download für diabetische Hilfskräfte und Pro
 
 Die Antwort variert, aber es dauert schon ein paar Stunden, um das Ganze von Anfang bis zum Ende durchzuarbeiten, je nachdem wie vertraut du mit deinem Rechner bist.
 
-If you'd rather break it up into several shorter bits of effort, the [`Build App`](../build/step1.md) section is divided into convenient stopping points with Time Estimates for each step. Du kannst dann einen oder mehrere Schriite abarbeiten, je nachdem wieviel Zeit du aufbringen kannst.
+Um dir die Einteilung in einzelne kleine Schritte zu erleichtern, wurde das Kapitel [`Loop-App Erstellung`](https://loopkit.github.io/loopdocs/build/step1/) in bequeme Teile zerlegt, jeweils mit einer Zeitaufwandsangabe für jeden Schritt. Du kannst dann einen oder mehrere Schriite abarbeiten, je nachdem wieviel Zeit du aufbringen kannst.
 
 ## Kostet die Loop-App Geld?
 
@@ -76,7 +76,7 @@ Ja, du kannst. Es gibt einen "Hacker-Weg" ein MacOs als virtuelle Maschine auf e
 
 Die kurze Antwort ist: Einmal wenn du die App installierst und danach einmal pro Jahr. Falls du dich für ein kostenloses Apple Entwickler Account entschieden hast, musst du einmal pro Woche an den Rechner.
 
-Die lange Antwort ist: Der Progarmmcode für die Loop-App wird immer wieder aktualisiert und verbessert, um neue Features ein- und Bugs auszubauen. When those updates are released, you'll need access to an Apple computer again to update your Loop app.  Im Allgemeinen gibt es mehrmals pro Jahr ein Update, für das du dir vielleicht Zeit zum Installieren nehmen möchtest. Loop updates are not available through the iPhone's app store...instead you do the app update yourself with [update instructions here](../build/updating.md).
+Die lange Antwort ist: Der Progarmmcode für die Loop-App wird immer wieder aktualisiert und verbessert, um neue Features ein- und Bugs auszubauen. When those updates are released, you'll need access to an Apple computer again to update your Loop app.  Updates für die Loop-App werden nicht über den App-Store von Apple zur Verfügung gestellt. Stattdessen musst du die [Updates](https://loopkit.github.io/loopdocs/build/updating/) selbst installieren. Loop updates are not available through the iPhone's app store...instead you do the app update yourself with [update instructions here](../build/updating.md).
 
 ## Muss ich die Loop-App neu erstellen, wenn ich zwischen der Medtronic und Omnipod Pumpe wechseln will?
 
@@ -98,7 +98,7 @@ Aber das größte Problem ist sicherlich, dass die Leute, für die du die Loop-A
 
 ## Wie kann ich eine kompatible Pumpe finden? Gibt es Nachschub?
 
-There is a [whole page with detailed information about Medtronic pumps](../build/step3.md); how to find them, how to find supplies, and assessing whether your Medtronic pump is compatible. Schau dir diese Seite an, falls du diesbezüglich Fragen hast.
+Es gibt eine extra Seite mit [detaillierten Informationen über Metronic Pumpen](https://loopkit.github.io/loopdocs/build/step3/); woher ich sie bekomme und wie komme ich an Nachschub und Hilfe bei der Einschätzung, ob deine Medtronic Pumpe kompatibel ist. Schau dir diese Seite an, falls du diesbezüglich Fragen hast.
 
 Zusätzlich kannst du auch den Omniport Support auf die gleiche Weise befragen, wie du es normalerweise gwohnt bist.
 
@@ -108,7 +108,7 @@ NOOOO...you really need to figure this out yourself. Du musst wirklich selbst le
 
 ## Was ist, wenn ich meinen RileyLink verliere?
 
-Medtronic Benutzer gehen einfach zurück auf die alte Art ihre Pumpe zu benutzen und warten, bis der neue RileyLink ankommt. Du kannst entweder abwarten, bis die temporäre Basalrate von alleine durch ist (typischerweise 30 Minuten oder schneller) oder du stoppst die temporäre Basalrate über das Menü der Pumpe. Für den normmalen Bolus verwendest du die normale Bolusfunktion deiner Pumpe. Wenn du wieder einen RileyLink hast (entweder du findest den alten oder entdeckst den Ersatz-RileyLink wieder) und die Loop App wieder starten willst, solltest du eine Sache auf jeden Fall beachten: Gib alle Kohlenhydrate ein, die du in der nahen Vergangenheit gegessen hast, die auf deinen aktuellen Blutzucker Einfluss gehabt haben könnten. Auch wenn die Loop-App bei einer Metronik-Pumpe jede Insulinabgabe ermittelt, die während der Abwesenheit des RileyLinks vorgenommen wurde, kann sie nicht die dazugehörigen Kohlenhydrate ermitteln, auch die nicht, die du in der Pumpe angegeben hast. Also stelle sicher, dass du diese Werte eingibst und auf die richtige Uhrzeit datierst, zu der sie gegessen wurden. Das hilft, den Übergang zum Loopen glatt laufen zu lassen.
+Medtronic Benutzer gehen einfach zurück auf die alte Art ihre Pumpe zu benutzen und warten, bis der neue RileyLink ankommt. Du kannst entweder abwarten, bis die temporäre Basalrate von alleine durch ist (typischerweise 30 Minuten oder schneller) oder du stoppst die temporäre Basalrate über das Menü der Pumpe. Für den normmalen Bolus verwendest du die normale Bolusfunktion deiner Pumpe. Wenn du wieder einen RileyLink hast (entweder du findest den alten oder entdeckst den Ersatz-RileyLink wieder) und die Loop-App wieder starten willst, solltest du eine Sache auf jeden Fall beachten: Gib alle Kohlenhydrate ein, die du in der nahen Vergangenheit gegessen hast, die auf deinen aktuellen Blutzucker Einfluss gehabt haben könnten. Auch wenn die Loop-App bei einer Metronik-Pumpe jede Insulinabgabe ermittelt, die während der Abwesenheit des RileyLinks vorgenommen wurde, kann sie nicht die dazugehörigen Kohlenhydrate ermitteln, auch die nicht, die du in der Pumpe angegeben hast. Also stelle sicher, dass du diese Werte eingibst und auf die richtige Uhrzeit datierst, zu der sie gegessen wurden. Das hilft, den Übergang zum Loopen glatt laufen zu lassen.
 
 Für Pod Benutzer gilt, dass dein Pod alle momentan laufenden temporären Basalraten auslaufen lässt (das dauert maximal 30 Minuten) und dann wieder zur normalen voreingestellten Basalrate zurückkehrt. Without a RileyLink, you will not be able to affect any Pod use other than normal basals. Es wird nicht möglich sein, temporäre Basalraten zu verabreichen oder die Basalrate auszusetzen. Genauso, als wenn du deinen PDM verlierst. If you have a backup RileyLink, you can simply connect to the new RileyLink on the same Loop app and it will work with the existing pod session. Falls du keinen Ersatz hast, kannst du nur noch den momentanen Pod durch einen neuen ersetzen, den du mit deinem PDM aktivierst, so lange, bis du einen neuen RileyLink hast.
 
@@ -118,7 +118,7 @@ Wenn du ein neues iPhone hast, musst du die Loop-App auf die gleiche Art und Wei
 
 ## Wie sieht es mit anderen Pumpen aus? Kann ich mit denen loopen?
 
-ok, lass uns zuerst einmal dankbar sein für das, was wir bereits haben. The Möglichkeit die Loop-App zu nutzen ist das Ergebnis der enormen Anstrengung, Zeit und Opfer von Freiwilligen. Das Hacken und Reengineeren der Verbindungen zu den Pumpen ist eine sehr große Anstrengung. Wenn eine neue Gruppe von Programmierern sich dran macht, die enorme Zeit aufzuwenden neue Pumpen anzubinden, wäre es sich denkbar, diese neuen Pumpen in Loop-App zu integrieren. Du brauchst uns nicht zu sagen, dass du gerne andere Pumpen in Loop integriert hättest. Das wollen wir auch. Es ist einfach eine furchtbare Menge Zeit, die es braucht, um das geschehen zu lassen und es geht weder einfach, noch schnell.
+ok, lass uns zuerst einmal dankbar sein für das, was wir bereits haben. The Möglichkeit die Loop-App zu nutzen ist das Ergebnis der enormen Anstrengung, Zeit und Opfer von Freiwilligen. Das Hacken und Reengineeren der Verbindungen zu den Pumpen ist eine sehr große Anstrengung. Wenn eine neue Gruppe von Programmierern sich dran macht, die enorme Zeit aufzuwenden neue Pumpen anzubinden, wäre es sich denkbar, diese neuen Pumpen in Loop-App zu integrieren. Du brauchst uns nicht zu sagen, dass du gerne andere Pumpen in der Loop-App integriert hättest. Das wollen wir auch. Es ist einfach eine furchtbare Menge Zeit, die es braucht, um das geschehen zu lassen und es geht weder einfach, noch schnell.
 
 Tandem Pumpen sind nicht mit der Loop-App kompatibel. Animas Pumpen sind nicht mit der Loop-App kompatibel. DASH Pods sind nicht mit der Loop-App kompatibel. All diese Pumpen werden wahrscheinlich auch in Zukunft nicht kompatibel sein.
 

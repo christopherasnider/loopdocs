@@ -4,7 +4,7 @@ Diese Webseite bietet dir eine Schritt-Für-Schritt Anleitung, um deine eigene L
 
 ## Wo fange ich an? Ich weiss nicht was Loop ist.
 
-Der einfachste Weg um Loop kennen zu lernen geht über die FAQ-Seiten. Die schnelle Antwort ist, dass Loop eine iPhone App ist, die dir dabei hilft, deine Insulinverabreichungen anhand von CGM-Werten und Benutzereingaben so zu automatisieren, dass deine Blutzuckerwerte im grünen Bereich bleiben. Du brauchst eine bestimmte Ausrüstung (Insulinpumpe, CGM, iPhone oder iPod touch und einen RileyLink) und einen Computer (IOS oder Windows mit einer IOS VM (siehe [Complete guide to running macOS Big Sur with Xcode on Windows with VMware](https://macosvmware.tech.blog/)), um die App zusammen zu bauen.
+Der einfachste Weg, um Loop kennen zu lernen, geht über die FAQ-Seiten. Die schnelle Antwort ist, dass Loop eine iPhone App ist, die dir dabei hilft, deine Insulinverabreichungen anhand von CGM-Werten und Benutzereingaben so zu automatisieren, dass deine Blutzuckerwerte im grünen Bereich bleiben. Du brauchst eine bestimmte Ausrüstung (Insulinpumpe, CGM, iPhone oder iPod touch und einen RileyLink) und einen Computer (IOS oder Windows mit einer IOS VM (siehe [Complete guide to running macOS Big Sur with Xcode on Windows with VMware](https://macosvmware.tech.blog/)), um die App zusammen zu bauen.
 
 Klicke auf das untere Icon, um eine Video zur [Einführung in Loop](https://youtu.be/qw_u1lqboCs) zu sehen und lese dann den Rest dieser FAQ-Seiten. 
 
