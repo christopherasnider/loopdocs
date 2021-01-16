@@ -47,9 +47,7 @@ Yes. So long as you use the same developer team as you originally built the app 
 
 The Loop's version is given at the top of the Loop settings page. Even better though, the new dev branch has very detailed info about the version of Loop you are using at the top of your Loop's Issue Report. This is a great new addition to help identify where, what, and when of your Loop version.
 
-<p align="center">
-<img src="../img/loop-version.jpg" width="450">
-</p></br>
+![img/loop-version.jpg](img/loop-version.jpg)
 
 ## What if I'm changing branches? Does that matter?
 
@@ -61,4 +59,4 @@ Changing phones is a little different than updating. You will need to change pod
 
 ## How long does it take?
 
-Assuming your macOS and Xcode updates are done, then plan on about 30 minutes. 
+Assuming your macOS and Xcode updates are done, then plan on about 30 minutes.

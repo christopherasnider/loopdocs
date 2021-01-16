@@ -155,9 +155,11 @@ Those 3g of carbohydrates would then be split amongst the meals proportional to 
 resulting in 2g of absorption being attributed to Meal 1 and 1g attributed to Meal 2.
 
 ### Minimum Carbohydrate Absorption Rate
+
 If the estimated carbohydrate absorption of a meal entry is less than what would have been absorbed using the minimum absorption rate, then the minimum absorption rate is used instead. This is to ensure that meal entries expire in a reasonable amount of time.
 
 ### Modeling Remaining Active Carbohydrates
+
 After the estimated absorbed carbohydrates have been subtracted from each meal entry, the remaining carbohydrates (for each entry) are then forecasted to decay or absorb using the minimum absorption rate. Loop uses this forecast to estimate the effect (active carbohydrates, or carbohydrate activity) of the remaining carbohydrates. The carbohydrate effect can be expressed mathematically using the terms described above:
 
 ![combined meal entries](img/combined_bgc.png)
@@ -184,78 +186,20 @@ where BG is the predicted change in blood glucose with the units (mg/dL/5min) at
 
 The retrospective correction effect can be illustrated with an example: if the BG*vel* over the past 30 minutes was -10 mg/dL per 5min, then the retrospective correction effect over the next 60 minutes would be as follows:
 
-<table>
-<thead>
-<tr>
-<th>Minutes relative to now (<i>t=0</i>)</th>
-<th>Percent of BG<i>vel</i> Applied to RC Effect</th>
-<th><img src="../img/delta_bgrc.png">
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>5</td>
-<td>100%</td>
-<td>-10</td>
-</tr>
-<tr>
-<tr>
-<td>10</td>
-<td>91%</td>
-<td>-9.1</td>
-</tr>
-<tr>
-<td>15</td>
-<td>82%</td>
-<td>-8.2</td>
-</tr>
-<tr>
-<td>20</td>
-<td>73%</td>
-<td>-7.3</td>
-</tr>
-<tr>
-<td>25</td>
-<td>64%</td>
-<td>-6.4</td>
-</tr>
-<tr>
-<td>30</td>
-<td>55%</td>
-<td>-5.5</td>
-</tr>
-<tr>
-<td>35</td>
-<td>45%</td>
-<td>-4.5</td>
-</tr>
-<tr>
-<td>40</td>
-<td>36%</td>
-<td>-3.6</td>
-</tr>
-<tr>
-<td>45</td>
-<td>27%</td>
-<td>-2.7</td>
-</tr>
-<tr>
-<td>50</td>
-<td>18%</td>
-<td>-1.8</td>
-</tr>
-<tr>
-<td>55</td>
-<td>9%</td>
-<td>-0.9</td>
-</tr>
-<tr>
-<td>60</td>
-<td>0%</td>
-<td>0</td>
-</tr>
-</tbody>
-</table>
+| Minutes relative to now (*t=0*) | Percent of BG*vel* Applied to RC Effect | ![img/delta_bgrc.png](img/delta_bgrc.png) |
+| ------------------------------- | --------------------------------------- | ----------------------------------------- |
+| 5                               | 100%                                    | -10                                       |
+| 10                              | 91%                                     | -9.1                                      |
+| 15                              | 82%                                     | -8.2                                      |
+| 20                              | 73%                                     | -7.3                                      |
+| 25                              | 64%                                     | -6.4                                      |
+| 30                              | 55%                                     | -5.5                                      |
+| 35                              | 45%                                     | -4.5                                      |
+| 40                              | 36%                                     | -3.6                                      |
+| 45                              | 27%                                     | -2.7                                      |
+| 50                              | 18%                                     | -1.8                                      |
+| 55                              | 9%                                      | -0.9                                      |
+| 60                              | 0%                                      | 0                                         |
 
 Here’s an example below that shows the retrospective correction effect when the BG*vel* over the past 30 minutes was -10mg/dL/5min.
 
@@ -279,58 +223,13 @@ The momentum effect can be illustrated with an example: if the last 3 blood gluc
 
 Also, if the combined effect from the insulin, carbohydrates, and retrospective correction is assumed to be a constant 6 mg/dL/5min over the next 20 minutes, then the expected overall effect and the predicted blood glucose can be calculated as follows.
 
-<table>
-<thead>
-<tr>
-<th>Minutes relative to now (<i>t=0</i>)</th>
-<th>Percent of Slope Applied to Momentum Effect</th>
-<th>Momentum Effect (3mg/dL/5min)</th>
-<th>Percent of Other Effects Applied Overall Effect</th>
-<th>Other Effects (Insulin, Carbohydrate, and Retrospective Correction)</th>
-<th>Overall Effect (mg/dL/5min)</th>
-<th>Predicted BG (mg/dL)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>5</td>
-<td>100%</td>
-<td>3</td>
-<td>0</td>
-<td>6</td>
-<td>3</td>
-<td>109</td>
-</tr>
-<tr>
-<tr>
-<td>10</td>
-<td>66.6%</td>
-<td>2</td>
-<td>33.3%</td>
-<td>6</td>
-<td>4</td>
-<td>113</td>
-</tr>
-<tr>
-<td>15</td>
-<td>33.3%</td>
-<td>1</td>
-<td>66.6%</td>
-<td>6</td>
-<td>5</td>
-<td>118</td>
-</tr>
-<tr>
-<td>20</td>
-<td>0%</td>
-<td>0</td>
-<td>100%</td>
-<td>6</td>
-<td>6</td>
-<td>124</td>
-</tr>
-</tbody>
-</table>
+| Minutes relative to now (*t=0*) | Percent of Slope Applied to Momentum Effect | Momentum Effect (3mg/dL/5min) | Percent of Other Effects Applied Overall Effect | Other Effects (Insulin, Carbohydrate, and Retrospective Correction) | Overall Effect (mg/dL/5min) | Predicted BG (mg/dL) |
+| ------------------------------- | ------------------------------------------- | ----------------------------- | ----------------------------------------------- | ------------------------------------------------------------------- | --------------------------- | -------------------- |
+| 5                               | 100%                                        | 3                             | 0                                               | 6                                                                   | 3                           | 109                  |
+| 10                              | 66.6%                                       | 2                             | 33.3%<                                          | 6                                                                   | 4                           | 113                  |
+| 15                              | 33.3%                                       | 1                             | 66.6%                                           | 6                                                                   | 5                           | 118                  |
+| 20                              | 0%                                          | 0                             | 100%                                            | 6                                                                   | 6                           | 124                  |
+
 This example is illustrated in the figure below.
 
 ![blood glucose momentum graphic](img/momentum_graphic.png)

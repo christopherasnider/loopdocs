@@ -45,14 +45,11 @@ Du har brug for en Apple-computer, der har mindst den minimale macOS-version som
 
 Hvis computeren ikke har den nødvendige minimumversion, skal du kontrollere knappen `Software Update` på skærmen for at se, om du kan opdatere.
 
-<p align="center">
-<img src="../img/macosx.png" width="500">
-</p>
+![img/macosx.png](img/macosx.png)
+
 If your computer does not give you the option to update to the newer macOS (in other words you are stuck on older versions)...it is quite possible that Apple has decided your computer is too old to run the latest and greatest. How old is too old? That will depend on your computer model and year as shown below:
 
-<p align="center">
-<img src="../img/mojave-minimum.png" width="750">
-</p>
+![img/mojave-minimum.png](img/mojave-minimum.png)
 
 ## Næste trin: Kompatibel iPhone/iPod touch
 

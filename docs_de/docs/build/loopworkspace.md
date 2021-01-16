@@ -21,11 +21,8 @@ So why am I about to tell you about a Loop repo that involves git? The answer is
 I'm going to retread some info that you may have read in the Branches FAQs page earlier, but is really important to this discussion on LoopWorkspace. Loop developers own an account in GitHub called [LoopKit](https://github.com/LoopKit).  Within that account, the developers have several "repositories" that support Loop in particular. A repository is like a book...let's think of it like a cookbook for now. Within the LoopKit account, there are repositories for Loop itself, LoopDocs, and various other supporting "frameworks" that are helper repositories for Loop to build correctly. For example, Loop's repo has a lot of the info about the app itself; the outward facing things that you interact with. How information is put to you and taken in from you...that's in Loop repository code. But, there's more than just a user interface for Loop. Loop has to do a lot of complex work like Bluetooth communications, algorithm math, pump communications, etc. The Loop app has help from frameworks to do those other parts. The Loop app has help from frameworks to do those other parts. CGMBLEkit for some of the transmitter parts of Loop, RileyLink_ios for the pump managers (talking to the pumps and decoding their information), LoopKit for the algorithm about carbs and insulin curves, etc.
 
 When you build Loop, in the background, Loop pulls those other frameworks (7 in total) into the build process using "Carthage".  Carthage is like a personal shopper. You give it a shopping list (the cartfile in Loop code is that shopping list) and it goes and fetches that for you during the build process. The cartfile shows where the various frameworks are (exactly which GitHub account) and which branch to use. This is an example of what the cartfile looks like for dev branch right now.
-<p align="center">
-<img src="../img/cartfile.png" width="750">
-</p>
 
-</p>
+![../img/gitmodules.png](img/cartfile.png)
 
 Many of the frameworks also have their own cartfiles embedded in them. So, when developers are doing code changes in one of those frameworks, it gets to be a nest of effort to keep the cartfiles pointing to the right places and consistent in the embedded cartfiles for the various frameworks.
 
@@ -55,11 +52,8 @@ How can you find your home directory?
 
 1. In Terminal, if you use `cd` that will take you there automatically.</br>
 2. In Finder, shift-command-H will open your "home" folder.
-<p align="center">
-<img src="../img/root-finder.png" width="750">
-</p>
 
-</p>
+![../img/root-finder.png](img/root-finder.png)
 
 As you can see, I have a lot of cloned things in my home directory from GitHub that involve Loop. You may have fewer...but be aware, you can always delete and reclone if you are in doubt or confused.
 
@@ -89,22 +83,21 @@ So to summarize, you need to clone LoopWorkspace by:
 4. Close Terminal app.
 5. Find that cloned folder, by opening the Finder app. Click `shift-command-H` and Finder will open your "home" or root folder. Scroll down and you'll see a folder called `LoopWorkspace`.
 6. From withing the LoopWorkspace folder, double-click on the `Loop.xcworkspace` file to open the project in Xcode.
-<p align="center">
-<img src="../img/workspace-file.png" width="550">
-</p>
 
-</p>
+![../img/workspace-file.png](img/workspace-file.png)
 
 !!!warning "Two things to notice"
 
     Once you are in LoopWorkspace opened in Xcode, everything is pretty similar for building with only two notable exceptions. You need to click on that blue Loop folder to see the signing targets, and you need to change the build scheme to the left of your phone to "Loop (Workspace)" in order to build properly.
     
-    </p>
+    
+    
+    I do rather like that benefit to using LoopWorkspaces too. </p>
     <p align="center">
     <img src="../img/workspace-use.png" width="750">
     </p>
     
-    Oh wait...there is a noticable difference...the speed! LoopWorkspace will build Loop much faster than Loop because of the way it uses submodules. I do rather like that benefit to using LoopWorkspaces too.
+    Oh wait...there is a noticable difference...the speed! LoopWorkspace will build Loop much faster than Loop because of the way it uses submodules.
 
 ## Updating Loop using LoopWorkspace
 
@@ -132,11 +125,8 @@ There are 2 main ways to do this.
 1. If you're already familiar with Git, the easiest way is to `cd` into the appropriate repository (like `cd rileylink_ios`) and `checkout` the desired branch.
 
 2. If you're not as familiar with Git, if you edit your .gitmodules directory in LoopWorkspace, you can specify other repos to use (and add a line to specify branches, too). Then if you do a `git submodule sync` the workspace will sync to new submodules. Then `git submodule update --init --recursive --remote` will update all the submodules to the right branches and get HEADs detached correctly, etc.
-<p align="center">
-<img src="../img/gitmodules.png" width="750">
-</p>
 
-</p>
+![img/gitmodules.png](img/gitmodules.png)
 
 ## Pushing commits from LoopWorkspace
 

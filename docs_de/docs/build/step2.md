@@ -51,9 +51,7 @@ Eine Randnotiz für erfahrene Loop-Benutzer, die sich mit den verschiedenen "Bra
 
 Die iOS-Version deines Telefons findest du unter Einstellungen, Allgemein, wie unten abgebildet.
 
-<p align="center">
-<img src="../img/ios.jpg" width="300">
-</p>
+![img/ios.jpg](img/ios.jpg)
 
 ## Nächster Schritt: Kompatible Pumpen
 
