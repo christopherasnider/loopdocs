@@ -45,16 +45,16 @@ Die nächste Kompatibilitätsprüfung ist, dass wir eine Mindestversion der Bedi
 
 Apple hat entschieden, dass diese Modelle nicht mehr über iOS 12.4 hinaus aktualisiert werden können, sie haben das Ende des von Apple unterstützten Aktualisierungs-Lebenszyklus erreicht. Apple hat in der jüngsten Vergangenheit iOS 13 und iOS 14 veröffentlicht und diese Modelle können nicht auf diese Versionen aktualisiert werden. Dies ist derzeit aber kein Problem... du kannst die Loops Master-Branch noch installieren, solange dein Gerät mindestens iOS 12.4 hat. Allerdings wird es in der Zukunft Änderungen bei Loop geben, die zwingend iOS 13 auf dem Gerät erfordert, auf dem diese neue Loop Version installiert werden soll. Es ist nicht bekannt, wann diese Mindestanforderung geändert wird.  Wir werden dieses aber Ankündigen und die Dokumentation entsprechened aktualisieren.
 
-Eine Randnotiz für erfahrene Loop-Benutzer, die sich mit den verschiedenen "Branches" und dergleichen auskennen: Derzeit (Stand Oktober 2020) benötigt die Loop Development Branch, dass Geräte iOS 13 oder neuer haben. There's no set timeframe for when dev will next be merged into master.
+Eine Randnotiz für erfahrene Loop-Benutzer, die sich mit den verschiedenen "Branches" und dergleichen auskennen: Derzeit (Stand Oktober 2020) benötigt die Loop Development Branch, dass Geräte iOS 13 oder neuer haben. Es gibt keinen festgelegten Zeitrahmen, wann die Development Branch mit der jetzigen Master Branch zusammengeführt wird.
 
 ## Finde heraus, welches iOS du auf deinem Gerät installiert hast
 
-Your phone's iOS version can be found under the Settings app, General, About as shown below.
+Die iOS-Version deines Telefons findest du unter Einstellungen, Allgemein, wie unten abgebildet.
 
 <p align="center">
 <img src="../img/ios.jpg" width="300">
 </p>
 
-## Next Step: Compatible Pump
+## Nächster Schritt: Kompatible Pumpen
 
-Now you are ready to move onto Step 3 to check if you have a [Compatible pump](step3.md).
+Jetzt kannst du mit Schritt 3 weitermachen, um zu überprüfen, ob du eine [kompatible Pumpe](step3.md) hast.
