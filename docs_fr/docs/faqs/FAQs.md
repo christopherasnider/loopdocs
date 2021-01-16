@@ -6,7 +6,7 @@ Welcome to LoopDocs - a place for all things Frequently Asked.
 
 Click on the image below to watch a short [Introduction to Loop video](https://youtu.be/qw_u1lqboCs).
 
-<a href="https://youtu.be/qw_u1lqboCs" target="_blank"><img src="../img/intro-to-loop.png"  title="Introduction to Loop video" /></a>
+[![../img/loop_gear.jpg](img/intro-to-loop.png)](https://youtu.be/qw_u1lqboCs)
 
 ## What do I need to Loop?
 
@@ -20,9 +20,7 @@ Loop has both hardware and software requirements. In general, to use Loop you ne
 - [Xcode (a free Apple application)](../build/step8.md)
 - [Apple Developer Membership](../build/step6.md)
 
-<p align="center">
-<img src="../img/loop_gear.jpg" width="500">
-</p>
+![img/loop_gear.jpg](img/loop_gear.jpg)
 
 ## Can I download Loop from the App store?
 
@@ -129,4 +127,3 @@ Yes, technically possible. You can have multiple Loop apps built onto the same i
 ## Will I be able to Loop on a plane? Or in the mountains?
 
 Yes. Loop does not require internet or cell coverage to work. So long as the Loop user has Bluetooth turned on on the iPhone (or iPod touch), then the Dexcom and RileyLink will still be able to do their work with Loop and your pump/Pod.
-
