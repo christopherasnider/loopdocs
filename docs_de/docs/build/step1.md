@@ -12,48 +12,48 @@
     - Überprüfe `Software Aktualisierungen`, ob dein Computer auf dem letzten Stand ist. Wenn nicht, führe die Aktualisierungen zuerst durch.
 
 !!!warning "FAQs"
-    - **"Kann ich auch einen PC/Windows benutzen? Ich habe keinen Apple Computer."** Ja, es geht schon... Info [this FAQ about using Virtual Machine](/faqs/FAQs/#can-i-use-a-pc-or-windows-computer-to-build). PCs mit einem AMD Prozessor Chip können keinen Apple Computer emulieren. Wenn du das probieren möchtest schaue also zuerst nach, welchen Prozessor Chip du in deinem PC hast.
-    - **"What can I do if my computer is too old to be upgraded to Catalina?"** You could take a look at using [Catalina Patcher](http://dosdude1.com/catalina/), but this is totally on your own and not part of these instructions. Just offering the answer to the FAQ...it is up to you to read about the patcher tool and what risks it may involve for you.
-    - **"Can I borrow someone else's Apple computer?"** Yes, please see [this FAQ about borrowing a computer](/faqs/FAQs/#do-i-need-to-own-my-own-apple-computer) to learn more.
-    - **"How often do I need to use the computer?"** Computer access is only required when you are initially installing the Loop app or updating to a newer Loop release. You do NOT need access to an Apple computer in order to troubleshoot or change Loop settings, such as basal profiles or carb ratios.
+    - **"Kann ich auch einen PC/Windows benutzen? Ich habe keinen Apple Computer."** Ja, es geht schon... Information [this FAQ about using Virtual Machine](/faqs/FAQs/#can-i-use-a-pc-or-windows-computer-to-build). PCs mit einem AMD Prozessor Chip können keinen Apple Computer emulieren. Wenn du das probieren möchtest schaue also zuerst nach, welchen Prozessor Chip du in deinem PC hast.
+    - **"Was kann ich tun, wenn mein Computer zu alt ist, um auf Catalina aktualisiert zu werden?"** Du kannst es mit [Catalina Patcher](http://dosdude1.com/catalina/) probieren, allerdings bist du dabei auf dich allein gestellt und es ist nicht Teil dieser Anleitung. Dieses ist nur die Antwort auf eine der FAQs. Es ist an dir, dich über das "patcher tool" zu informieren und zu überlegen, ob du diesen Weg beschreiten moechtest.
+    - **"Kann mir von jemandem anderes einen Apple-Computer ausleihen?"** Ja, lies hier [diese FAQ über das Ausleihen eines Computers](/faqs/FAQs/#do-i-need-to-own-my-own-apple-computer), um mehr zu erfahren.
+    - **"Wie oft brauche ich den Computer?",** Du brauchst den Computer nur, wenn du die Loop-App installierst oder auf eine neuere Loop-Version aktualisierst. Du brauchst keinen Computer, um die Einstellungen in Loop, wie z. B. Basalprofile oder Kohlenhydratverhältnisse zu ändern oder nach Fehlern zu suchen.
 
-## New M1 chip Apple Computers
+## Neue Apple Computer mit M1-Chip
 
-Yes, the newest Apple computers just released in November 2020 are compatible with Loop building. There is ONE little step to be aware of with the new computers, and that is on the Step 7 Install Homebrew page. I've highlighted in a colored boxes on that page the parts that M1 users will need to do. I promise, it's quick and painless.
+Auch die im November 2020 vorgestellten Apple Computer mit M1 Chip können für die Installation von Loop verwendet werden. Es gibt EINEN Schritt, den du bei der Verwendung der neuen Computern mit M1 Chip beachten musst, Schritt 7 "Installation von Homebrew". Ich habe auf dieser Seite die Schritte farbig hervorgehoben, die M1-Benutzer beachten müssen. Versprochen, es ist einfach und schnell.
 
-And...with that...I'm extremely jealous that you have the new computer. They will make Loop building extremely fast and the time estimates on these docs will be ridiculously slower than you will be experiencing. Lucky duck, I have FOMO.
+Und...ich bin ein bischen eifersüchtig, dass du den neuen Computer hast. Du Gueckspliz wirst damit die Loop-Installation extrem schnell erledigt haben, die Zeitschätzungen in dieser Anleitung werden gandenlos länger sein als das, was du mit deinem M1 Chip sehen wirst.
 
 ## Big Sur MacOS
 
-Yes, Big Sur is compatible with Loop building...I'm working on updating this page for that soon. Hang tight.
+Ja, Big Sur ist kompatibel mit dem Loop-Installation...ich arbeite daran, diese Seite zu aktualisieren. Habe ein bischen Geduld.
 
-## Catalina vs Mojave, which do you need?
+## Catalina oder Mojave, welches davon brauchst du?
 
-Do you need Catalina or Mojave? The answer will depend on the iOS of your iPhone you'll install Loop onto.
+Brauchst Du Catalina oder Mojave? Die Antwort hängt von der iOS Version deines iPhones ab, auf dem du Loop installieren wirst.
 
-**If you have iOS 12.4 to 13.2**, you can use macOS 10.14.4 (Mojave) or 10.15.2 or newer (Catalina).
+**Wenn du iOS 12.4 bis 13.2** hast, kannst du macOS 10.14.4 (Mojave) oder 10.15.2 oder neuer (Catalina) verwenden.
 
-**If you have iOS 13.4 or newer**, you will not be able to use Mojave and will need Catalina at a minimum. In other words, you'll need macOS 10.15.2 at a minimum to build Loop onto an iPhone running iOS 13.4 or newer.
+**Wenn du iOS 13.4 oder neuere** hast, kannst du Mojave nicht verwenden und benötigst mindestens Catalina. Mit anderen Worten, du benötigst macOS 10.15.2 oder neuer um Loop auf einem iPhone mit iOS 13.4 oder höher zu installieren.
 
-!!!danger "iOS dictates your computer needs"
+!!!danger "Die iOS Version bestimmt die MacOS Version auf deinem Computer"
 
-    Put simply for Loopers...the more up-to-date you keep your iOS, the more up-to-date your computer and macOS will need to be, too. That's not necessarily a bad thing, and you can't avoid iOS updates forever...you just do need to be aware of how they relate to each other if your computer is "getting on the older side".
+    Etwas simplifiziert könnte man auch sagen...wenn du dein iOS immer auf dem neusten Stand hälst, dann muss du auch deinen Computer und das MacOS aktuell halten. Das ist nichts Schlechtes und du kannst iOS-Updates sowieso nicht für immer vermeiden... du musst nur wissen, wie diese miteinander in Beziehung stehen und wann dein Computer "zu alt" ist.
 
-## Check your macOS
+## Überprüfe deine MacOS Version
 
-You need an Apple computer that has at least the minimum macOS version as described above; Mojave macOS 10.14.4 (or newer) or Catalina macOS 10.15 (or newer). To find out which version you have installed, click on the little Apple icon in your computer's upper left corner and select the `About this Mac`. It doesn't matter if the computer is a MacBook, iMac, macMini, etc...just so long as it has the minimum you'll need.
+Du benötigst einen Apple-Computer, der die Mindestvoraussetzung des MacOS wie oben beschrieben erfüllt; d.h. Mojave MacOS 10. 4.4 (oder neuer) oder Catalina MacOS 10.15 (oder neuer). Um herauszufinden, welche Version du installiert hast, klicken auf das kleine Apple-Symbol in der oberen linken Ecke des Computers und wähle `Über diesen Mac` aus. Es spielt dabei keine Rolle, ob der Computer ein MacBook, iMac, Mac mini usw. ist, solange er die Mindestvoraussetzungen erfüllt.
 
-If your computer does not have the required minimum version, you'll need to check the `Software Update` button on that screen to see if you can update.
+Wenn dein Computer nicht das mindestens erforderliche MacOS installiert hat, musst du mit `Software-Update` überprüfen (siehe das Bild unten), ob du es aktualisieren kannst.
 
 <p align="center">
 <img src="../img/macosx.png" width="500">
 </p>
-If your computer does not give you the option to update to the newer macOS (in other words you are stuck on older versions)...it is quite possible that Apple has decided your computer is too old to run the latest and greatest. How old is too old? That will depend on your computer model and year as shown below:
+Wenn dein Computer keine Update auf ein neueres MacOS anbietet, kann es sein, dass Apple entschieden hat, dass dein Computer zu alt dafür ist. Wie alt ist zu alt? Das hängt von deinem Computermodell und Jahr ab (siehe die Bilder unten):
 
 <p align="center">
 <img src="../img/mojave-minimum.png" width="750">
 </p>
 
-## Next Step: Compatible iPhone/iPod touch
+## Nächster Schritt: Kompatible iPhone/iPod touch
 
-Now you are ready to move onto Step 2 to check if you have a [Compatible iPhone/iPod touch](step2.md).
+Jetzt kannst du mit Schritt 2 weitermachen, um zu überprüfen, ob du ein [kompatibles iPhone/iPod touch](step2.md) hast.

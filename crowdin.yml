@@ -1,3 +1,5 @@
 files:
   - source: /docs/**/*.md
     translation: /docs_%two_letters_code%/docs/**/%original_file_name%
+  - source: /xliff/basexliff/*.xliff
+    translation: /xliff/xliff_%two_letters_code%/%original_file_name%
