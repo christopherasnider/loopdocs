@@ -16,7 +16,7 @@ Your Loop app has an expiration date. The expiration date will depend on the typ
 
 Many people *accidentally* build with their old free account even after buying a paid account. How can you tell which you're signing with? The free signing team has the `(Personal Team)` listed after your name in the signing team.
 
-If your app expires, you simply need to plug your phone back into the computer and press the play button on your project again. This will rebuild. If you want to change to a paid signing team before rebuilding, please make sure to double-check which signing team is selected before building again. 
+If your app expires, you simply need to plug your phone back into the computer and press the play button on your project again. This will rebuild. If you want to change to a paid signing team before rebuilding, please make sure to double-check which signing team is selected before building again.
 
 ## Incorrectly entered correction range
 

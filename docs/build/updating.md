@@ -1,10 +1,12 @@
 # Updating Loop
 
 !!!danger "Time Estimate"
-    * 25 minutes, if already have updates done
-    * 40-90 minutes, if need to install Apple update(s)
+
+    - 25 minutes, if already have updates done
+    - 40-90 minutes, if need to install Apple update(s)
 
 !!!info "Summary"
+
     1. Update macOS, Xcode, iOS, and/or watchOS
     2. Download updated Loop code
     3. Open in Xcode, sign targets
@@ -13,12 +15,12 @@
     6. Resolve Build Errors
 
 !!!warning "FAQs"
-    * **"What is an update?"** Anytime you want to change branches (i.e., go from omnipod-testing to dev branch), change customizations, or grab updates to the same branch you built with before...that is an "update" of your Loop app.
-    * **"Do I delete my old Loop app first?"** Definitely not! If you keep your Loop app on your phone, your Loop settings (and existing pod) will continue to work the same after the update. Seamless.
-    * **"Do I need to start a new pod when I update?"** No. Your existing pod session will continue seamlessly if you are using the same Developer Account to sign the Loop app targets as you did the last time you built.
-    * **"What if I'm using a new/different developer account?"** If you aren't building with the same developer account as your existing app was built with (this includes going from free to paid), then you will be installing a brand new (second) Loop app on your phone. Your existing pod won't work with the new app, so you might want to time this transition when you are due to change pods. Delete the old app once you get the new one all set up.
-    * **"What if it is a new computer but the same developer account?"** No big deal...you just want to make sure the computer has Homebrew installed already and you've added your developer account to Xcode preferences.
 
+    - **"What is an update?"** Anytime you want to change branches (i.e., go from omnipod-testing to dev branch), change customizations, or grab updates to the same branch you built with before...that is an "update" of your Loop app.
+    - **"Do I delete my old Loop app first?"** Definitely not! If you keep your Loop app on your phone, your Loop settings (and existing pod) will continue to work the same after the update. Seamless.
+    - **"Do I need to start a new pod when I update?"** No. Your existing pod session will continue seamlessly if you are using the same Developer Account to sign the Loop app targets as you did the last time you built.
+    - **"What if I'm using a new/different developer account?"** If you aren't building with the same developer account as your existing app was built with (this includes going from free to paid), then you will be installing a brand new (second) Loop app on your phone. Your existing pod won't work with the new app, so you might want to time this transition when you are due to change pods. Delete the old app once you get the new one all set up.
+    - **"What if it is a new computer but the same developer account?"** No big deal...you just want to make sure the computer has Homebrew installed already and you've added your developer account to Xcode preferences.
 
 ## When to Update Loop
 
@@ -42,18 +44,13 @@ Under ordinary circumstances, you do not *have to* update your Loop app until yo
 
 If you think you are immune from needing to update and want to skip this Step 1...I HIGHLY recommend actually checking this chart to make sure your macOS and Xcode meet their minimums based on your device's iOS before proceeding.  I cannot emphasize how many people try to build without meeting the minimum versions because they ASSUME they are ok.
 
-<p align="center">
-<img src="../img/minimum-related.png" width="750">
-</p></br>
+![img/minimum-related.png](img/minimum-related.png)
 
 ## Step 2: Check your Developer Account
 
 Apple updates its License Agreement for the Developer Program frequently. You need to login to your [developer account](https://developer.apple.com/account/) to manually check if there is a new agreeement to accept.  If you see a big red or orange banner across the top of your Developer Account announcing a new license agreement like shown below...please read and accept it before building Loop.
 
-<p align="center">
-<img src="../img/license.png" width="550">
-</p>
-
+![img/license.png](img/license.png)
 
 ## Step 3: Download Updated Loop Code
 
@@ -75,24 +72,21 @@ This is a new step in the updating process. Everyone should do this step every t
 
 You can always check the expiration date at the time of building your loop app by clicking the little "i" icon next the "Provisioning Profile" line in the target signing area. Add 12 months to the "created" date (paid account), or 7 days (free account), and you'll have your app's date of future spontaneous death.
 
-<p align="center">
-<img src="../img/provisioning-profile-date.png" width="850">
-</p>
+![img/provisioning-profile-date.png](img/provisioning-profile-date.png)
 
 Here's what started happening about a year ago with Xcode 11...the provisioning profiles weren't updating "created" date with new builds. Instead, Xcode was simply using the old profile's "created" date. This change has resulted in many people's apps expiring (and therefore dying suddenly) despite having updated/rebuilt within less than 12 months ago and having current developer accounts (either manually renewed or automatically renewed, doesn't matter).
 
 To solve this new issue...we have an easy solution. Honest...easy. You can do this. Once you follow the steps in the orange box below, Xcode will have no memory of the old provisioning profiles and will be forced to create a brand new one with the next Loop build. Therefore, you'll get a brand spanking new "created" date that will match the build date.  Simple and straight-forward. (Leave Terminal app open to do Step 4b afterwards too.)
 
 !!!warning "How to delete old provisioning profiles"
-    * Find your Terminal app (the same one you used to install Homebrew in Step 7 of the build process if you forgot how to find it).</br></br>
-    * Open your Terminal app.</br></br>
-    * Copy and paste the line in the little grey box below into the Terminal prompt. Press enter after you paste it.</br></br>
+    - Find your Terminal app (the same one you used to install Homebrew in Step 7 of the build process if you forgot how to find it).
+    - Open your Terminal app.
+    - Copy and paste the line in the little grey box below into the Terminal prompt. Press enter after you paste it.
 
     `rm ~/Library/MobileDevice/Provisioning\ Profiles/*.mobileprovision`
     </br></br>You won't see anything special after you enter the command...your Terminal screen should look as boring as shown below when successful.
-    <p align="center">
-    <img src="../img/empty-profiles.png" width="650">
-    </p>
+    
+    ![img/empty-profiles.png](img/empty-profiles.png)
 
 ## Step 4b: Clean cache and dervied data
 
@@ -104,9 +98,8 @@ An ounce of prevention is worth a pound of cure.  Since we already have Terminal
     1. Copy and paste this command and press return: `rm -rf ~/Library/Caches/org.carthage.CarthageKit` Note: you won't see any message back if the command runs successfully.</br></br>
     2. Copy and paste this command and press return: `rm -rf ~/Library/Developer/Xcode/DerivedData` Note: you won't see any message back if the command runs successfully.
     </br></br>You won't see anything special after you enter the commands...your Terminal screen should look as boring as it did in the previous step 4a.
-    <p align="center">
-    <img src="../img/cleaned-terminal.png" width="650">
-    </p>
+    
+    ![img/cleaned-terminal.png](img/cleaned-terminal.png)
 
 ## Step 5: Build like normal
 

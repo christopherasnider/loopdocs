@@ -17,9 +17,7 @@ There are two options for setting up Nightscout; one option requires a small fee
 * Select [Get Started](https://www.t1pal.com/getting-started/starting/home) to register an account at [T1Pal](https://www.t1pal.com/).  You will need to enter your credit card, which helps ensure Nightscout is running correctly.
 * Select "visualize treatments" in the setup menu and select "loop."
 
-<p align="center">
-<img src="../img/t1pal_configure.png" width="450">
-</p>
+![img/t1pal_configure.png](img/t1pal_configure.png)
 
 ## Traditional DIY (free, do-it-yourself)
 
@@ -27,7 +25,7 @@ Two options exist for easy DIY hosting of NS; Azure or Heroku. Both hosting serv
 
 There's great news though! The documentation and instructions for building your own Nightscout site have recently been completely overhauled and are WONDERFUL!
 
-Please visit [The Nightscout site](http://nightscout.github.io/nightscout/new_user/) for directions on how to set up your new Nightscout website. 
+Please visit [The Nightscout site](http://nightscout.github.io/nightscout/new_user/) for directions on how to set up your new Nightscout website.
 
 ## Add Nightscout to Loop
 
@@ -36,4 +34,3 @@ Once you finish setting up your new Nightscout site, don't forget to [enter the 
 ## Troubleshooting
 
 If your Nightscout site is not showing CGM (and Loop, if you are Looping) data within about 10 minutes of finishing your setup, then please follow these steps [here](troublehoot.md) to troubleshoot.
-
