@@ -9,6 +9,7 @@ from collections import OrderedDict
 from xml.dom import minidom
 import xml.etree.ElementTree as ET
 import subprocess
+import codecs
 
 class LoopDocs:
 
@@ -16,10 +17,10 @@ class LoopDocs:
         self.scriptPath=os.path.join(os.getcwd(),"scripts")
         self.loopDocsPath=Path(self.scriptPath).parent
         self.buildsitePath=os.path.join(self.loopDocsPath,".buildsite") 
-
-        self.xliffFactory=XliffFactory(self)
-        self.mkdocsFactory=MkDocsFactory(self)
-        self.staticSiteFactory=StaticSiteFactory()
+        self.menuXliffFilename="navMenu.xliff"
+        self.xliffDirectoryPath=os.path.join(self.loopDocsPath,"xliff")
+        self.xliffBaseDirectoryPath=os.path.join(self.xliffDirectoryPath,"basexliff")
+        self.xliffBaseMenuPath=os.path.join(self.xliffBaseDirectoryPath, self.menuXliffFilename)
 
         self.sites=[]
         directory_contents = os.listdir(self.loopDocsPath)
@@ -33,101 +34,71 @@ class LoopDocs:
         sitedir=self.buildsitePath
         topdirectory=self.loopDocsPath
 
-        self.staticSiteFactory.runBuilder(os.path.join(topdirectory, "mainsite", "mkdocs.yml"), sitedir)
-        self.staticSiteFactory.runBuilder(os.path.join(topdirectory,  "mkdocs_en.yml"), os.path.join(sitedir,"en" ))
-        self.staticSiteFactory.runBuilder(os.path.join(topdirectory,  "mkdocs_old.yml"), os.path.join(sitedir,"en_old" ))   
+        self.runBuilder(os.path.join(topdirectory, "mainsite", "mkdocs.yml"), sitedir)
+        self.runBuilder(os.path.join(topdirectory,  "mkdocs_en.yml"), os.path.join(sitedir,"en" ))
+        self.runBuilder(os.path.join(topdirectory,  "mkdocs_old.yml"), os.path.join(sitedir,"en_old" ))   
 
         for site in self.sites:
             site.buildSite()
 
-class StaticSiteFactory:
-
     def runBuilder(self,configfile,sitedir):
         os.system('mkdocs build --config-file ' + configfile + ' --site-dir ' + sitedir)
 
-class XliffFactory:
-    def __init__(self,LoopDocs):
-        self.menuFilename="navMenu.xliff"
-        self.xliffDirectoryPath=os.path.join(LoopDocs.loopDocsPath,"xliff")
-        self.xliffBaseDirectoryPath=os.path.join(self.xliffDirectoryPath,"basexliff")
-        self.xliffBaseMenuPath=os.path.join(self.xliffBaseDirectoryPath, self.menuFilename)
-        self.loopdocs=LoopDocs
-        self.baseValues=[]
-
-    def createBaseXliffFile(self):
-        self.createXliffFile(self.loopdocs.mkdocsFactory.generalMkdocsYmlFile,self.xliffBaseMenuPath)
 
 
-    def  createXliffFile(self,templatePath,savePath):
-        yamlcontent=self.loopdocs.mkdocsFactory.getYamlContent(templatePath)
-        nav=yamlcontent['nav']
-        navtest=deep_keys(nav)
-        xliff="""<?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns:xlf="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-<file datatype="plaintext" original="source.txt" source-language="en">
-<body>"""
-        i=0
-        for name in navtest:
-            i+=1
-            count=f"00000{i}"
-            xliffItem=f"""<trans-unit id="{count[-4:]}">
-<source>""" + name + """</source>
-</trans-unit>"""
-            xliff = xliff + "\n" + xliffItem
-        xliff=xliff + """\n</body>
-</file>
-</xliff>"""
+class TranslateMenus:
+    def __init__(self,xliffPath, templatePath, savePath):
+        self.xliffpath=xliffPath
+        self.templatepath=templatePath
+        self.savepath=savePath
+        self.menus=[]
 
-        Path(savePath).write_text(xliff)
-
-    def replaceContentFromXliffFile(self,xliffPath, content):
-
-        tree = ET.parse(xliffPath)
+    
+    def readXliff(self):
+        tree = ET.parse(self.xliffpath)
         root=tree.getroot()
         iter=tree.iter('trans-unit')
-        wordDic =[]
         for elem in iter:
-            listvalues=list(elem.iter())
-            menu=TranslateMenu()
-            if listvalues.__len__()==4:
+            m=TranslateMenu(elem)
+            self.menus.append(m)
 
-              wordDic[listvalues[1].text].a=end(listvalues[2].text)  
-                
-            if listvalues.__len__()==3:
-                wordDic[listvalues[1].text].append(listvalues[1].text)
+    def replaceValues(self):
 
         
-        self.replace_nested(content['nav'],wordDic)
-        return newContent
+        template = open(self.templatepath, "r")
+        templatedata = template.read()
+        template.close()
+
+        for menu in self.menus:
+            templatedata = templatedata.replace(menu.findmenu(), menu.replacemenu())
+
+        newfile = open(self.savepath, "w",encoding="utf-8")
+        newfile.write(templatedata)
+        newfile.close()
+
+    def TranslateYmlMenu(self):
+        self.readXliff()
+        self.replaceValues()
 
 class TranslateMenu:
-     def __init__(self,source,target):
-         self.source=source
-         self.target=target
+    def __init__(self,elem):
+        listvalues=list(elem)
+        self.source=listvalues[0].text
+        self.target=listvalues[1].text
+        self.note=listvalues[2].text
+           
+    
+    def findmenu(self):
+        if self.note:
+            return f"- '{self.source}' : '{self.note}'"
+        else:
+            return f"- '{self.source}' :"
 
-
-
-    def replace_nested(self,dct,wordDic):
-        if isinstance(dct, list):
-            for item in dct:
-                if isinstance(item,dict):
-                    for key in item.keys():
-                        translated=wordDic[key]
-                        if translated:
-                            item[translated]=item.pop(key)
-                            return
-                        else:
-                            if isinstance(item[key],list):
-                                self.replace_nested(item[key],wordDic)
-
-class MkDocsFactory:
-    def __init__(self,LoopDocs):
-        self.generalMkdocsYmlFile=os.path.join(LoopDocs.scriptPath,"mkdocs_template.yml")
-        self.generalMkdocsYmlFileContent=self.getYamlContent(self.generalMkdocsYmlFile) 
-
-    def getYamlContent(self,path):
-        with open(self.generalMkdocsYmlFile, 'r') as stream:
-            return yaml.safe_load(stream)
+    def replacemenu(self):
+        if self.note:
+            return f"- '{self.target}' : '{self.note}'"
+        else:
+            return f"- '{self.target}' :"
 
 class LoopDocLanguageSite:
     def __init__(self,language,LoopDocs):
@@ -137,20 +108,28 @@ class LoopDocLanguageSite:
         self.languageDirectory=os.path.join(self.loopdocs.loopDocsPath,"docs_" + self.language)
         self.langyamlpath=os.path.join( self.languageDirectory,self.ymlFilename)
         self.buildpath=buildpath=os.path.join(self.loopdocs.buildsitePath,self.language)
+        self.generalMkdocsYmlFile=os.path.join(LoopDocs.scriptPath,"mkdocs_template.yml")
+        self.langxliffDirectory=os.path.join(self.loopdocs.xliffDirectoryPath,"xliff_" + self.language)
+        self.xliffPath=os.path.join(self.langxliffDirectory,self.loopdocs.menuXliffFilename)
+
+
 
     def createYamlFile(self):
         
-        
-        content=self.loopdocs.mkdocsFactory.generalMkdocsYmlFileContent
-        langPath=os.path.join(self.loopdocs.xliffFactory.xliffDirectoryPath,"xliff_" + self.language)
-        xliffPath=os.path.join(langPath,self.loopdocs.xliffFactory.menuFilename)
+        menus=TranslateMenus(self.xliffPath,self.generalMkdocsYmlFile,self.langyamlpath)
+        menus.TranslateYmlMenu()
 
-        newcontent=self.loopdocs.xliffFactory.replaceContentFromXliffFile(xliffPath,content)
+        with open(self.langyamlpath,'r',encoding="utf-8") as file:
+            data=file.read()
+            data=data.replace("language: en",f"language: {self.language}")
+            # content=yaml.load(file)
+            # content['theme']['language']=self.language
+        newfile = open(self.langyamlpath, "w",encoding="utf-8")
+        newfile.write(data)
+        newfile.close()
 
-        newcontent['theme']['language']=self.language
-        with open(self.langyamlpath, 'w') as outfile:
-            yaml.safe_dump(newcontent,outfile,  default_flow_style=False)
+                # yaml.safe_dump(content,outfile,  default_flow_style=False)
 
     def buildSite(self):
         self.createYamlFile()
-        self.loopdocs.staticSiteFactory.runBuilder(self.langyamlpath,self.buildpath)
+        self.loopdocs.runBuilder(self.langyamlpath,self.buildpath)

@@ -2,92 +2,92 @@
 <xliff xmlns:xlf="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file datatype="plaintext" original="source.txt" source-language="en" target-language="de">
     <body>
-<trans-unit id="0001"><source>Home</source><target state="translated">Home</target><note> index.md</note></trans-unit>
+<trans-unit id="0001"><source>Home</source><target state="translated">Home</target><note>index.md</note></trans-unit>
 <trans-unit id="0002"><source>FAQs</source><target state="translated">FAQs</target><note></note></trans-unit>
-<trans-unit id="0003"><source>Using This Site FAQs </source><target state="translated">Über die Seite FAQs</target><note> faqs/docs-faqs.md</note></trans-unit>
-<trans-unit id="0004"><source>General Loop FAQs </source><target state="translated">Allgemeine Loop-App FAQs</target><note> faqs/FAQs.md</note></trans-unit>
-<trans-unit id="0005"><source>Omnipod FAQs </source><target state="translated">Omnipod FAQs</target><note> faqs/omnipod-faqs.md</note></trans-unit>
-<trans-unit id="0006"><source>Branch FAQs </source><target state="translated">Branch FAQs</target><note> faqs/branch-faqs.md</note></trans-unit>
-<trans-unit id="0007"><source>Update/Rebuild Loop FAQs </source><target state="translated">Aktualisierung und Neuerstellung der Loop-App FAQs</target><note> faqs/update-faqs.md</note></trans-unit>
-<trans-unit id="0008"><source>iOS 13 FAQs </source><target state="translated">iOS 13 FAQs</target><note> faqs/ios13.md</note></trans-unit>
-<trans-unit id="0009"><source>RileyLink FAQs </source><target state="translated">RileyLink FAQs</target><note> faqs/rileylink-faqs.md</note></trans-unit>
-<trans-unit id="0010"><source>Algorithm FAQs </source><target state="translated">Algorithmus FAQs</target><note> faqs/algorithm-faqs.md</note></trans-unit>
-<trans-unit id="0011"><source>CGM FAQs </source><target state="translated">CGM FAQs</target><note> faqs/cgm-faqs.md</note></trans-unit>
-<trans-unit id="0012"><source>Safety Tips </source><target state="translated">Sicherheitstipps</target><note> faqs/safety-faqs.md</note></trans-unit>
+<trans-unit id="0003"><source>Using This Site FAQs</source><target state="translated">Über die Seite FAQs</target><note>faqs/docs-faqs.md</note></trans-unit>
+<trans-unit id="0004"><source>General Loop FAQs</source><target state="translated">Allgemeine Loop-App FAQs</target><note>faqs/FAQs.md</note></trans-unit>
+<trans-unit id="0005"><source>Omnipod FAQs</source><target state="translated">Omnipod FAQs</target><note>faqs/omnipod-faqs.md</note></trans-unit>
+<trans-unit id="0006"><source>Branch FAQs</source><target state="translated">Branch FAQs</target><note>faqs/branch-faqs.md</note></trans-unit>
+<trans-unit id="0007"><source>Update/Rebuild Loop FAQs</source><target state="translated">Aktualisierung und Neuerstellung der Loop-App FAQs</target><note>faqs/update-faqs.md</note></trans-unit>
+<trans-unit id="0008"><source>iOS 13 FAQs</source><target state="translated">iOS 13 FAQs</target><note>faqs/ios13.md</note></trans-unit>
+<trans-unit id="0009"><source>RileyLink FAQs</source><target state="translated">RileyLink FAQs</target><note>faqs/rileylink-faqs.md</note></trans-unit>
+<trans-unit id="0010"><source>Algorithm FAQs</source><target state="translated">Algorithmus FAQs</target><note>faqs/algorithm-faqs.md</note></trans-unit>
+<trans-unit id="0011"><source>CGM FAQs</source><target state="translated">CGM FAQs</target><note>faqs/cgm-faqs.md</note></trans-unit>
+<trans-unit id="0012"><source>Safety Tips</source><target state="translated">Sicherheitstipps</target><note>faqs/safety-faqs.md</note></trans-unit>
 <trans-unit id="0013"><source>Build App</source><target state="translated">Erstellung der App</target><note></note></trans-unit>
-<trans-unit id="0014"><source>Overview</source><target state="translated">Übersicht</target><note> build/overview.md</note></trans-unit>
-<trans-unit id="0015"><source>Step 1 Compatible Computer </source><target state="translated">Schritt 1 Kompatible Betriebssysteme</target><note> build/step1.md</note></trans-unit>
-<trans-unit id="0016"><source>Step 2 Compatible iPhone/iPod touch </source><target state="translated">Schritt 2 Kompatible iPhone/iPod touch</target><note> build/step2.md</note></trans-unit>
-<trans-unit id="0017"><source>Step 3 Compatible Pump </source><target state="translated">Schritt 3 Kompatible Pumpen</target><note> build/step3.md</note></trans-unit>
-<trans-unit id="0018"><source>Step 4 Compatible CGM </source><target state="translated">Schritt 4 Kompatible CGM</target><note> build/step4.md</note></trans-unit>
-<trans-unit id="0019"><source>Step 5 Order a RileyLink </source><target state="translated">Schritt 5 Bestellung eines RileyLink</target><note> build/step5.md</note></trans-unit>
-<trans-unit id="0020"><source>Step 6 Enroll in Apple Developer Program </source><target state="translated">Schritt 6 Einschreibung ins Apple Developer Program</target><note> build/step6.md</note></trans-unit>
-<trans-unit id="0021"><source>Step 7 Install Homebrew </source><target state="translated">Schritt 7 Installation von Homebrew</target><note> build/step7.md</note></trans-unit>
-<trans-unit id="0022"><source>Step 8 Download Xcode </source><target state="translated">Schritt 8 Herunterladen von Xcode</target><note> build/step8.md</note></trans-unit>
-<trans-unit id="0023"><source>Step 9 Xcode Preferences </source><target state="translated">Schritt 9 Xcode Einstellungen</target><note> build/step9.md</note></trans-unit>
-<trans-unit id="0024"><source>Step 10 Test Settings </source><target state="translated">Schritt 10 Test der Einstellungen</target><note> build/step10.md</note></trans-unit>
-<trans-unit id="0025"><source>Step 11 Make plans for Loop Data </source><target state="translated">Schritt 11 Überdenken der Speicherung der Daten der Loop-App</target><note> build/step11.md</note></trans-unit>
-<trans-unit id="0026"><source>Step 12 Meet Community </source><target state="translated">Schritt 12 Triff dich in der Gruppe</target><note> build/step12.md</note></trans-unit>
-<trans-unit id="0027"><source>Step 13 Download Loop code </source><target state="translated">Schritt 13 Herunterladen des Loop-App Quellcodes</target><note> build/step13.md</note></trans-unit>
-<trans-unit id="0028"><source>Step 14 Build Loop app </source><target state="translated">Schritt 14 Erstellen der Loop-App</target><note> build/step14.md</note></trans-unit>
-<trans-unit id="0029"><source>Oh dear! Build errors? </source><target state="translated">Mist! Build-Fehler?</target><note> build/build_errors.md</note></trans-unit>
-<trans-unit id="0030"><source>Customize your Loop </source><target state="translated">Anpassen deiner Loop-App</target><note> build/code_customization.md</note></trans-unit>
-<trans-unit id="0031"><source>Updating/Rebuilding your Loop </source><target state="translated">Aktualisieren/neuerstellen deiner Loop-App</target><note> build/updating.md</note></trans-unit>
-<trans-unit id="0032"><source>LoopWorkspace </source><target state="translated">LoopWorkspace</target><note> build/loopworkspace.md</note></trans-unit>
+<trans-unit id="0014"><source>Overview</source><target state="translated">Übersicht</target><note>build/overview.md</note></trans-unit>
+<trans-unit id="0015"><source>Step 1 Compatible Computer</source><target state="translated">Schritt 1 Kompatible Betriebssysteme</target><note>build/step1.md</note></trans-unit>
+<trans-unit id="0016"><source>Step 2 Compatible iPhone/iPod touch</source><target state="translated">Schritt 2 Kompatible iPhone/iPod touch</target><note>build/step2.md</note></trans-unit>
+<trans-unit id="0017"><source>Step 3 Compatible Pump</source><target state="translated">Schritt 3 Kompatible Pumpen</target><note>build/step3.md</note></trans-unit>
+<trans-unit id="0018"><source>Step 4 Compatible CGM</source><target state="translated">Schritt 4 Kompatible CGM</target><note>build/step4.md</note></trans-unit>
+<trans-unit id="0019"><source>Step 5 Order a RileyLink</source><target state="translated">Schritt 5 Bestellung eines RileyLink</target><note>build/step5.md</note></trans-unit>
+<trans-unit id="0020"><source>Step 6 Enroll in Apple Developer Program</source><target state="translated">Schritt 6 Einschreibung ins Apple Developer Program</target><note>build/step6.md</note></trans-unit>
+<trans-unit id="0021"><source>Step 7 Install Homebrew</source><target state="translated">Schritt 7 Installation von Homebrew</target><note>build/step7.md</note></trans-unit>
+<trans-unit id="0022"><source>Step 8 Download Xcode</source><target state="translated">Schritt 8 Herunterladen von Xcode</target><note>build/step8.md</note></trans-unit>
+<trans-unit id="0023"><source>Step 9 Xcode Preferences</source><target state="translated">Schritt 9 Xcode Einstellungen</target><note>build/step9.md</note></trans-unit>
+<trans-unit id="0024"><source>Step 10 Test Settings</source><target state="translated">Schritt 10 Test der Einstellungen</target><note>build/step10.md</note></trans-unit>
+<trans-unit id="0025"><source>Step 11 Make plans for Loop Data</source><target state="translated">Schritt 11 Überdenken der Speicherung der Daten der Loop-App</target><note>build/step11.md</note></trans-unit>
+<trans-unit id="0026"><source>Step 12 Meet Community</source><target state="translated">Schritt 12 Triff dich in der Gruppe</target><note>build/step12.md</note></trans-unit>
+<trans-unit id="0027"><source>Step 13 Download Loop code</source><target state="translated">Schritt 13 Herunterladen des Loop-App Quellcodes</target><note>build/step13.md</note></trans-unit>
+<trans-unit id="0028"><source>Step 14 Build Loop app</source><target state="translated">Schritt 14 Erstellen der Loop-App</target><note>build/step14.md</note></trans-unit>
+<trans-unit id="0029"><source>Oh dear! Build errors?</source><target state="translated">Mist! Build-Fehler?</target><note>build/build_errors.md</note></trans-unit>
+<trans-unit id="0030"><source>Customize your Loop</source><target state="translated">Anpassen deiner Loop-App</target><note>build/code_customization.md</note></trans-unit>
+<trans-unit id="0031"><source>Updating/Rebuilding your Loop</source><target state="translated">Aktualisieren/neuerstellen deiner Loop-App</target><note>build/updating.md</note></trans-unit>
+<trans-unit id="0032"><source>LoopWorkspace</source><target state="translated">LoopWorkspace</target><note>build/loopworkspace.md</note></trans-unit>
 <trans-unit id="0033"><source>Set up App</source><target state="translated">Einrichten der Loop-App</target><note></note></trans-unit>
-<trans-unit id="0034"><source>Overview </source><target state="translated">Übersicht</target><note> operation/overview.md</note></trans-unit>
-<trans-unit id="0035"><source>Step 1 Health Permissions </source><target state="translated">Schritt 1 Health-Berechtigungen</target><note> build/health.md</note></trans-unit>
-<trans-unit id="0036"><source>Step 2 Add Pump </source><target state="translated">Schritt 2 Pumpe hinzufügen</target><note></note></trans-unit>
-<trans-unit id="0037"><source>Add Medtronic </source><target state="translated">Medtronic-Pumpe hinzufügen</target><note> operation/loop-settings/mdt-pump.md</note></trans-unit>
-<trans-unit id="0038"><source>Add Omnipod </source><target state="translated">Omnipod-Pumpe hinzufügen</target><note> operation/loop-settings/omnipod-pump.md</note></trans-unit>
-<trans-unit id="0039"><source>Step 3 Add CGM </source><target state="translated">Schritt 3 CGM hinzufügen</target><note> operation/loop-settings/cgm.md</note></trans-unit>
-<trans-unit id="0040"><source>Step 4 Configurations </source><target state="translated">Schritt 4 Konfiguartionen</target><note> operation/loop-settings/configurations.md</note></trans-unit>
-<trans-unit id="0041"><source>Step 5 Loop Services </source><target state="translated">Schritt 5 Loop Dienste</target><note> operation/loop-settings/services.md</note></trans-unit>
-<trans-unit id="0042"><source>Loop Displays </source><target state="translated">Loop-App Ansichten</target><note> operation/loop-settings/displays.md</note></trans-unit>
-<trans-unit id="0043"><source>RileyLink menu </source><target state="translated">RileyLink Menü</target><note> operation/loop-settings/rileylink.md</note></trans-unit>
+<trans-unit id="0034"><source>Overview</source><target state="translated">Übersicht</target><note>operation/overview.md</note></trans-unit>
+<trans-unit id="0035"><source>Step 1 Health Permissions</source><target state="translated">Schritt 1 Health-Berechtigungen</target><note>build/health.md</note></trans-unit>
+<trans-unit id="0036"><source>Step 2 Add Pump</source><target state="translated">Schritt 2 Pumpe hinzufügen</target><note></note></trans-unit>
+<trans-unit id="0037"><source>Add Medtronic</source><target state="translated">Medtronic-Pumpe hinzufügen</target><note>operation/loop-settings/mdt-pump.md</note></trans-unit>
+<trans-unit id="0038"><source>Add Omnipod</source><target state="translated">Omnipod-Pumpe hinzufügen</target><note>operation/loop-settings/omnipod-pump.md</note></trans-unit>
+<trans-unit id="0039"><source>Step 3 Add CGM</source><target state="translated">Schritt 3 CGM hinzufügen</target><note>operation/loop-settings/cgm.md</note></trans-unit>
+<trans-unit id="0040"><source>Step 4 Configurations</source><target state="translated">Schritt 4 Konfiguartionen</target><note>operation/loop-settings/configurations.md</note></trans-unit>
+<trans-unit id="0041"><source>Step 5 Loop Services</source><target state="translated">Schritt 5 Loop Dienste</target><note>operation/loop-settings/services.md</note></trans-unit>
+<trans-unit id="0042"><source>Loop Displays</source><target state="translated">Loop-App Ansichten</target><note>operation/loop-settings/displays.md</note></trans-unit>
+<trans-unit id="0043"><source>RileyLink menu</source><target state="translated">RileyLink Menü</target><note>operation/loop-settings/rileylink.md</note></trans-unit>
 <trans-unit id="0044"><source>Operate</source><target state="translated">Betrieb der Loop-App</target><note></note></trans-unit>
 <trans-unit id="0045"><source>How to Use Loop App</source><target state="translated">Wie benutze ich die Loop-App</target><note></note></trans-unit>
-<trans-unit id="0046"><source>Carb Entries </source><target state="translated">Eintragen von Kohlenhydraten</target><note> operation/features/carbs.md</note></trans-unit>
-<trans-unit id="0047"><source>Bolus </source><target state="translated">Bolus-Werte</target><note> operation/features/bolus.md</note></trans-unit>
-<trans-unit id="0048"><source>Overrides </source><target state="translated">Overrides</target><note> operation/features/workout.md</note></trans-unit>
-<trans-unit id="0049"><source>Pre-meal target </source><target state="translated">Pre-meal target</target><note> operation/features/premeal.md</note></trans-unit>
-<trans-unit id="0050"><source>Health app </source><target state="translated">Health App</target><note> operation/features/healthapp.md</note></trans-unit>
-<trans-unit id="0051"><source>Using ICE info </source><target state="translated">Benutzung der ICE Info</target><note> operation/features/ice.md</note></trans-unit>
-<trans-unit id="0052"><source>Apple Watch </source><target state="translated">Apple Watch</target><note> operation/features/watch.md</note></trans-unit>
-<trans-unit id="0053"><source>iPhone widget </source><target state="translated">iPhone Widgets</target><note> operation/features/widget.md</note></trans-unit>
-<trans-unit id="0054"><source>Loop Notifications </source><target state="translated">Loop-App Benachrichtigungen</target><note> operation/features/notifications.md</note></trans-unit>
-<trans-unit id="0055"><source>Pump Battery </source><target state="translated">Pumpenbatterie</target><note> operation/features/battery.md</note></trans-unit>
+<trans-unit id="0046"><source>Carb Entries</source><target state="translated">Eintragen von Kohlenhydraten</target><note>operation/features/carbs.md</note></trans-unit>
+<trans-unit id="0047"><source>Bolus</source><target state="translated">Bolus-Werte</target><note>operation/features/bolus.md</note></trans-unit>
+<trans-unit id="0048"><source>Overrides</source><target state="translated">Overrides</target><note>operation/features/workout.md</note></trans-unit>
+<trans-unit id="0049"><source>Pre-meal target</source><target state="translated">Pre-meal target</target><note>operation/features/premeal.md</note></trans-unit>
+<trans-unit id="0050"><source>Health app</source><target state="translated">Health App</target><note>operation/features/healthapp.md</note></trans-unit>
+<trans-unit id="0051"><source>Using ICE info</source><target state="translated">Benutzung der ICE Info</target><note>operation/features/ice.md</note></trans-unit>
+<trans-unit id="0052"><source>Apple Watch</source><target state="translated">Apple Watch</target><note>operation/features/watch.md</note></trans-unit>
+<trans-unit id="0053"><source>iPhone widget</source><target state="translated">iPhone Widgets</target><note>operation/features/widget.md</note></trans-unit>
+<trans-unit id="0054"><source>Loop Notifications</source><target state="translated">Loop-App Benachrichtigungen</target><note>operation/features/notifications.md</note></trans-unit>
+<trans-unit id="0055"><source>Pump Battery</source><target state="translated">Pumpenbatterie</target><note>operation/features/battery.md</note></trans-unit>
 <trans-unit id="0056"><source>Looping Tips</source><target state="translated">Looping Tipps</target><note></note></trans-unit>
-<trans-unit id="0057"><source>Open Loop </source><target state="translated">Offene/Open Loop</target><note> operation/loop/open-loop.md</note></trans-unit>
-<trans-unit id="0058"><source>Closed Loop </source><target state="translated">Geschlossene/Closed Loop</target><note> operation/loop/close-loop.md</note></trans-unit>
-<trans-unit id="0059"><source>Loop Tips </source><target state="translated">Loop Tips</target><note> operation/loop/looptips.md</note></trans-unit>
+<trans-unit id="0057"><source>Open Loop</source><target state="translated">Offene/Open Loop</target><note>operation/loop/open-loop.md</note></trans-unit>
+<trans-unit id="0058"><source>Closed Loop</source><target state="translated">Geschlossene/Closed Loop</target><note>operation/loop/close-loop.md</note></trans-unit>
+<trans-unit id="0059"><source>Loop Tips</source><target state="translated">Loop Tips</target><note>operation/loop/looptips.md</note></trans-unit>
 <trans-unit id="0060"><source>Algorithm</source><target state="translated">Algorithmus</target><note></note></trans-unit>
-<trans-unit id="0061"><source>Overview </source><target state="translated">Übersicht</target><note> operation/algorithm/overview.md</note></trans-unit>
-<trans-unit id="0062"><source>Bolus Recommendations </source><target state="translated">Bolus Empfehlungen</target><note> operation/algorithm/bolus.md</note></trans-unit>
-<trans-unit id="0063"><source>Glucose Prediction </source><target state="translated">BZ Vorhersagen</target><note> operation/algorithm/prediction.md</note></trans-unit>
-<trans-unit id="0064"><source>Temp Basal Adjustments </source><target state="translated">Temporäre Basalanpassungen</target><note> operation/algorithm/temp-basal.md</note></trans-unit>
+<trans-unit id="0061"><source>Overview</source><target state="translated">Übersicht</target><note>operation/algorithm/overview.md</note></trans-unit>
+<trans-unit id="0062"><source>Bolus Recommendations</source><target state="translated">Bolus Empfehlungen</target><note>operation/algorithm/bolus.md</note></trans-unit>
+<trans-unit id="0063"><source>Glucose Prediction</source><target state="translated">BZ Vorhersagen</target><note>operation/algorithm/prediction.md</note></trans-unit>
+<trans-unit id="0064"><source>Temp Basal Adjustments</source><target state="translated">Temporäre Basalanpassungen</target><note>operation/algorithm/temp-basal.md</note></trans-unit>
 <trans-unit id="0065"><source>Troubleshoot</source><target state="translated">Fehlerbehebung</target><note></note></trans-unit>
-<trans-unit id="0066"><source>Overview </source><target state="translated">Übersicht</target><note> troubleshooting/overview.md</note></trans-unit>
-<trans-unit id="0067"><source>Loop App crashes </source><target state="translated">Loop-App Absturtz</target><note> troubleshooting/loop-crashing.md</note></trans-unit>
-<trans-unit id="0068"><source>Red Loop </source><target state="translated">Rote Loop</target><note> troubleshooting/yellow-red-loop.md</note></trans-unit>
-<trans-unit id="0069"><source>Pod Pairing Failures </source><target state="translated">Pod-Kopplungsprobleme</target><note> troubleshooting/pod-pairing.md</note></trans-unit>
-<trans-unit id="0070"><source>Pod Uncertain Boluses </source><target state="translated">Pod Unsichere Boli</target><note> troubleshooting/uncertain-bolus.md</note></trans-unit>
-<trans-unit id="0071"><source>MDT Priming and Sites </source><target state="translated">MDT Priming and Sites</target><note> troubleshooting/priming.md</note></trans-unit>
-<trans-unit id="0072"><source>Time Changes </source><target state="translated">Time Changes</target><note> troubleshooting/time-change.md</note></trans-unit>
-<trans-unit id="0073"><source>MDT Pump Errors </source><target state="translated">MDT/Medtronic Pumpenfehler</target><note> troubleshooting/pump-errors.md</note></trans-unit>
-<trans-unit id="0074"><source>Omnipod Faults </source><target state="translated">Omnipod Pumpenfehler</target><note> troubleshooting/omnipod-faults.md</note></trans-unit>
+<trans-unit id="0066"><source>Overview</source><target state="translated">Übersicht</target><note>troubleshooting/overview.md</note></trans-unit>
+<trans-unit id="0067"><source>Loop App crashes</source><target state="translated">Loop-App Absturtz</target><note>troubleshooting/loop-crashing.md</note></trans-unit>
+<trans-unit id="0068"><source>Red Loop</source><target state="translated">Rote Loop</target><note>troubleshooting/yellow-red-loop.md</note></trans-unit>
+<trans-unit id="0069"><source>Pod Pairing Failures</source><target state="translated">Pod-Kopplungsprobleme</target><note>troubleshooting/pod-pairing.md</note></trans-unit>
+<trans-unit id="0070"><source>Pod Uncertain Boluses</source><target state="translated">Pod Unsichere Boli</target><note>troubleshooting/uncertain-bolus.md</note></trans-unit>
+<trans-unit id="0071"><source>MDT Priming and Sites</source><target state="translated">MDT Priming and Sites</target><note>troubleshooting/priming.md</note></trans-unit>
+<trans-unit id="0072"><source>Time Changes</source><target state="translated">Time Changes</target><note>troubleshooting/time-change.md</note></trans-unit>
+<trans-unit id="0073"><source>MDT Pump Errors</source><target state="translated">MDT/Medtronic Pumpenfehler</target><note>troubleshooting/pump-errors.md</note></trans-unit>
+<trans-unit id="0074"><source>Omnipod Faults</source><target state="translated">Omnipod Pumpenfehler</target><note>troubleshooting/omnipod-faults.md</note></trans-unit>
 <trans-unit id="0075"><source>Nightscout</source><target state="translated">Nightscout</target><note></note></trans-unit>
-<trans-unit id="0076"><source>Overview </source><target state="translated">Übersicht</target><note> nightscout/overview.md</note></trans-unit>
-<trans-unit id="0077"><source>Brand New NS </source><target state="translated">Brandneues Nightscout</target><note> nightscout/new_user.md</note></trans-unit>
-<trans-unit id="0078"><source>Retrofit Existing NS </source><target state="translated">Nachrüsten eines existierenden Nightscout</target><note> nightscout/update_user.md</note></trans-unit>
-<trans-unit id="0079"><source>Setup Troubleshooting </source><target state="translated">Einrichtung und Fehlerbehebung</target><note> nightscout/troublehoot.md</note></trans-unit>
-<trans-unit id="0080"><source>Remote Overrides </source><target state="translated">Ferngesteuerte Overrides</target><note> nightscout/remote-overrides.md</note></trans-unit>
-<trans-unit id="0081"><source>IFTTT </source><target state="translated">Wenn dies, dann das</target><note> nightscout/ifttt.md</note></trans-unit>
-<trans-unit id="0082"><source>Pebble </source><target state="translated">Pebble Smartwatch</target><note> nightscout/pebble.md</note></trans-unit>
-<trans-unit id="0083"><source>Remote Notifications </source><target state="translated">Fernbenachrichtgung</target><note> nightscout/pushover.md</note></trans-unit>
-<trans-unit id="0084"><source>Reports </source><target state="translated">Berichte</target><note> nightscout/reports.md</note></trans-unit>
+<trans-unit id="0076"><source>Overview</source><target state="translated">Übersicht</target><note>nightscout/overview.md</note></trans-unit>
+<trans-unit id="0077"><source>Brand New NS</source><target state="translated">Brandneues Nightscout</target><note>nightscout/new_user.md</note></trans-unit>
+<trans-unit id="0078"><source>Retrofit Existing NS</source><target state="translated">Nachrüsten eines existierenden Nightscout</target><note>nightscout/update_user.md</note></trans-unit>
+<trans-unit id="0079"><source>Setup Troubleshooting</source><target state="translated">Einrichtung und Fehlerbehebung</target><note>nightscout/troublehoot.md</note></trans-unit>
+<trans-unit id="0080"><source>Remote Overrides</source><target state="translated">Ferngesteuerte Overrides</target><note>nightscout/remote-overrides.md</note></trans-unit>
+<trans-unit id="0081"><source>IFTTT</source><target state="translated">Wenn dies, dann das</target><note>nightscout/ifttt.md</note></trans-unit>
+<trans-unit id="0082"><source>Pebble</source><target state="translated">Pebble Smartwatch</target><note>nightscout/pebble.md</note></trans-unit>
+<trans-unit id="0083"><source>Remote Notifications</source><target state="translated">Fernbenachrichtgung</target><note>nightscout/pushover.md</note></trans-unit>
+<trans-unit id="0084"><source>Reports</source><target state="translated">Berichte</target><note>nightscout/reports.md</note></trans-unit>
 <trans-unit id="0085"><source>Pay It Forward</source><target state="translated">Pay It Forward</target><note></note></trans-unit>
-<trans-unit id="0086"><source>Translate Loopdocs</source><target state="translated">Translate Loopdocs</target><note> payitforward/translateloopdocs.md</note></trans-unit>
+<trans-unit id="0086"><source>Translate Loopdocs</source><target state="translated">Translate Loopdocs</target><note>payitforward/translateloopdocs.md</note></trans-unit>
     </body>
   </file>
 </xliff>
