@@ -1,4 +1,4 @@
-# Bolus Recommendations
+# Bolusanbefalinger
 
 Loop will recommend bolus insulin corrections when the eventual blood glucose is greater than the correction target and the active insulin plus any active 30-minute temporary basal will not be sufficient to cover the predicted excursion above correction target. These recommendations are not proactively sent to the Loop user through any notification or banner alert; the recommendation is only viewable when the user clicks on the bolus tool. Note that Loop never issues a bolus command automatically; all boluses are initiated by the user.
 
