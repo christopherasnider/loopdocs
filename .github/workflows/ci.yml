@@ -3,11 +3,10 @@
 name: CI
 
 # Controls when the action will run. 
-on: 
-  #workflow_dispatch
+on: workflow_dispatch
   # Triggers the workflow on push events but only for the main branch
-  push:
-    branches: [ master-translation ]
+  #push:
+   # branches: [ master-translation ]
 
 jobs:
   deploy:
@@ -19,9 +18,10 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material
       - run: pip install mkdocs-bootswatch
+      - run: pip install pyyaml
       - run: python 'scripts/buildsite.py'
               
-      - uses: JamesIves/github-pages-deploy-action@3.7.1
-        with:
-          BRANCH: gh-pages-translation
-          FOLDER: .buildsite
+      # - uses: JamesIves/github-pages-deploy-action@3.7.1
+      #   with:
+      #     BRANCH: gh-pages-translation
+      #     FOLDER: .buildsite
