@@ -25,6 +25,8 @@ If you have not use crowdin before there is a short introduction to Crowdin belo
 
 If you want a more detailed explanation of how to use Crowdin, please visit [Crowdin - for translators](https://support.crowdin.com/online-editor/)
 
+You can also join the zulip stream [here](https://loop.zulipchat.com/#narrow/stream/270362-documentation/topic/Translation) which are dedicated to the translation of loopdocs.
+
 ## Crowdin introduction
 
 When you have selected your language and a file, the Crowdin editor opens.

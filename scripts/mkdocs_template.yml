@@ -51,13 +51,13 @@ nav:
     - 'LoopWorkspace' : 'build/loopworkspace.md'
 - 'Set up App' :
     - 'Overview' : 'operation/overview.md'
-    - 'Step 1 : Health Permissions' : 'build/health.md'
-    - 'Step 2 : Add Pump' :
+    - 'Step 1 Health Permissions' : 'build/health.md'
+    - 'Step 2 Add Pump' :
         - 'Add Medtronic' : 'operation/loop-settings/mdt-pump.md'
         - 'Add Omnipod' : 'operation/loop-settings/omnipod-pump.md'
-    - 'Step 3 : Add CGM' : 'operation/loop-settings/cgm.md'
-    - 'Step 4 :Configurations' : 'operation/loop-settings/configurations.md'
-    - 'Step 5 : Loop Services' : 'operation/loop-settings/services.md'
+    - 'Step 3 Add CGM' : 'operation/loop-settings/cgm.md'
+    - 'Step 4 Configurations' : 'operation/loop-settings/configurations.md'
+    - 'Step 5 Loop Services' : 'operation/loop-settings/services.md'
     - 'Loop Displays' : 'operation/loop-settings/displays.md'
     - 'RileyLink menu' : 'operation/loop-settings/rileylink.md'
 - 'Operate' :
