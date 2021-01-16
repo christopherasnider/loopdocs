@@ -1,11 +1,11 @@
-# Overview of Build Process
+# Oversigt over byggeprocessen
 
-The overall installation process is pretty simple. We start with checking that you have the compatible gear needed to Loop, do a couple of  preparation steps on the computer, and then move onto building the Loop app.
+Den samlede installationsproces er temmelig enkel. Vi starter med at kontrollere om du har det udstyr, der skal til at bygge Loop, lave et par forberedelsestrin på computeren, og derefter gå videre til at bygge Loop app.
 
-While all of this is probably quite intimidating at first, I promise that it is quite doable by the average computer user.
+Mens alt dette sandsynligvis er ganske intimiderende i starten, jeg lover, at det sagtens kan lade sige gøre af den gennemsnitlige computer bruger.
 
-!!!info "Take it one step at a time..."
+!!!info "Tag det et skridt ad gangen..."
 
-    If you are worried about how long this will take, you can always stop at one of the steps and come back later. The steps are meant to be nice stopping points to take breaks if needed.
+    Hvis du er bekymret for, hvor længe det vil tage, kan du altid stoppe ved et af trinene og komme tilbage senere. De skridt er beregnet til at være pæne stoppunkter til at tage pauser hvis nødvendigt.
 
 ![alt](https://media.giphy.com/media/xThta8UkUaoqJoJQC4/giphy.gif)

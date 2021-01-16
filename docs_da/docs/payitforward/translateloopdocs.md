@@ -25,35 +25,37 @@ Hvis du ikke har brug crowdin før der er en kort introduktion til Crowdin neden
 
 Hvis du ønsker en mere detaljeret forklaring på, hvordan du bruger Crowdin, kan du [Crowdin - for oversættere](https://support.crowdin.com/online-editor/)
 
+You can also join the zulip stream [here](https://loop.zulipchat.com/#narrow/stream/270362-documentation/topic/Translation) which are dedicated to the translation of loopdocs.
+
 ## Crowdin introduktion
 
-Når du har valgt dit sprog og en fil, åbnes Crowdin-editoren.
+When you have selected your language and a file, the Crowdin editor opens.
 
-Crowdin-editoren har 5 hovedområder, som er fremhævet nedenfor: ![Crowdin områder](img/crowdinareas.png)
+The Crowdin editor has 5 main areas which are highlighted below: ![Crowdin areas](img/crowdinareas.png)
 
-**1. Document to translate** - indeholder alle sætninger i dokumentet. Du oversætter en sætning ad gangen.</0> Du kan klikke på den sætning, du vil oversætte. Når du klikker på en sætning, ændres de fire andre områder.
+**1. Document to translate** - contain all the sentences in the document.You translate one sentence at the time. You can click the sentence you want to translate. When you click a sentence the 4 other areas change.
 
-Sætningerne er farvet i:
+The sentences are colored in:
 
 - Rød: Sætninger, der skal oversættes.
 - Gul: den sætning, du oversætter.
 - Grøn: Sætninger, der er blevet oversat.
 
-**2. Sentence you are translating now** - Viser den sætning du har valgt i dokumentet.
+**2. Sentence you are translating now** - Shows the sentence you have selected in the document.
 
-**3. Enter translation here** - det er her du indtaster din oversættelse. Når du har indtastet din oversættelse klik på gem knappen. Crowdin vil derefter tage dig til næste sætning.
+**3. Enter translation here** - this is where you enter you translation. After you have entered your translation click the save button. Crowdin will then take you to the next sentence.
 
 !!!important "Save your work!"
 
     Husk at klikke på gem-knappen ellers din oversættelse vil ikke blive gemt.
 
-**4. Suggested translation of the sentence** - her vil du se en liste over sætninger, som Crowdin foreslår at bruge til din oversættelse. Du kan endda se oversættelsen til andre sprog nederst på listen. Hvis du ønsker at bruge den foreslåede oversættelse, kan du blot klikke på den og sætningen bliver overført til "Enter your translation". Derefter kan du redigere sætningen og klikke på gem. Hvis du bare ønsker at bruge den foreslåede sætning og ikke redigere det, kan du blot klikke på "Use and save".
+**4. Suggested translation of the sentence** - here you will see a list of sentences that Crowdin suggest to use for your translation. You can even see the translation for other languages at the bottom of the list. If you want to use the suggested translation you can just click it and the sentence goes into the "Enter your translation". Then you can edit the sentence and click save. If you just want to use the suggested sentence and not edit it, you can just click "Use and save".
 
-![Forslag](img/suggestion.png)
+![Suggestion](img/suggestion.png)
 
-**5. Comments** - Her kan du indtaste kommentarer om den oversættelse, du laver. Andre brugere kan se det, og du kan have en diskussion om brugen af sætningen.
+**5. Comments** - Here you can enter you comments about the translation that you are doing. Other users can see it and you can have a discussion about the usage of the sentence.
 
-!!!info "Alle oversættere læser kommentarerne"
+!!!info "All translators read the comments"
 
     Det er almindelig praksis at bruge kildesproget til kommentarer i dette tilfælde skal du bruge engelsk.
 
@@ -61,12 +63,12 @@ Sætningerne er farvet i:
 
 ### Teksten "!!!"
 
-I de fleste filer er der sektioner teksten "!!! note" eller "!!! fare" eller noget andet tekst med "!!!" foran. Det er vist på denne måde i Crowdin:
+In most files there is sections the text "!!!note" or "!!!danger" or something other text with "!!!" in front. It is shown like this in Crowdin:
 
 ![image](img/admontion.png)
 
-Du bør IKKE oversætte teksten lige efter "!!!" i dette tilfælde "advarsel", men du bør oversætte "FAQs" i dette tilfælde. Nogle gange er der ingen tekst efter "!!!advarsel", men du skal du stadig IKKE oversætte dette. Nogle af Crowdins oversættelse forslag vil gerne oversætte "warning" tekst.
+You should NOT translate the text just after the "!!!" in this case "warning", but you should translate "FAQs" in this case. Sometimes there is no text after "!!!warning" you should still NOT translate this. Some of Crowdins translation suggestions would like to translate the "warning" text.
 
 ### Teksten "<0>"
 
-Der kan være strenge i en sætning, der ser sådan ud "<0>". Bare ignorere dem og oversætte dem ikke.
+There can be strings in a sentence that looks like this "<0>". Just ignore them and do not translate them. They should be untouched.
