@@ -2,9 +2,7 @@
 
 Now we need to add a CGM source so that Loop has BG data. From the Loop settings screen, select `Add CGM`.
 
-<p align="center">
-<img src="../img/add-cgm.png" width="550">
-</p>
+![img/add-cgm.png](img/add-cgm.png)
 
 The standard selections available will be:
 
@@ -27,9 +25,7 @@ For all selections, the Dexcom Share credentials (in other words, account login)
 
 If you do not enter your Share credentials correctly, you will get an error when Loop tries to access your Share account to backfill CGM data. That error message will look like below. If you see that message, delete your Share account from Loop settings and try again...or just leave it out and depend on your transmitter ID.
 
-<p align="center">
-<img src="../img/shareclient.jpg" width="450">
-</p>
+![img/shareclient.jpg](img/shareclient.jpg)
 
 ## Dexcom G5 and G6
 

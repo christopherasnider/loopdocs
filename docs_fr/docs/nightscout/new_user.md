@@ -17,9 +17,7 @@ There are two options for setting up Nightscout; one option requires a small fee
 * Select [Get Started](https://www.t1pal.com/getting-started/starting/home) to register an account at [T1Pal](https://www.t1pal.com/).  You will need to enter your credit card, which helps ensure Nightscout is running correctly.
 * Select "visualize treatments" in the setup menu and select "loop."
 
-<p align="center">
-<img src="../img/t1pal_configure.png" width="450">
-</p>
+![img/t1pal_configure.png](img/t1pal_configure.png)
 
 ## Traditional DIY (free, do-it-yourself)
 
@@ -36,4 +34,3 @@ Once you finish setting up your new Nightscout site, don't forget to [enter the 
 ## Troubleshooting
 
 If your Nightscout site is not showing CGM (and Loop, if you are Looping) data within about 10 minutes of finishing your setup, then please follow these steps [here](troublehoot.md) to troubleshoot.
-

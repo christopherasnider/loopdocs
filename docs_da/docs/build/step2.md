@@ -51,9 +51,7 @@ Side note for people who are seasoned Loop users and know about branches and suc
 
 Your phone's iOS version can be found under the Settings app, General, About as shown below.
 
-<p align="center">
-<img src="../img/ios.jpg" width="300">
-</p>
+![img/ios.jpg](img/ios.jpg)
 
 ## Next Step: Compatible Pump
 

@@ -7,8 +7,5 @@ Obwohl dies alles auf den ersten Blick einschüchternd sein kann, verspreche ich
 !!!info "Einfach einen Schritt nach dem anderen..."
 
     Wenn es einmal zu lange dauert, du unterbrechen möchtest, oder etwas noch nicht ganz klar ist, kannst du immer an einem der Schritte anhalten und später weitermachen. Genau aus diesem Grund ist der Build-Prozess in die einzellnen Schritte unterteilt.
-    
 
-<p align="center">
-<img src="https://media.giphy.com/media/xThta8UkUaoqJoJQC4/giphy.gif" width="400">
-</p>
+![alt](https://media.giphy.com/media/xThta8UkUaoqJoJQC4/giphy.gif)

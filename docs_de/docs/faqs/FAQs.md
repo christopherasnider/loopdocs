@@ -1,42 +1,40 @@
-# Allgemeine Loop FAQs
+# Allgemeine Loop-App FAQs
 
 Willkommen bei den LoopDocs - ein Platz für alle häufigen Fragen (FAQs).
 
-## Was ist Loop?
+## Was ist die Loop-App?
 
-Klicke auf das untere Bild, um eine kurze [Einführung in Loop (englisch)](https://youtu.be/qw_u1lqboCs) zu sehen.
+Durch Klicken auf das untere Bild kommst du zu einer kurzen [Einführung in Loop (englisch)](https://youtu.be/qw_u1lqboCs) .
 
-<a href="https://youtu.be/qw_u1lqboCs" target="_blank"><img src="../img/intro-to-loop.png"  title="Einführung in Loop (englisch)" /></a>
+[![../img/loop_gear.jpg](img/intro-to-loop.png)](https://youtu.be/qw_u1lqboCs)
 
 ## Was benötige ich, um zu loopen?
 
 Loop hat sowohl Hard-, als auch Software-Anforderungen. Allgemein brauchst du sieben Komponenten:
 
-- Compatible insulin pump: [Medtronic or Omnipod](../build/step3.md)
+- Eine kompatible Insulinpumpe: [Medtronic or Omnipod](https://loopkit.github.io/loopdocs/build/step3/)
 - [Compatible CGM](../build/step4.md)
 - [RileyLink](../build/step5.md)
 - [Ein \[kompatibles iPhone und/oder iPod Touch\](https://loopkit.github.io/loopdocs/build/step2/)](../build/step2.md)
 - [Einen \[Apple Computer mit Mojave macOS 10.14.3 oder neuer\](https://loopkit.github.io/loopdocs/build/step1/).](../build/step1.md)
-- [Xcode (a free Apple application)](../build/step8.md)
-- [Apple Developer Membership](../build/step6.md)
+- [[Xcode](https://loopkit.github.io/loopdocs/build/step8/) (frei verfügbares Programm von Apple)](../build/step8.md)
+- [Eine [Apple Entwickler Mitgliedschaft](https://loopkit.github.io/loopdocs/build/step6/)](../build/step6.md)
 
-<p align="center">
-<img src="../img/loop_gear.jpg" width="500">
-</p>
+![img/loop_gear.jpg](img/loop_gear.jpg)
 
-## Kann ich Loop einfach aus dem App Store herunterladen und installieren?
+## Kann ich die Loop-App einfach aus dem App Store herunterladen und installieren?
 
 Nein. Loop ist nicht zum Download verfügbar. Du musst dir die App selbst bauen. Wenn Loop im App Store zum Download verfügbar wäre, würde dies der Verteilung eines medizinischem Gerätes gleich kommen und wir bewegen uns halt nicht in diesem Bereich ;-).  Du kannst es dir selbst zusammenbauen, aber wir sind nicht der Verteiler.
 
 Keine Angst, das Übersetzen und Zusammenbauen der App ist eigentlich ganz einfach und genau darum dreht es in dieser Dokumentation ja gerade. Der schwierigere Teil für dich ist allerdings, die Geduld aufzubringen, die gesamte Dokumentation durchzulesen, bevor du mit dem Übersetzen und Zusammenbau startest. Neue Loop Benutzer sind so aufgeregt, dass sie die ganzen wichtigen Informationen beim Durchlesen dieser Dokumentation verpassen. Also, starte mit dem Zusammenbau, aber plane die Zeit für das Durcharbeiten der Dokumentation ein, nachdem du erfolgreich die Loop App zusammengebaut hast.
 
-Falls du irgendwelche Fragen hast, findest du eine nette kleine Suchfunktionalität am oberen Rand der Seite, die dir die Antwort auf deine Frage schnell geben kann.
-
-## Kann ich ein Android Handy für Loop benutzen?
-
 Nein, Loop funktioniert nur auf einem iPhone und iPod touch.
 
-## Muss ich technisch affin sein, um Loop zusammenzubauen?
+## Kann ich ein Android Handy für die Loop-App benutzen?
+
+No, this is purely iPhone or iPod touch.
+
+## Muss ich technisch affin sein, um die Loop-App zusammenzubauen?
 
 Nein, nein und nochmals nein! Nein, du brauchst keinerlei Erfahrungen im Programmieren oder Umgang mit deinem Computer, um die Loop-App zu erstellen. If you have already owned an Apple computer and iPhone, you already have the required level of experience. Beyond that, simply read the directions slowly and diligently...all the information you will need are in these documents.
 
@@ -129,4 +127,3 @@ Technisch gesehen ja. Du kannst mehrere Loop-Apps auf deinem iPhone haben. Aller
 ## Kann ich auch im Flugzeug loopen? Oder in den Bergen?
 
 Ja. Die Loop-App benötigt keine Internet- oder Telefonverbindung, um zu funktionieren. Solange der Benutzer Bluetooth angeschaltet lässt, können der Dexcom und der RileyLink ihre Loop-Arbeit erledigen.
-

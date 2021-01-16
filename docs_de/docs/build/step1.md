@@ -25,11 +25,11 @@ Und...ich bin ein bischen eifersüchtig, dass du den neuen Computer hast. Du Gue
 
 ## Big Sur MacOS
 
-Ja, Big Sur ist kompatibel mit dem Loop-Installation...ich arbeite daran, diese Seite zu aktualisieren. Habe ein bischen Geduld.
+Ja, Big Sur ist geeigent für die Installation von Loop...ich arbeite daran, diese Seite zu aktualisieren. Habe ein bischen Geduld.
 
 ## Catalina oder Mojave, welches davon brauchst du?
 
-Brauchst Du Catalina oder Mojave? Die Antwort hängt von der iOS Version deines iPhones ab, auf dem du Loop installieren wirst.
+Brauchst Du Catalina oder Mojave? Die Antwort hängt von der iOS Version deines iPhones ab, auf dem du Loop installieren möchtest.
 
 **Wenn du iOS 12.4 bis 13.2** hast, kannst du macOS 10.14.4 (Mojave) oder 10.15.2 oder neuer (Catalina) verwenden.
 
@@ -37,22 +37,19 @@ Brauchst Du Catalina oder Mojave? Die Antwort hängt von der iOS Version deines 
 
 !!!danger "Die iOS Version bestimmt die MacOS Version auf deinem Computer"
 
-    Etwas simplifiziert könnte man auch sagen...wenn du dein iOS immer auf dem neusten Stand hälst, dann muss du auch deinen Computer und das MacOS aktuell halten. Das ist nichts Schlechtes und du kannst iOS-Updates sowieso nicht für immer vermeiden... du musst nur wissen, wie diese miteinander in Beziehung stehen und wann dein Computer "zu alt" ist.
+    Etwas vereinfacht könnte man auch sagen...wenn du dein iOS immer auf dem neusten Stand hälst, dann muss du auch deinen Computer und das MacOS aktuell halten. Das ist nichts Schlechtes und du kannst iOS-Updates sowieso nicht für immer vermeiden... du musst nur wissen, wie diese miteinander in Beziehung stehen und wann dein Computer "zu alt" ist.
 
 ## Überprüfe deine MacOS Version
 
-Du benötigst einen Apple-Computer, der die Mindestvoraussetzung des MacOS wie oben beschrieben erfüllt; d.h. Mojave MacOS 10. 4.4 (oder neuer) oder Catalina MacOS 10.15 (oder neuer). Um herauszufinden, welche Version du installiert hast, klicken auf das kleine Apple-Symbol in der oberen linken Ecke des Computers und wähle `Über diesen Mac` aus. Es spielt dabei keine Rolle, ob der Computer ein MacBook, iMac, Mac mini usw. ist, solange er die Mindestvoraussetzungen erfüllt.
+Du benötigst einen Apple-Computer, der die Mindestvoraussetzung des MacOS wie oben beschrieben erfüllt; d.h. Mojave MacOS 10.4.4 (oder neuer) oder Catalina MacOS 10.15 (oder neuer). Um herauszufinden, welche Version du installiert hast, klicken auf das kleine Apple-Symbol in der oberen linken Ecke des Computers und wähle `Über diesen Mac` aus. Es spielt dabei keine Rolle, ob der Computer ein MacBook, iMac, Mac mini usw. ist, solange er die Mindestvoraussetzungen erfüllt.
 
-Wenn dein Computer nicht das mindestens erforderliche MacOS installiert hat, musst du mit `Software-Update` überprüfen (siehe das Bild unten), ob du es aktualisieren kannst.
+Wenn auf deinem Computer nicht das mindestens erforderliche MacOS installiert ist, musst du mit `Software-Update` überprüfen (siehe das Bild unten), ob du es aktualisieren kannst.
 
-<p align="center">
-<img src="../img/macosx.png" width="500">
-</p>
+![../img/macosx.png](img/macosx.png)
+
 Wenn dein Computer keine Update auf ein neueres MacOS anbietet, kann es sein, dass Apple entschieden hat, dass dein Computer zu alt dafür ist. Wie alt ist zu alt? Das hängt von deinem Computermodell und Jahr ab (siehe die Bilder unten):
 
-<p align="center">
-<img src="../img/mojave-minimum.png" width="750">
-</p>
+![img/mojave-minimum.png](img/mojave-minimum.png)
 
 ## Nächster Schritt: Kompatible iPhone/iPod touch
 

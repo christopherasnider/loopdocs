@@ -1,27 +1,27 @@
 # Schritt 2: Kompatibles iPhone oder iPod touch
 
-!!!danger "Time Estimate"
-    - 5 minutes, if already have iOS 12.4 or newer
-    - 20 minutes, if need to update your compatible device to iOS 12.4 or newer
-    - 10 minutes, if you need to order a device from Apple website
-    - 0 minutes, if you own an Android and won't buy Apple products...that's fine, too.
+!!!Gefahr "Geschätzte Zeit"
+    - 5 Minuten, wenn bereits iOS 12.4 oder neuer installiert ist
+    - 20 Minuten, falls du ein kompatibles Gerät auf iOS 12.4 oder neuer aktualisiert musst
+    - 10 Minuten, wenn du ein Gerät von auf der Apple Website bestellen musst
+    - 0 Minuten, wenn du ein Android Telefon besitzt und nichts von Apple kaufen möchtest...das ist auch in Ordnung.
 
-!!!info "Summary"
-    - Check your iOS version and make sure you have 12.4 minimum.
-    - Do not use any of the beta iOS versions. (Don't worry...if you don't know what that means, then you aren't using one.)
-    - If using Dexcom CGM, your Looping iPhone/iPod touch will need the Dexcom app installed on it in order to Loop without an internet connection.
+!!! Info "Zusammenfassung"
+    - Überprüfe deine iOS-Version und stelle sicher, dass du mindestens 12.4 hast.
+    - Verwenden keine der Beta-iOS-Versionen. (Du kannst diesen Punkt ignorieren, wenn du nicht weist, was das ist... es bedeutet, dass du kein Beta iOS verwendest.)
+    - Falls du einen Glukosesensor von Dexcom verwendest, muss auf deinem looping iPhone/iPod touch ebenfalls die Dexcom-App installiert sein. Dann arbeitet Loop auch, wenn die Internetverbindung einmal ausfällt.
 
 !!!warning "FAQs"
-    - **"Can I use an android?"** No.
-    - **"But why not?"** Because Loop is written in Apple's Swift language, which does not compile onto Android operating systems.  Loop also relies on Apple Health, and Android does not have a suitable native equivalent.
-    - **"Can I use an iPad?"** No. iPads do not support Apple Health and that is an important part of Loop's inner workings.
-    - **"Does my iPhone need cell plan?"** No. **"Does my iPhone need cell plan?"** No. Loop will work without an internet connection...however you will not have Dexcom Follow data or Nightscout data if you choose to use a device that doesn't have an internet connection. **"Does my iPhone need cell plan?"** No. Loop will work without an internet connection...however you will not have Dexcom Follow data or Nightscout data if you choose to use a device that doesn't have an internet connection. In other words Loop will work, but remotely watching followers won't see Looping data unless the Loop device has an internet connection.
+    - **"Kann ich ein Android verwenden?"** Nein.
+    - **"Warum denn nicht?"** Loop ist in Apples Swift-Sprache programmiert und diese ist nicht mit dem Android-Betriebssysteme kompatibel.  Loop greift auch auf Apple Health zu, und Android hat kein geeignetes / integriertes Äquivalent.
+    - **"Kann ich ein iPad verwenden?"** Nein. Auf iPads läuft kein Apple Health, auf das Loop zugreift um richtig zu funktionieren.
+    - **"Brauche ich mobile Daten für mein iPhone?"** Nein. **"Brauche ich mobile Daten für mein iPhone?"** Nein. Loop funktioniert auch ohne mobile Daten oder Internetverbindung... allerdings kannst du nicht Dexcom Follow Daten oder Nightscout Daten sehen, wenn du eine Gerät ohne Internetverbindung verwendest.   Mit anderen Worten: Loop funktioniert und arbeitet ganz normal, aber Famlie / Freunde könnne keine Loop-Daten sehen, es sei denn, das iPhone/iPod touch hat eine Internetverbindung.
 
-## Which Devices are compatible? Why those?
+## Welche Geräte sind kompatibel? Und warum?
 
-Why is Loop limited to just iPhones and iPod touches? Why can't you use an iPad? Because Loop uses the Apple Health app to store and retrieve your blood glucose, carbohydrate, and insulin data records. iPads do not have the Apple Health app, so those devices will not work with Loop. iPhones and iPod touches have the Apple Health app, so they will work with Loop.
+Warum läuft Loop nur auf einem iPhone oder iPod touch? Warum kann ich kein iPad verwenden? Loop ist auf die Apple Health App angewiesen, um Blutzucker-, Kohlenhydrat- und Insulindaten zu speichern und abzurufen. iPads haben keine Apple Health App, daher funktionieren diese Geräte nicht mit Loop. iPhones und iPod touches haben die Apple Health App, deshalb sind sie mit Loop kompatibel.
 
-The next compatibility check is that we need a minimum version of the operating software, called the phone's "iOS", on those iPhones and iPod touches. Loop is compatible with iPhone and iPod touch devices with iOS 12.4 or newer. Therefore, the compatible devices include:
+Die nächste Kompatibilitätsprüfung ist, dass wir eine Mindestversion der Bediensoftware, das sogenannt "iOS", auf dem iPhone oder iPod touch benötigen. Loop ist kompatibel mit iPhone und iPod touch Geräten auf denen iOS 12.4 oder neuer installiert ist. Zu den kompatiblen Geräten gehören daher:
 
 - iPhone 11, 11 Pro, 11 Pro Max
 
@@ -35,26 +35,24 @@ The next compatibility check is that we need a minimum version of the operating 
 
 - iPhone SE
 
-- iPod Touch, 7th generation
+- iPod Touch, 7. Generation
 
-## Devices that will be incompatible "soon"
+## Geräte, die "bald" inkompatibel sein werden
 
 - iPhone 5s, 6, 6+
 
-- iPod Touch, 6th generation
+- iPod Touch, 6. Generation
 
-Apple has decided that those models have lived their useful life and can no longer be be updated past iOS 12.4. They've reached the end of their "apple supported" update life cycle. Apple released iOS 13 and iOS 14 in the recent past and those models cannot be updated to use them. This does not pose a problem currently...you can still build Loop's master branch so long as your device has iOS 12.4 at a minimum. HOWEVER, there are upcoming Loop changes that will require users to have iOS 13 on their devices to build Loop onto the device. There is no set timeframe for when that minimum requirement will be changed.  We will make an announcement when it does and the docs will be updated here.
+Apple hat entschieden, dass diese Modelle nicht mehr über iOS 12.4 hinaus aktualisiert werden können, sie haben das Ende des von Apple unterstützten Aktualisierungs-Lebenszyklus erreicht. Apple hat in der jüngsten Vergangenheit iOS 13 und iOS 14 veröffentlicht und diese Modelle können nicht auf diese Versionen aktualisiert werden. Dies ist derzeit aber kein Problem... du kannst die Loops Master-Branch noch installieren, solange dein Gerät mindestens iOS 12.4 hat. Allerdings wird es in der Zukunft Änderungen bei Loop geben, die zwingend iOS 13 auf dem Gerät erfordert, auf dem diese neue Loop Version installiert werden soll. Es ist nicht bekannt, wann diese Mindestanforderung geändert wird.  Wir werden dieses aber Ankündigen und die Dokumentation entsprechened aktualisieren.
 
-Side note for people who are seasoned Loop users and know about branches and such: Currently (as of October 2020), Loop's dev branch requires devices to have iOS 13 or newer. There's no set timeframe for when dev will next be merged into master.
+Eine Randnotiz für erfahrene Loop-Benutzer, die sich mit den verschiedenen "Branches" und dergleichen auskennen: Derzeit (Stand Oktober 2020) benötigt die Loop Development Branch, dass Geräte iOS 13 oder neuer haben. Es gibt keinen festgelegten Zeitrahmen, wann die Development Branch mit der jetzigen Master Branch zusammengeführt wird.
 
-## Find your device's iOS
+## Finde heraus, welches iOS du auf deinem Gerät installiert hast
 
-Your phone's iOS version can be found under the Settings app, General, About as shown below.
+Die iOS-Version deines Telefons findest du unter Einstellungen, Allgemein, wie unten abgebildet.
 
-<p align="center">
-<img src="../img/ios.jpg" width="300">
-</p>
+![img/ios.jpg](img/ios.jpg)
 
-## Next Step: Compatible Pump
+## Nächster Schritt: Kompatible Pumpen
 
-Now you are ready to move onto Step 3 to check if you have a [Compatible pump](step3.md).
+Jetzt kannst du mit Schritt 3 weitermachen, um zu überprüfen, ob du eine [kompatible Pumpe](step3.md) hast.

@@ -79,36 +79,16 @@ If the pump has been active recently or has a reservoir installed, follow these 
 
 If you are in the position of being able to shop around for different pump models, there are some slight differences between the Loop-compatible Medtronic pumps.
 
-<font color ="orange">500 vs 700</font>:  The difference between the Medtronic 500 series and the 700 series pumps is the size of the insulin reservoirs.  The 500 series pumps use a 180 unit reservoir, and the 700 series pumps use a 300 unit reservoir (or smaller 180 unit reservoir, if you want).
+**500 vs 700**:  The difference between the Medtronic 500 series and the 700 series pumps is the size of the insulin reservoirs.  The 500 series pumps use a 180 unit reservoir, and the 700 series pumps use a 300 unit reservoir (or smaller 180 unit reservoir, if you want).
 
 <font color ="orange">x15/x22 vs x23/x54</font>:  The difference between the x15 and x22 pumps versus the x23 and x54 series pumps has only a few notable mentions:
 
 * The x23/x54 pumps will allow for smaller insulin deliveries in certain situations, if the smaller scroll rate is selected in the Bolus>Setup>Scroll Rate menu.  **Loop will have the insulin delivery automatically rounded by the pump to the units available in the pump model, and any smaller adjustments (to make up for the rounding) will be made through Loop’s use of temp basals.  If you want the smaller increments of basal rates, you can still enter those values in Loop app's settings and Loop will use those values for the purposes of insulin delivery calculations.**
 
-<table>
-<thead>
-<tr>
-<th>Pump Model</th>
-<th>Basal increments</th>
-<th>Bolus increments</th>
-<th>Range</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>515/715</br>and</br>522/722</th>
-<td>0.05</br>0.1</td>
-<td>0.1</br>0.1</td>
-<td>deliveries of less than 10 units</br>greater than 10 units</td>
-</tr>
-<tr>
-<th>523/723</br>and</br>554/754</th>
-<td>0.025</br>0.05</br>0.1</td>
-<td>0.025 </br>0.05 </br>0.1</td>
-<td>between 0.025 to 0.975 units</br>between 1 to 9.95 units</br>greater than 10 units</td>
-</tr>
-</tbody>
-</table>
+| Pump Model                  | Basal increments       | Bolus increments         | Range                                                                              |
+| --------------------------- | ---------------------- | ------------------------ | ---------------------------------------------------------------------------------- |
+| 515/715</br>and</br>522/722 | 0.05</br>0.1           | 0.1</br>0.1              | deliveries of less than 10 units</br>greater than 10 units                         |
+| 523/723</br>and</br>554/754 | 0.025</br>0.05</br>0.1 | 0.025 </br>0.05 </br>0.1 | between 0.025 to 0.975 units</br>between 1 to 9.95 units</br>greater than 10 units |
 
 * Additionally, because of the way Loop fetches information from the pump, the x23/x54 series of pumps are slightly better at conserving battery life through the use of the MySentry packets to collect information from the pump.  x22 pumps do not use MySentry.
 
@@ -170,27 +150,18 @@ Medtronic will not typically sell pump supplies directly to customers who have n
 
 ### Eros
 
-**Loop will work with these pods**
-
 Eros pods were launched in 2013 and continue to be sold by Insulet. As far as we know, there have been no plans or timelines announced for the discontinuation of Eros pods for existing customers. Insulet doesn't specifically call these "Eros" anymore, they just use the term "omnipod system". For clarity, from [Insulet's webpage](https://www.myomnipod.com/about):
 
 Eros system has that PDM we all recognize from the last several years.
 
-<p align="center">
-<img src="../img/eros.png" width="750">
-</p></br>
+![img/eros.png](img/eros.png)
 
 ### DASH
 
-**Loop will not work with DASH pods**
-
 Insulet has announced their DASH system as an eventual replacement for Eros/Omnipod System. There has already been a limited release of DASH to a select group of users, with a wider public rollout of DASH expected in 2019. The DASH system has the newer, slimmer locked-android PDM and built-in BLE communications in POD. Loop will not be compatible with the DASH system.
 
-<p align="center">
-<img src="../img/dash.png" width="750">
-</p>
+![img/dash.png](img/dash.png)
 
 ## Next Step: Compatible CGM
 
 Now you are ready to move onto Step 4 to check if you have a [Compatible CGM](step4.md).
-
