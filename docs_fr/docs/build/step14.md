@@ -1,95 +1,75 @@
 # Step 14: Build Loop app
 
 !!!danger "Time Estimate"
-    * 60-80 minutes if first time builder
-    * 10-15 minutes if a repeat builder
+    - 60-80 minutes if first time builder
+    - 10-15 minutes if a repeat builder
 
 !!!info "Summary"
-    * Open the Loop code you downloaded in [Step 13](step13.md)
-    * Connect the phone to the computer
-    * Set the phone to not lock for awhile
-    * Trust the computer (on the phone)
-    * Select your phone from the device list
-    * Register the device
-    * Sign the 4 targets
-    * Press the build button
-    * Enter computer password four times during the build (if this is your first ever build)
-    * Watch in awe as you just built your very own Loop app
+    - Open the Loop code you downloaded in [Step 13](step13.md)
+    - Connect the phone to the computer
+    - Set the phone to not lock for awhile
+    - Trust the computer (on the phone)
+    - Select your phone from the device list
+    - Register the device
+    - Sign the 4 targets
+    - Press the build button
+    - Enter computer password four times during the build (if this is your first ever build)
+    - Watch in awe as you just built your very own Loop app
 
 !!!warning "FAQs"
-    * **"I got a build error! YIKES...what do I do?"** Check out the [Build Errors](build_errors.md) page for all the solutions you'd need.
-    * **"The build seems to take a long time, is that normal?"** Yes, the first build of a new download will take quite a long time. Just be patient...one of the build steps to take *much* longer than all the others. The build process does always end in a success or failure message, so just wait it out until you see one of those displayed.
+    - **"I got a build error! YIKES...what do I do?"** Check out the [Build Errors](build_errors.md) page for all the solutions you'd need.
+    - **"The build seems to take a long time, is that normal?"** Yes, the first build of a new download will take quite a long time. Just be patient...one of the build steps to take *much* longer than all the others. The build process does always end in a success or failure message, so just wait it out until you see one of those displayed.
 
 ## Open Loop project in Xcode
 
 Go to your Downloads folder, open your downloaded Loop code folder and double click on Loop.xcodeproj. If you downloaded dev branch, your folder would be named `Loop-dev` and similar for `Loop-master` download.
 
-<p align="center">
-<img src="../../build/img/loop_code.png" width="750">
-</p>
+![../img/build_button.png](img/loop_code.png)
 
-A warning may appear asking if you really want to open it, click Open. Xcode will get itself organized, this may take a few minutes.  
+A warning may appear asking if you really want to open it, click Open. Xcode will get itself organized, this may take a few minutes.
 
-<p align="center">
-<img src="../../build/img/loop_open.jpg" width="450">
-</p>
+![img/loop_open.jpg](img/loop_open.jpg)
 
 Once Xcode has finished indexing, the Loop project's various folders and files will appear in the far left column. We are now going to make three important sets of clicks:
 
 1. First click: At the very top of all the folders and files listed, click on the blue "Loop". This will populate the middle part of the Xcode window with some information. **If a couple of little boxes appear saying "The folder “DerivedWatchAssets.xcassets” doesn’t exist."...just click the ok buttons and ignore those. They will come up a couple of times during your build if you are using dev branch right now...don't worry, won't be a problem.**
 
-   
-   <p align="center">
-     <img src="../../build/img/loop-first-click.png" width="550" />
-   </p>
+![img/loop-first-click.png](img/loop-first-click.png)
 
 2. Second (set of) clicks: Now click on the box in the middle screen to reveal the targets column underneath that box. The four targets we will sign in the upcoming steps are now easily viewable. Now also click on the Loop target like shown in the screenshot below. It will be highlighted in blue to let you know it is selected. Loop, Loop Status Extension, Watch App, and WatchApp Extension are the targets we are interested in later.
 
-   
-   <p align="center">
-     <img src="../../build/img/loop-second-click.png" width="550" />
-   </p>
+![img/loop-second-click.png](img/loop-second-click.png)
 
 3. Third Click: With the Loop target selected, click on the "Signing & Capabilities" up near the top of the screen. After you click on that, you should see a "Signing" section occupying the bulk of your middle window. If you are missing the "Signing & Capabilities" section and didn't have to click somewhere else to see that part...that means you have missed updating to Xcode 11 from an older version of Xcode. Please go back and update Xcode now. Thanks.
 
-   
-   <p align="center">
-     <img src="../../build/img/loop-third-click.png" width="550" />
-   </p>
-
+![img/loop-third-click.png](img/loop-third-click.png)
 
 ## Connect your iPhone to Computer
 
 Connect your iPhone via cable to the computer, select your iPhone from the very top of the drop-down list.  Your **<u>iPhone’s personal name</u>** should be at the top of the list. Don't accidentally select the generic iOS simulators listed below your iPhone's name.
 
 !!!info "Helpful Tips"
-    * If your iPhone has a lock enabled, Xcode will not be able to install Loop app once your phone locks during the build progress.  Please temporarily disable the lock until you finish building Loop app.  Go to your iPhone Settings >> Display & Brightness >> Auto-Lock and set it to `Never`.  You can reset your lock once Loop is done building onto the phone. If you can't or don't want to set the auto-lock to never, then please remember to tap your phone screen periodically during the build process later to keep it "awake".</br></br>
-    * If this is the first time your iPhone has been plugged into this computer, you will need to open the iPhone and select "Trust this Computer" before your device will be useable in the menu selection.</br></br>
+
+    - If your iPhone has a lock enabled, Xcode will not be able to install Loop app once your phone locks during the build progress.  Please temporarily disable the lock until you finish building Loop app.  Go to your iPhone Settings >> Display & Brightness >> Auto-Lock and set it to `Never`.  You can reset your lock once Loop is done building onto the phone. If you can't or don't want to set the auto-lock to never, then please remember to tap your phone screen periodically during the build process later to keep it "awake".</br></br>
+    - If this is the first time your iPhone has been plugged into this computer, you will need to open the iPhone and select "Trust this Computer" before your device will be useable in the menu selection.</br></br>
 
 !!!danger "Most Common Mistake"
-    * The most common mistake in this step is not selecting your actual phone as shown in the second screenshot below. The default list is just a name of general phone models under a subheading called "iOS Simulators"...don't be fooled by those. Your ACTUAL phone will be up above that list of all the various simulator phone models.  You may need to scroll to the top of the list in order to see it.  Make sure you select your actual phone, not just a simulator phone model.
 
-<p align="center">
-<img src="../img/select_device.png" width="750">
-</p>
+    - The most common mistake in this step is not selecting your actual phone as shown in the second screenshot below. The default list is just a name of general phone models under a subheading called "iOS Simulators"...don't be fooled by those. Your ACTUAL phone will be up above that list of all the various simulator phone models.  You may need to scroll to the top of the list in order to see it.  Make sure you select your actual phone, not just a simulator phone model.
 
-<p align="center">
-<img src="../img/your_device.png" width="650">
-</p>
+![img/select_device.png](img/select_device.png)
+
+![img/your_device.png](img/your_device.png)
 
 ## Sign Four Targets
 
 Once you select your device (your iPhone's name), we are ready to start signing the four targets. We will start with the Loop target, the first one on the target list.  Under the "Signing" area, ensure that you have "All" selected near the top and then select the dropdown menu where it currently says "none". Choose your team that you'd like to sign with. If you select a team name with (personal team), your app will expire after 7 days. If you select a team name without that (personal team), your app will last a full year.  If you never signed up for a free developer account, you will not have a (personal team) showing. Make sure you keep the "automatically manage signing" box checked above the team selection area.
 
-<p align="center">
-<img src="../img/team.png" width="750">
-</p>
+![img/team.png](img/team.png)
 
 Once you choose your signing team, Xcode will automatically generate provisioning profiles and signing certificates.  If this is the first time you are building on this iPhone with this developer account, you may be prompted to register the device.  Simply click on the "Register Device" button to confirm.
 
-<p align="center">
-<img src="../img/register_device.png" width="750">
-</p>
+![img/register_device.png](img/register_device.png)
 
 !!!danger "Free Developer Account Users: READ ME"
 
@@ -101,9 +81,7 @@ Once you choose your signing team, Xcode will automatically generate provisionin
 
 A successfully signed target will have a provisioning profile and signing certificate similar to the screenshot below.  Click on each of the three remaining targets, and repeat the signing steps by choosing the same team name as you selected in the first target.
 
-<p align="center">
-<img src="../img/success.png" width="750">
-</p>
+![img/success.png](img/success.png)
 
 ## Code Customizations
 
@@ -125,11 +103,7 @@ STOP STOP STOP
 
 You guys...this is about safety.
 
-People keep ignoring this advice and I'm frankly a little stumped as to why. So, I'm moving this advice up in the process so that you don't ignore it.
-
-<p align="center">
-<img src="https://media.giphy.com/media/xT9DPJVjlYHwWsZRxm/source.gif" width="400">
-</p>
+People keep ignoring this advice and I'm frankly a little stumped as to why. So, I'm moving this advice up in the process so that you don't ignore it. ![alt](https://media.giphy.com/media/xT9DPJVjlYHwWsZRxm/source.gif)
 
 !!!warning "DO NOT WING THE SETUP"
 
@@ -152,17 +126,16 @@ Ok, so now that I've got your attention, you can continue on with the last step 
 
 Have you signed the four targets? Are you all done with any customizations? Has your Apple watch been paired and updated? Is your iPhone unlocked and plugged into the computer?
 
-Let’s finish the installation of the Loop app onto your iPhone. Double-check to make sure your iPhone's name is still selected and then press the “build” button to start Xcode on its way. 
+Let’s finish the installation of the Loop app onto your iPhone. Double-check to make sure your iPhone's name is still selected and then press the “build” button to start Xcode on its way.
 
-<p align="center">
-<img src="../img/build_button.png" width="750">
-</p>
+![img/build_button.png](img/build_button.png)
 
 You’ll see the progression of the build in the status window (top middle of Xcode). New builds can take about 40-60 minutes depending on the speed of the computer and the internet.  **Just be patient.**  The progress will get "stuck" on one step/task for a very long time, and then the others will fly by when that one slow step is done. Not every step is equal in duration. Do not give up on the build. <u>**Xcode will ALWAYS tell you eventually that the build either succeeded or failed via a short (self-disappearing) pop-up message on the computer display. If you miss the message, you can look at the top of the Xcode window to see a "Running Loop..." (success) or "Build Failed" (failure) message where the step progress was previously counting down.**</u>
 
 !!!danger "Are you the impatient type?"
 
     If you just simply can't bear the uncertainty of not seeing that things are progressing, you can take a peek "under the hood" and watch the individual build steps by clicking on the report navigator icon and then the build row at the top of the list. You can watch the slow list of scheme building while you wait.
+    
     <p align="center">
     <img src="../img/build-scheme.png" width="650">
     </p></br>
@@ -190,6 +163,7 @@ You’ll see the progression of the build in the status window (top middle of Xc
 !!! info "First time building on a new device?"
 
     If this is the first time you have installed an app on your iPhone using your developer account, you may get a warning like below after a successful build. Don't worry, Loop usually installed just fine on the phone but needs you to do an extra step on the phone before Loop app can open. Just follow the directions shown in the warning for what you need to do on your iPhone. Go to Settings->General->Device Management (or profiles, Profiles & Device Management on newer iOS) and enable trust for your Developer Account. If you are missing the Device Management/Profiles option in your iPhone settings, then head over to [this Build Error section](build_errors.md#device-management-could-not-launch-loop) to find the solution.
+    
     <p align="center">
     <img src="../img/trust_device.jpg" width="750">
     </p>
@@ -197,6 +171,7 @@ You’ll see the progression of the build in the status window (top middle of Xc
 !!!danger "BUILD SUCCEEDED"
 
     Congrats! If the build is successful, you'll see the message or "Running Loop..." across the top of the Xcode window. Your brand new Loop app will have a screen open immediately on the iPhone asking about allowing Loop notifications and Health App access. `Allow` Loop to send you notifications. In the next screen that follows that, click on the `Turn All Categories On` line and then click `Allow` in the upper right corner.
+    
     
     <p align="center">
     <img src="../img/health-start.JPEG" width="450">
@@ -207,6 +182,7 @@ You’ll see the progression of the build in the status window (top middle of Xc
 !!!warning "FAQ: But what about those yellow alerts that remain in Xcode? Should I worry about them?"
 
     If you see yellow alerts after your build is done...those are not an issue. Whether your build succeeded or failed...the yellow warnings play no role in either outcome. Don't try to resolve them or fret about them. They mean nothing to the successful use of your Loop app.
+    
     <p align="center">
     <img src="../img/yellow-warnings.png" width="750">
      </p>
@@ -215,10 +191,10 @@ You’ll see the progression of the build in the status window (top middle of Xc
 
     Don't despair. Build failures are pretty easily fixed. If you get a message that your build failed and see **RED ERROR** messages, just go to the [Build Errors](build_errors.md) page to find the steps to fix your build error based on the message displayed.
     
+    
     <p align="center">
     <img src="../img/general-error.jpg" width="750">
     </p>
-
 
 ## Summary
 
@@ -226,9 +202,7 @@ If your build failed, you need to proceed to the [Build Errors](build_errors.md)
 
 If no build errors, you're done building your Loop app...
 
-<p align="center">
-<img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="400">
-</p>
+![alt](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
 ## Next steps
 
