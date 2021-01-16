@@ -24,7 +24,7 @@ Issue specific minimum: There are also times where you may need to update for "h
 
 ## Will I have to delete my old Loop app?
 
-No. No. No. No. Do not delete your old Loop. In fact, that is a bad idea as you will lose your currently paired pod and/or settings if you do that. So, don't delete (except for two situations below):
+No. No. No. No. No. Do not delete your old Loop. In fact, that is a bad idea as you will lose your currently paired pod and/or settings if you do that. So, don't delete (except for two situations below):
 
 1. You broke it: There is a glitch in Loop where if you enter the target correction range backwards, then your Loop app will stop working. Correction range needs to be in minimum-maximum, for example 100-120 mg/dL. If you entered that as 120-100 mg/dL, Loop will not work during the time that backwards correction range is supposed to be active. In this case you would need to delete the app and rebuild.</br></br>
 2. Moving from dev branch back down to jojo branch. The way the new dev branch is coded will require you to delete your dev build prior to going back jojo branch.
