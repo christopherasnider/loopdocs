@@ -48,7 +48,7 @@ Wenn auf deinem Computer nicht das mindestens erforderliche MacOS installiert is
 <p align="center">
 <img src="../img/macosx.png" width="500">
 </p>
-Wenn dein Computer keine Update auf ein neueres MacOS anbietet, kann es sein, dass Apple entschieden hat, dass dein Computer zu alt dafür ist. Wie alt ist zu alt? Das hängt von deinem Computermodell und Jahr ab (siehe die Bilder unten):
+Falls dein Computer keine Update auf ein neueres MacOS anbietet, kann es sein, dass Apple entschieden hat, dass dein Computer zu alt dafür ist. Wie alt ist zu alt? Das hängt von deinem Computermodell und Jahr ab (siehe die Bilder unten):
 
 <p align="center">
 <img src="../img/mojave-minimum.png" width="750">
