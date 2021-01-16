@@ -1,4 +1,4 @@
-# Step 2: Compatible iPhone or iPod touch
+# Schritt 2: Kompatibles iPhone oder iPod touch
 
 !!!danger "Time Estimate"
     - 5 minutes, if already have iOS 12.4 or newer
