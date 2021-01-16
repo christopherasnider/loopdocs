@@ -15,6 +15,4 @@ All of those usability questions and more are addressed over in the companion si
 
 Please head over to Looptips in order to read some really helpful tips to make your Looping easier.
 
-<p align="center">
-<img src="../img/looptips.png" width="550">
-</p> 
+![img/looptips.png](img/looptips.png)
