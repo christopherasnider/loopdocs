@@ -1,13 +1,13 @@
 # Step 8: Download Xcode
 
 !!!danger "Time Estimate"
-    * 45 minutes to 2 hours, depending on internet connection...but you don't need to babysit the download.
+    - 45 minutes to 2 hours, depending on internet connection...but you don't need to babysit the download.
 
 !!!info "Summary"
-    * After making sure your macOS is up-to-date for your iPhone's iOS (see the info below), download Xcode from your computer's App Store application.
+    - After making sure your macOS is up-to-date for your iPhone's iOS (see the info below), download Xcode from your computer's App Store application.
 
 !!!warning "FAQs"
-    * **"Why isn't my Xcode installing?"** I can't see your computer to know exactly why...but the two most common reasons are (1) lack of internet connection or (2) not enough free space on the computer's hard drive. Xcode is a pretty beefy-sized download...and needs even a little more space to properly unpack and install itself. Best to try to have about 20-25GB of free space on your hard drive before starting to be on the safe side. If you get low on free space, I've seen installation failures. You can check your free space by clicking on the `About this Mac` (like in Step 1) and clicking the `Storage` tab.
+    - **"Why isn't my Xcode installing?"** I can't see your computer to know exactly why...but the two most common reasons are (1) lack of internet connection or (2) not enough free space on the computer's hard drive. Xcode is a pretty beefy-sized download...and needs even a little more space to properly unpack and install itself. Best to try to have about 20-25GB of free space on your hard drive before starting to be on the safe side. If you get low on free space, I've seen installation failures. You can check your free space by clicking on the `About this Mac` (like in Step 1) and clicking the `Storage` tab.
 
 Today is an easy one, but probably takes the longest of most of any of the steps in terms of time...only because the download takes a while. The good news is that you don't have to watch this. Instead, you can start the download and simply walk away for the rest of it.
 
@@ -15,9 +15,7 @@ Xcode is a free application for Apple computers. Xcode will turn the Loop "raw" 
 
 Open your App Store in your computer and search for Xcode...you'll either be downloading it brand new or updating an existing installation. The minimum version you need will depend on the iOS your iPhone is running. The version number should be showing in the "what's new" description as shown in the image below. This is a big download, so don't expected this to be fast.
 
-<p align="center">
-<img src="../img/xcode.png" width="750">
-</p></br>
+![img/xcode.png](img/xcode.png)
 
 !!!warning "Two important facts"
 
@@ -29,7 +27,6 @@ Open your App Store in your computer and search for Xcode...you'll either be dow
 Most often what happens is that people will update their iOS on the iPhones more often than they update their macOS or Xcode.  You know how it goes...you're tapping on your phone one day and it says there's a new version of iOS available for your phone. Want to update it now? Or be reminded of it later? Or maybe you even have the setting on your phone set to automatically install iOS updates.
 
 Because the update looks so innocuous and we all lead busy lives, we forget that there might be consequences to iOS updates.
-
 
 !!!danger "Loop and iOS updates"
 
@@ -47,21 +44,16 @@ If you have a brainfart and leave your macOS back at 10.15.2...the App Store won
 
 (Source for the chart is [wikipedia](https://en.wikipedia.org/wiki/Xcode))
 
-<p align="center">
-<img src="../img/minimum-related.png" width="750">
-</p></br>
+![img/minimum-related.png](img/minimum-related.png)
 
 ## What happens if you try using too old of Xcode?
 
 It isn't some catastrophic failure if you try to build with an outdated Xcode without realizing it. You'll see a pretty obvious error message during your Loop build that says "Could not locate device support files." That messages is telling you that your iOS on the phone requires you to get a newer version of Xcode to be able to build Loop onto that phone.
 
-<p align="center">
-<img src="../img/device-support-files.jpg" width="750">
-</p></br>
+![img/device-support-files.jpg](img/device-support-files.jpg)
 
 So, if you see that error message realize you may have to update your macOS to be able to see the newest Xcode version that you will need. Make sure to check that chart to see what your minimum versions are for the iOS you are running on your iPhone.
 
 ## Next Step: Xcode Preferences
 
 Now you are ready to move onto Step 9 to [work on Xcode Preferences](step9.md).
-
