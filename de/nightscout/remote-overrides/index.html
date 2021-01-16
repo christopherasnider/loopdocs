@@ -1883,49 +1883,28 @@
 <li>Login to your <a href="https://developer.apple.com/account/">Apple developer account</a> with the Apple ID associated with your developer team that you used to sign your Loop app.</li>
 <li>Click on "Certificates, Indentifiers &amp; Profiles" and then, on the next page, click on "Keys" (located on the left-hand column). Click on the blue "Create a new key" <strong>OR</strong> the "+" icon to add a new key.</li>
 </ol>
-<p align="center">
-<img src="../img/apns-add-key.png" width="550">
-</p>
-
+<p><img alt="../img/apns-copy-key.png" src="../img/apns-add-key.png" /></p>
 <ol>
 <li>In the form that appears, click the checkbox for enabling "Apple Push Notifications service (APNs)" and enter a name for the key such as "Nightscout". Then click the "Continue" button in the upper right of the screen.</li>
 </ol>
-<p align="center">
-<img src="../img/key-apns.png" width="550">
-</p>
-
+<p><img alt="../img/apns-copy-key2.png" src="../img/key-apns.png" /></p>
 <ol>
 <li>In the screen that follows, click the blue "Register" button.</li>
 </ol>
-<p align="center">
-<img src="../img/apns-register.png" width="550">
-</p>
-
+<p><img alt="../img/apns-vars.png" src="../img/apns-register.png" /></p>
 <ol>
 <li>In the screen that follows, click the blue "Download" button. This step will download a file with a name that starts with "AuthKey" and ends with ".p8".</li>
 </ol>
-<p align="center">
-<img src="../img/apns-download.png" width="550">
-</p>
-
+<p><img alt="../img/apns-open2.png" src="../img/apns-download.png" /></p>
 <ol>
 <li>Find your AuthKey download in your downloads folder. Double-click to open it and you will be presented a message asking how you'd like to open it. Click on "Choose Application..." and then select "TextEdit" as your application to open it with.</li>
 </ol>
-<p align="center">
-<img src="../img/apns-open.png" width="550">
-</p>
-<p></br></br></p>
-<p align="center">
-<img src="../img/apns-textedit.png" width="550">
-</p>
-
+<p><img alt="../img/override_vars_complete.png" src="../img/apns-open.png" /> </br></br></p>
+<p><img alt="../img/careportal-overrides.PNG" src="../img/apns-textedit.png" /></p>
 <ol>
 <li>When the file opens, it will look similar to the screenshot below. In a few minutes, after we do a few other steps first, we will need to highlight <strong>ALL OF THE CONTENTS</strong> of that file and copy it because we will be pasting it in Heroku. Yes, allllll of the contents. So, easiest way is to click inside that file and then press <code>command-a</code> to highlight all the text and then <code>command-c</code> to copy it all to the clipboard. You don't have to do it right now...just keep that window open in the background for now until we need it a little further down. Then we will copy all that text.</li>
 </ol>
-<p align="center">
-<img src="../img/apns-copy-key.png" width="550">
-</p>
-
+<p><img alt="../img/override_notification.jpg" src="../img/apns-copy-key.png" /></p>
 <h2 id="step-3-update-nightscout-site">Step 3: Update Nightscout site<a class="headerlink" href="#step-3-update-nightscout-site" title="Permanent link">&para;</a></h2>
 <p>You'll need to update your Nightscout site to use the latest version of cgm-remote-monitor. It is called Ketchup and the version number is 13.0.1. You can check your version number by looking at the bottom of your NS site's settings, near where the authentication button is located. The easiest way to do to update your Nightscout site is to follow the steps in the video below.</p>
 <div class="admonition danger">
@@ -1939,13 +1918,9 @@ If you don't see any branches to select to deploy and are missing the deploy but
 </div>
 <p>Once you have your Nightscout deployment updated to the latest master branch of cgm-remote-monitor, now we need to add a couple new variables.</p>
 <p>Go to the <code>Settings</code> tab near the top of the screen on your Heroku app and then click on <code>Reveal Config Vars</code>.</p>
-<p align="center">
-<img src="../img/heroku5.png" width="650">
-</p>
-<p></br></br> Scroll down the bottom of the Config Vars lines until you find the last blank one.  You are going to add three new rows of config vars for remote overrides as shown below:</p>
-<p align="center">
-<img src="../img/add_vars.jpg" width="650">
-</p>
+<p><img alt="img/heroku5.png" src="../img/heroku5.png" /></p>
+<p>Scroll down the bottom of the Config Vars lines until you find the last blank one.  You are going to add three new rows of config vars for remote overrides as shown below:</p>
+<p><img alt="img/add_vars.jpg" src="../img/add_vars.jpg" /></p>
 <table>
 <thead>
 <tr>
@@ -1955,36 +1930,21 @@ If you don't see any branches to select to deploy and are missing the deploy but
 </thead>
 <tbody>
 <tr>
-<th>LOOP_APNS_KEY</th>
-<td>enter ENTIRE contents of the downloaded .p8 file including the BEGIN and END lines. Here's where you can use the `command-a` and `command-c` to hightlight and copy all the text in that file so you can paste it into Heroku here for this new variable you are creating.
-<p align="center">
-<img src="../img/apns-copy-key2.png" width="550">
-</p> </br></br></td>
+<td>LOOP_APNS_KEY</td>
+<td>enter ENTIRE contents of the downloaded .p8 file including the BEGIN and END lines. Here's where you can use the <code>command-a</code> and <code>command-c</code> to hightlight and copy all the text in that file so you can paste it into Heroku here for this new variable you are creating. <img alt="img/apns-copy-key2.png" src="../img/apns-copy-key2.png" /></td>
 </tr>
 <tr>
-<th>LOOP_APNS_KEY_ID</th>
-<td>string of characters on the .p8 download file immediately following the underscore (  _  ) and not including the file extension ( .p8 ), or you can get it from your saved key in your developer account as shown next step, too
-<p align="center">
-<img src="../img/apns-open2.png" width="550">
-</p> </br></br>
-</td>
+<td>LOOP_APNS_KEY_ID</td>
+<td>string of characters on the .p8 download file immediately following the underscore (  _  ) and not including the file extension ( .p8 ), or you can get it from your saved key in your developer account as shown next step, too <img alt="img/apns-open2.png" src="../img/apns-open2.png" /></td>
 </tr>
 <tr>
-<th>LOOP_DEVELOPER_TEAM_ID</th>
-<td>get this value from Loop app signing or in your developer account's top right corner under your name
-<p align="center">
-<img src="../img/apns-vars.png" width="750">
-</p> </br></br>
-</td>
+<td>LOOP_DEVELOPER_TEAM_ID</td>
+<td>get this value from Loop app signing or in your developer account's top right corner under your name <img alt="img/apns-vars.png" src="../img/apns-vars.png" /></td>
 </tr>
 </tbody>
 </table>
-
 <p>When executed properly, you should have something that looks like this for your three new variables that you added:</p>
-<p align="center">
-<img src="../img/override_vars_complete.png" width="650">
-</p>
-<p></br></br></p>
+<p><img alt="img/override_vars_complete.png" src="../img/override_vars_complete.png" /></p>
 <h2 id="step-4-faqs-on-remote-overrides">Step 4: FAQs on Remote Overrides<a class="headerlink" href="#step-4-faqs-on-remote-overrides" title="Permanent link">&para;</a></h2>
 <p>Don't forget to read Loopdocs pages about how regular overrides work. For remote overrides in particular:</p>
 <ol>
@@ -2010,15 +1970,9 @@ If you don't see any branches to select to deploy and are missing the deploy but
 <p>There are three ways you can trigger your override presets remotely; careportal, Shortcuts, and IFTTT.</p>
 <h3 id="careportal">Careportal<a class="headerlink" href="#careportal" title="Permanent link">&para;</a></h3>
 <p>To use remote overrides, I'm assuming you've setup your Nightscout site according to the directions <a href="../new_user/#step-4-setup-your-heroku-nightscout-app">here</a> in Loopdocs. Especially the part about your ENABLE line including "override careportal loop" (in addition to other variables you'd be interested in). You'll also need to have your site authenticated so that your careportal is active to send remote overrides. You can authenticate your site by selecting the three horizontal lines in the upper right corner of your Nightscout site and scrolling to the bottom of the settings. There's an "authenicate" link at the very bottom. Once authenticated by entering your API Secret, then there will be a <code>+</code> in the upper right corner of your site. That is your careportal. Tap the careportal <code>+</code> and then scroll down in the "event type" menu to find "Temporary Override". Within there, you will find all your Loop override presets already loaded for you.</p>
-<p align="center">
-<img src="../img/careportal-overrides.PNG" width="350">
-</p>
-<p></br></br></p>
+<p><img alt="img/careportal-overrides.PNG" src="../img/careportal-overrides.PNG" /></p>
 <p>The Looper will see a banner notification that an override has been set (or canceled, as the case may be).</p>
-<p align="center">
-<img src="../img/override_notification.jpg" width="550">
-</p>
-<p></br></br></p>
+<p><img alt="img/override_notification.jpg" src="../img/override_notification.jpg" /></p>
 <p>Canceling an override through Nightscout careportal is as simple as selecting the event type "Temporary Override Cancel" and submitting.</p>
 <h3 id="shortcuts">Shortcuts<a class="headerlink" href="#shortcuts" title="Permanent link">&para;</a></h3>
 <p>If you want to make your life SUPER AMAZING, check out using the iPhone's Shortcuts app. The Shortcuts app is for making little automations (like mini apps) that can integrate parts of your life. In this case, we've written a couple shortcuts for you that integrate Loop overrides with Nightscout.</p>

@@ -14,7 +14,7 @@
     
     
       
-        <title>Glucose Prediction - Loop documentation</title>
+        <title>Blodsukker forudsigelse - Loop documentation</title>
       
     
     
@@ -130,7 +130,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Glucose Prediction
+              Blodsukker forudsigelse
             
           </span>
         </div>
@@ -211,7 +211,7 @@
   
     <li class="md-tabs__item">
       <a href="../../../faqs/docs-faqs/" class="md-tabs__link">
-        FAQs
+        FAQ
       </a>
     </li>
   
@@ -365,13 +365,13 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
     
     <label class="md-nav__link" for="nav-2">
-      FAQs
+      FAQ
       <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="FAQs" data-md-level="1">
+    <nav class="md-nav" aria-label="FAQ" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
         <span class="md-nav__icon md-icon"></span>
-        FAQs
+        FAQ
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -475,7 +475,7 @@
 
   <li class="md-nav__item">
     <a href="../../../faqs/algorithm-faqs/" class="md-nav__link">
-      Algorithm FAQs
+      Algoritme FAQs
     </a>
   </li>
 
@@ -1098,7 +1098,7 @@
 
   <li class="md-nav__item">
     <a href="../../features/watch/" class="md-nav__link">
-      Apple Watch
+      Apple Ur
     </a>
   </li>
 
@@ -1124,7 +1124,7 @@
 
   <li class="md-nav__item">
     <a href="../../features/notifications/" class="md-nav__link">
-      Loop Notifications
+      Loop Notifikationer
     </a>
   </li>
 
@@ -1160,13 +1160,13 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2" >
     
     <label class="md-nav__link" for="nav-5-2">
-      Looping Tips
+      Loop Tips
       <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Looping Tips" data-md-level="2">
+    <nav class="md-nav" aria-label="Loop Tips" data-md-level="2">
       <label class="md-nav__title" for="nav-5-2">
         <span class="md-nav__icon md-icon"></span>
-        Looping Tips
+        Loop Tips
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -1283,12 +1283,12 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Glucose Prediction
+        Blodsukker forudsigelse
         <span class="md-nav__icon md-icon"></span>
       </label>
     
     <a href="./" class="md-nav__link md-nav__link--active">
-      Glucose Prediction
+      Blodsukker forudsigelse
     </a>
     
       
@@ -1443,7 +1443,7 @@
 
   <li class="md-nav__item">
     <a href="../temp-basal/" class="md-nav__link">
-      Temp Basal Adjustments
+      Temp basal justeringer
     </a>
   </li>
 
@@ -1511,7 +1511,7 @@
 
   <li class="md-nav__item">
     <a href="../../../troubleshooting/yellow-red-loop/" class="md-nav__link">
-      Red Loop
+      Rødt Loop
     </a>
   </li>
 
@@ -1999,7 +1999,7 @@
 <p><img alt="Loop's iob and temp basals" src="../img/insulin_delivery_iob.jpg" /></p>
 <p>The insulin effect can be expressed mathematically:</p>
 <p><img alt="insulin effect equation " src="../img/insulin_effect_equation.png" /></p>
-<p>where BG is the expected change in blood glucose with the units (mg/dL/5min), ISF is the insulin sensitivity factor (mg/dL/U) at time t, and IA is the insulin activity (U/5min) at time <i>t</i>. Insulin activity can also be thought of as a velocity or rate of change in blood glucose due to insulin. The insulin activity accounts for the EGP and any active insulin from basals and boluses.</p>
+<p>where BG is the expected change in blood glucose with the units (mg/dL/5min), ISF is the insulin sensitivity factor (mg/dL/U) at time t, and IA is the insulin activity (U/5min) at time <em>t</em>. Insulin activity can also be thought of as a velocity or rate of change in blood glucose due to insulin. The insulin activity accounts for the EGP and any active insulin from basals and boluses.</p>
 <h2 id="carbohydrate-effect">Carbohydrate Effect<a class="headerlink" href="#carbohydrate-effect" title="Permanent link">&para;</a></h2>
 <p>Carbohydrates will raise blood glucose, but the speed and degree to which they impact blood glucose are dependent on the type of carbohydrates. High glycemic index (GI) carbohydrates will raise blood glucose quickly over a shorter time, whereas low GI foods will raise blood glucose more slowly over a longer period. Foods like candy, juice, and fruits tend to be high GI foods, while pizza, burritos, and quesadillas are usually lower GI foods. Digestion issues like gastroparesis may also contribute to variations in carbohydrate absorption.</p>
 <p>Because carbohydrate absorption can be quite variable, Loop has a model that dynamically adjusts the expected remaining time of carbohydrate absorption. To start with, Loop allows the user to input a rough guess of how long they think the food or drink will take to absorb. The user’s guess is used as a middle of the road estimate, and Loop’s algorithm will shorten or lengthen it based on observed blood glucose change.</p>
@@ -2054,9 +2054,9 @@
 <table>
 <thead>
 <tr>
-<th>Minutes relative to now (<i>t=0</i>)</th>
-<th>Percent of BG<i>vel</i> Applied to RC Effect</th>
-<th><img src="../img/delta_bgrc.png">
+<th>Minutes relative to now (<em>t=0</em>)</th>
+<th>Percent of BG<em>vel</em> Applied to RC Effect</th>
+<th><img alt="img/delta_bgrc.png" src="../img/delta_bgrc.png" /></th>
 </tr>
 </thead>
 <tbody>
@@ -2065,7 +2065,6 @@
 <td>100%</td>
 <td>-10</td>
 </tr>
-<tr>
 <tr>
 <td>10</td>
 <td>91%</td>
@@ -2123,7 +2122,6 @@
 </tr>
 </tbody>
 </table>
-
 <p>Here’s an example below that shows the retrospective correction effect when the BG<em>vel</em> over the past 30 minutes was -10mg/dL/5min.</p>
 <p><img alt="bg retrospective graph example" src="../img/bgrc_graphic.png" /></p>
 <h2 id="blood-glucose-momentum-effect">Blood Glucose Momentum Effect<a class="headerlink" href="#blood-glucose-momentum-effect" title="Permanent link">&para;</a></h2>
@@ -2139,7 +2137,7 @@
 <table>
 <thead>
 <tr>
-<th>Minutes relative to now (<i>t=0</i>)</th>
+<th>Minutes relative to now (<em>t=0</em>)</th>
 <th>Percent of Slope Applied to Momentum Effect</th>
 <th>Momentum Effect (3mg/dL/5min)</th>
 <th>Percent of Other Effects Applied Overall Effect</th>
@@ -2159,11 +2157,10 @@
 <td>109</td>
 </tr>
 <tr>
-<tr>
 <td>10</td>
 <td>66.6%</td>
 <td>2</td>
-<td>33.3%</td>
+<td>33.3%&lt;</td>
 <td>6</td>
 <td>4</td>
 <td>113</td>
@@ -2289,7 +2286,7 @@ Need the utteranc-app on repository.
                 <span class="md-footer-nav__direction">
                   Næste
                 </span>
-                Temp Basal Adjustments
+                Temp basal justeringer
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">

@@ -211,7 +211,7 @@
   
     <li class="md-tabs__item">
       <a href="../../faqs/docs-faqs/" class="md-tabs__link">
-        FAQs
+        FAQ
       </a>
     </li>
   
@@ -365,13 +365,13 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
     
     <label class="md-nav__link" for="nav-2">
-      FAQs
+      FAQ
       <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="FAQs" data-md-level="1">
+    <nav class="md-nav" aria-label="FAQ" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
         <span class="md-nav__icon md-icon"></span>
-        FAQs
+        FAQ
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -475,7 +475,7 @@
 
   <li class="md-nav__item">
     <a href="../../faqs/algorithm-faqs/" class="md-nav__link">
-      Algorithm FAQs
+      Algoritme FAQs
     </a>
   </li>
 
@@ -1164,7 +1164,7 @@
 
   <li class="md-nav__item">
     <a href="../../operation/features/watch/" class="md-nav__link">
-      Apple Watch
+      Apple Ur
     </a>
   </li>
 
@@ -1190,7 +1190,7 @@
 
   <li class="md-nav__item">
     <a href="../../operation/features/notifications/" class="md-nav__link">
-      Loop Notifications
+      Loop Notifikationer
     </a>
   </li>
 
@@ -1226,13 +1226,13 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2" >
     
     <label class="md-nav__link" for="nav-5-2">
-      Looping Tips
+      Loop Tips
       <span class="md-nav__icon md-icon"></span>
     </label>
-    <nav class="md-nav" aria-label="Looping Tips" data-md-level="2">
+    <nav class="md-nav" aria-label="Loop Tips" data-md-level="2">
       <label class="md-nav__title" for="nav-5-2">
         <span class="md-nav__icon md-icon"></span>
-        Looping Tips
+        Loop Tips
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -1339,7 +1339,7 @@
 
   <li class="md-nav__item">
     <a href="../../operation/algorithm/prediction/" class="md-nav__link">
-      Glucose Prediction
+      Blodsukker forudsigelse
     </a>
   </li>
 
@@ -1352,7 +1352,7 @@
 
   <li class="md-nav__item">
     <a href="../../operation/algorithm/temp-basal/" class="md-nav__link">
-      Temp Basal Adjustments
+      Temp basal justeringer
     </a>
   </li>
 
@@ -1420,7 +1420,7 @@
 
   <li class="md-nav__item">
     <a href="../../troubleshooting/yellow-red-loop/" class="md-nav__link">
-      Red Loop
+      Rødt Loop
     </a>
   </li>
 
@@ -1782,23 +1782,14 @@
 <h2 id="disable-authentication-for-bolusing">Disable Authentication for Bolusing<a class="headerlink" href="#disable-authentication-for-bolusing" title="Permanent link">&para;</a></h2>
 <p>Afhængigt af dine iPhone-præferencer og -model, kan du have Face ID eller Touch ID aktiveret.  Disse sikkerhedsfunktioner vil også blive brugt til at godkende bolus levering i Loop.  Du kan vælge at deaktivere godkendelse (dvs. ikke kræver Face ID, Touch ID eller adgangskode til bolus) gennem følgende kode tilpasning:</p>
 <p>Ændre linje 201 i Loop&gt;&gt;Se controllere&gt;&gt;BolusViewController.swift.  Tilføj <code>false &amp;&amp;</code> som vist på skærmbilledet nedenfor:</p>
-<p align="center">
-<img src="../img/custom-id.png" width="750">
-</p>
-
+<p><img alt="img/custom-id.png" src="../img/custom-id.png" /></p>
 <h2 id="default-carb-absorption-times">Default Carb Absorption Times<a class="headerlink" href="#default-carb-absorption-times" title="Permanent link">&para;</a></h2>
-<p><img style="float: right;" width="200" src="../img/carb_screen.png" /></p>
+<p><img alt="img/carb_screen.png" src="../img/carb_screen.png" /></p>
 <p>Loops standard carb absorptionstider er baseret på det høje, medium, og lave glykæmiske indeks absorptionskurver præsenteret i <i>Think Like A Pancreas</i> af Gary Scheiner.  I øjeblikket slikkepind (hurtig) ikon er indstillet til 2 timer, taco (medium) ikon for 3 timer, og pizza (langsom) ikon for 4 timer.</p>
 <p>Hvis du vil ændre disse standarder, kan du gøre det i Loop Core&gt;&gt;LoopSettings.swift Linje 16.</p>
-<p align="center">
-<img src="../img/carb_times.png" width="750">
-</p>
-
+<p><img alt="img/carb_times.png" src="../img/carb_times.png" /></p>
 <p>For eksempel, hvis du ønskede at gøre slikkepind en 30 minutters absorption og pizza en 5 timers absorption, vil redigeringen se ud nedenfor:</p>
-<p align="center">
-<img src="../img/carb_times_example.png" width="750">
-</p>
-
+<p><img alt="img/carb_times_example.png" src="../img/carb_times_example.png" /></p>
 <h2 id="exponential-insulin-curve">Exponential Insulin Curve<a class="headerlink" href="#exponential-insulin-curve" title="Permanent link">&para;</a></h2>
 <p>De eksponentielle insulinkurve modeller (Rapid-Acting Adult, Rapid-Acting Barn, og Fiasp) standard til en insulinvarighed på 360 minutter. .men de forskellige kurvers maksimale aktivitet er forskellig som følger:</p>
 <ul>
@@ -1807,41 +1798,21 @@
 <li>Fiasp kurven topper ved 55 minutter</li>
 </ul>
 <p>Hvis du vil tilpasse disse værdier, kan du justere dem på linje 34-38 i LoopCore&gt;&gt;Insulin&gt;&gt;ExponentialInsulinModelPreset.swift.</p>
-<p align="center">
-<img src="../img/exponential.png" width="750">
-</p>
-
+<p><img alt="img/exponential.png" src="../img/exponential.png" /></p>
 <h2 id="loop-logo">Loop Logo<a class="headerlink" href="#loop-logo" title="Permanent link">&para;</a></h2>
 <p>Hvis du vil have et andet applogo end standardgrøn cirkel til din Loop-app, kan du nemt tilpasse dette.  For at gøre det nemt at generere de korrekte størrelser af ikoner, kan du bruge et websted som <a href="http://www.appicon.build/">appicon.build</a> eller <a href="https://appicon.co/">appicon.co</a> og bare trække og slippe dit kildebillede. Kildebilledet skal være 1024 pixel x 1024 pixel.  Sitet vil e-maile dig en zip-fil eller automatisk downloade et sæt af filer.  Fremhæv og kopiér indholdet af det Appicon.appiconset, du har sendt, herunder filen Contents.json</p>
-<p>Naviger nu til den tilsvarende loop-mappe (DefaultAssessts.xcassets, Appicon.appiconset) som vist nedenfor.  </p>
-<p align="center">
-<img src="../img/appicon1.png" width="650">
-</p>
-
+<p>Naviger nu til den tilsvarende loop-mappe (DefaultAssessts.xcassets, Appicon.appiconset) som vist nedenfor.</p>
+<p><img alt="img/appicon1.png" src="../img/appicon1.png" /></p>
 <p>Erstat indholdet af Appicon.appiconset med dine kopierede billeder og Contents.json-filen.</p>
-<p align="center">
-<img src="../img/appicon2.png" width="650">
-</p>
-
+<p><img alt="img/appicon2.png" src="../img/appicon2.png" /></p>
 <p>Du kan bekræfte den vellykkede ændring ved at kigge i Xcode under Loop -&gt; DefaultAssets.xcassets -&gt; Appicon.  Du bør se dit brugerdefinerede logo i Appicon-sættet nu.  Du får muligvis også vist en gul advarsel om, at der er "unassigned children", afhængigt af de billeder, som appikongeneratorværktøjet har produceret. Advarslen om "unassigned children" forhindrer ikke din app i at bygge, det er simpelthen fordi der er flere størrelser af billeder, end Loop-appen bruger.  Du kan bare lade de "unassigned children" være.</p>
-<p align="center">
-<img src="../img/appicon3.png" width="650">
-</p>
-
+<p><img alt="img/appicon3.png" src="../img/appicon3.png" /></p>
 <p>Og nu vil du være den stolte nye ejer af et brugerdefineret Loop-ikon.</p>
-<p align="center">
-<img src="../img/unicorn-logo.jpeg" width="350">
-</p>
-
+<p><img alt="img/unicorn-logo.jpeg" src="../img/unicorn-logo.jpeg" /></p>
 <h2 id="adjust-the-sensitivity-of-watchs-digital-crown-for-carb-and-bolus-entry">Adjust the sensitivity of Watch's digital crown for carb and bolus entry<a class="headerlink" href="#adjust-the-sensitivity-of-watchs-digital-crown-for-carb-and-bolus-entry" title="Permanent link">&para;</a></h2>
 <p>Hastigheden af ændringen af carb og bolus indtastning, når du bruger den digitale krone kan ændres. Du skal redigere to linjer i filer i WatchApp Extension&gt;&gt;Controllers mappe.  I BolusInterfaceController.swift redigere linje 191, og i AddCarbsInterfaceController.swift redigere linje 249. Værdien 1/24 er forholdet mellem rotationer af kronen og mængden af ændring i værdien. Ændring til 1/12 ville betyde, at dobbelt så mange drej ville være nødvendigt for den samme mængde af carb eller bolus.</p>
-<p align="center">
-<img src="../img/sensitivity1.png" width="800">
-</p>
-
-<p align="center">
-<img src="../img/sensitivity2.png" width="800">
-</p>
+<p><img alt="img/sensitivity1.png" src="../img/sensitivity1.png" /></p>
+<p><img alt="img/sensitivity2.png" src="../img/sensitivity2.png" /></p>
                 
               
               
