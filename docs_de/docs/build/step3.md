@@ -63,19 +63,19 @@ Die Firmware einer Insulinpumpe ist die interne Software, die deren grundlegende
     + Medtronic Worldwide Veo 554 or 754 --> Firmware 2.6A oder niedriger</br>
     + Medtronic Kanada/Australien Veo 554 oder 754 --> Firmware 2.7A oder niedriger</br>
 
-To find your pump’s firmware you will need to power it on. If the pump has not been powered on for some time (i.e., has been in storage without a battery for a while), it will run through a start-up count and the firmware version will appear on the bottom right of the pump’s screen.  Don’t turn away, as the version number will only be displayed for a little while before the screen moves onto other information displays.
+Um die Firmware deiner Insulinpumpe nachzuschauen, musst du sie einschalten. Falls die Pumpe längere Zeit ausgeschaltet war (d.h. einige Zeit ohne Batterie herumlag), wird sie zuerst durch eine Startprozedur gehen und die Firmware-Version wird dann unten rechts auf dem Bildschirm der Insulinpumpe angezeigt.  Du musst gut aufpassen, die Firmeware-Version wird nur kurz angezeigt, bevor der Bildschirm andere Informationen zeigt.
 
-If the pump has been active recently or has a reservoir installed, follow these steps:
+Wenn die Pumpe noch vor kurzem benutzt wurde oder gerade eine Ampulle eingelegt ist, führe die folgenden Schritte aus:
 
-1. Press the <img src="../img/esc.png" width="40" alt="ESC" /> button on your pump.
+1. Drücke die ![img/esc.png](img/esc.png) Taste auf deiner Pumpe.
 
-2. Scroll down with the <img src="../img/light_button.png" width="40" alt="Down Arrow" /> button to the bottom of the status display.
+2. Benutze die Taste ![img/light_button.png](img/light_button.png) um in der Statusanzeige nach unten zu gehen.
 
-3. Read the bottom line of the display.
+3. Schaue auf die letzte Zeile des Bildschirms.
 
 ![Firmware](img/pump_firmware.png)
 
-### Medtronic Pump Differences
+### Unterschiede der Medtronic Insulinpumpen
 
 If you are in the position of being able to shop around for different pump models, there are some slight differences between the Loop-compatible Medtronic pumps.
 
