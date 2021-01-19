@@ -6,10 +6,10 @@
 
 !!! Info "Zusammenfassung"
 
-    - Wenn du einen Dexcom G4, G5 oder G6 CGM System verwendest, kannst du Loop benutzen.
-    - Wenn du einen Medtronic-Sensor verwendest, der mit einer Loop-kompatiblen Medtronic Insulinpumpe arbeitet, kannst du Loop benutzen.
-    - If you have an Eversense...you cannot use Loop with that CGM.
-    - If you use Libre...you will need to seek out a modified Loop
+    - Du verwendest einen Dexcom G4, G5 oder G6 CGM System... damit kannst du Loop benutzen.
+    - Du verwendest einen Medtronic-Sensor, der mit einer Loop-kompatiblen Medtronic Insulinpumpe arbeitet...damit kannst du Loop benutzen.
+    - Du hast einen Eversense Sensor...dann kannst du Loop leider nicht benutzen.
+    - Du verwendest einen Libre Sensor... dieser arbeitet nur mit einer modifizierten Loop App.
 
 !!!warning "FAQs"
 
