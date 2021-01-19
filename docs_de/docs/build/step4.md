@@ -1,13 +1,13 @@
-# Step 4: Compatible CGM
+# Schritt 4 Kompatible CGM
 
-!!!danger "Time Estimate"
+!!!Gefahr "Geschätzte Zeit"
 
-    - 10 minutes to read through this page
+    - 10 Minuten um diese Seite zu lesen
 
-!!!info "Summary"
+!!! Info "Zusammenfassung"
 
-    - If you use a Dexcom G4 Share, G5, or G6 CGM system...you are good to use Loop.
-    - If you use a Medtronic sensor compatible with a Loop-compatible Medtronic pump...you are good to use Loop.
+    - Wenn du einen Dexcom G4, G5 oder G6 CGM System verwendest, kannst du Loop benutzen.
+    - Wenn du einen Medtronic-Sensor verwendest, der mit einer Loop-kompatiblen Medtronic Insulinpumpe arbeitet, kannst du Loop benutzen.
     - If you have an Eversense...you cannot use Loop with that CGM.
     - If you use Libre...you will need to seek out a modified Loop
 
