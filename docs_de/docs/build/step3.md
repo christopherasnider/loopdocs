@@ -6,13 +6,13 @@
     - Benutzer anderer Pumpen: 5 Tage, um eine E-Mail an Freunde zu senden und sie zu bitten, ihre Schränke nach alten Medtronic-Pumpe zu durchforsten oder um deine Versicherung anzurufen und mit der Autorisierung für Omnipod zu beginnen
 
 !!! Info "Zusammenfassung"
-    - If you have a big clunky PDM with built-in BG meter...you can use your pods for Loop.
-    - If you have a slim touch screen android-looking PDM...you can NOT use your pods for Loop.
-    - If you have a Medtronic, check the list to ensure compatible model/firmware.
+    - Wenn du einen großen klobigen PDM mit eingebautem BG-Meter hast... du kannst deine Pods für Loop verwenden.
+    - Wenn du einen schlanken Touchscreen Android-artigen PDM hast... du kannst deine Pods NICHT für Loop verwenden.
+    - Wenn du eine Medtronic Insulinpumpe hast, überprüfen die Liste mit den kompatiblen Modellen/Firmware.
 
 !!!warning "FAQs"
-    - **"How can I find a compatible Medtronic pump?"** That question is answered in the Extra Details section below.
-    - **"What are the differences between Medtronic pump models?"** This question is also answered in the Extra Details section below.
+    - **"Wie kann ich eine kompatible Medtronic-Pumpe finden?"** Diese Frage wird im Abschnitt Zusätzliche Informationen zu Medtronic weiter unten beantwortet.
+    - **"Was sind die Unterschiede zwischen Medtronic Pumpenmodellen?"** Diese Frage wird auch im Abschnitt Zusätzliche Informationen zu Medtronic weiter unten beantwortet.
     - **"But what about the other types of pumps?"** Too bad, so sad...unless it is a DanaRS, DanaR, Accu-Chek Insight, Accu-Chek Combo. If you have one of those pumps, you could check out [AndroidAPS looping system](https://androidaps.readthedocs.io/en/latest/index.html) instead of Loop. If you have a Medtronic 512 or 712, you could check out [OpenAPS](https://openaps.readthedocs.io/en/latest/) as that system supports the 512 and 712 models in addition to the other Loop-compatible Medtronic pumps. Neither of those systems currently support Omnipod for looping.
     - **"Can I change the firmware of my Medtronic pump?"** Do you work at Medtronic with insider access to the secret tools and firmware versions to do that? Might lose your job, but I'd bet you could do it then. We don't have access to that though.
 
@@ -29,7 +29,7 @@ This is a pretty simple step...check that you have a compatible pump to use Loop
 
 If you have one of the pumps listed above, you are good to go on Loop! Congrats!
 
-## Extra Details on Medtronic
+## Zusätzliche Informationen zu Medtronic
 
 ![insulin pumps](img/pump.png)
 
