@@ -1,11 +1,11 @@
-# Step 3: Compatible Pump
+# Schritt 3 Kompatible Pumpen
 
-!!!danger "Time Estimate"
-    - Omnipod users: 3 seconds to remember which PDM you've been using.
-    - Medtronic users: 10 minutes to put a battery in and look at model and firmware
-    - Other pump users: 5 days to email friends asking them to check closets for their old Medtronic pump or call your insurance to start prior authorization for Omnipod
+!!!Gefahr "Geschätzte Zeit"
+    - Omnipod Benutzer: 3 Sekunden, um sich zu erinnern, welchen PDM du verwendest hast.
+    - Medtronic-Benutzer: 10 Minuten um eine Batterie einzulegen und Modell und Firmware anzuschauen
+    - Benutzer anderer Pumpen: 5 Tage, um eine E-Mail an Freunde zu senden und sie zu bitten, ihre Schränke nach alten Medtronic-Pumpe zu durchforsten oder um deine Versicherung anzurufen und mit der Autorisierung für Omnipod zu beginnen
 
-!!!info "Summary"
+!!! Info "Zusammenfassung"
     - If you have a big clunky PDM with built-in BG meter...you can use your pods for Loop.
     - If you have a slim touch screen android-looking PDM...you can NOT use your pods for Loop.
     - If you have a Medtronic, check the list to ensure compatible model/firmware.
