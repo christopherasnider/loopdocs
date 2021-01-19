@@ -1,8 +1,8 @@
-# Step 1: Compatible Computer
+# Étape 1 : Compatibilité de l'Ordinateur
 
-!!!danger "Time Estimate"
-    - 5 minutes, if already have Mojave or Catalina macOS
-    - 30-60 minutes, if need to install macOS updates
+!!!danger "Temps estimé"
+    - 5 minutes, si vous avez déjà Mojave ou Catalina macOS
+    - 30-60 minutes, si besoin d’installer des mises à jour macOS
 
 !!!info "Summary"
     - Check your macOS and make sure it is Mojave or Catalina. **If you have the latest iOS version on the iPhone that will be using Loop...then you need Catalina.**
