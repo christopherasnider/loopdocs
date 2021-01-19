@@ -77,9 +77,9 @@ Wenn die Pumpe noch vor kurzem benutzt wurde oder gerade eine Ampulle eingelegt 
 
 ### Unterschiede der Medtronic Insulinpumpen
 
-If you are in the position of being able to shop around for different pump models, there are some slight differences between the Loop-compatible Medtronic pumps.
+Wenn du die Wahl hast und zwischen verschiedenen Insulinpumpen aussuchen kannst, dann gibt es ein paar kleine Unterschiede zwischen den Loop-kompatiblen Medtronic-Insulinpumpen.
 
-<font color ="orange">500 vs 700</font>:  The difference between the Medtronic 500 series and the 700 series pumps is the size of the insulin reservoirs.  The 500 series pumps use a 180 unit reservoir, and the 700 series pumps use a 300 unit reservoir (or smaller 180 unit reservoir, if you want).
+**500 vs 700**: Der Unterschied zwischen den Medtronic 500 und 700 Insulinpumpen ist die Größe des Insulinampulle.  The 500 series pumps use a 180 unit reservoir, and the 700 series pumps use a 300 unit reservoir (or smaller 180 unit reservoir, if you want).
 
 <font color ="orange">x15/x22 vs x23/x54</font>:  The difference between the x15 and x22 pumps versus the x23 and x54 series pumps has only a few notable mentions:
 
@@ -142,11 +142,11 @@ Red flags that may indicate a scam:
 
 Medtronic will not typically sell pump supplies directly to customers who have not previously purchased a registered Medtronic pump. Ask your insurance about purchasing pump supplies through a durable medical equipment (DME) provider. Typically, the DME provider will coordinate with your insurance and doctor's office to get the necessary insurance approval and prescriptions for the supplies. If you are brand new to Medtronic infusion sites, you may want to ask for help from friends to try a variety of infusion sets before purchasing a full 90-day supply of any type in particular.
 
-## Extra Details on Omnipods
+## Zusätzliche Informationen zu Omnipods
 
-!!!warning "Reminder and Disclaimer"
+!!!warnung "Hinweis und Haftungsausschluss"
 
-    Through the work of the DIY community, Insulet's Omnipod (Eros) system is now Loop compatible. Using Eros pods with Loop is not supported by Insulet. Do not call Insulet asking for help with your Loop build, setup, or operation. This project is not FDA-approved and you are using this project under your own responsibility and risk. Please read these documents and familiarize yourself with Loop before using.
+    Durch die Arbeit der DIY Gemeinschaft ist Insulet's Omnipod (Eros) System jetzt mit Loop kompatibel. Die Verwendung von Eros Pods mit Loop wird von Insulet nicht unterstützt. Do not call Insulet asking for help with your Loop build, setup, or operation. This project is not FDA-approved and you are using this project under your own responsibility and risk. Please read these documents and familiarize yourself with Loop before using.
 
 ### Eros
 
