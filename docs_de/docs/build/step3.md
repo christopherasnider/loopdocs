@@ -12,56 +12,56 @@
 
 !!!warning "FAQs"
     - **"Wie kann ich eine kompatible Medtronic-Pumpe finden?"** Diese Frage wird im Abschnitt Zusätzliche Informationen zu Medtronic weiter unten beantwortet.
-    - **"Was sind die Unterschiede zwischen Medtronic Pumpenmodellen?"** Diese Frage wird auch im Abschnitt Zusätzliche Informationen zu Medtronic weiter unten beantwortet.
-    - **"But what about the other types of pumps?"** Too bad, so sad...unless it is a DanaRS, DanaR, Accu-Chek Insight, Accu-Chek Combo. If you have one of those pumps, you could check out [AndroidAPS looping system](https://androidaps.readthedocs.io/en/latest/index.html) instead of Loop. If you have a Medtronic 512 or 712, you could check out [OpenAPS](https://openaps.readthedocs.io/en/latest/) as that system supports the 512 and 712 models in addition to the other Loop-compatible Medtronic pumps. Neither of those systems currently support Omnipod for looping.
-    - **"Can I change the firmware of my Medtronic pump?"** Do you work at Medtronic with insider access to the secret tools and firmware versions to do that? Might lose your job, but I'd bet you could do it then. We don't have access to that though.
+    - **"Was sind die Unterschiede zwischen den verschiedenen Medtronic Insulinpumpen?"** Diese Frage wird auch im Abschnitt Zusätzliche Informationen zu Medtronic weiter unten beantwortet.
+    - **"Was ist mit den anderen Insulinpumpen?"** Diese sind leider nicht kompatibel,... es sei denn, es ist eine DanaRS, DanaR, Accu-Chek Insight, oder Accu-Chek Combo. Wenn du eine dieser Pumpen hast, kannst du eventuell [AndroidAPS](https://androidaps.readthedocs.io/en/latest/index.html) anstelle von Loop benutzen. Falls du eine Medtronic 512 oder 712 hast kannst du [OpenAPS](https://openaps.readthedocs.io/en/latest/) evaluieren. Dieses unterstützt, neben den anderen Loop-kompatiblen Medtronic Insulinpumpen, auch die Modelle 512 und 712. Keines dieser Systeme (AndroidAPS oder OpenAPS) unterstützt derzeit Omnipod für Looping.
+    - **"Kann ich die Firmware meiner Medtronic-Pumpe ändern?** Arbeitest du bei Medtronic und hast Zugriff auf die internen Tools und Firmware-Versionen, mit denen das gehen würde? Du würdest wohl deinen Job verlieren, aber ich wetten, damit könnten es gehen. Wir können es leider nicht.
 
-## Check pump version
+## Überprüfe das Insulinpumpenmodell
 
-This is a pretty simple step...check that you have a compatible pump to use Loop:
+Dies ist ein einfacher Schritt... überprüfe, ob du eine kompatible Pumpe hast, um Loop zu verwenden:
 
-* Medtronic 515 or 715 (any firmware)
-* Medtronic 522 or 722 (any firmware)
-* Medtronic 523 or 723 (firmware 2.4 or lower)
-* Medtronic Worldwide Veo 554 or 754 (firmware 2.6A or lower)
-* Medtronic Canadian/Australian Veo 554 or 754 (firmware 2.7A or lower)
-* Omnipod "Eros" pods
+* Medtronic 515 oder 715 (beliebige Firmware)
+* Medtronic 522 oder 722 (beliebige Firmware)
+* Medtronic 523 oder 723 (Firmware 2.4 oder niedriger)
+* Medtronic Worldwide Veo 554 oder 754 (Firmware 2.6A oder niedriger)
+* Medtronic Kanada/Australien Veo 554 oder 754 (Firmware 2.7A oder niedriger)
+* Omnipod "Eros" Pods
 
-If you have one of the pumps listed above, you are good to go on Loop! Congrats!
+Wenn du eine der oben aufgeführten Pumpen hast, kannst du Loop verwenden! Glückwunsch!
 
 ## Zusätzliche Informationen zu Medtronic
 
 ![insulin pumps](img/pump.png)
 
-There are a number of Medtronic insulin pumps manufactured between 2006 – 2012 which are Loop compatible.  Compatibility has two requirements; (1) pump model and (2) firmware.
+Es gibt eine Reihe von Medtronic-Insulinpumpen, die zwischen 2006 bis 2012 hergestellt werden und Loop-kompatibel sind.  Kompatibilität setzt zwei Dinge voraus: (1) Insulinpumpenmodell und (2) Firmware.
 
-### Medtronic Pump Model
+### Medtronic Insulinpumpenmodell
 
-To determine your pump model, look at the backside of your pump.  There should be a sticker on the underside of the pump.  On the right-hand side of the sticker, it says REF MMT-XXXXXX
+Um dein Insulinpumpenmodell zu bestimmen, schauen auf der Rückseite deiner Pumpe nach.  Auf der Unterseite der Pumpe sollte ein Aufkleber stehen.  Auf der rechten Seite des Aufklebers steht REF MMT-XXXXXX
 
 ![Pump](img/pump_model.jpg)
 
 !!!note ""
 
-    MMT ---> Pump Manufacturer Model (MiniMed Medtronic)</br>
-    722 ---> Pump Model Number</br>
-    NA ---> Pump Region (NA=North America, CA=Canada/Australia, WW=Worldwide)</br>
-    S ---> Pump Color (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)</br>
+    MMT ---> Pumpen Hersteller (MiniMed Medtronic)</br>
+    722 ---> Pumpenmodell Number</br>
+    WW ---> Pumpen Region (NA=North America, CA=Canada/Australia, WW=Worldwide)</br>
+    S ---> Pumpenfarbe (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)</br>
 
-Some pumps may have an “L” or “S” or "R" before the pump region, e.g. a model number like MMT-722LNAS.  This does not affect Loop compatibility.
+Einige Pumpen können vor der Pumpenregion noch ein „L“ oder „S“ oder „R“ haben, z.B. eine Modellnummer wie MMT-722LNAS.  Dieses hat keinen Einfluss auf die Kompatibilität mit Loop.
 
-### Medtronic Pump Firmware
+### Medtronic Insulinpumpenfirmware
 
-A pump’s firmware is the internal software that runs your pump.  Older Medtronic firmware allows Loop to act as a “remote control” to set temp basals and report back pump data.  Newer firmware disabled that “remote control” access and therefore cannot be used with these DIY closed-loop systems.  There is currently no ability to downgrade a pump’s firmware or replace it with older firmware.  Before you buy a used pump, make sure you are getting one with compatible firmware.
+Die Firmware einer Insulinpumpe ist die interne Software, die deren grundlegenden Funktionen steuert.  Ältere Medtronic-Firmware erlaubt es Loop als „Fernbedienung“ zu fungieren, um Temp-Basalraten zu setzen und Pumpendaten zu empfangen.  Neuere Firmware deaktiviert den "Fernbedienungszugriff" und kann deshlab nicht mit diesen DIY-Geschlossenen-Loop-Systemen verwendet werden.  Derzeit ist es nicht möglich, die Firmware einer Pumpe herunterzustufen oder durch ältere Firmware zu ersetzen.  Bevor du eine gebrauchte Pumpe kaufst, prüfe unbedingt, dass diese eine kompatible Firmware hat.
 
 !!!note ""
 
-    The firmware on all 515/715 and 522/722 model Medtronic pumps are all compatible with Loop. You will only need to check the firmware version for 523/723 and 554/754 model Medtronic pumps.</br></br>
-    + Medtronic 515 or 715 --> any firmware</br>
-    + Medtronic 522 or 722  --> any firmware</br>
-    + Medtronic 523 or 723 --> firmware 2.4 or lower</br>
-    + Medtronic Worldwide Veo 554 or 754 --> firmware 2.6A or lower</br>
-    + Medtronic Canadian/Australian Veo 554 or 754 --> firmware 2.7A or lower</br>
+    Die Firmware auf allen 515/715 und 522/722 Medtronic Insulinpumpenmodellen sind kompatibel mit Loop. Du musst nur die Firmware-Version bei den Modellen 523/723 und 554/754 überprüfen.</br></br>
+    + Medtronic 515 oder 715 --> jede Firmware</br>
+    + Medtronic 522 oder 722 --> jede Firmware</br>
+    + Medtronic 523 oder 723 --> Firmware 2.4 oder niedriger</br>
+    + Medtronic Worldwide Veo 554 or 754 --> Firmware 2.6A oder niedriger</br>
+    + Medtronic Kanada/Australien Veo 554 oder 754 --> Firmware 2.7A oder niedriger</br>
 
 To find your pump’s firmware you will need to power it on. If the pump has not been powered on for some time (i.e., has been in storage without a battery for a while), it will run through a start-up count and the firmware version will appear on the bottom right of the pump’s screen.  Don’t turn away, as the version number will only be displayed for a little while before the screen moves onto other information displays.
 
