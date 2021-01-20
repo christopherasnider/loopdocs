@@ -24,7 +24,7 @@ Bei einem Dexcom G5 und G6 Sensor empfängt die Dexcom App auf deinem iPhone die
 
 ## Dexcom G4 CGM mit Empfänger ![G4 With Receiver](img/g4_receiver.png)
 
-Dexcom G4 Share system transmits CGM data from the transmitter to a Dexcom G4 Share Receiver. The receiver, in turn, connects to the Dexcom Share2 app on your iPhone via Bluetooth. The Share2 app uploads CGM data to the Dexcom servers. For Loop to function, you will need the Dexcom app running.
+Das Dexcom G4 PLATINUM System überträgt CGM Daten vom Sender an einen Dexcom G4 PLATINUM Receiver. The receiver, in turn, connects to the Dexcom Share2 app on your iPhone via Bluetooth. The Share2 app uploads CGM data to the Dexcom servers. For Loop to function, you will need the Dexcom app running.
 
 ## Medtronic CGM ![Enlite](img/enlite.png)
 
