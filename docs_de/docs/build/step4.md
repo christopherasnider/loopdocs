@@ -24,24 +24,24 @@ Bei einem Dexcom G5 und G6 Sensor empfängt die Dexcom App auf deinem iPhone die
 
 ## Dexcom G4 CGM mit Empfänger ![G4 With Receiver](img/g4_receiver.png)
 
-Das Dexcom G4 PLATINUM System überträgt CGM Daten vom Sender an einen Dexcom G4 PLATINUM Receiver. The receiver, in turn, connects to the Dexcom Share2 app on your iPhone via Bluetooth. The Share2 app uploads CGM data to the Dexcom servers. For Loop to function, you will need the Dexcom app running.
+Das Dexcom G4 PLATINUM System überträgt CGM Daten vom Sender an einen Dexcom G4 PLATINUM Empfänger. Der Empfänger wiederum kommuniziert mit der Dexcom Share2 App auf deinem iPhone per Bluetooth und die Share2-App übermittelt deine CGM Daten an den Dexcom-Server. Damit also Loop funktioniert, muss die Dexcom-App auf deinem iPhone laufen.
 
 ## Medtronic CGM ![Enlite](img/enlite.png)
 
-The Minimed Enlite CGM, available with the Medtronic 522/722, 523/723, and 554/754, wirelessly sends blood glucose readings to the pump. Loop can read the Medtronic CGM data directly from the pump using the RileyLink.
+Der mit der Medtronic 522/722, 523/723 und 554/754 Insulinpumpe erhältlich Minimed Enlite CGM sendet Blutzuckermessungen an die Insulinpump. Loop kann dann die Medtronic CGM-Daten per RileyLink direkt von der Insulinpumpe auslesen.
 
-## Offline-Nutzung
+## Offline Nutzung
 
-Offline use means using Loop when there is no cell data or internet available. Loop does not require any special setup to operate offline. You will not need to do anything special if you go camping or find yourself out in the wilderness. For offline Loop use, the iPhone's Bluetooth still needs to be active; and for Dexcom users, the Share2, G5, or G6 app also still needs to be open (but don't have to be actively "sharing" to the internet). If you put your iPhone into Airplane mode, remember to turn Bluetooth back on to keep your Loop running. If your offline use is failing, chances are you have forgotten to update your transmitter ID in Loop settings when you changed transmitters.
+Offline Nutzung bedeutet, Loop zu verwenden, wenn keine Mobilfunkdaten oder Internet verfügbar sind. Damit Loop auch offline funktioniert, sind keine spezielle Einrichtungen notwendig. Wenn du also mal campen gehts, oder dich fernab der Zivilisation bewegst, musst du nichts Besonderes tun. Für die offline Nutzung von Loop muss Bluetooth am iPhone weiterhin aktiv sein und für Dexcom-Nutzer muss die Share2-, G5- oder G6-App ebenfalls noch geöffnet sein (müssen aber nicht aktiv mit dem Internet verbunden sein). Wenn du dein iPhone in den Flugmodus schaltest, vergiss nicht Bluetooth wieder zu aktivieren, damit dein Loop weiter funktioniert. Wenn die offline Nutzung nicht funtioniert ist ein haeufiger Fehler, dass du deine Transmitter-ID nicht in den Loop-Einstellungen aktualisiert hast, nachdem du den Transmitter gewechselt hast.
 
 ## Dexcom-Server
 
-In some rare instances, the Loop may fail to eavesdrop on the Bluetooth transmissions of the CGM systems.  When that happens, the Loop can pull directly from Dexcom Servers to get the data (assuming you have entered your Share account information in the Loop settings and have Share turned on). When Loop is operating in this mode, you will see a small cloud in the CGM reading in the Loop app. Operating in this mode requires a working internet or cell connection.
+In seltenen Fällen kann die Loop die Bluetooth-Übertragungen der CGM Systeme nicht empfangen.  Wenn das passiert wird Loop die Daten automatisch von dem Dexcom Server abrufen, vorausgesetzt, du hast dein Dexcom-Benutzerkonto in den Loop Einstellungen eingegeben und Teilen erlaubt. Wenn Loop in diesem Modus arbeitet, wird neben dem Blutzuckerwert in der Loop-App eine kleine Wolke angezeigt. In diesem Modus zu arbeiten erfordert allerdings eine funktionierende Internet- oder Mobilfunkverbindung.
 
-## CGMs not natively supported in Loop
+## CGMs die nicht von Loop unterstützt werden
 
-Libre (with BluCon or Miao Miao), Eversense, Medtronic Guardian sensors, etc.  Yes, there are other CGM systems available out there. Loop does not natively support those CGMs.  If you would like to use one of those alternate CGMs and Loop...you will need to look into third-party integrations to allow Loop to access the blood glucose data.  These docs do not cover the alternate methods of unsupported CGM systems or apps like Spike.
+Libre (mit BluCon oder Miao Miao), Eversense, Medtronic Guardian Sensoren, etc.  ja, es gibt noch einige andere CGM-Systeme. Loop unterstützt diese CGMs nicht  und wenn du einen dieser alternativen CGMs mit Loop verwenden möchtst... dann musst du dich mit deren Integrationen mit Hilfe von "Drittanbietern" befassen, damit Loop auf die Blutzuckerdaten zugreifen kann.  Diese Dokumentation deckt nicht die alternativen Methoden zur Integration von nicht unterstützten CGM Systemen oder Apps wie Spike ab.
 
-## Next Step: Order a RileyLink
+## Nächster Schritt: Bestellung eines RileyLink
 
-Now you are ready to move onto Step 5 to [Order a RileyLink](step5.md).
+Jetzt kannst du mit Schritt 5 weitermachen, [Bestellung eines RileyLink](step5.md).
