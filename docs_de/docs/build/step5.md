@@ -35,19 +35,19 @@ Es gibt zwei Typen des RileyLinks: [einen für Omnipod](https://getrileylink.org
 
 ## RileyLink zusammenbauen
 
-Dein RileyLink wird in Einzelteilen geliefert, also Batterie getrennt, das kleine Mainboard und das Gehäuse. Du wirst die Batterie verbinden und alles in das Gehäuse stecken.
+Dein RileyLink wird in Einzelteilen geliefert, also Akku getrennt, das kleine Mainboard und das Gehäuse. Du wirst den Akku verbinden und alles in das Gehäuse stecken.
 
-Make sure the lipo battery is well-plugged into the connection. Line up the little ridge appropriately, and push fairly firmly to get the connection tight.  Poor battery cable connection can make the Loop communications fail.  See photos below, for example.
+Pass auf, dass die Steckverbindung vom Lipo-Akku gut eingerastet ist. Richte die kleine Nut richtig aus und drücke den Stecker ziemlich fest in die Buchse, um eine sichere Verbindung zu bekommen.  Eine schlechte Akkuverbindung kann dazu führen, dass die Loop-Kommunikation fehlschlägt.  Siehe die Beispielfotos unten an.
 
-!!!info "Common new user errors"
+!!!info "Typische Benutzerfehler"
 
-    The most common two errors for new RL owners are (1) not fully pushing in the lipo battery cable connection and (2) failing to charge the RL. Compare your lipo battery cable with the photos; it takes a bit of oomph to push that plug fully in like the photos shown below. Remember to charge your RL each night.
+    Die häufigsten zwei Fehler neuer RL-Besitzer sind (1) nicht vollständig den Lipo-Akkustecker in die Buchse zu schieben und (2) den RL nicht aufzuladen. Vergleichen dein Lipo-Akku-Kabel mit den Fotos; es braucht ein bisschen Kraft, um den Stecker, wie auf dem Foto unten, vollständig in die Buchse zu schieben. Denke daran, deinen RL jede Nacht aufzuladen.
 
 ![../img/rileylink_battery_removal.png](img/battery-cables.jpg)
 
-<figcaption>Loose battery cable on left, Proper battery cable on right</figcaption>
+<figcaption>Lockere Steckverbindung links, richtige Steckverbindung rechts</figcaption>
 
-Finally, the board and the battery fit into the slim case fairly tightly as well.  Click on the image below to watch a helpful [assembly video](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be).
+Schlußendlich passt das kleine Mainboard und der Akku auch nur gerade eben in das kleine Gehäuse.  Klicke auf das Bild unten, um ein hilfreiches [Montagevideo](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be)zu sehen.
 
 [![img/slimcase.png](img/slimcase.png)](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be)
 
