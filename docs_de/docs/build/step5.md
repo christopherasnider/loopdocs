@@ -1,13 +1,13 @@
 # Schritt 5: Bestellung eines RileyLink
 
 !!!Gefahr "Geschätzte Zeit"
-    - 15 minutes to order a RileyLink
-    - 15-20 minutes to assemble the RileyLink once you get it in the mail
-    - 15-20 minutes to read about the RileyLink
+    - 15 Minuten um einen RileyLink zu bestellen
+    - 15-20 Minuten, um den RileyLink zusammenzusetzen, sobald du ihn mit der Post bekommen hast
+    - 15-20 Minuten um über den RileyLink zu lesen
 
 !!! Info "Zusammenfassung"
-    - Order your [Omnipod RileyLink](https://getrileylink.org/product/rileylink433) or [Medtronic RileyLink](https://getrileylink.org/product/rileylink916).
-    - Assemble the RileyLink, after hugging the postman
+    - Bestellen deinen [Omnipod RileyLink](https://getrileylink.org/product/rileylink433) oder [Medtronic RileyLink](https://getrileylink.org/product/rileylink916).
+    - Baue den RileyLink zusammen, nachdem du den Postboten freudig verabschiedet hast
     - Read the "extra details" to learn about RileyLink lights, charging, range, etc.
 
 !!!warning "FAQs"
