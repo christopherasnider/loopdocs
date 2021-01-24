@@ -59,29 +59,29 @@ Der RL kommuniziert mit der Insulinpumpe über Funk.  Zahlreiche Faktoren beeinf
 
 Wenn dein RL und Insulinpumpe zum ersten Mal gekoppelt werden, führt Loop eine Reihe von Tests durch, die du nicht sehen kannst... dieses dienen der Feinabstimmung der Kommunikation. Dabei sendet der RL kleine Testmeldungen an die Insulinpumpe und wartet auf die Antwort. Dein RL versendet das gleiche "ping" an die Insulinpumpe in verschiedenen Funkfrequenzen. Dabei ist der Bereich der getesteten Funkfrequenzen abhängig von deiner Insulinpumpe, die du dem RL über die Loop-Einstellungen mitgeteilt hast (Omnipod, Medtronic WW oder Medtronic NA/CA).  Dein RL merkt sich dann die Funkfrequenzen, die die stärkste Antwortsignale geliefert haben und nutzt diese Frequenzen dann für die zukünftige Kommunikationen mit deiner Insulinpumpe.
 
-Normalerweise ist die beste Funkfrequenz für jede gegebene Pumpe+RL ziemlich konstant, aber bei Temperaturänderungen kann es sein, dass die beste Frequenz nicht die ist, die derzeit eingestellt ist. In the event that RL has problems communicating with the pump, Loop has code built-in that will automatically tell the RL "Hey, try that tuning pump thing again...maybe there's a better frequency we need to try." This retuning is started automatically if pump communications fail for 14 minutes (in other words, two looping cycles).
+Normalerweise ist die beste Funkfrequenz für jede gegebene Pumpe+RL ziemlich konstant, aber bei Temperaturänderungen kann es sein, dass die beste Frequenz nicht die ist, die derzeit eingestellt ist. Für den Falls, dass der RL mal Probleme mit der Kommunikation mit deiner Insulinpumpe hat, hat Loop hat Code eingebaut. Dieser Code ("Hey RL, versuche die Feinabstimmung mit der Pumpe noch einmal... vielleicht gibt es eine bessere Frequenz.") wiederholt automatisch die Suche nach der besten Funkfrequenz. Diese Neuabstimmung findet automatisch statt, wenn die Kommunikation mit der Insulinpumpe 14 Minuten lang ausfällt (d. h. zwei Loop-Zyklen).
 
 ### Bluetooth-Kommunikation
 
-RL communicates with your iPhone and Loop app through Bluetooth (BT).
+Der RL kommuniziert mit deinem iPhone und Loop-App über Bluetooth (BT).
 
-!!!info "Bluetooth Troubleshooting"
+!!!info "Bluetooth Fehlerbehebung"
 
-    If your iPhone has BT issues, your Loop will have failures.  There have been reports of BT audio devices (such as BT pairings in your car or home audio BT speakers) interfering with the Loop.  If you are finding Loop failures frequently happening at a particular location, you may try to troubleshoot if there are BT problems in the area.
+    Wenn dein iPhone BT Probleme hat, funtioniert Loop nicht.  Es gab Berichte über BT-Audiogeräte (wie BT-Verbindungsversuche im Auto oder BT-Heimlautsprecher), die die Loop stören.  Wenn an einem bestimmten Ort häufig Fehler auftreten, solltest du untersuchen, ob es dort Probleme mit BT gibt und diese beheben.
 
-Your BT signal strength can be seen in the Loop settings, under the RL menu, on the `Signal Strength` line. As you move closer and further away from your phone, you can watch that number dynamically change. This line is **not** displaying the signal strength of your pump communications discussed above.
+Die BT-Signalstärke kannst du in den Loop-Einstellungen im RL-Menü unter `Signalstärke` anschauen.  Wenn du dich immer weiter von deinem Telefon entfernst, kannst du beobachten, wie sich diese Nummer dynamisch ändert. Diese Anzeige **zeigt nicht** die Signalstärke der Kommunikation mit deiner Insulinpumpe an.
 
 ![img/RL_bt.jpg](img/RL_bt.jpg)
 
 ### Signallämpchen
 
-RL has several lights that you may notice from time to time. There is no 'power' light. If you suspect that your RL is not being powered, try turning it off and on using the small sliding switch. You should see lights in the middle of the board flash when you do this.  If they flash, that means the board has power.
+Der RL hat mehrere Signallämpchen, die du manchmal bemerken wirst. Es gibt kein spezielles Signallämpchen, welches anzeigt, dasss der Rl auch eingeschaltet ist. Wenn du vermutest, dass dein RL nicht eingeschaltet ist, versuchen ihn mit dem kleinen Schieberegler aus- und wieder einzuschalten. Wenn du das tust, solltest du Signallämpchen auf der Boardmitte aufblinken sehen.  Wenn sie aufblinken bedeutet es, dass das Board über Strom verfügt.
 
-* Red light: Charging light. The red light will remain on while RL is charging, and it will turn off when charging is complete. You may notice the red light turn on periodically even after charging is complete...it's just "topping off".
+* Rotes Signallämpchen: Ladelicht. Das rote Signallämpchen leuchtet während der Akku des RL geladen wird und es geht wieder aus, wenn die Ladung abgeschlossen ist. You may notice the red light turn on periodically even after charging is complete...it's just "topping off".
 
-* Green light: Bluetooth connection light. The green light will remain on while you have a BT connection with your iPhone.  If that green light fails to stay on, you should troubleshoot your BT connections. Try restarting BT on your iPhone and/or turning the RL off/on by its power switch.
+* Grünes Signallämpchen: Bluetooth-Verbindungslicht. The green light will remain on while you have a BT connection with your iPhone.  If that green light fails to stay on, you should troubleshoot your BT connections. Try restarting BT on your iPhone and/or turning the RL off/on by its power switch.
 
-* Blue light: Pump communications.  If you have an older firmware on your RL, some of the blue lights will flash periodically as it communicates with the pump. It's just letting you know that it is busy talking and collecting info. You will also see increased blue flashes if you have "Enabled Diagnostic LEDs" for MDT users that have the RLs with updated firmware (shipping since late August 2018).
+* Blaues Signallämpchen: Insulinpumpenkommunikation.  If you have an older firmware on your RL, some of the blue lights will flash periodically as it communicates with the pump. It's just letting you know that it is busy talking and collecting info. You will also see increased blue flashes if you have "Enabled Diagnostic LEDs" for MDT users that have the RLs with updated firmware (shipping since late August 2018).
 
 A solid blue light that consistently remains lit on the board could mean one of two things:
 
