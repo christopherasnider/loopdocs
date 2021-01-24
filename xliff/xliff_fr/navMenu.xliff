@@ -4,12 +4,12 @@
     <body>
       <trans-unit id="0001">
         <source>Home</source>
-        <target state="needs-translation">Home</target>
+        <target state="translated">Page d’accueil</target>
         <note>index.md</note>
       </trans-unit>
       <trans-unit id="0002">
         <source>FAQs</source>
-        <target state="needs-translation">FAQs</target>
+        <target state="translated">FAQs</target>
         <note/>
       </trans-unit>
       <trans-unit id="0003">
