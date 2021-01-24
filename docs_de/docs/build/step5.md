@@ -87,29 +87,29 @@ Ein permanet leuchtendes blaues Signallämpchen, kann eines von zwei Dingen bede
 
 * Ein temporäres Problem, das durch einen Neustart des RL behoben werden kann (aus- und wieder einschalten) oder
 
-* Ein elektrischer Kurzschluss oder ein Schaden an der Platine.  Schweiß und Feuchtigkeit sind dafür am ehesten der Grund, also versuchen am besten das Gehäuse davon fern zu halten. Don't keep RL in sports bras or waistband next to skin, for example, while exercising.
+* Ein elektrischer Kurzschluss oder ein Schaden an der Platine.  Schweiß und Feuchtigkeit sind dafür am ehesten der Grund, also versuchen am besten das Gehäuse davon fern zu halten. Stecke deshalb den RL z. B. beim Training nicht in einen Sport-BH oder ein Taillenband direkt an der Haut.
 
-If your blue light remains on despite trying a restart, it is time to pull out your backup RL.
+Wenn das blaue Signallämpchen trotz eines Neustarts des RL weiter leuchtet, ist es an der Zeit, deinen Backup-RL fertig zu machen.
 
 ### Aufladen
 
-The battery that comes with RL is not likely charged completely when it is shipped, so feel free to charge it up.  You'll need a [mini-USB cable](https://www.amazon.com/AmazonBasics-USB-2-0-Cable--Male/dp/B00NH13S44) and [0.5A USB charging power supply](https://www.amazon.com/Cellet-Powered-Charger-iPhones-Smartphones-/dp/B00FE8WFCO) like your iPhone power supply.  RL takes about 2 hours to fully charge (the red light will turn off when fully charged, read note above about red light patterns) and should easily last at least a full day of constant Loop use.  Typically, it can go into the 30-hour range without any problems.  Most people charge their RL each night when they are sleeping.  You don't have to worry about leaving the RL plugged in "too long" for charging.  It will automatically stop charging the battery when it is fully charged.
+Der mit dem RL gelieferte Akku wird wahrscheinlich nicht vollständig geladen sein, also zöge nicht ihn aufzuladen.  Dafür benötigst du ein [Mini-USB-Kabel](https://www.amazon.com/AmazonBasics-USB-2-0-Cable--Male/dp/B00NH13S44) und [0.5A USB-Ladesgerät](https://www.amazon.com/Cellet-Powered-Charger-iPhones-Smartphones-/dp/B00FE8WFCO) wie dein iPhone-Ladegerät.  Es dauert ca. 2 Stunden den RL voll zu laden (das rote Signallämpchen schaltet sich ab, wenn er voll geladen ist, lies oben die Hinweise zum roten Signallämpchen) und sollte locker ausreichen, um einen vollen Tag mit Loop zu funktionieren.  Es sollte sogar für ca. 30-Stunden Benutzung ausreichen.  Die meisten laden ihren RL jede Nacht, wenn sie schlafen.  Du musst dir keine Sorgen machen, den RL "zu lang" am Ladegrät angeschlossen zu haben,  sobald der Akku voll ist, hört der Ladevorgang automatisch auf.
 
-Since the best practice is to charge your RL overnight while you sleep, and the battery lasts safely over 24 hours, there is no battery level indicator for the RL.  The RL's charge level is not viewable on Nightscout, nor within the Loop app.  If you forget to charge your RL overnight, you can recharge it with a portable USB battery in a pinch.  A [short mini-USB cable](https://www.adafruit.com/product/899) could be a good addition to a small gear bag.
+Da es am besten ist deinen RL über Nacht zu laden, während du schläfts, und der Akuu danach sicher für 24 Stunden hält, gibt es am RL keine Batterieanzeige.  Der Ladezustand des RL ist weder bei Nightscout, noch in der Loop App sichtbar.  Falls du einmal vergessen hast deinen RL über Nacht aufzuladen, kannst du ihn auch am nächsten Tag mit einem tragbaren USB-Akku aufladen.  Ein [kurzes Mini-USB-Kabel](https://www.adafruit.com/product/899) ist deshalb eine gute Ergänzung für deine Notfall/Diabetikertasche.
 
 ### Funkreichweite
 
-The range that your RL will function is **heavily** dependent on the environment that you are in. Most people wear the RL in a pocket or carry a belt holster during the day. The radio frequency communications will have a shorter range than the BT communications, therefore RL will do better closer to the pump rather than the iPhone if you are deciding on options for carrying gear.
+Der Funkreichweite deines RL ist **stark** von der Umgebung abhängig, in der du dich befindest. Die meisten tragen ihren RL am Tag in der Hosentasche oder an einen Gürtelholster. Die Kommunikation über Funk hat eine kürzere Reichweite, als die BT-Kommunikation. Wenn du also überlegst, wie du den RL am besten trägst, ist es besser den RL dichter an der Insulinpumpe zu haben, als am iPhone.
 
-Problematic environments will be places like technical conferences, sports arenas, and other places where wireless communications are heavy and plenty.
+Problematische Umgebungen sind Orte wie z.B. technische Konferenzen, Sportarenen und andere Plätze, wo andere drahtlose Kommunikation über Funkfrequenzen stark und zahlreich ist.
 
-### Lipo-Batterie
+### Lithium-Polymer Akku
 
-Keep your RL and lipo battery protected from damage.  Lipo batteries are unsafe when damaged or punctured, so the case is an important part of safe Looping. If your battery is damaged in some way, please disconnect it immediately, and dispose of it (they should be recycled). You can order new batteries on the [GetRileyLink website](http://getrileylink.org/)
+Schütze deinen RL und den Lithium-Polymer (Lipo) Akku vor Beschädigungen.  Lipo-Akkus sind gefährlich, wenn sie beschädigt oder durchstochen werden, deshalb ist die Hülle des RL ein wichtiger Teil, um sicher Loop zu benutzen. Wenn dein Lipo-Akku in irgendeiner Weise beschädigt wurde, trennen ihn bitte sofort vom RL und entsorge ihn fachgerecht (du solltest ihn zum Recycling bringen). Einen neuen Akku kannst du auf der [GetRileyLink-Website bestellen](http://getrileylink.org/)
 
 ### Lipo-Batterie herausnehmen
 
-To remove the lipo battery from the RL, please do so slowly and patiently. Work the battery connection side to side slowly to loosen it from the plug. Some people have reported success using small, curved needle-nose pliers such as hemostats. Others have used small flathead screwdrivers as shown in [this video](https://youtu.be/s2qNPLpfwww).
+Nimm dir Zeit und arbeite sorfältig, wenn du den Lipo-Akku aus dem RL herausnimmst. Schiebe den Verbindungsstecker mit einem kleinen Werkzeug langsam und Stück für Stück aus der Buchse, bis du ihn mit den Fingern ganz herausziehen kannst. Some people have reported success using small, curved needle-nose pliers such as hemostats. Others have used small flathead screwdrivers as shown in [this video](https://youtu.be/s2qNPLpfwww).
 
 [![img/rileylink_battery_removal.png](img/rileylink_battery_removal.png)](https://youtu.be/s2qNPLpfwww)
 
