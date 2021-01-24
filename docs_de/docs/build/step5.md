@@ -109,16 +109,16 @@ Schütze deinen RL und den Lithium-Polymer (Lipo) Akku vor Beschädigungen.  Lip
 
 ### Lipo-Batterie herausnehmen
 
-Nimm dir Zeit und arbeite sorfältig, wenn du den Lipo-Akku aus dem RL herausnimmst. Schiebe den Verbindungsstecker mit einem kleinen Werkzeug langsam und Stück für Stück aus der Buchse, bis du ihn mit den Fingern ganz herausziehen kannst. Some people have reported success using small, curved needle-nose pliers such as hemostats. Others have used small flathead screwdrivers as shown in [this video](https://youtu.be/s2qNPLpfwww).
+Nimm dir Zeit und arbeite sorfältig, wenn du den Lipo-Akku aus dem RL herausnimmst. Schiebe den Verbindungsstecker mit einem kleinen Werkzeug langsam und Stück für Stück aus der Buchse, bis du ihn mit den Fingern ganz herausziehen kannst. Einige Leute hatten guten Erfolg mit kleinen, gebogenen Nadelzangen oder Gefässklemmen. Andere haben kleine Schraubenzieher verwendet, wie in [diesem Video](https://youtu.be/s2qNPLpfwww) gezeigt.
 
 [![img/rileylink_battery_removal.png](img/rileylink_battery_removal.png)](https://youtu.be/s2qNPLpfwww)
 
-## Waiting for RileyLink
+## Warte auf deinen RileyLink
 
-Yes, waiting for RL to arrive is extremely difficult if they are backorder.  PLEASE be patient, since Loop CANNOT work without RL.
+Ja, das Warten auf den RL ist kann nervig sein, vor allem wenn sie erst Nachproduziert werden müssen und der internationale Versand noch obendrauf kommt.  Habe Geduld, denn Loop funktioniert nun mal NICHT ohne einen RL.
 
-If you're really dying to do something while RL ships, you can proceed with finishing these build directions all the way through Step 14...but after that you'll have to wait for the RileyLink.  You can't properly enter any settings or pump info in Loop app without the RileyLink.
+Wenn du nicht untätig warten möchtest, während RL unterwegs ist, kannst du mit der Anleitung bis zum Schritt 14 weitermachen... aber danach geht es dann ohne den RileyLink nicht mehr weiter.  Ohne den RileyLink kannst du nämlich keine Einstellungen oder Insulinpumpeninformationen in die Loop-App eingeben.
 
-## Next Step: Enroll in Apple Developer Program
+## Nächster Schritt: Schreibe dich in dem Apple Developer Program ein
 
-Now you are ready to move onto Step 6 to [enroll in the Apple Developer Program](step6.md).
+Jetzt kannst du mit Schritt 6 weitermachen, um [dich im Apple Developer Program](step6.md) einzuschreiben.
