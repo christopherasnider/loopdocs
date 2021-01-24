@@ -1,4 +1,4 @@
-# Schritt 4 Kompatible CGM
+# Schritt 4: Kompatible CGM
 
 !!!Gefahr "Geschätzte Zeit"
 
