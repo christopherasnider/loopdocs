@@ -35,7 +35,7 @@ Es gibt zwei Typen des RileyLinks: [einen für Omnipod](https://getrileylink.org
 
 ## RileyLink zusammenbauen
 
-Dein RileyLink wird in Einzelteilen geliefert, also Akku getrennt, das kleine Mainboard und das Gehäuse. Du wirst den Akku verbinden und alles in das Gehäuse stecken.
+Dein RileyLink wird in Einzelteilen geliefert, also Akku getrennt, die kleine Platine und das Gehäuse. Du wirst den Akku verbinden und alles in das Gehäuse stecken.
 
 Pass auf, dass die Steckverbindung vom Lipo-Akku gut eingerastet ist. Richte die kleine Nut richtig aus und drücke den Stecker ziemlich fest in die Buchse, um eine sichere Verbindung zu bekommen.  Eine schlechte Akkuverbindung kann dazu führen, dass die Loop-Kommunikation fehlschlägt.  Siehe die Beispielfotos unten an.
 
@@ -47,7 +47,7 @@ Pass auf, dass die Steckverbindung vom Lipo-Akku gut eingerastet ist. Richte die
 
 <figcaption>Lockere Steckverbindung links, richtige Steckverbindung rechts</figcaption>
 
-Schlußendlich passt das kleine Mainboard und der Akku auch nur gerade eben in das kleine Gehäuse.  Klicke auf das Bild unten, um ein hilfreiches [Montagevideo](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be) zu sehen.
+Schlußendlich passt die kleine Platine und der Akku auch nur gerade eben in das kleine Gehäuse.  Klicke auf das Bild unten, um ein hilfreiches [Montagevideo](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be) zu sehen.
 
 [![img/slimcase.png](img/slimcase.png)](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be)
 
@@ -75,19 +75,19 @@ Die BT-Signalstärke kannst du in den Loop-Einstellungen im RL-Menü unter `Sign
 
 ### Signallämpchen
 
-Der RL hat mehrere Signallämpchen, die du manchmal bemerken wirst. Es gibt kein spezielles Signallämpchen, welches anzeigt, dasss der Rl auch eingeschaltet ist. Wenn du vermutest, dass dein RL nicht eingeschaltet ist, versuchen ihn mit dem kleinen Schieberegler aus- und wieder einzuschalten. Wenn du das tust, solltest du Signallämpchen auf der Boardmitte aufblinken sehen.  Wenn sie aufblinken bedeutet es, dass das Board über Strom verfügt.
+Der RL hat mehrere Signallämpchen, die du manchmal bemerken wirst. Es gibt kein spezielles Signallämpchen, welches anzeigt, dasss der Rl auch eingeschaltet ist. Wenn du vermutest, dass dein RL nicht eingeschaltet ist, versuchen ihn mit dem kleinen Schieberegler aus- und wieder einzuschalten. Wenn du das tust, solltest du Signallämpchen auf der Boardmitte aufblinken sehen.  Wenn sie aufblinken bedeutet es, dass die Platine über Strom verfügt.
 
-* Rotes Signallämpchen: Ladelicht. Das rote Signallämpchen leuchtet während der Akku des RL geladen wird und es geht wieder aus, wenn die Ladung abgeschlossen ist. You may notice the red light turn on periodically even after charging is complete...it's just "topping off".
+* Rotes Signallämpchen: Ladelicht. Das rote Signallämpchen leuchtet während der Akku des RL geladen wird und es geht wieder aus, wenn die Ladung abgeschlossen ist. Du wirst sehen, dass das rote Signallämpchen periodisch aufleuchtet, auch wenn das Laden abgeschlossen ist... der Akku wird einfach "voll gehalten".
 
-* Grünes Signallämpchen: Bluetooth-Verbindungslicht. The green light will remain on while you have a BT connection with your iPhone.  If that green light fails to stay on, you should troubleshoot your BT connections. Try restarting BT on your iPhone and/or turning the RL off/on by its power switch.
+* Grünes Signallämpchen: Bluetooth-Verbindungslicht. Die grüne Signallämpchen leucht konstant, solange du eine BT-Verbindung mit deinem iPhone hast.  Wenn dieses grüne Signallämpchen nicht leuchtet, musst du eine Fehlersuche der BT-Verbindungen machen. Versuchen BT auf deinem iPhone neu zu starten und/oder den RL aus- und wieder einzuschalten.
 
-* Blaues Signallämpchen: Insulinpumpenkommunikation.  If you have an older firmware on your RL, some of the blue lights will flash periodically as it communicates with the pump. It's just letting you know that it is busy talking and collecting info. You will also see increased blue flashes if you have "Enabled Diagnostic LEDs" for MDT users that have the RLs with updated firmware (shipping since late August 2018).
+* Blaues Signallämpchen: Insulinpumpenkommunikation.  Wenn du eine ältere Firmware auf deinme RL hast, werden einige der blauen Signallämpchen regelmäßig blinken, während der RL mit der Insulinpumpe kommuniziert. Es zeigt nur an, dass es gearde aktiv ist und Informationen austauscht. Du wirst auch häufiger blaues Blinken sehen, wenn du als MDT-Benutzer "DiagnoseLEDs eingeschaltet" hast, die einen RLs mit aktualisierter Firmware hast (Versand seit Ende August 2018).
 
-A solid blue light that consistently remains lit on the board could mean one of two things:
+Ein permanet leuchtendes blaues Signallämpchen, kann eines von zwei Dingen bedeuten:
 
-* A temporary issue that can be resolved by rebooting the RL physically (turning the switch off/on), or
+* Ein temporäres Problem, das durch einen Neustart des RL behoben werden kann (aus- und wieder einschalten) oder
 
-* An electrical short or damage to the board.  Sweat and moisture are most likely culprits, so try to keep case free from those environments. Don't keep RL in sports bras or waistband next to skin, for example, while exercising.
+* Ein elektrischer Kurzschluss oder ein Schaden an der Platine.  Schweiß und Feuchtigkeit sind dafür am ehesten der Grund, also versuchen am besten das Gehäuse davon fern zu halten. Don't keep RL in sports bras or waistband next to skin, for example, while exercising.
 
 If your blue light remains on despite trying a restart, it is time to pull out your backup RL.
 
