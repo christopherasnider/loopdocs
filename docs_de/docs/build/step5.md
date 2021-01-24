@@ -47,7 +47,7 @@ Pass auf, dass die Steckverbindung vom Lipo-Akku gut eingerastet ist. Richte die
 
 <figcaption>Lockere Steckverbindung links, richtige Steckverbindung rechts</figcaption>
 
-Schlußendlich passt das kleine Mainboard und der Akku auch nur gerade eben in das kleine Gehäuse.  Klicke auf das Bild unten, um ein hilfreiches [Montagevideo](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be)zu sehen.
+Schlußendlich passt das kleine Mainboard und der Akku auch nur gerade eben in das kleine Gehäuse.  Klicke auf das Bild unten, um ein hilfreiches [Montagevideo](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be) zu sehen.
 
 [![img/slimcase.png](img/slimcase.png)](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be)
 
@@ -55,11 +55,11 @@ Schlußendlich passt das kleine Mainboard und der Akku auch nur gerade eben in d
 
 ### Funkkommunikation
 
-The RL communicates with the pump through radio frequency communications.  Numerous factors can influence how well those communications can function...interferences from other devices, temperature, physical blocking, etc.
+Der RL kommuniziert mit der Insulinpumpe über Funk.  Zahlreiche Faktoren beeinflussen, wie gut diese Kommunikation funktionieren kann... Störungen von anderen Geräten, Temperatur, physikalische Abschirmung usw.
 
-When your RL and pump are first paired, Loop performs a series of tests that you won't see...they are tuning tests. Basically, RL sends little test messages to the pump and waits for a response. The RL tries this same "ping" to the pump a range of various radio frequencies. The range of radio frequencies it tries is based on the pump you've told RL to expect (Omnipod, Medtronic NA/CA, or Medtronic WW).  RL will then record the radio frequencies that provided the strongest response and use that frequency for future pump communications.
+Wenn dein RL und Insulinpumpe zum ersten Mal gekoppelt werden, führt Loop eine Reihe von Tests durch, die du nicht sehen kannst... dieses dienen der Feinabstimmung der Kommunikation. Dabei sendet der RL kleine Testmeldungen an die Insulinpumpe und wartet auf die Antwort. Dein RL versendet das gleiche "ping" an die Insulinpumpe in verschiedenen Funkfrequenzen. Dabei ist der Bereich der getesteten Funkfrequenzen abhängig von deiner Insulinpumpe, die du dem RL über die Loop-Einstellungen mitgeteilt hast (Omnipod, Medtronic WW oder Medtronic NA/CA).  Dein RL merkt sich dann die Funkfrequenzen, die die stärkste Antwortsignale geliefert haben und nutzt diese Frequenzen dann für die zukünftige Kommunikationen mit deiner Insulinpumpe.
 
-Usually this best frequency is pretty constant for any given pump+RL, but during temperature changes it may be that the best frequency is not the one currently set. In the event that RL has problems communicating with the pump, Loop has code built-in that will automatically tell the RL "Hey, try that tuning pump thing again...maybe there's a better frequency we need to try." This retuning is started automatically if pump communications fail for 14 minutes (in other words, two looping cycles).
+Normalerweise ist die beste Funkfrequenz für jede gegebene Pumpe+RL ziemlich konstant, aber bei Temperaturänderungen kann es sein, dass die beste Frequenz nicht die ist, die derzeit eingestellt ist. In the event that RL has problems communicating with the pump, Loop has code built-in that will automatically tell the RL "Hey, try that tuning pump thing again...maybe there's a better frequency we need to try." This retuning is started automatically if pump communications fail for 14 minutes (in other words, two looping cycles).
 
 ### Bluetooth-Kommunikation
 
