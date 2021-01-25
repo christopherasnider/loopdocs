@@ -4,10 +4,10 @@
     - 5 minutes, si vous avez déjà Mojave ou Catalina macOS
     - 30-60 minutes, si besoin d’installer des mises à jour macOS
 
-!!!info "Summary"
-    - Check your macOS and make sure it is Mojave or Catalina. **If you have the latest iOS version on the iPhone that will be using Loop...then you need Catalina.**
-    - Do not use any of the beta macOS versions. (If you don't know what that means, don't worry...that means you aren't using one.)
-    - If your macOS is not Mojave or Catalina, check to see if you can up update your macOS to one of those.
+!!!info "Résumé"
+    - Vérifiez votre macOS et assurez-vous qu'il s'agit de Mojave ou de Catalina. **Si vous avez la dernière version d'iOS sur l'iPhone qui utilisera Loop...alors vous avez besoin de Catalina.**
+    - N’utilisez aucune des versions bêta de macOS. (Si vous ne savez pas ce que cela signifie, ne vous inquiétez pas... cela signifie que vous n'en utilisez pas.)
+    - Si votre macOS n'est ni Mojave ni Catalina, vérifiez si vous pouvez mettre à jour votre macOS pour l'un des 2.
     - If you cannot upgrade your existing computer to Mojave or Catalina, you'll need to check into a borrowed computer, patcher tool, or perhaps a new/used computer compatible with Mojave or Catalina.
     - Check the `Software Update` to see if your computer has any updates available since you first installed it.
 
