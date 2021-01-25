@@ -14,22 +14,22 @@
       </trans-unit>
       <trans-unit id="0003">
         <source>Using This Site FAQs</source>
-        <target state="needs-translation">Using This Site FAQs</target>
+        <target state="translated">FAQs d'utilisation de ce site</target>
         <note>faqs/docs-faqs.md</note>
       </trans-unit>
       <trans-unit id="0004">
         <source>General Loop FAQs</source>
-        <target state="needs-translation">General Loop FAQs</target>
+        <target state="translated">FAQs de Loop</target>
         <note>faqs/FAQs.md</note>
       </trans-unit>
       <trans-unit id="0005">
         <source>Omnipod FAQs</source>
-        <target state="needs-translation">Omnipod FAQs</target>
+        <target state="translated">FAQ sur Omnipod</target>
         <note>faqs/omnipod-faqs.md</note>
       </trans-unit>
       <trans-unit id="0006">
         <source>Branch FAQs</source>
-        <target state="needs-translation">Branch FAQs</target>
+        <target state="translated">FAQ sur les branches</target>
         <note>faqs/branch-faqs.md</note>
       </trans-unit>
       <trans-unit id="0007">
@@ -69,52 +69,52 @@
       </trans-unit>
       <trans-unit id="0014">
         <source>Overview</source>
-        <target state="needs-translation">Overview</target>
+        <target state="translated">Présentation</target>
         <note>build/overview.md</note>
       </trans-unit>
       <trans-unit id="0015">
         <source>Step 1 Compatible Computer</source>
-        <target state="needs-translation">Step 1 Compatible Computer</target>
+        <target state="translated">Étape 1 : Compatibilité de l'Ordinateur</target>
         <note>build/step1.md</note>
       </trans-unit>
       <trans-unit id="0016">
         <source>Step 2 Compatible iPhone/iPod touch</source>
-        <target state="needs-translation">Step 2 Compatible iPhone/iPod touch</target>
+        <target state="translated">Étape 2 Compatibilité de l'iPhone/iPod touch</target>
         <note>build/step2.md</note>
       </trans-unit>
       <trans-unit id="0017">
         <source>Step 3 Compatible Pump</source>
-        <target state="needs-translation">Step 3 Compatible Pump</target>
+        <target state="translated">Étape 3 : Compatibilité de la Pompe</target>
         <note>build/step3.md</note>
       </trans-unit>
       <trans-unit id="0018">
         <source>Step 4 Compatible CGM</source>
-        <target state="needs-translation">Step 4 Compatible CGM</target>
+        <target state="translated">Étape 4 : Compatibilité du MGC (CGM)</target>
         <note>build/step4.md</note>
       </trans-unit>
       <trans-unit id="0019">
         <source>Step 5 Order a RileyLink</source>
-        <target state="needs-translation">Step 5 Order a RileyLink</target>
+        <target state="translated">Étape 5 Commander un RileyLink</target>
         <note>build/step5.md</note>
       </trans-unit>
       <trans-unit id="0020">
         <source>Step 6 Enroll in Apple Developer Program</source>
-        <target state="needs-translation">Step 6 Enroll in Apple Developer Program</target>
+        <target state="translated">Étape 6 S'inscrire dans le programme de développement Apple</target>
         <note>build/step6.md</note>
       </trans-unit>
       <trans-unit id="0021">
         <source>Step 7 Install Homebrew</source>
-        <target state="needs-translation">Step 7 Install Homebrew</target>
+        <target state="translated">Étape 7 Installer Homebrew</target>
         <note>build/step7.md</note>
       </trans-unit>
       <trans-unit id="0022">
         <source>Step 8 Download Xcode</source>
-        <target state="needs-translation">Step 8 Download Xcode</target>
+        <target state="translated">Étape 8 Télécharger Xcode</target>
         <note>build/step8.md</note>
       </trans-unit>
       <trans-unit id="0023">
         <source>Step 9 Xcode Preferences</source>
-        <target state="needs-translation">Step 9 Xcode Preferences</target>
+        <target state="translated">Étape 9 Préférences d'Xcode</target>
         <note>build/step9.md</note>
       </trans-unit>
       <trans-unit id="0024">
@@ -149,7 +149,7 @@
       </trans-unit>
       <trans-unit id="0030">
         <source>Customize your Loop</source>
-        <target state="needs-translation">Customize your Loop</target>
+        <target state="translated">Personnalisez votre Loop</target>
         <note>build/code_customization.md</note>
       </trans-unit>
       <trans-unit id="0031">
@@ -159,37 +159,37 @@
       </trans-unit>
       <trans-unit id="0032">
         <source>LoopWorkspace</source>
-        <target state="needs-translation">LoopWorkspace</target>
+        <target state="translated">LoopWorkspace</target>
         <note>build/loopworkspace.md</note>
       </trans-unit>
       <trans-unit id="0033">
         <source>Set up App</source>
-        <target state="needs-translation">Set up App</target>
+        <target state="translated">Configurer l'application</target>
         <note/>
       </trans-unit>
       <trans-unit id="0034">
         <source>Overview</source>
-        <target state="needs-translation">Overview</target>
+        <target state="translated">Présentation</target>
         <note>operation/overview.md</note>
       </trans-unit>
       <trans-unit id="0035">
         <source>Step 1 Health Permissions</source>
-        <target state="needs-translation">Step 1 Health Permissions</target>
+        <target state="translated">Étape 1 Autorisations de Santé</target>
         <note>build/health.md</note>
       </trans-unit>
       <trans-unit id="0036">
         <source>Step 2 Add Pump</source>
-        <target state="needs-translation">Step 2 Add Pump</target>
+        <target state="translated">Étape 2 Ajouter une pompe</target>
         <note/>
       </trans-unit>
       <trans-unit id="0037">
         <source>Add Medtronic</source>
-        <target state="needs-translation">Add Medtronic</target>
+        <target state="translated">Ajouter une pompe Medtronic</target>
         <note>operation/loop-settings/mdt-pump.md</note>
       </trans-unit>
       <trans-unit id="0038">
         <source>Add Omnipod</source>
-        <target state="needs-translation">Add Omnipod</target>
+        <target state="translated">Ajouter une pompe Omnipod</target>
         <note>operation/loop-settings/omnipod-pump.md</note>
       </trans-unit>
       <trans-unit id="0039">
