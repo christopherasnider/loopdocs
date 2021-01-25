@@ -24,47 +24,47 @@
       </trans-unit>
       <trans-unit id="0005">
         <source>Omnipod FAQs</source>
-        <target state="translated">FAQ sur Omnipod</target>
+        <target state="translated">FAQs sur Omnipod</target>
         <note>faqs/omnipod-faqs.md</note>
       </trans-unit>
       <trans-unit id="0006">
         <source>Branch FAQs</source>
-        <target state="translated">FAQ sur les branches</target>
+        <target state="translated">FAQs sur les branches</target>
         <note>faqs/branch-faqs.md</note>
       </trans-unit>
       <trans-unit id="0007">
         <source>Update/Rebuild Loop FAQs</source>
-        <target state="needs-translation">Update/Rebuild Loop FAQs</target>
+        <target state="translated">FAQs sur les modifications/Reconstruction de Loop</target>
         <note>faqs/update-faqs.md</note>
       </trans-unit>
       <trans-unit id="0008">
         <source>iOS 13 FAQs</source>
-        <target state="needs-translation">iOS 13 FAQs</target>
+        <target state="translated">FAQs sur iOS 13</target>
         <note>faqs/ios13.md</note>
       </trans-unit>
       <trans-unit id="0009">
         <source>RileyLink FAQs</source>
-        <target state="needs-translation">RileyLink FAQs</target>
+        <target state="translated">FAQs sur le RileyLink</target>
         <note>faqs/rileylink-faqs.md</note>
       </trans-unit>
       <trans-unit id="0010">
         <source>Algorithm FAQs</source>
-        <target state="needs-translation">Algorithm FAQs</target>
+        <target state="translated">FAQs sur les Algorithmes</target>
         <note>faqs/algorithm-faqs.md</note>
       </trans-unit>
       <trans-unit id="0011">
         <source>CGM FAQs</source>
-        <target state="needs-translation">CGM FAQs</target>
+        <target state="translated">FAQs sur les MGC</target>
         <note>faqs/cgm-faqs.md</note>
       </trans-unit>
       <trans-unit id="0012">
         <source>Safety Tips</source>
-        <target state="needs-translation">Safety Tips</target>
+        <target state="translated">Astuces de Sécurité</target>
         <note>faqs/safety-faqs.md</note>
       </trans-unit>
       <trans-unit id="0013">
         <source>Build App</source>
-        <target state="needs-translation">Build App</target>
+        <target state="translated">Fabriquez l'Application</target>
         <note/>
       </trans-unit>
       <trans-unit id="0014">
@@ -119,32 +119,32 @@
       </trans-unit>
       <trans-unit id="0024">
         <source>Step 10 Test Settings</source>
-        <target state="needs-translation">Step 10 Test Settings</target>
+        <target state="translated">Étape 10 Les réglages de test</target>
         <note>build/step10.md</note>
       </trans-unit>
       <trans-unit id="0025">
         <source>Step 11 Make plans for Loop Data</source>
-        <target state="needs-translation">Step 11 Make plans for Loop Data</target>
+        <target state="translated">Étape 11 Faire des plans pour les données de Loop</target>
         <note>build/step11.md</note>
       </trans-unit>
       <trans-unit id="0026">
         <source>Step 12 Meet Community</source>
-        <target state="needs-translation">Step 12 Meet Community</target>
+        <target state="translated">Étape 12 Rencontrez la communauté</target>
         <note>build/step12.md</note>
       </trans-unit>
       <trans-unit id="0027">
         <source>Step 13 Download Loop code</source>
-        <target state="needs-translation">Step 13 Download Loop code</target>
+        <target state="translated">Étape 13 Télécharger le code source de Loop</target>
         <note>build/step13.md</note>
       </trans-unit>
       <trans-unit id="0028">
         <source>Step 14 Build Loop app</source>
-        <target state="needs-translation">Step 14 Build Loop app</target>
+        <target state="translated">Étape 14 Construire l'Application Loop</target>
         <note>build/step14.md</note>
       </trans-unit>
       <trans-unit id="0029">
         <source>Oh dear! Build errors?</source>
-        <target state="needs-translation">Oh dear! Build errors?</target>
+        <target state="translated">Ho non ! J'ai des erreurs de compilation ?</target>
         <note>build/build_errors.md</note>
       </trans-unit>
       <trans-unit id="0030">
@@ -154,7 +154,7 @@
       </trans-unit>
       <trans-unit id="0031">
         <source>Updating/Rebuilding your Loop</source>
-        <target state="needs-translation">Updating/Rebuilding your Loop</target>
+        <target state="translated">Mise à jour/Reconstruction de votre Loop</target>
         <note>build/updating.md</note>
       </trans-unit>
       <trans-unit id="0032">
@@ -194,157 +194,157 @@
       </trans-unit>
       <trans-unit id="0039">
         <source>Step 3 Add CGM</source>
-        <target state="needs-translation">Step 3 Add CGM</target>
+        <target state="translated">Étape 3 Ajouter le MGC</target>
         <note>operation/loop-settings/cgm.md</note>
       </trans-unit>
       <trans-unit id="0040">
         <source>Step 4 Configurations</source>
-        <target state="needs-translation">Step 4 Configurations</target>
+        <target state="translated">Étape 4 Configurations</target>
         <note>operation/loop-settings/configurations.md</note>
       </trans-unit>
       <trans-unit id="0041">
         <source>Step 5 Loop Services</source>
-        <target state="needs-translation">Step 5 Loop Services</target>
+        <target state="translated">Étape 5 Services de Loop</target>
         <note>operation/loop-settings/services.md</note>
       </trans-unit>
       <trans-unit id="0042">
         <source>Loop Displays</source>
-        <target state="needs-translation">Loop Displays</target>
+        <target state="translated">Affichages de Loop</target>
         <note>operation/loop-settings/displays.md</note>
       </trans-unit>
       <trans-unit id="0043">
         <source>RileyLink menu</source>
-        <target state="needs-translation">RileyLink menu</target>
+        <target state="translated">Menu RileyLink</target>
         <note>operation/loop-settings/rileylink.md</note>
       </trans-unit>
       <trans-unit id="0044">
         <source>Operate</source>
-        <target state="needs-translation">Operate</target>
+        <target state="translated">Exploiter</target>
         <note/>
       </trans-unit>
       <trans-unit id="0045">
         <source>How to Use Loop App</source>
-        <target state="needs-translation">How to Use Loop App</target>
+        <target state="translated">Comment utiliser l’application Loop</target>
         <note/>
       </trans-unit>
       <trans-unit id="0046">
         <source>Carb Entries</source>
-        <target state="needs-translation">Carb Entries</target>
+        <target state="translated">Entrées de Glucides</target>
         <note>operation/features/carbs.md</note>
       </trans-unit>
       <trans-unit id="0047">
         <source>Bolus</source>
-        <target state="needs-translation">Bolus</target>
+        <target state="translated">Bolus</target>
         <note>operation/features/bolus.md</note>
       </trans-unit>
       <trans-unit id="0048">
         <source>Overrides</source>
-        <target state="needs-translation">Overrides</target>
+        <target state="translated">Substitutions</target>
         <note>operation/features/workout.md</note>
       </trans-unit>
       <trans-unit id="0049">
         <source>Pre-meal target</source>
-        <target state="needs-translation">Pre-meal target</target>
+        <target state="translated">Objectif de Pré-Repas</target>
         <note>operation/features/premeal.md</note>
       </trans-unit>
       <trans-unit id="0050">
         <source>Health app</source>
-        <target state="needs-translation">Health app</target>
+        <target state="translated">Application Santé</target>
         <note>operation/features/healthapp.md</note>
       </trans-unit>
       <trans-unit id="0051">
         <source>Using ICE info</source>
-        <target state="needs-translation">Using ICE info</target>
+        <target state="translated">Utiliser les informations ICE</target>
         <note>operation/features/ice.md</note>
       </trans-unit>
       <trans-unit id="0052">
         <source>Apple Watch</source>
-        <target state="needs-translation">Apple Watch</target>
+        <target state="translated">Apple Watch</target>
         <note>operation/features/watch.md</note>
       </trans-unit>
       <trans-unit id="0053">
         <source>iPhone widget</source>
-        <target state="needs-translation">iPhone widget</target>
+        <target state="translated">Widget iPhone</target>
         <note>operation/features/widget.md</note>
       </trans-unit>
       <trans-unit id="0054">
         <source>Loop Notifications</source>
-        <target state="needs-translation">Loop Notifications</target>
+        <target state="translated">Notifications de Loop</target>
         <note>operation/features/notifications.md</note>
       </trans-unit>
       <trans-unit id="0055">
         <source>Pump Battery</source>
-        <target state="needs-translation">Pump Battery</target>
+        <target state="translated">Batterie de la pompe</target>
         <note>operation/features/battery.md</note>
       </trans-unit>
       <trans-unit id="0056">
         <source>Looping Tips</source>
-        <target state="needs-translation">Looping Tips</target>
+        <target state="translated">Conseils sur Loop</target>
         <note/>
       </trans-unit>
       <trans-unit id="0057">
         <source>Open Loop</source>
-        <target state="needs-translation">Open Loop</target>
+        <target state="translated">Boucle Ouverte</target>
         <note>operation/loop/open-loop.md</note>
       </trans-unit>
       <trans-unit id="0058">
         <source>Closed Loop</source>
-        <target state="needs-translation">Closed Loop</target>
+        <target state="translated">Boucle Fermée</target>
         <note>operation/loop/close-loop.md</note>
       </trans-unit>
       <trans-unit id="0059">
         <source>Loop Tips</source>
-        <target state="needs-translation">Loop Tips</target>
+        <target state="translated">Conseils sur Loop</target>
         <note>operation/loop/looptips.md</note>
       </trans-unit>
       <trans-unit id="0060">
         <source>Algorithm</source>
-        <target state="needs-translation">Algorithm</target>
+        <target state="translated">Algorithme</target>
         <note/>
       </trans-unit>
       <trans-unit id="0061">
         <source>Overview</source>
-        <target state="needs-translation">Overview</target>
+        <target state="translated">Présentation</target>
         <note>operation/algorithm/overview.md</note>
       </trans-unit>
       <trans-unit id="0062">
         <source>Bolus Recommendations</source>
-        <target state="needs-translation">Bolus Recommendations</target>
+        <target state="translated">Recommandations de Bolus</target>
         <note>operation/algorithm/bolus.md</note>
       </trans-unit>
       <trans-unit id="0063">
         <source>Glucose Prediction</source>
-        <target state="needs-translation">Glucose Prediction</target>
+        <target state="translated">Prédiction de Glycémie</target>
         <note>operation/algorithm/prediction.md</note>
       </trans-unit>
       <trans-unit id="0064">
         <source>Temp Basal Adjustments</source>
-        <target state="needs-translation">Temp Basal Adjustments</target>
+        <target state="translated">Ajustements Basal Temporaires</target>
         <note>operation/algorithm/temp-basal.md</note>
       </trans-unit>
       <trans-unit id="0065">
         <source>Troubleshoot</source>
-        <target state="needs-translation">Troubleshoot</target>
+        <target state="translated">Dépannage</target>
         <note/>
       </trans-unit>
       <trans-unit id="0066">
         <source>Overview</source>
-        <target state="needs-translation">Overview</target>
+        <target state="translated">Présentation</target>
         <note>troubleshooting/overview.md</note>
       </trans-unit>
       <trans-unit id="0067">
         <source>Loop App crashes</source>
-        <target state="needs-translation">Loop App crashes</target>
+        <target state="translated">Les plantages de Loop</target>
         <note>troubleshooting/loop-crashing.md</note>
       </trans-unit>
       <trans-unit id="0068">
         <source>Red Loop</source>
-        <target state="needs-translation">Red Loop</target>
+        <target state="translated">La boucle de Loop est rouge</target>
         <note>troubleshooting/yellow-red-loop.md</note>
       </trans-unit>
       <trans-unit id="0069">
         <source>Pod Pairing Failures</source>
-        <target state="needs-translation">Pod Pairing Failures</target>
+        <target state="translated">Défaillances de jumelage du Pod</target>
         <note>troubleshooting/pod-pairing.md</note>
       </trans-unit>
       <trans-unit id="0070">
@@ -369,17 +369,17 @@
       </trans-unit>
       <trans-unit id="0074">
         <source>Omnipod Faults</source>
-        <target state="needs-translation">Omnipod Faults</target>
+        <target state="translated">Les erreurs de l'Omnipod</target>
         <note>troubleshooting/omnipod-faults.md</note>
       </trans-unit>
       <trans-unit id="0075">
         <source>Nightscout</source>
-        <target state="needs-translation">Nightscout</target>
+        <target state="translated">Nightscout</target>
         <note/>
       </trans-unit>
       <trans-unit id="0076">
         <source>Overview</source>
-        <target state="needs-translation">Overview</target>
+        <target state="translated">Présentation</target>
         <note>nightscout/overview.md</note>
       </trans-unit>
       <trans-unit id="0077">
@@ -404,22 +404,22 @@
       </trans-unit>
       <trans-unit id="0081">
         <source>IFTTT</source>
-        <target state="needs-translation">IFTTT</target>
+        <target state="translated">IFTTT</target>
         <note>nightscout/ifttt.md</note>
       </trans-unit>
       <trans-unit id="0082">
         <source>Pebble</source>
-        <target state="needs-translation">Pebble</target>
+        <target state="translated">Pebble</target>
         <note>nightscout/pebble.md</note>
       </trans-unit>
       <trans-unit id="0083">
         <source>Remote Notifications</source>
-        <target state="needs-translation">Remote Notifications</target>
+        <target state="translated">Notifications à distance</target>
         <note>nightscout/pushover.md</note>
       </trans-unit>
       <trans-unit id="0084">
         <source>Reports</source>
-        <target state="needs-translation">Reports</target>
+        <target state="translated">Rapports</target>
         <note>nightscout/reports.md</note>
       </trans-unit>
       <trans-unit id="0085">
@@ -429,7 +429,7 @@
       </trans-unit>
       <trans-unit id="0086">
         <source>Translate Loopdocs</source>
-        <target state="needs-translation">Translate Loopdocs</target>
+        <target state="translated">Traduire la Loopdocs</target>
         <note>payitforward/translateloopdocs.md</note>
       </trans-unit>
     </body>
