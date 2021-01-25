@@ -21,10 +21,10 @@ Loop a été développé comme un projet open-source et partagé.  Pour une lect
 * Une table des matières pour la page courante est toujours affichée sur le côté gauche de l'écran.
 * Vous pouvez chercher dans le Site Loop Docs en cliquant sur l'icône <img src="img/search_icon.png" width="50px" />. ![img/search_example.png](img/search_example.png)
 
-## Restez dans la boucle! (Loop en anglais)
+## Restez dans la boucle ! (Loop en anglais)
 
 [Inscrivez-vous à la liste d'annonces des utilisateurs de Loop](https://groups.google.com/forum/#!forum/loop-ios-users) pour rester informé des problèmes critiques qui peuvent survenir. Rejoignez le Zulipchat via [https://loop.zulipchat.com](https://loop.zulipchat.com) Il y a aussi un [groupe Facebook Loop](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf) que vous pourriez souhaiter rejoindre pour obtenir de l'aide.  Lorsque vous demandez à rejoindre le groupe, n'oubliez pas de vérifier votre boîte de messages sur facebook et de répondre au message.
 
 ## Contribuer
 
-Veuillez envisager de soumettre toutes les mises à jour et améliorations à la documentation que vous souhaitez partager en soumettant une "Pull Request" au dépôt [loopdocs](https://github.com/LoopKit/loopdocs). Pour plus d'informations sur la façon de contribuer à un projet open-source, ce guide [Comment contribuer à l'Open Source](https://opensource.guide/how-to-contribute/) peut être utile. Aussi, veuillez consulter la [LICENSE](https://github.com/LoopKit/Loop/blob/master/LICENSE.md) Loop et le [CODE_OF_CONDUCT](https://github.com/LoopKit/Loop/blob/master/CODE_OF_CONDUCT.md) Loop.
+Veuillez envisager de soumettre toutes les mises à jour et améliorations à la documentation que vous souhaitez partager en soumettant une "Pull Request" au dépôt [loopdocs](https://github.com/LoopKit/loopdocs). Pour plus d'informations sur la façon de contribuer à un projet open-source, ce guide [Comment contribuer à l'Open Source](https://opensource.guide/how-to-contribute/) peut être utile. Aussi, veuillez consulter la [LICENSE](https://github.com/LoopKit/Loop/blob/master/LICENSE.md) Loop et le [CODE_OF_CONDUCT](https://github.com/LoopKit/Loop/blob/master/CODE_OF_CONDUCT.md) de Loop.
