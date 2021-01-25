@@ -81,19 +81,19 @@ Der RL hat mehrere Status-LEDs, die du manchmal bemerken wirst. Es gibt keine sp
 
 * Grüne Status-LED: Bluetooth-Verbindungslicht. Die grüne Status-LED leucht konstant, solange du eine BT-Verbindung mit deinem iPhone hast.  Wenn diese grüne Status-LED nicht leuchtet, musst du eine Fehlersuche der BT-Verbindungen machen. Versuchen BT auf deinem iPhone neu zu starten und/oder den RL aus- und wieder einzuschalten.
 
-* Blaue Status-LED: Insulinpumpenkommunikation.  Wenn du eine ältere Firmware auf deinme RL hast, werden einige der blauen Signallämpchen regelmäßig blinken, während der RL mit der Insulinpumpe kommuniziert. Es zeigt nur an, dass es gearde aktiv ist und Informationen austauscht. Du wirst auch häufiger blaues Blinken sehen, wenn du als MDT-Benutzer "DiagnoseLEDs eingeschaltet" hast, die einen RLs mit aktualisierter Firmware hast (Versand seit Ende August 2018).
+* Blaue Status-LED: Insulinpumpenkommunikation.  Wenn du eine ältere Firmware auf deinme RL hast, werden einige der blauen Status-LEDs regelmäßig blinken, während der RL mit der Insulinpumpe kommuniziert. Es zeigt nur an, dass es gearde aktiv ist und Informationen austauscht. Du wirst auch häufiger blaues Blinken sehen, wenn du als MDT-Benutzer "DiagnoseLEDs eingeschaltet" hast, die einen RLs mit aktualisierter Firmware hast (Versand seit Ende August 2018).
 
-Ein permanet leuchtendes blaues Signallämpchen, kann eines von zwei Dingen bedeuten:
+Eine permanet leuchtende blaue Status-LED, kann eines von zwei Dingen bedeuten:
 
 * Ein temporäres Problem, das durch einen Neustart des RL behoben werden kann (aus- und wieder einschalten) oder
 
 * Ein elektrischer Kurzschluss oder ein Schaden an der Platine.  Schweiß und Feuchtigkeit sind dafür am ehesten der Grund, also versuchen am besten das Gehäuse davon fern zu halten. Stecke deshalb den RL z. B. beim Training nicht in einen Sport-BH oder ein Taillenband direkt an der Haut.
 
-Wenn das blaue Signallämpchen trotz eines Neustarts des RL weiter leuchtet, ist es an der Zeit, deinen Backup-RL fertig zu machen.
+Wenn die blaue Status-LED trotz eines Neustarts des RL weiter leuchtet, ist es an der Zeit, deinen Backup-RL fertig zu machen.
 
 ### Aufladen
 
-Der mit dem RL gelieferte Akku wird wahrscheinlich nicht vollständig geladen sein, also zöge nicht ihn aufzuladen.  Dafür benötigst du ein [Mini-USB-Kabel](https://www.amazon.com/AmazonBasics-USB-2-0-Cable--Male/dp/B00NH13S44) und [0.5A USB-Ladesgerät](https://www.amazon.com/Cellet-Powered-Charger-iPhones-Smartphones-/dp/B00FE8WFCO) wie dein iPhone-Ladegerät.  Es dauert ca. 2 Stunden den RL voll zu laden (das rote Signallämpchen schaltet sich ab, wenn er voll geladen ist, lies oben die Hinweise zum roten Signallämpchen) und sollte locker ausreichen, um einen vollen Tag mit Loop zu funktionieren.  Es sollte sogar für ca. 30-Stunden Benutzung ausreichen.  Die meisten laden ihren RL jede Nacht, wenn sie schlafen.  Du musst dir keine Sorgen machen, den RL "zu lang" am Ladegrät angeschlossen zu haben,  sobald der Akku voll ist, hört der Ladevorgang automatisch auf.
+Der mit dem RL gelieferte Akku wird wahrscheinlich nicht vollständig geladen sein, also zöge nicht ihn aufzuladen.  Dafür benötigst du ein [Mini-USB-Kabel](https://www.amazon.com/AmazonBasics-USB-2-0-Cable--Male/dp/B00NH13S44) und [0.5A USB-Ladesgerät](https://www.amazon.com/Cellet-Powered-Charger-iPhones-Smartphones-/dp/B00FE8WFCO) wie dein iPhone-Ladegerät.  Es dauert ca. 2 Stunden den RL voll zu laden (die rote Status-LED schaltet sich ab, wenn er voll geladen ist, lies oben die Hinweise zu der roten Status-LED) und sollte locker ausreichen, um einen vollen Tag mit Loop zu funktionieren.  Es sollte sogar für ca. 30-Stunden Benutzung ausreichen.  Die meisten laden ihren RL jede Nacht, wenn sie schlafen.  Du musst dir keine Sorgen machen, den RL "zu lang" am Ladegrät angeschlossen zu haben,  sobald der Akku voll ist, hört der Ladevorgang automatisch auf.
 
 Da es am besten ist deinen RL über Nacht zu laden, während du schläfts, und der Akuu danach sicher für 24 Stunden hält, gibt es am RL keine Batterieanzeige.  Der Ladezustand des RL ist weder bei Nightscout, noch in der Loop App sichtbar.  Falls du einmal vergessen hast deinen RL über Nacht aufzuladen, kannst du ihn auch am nächsten Tag mit einem tragbaren USB-Akku aufladen.  Ein [kurzes Mini-USB-Kabel](https://www.adafruit.com/product/899) ist deshalb eine gute Ergänzung für deine Notfall/Diabetikertasche.
 
@@ -117,7 +117,7 @@ Nimm dir Zeit und arbeite sorfältig, wenn du den Lipo-Akku aus dem RL herausnim
 
 Ja, das Warten auf den RL ist kann nervig sein, vor allem wenn sie erst Nachproduziert werden müssen und der internationale Versand noch obendrauf kommt.  Habe Geduld, denn Loop funktioniert nun mal NICHT ohne einen RL.
 
-Wenn du nicht untätig warten möchtest, während RL unterwegs ist, kannst du mit der Anleitung bis zum Schritt 14 weitermachen... aber danach geht es dann ohne den RileyLink nicht mehr weiter.  Ohne den RileyLink kannst du nämlich keine Einstellungen oder Insulinpumpeninformationen in die Loop-App eingeben.
+Wenn du nicht untätig warten möchtest, während dein RL unterwegs ist, kannst du mit der Anleitung bis zum Schritt 14 weitermachen... aber danach geht es dann ohne den RileyLink nicht mehr weiter.  Ohne den RileyLink kannst du nämlich keine Einstellungen oder Insulinpumpeninformationen in die Loop-App eingeben.
 
 ## Nächster Schritt: Schreibe dich in dem Apple Developer Program ein
 
