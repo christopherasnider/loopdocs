@@ -1,4 +1,4 @@
-# Schritt 3 Kompatible Pumpen
+# Schritt 3: Kompatible Pumpen
 
 !!!Gefahr "Geschätzte Zeit"
     - Omnipod Benutzer: 3 Sekunden, um sich zu erinnern, welchen PDM du verwendest hast.
