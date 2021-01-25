@@ -47,7 +47,7 @@ Pass auf, dass die Steckverbindung vom Lipo-Akku gut eingerastet ist. Richte die
 
 <figcaption>Lockere Steckverbindung links, richtige Steckverbindung rechts</figcaption>
 
-Schlußendlich passt die kleine Platine und der Akku auch nur gerade eben in das kleine Gehäuse.  Klicke auf das Bild unten, um ein hilfreiches [Montagevideo](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be) zu sehen.
+Schlußendlich passt die Platine und der Akku auch nur gerade eben in das kleine Gehäuse.  Klicke auf das Bild unten, um ein hilfreiches [Montagevideo](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be) zu sehen.
 
 [![img/slimcase.png](img/slimcase.png)](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be)
 
@@ -73,15 +73,15 @@ Die BT-Signalstärke kannst du in den Loop-Einstellungen im RL-Menü unter `Sign
 
 ![img/RL_bt.jpg](img/RL_bt.jpg)
 
-### Signallämpchen
+### Status-LEDs
 
-Der RL hat mehrere Signallämpchen, die du manchmal bemerken wirst. Es gibt kein spezielles Signallämpchen, welches anzeigt, dasss der Rl auch eingeschaltet ist. Wenn du vermutest, dass dein RL nicht eingeschaltet ist, versuchen ihn mit dem kleinen Schieberegler aus- und wieder einzuschalten. Wenn du das tust, solltest du Signallämpchen auf der Boardmitte aufblinken sehen.  Wenn sie aufblinken bedeutet es, dass die Platine über Strom verfügt.
+Der RL hat mehrere Status-LEDs, die du manchmal bemerken wirst. Es gibt keine spezielle Status-LED, welches anzeigt, dasss der Rl auch eingeschaltet ist. Wenn du vermutest, dass dein RL nicht eingeschaltet ist, versuchen ihn mit dem kleinen Schieberegler aus- und wieder einzuschalten. Wenn du das tust, solltest du Status-LEDs auf der Boardmitte aufblinken sehen.  Wenn sie aufblinken bedeutet es, dass die Platine über Strom verfügt.
 
-* Rotes Signallämpchen: Ladelicht. Das rote Signallämpchen leuchtet während der Akku des RL geladen wird und es geht wieder aus, wenn die Ladung abgeschlossen ist. Du wirst sehen, dass das rote Signallämpchen periodisch aufleuchtet, auch wenn das Laden abgeschlossen ist... der Akku wird einfach "voll gehalten".
+* Rote Status-LED: Ladelicht. Die rote Status-LED leuchtet während der Akku des RL geladen wird und es geht wieder aus, wenn die Ladung abgeschlossen ist. Du wirst sehen, dass die rote Status-LED periodisch aufleuchtet, auch wenn das Laden abgeschlossen ist... der Akku wird einfach "voll gehalten".
 
-* Grünes Signallämpchen: Bluetooth-Verbindungslicht. Die grüne Signallämpchen leucht konstant, solange du eine BT-Verbindung mit deinem iPhone hast.  Wenn dieses grüne Signallämpchen nicht leuchtet, musst du eine Fehlersuche der BT-Verbindungen machen. Versuchen BT auf deinem iPhone neu zu starten und/oder den RL aus- und wieder einzuschalten.
+* Grüne Status-LED: Bluetooth-Verbindungslicht. Die grüne Status-LED leucht konstant, solange du eine BT-Verbindung mit deinem iPhone hast.  Wenn diese grüne Status-LED nicht leuchtet, musst du eine Fehlersuche der BT-Verbindungen machen. Versuchen BT auf deinem iPhone neu zu starten und/oder den RL aus- und wieder einzuschalten.
 
-* Blaues Signallämpchen: Insulinpumpenkommunikation.  Wenn du eine ältere Firmware auf deinme RL hast, werden einige der blauen Signallämpchen regelmäßig blinken, während der RL mit der Insulinpumpe kommuniziert. Es zeigt nur an, dass es gearde aktiv ist und Informationen austauscht. Du wirst auch häufiger blaues Blinken sehen, wenn du als MDT-Benutzer "DiagnoseLEDs eingeschaltet" hast, die einen RLs mit aktualisierter Firmware hast (Versand seit Ende August 2018).
+* Blaue Status-LED: Insulinpumpenkommunikation.  Wenn du eine ältere Firmware auf deinme RL hast, werden einige der blauen Signallämpchen regelmäßig blinken, während der RL mit der Insulinpumpe kommuniziert. Es zeigt nur an, dass es gearde aktiv ist und Informationen austauscht. Du wirst auch häufiger blaues Blinken sehen, wenn du als MDT-Benutzer "DiagnoseLEDs eingeschaltet" hast, die einen RLs mit aktualisierter Firmware hast (Versand seit Ende August 2018).
 
 Ein permanet leuchtendes blaues Signallämpchen, kann eines von zwei Dingen bedeuten:
 
