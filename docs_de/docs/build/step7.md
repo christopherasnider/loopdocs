@@ -1,11 +1,11 @@
-# Step 7: Install Homebrew
+# Schritt 7: Installation von Homebrew
 
-!!!danger "Time Estimate"
+!!!Gefahr "Geschätzte Zeit"
 
     - 10-15 minutes assuming you know your computer's password
     - 35 minutes if you can't remember your password and have to guess
 
-!!!info "Summary"
+!!! Info "Zusammenfassung"
 
     - Install Homebrew by simply copying and pasting a long line of gibberish into the ugly Terminal application.
 
