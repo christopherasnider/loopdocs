@@ -52,36 +52,36 @@ Certaines pompes peuvent avoir un « L » ou « S » ou « R » avant la région
 
 ### Firmware de la pompe Medtronic
 
-Le firmware (ou micrologiciel) d’une pompe est le logiciel interne qui exécute votre pompe.  Older Medtronic firmware allows Loop to act as a “remote control” to set temp basals and report back pump data.  Newer firmware disabled that “remote control” access and therefore cannot be used with these DIY closed-loop systems.  There is currently no ability to downgrade a pump’s firmware or replace it with older firmware.  Before you buy a used pump, make sure you are getting one with compatible firmware.
+Le firmware (ou micrologiciel) d’une pompe est le logiciel interne qui exécute votre pompe.  Les anciens firmwares Medtronic permettent à Loop d’agir comme une « télécommande » pour définir des debits basaux temporaires et récupérer les données de la pompe.  Les firmwares plus recents ont désactivés ce mode d'accès « télécommande  et ne peuvent donc pas être utilisé avec ce système "fait le toi meme" (DIY) de boucle fermée.  Il n’y a actuellement aucune possibilité de revenir à une ancienne version du firmware d’une pompe ou de le remplacer par un firmware plus ancien.  Avant d'acheter une pompe d'occasion, assurez-vous d'en obtenir une avec un firmware compatible.
 
 !!!note ""
 
-    The firmware on all 515/715 and 522/722 model Medtronic pumps are all compatible with Loop. You will only need to check the firmware version for 523/723 and 554/754 model Medtronic pumps.</br></br>
-    + Medtronic 515 or 715 --> any firmware</br>
-    + Medtronic 522 or 722  --> any firmware</br>
-    + Medtronic 523 or 723 --> firmware 2.4 or lower</br>
-    + Medtronic Worldwide Veo 554 or 754 --> firmware 2.6A or lower</br>
-    + Medtronic Canadian/Australian Veo 554 or 754 --> firmware 2.7A or lower</br>
+    Les firmwares de toutes les pompes Medtronic 515/715 et 522/722 sont compatibles avec Loop. Il vous suffit de vérifier la version du firmware pour les pompes Medtronic 523/723 et 554/754.</br></br>
+    + Medtronic 515 ou 715 --> tout firmware</br>
+    + Medtronic 522 ou 722 --> tout firmware</br>
+    + Medtronic 523 ou 723 --> firmware 2.4 ou inférieur</br>
+    + Medtronic Monde Veo 554 ou 754 --> firmware 2.6A ou inférieur</br>
+    + Medtronic Canadien/Australien Veo 554 ou 754 --> firmware 2.7A ou inférieur</br>
 
-To find your pump’s firmware you will need to power it on. If the pump has not been powered on for some time (i.e., has been in storage without a battery for a while), it will run through a start-up count and the firmware version will appear on the bottom right of the pump’s screen.  Don’t turn away, as the version number will only be displayed for a little while before the screen moves onto other information displays.
+Pour trouver le firmware de votre pompe, vous devrez l'allumer. Si la pompe n’a pas été mise sous tension depuis un certain temps (c.-à-d. qu’elle a été entreposée sans batterie depuis un certain temps), elle se passera par une étape de démarrage et la version du firmware apparaîtra en bas à droite de l’écran de la pompe.  Ne vous retournez pas, car le numéro de version ne sera affiché que pendant un court instant avant que l'écran n'affiche d'autres informations.
 
-If the pump has been active recently or has a reservoir installed, follow these steps:
+Si la pompe a été active récemment ou a un réservoir installé, suivez ces étapes :
 
-1. Press the <img src="../img/esc.png" width="40" alt="ESC" /> button on your pump.
+1. Appuyer sur le bouton <img src="../img/esc. png" width="40" alt="Esc" /> de votre pompe.
 
-2. Scroll down with the <img src="../img/light_button.png" width="40" alt="Down Arrow" /> button to the bottom of the status display.
+2. Faites défiler vers le bas avec le bouton <img src="../img/light_button. png" width="40" alt="Flèche vers le bas" /> vers le bas de l'affichage des statuts.
 
-3. Read the bottom line of the display.
+3. Lire la ligne du bas de l'écran.
 
 ![Firmware](img/pump_firmware.png)
 
-### Medtronic Pump Differences
+### Les différences de pompes Medtronic
 
-If you are in the position of being able to shop around for different pump models, there are some slight differences between the Loop-compatible Medtronic pumps.
+Si vous êtes en mesure de récupérer autour de vous différent modèles de pompe, il y a de légères différences entre les pompes Medtronic compatibles Loop.
 
-<font color ="orange">500 vs 700</font>:  The difference between the Medtronic 500 series and the 700 series pumps is the size of the insulin reservoirs.  The 500 series pumps use a 180 unit reservoir, and the 700 series pumps use a 300 unit reservoir (or smaller 180 unit reservoir, if you want).
+<font color ="orange">500 vs 700</font>:  La différence entre la série Medtronic 500 et la serie 700est la taille du reservoir d'insuline.  Les pompes de la série 500 utilisent un réservoir de 180 unités, et les pompes de la série 700 utilisent un réservoir de 300 unités (ou un réservoir plus petit de 180 unités, si vous voulez).
 
-<font color ="orange">x15/x22 vs x23/x54</font>:  The difference between the x15 and x22 pumps versus the x23 and x54 series pumps has only a few notable mentions:
+<font color ="orange">x15/x22 vs x23/x54</font>:  la différence entre les pompes x15 and x22 et les series x23 and x54 n'a que quelques mentions notables:
 
 * The x23/x54 pumps will allow for smaller insulin deliveries in certain situations, if the smaller scroll rate is selected in the Bolus>Setup>Scroll Rate menu.  **Loop will have the insulin delivery automatically rounded by the pump to the units available in the pump model, and any smaller adjustments (to make up for the rounding) will be made through Loop’s use of temp basals.  If you want the smaller increments of basal rates, you can still enter those values in Loop app's settings and Loop will use those values for the purposes of insulin delivery calculations.**
 
@@ -142,9 +142,9 @@ Red flags that may indicate a scam:
 
 Medtronic will not typically sell pump supplies directly to customers who have not previously purchased a registered Medtronic pump. Ask your insurance about purchasing pump supplies through a durable medical equipment (DME) provider. Typically, the DME provider will coordinate with your insurance and doctor's office to get the necessary insurance approval and prescriptions for the supplies. If you are brand new to Medtronic infusion sites, you may want to ask for help from friends to try a variety of infusion sets before purchasing a full 90-day supply of any type in particular.
 
-## Extra Details on Omnipods
+## Détails supplémentaires sur les Omnipods
 
-!!!warning "Reminder and Disclaimer"
+!!!warning "Rappel et avertissement"
 
     Through the work of the DIY community, Insulet's Omnipod (Eros) system is now Loop compatible. Using Eros pods with Loop is not supported by Insulet. Do not call Insulet asking for help with your Loop build, setup, or operation. This project is not FDA-approved and you are using this project under your own responsibility and risk. Please read these documents and familiarize yourself with Loop before using.
 
