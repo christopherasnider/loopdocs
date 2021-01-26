@@ -1,11 +1,11 @@
 # Schritt 6: Einschreiben im Apple Developer Program
 
 !!!Gefahr "Geschätzte Zeit"
-    - 15-20 minutes to complete the enrollment forms
-    - up to 2 days to wait for confirmation email that enrollment has been activated
+    - 15-20 Minuten für die Anmeldung
+    - bis zu 2 Tage für die Aktivierung des Developer Accounts (du bekommst eine Bestätigungs-E-Mail von Apple)
 
 !!! Info "Zusammenfassung"
-    - If you've decided to you'd like to use a paid developer account, you need to enroll now. Go to the [Apple Developer website](https://developer.apple.com/programs/enroll/) to enroll in an individual account.
+    - Wenn du dich für ein kostenpflichtiges Entwicklerkonto entschieden hast, musst du dich jetzt anmelden. Go to the [Apple Developer website](https://developer.apple.com/programs/enroll/) to enroll in an individual account.
     - If you've decided you'd like to use a free developer account, you don't need to do anything now. We'll get you covered later.
 
 !!!warning "FAQs"
