@@ -90,15 +90,15 @@ class TranslateMenu:
     
     def findmenu(self):
         if self.note:
-            return f"- '{self.source}' : '{self.note}'"
+            return f"- \"{self.source}\" : \"{self.note}\""
         else:
-            return f"- '{self.source}' :"
+            return f"- \"{self.source}\" :"
 
     def replacemenu(self):
         if self.note:
-            return f"- '{self.target}' : '{self.note}'"
+            return f"- \"{self.target}\" : \"{self.note}\""
         else:
-            return f"- '{self.target}' :"
+            return f"- \"{self.target}\" :"
 
 class LoopDocLanguageSite:
     def __init__(self,language,LoopDocs):

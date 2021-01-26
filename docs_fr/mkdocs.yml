@@ -17,89 +17,89 @@ theme:
       - navigation.tabs
 
 nav:
-- 'None' : 'index.md' 
-- 'None' :
-    - 'None' : 'faqs/docs-faqs.md'
-    - 'None' : 'faqs/FAQs.md'
-    - 'None' : 'faqs/omnipod-faqs.md'
-    - 'None' : 'faqs/branch-faqs.md'
-    - 'None' : 'faqs/update-faqs.md'
-    - 'None' : 'faqs/ios13.md'
-    - 'None' : 'faqs/rileylink-faqs.md'
-    - 'None' : 'faqs/algorithm-faqs.md'
-    - 'None' : 'faqs/cgm-faqs.md'
-    - 'None' : 'faqs/safety-faqs.md'
-- 'None' :
-    - 'None' : 'build/overview.md' 
-    - 'None' : 'build/step1.md'
-    - 'None' : 'build/step2.md'
-    - 'None' : 'build/step3.md'
-    - 'None' : 'build/step4.md'
-    - 'None' : 'build/step5.md'
-    - 'None' : 'build/step6.md'
-    - 'None' : 'build/step7.md'
-    - 'None' : 'build/step8.md'
-    - 'None' : 'build/step9.md'
-    - 'None' : 'build/step10.md'
-    - 'None' : 'build/step11.md'
-    - 'None' : 'build/step12.md'
-    - 'None' : 'build/step13.md'
-    - 'None' : 'build/step14.md'
-    - 'None' : 'build/build_errors.md'
-    - 'None' : 'build/code_customization.md'
-    - 'None' : 'build/updating.md'
-    - 'None' : 'build/loopworkspace.md'
-- 'None' :
-    - 'None' : 'operation/overview.md'
-    - 'Step 1 : Health Permissions' : 'build/health.md'
-    - 'Step 2 : Add Pump' :
-        - 'None' : 'operation/loop-settings/mdt-pump.md'
-        - 'None' : 'operation/loop-settings/omnipod-pump.md'
-    - 'Step 3 : Add CGM' : 'operation/loop-settings/cgm.md'
-    - 'Step 4 :Configurations' : 'operation/loop-settings/configurations.md'
-    - 'Step 5 : Loop Services' : 'operation/loop-settings/services.md'
-    - 'None' : 'operation/loop-settings/displays.md'
-    - 'None' : 'operation/loop-settings/rileylink.md'
-- 'None' :
-    - 'None' :
-        - 'None' : 'operation/features/carbs.md'
-        - 'None' : 'operation/features/bolus.md'
-        - 'None' : 'operation/features/workout.md'
-        - 'None' : 'operation/features/premeal.md'
-        - 'None' : 'operation/features/healthapp.md'
-        - 'None' : 'operation/features/ice.md'
-        - 'None' : 'operation/features/watch.md'
-        - 'None' : 'operation/features/widget.md'
-        - 'None' : 'operation/features/notifications.md'
-        - 'None' : 'operation/features/battery.md'
-    - 'None' :
-        - 'None' : 'operation/loop/open-loop.md'
-        - 'None' : 'operation/loop/close-loop.md'
-        - 'None' : 'operation/loop/looptips.md'
-    - 'None' :
-        - 'None' : 'operation/algorithm/overview.md'
-        - 'None' : 'operation/algorithm/bolus.md'
-        - 'None' : 'operation/algorithm/prediction.md'
-        - 'None' : 'operation/algorithm/temp-basal.md'
-    - 'None' :
-        - 'None' : 'troubleshooting/overview.md'
-        - 'None' : 'troubleshooting/loop-crashing.md'
-        - 'None' : 'troubleshooting/yellow-red-loop.md'
-        - 'None' : 'troubleshooting/pod-pairing.md'
-        - 'None' : 'troubleshooting/uncertain-bolus.md'
-        - 'None' : 'troubleshooting/priming.md'
-        - 'None' : 'troubleshooting/time-change.md'
-        - 'None' : 'troubleshooting/pump-errors.md'
-        - 'None' : 'troubleshooting/omnipod-faults.md'
-- 'None' :
-    - 'None' : 'nightscout/overview.md'
-    - 'None' : 'nightscout/new_user.md'
-    - 'None' : 'nightscout/update_user.md'
-    - 'None' : 'nightscout/troublehoot.md'
-    - 'None' : 'nightscout/remote-overrides.md'
-    - 'None' : 'nightscout/ifttt.md'
-    - 'None' : 'nightscout/pebble.md'
-    - 'None' : 'nightscout/pushover.md'
-    - 'None' : 'nightscout/reports.md'
-- 'None' :
-    - 'None' : 'payitforward/translateloopdocs.md'
+- "Page d’accueil" : "index.md" 
+- "FAQs" :
+    - "FAQs d'utilisation de ce site" : "faqs/docs-faqs.md"
+    - "FAQs de Loop" : "faqs/FAQs.md"
+    - "FAQs sur Omnipod" : "faqs/omnipod-faqs.md"
+    - "FAQs sur les branches" : "faqs/branch-faqs.md"
+    - "FAQs sur les modifications/Reconstruction de Loop" : "faqs/update-faqs.md"
+    - "FAQs sur iOS 13" : "faqs/ios13.md"
+    - "FAQs sur le RileyLink" : "faqs/rileylink-faqs.md"
+    - "FAQs sur les Algorithmes" : "faqs/algorithm-faqs.md"
+    - "FAQs sur les MGC" : "faqs/cgm-faqs.md"
+    - "Astuces de Sécurité" : "faqs/safety-faqs.md"
+- "Fabriquez l'Application" :
+    - "Présentation" : "build/overview.md" 
+    - "Étape 1 : Compatibilité de l'Ordinateur" : "build/step1.md"
+    - "Étape 2 Compatibilité de l'iPhone/iPod touch" : "build/step2.md"
+    - "Étape 3 : Compatibilité de la Pompe" : "build/step3.md"
+    - "Étape 4 : Compatibilité du MGC (CGM)" : "build/step4.md"
+    - "Étape 5 Commander un RileyLink" : "build/step5.md"
+    - "Étape 6 S'inscrire dans le programme de développement Apple" : "build/step6.md"
+    - "Étape 7 Installer Homebrew" : "build/step7.md"
+    - "Étape 8 Télécharger Xcode" : "build/step8.md"
+    - "Étape 9 Préférences d'Xcode" : "build/step9.md"
+    - "Étape 10 Les réglages de test" : "build/step10.md"
+    - "Étape 11 Faire des plans pour les données de Loop" : "build/step11.md"
+    - "Étape 12 Rencontrez la communauté" : "build/step12.md"
+    - "Étape 13 Télécharger le code source de Loop" : "build/step13.md"
+    - "Étape 14 Construire l'Application Loop" : "build/step14.md"
+    - "Ho non ! J'ai des erreurs de compilation ?" : "build/build_errors.md"
+    - "Personnalisez votre Loop" : "build/code_customization.md"
+    - "Mise à jour/Reconstruction de votre Loop" : "build/updating.md"
+    - "LoopWorkspace" : "build/loopworkspace.md"
+- "Configurer l'application" :
+    - "Présentation" : "operation/overview.md"
+    - "Étape 1 Autorisations de Santé" : "build/health.md"
+    - "Étape 2 Ajouter une pompe" :
+        - "Ajouter une pompe Medtronic" : "operation/loop-settings/mdt-pump.md"
+        - "Ajouter une pompe Omnipod" : "operation/loop-settings/omnipod-pump.md"
+    - "Étape 3 Ajouter le MGC" : "operation/loop-settings/cgm.md"
+    - "Étape 4 Configurations" : "operation/loop-settings/configurations.md"
+    - "Étape 5 Services de Loop" : "operation/loop-settings/services.md"
+    - "Affichages de Loop" : "operation/loop-settings/displays.md"
+    - "Menu RileyLink" : "operation/loop-settings/rileylink.md"
+- "Exploiter" :
+    - "Comment utiliser l’application Loop" :
+        - "Entrées de Glucides" : "operation/features/carbs.md"
+        - "Bolus" : "operation/features/bolus.md"
+        - "Substitutions" : "operation/features/workout.md"
+        - "Objectif de Pré-Repas" : "operation/features/premeal.md"
+        - "Application Santé" : "operation/features/healthapp.md"
+        - "Utiliser les informations ICE" : "operation/features/ice.md"
+        - "Apple Watch" : "operation/features/watch.md"
+        - "Widget iPhone" : "operation/features/widget.md"
+        - "Notifications de Loop" : "operation/features/notifications.md"
+        - "Batterie de la pompe" : "operation/features/battery.md"
+    - "Conseils sur Loop" :
+        - "Boucle Ouverte" : "operation/loop/open-loop.md"
+        - "Boucle Fermée" : "operation/loop/close-loop.md"
+        - "Conseils sur Loop" : "operation/loop/looptips.md"
+    - "Algorithme" :
+        - "Présentation" : "operation/algorithm/overview.md"
+        - "Recommandations de Bolus" : "operation/algorithm/bolus.md"
+        - "Prédiction de Glycémie" : "operation/algorithm/prediction.md"
+        - "Ajustements Basal Temporaires" : "operation/algorithm/temp-basal.md"
+    - "Dépannage" :
+        - "Présentation" : "troubleshooting/overview.md"
+        - "Les plantages de Loop" : "troubleshooting/loop-crashing.md"
+        - "La boucle de Loop est rouge" : "troubleshooting/yellow-red-loop.md"
+        - "Défaillances de jumelage du Pod" : "troubleshooting/pod-pairing.md"
+        - "Pod Uncertain Boluses" : "troubleshooting/uncertain-bolus.md"
+        - "MDT Priming and Sites" : "troubleshooting/priming.md"
+        - "Time Changes" : "troubleshooting/time-change.md"
+        - "MDT Pump Errors" : "troubleshooting/pump-errors.md"
+        - "Les erreurs de l'Omnipod" : "troubleshooting/omnipod-faults.md"
+- "Nightscout" :
+    - "Présentation" : "nightscout/overview.md"
+    - "Brand New NS" : "nightscout/new_user.md"
+    - "Retrofit Existing NS" : "nightscout/update_user.md"
+    - "Setup Troubleshooting" : "nightscout/troublehoot.md"
+    - "Remote Overrides" : "nightscout/remote-overrides.md"
+    - "IFTTT" : "nightscout/ifttt.md"
+    - "Pebble" : "nightscout/pebble.md"
+    - "Notifications à distance" : "nightscout/pushover.md"
+    - "Rapports" : "nightscout/reports.md"
+- "Pay It Forward" :
+    - "Traduire la Loopdocs" : "payitforward/translateloopdocs.md"
