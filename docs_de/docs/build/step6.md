@@ -2,33 +2,33 @@
 
 !!!Gefahr "Geschätzte Zeit"
     - 15-20 Minuten für die Anmeldung
-    - bis zu 2 Tage für die Aktivierung des Developer Accounts (du bekommst eine Bestätigungs-E-Mail von Apple)
+    - bis zu 2 Tage bis das Entwicklerkonto aktiviert ist (du bekommst eine Bestätigungs-E-Mail von Apple)
 
 !!! Info "Zusammenfassung"
-    - Wenn du dich für ein kostenpflichtiges Entwicklerkonto entschieden hast, musst du dich jetzt anmelden. Go to the [Apple Developer website](https://developer.apple.com/programs/enroll/) to enroll in an individual account.
-    - If you've decided you'd like to use a free developer account, you don't need to do anything now. We'll get you covered later.
+    - Wenn du dich für ein kostenpflichtiges Entwicklerkonto entschieden hast, musst du dich jetzt anmelden. Gehe auf die [Apple Developer Website](https://developer.apple.com/programs/enroll/) um dich für ein eigenes Konto anzumelden.
+    - Wenn du dich entschieden hast ein kostenloses Entwicklerkonto zu verwenden, musst du jetzt nichts tun, wir erklären es später.
 
 !!!warning "FAQs"
-    - **"Can I use someone else's Apple Developer account?"** Great question...answer is [here](/faqs/FAQs/#can-i-use-someone-elses-apple-developer-account).
-    - **"Do I use my Apple ID or my kid's Apple ID to enroll in the Apple Developer program?"** The Apple ID you use to enroll in the developer program does not need to be the same Apple ID as the Loop iPhone or Looper uses, for example a parent installing Loop on kid's iPhone. Typically for the developer enrollment, use the Apple ID of the person who will be doing the Loop app building.
-    - **"How long does it take to have my Apple Development account active after I enroll?"** After you enroll, make sure you look for a confirmation email. Apple says it can take up to 24-48 hours to confirm and setup a new Apple developer account, however some people have had the process only take minutes. It can vary. One SURE way to make it take longer? Use a different credit card to pay for the Apple Developer account enrollment than is already associated with the Apple ID you'll be enrolling with. When you do that, I've heard Apple makes you send in a xerox copy of your driver's license and a bunch of other hassle.
+    - **"Kann ich das Apple-Entwicklerkonto von jemand anderes benutzen?"** Gute Frage...Antwort ist [hier](/faqs/FAQs/#can-i-use-someone-elses-apple-developer-account).
+    - **"Benutze ich meine Apple-ID oder die Apple-ID meines Kindes, um mich für das Apple Developer Program anzumelden?** Die Apple-ID, mit der du dich für das Developer Program anmeldest, muss nicht die gleiche Apple-ID sein, wie die des Loop-iPhones oder die der Person, die Loop benutzen wird. Du kannst als Elternteil deine Apple-ID benutzen und Loop auf dem iPhone deines Kindes installieren. Es ist sinnvoll die Apple-ID der Person für die Anmeldung beim Developer Program zu benutzen, die die Loop-App-Erstellung durchführen wird.
+    - **"Wie lange dauert es, bis mein Apple Entwicklerkonto aktiv ist, nachdem ich mich angemeldet habe?** Achte, nachdem du dich angemeldet hast, auf eine Bestätigungs-E-Mail von Apple. Apple sagt, dass es bis zu 24-48 Stunden dauern kann, um ein neues Apple-Entwicklerkonto einzurichten, es gibt aber Berichte von einigen Leute, dass es nur wenige Minuten gedauert hat. Es variiert einfach. Wie es garantiert länger dauert? Wenn du bei der Anmeldung für das Apple Entwicklerkonto mit einer anderen Kreditkarte bezahlst, als die Kreditkarte, die bereits mit der Apple ID von der Anmeldung verknüpft ist. Ich habe gehört, dass Apple dann zusätzliche Informationen zu deiner Identifikation verlangt.
 
-In order to build your own Loop app, you will need to use an Apple developer account.  You will have two options for an individual account; free or paid.
+Um deine eigene Loop App zu erstellen, musst du ein Apple Entwicklerkonto haben.  Du hast hier zwei Optionen; a) kostenlos oder b) bezahlt.
 
-## Free Developer Account
+## Kostenloses Entwicklerkonto
 
-If you decide to use a **FREE** developer account, here's what you need to know:
+Wenn du dich für die Nutzung eines **KOSTENLOSEN** Entwicklerkontos entscheidest, musst folgendes wissen:
 
-1. Loop apps signed with a free developer team will expire after 7 days.  On the 7th day, your Loop app will simply turn white when you open it and then immediately close. To rebuild the Loop app, you will have to find a computer and rebuild the app onto your iPhone again. You cannot rebuild the app on day 5 (when it is convenient, for example)...hoping to reset the 7-day clock.  The app will still expire on the 7th day from when it was first signed and created.</br></br>
-2. If you decide to switch to a paid account after trying out the free account, you will need to rebuild your Loop app in order to sign it with the new paid account.</br></br>
-3. You will have to do an extra step during the build process to remove Siri and Apple Push capabilities in order to build with free accounts. Because free accounts do not have access to Apple Push notifications, you will also not be able to use remote overrides through Nightscout.</br></br>
+1. Loop Apps, die mit einem kostenlosen Entwicklerteam signiert sind, laufen nach 7 Tagen ab.  Am 7. Tag wird deine Loop App beim Öffnen einfach weiß und schließt dann sofort. Um die Loop App neu zu erstellen, musst du dann einen Computer haben und die App auf dem iPhone neu erstellen. Du kannst die App z.B. nicht am 5. Tag neu erstellen (wenn es vielleicht gerade gut passt)...in der Hoffnung, den 7-Tage count-down zurückzusetzen.  Die App läuft immer noch am 7. Tag aus, bezogen auf den Tag an dem sie das erste Mal signiert und erstellt wurde.</br></br>
+2. Wenn du dich entscheidest, auf ein bezahltes Entwicklerkonto zu wechseln, nachdem du das kostenlose Entwicklerkonto ausgeprobiert hast, musst du die Loop App neu erstellen, um sie mit dem neuen bezahlten Entwicklerkonto zu signieren.</br></br>
+3. Du musst während des Erstellungsprozesses der Loop App mit dem kostenlosen Entwicklerkonto einen extra Schritt befolgen, um die Funktionen von Siri und Apple Push-Benachrichtigungen herauszunehmen. Kostenlose Entwicklerkonten haben nämlich keinen Zugriff auf Apple Push-Benachrichtigungen und können auch keine Ferneingriffe mittels Nightscout machen.</br></br>
 
-## Paid Developer Account
+## Bezahltes Entwicklerkonto
 
-If you decide to use a **PAID** developer account, here's what you need to know:
+Wenn du dich für die Nutzung eines **BEZAHLTEN** Entwicklerkontos entscheidest, musst folgendes wissen:
 
-1. Loop apps signed with a paid developer team will last for a full year.</br></br>
-2. The paid developer account is $99 per year and is default set to auto-renew annually. You can change that selection in your developer account settings at any time.</br></br>
+1. Loop Apps, die mit einem bezahlten Entwicklerteam signiert wurden, laufen ein ganzes Jahr.</br></br>
+2. Das kostenpflichtige Entwicklerkonto kostet 99 USD pro Jahr und hat standardmäßig die Option mit automatischer Verlängerung. You can change that selection in your developer account settings at any time.</br></br>
 3. If your household has multiple Loop users, only one developer account is needed.  That one developer account can be used to sign multiple Loop apps.</br></br>
 
 ## Switching from Free to Paid Memberships
