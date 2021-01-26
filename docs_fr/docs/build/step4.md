@@ -1,28 +1,28 @@
-# Step 4: Compatible CGM
+# Étape 4 : Compatibilité du MGC (CGM)
 
-!!!danger "Time Estimate"
+!!!danger "Temps estimé"
 
-    - 10 minutes to read through this page
+    - 10 minutes pour lire cette page
 
-!!!info "Summary"
+!!!info "Résumé"
 
-    - If you use a Dexcom G4 Share, G5, or G6 CGM system...you are good to use Loop.
-    - If you use a Medtronic sensor compatible with a Loop-compatible Medtronic pump...you are good to use Loop.
-    - If you have an Eversense...you cannot use Loop with that CGM.
-    - If you use Libre...you will need to seek out a modified Loop
+    - Si vous utilisez un système CGM Dexcom G4 Share, G5 ou G6 ... vous êtes déjà prêt à utiliser Loop.
+    - Si vous utilisez un capteur Medtronic compatible avec une pompe Medtronic, elle même compatible Loop, vous pouvez utiliser Loop.
+    - Si vous avez un Eversense...vous ne pouvez pas utiliser Loop avec ce CGM.
+    - Si vous utilisez un FreeStyleLibre...vous devrez utiliser une version modifiée de Loop
 
 !!!warning "FAQs"
 
-    - **"What about Libre sensors?"** Libre sensors are not designed to be continuous glucose monitors. All use of Libre sensors as continuous glucose monitors involves the use of third-party applications (Xdrip or Spike) and reader devices (BluCon or Miao Miao). Loop developers have not seen data demonstrating sufficient safeguards from those readers and applications to feel comfortable adding main line Loop integration for those devices. If you use a Libre sensor, you'll have to use a "not-main line" branch of Loop that someone (or yourself) has modified to allow for use with those sensors/applications.
-    - **"What about Eversense?"** Eversense's application does not integrate with Apple Health, nor has the communications protocols for Eversense been reverse engineered. Therefore, Eversense is not compatible with Loop use currently.
+    - **"Qu'en est-il des capteurs Libre ?"** Les capteurs Libre ne sont pas conçus pour être des moniteurs de glucose en continu. Toute utilisation de capteurs Libre comme moniteurs de glucose en continu implique l’utilisation d’applications tierces (Xdrip ou Spike) et de lecteurs (BluCon ou Miao Miao). Les développeurs de Loop n'ont pas vu de données démontrant des protections suffisantes de ces lecteurs et applications pour se sentir à l'aise en ajoutant l'intégration dans le code principal de Loop pour ces appareils. Si vous utilisez un capteur Libre, vous devrez utiliser une branche « non-principale » de Loop que quelqu’un (ou vous-même) a modifiée pour permettre une utilisation avec ces capteurs/applications.
+    - **"Qu'en est-il d'Eversense?"** L'application d'Eversense ne s'intègre pas avec Apple Santé, et les protocoles de communication pour Eversense n'ont pas été décompilé / analysé par ingénierie inverse non plus. Par conséquent, Eversense n’est pas compatible avec l’utilisation loop actuellement.
 
-A continuous glucose monitor (CGM) provides Loop with current blood glucose readings. These readings allow Loop to predict what the current glucose trend is, and predict future blood glucose based on carbohydrate input and your Loop settings. The following are the types of CGMs compatible with Loop. CGM readings are a required part of looping. If your Loop is unable to retrieve BG data, it will not be able to loop.
+Un moniteur de glucose continu (CGM) fournit à Loop des lectures en continu de glycémie. Ces lectures permettent à Loop de prédire quelle est la tendance actuelle de glycémie et de prédire la glycémie future en fonction de l’entrée des glucides et des paramètres que vous avez saisies à Loop. Voici les types de CGMs compatibles avec Loop. Les lectures de CGM sont une partie requise du faire fonctionner Loop. Si votre Loop n’est pas en mesure de récupérer les données de votre capteur, elle ne sera pas en mesure de boucler.
 
-## Dexcom G5 and G6 CGM ![G5](img/g5.jpg)
+## Les CGM Dexcom G5 et G6 ![G5](img/g5.jpg)
 
-Dexcom G5 and G6 receives CGM data directly to the Dexcom app on your iPhone via Bluetooth. Neither of these two systems require the use of a stand-alone receiver. For Loop to function, you will need the Dexcom app running.
+Avec les Dexcom G5 et G6 votre iPhone reçoit les données MGC directement via l'application Dexcom en Bluetooth. Aucun de ces deux systèmes ne nécessite l'utilisation d'un récepteur autonome. Pour que Loop fonctionne, vous aurez besoin de l'application Dexcom en cours d'exécution.
 
-## Dexcom G4 CGM with Share Receiver ![G4 With Receiver](img/g4_receiver.png)
+## Le CGM Dexcom G4 avec Share Receiver ![G4 With Receiver](img/g4_receiver.png)
 
 Dexcom G4 Share system transmits CGM data from the transmitter to a Dexcom G4 Share Receiver. The receiver, in turn, connects to the Dexcom Share2 app on your iPhone via Bluetooth. The Share2 app uploads CGM data to the Dexcom servers. For Loop to function, you will need the Dexcom app running.
 
