@@ -13,7 +13,7 @@
 
 !!!warning "FAQs"
     - **« Puis-je utiliser un androïd ?»** Non.
-    - **« Mais pourquoi pas? »** Parce que Loop est écrit dans la langue Swift d’Apple, qui ne compile pas sur les systèmes d’exploitation Android.  Loop s’appuie également sur Apple Santé (Health), et Android n’a pas d’équivalent en natif.
+    - **« Mais pourquoi pas? »** Parce que Loop est écrit dans en language Swift d’Apple, qui ne compile pas sur les systèmes d’exploitation Android.  Loop s’appuie également sur Apple Santé (Health), et Android n’a pas d’équivalent en natif.
     - **« Puis-je utiliser un iPad? »** Non. Les iPads ne supportent pas Apple Santé et c’est un élément important du fonctionnement interne de Loop.
     - **"Mon iPhone a-t-il besoin d'un connexion cellulaire?"** Non. Loop fonctionnera sans connexion Internet... toutefois, vous n’aurez pas de données Dexcom Follow ou Nightscout si vous choisissez d’utiliser un appareil qui n’a pas de connexion Internet. En d’autres termes, Loop fonctionnera, mais impossible de consulter les données à distance pour les abonnés "suiveurs" à moins que l’appareil Loop dispose d’une connexion Internet.
 
