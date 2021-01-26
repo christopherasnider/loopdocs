@@ -1,124 +1,124 @@
-# Step 5: Order a RileyLink
+# Schritt 5: Bestellung eines RileyLink
 
-!!!danger "Time Estimate"
-    - 15 minutes to order a RileyLink
-    - 15-20 minutes to assemble the RileyLink once you get it in the mail
-    - 15-20 minutes to read about the RileyLink
+!!!Gefahr "Geschätzte Zeit"
+    - 15 Minuten um einen RileyLink zu bestellen
+    - 15-20 Minuten, um den RileyLink zusammenzusetzen, sobald du ihn mit der Post bekommen hast
+    - 15-20 Minuten um über den RileyLink zu lesen
 
-!!!info "Summary"
-    - Order your [Omnipod RileyLink](https://getrileylink.org/product/rileylink433) or [Medtronic RileyLink](https://getrileylink.org/product/rileylink916).
-    - Assemble the RileyLink, after hugging the postman
-    - Read the "extra details" to learn about RileyLink lights, charging, range, etc.
+!!! Info "Zusammenfassung"
+    - Bestellen deinen [Omnipod RileyLink](https://getrileylink.org/product/rileylink433) oder [Medtronic RileyLink](https://getrileylink.org/product/rileylink916).
+    - Baue den RileyLink zusammen, nachdem du den Postboten freudig verabschiedet hast
+    - Lies die "Extradetails" um mehr über die RileyLink Signallämpchen, das Aufladen, die Empfangsreichweite usw. zu erfahren.
 
 !!!warning "FAQs"
-    - **"Do I need a RileyLink?"** Yes. Loop will not work without a RileyLink. Omnipod users will not be able to bolus from their looping pod without a RileyLink.
-    - **"What happens if I lose my RileyLink or walk away from it?"** Good question...answered [here](/faqs/rileylink-faqs/#what-happens-if-i-walk-away-from-my-rileylink).
-    - **"Can I use an Omnipod RileyLink with a Medtronic pump? or vice versa?"** Good question...answered [here](/faqs/rileylink-faqs/#what-will-happen-if-you-use-a-916mhz-antenna-rileylink-with-an-omnipod-or-vice-versa).
-    - **"Can I swap out RileyLinks at any time?"** Yes, you can. RileyLinks can be replaced quite simply without needing to start a new pod or rebuild Loop app. There's a place in Loop settings that you'd simply find your new RileyLink's name and turn "on" the Bluetooth connection to start using it.
-    - **"How close does the RileyLink need to be to me? Do I have to carry it with me?"** Good questions...answered [here](/faqs/rileylink-faqs/#do-i-have-to-carry-the-rileylink-everywhere).
-    - **"Why is it named RileyLink?"** Riley is the name of Pete Schwamb's daughter and he's the guy that created the RileyLink.
-    - **"Can I make my own RileyLink?"** Technically yes, however it is not an easy project. You'll need specialized tools and patience. If you want to explore doing that, I'd highly recommend checking out [Zulipchat](https://loop.zulipchat.com/#narrow/stream/148542-RileyLink) from the other people who have done their own builds successfully over the last several years. Only 3 people have built their own RileyLinks so far...but I guess that technically means it is possible. The PCB files and software, with instructions on how to build your own hardware module can be found at the [RileyLink Github repo](https://github.com/ps2/rileylink).
+    - **"Brauche ich einen RileyLink?"** Ja. Loop funktioniert nicht ohne RileyLink und Omnipod Benutzer können ohne RileyLink auch keinen Bolus geben.
+    - **"Was passiert, wenn ich meinen RileyLink verliere oder mich davon entferne?"** Gute Frage...hier [beantwortet](/faqs/rileylink-faqs/#what-happens-if-i-walk-away-from-my-rileylink).
+    - **"Kann ich einen Omnipod RileyLink mit einer Medtronic-Pumpe verwenden? oder umgekehrt?"** Gute Frage... [hier beantwortet](/faqs/rileylink-faqs/#what-will-happen-if-you-use-a-916mhz-antenna-rileylink-with-an-omnipod-or-vice-versa).
+    - **"Kann ich RileyLinks jederzeit tauschen?"** Ja, das ist möglich. RileyLinks können ganz einfach ersetzt werden, ohne dass du einen neuen Pod starten oder die Loop App neu erstellen musst. In den Loop-Einstellungen findest du leicht den Namen des neuen RileyLink und aktivierst die Bluetooth-Verbindung, um ihn zu verwenden.
+    - **"Wie nah muss mir der RileyLink bei mir sein? Muss ich ihn bei mir tragen?"** Gute Fragen...beantwortete [hier](/faqs/rileylink-faqs/#do-i-have-to-carry-the-rileylink-everywhere).
+    - **"Warum heißt es eigentlich RileyLink?"** Riley ist der Name von Pete Schwamb's Tochter und er hat den RileyLink entwickelt.
+    - **"Kann ich einen RileyLink komplett selbst bauen?"** Theoretisch ja, aber das ist kein einfaches Projekt. Du brauchst dafür spezielles Werkzeuge und eine gute Portion Geduld. Wenn du das näher erforschen möchtest empfehle dir [Zulipchat](https://loop.zulipchat.com/#narrow/stream/148542-RileyLink) von anderen Leuten anzusehen, die in den letzten Jahren erfolgreich ihre eigenen RileyLinks gebaut haben. Allerdings haben bisher nur 3 Personen ihre eigenen RileyLinks gebaut...aber ich denke, das bedeutet technisch ist es möglich. Die PCB-Dateien und -Software mit Anweisungen, wie du dein eigenes Hardware-Modul baust, findest du im [RileyLink Github repo](https://github.com/ps2/rileylink).
 
-## What is RileyLink
+## Was ist ein RileyLink
 
-The RileyLink (RL) is an open-source hardware device that can bridge Bluetooth Low Energy (BLE) to 916MHz or 433MHz wireless communication. What does that mean to you? It means RileyLink is the communication highway between your insulin pump, CGM, and iPhone.</br></br>
+Der RileyLink (RL) ist ein Open-Source-Hardware-Gerät, das die Kommunikation zwischen niedrigenergie Bluetooth (BLE, Bluethooth Low Energie) und 916MHz oder 433MHz drahtlosem Funk überbrücken kann. Was bedeutet das für dich? Es bedeutet, RileyLink ist das Bindeglied zwischen deiner Insulinpumpe, CGM und iPhone.</br></br>
 
-Loop will not work without the RileyLink.</b></br></br>
+Loop funktioniert nicht ohne RileyLink.</b></br></br>
 
 ![../img/RL_bt.jpg](img/rl_diag.png)
 
-## Order RileyLink
+## RileyLink bestellen
 
-This is an easy step. You need to order a RileyLink from the [GetRiley website](https://getrileylink.org).
+Das ist ein einfacher Schritt, du musst einen RileyLink auf der [GetRiley Webseite](https://getrileylink.org) bestellen.
 
-There are two types of RileyLinks; [one for Omnipod](https://getrileylink.org/product/rileylink433) users and [one for Medtronic](https://getrileylink.org/product/rileylink916) users. Order the RileyLink specifically for the pump you'll be Looping with.
+Es gibt zwei Typen des RileyLinks: [einen für Omnipod](https://getrileylink.org/product/rileylink433) Benutzer und [einen für Medtronic](https://getrileylink.org/product/rileylink916) Benutzer. Bestelle den RileyLink genau für die Insulinpumpe, mit der du Loop benutzen wirst.
 
-## Assemble RileyLink
+## RileyLink zusammenbauen
 
-Your RL will come with the battery disconnected and the parts not already inside the case. It will be up to you to put the RL in the case and attach the battery.
+Dein RileyLink wird in Einzelteilen geliefert, also Akku getrennt, die kleine Platine und das Gehäuse. Du wirst den Akku verbinden und alles in das Gehäuse stecken.
 
-Make sure the lipo battery is well-plugged into the connection. Line up the little ridge appropriately, and push fairly firmly to get the connection tight.  Poor battery cable connection can make the Loop communications fail.  See photos below, for example.
+Pass auf, dass die Steckverbindung vom Lipo-Akku gut eingerastet ist. Richte die kleine Nut richtig aus und drücke den Stecker ziemlich fest in die Buchse, um eine sichere Verbindung zu bekommen.  Eine schlechte Akkuverbindung kann dazu führen, dass die Loop-Kommunikation fehlschlägt.  Siehe die Beispielfotos unten an.
 
-!!!info "Common new user errors"
+!!!info "Typische Benutzerfehler"
 
-    The most common two errors for new RL owners are (1) not fully pushing in the lipo battery cable connection and (2) failing to charge the RL. Compare your lipo battery cable with the photos; it takes a bit of oomph to push that plug fully in like the photos shown below. Remember to charge your RL each night.
+    Die häufigsten zwei Fehler neuer RL-Besitzer sind (1) nicht vollständig den Lipo-Akkustecker in die Buchse zu schieben und (2) den RL nicht aufzuladen. Vergleichen dein Lipo-Akku-Kabel mit den Fotos; es braucht ein bisschen Kraft, um den Stecker, wie auf dem Foto unten, vollständig in die Buchse zu schieben. Denke daran, deinen RL jede Nacht aufzuladen.
 
 ![../img/rileylink_battery_removal.png](img/battery-cables.jpg)
 
-<figcaption>Loose battery cable on left, Proper battery cable on right</figcaption>
+<figcaption>Lockere Steckverbindung links, richtige Steckverbindung rechts</figcaption>
 
-Finally, the board and the battery fit into the slim case fairly tightly as well.  Click on the image below to watch a helpful [assembly video](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be).
+Schlußendlich passt die Platine und der Akku auch nur gerade eben in das kleine Gehäuse.  Klicke auf das Bild unten, um ein hilfreiches [Montagevideo](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be) zu sehen.
 
 [![img/slimcase.png](img/slimcase.png)](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be)
 
-## Extra Details about RileyLink
+## Zusätzliche Informationen über RileyLink
 
-### Radio communications
+### Funkkommunikation
 
-The RL communicates with the pump through radio frequency communications.  Numerous factors can influence how well those communications can function...interferences from other devices, temperature, physical blocking, etc.
+Der RL kommuniziert mit der Insulinpumpe über Funk.  Zahlreiche Faktoren beeinflussen, wie gut diese Kommunikation funktionieren kann... Störungen von anderen Geräten, Temperatur, physikalische Abschirmung usw.
 
-When your RL and pump are first paired, Loop performs a series of tests that you won't see...they are tuning tests. Basically, RL sends little test messages to the pump and waits for a response. The RL tries this same "ping" to the pump a range of various radio frequencies. The range of radio frequencies it tries is based on the pump you've told RL to expect (Omnipod, Medtronic NA/CA, or Medtronic WW).  RL will then record the radio frequencies that provided the strongest response and use that frequency for future pump communications.
+Wenn dein RL und Insulinpumpe zum ersten Mal gekoppelt werden, führt Loop eine Reihe von Tests durch, die du nicht sehen kannst... dieses dienen der Feinabstimmung der Kommunikation. Dabei sendet der RL kleine Testmeldungen an die Insulinpumpe und wartet auf die Antwort. Dein RL versendet das gleiche "ping" an die Insulinpumpe in verschiedenen Funkfrequenzen. Dabei ist der Bereich der getesteten Funkfrequenzen abhängig von deiner Insulinpumpe, die du dem RL über die Loop-Einstellungen mitgeteilt hast (Omnipod, Medtronic WW oder Medtronic NA/CA).  Dein RL merkt sich dann die Funkfrequenzen, die die stärkste Antwortsignale geliefert haben und nutzt diese Frequenzen dann für die zukünftige Kommunikationen mit deiner Insulinpumpe.
 
-Usually this best frequency is pretty constant for any given pump+RL, but during temperature changes it may be that the best frequency is not the one currently set. In the event that RL has problems communicating with the pump, Loop has code built-in that will automatically tell the RL "Hey, try that tuning pump thing again...maybe there's a better frequency we need to try." This retuning is started automatically if pump communications fail for 14 minutes (in other words, two looping cycles).
+Normalerweise ist die beste Funkfrequenz für jede gegebene Pumpe+RL ziemlich konstant, aber bei Temperaturänderungen kann es sein, dass die beste Frequenz nicht die ist, die derzeit eingestellt ist. Für den Falls, dass der RL mal Probleme mit der Kommunikation mit deiner Insulinpumpe hat, hat Loop hat Code eingebaut. Dieser Code ("Hey RL, versuche die Feinabstimmung mit der Pumpe noch einmal... vielleicht gibt es eine bessere Frequenz.") wiederholt automatisch die Suche nach der besten Funkfrequenz. Diese Neuabstimmung findet automatisch statt, wenn die Kommunikation mit der Insulinpumpe 14 Minuten lang ausfällt (d. h. zwei Loop-Zyklen).
 
-### Bluetooth communications
+### Bluetooth-Kommunikation
 
-RL communicates with your iPhone and Loop app through Bluetooth (BT).
+Der RL kommuniziert mit deinem iPhone und Loop-App über Bluetooth (BT).
 
-!!!info "Bluetooth Troubleshooting"
+!!!info "Bluetooth Fehlerbehebung"
 
-    If your iPhone has BT issues, your Loop will have failures.  There have been reports of BT audio devices (such as BT pairings in your car or home audio BT speakers) interfering with the Loop.  If you are finding Loop failures frequently happening at a particular location, you may try to troubleshoot if there are BT problems in the area.
+    Wenn dein iPhone BT Probleme hat, funtioniert Loop nicht.  Es gab Berichte über BT-Audiogeräte (wie BT-Verbindungsversuche im Auto oder BT-Heimlautsprecher), die die Loop stören.  Wenn an einem bestimmten Ort häufig Fehler auftreten, solltest du untersuchen, ob es dort Probleme mit BT gibt und diese beheben.
 
-Your BT signal strength can be seen in the Loop settings, under the RL menu, on the `Signal Strength` line. As you move closer and further away from your phone, you can watch that number dynamically change. This line is **not** displaying the signal strength of your pump communications discussed above.
+Die BT-Signalstärke kannst du in den Loop-Einstellungen im RL-Menü unter `Signalstärke` anschauen.  Wenn du dich immer weiter von deinem Telefon entfernst, kannst du beobachten, wie sich diese Nummer dynamisch ändert. Diese Anzeige **zeigt nicht** die Signalstärke der Kommunikation mit deiner Insulinpumpe an.
 
 ![img/RL_bt.jpg](img/RL_bt.jpg)
 
-### Lights
+### Status-LEDs
 
-RL has several lights that you may notice from time to time. There is no 'power' light. If you suspect that your RL is not being powered, try turning it off and on using the small sliding switch. You should see lights in the middle of the board flash when you do this.  If they flash, that means the board has power.
+Der RL hat mehrere Status-LEDs, die du manchmal bemerken wirst. Es gibt keine spezielle Status-LED, welches anzeigt, dasss der Rl auch eingeschaltet ist. Wenn du vermutest, dass dein RL nicht eingeschaltet ist, versuchen ihn mit dem kleinen Schieberegler aus- und wieder einzuschalten. Wenn du das tust, solltest du Status-LEDs auf der Boardmitte aufblinken sehen.  Wenn sie aufblinken bedeutet es, dass die Platine über Strom verfügt.
 
-* Red light: Charging light. The red light will remain on while RL is charging, and it will turn off when charging is complete. You may notice the red light turn on periodically even after charging is complete...it's just "topping off".
+* Rote Status-LED: Ladelicht. Die rote Status-LED leuchtet während der Akku des RL geladen wird und es geht wieder aus, wenn die Ladung abgeschlossen ist. Du wirst sehen, dass die rote Status-LED periodisch aufleuchtet, auch wenn das Laden abgeschlossen ist... der Akku wird einfach "voll gehalten".
 
-* Green light: Bluetooth connection light. The green light will remain on while you have a BT connection with your iPhone.  If that green light fails to stay on, you should troubleshoot your BT connections. Try restarting BT on your iPhone and/or turning the RL off/on by its power switch.
+* Grüne Status-LED: Bluetooth-Verbindungslicht. Die grüne Status-LED leucht konstant, solange du eine BT-Verbindung mit deinem iPhone hast.  Wenn diese grüne Status-LED nicht leuchtet, musst du eine Fehlersuche der BT-Verbindungen machen. Versuchen BT auf deinem iPhone neu zu starten und/oder den RL aus- und wieder einzuschalten.
 
-* Blue light: Pump communications.  If you have an older firmware on your RL, some of the blue lights will flash periodically as it communicates with the pump. It's just letting you know that it is busy talking and collecting info. You will also see increased blue flashes if you have "Enabled Diagnostic LEDs" for MDT users that have the RLs with updated firmware (shipping since late August 2018).
+* Blaue Status-LED: Insulinpumpenkommunikation.  Wenn du eine ältere Firmware auf deinme RL hast, werden einige der blauen Status-LEDs regelmäßig blinken, während der RL mit der Insulinpumpe kommuniziert. Es zeigt nur an, dass es gearde aktiv ist und Informationen austauscht. Du wirst auch häufiger blaues Blinken sehen, wenn du als MDT-Benutzer "DiagnoseLEDs eingeschaltet" hast, die einen RLs mit aktualisierter Firmware hast (Versand seit Ende August 2018).
 
-A solid blue light that consistently remains lit on the board could mean one of two things:
+Eine permanet leuchtende blaue Status-LED, kann eines von zwei Dingen bedeuten:
 
-* A temporary issue that can be resolved by rebooting the RL physically (turning the switch off/on), or
+* Ein temporäres Problem, das durch einen Neustart des RL behoben werden kann (aus- und wieder einschalten) oder
 
-* An electrical short or damage to the board.  Sweat and moisture are most likely culprits, so try to keep case free from those environments. Don't keep RL in sports bras or waistband next to skin, for example, while exercising.
+* Ein elektrischer Kurzschluss oder ein Schaden an der Platine.  Schweiß und Feuchtigkeit sind dafür am ehesten der Grund, also versuchen am besten das Gehäuse davon fern zu halten. Stecke deshalb den RL z. B. beim Training nicht in einen Sport-BH oder ein Taillenband direkt an der Haut.
 
-If your blue light remains on despite trying a restart, it is time to pull out your backup RL.
+Wenn die blaue Status-LED trotz eines Neustarts des RL weiter leuchtet, ist es an der Zeit, deinen Backup-RL fertig zu machen.
 
-### Charging
+### Aufladen
 
-The battery that comes with RL is not likely charged completely when it is shipped, so feel free to charge it up.  You'll need a [mini-USB cable](https://www.amazon.com/AmazonBasics-USB-2-0-Cable--Male/dp/B00NH13S44) and [0.5A USB charging power supply](https://www.amazon.com/Cellet-Powered-Charger-iPhones-Smartphones-/dp/B00FE8WFCO) like your iPhone power supply.  RL takes about 2 hours to fully charge (the red light will turn off when fully charged, read note above about red light patterns) and should easily last at least a full day of constant Loop use.  Typically, it can go into the 30-hour range without any problems.  Most people charge their RL each night when they are sleeping.  You don't have to worry about leaving the RL plugged in "too long" for charging.  It will automatically stop charging the battery when it is fully charged.
+Der mit dem RL gelieferte Akku wird wahrscheinlich nicht vollständig geladen sein, also zöge nicht ihn aufzuladen.  Dafür benötigst du ein [Mini-USB-Kabel](https://www.amazon.com/AmazonBasics-USB-2-0-Cable--Male/dp/B00NH13S44) und [0.5A USB-Ladesgerät](https://www.amazon.com/Cellet-Powered-Charger-iPhones-Smartphones-/dp/B00FE8WFCO) wie dein iPhone-Ladegerät.  Es dauert ca. 2 Stunden den RL voll zu laden (die rote Status-LED schaltet sich ab, wenn er voll geladen ist, lies oben die Hinweise zu der roten Status-LED) und sollte locker ausreichen, um einen vollen Tag mit Loop zu funktionieren.  Es sollte sogar für ca. 30-Stunden Benutzung ausreichen.  Die meisten laden ihren RL jede Nacht, wenn sie schlafen.  Du musst dir keine Sorgen machen, den RL "zu lang" am Ladegrät angeschlossen zu haben,  sobald der Akku voll ist, hört der Ladevorgang automatisch auf.
 
-Since the best practice is to charge your RL overnight while you sleep, and the battery lasts safely over 24 hours, there is no battery level indicator for the RL.  The RL's charge level is not viewable on Nightscout, nor within the Loop app.  If you forget to charge your RL overnight, you can recharge it with a portable USB battery in a pinch.  A [short mini-USB cable](https://www.adafruit.com/product/899) could be a good addition to a small gear bag.
+Da es am besten ist deinen RL über Nacht zu laden, während du schläfts, und der Akuu danach sicher für 24 Stunden hält, gibt es am RL keine Batterieanzeige.  Der Ladezustand des RL ist weder bei Nightscout, noch in der Loop App sichtbar.  Falls du einmal vergessen hast deinen RL über Nacht aufzuladen, kannst du ihn auch am nächsten Tag mit einem tragbaren USB-Akku aufladen.  Ein [kurzes Mini-USB-Kabel](https://www.adafruit.com/product/899) ist deshalb eine gute Ergänzung für deine Notfall/Diabetikertasche.
 
-### Range
+### Funkreichweite
 
-The range that your RL will function is **heavily** dependent on the environment that you are in. Most people wear the RL in a pocket or carry a belt holster during the day. The radio frequency communications will have a shorter range than the BT communications, therefore RL will do better closer to the pump rather than the iPhone if you are deciding on options for carrying gear.
+Der Funkreichweite deines RL ist **stark** von der Umgebung abhängig, in der du dich befindest. Die meisten tragen ihren RL am Tag in der Hosentasche oder an einen Gürtelholster. Die Kommunikation über Funk hat eine kürzere Reichweite, als die BT-Kommunikation. Wenn du also überlegst, wie du den RL am besten trägst, ist es besser den RL dichter an der Insulinpumpe zu haben, als am iPhone.
 
-Problematic environments will be places like technical conferences, sports arenas, and other places where wireless communications are heavy and plenty.
+Problematische Umgebungen sind Orte wie z.B. technische Konferenzen, Sportarenen und andere Plätze, wo andere drahtlose Kommunikation über Funkfrequenzen stark und zahlreich ist.
 
-### Lipo Battery
+### Lithium-Polymer Akku
 
-Keep your RL and lipo battery protected from damage.  Lipo batteries are unsafe when damaged or punctured, so the case is an important part of safe Looping. If your battery is damaged in some way, please disconnect it immediately, and dispose of it (they should be recycled). You can order new batteries on the [GetRileyLink website](http://getrileylink.org/)
+Schütze deinen RL und den Lithium-Polymer (Lipo) Akku vor Beschädigungen.  Lipo-Akkus sind gefährlich, wenn sie beschädigt oder durchstochen werden, deshalb ist die Hülle des RL ein wichtiger Teil, um sicher Loop zu benutzen. Wenn dein Lipo-Akku in irgendeiner Weise beschädigt wurde, trennen ihn bitte sofort vom RL und entsorge ihn fachgerecht (du solltest ihn zum Recycling bringen). Einen neuen Akku kannst du auf der [GetRileyLink-Website bestellen](http://getrileylink.org/)
 
-### Removing Lipo Battery
+### Lipo-Batterie herausnehmen
 
-To remove the lipo battery from the RL, please do so slowly and patiently. Work the battery connection side to side slowly to loosen it from the plug. Some people have reported success using small, curved needle-nose pliers such as hemostats. Others have used small flathead screwdrivers as shown in [this video](https://youtu.be/s2qNPLpfwww).
+Nimm dir Zeit und arbeite sorfältig, wenn du den Lipo-Akku aus dem RL herausnimmst. Schiebe den Verbindungsstecker mit einem kleinen Werkzeug langsam und Stück für Stück aus der Buchse, bis du ihn mit den Fingern ganz herausziehen kannst. Einige Leute hatten guten Erfolg mit kleinen, gebogenen Nadelzangen oder Gefässklemmen. Andere haben kleine Schraubenzieher verwendet, wie in [diesem Video](https://youtu.be/s2qNPLpfwww) gezeigt.
 
 [![img/rileylink_battery_removal.png](img/rileylink_battery_removal.png)](https://youtu.be/s2qNPLpfwww)
 
-## Waiting for RileyLink
+## Warte auf deinen RileyLink
 
-Yes, waiting for RL to arrive is extremely difficult if they are backorder.  PLEASE be patient, since Loop CANNOT work without RL.
+Ja, das Warten auf den RL ist kann nervig sein, vor allem wenn sie erst Nachproduziert werden müssen und der internationale Versand noch obendrauf kommt.  Habe Geduld, denn Loop funktioniert nun mal NICHT ohne einen RL.
 
-If you're really dying to do something while RL ships, you can proceed with finishing these build directions all the way through Step 14...but after that you'll have to wait for the RileyLink.  You can't properly enter any settings or pump info in Loop app without the RileyLink.
+Wenn du nicht untätig warten möchtest, während dein RL unterwegs ist, kannst du mit der Anleitung bis zum Schritt 14 weitermachen... aber danach geht es dann ohne den RileyLink nicht mehr weiter.  Ohne den RileyLink kannst du nämlich keine Einstellungen oder Insulinpumpeninformationen in die Loop-App eingeben.
 
-## Next Step: Enroll in Apple Developer Program
+## Nächster Schritt: Schreibe dich in dem Apple Developer Program ein
 
-Now you are ready to move onto Step 6 to [enroll in the Apple Developer Program](step6.md).
+Jetzt kannst du mit Schritt 6 weitermachen, um [dich im Apple Developer Program](step6.md) einzuschreiben.
