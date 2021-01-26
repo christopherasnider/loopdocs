@@ -1,65 +1,65 @@
-# Step 5: Order a RileyLink
+# Étape 5: Commander un RileyLink
 
-!!!danger "Time Estimate"
-    - 15 minutes to order a RileyLink
-    - 15-20 minutes to assemble the RileyLink once you get it in the mail
-    - 15-20 minutes to read about the RileyLink
+!!!danger "Temps estimé"
+    - 15 minutes pour commander un RileyLink
+    - 15-20 minutes pour assembler le RileyLink une fois que vous l'aurez reçu par la poste
+    - 15-20 minutes pour lire les infos sur le RileyLink
 
-!!!info "Summary"
-    - Order your [Omnipod RileyLink](https://getrileylink.org/product/rileylink433) or [Medtronic RileyLink](https://getrileylink.org/product/rileylink916).
-    - Assemble the RileyLink, after hugging the postman
-    - Read the "extra details" to learn about RileyLink lights, charging, range, etc.
+!!!info "Résumé"
+    - Commandez votre [RileyLink Omnipod](https://getrileylink.org/product/rileylink433) ou [Medtronic RileyLink](https://getrileylink.org/product/rileylink916).
+    - Assembler le RileyLink, après avoir remercié le facteur (ou le livreur)
+    - Lisez les "détails supplémentaires" pour en savoir plus sur les diodes du RileyLink, la chargement, la portée, etc.
 
 !!!warning "FAQs"
-    - **"Do I need a RileyLink?"** Yes. Loop will not work without a RileyLink. Omnipod users will not be able to bolus from their looping pod without a RileyLink.
-    - **"What happens if I lose my RileyLink or walk away from it?"** Good question...answered [here](/faqs/rileylink-faqs/#what-happens-if-i-walk-away-from-my-rileylink).
-    - **"Can I use an Omnipod RileyLink with a Medtronic pump? or vice versa?"** Good question...answered [here](/faqs/rileylink-faqs/#what-will-happen-if-you-use-a-916mhz-antenna-rileylink-with-an-omnipod-or-vice-versa).
-    - **"Can I swap out RileyLinks at any time?"** Yes, you can. RileyLinks can be replaced quite simply without needing to start a new pod or rebuild Loop app. There's a place in Loop settings that you'd simply find your new RileyLink's name and turn "on" the Bluetooth connection to start using it.
-    - **"How close does the RileyLink need to be to me? Do I have to carry it with me?"** Good questions...answered [here](/faqs/rileylink-faqs/#do-i-have-to-carry-the-rileylink-everywhere).
-    - **"Why is it named RileyLink?"** Riley is the name of Pete Schwamb's daughter and he's the guy that created the RileyLink.
-    - **"Can I make my own RileyLink?"** Technically yes, however it is not an easy project. You'll need specialized tools and patience. If you want to explore doing that, I'd highly recommend checking out [Zulipchat](https://loop.zulipchat.com/#narrow/stream/148542-RileyLink) from the other people who have done their own builds successfully over the last several years. Only 3 people have built their own RileyLinks so far...but I guess that technically means it is possible. The PCB files and software, with instructions on how to build your own hardware module can be found at the [RileyLink Github repo](https://github.com/ps2/rileylink).
+    - **"Ai-je besoin d'un RileyLink ?"** Oui. Loop ne fonctionnera pas sans un RileyLink. Les utilisateurs d'Omnipod ne seront pas en mesure de faire un bolus à partir de leur pod sans un RileyLink.
+    - **« Que se passe-t-il si je perds mon RileyLink ou si je m’en éloigne? »** bonne question... répondu [ici](/faqs/rileylink-faqs/#what-happens-if-i-walk-away-from-my-rileylink).
+    - **« Puis-je utiliser un RileyLink Omnipod avec une pompe Medtronic ? ou vice versa? »** bonne question... répondu [ici](/faqs/rileylink-faqs/#what-will-happen-if-you-use-a-916mhz-antenna-rileylink-with-an-omnipod-or-vice-versa).
+    - **"Puis-je intervertir des RileyLinks à tout moment ?"** Oui, vous pouvez. Les RileyLinks peuvent être remplacés tout simplement sans avoir besoin de démarrer un nouveau pod ou de reconstruire l'application Loop. Il y a un endroit dans les paramètres Loop ou vous trouveriez simplement le nom de votre nouveau RileyLink et allumez la connexion Bluetooth pour commencer à l'utiliser.
+    - **« À quel point le RileyLink doit-il être proche de moi ? Dois-je le porter avec moi ?** Bonne question...réponse [ici](/faqs/rileylink-faqs/#do-i-have-to-carry-the-rileylink-everywhere).
+    - **« Pourquoi s'appelle-t-il RileyLink?** Riley est le nom de la fille de Pete Schwamb, et c'est le créateur du RileyLink. ».
+    - **"Puis-je faire mon propre RileyLink ?"** Techniquement oui, cependant ce n'est pas un projet facile. Vous aurez besoin d'outils spécialisés et de patience. Si vous voulez explorer cette option, Je vous recommande vivement de consulter [Zulipchat](https://loop.zulipchat.com/#narrow/stream/148542-RileyLink) avec d'autres personnes qui ont fait leurs propres versions avec succès au cours des dernières années. Seulement 3 personnes ont construit leur propre RileyLinks jusqu'à présent...mais je suppose que techniquement cela est possible. Les fichiers PCB et le logiciel avec des instructions sur la façon de construire votre propre module matériel peut être trouvé sur le dépôt [RileyLink Github](https://github.com/ps2/rileylink).
 
-## What is RileyLink
+## Qu'est-ce que RileyLink
 
-The RileyLink (RL) is an open-source hardware device that can bridge Bluetooth Low Energy (BLE) to 916MHz or 433MHz wireless communication. What does that mean to you? It means RileyLink is the communication highway between your insulin pump, CGM, and iPhone.</br></br>
+Le RileyLink (RL) est un matériel open-source qui permet de relier une connexion Bluetooth Low Energy (BLE) à une communication sans fil à 916MHz ou 433MHz. Qu'est-ce que cela signifie pour vous? Cela signifie que RileyLink est l'élément de communication central entre votre pompe à insuline, votre CGM et votre iPhone.</br></br>
 
-Loop will not work without the RileyLink.</b></br></br>
+La boucle ne fonctionnera pas sans le RileyLink.</b></br></br>
 
 ![../img/RL_bt.jpg](img/rl_diag.png)
 
-## Order RileyLink
+## Commander un RileyLink
 
-This is an easy step. You need to order a RileyLink from the [GetRiley website](https://getrileylink.org).
+C'est une étape facile. Vous devez commander un RileyLink à partir du site Web [GetRiley](https://getrileylink.org).
 
-There are two types of RileyLinks; [one for Omnipod](https://getrileylink.org/product/rileylink433) users and [one for Medtronic](https://getrileylink.org/product/rileylink916) users. Order the RileyLink specifically for the pump you'll be Looping with.
+Il y a deux types de RileyLink ; [un pour les utilisateurs d'Omnipod](https://getrileylink.org/product/rileylink433) et [un pour les utilisateurs de Medtronic](https://getrileylink.org/product/rileylink916). Commandez le RileyLink spécifiquement pour la pompe avec laquelle vous allez utiliser Loop.
 
-## Assemble RileyLink
+## Assembler le RileyLink
 
-Your RL will come with the battery disconnected and the parts not already inside the case. It will be up to you to put the RL in the case and attach the battery.
+Votre RL sera livré avec la batterie déconnectée et les pièces qui ne sont pas déjà à l'intérieur du boîtier. Ce sera à vous de mettre la RL dans le boitier et de brancher la batterie.
 
-Make sure the lipo battery is well-plugged into the connection. Line up the little ridge appropriately, and push fairly firmly to get the connection tight.  Poor battery cable connection can make the Loop communications fail.  See photos below, for example.
+Assurez-vous que la batterie lipo est bien branchée sur le connecteur. Alignez la petite teton correctement, et poussez assez fermement pour que la connexion soit serrée.  Une mauvaise connexion au câble de la batterie peut faire échouer les communications avec Loop.  Voir les photos ci-dessous, pour exemple.
 
-!!!info "Common new user errors"
+!!!info "Les erreurs courantes des nouveaux utilisateurs"
 
-    The most common two errors for new RL owners are (1) not fully pushing in the lipo battery cable connection and (2) failing to charge the RL. Compare your lipo battery cable with the photos; it takes a bit of oomph to push that plug fully in like the photos shown below. Remember to charge your RL each night.
+    Les deux erreurs les plus courantes pour les nouveaux détenteurs de RL sont (1) ne pas enfoncer complètement le connecteur du câble de la batterie lipo et (2) ne pas charger la RL. Comparez votre câble de batterie lipo avec les photos; il faut un peu de vigueur pour pousser complètement cette prise comme dans les photos ci-dessous. N’oubliez pas de recharger votre RL chaque nuit.
 
 ![../img/rileylink_battery_removal.png](img/battery-cables.jpg)
 
-<figcaption>Loose battery cable on left, Proper battery cable on right</figcaption>
+<figcaption>Cable mal connecté à gauche, correctement inséré à droite</figcaption>
 
-Finally, the board and the battery fit into the slim case fairly tightly as well.  Click on the image below to watch a helpful [assembly video](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be).
+Enfin, la carte et la batterie s'insère assez bien dans le boîtier mince.  Cliquez sur l'image ci-dessous pour regarder une [vidéo d'assemblage](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be) utile.
 
 [![img/slimcase.png](img/slimcase.png)](https://www.youtube.com/watch?v=-GHxxEJMCZc&feature=youtu.be)
 
-## Extra Details about RileyLink
+## Détails supplémentaires sur le RileyLink
 
-### Radio communications
+### Communications radio
 
-The RL communicates with the pump through radio frequency communications.  Numerous factors can influence how well those communications can function...interferences from other devices, temperature, physical blocking, etc.
+La LR communique avec la pompe par le biais de communications par radiofréquences.  De nombreux facteurs peuvent influer sur le bon fonctionnement de ces communications...les interférences d'autres dispositifs, la température, le blocage physique, etc.
 
-When your RL and pump are first paired, Loop performs a series of tests that you won't see...they are tuning tests. Basically, RL sends little test messages to the pump and waits for a response. The RL tries this same "ping" to the pump a range of various radio frequencies. The range of radio frequencies it tries is based on the pump you've told RL to expect (Omnipod, Medtronic NA/CA, or Medtronic WW).  RL will then record the radio frequencies that provided the strongest response and use that frequency for future pump communications.
+Lorsque votre RL et votre pompe sont jumelés pour la première fois, Loop effectue une série de tests que vous ne verrez pas... Ce sont des tests de réglage. Fondamentalement, RL envoie des petites messages de test à la pompe et attend une réponse. Le RL essaie ce même « ping » à la pompe sur une gamme de différentes fréquences radio. La gamme de fréquences radio qu’il essaie est basée sur le type de pompe déclaré (Omnipod, Medtronic NA / CA, ou Medtronic WW).  Le RL enregistre ensuite les fréquences radio qui ont fourni la réponse la plus forte et utilise cette fréquence pour les futures communications avec la pompe.
 
-Usually this best frequency is pretty constant for any given pump+RL, but during temperature changes it may be that the best frequency is not the one currently set. In the event that RL has problems communicating with the pump, Loop has code built-in that will automatically tell the RL "Hey, try that tuning pump thing again...maybe there's a better frequency we need to try." This retuning is started automatically if pump communications fail for 14 minutes (in other words, two looping cycles).
+Habituellement, cette meilleure fréquence est assez constante pour n’importe quelle couple pompe déclaré+RL, mais pendant les changements de température, il se peut que la meilleure fréquence n’est pas celle définie actuellement. Dans le cas où RL a des problèmes de communication avec la pompe, Loop possède le code interne une fonction qui dira automatiquement au RL « Hé, essaye ce nouveau réglage de pompe ... peut-être que cette nouvelle fréquence que nous devons essayer est meilleure." This retuning is started automatically if pump communications fail for 14 minutes (in other words, two looping cycles).
 
 ### Bluetooth communications
 
