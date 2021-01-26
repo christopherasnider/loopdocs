@@ -28,21 +28,21 @@ Wenn du dich für die Nutzung eines **KOSTENLOSEN** Entwicklerkontos entscheides
 Wenn du dich für die Nutzung eines **BEZAHLTEN** Entwicklerkontos entscheidest, musst folgendes wissen:
 
 1. Loop Apps, die mit einem bezahlten Entwicklerteam signiert wurden, laufen ein ganzes Jahr.</br></br>
-2. Das kostenpflichtige Entwicklerkonto kostet 99 USD pro Jahr und hat standardmäßig die Option mit automatischer Verlängerung. You can change that selection in your developer account settings at any time.</br></br>
-3. If your household has multiple Loop users, only one developer account is needed.  That one developer account can be used to sign multiple Loop apps.</br></br>
+2. Das kostenpflichtige Entwicklerkonto kostet 99 USD pro Jahr und hat standardmäßig die Option mit automatischer Verlängerung. Du kannst diese Option aber jederzeit in deinen Entwicklerkonto Einstellungen ändern.</br></br>
+3. Auch wenn es in deinem Haushalt mehrere Loop Benutzer gibt, wird nur ein Entwicklerkonto benötigt.  Ein Entwicklerkonto kann verwendet werden, um mehrere Loop Apps zu signieren.</br></br>
 
-## Switching from Free to Paid Memberships
+## Wechsel von kostenlosen auf bezahltes Entwicklerkonto
 
-In summary: This is no problem trying a free account first before you decide to buy a paid developer account. If you start with a free account, you'll build a Loop app (let's call it FreeLoop). When you switch to a paid account, you'll be building a totally new and separate Loop app onto your phone (let's call it PaidLoop). The two apps will look identical on your phone, but they will be functionally separate from each other...ideally you want to delete the FreeLoop app before using the PaidLoop app.
+Kurz: Es ist kein Problem, zuerst ein kostenloses Entwicklerkonto auszuprobieren, bevor du dich entscheidest, ein bezahltes Entwicklerkonto abzumachen. Wenn du mit einem kostenlosen Entwicklerkonto beginnest, erstellst du eine Loop App (sagen wir mal LoopKostenlos). Wenn dz auf ein bezahltes Entwicklerkonto wechselst, erstellest du eine völlig neue und separate Loop App auf dem iPhone (diese nennen wir LoopBezahlt). Beide Apps sehen auf deinem iPhone identisch aus, aber sie hängen funktionell nicht zusammen...idealerweise solltest du die LoopKostenlos App löschen, bevor du anfängst die LoopBezahlt App zu benutzen.
 
-PaidLoop will know nothing about the settings and information you had stored in FreeLoop, so you will need to re-enter all your settings (basal rates, ISF, carb ratios, etc.) and configurations into the new PaidLoop. It will also not connect or control any pods you are currently using with the old FreeLoop you had installed.
+LoopBezahlt hat keine Ahnng von den Einstellungen und Informationen, die du in LoopKostenlos gespeichert hast. Du must also alle deine Einstellungen erneut in LoopBezahlt eingeben (Basalraten, Insulinsensitivität, Kohlenhydratverhältnis, usw.). Das neue LoopBezahlt wird auch keine Pods ansteuern oder kontrollieren können, die du derzeit mit dem alten LoopKostenlos verwendest.
 
-So, when switching from Free to Paid Loop builds...try to remember that you'll have the best luck by (1) timing it at pod change time and (2) take screenshots of your old app's settings so that you can enter them into the new app.
+Also, wenn du von LoopKostenlos auf LoopBezahlt wechselst...erinnere dich an (1) der optimaler Zeitpunkt ist, wenn auch der Pod getauscht wird und (2) mache Bildschirmfotos der Einstellungen in deiner alten LoopKostenlos App, damit du diese einfach in die neue LoopBezahlt App eintragen kannst.
 
-## Enrolling
+## Anmeldung
 
-Paid account enrollment is all through Apple's Developer Program website. Go to the [Apple Developer website](https://developer.apple.com/programs/enroll/) to enroll in an individual paid account. If you instead want the free account, you don't have to do anything on that website. You'll just wait for Step 8 Xcode Preferences and we will get your free account then.
+Die kostenpflichtige Anmeldung erfolgt über die Website des Apple's Developer Programms. Gehe dafür auf die [Apple Developer Website](https://developer.apple.com/programs/enroll/) um dich für ein eigenes Entwicklerkonto anzumelden. Wenn du stattdessen das kostenlose Entwicklerkonto möchtest, musst du auf dieser Website nichts machen. Warten einfach bis zu Schritt 8 Xcode Einstellungen und wir erstellen dann dein kostenloses Entwicklerkonto.
 
-## Next Step: Install Homebrew
+## Nächster Schritt: Installation von Homebrew
 
-Now you are ready to move onto Step 7 to [install Homebrew](step7.md).
+Jetzt kannst du mit Schritt 7 weitermachen, [Homebrew](step7.md) installieren.
