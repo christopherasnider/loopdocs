@@ -18,30 +18,30 @@
 
 Un moniteur de glucose continu (CGM) fournit à Loop des lectures en continu de glycémie. Ces lectures permettent à Loop de prédire quelle est la tendance actuelle de glycémie et de prédire la glycémie future en fonction de l’entrée des glucides et des paramètres que vous avez saisies à Loop. Voici les types de CGMs compatibles avec Loop. Les lectures de CGM sont une partie requise du faire fonctionner Loop. Si votre Loop n’est pas en mesure de récupérer les données de votre capteur, elle ne sera pas en mesure de boucler.
 
-## Les CGM Dexcom G5 et G6 ![G5](img/g5.jpg)
+## Les CGM Dexcom G5 et G6 ![img/g5.jpg](img/g5.jpg)
 
 Avec les Dexcom G5 et G6 votre iPhone reçoit les données MGC directement via l'application Dexcom en Bluetooth. Aucun de ces deux systèmes ne nécessite l'utilisation d'un récepteur autonome. Pour que Loop fonctionne, vous aurez besoin de l'application Dexcom en cours d'exécution.
 
-## Le CGM Dexcom G4 avec Share Receiver ![G4 With Receiver](img/g4_receiver.png)
+## Le CGM Dexcom G4 avec Share Receiver ![img/g4_receiver.png](img/g4_receiver.png)
 
-Dexcom G4 Share system transmits CGM data from the transmitter to a Dexcom G4 Share Receiver. The receiver, in turn, connects to the Dexcom Share2 app on your iPhone via Bluetooth. The Share2 app uploads CGM data to the Dexcom servers. For Loop to function, you will need the Dexcom app running.
+Le système Dexcom G4 Share transmet les données CGM de l’émetteur au récepteur du Dexcom G4. Le récepteur, à son tour, se connecte à l'application Dexcom Share2 sur votre iPhone via Bluetooth. L'application Share2 télécharge des données CGM vers les serveurs Dexcom. Pour que Loop fonctionne, vous aurez besoin de l'application Dexcom en cours d'exécution.
 
-## Medtronic CGM ![Enlite](img/enlite.png)
+## Les CGM Medtronic ![img/enlite.png](img/enlite.png)
 
-The Minimed Enlite CGM, available with the Medtronic 522/722, 523/723, and 554/754, wirelessly sends blood glucose readings to the pump. Loop can read the Medtronic CGM data directly from the pump using the RileyLink.
+Le CGM Minimed Enlite, disponible avec le Medtronic 522/722, 523/723 et 554/754, envoie des lectures de glycémie à la pompe. Loop peut lire les données CGM Medtronic directement à partir de la pompe à l’aide du RileyLink.
 
-## Offline Use
+## Utilisation hors ligne
 
-Offline use means using Loop when there is no cell data or internet available. Loop does not require any special setup to operate offline. You will not need to do anything special if you go camping or find yourself out in the wilderness. For offline Loop use, the iPhone's Bluetooth still needs to be active; and for Dexcom users, the Share2, G5, or G6 app also still needs to be open (but don't have to be actively "sharing" to the internet). If you put your iPhone into Airplane mode, remember to turn Bluetooth back on to keep your Loop running. If your offline use is failing, chances are you have forgotten to update your transmitter ID in Loop settings when you changed transmitters.
+L'utilisation hors ligne signifie utiliser la boucle lorsqu'il n'y a pas de données cellulaires ou d'internet disponible. La boucle ne nécessite aucune configuration spéciale pour fonctionner hors ligne. Vous n’aurez pas besoin de faire quelque chose de spécial si vous allez camper ou vous retrouver dans le désert. Pour une utilisation hors ligne de Loop, le Bluetooth de l’iPhone doit toujours être actif; et pour les utilisateurs de Dexcom, l’application Share2, G5 ou G6 doit également être ouverte (mais n’a pas besoin de « partager » activement via Internet). Si vous mettez votre iPhone en mode Avion, n’oubliez pas de réactiver le bluetooth pour maintenir votre Loop en marche. Si votre utilisation hors ligne échoue, il y a des chances que vous ayez oublié de mettre à jour votre identifiant de transmetteur dans les paramètres de la boucle lorsque vous avez changé d'émetteurs.
 
-## Dexcom Servers
+## Serveurs Dexcom
 
-In some rare instances, the Loop may fail to eavesdrop on the Bluetooth transmissions of the CGM systems.  When that happens, the Loop can pull directly from Dexcom Servers to get the data (assuming you have entered your Share account information in the Loop settings and have Share turned on). When Loop is operating in this mode, you will see a small cloud in the CGM reading in the Loop app. Operating in this mode requires a working internet or cell connection.
+Dans de rares cas, Loop peut échouer à écouter les transmissions Bluetooth des systèmes CGM.  Quand cela se produit, Loop peut passer directement par les serveurs Dexcom pour obtenir les données (en supposant que vous ayez entré les informations de votre compte de partage dans les paramètres Loop et que le Partage soit activé). Lorsque Loop fonctionne dans ce mode, vous verrez un petit nuage dans les chiffres du CGM dans l’application Loop. L’utilisation de ce mode nécessite une connexion Internet ou cellulaire fonctionnelle.
 
-## CGMs not natively supported in Loop
+## Les CGM non nativement supportés dans Loop
 
-Libre (with BluCon or Miao Miao), Eversense, Medtronic Guardian sensors, etc. Yes, there are other CGM systems available out there. Loop does not natively support those CGMs.  If you would like to use one of those alternate CGMs and Loop...you will need to look into third-party integrations to allow Loop to access the blood glucose data.  These docs do not cover the alternate methods of unsupported CGM systems or apps like Spike.
+Libre (avec BluCon ou Miao Miao), Eversense, Medtronic Guardian sensors, etc. Oui, il y a d'autres systèmes CGM disponibles sur le marché. Loop ne prend pas en charge ces CGM.  Si vous souhaitez utiliser l'une de ces CGM avec Loop, ... vous devrez examiner les intégrations de tiers pour permettre à Loop d'accéder aux données de glycémie.  Ces documents ne couvrent pas les méthodes alternatives des systèmes CGM non pris en charge ou des applications comme Spike.
 
-## Next Step: Order a RileyLink
+## Prochaine étape: Commander un RileyLink
 
-Now you are ready to move onto Step 5 to [Order a RileyLink](step5.md).
+Maintenant, vous êtes prêt à passer à l’étape 5 [commander un](step5.md)RileyLink .
