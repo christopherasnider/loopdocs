@@ -8,7 +8,7 @@
 !!! Info "Zusammenfassung"
     - Bestellen deinen [Omnipod RileyLink](https://getrileylink.org/product/rileylink433) oder [Medtronic RileyLink](https://getrileylink.org/product/rileylink916).
     - Baue den RileyLink zusammen, nachdem du den Postboten freudig verabschiedet hast
-    - Lies die "Extradetails" um mehr über die RileyLink Signallämpchen, das Aufladen, die Empfangsreichweite usw. zu erfahren.
+    - Lies die "Extradetails" um mehr über die RileyLink Status-LEDs, das Aufladen, die Empfangsreichweite usw. zu erfahren.
 
 !!!warning "FAQs"
     - **"Brauche ich einen RileyLink?"** Ja. Loop funktioniert nicht ohne RileyLink und Omnipod Benutzer können ohne RileyLink auch keinen Bolus geben.
