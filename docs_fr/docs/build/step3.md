@@ -146,22 +146,22 @@ Medtronic will not typically sell pump supplies directly to customers who have n
 
 !!!warning "Rappel et avertissement"
 
-    Through the work of the DIY community, Insulet's Omnipod (Eros) system is now Loop compatible. Using Eros pods with Loop is not supported by Insulet. Do not call Insulet asking for help with your Loop build, setup, or operation. This project is not FDA-approved and you are using this project under your own responsibility and risk. Please read these documents and familiarize yourself with Loop before using.
+    Grâce au travail de la communauté DIY, le système Omnipod (Eros) d’Insulet est désormais compatible avec Loop. L'utilisation des pods Eros avec Loop n'est pas supportée par Insulet. N'appelez pas Insulet pour demander de l'aide avec votre compilation, installation ou configuration de Loop. Ce projet n'est pas approuvé par la FDA (l'Agence américaine des produits alimentaires et médicamenteux, l'equivalent de l'AFSSAPS, Agence Française de Sécurité Sanitaires des Produits de Santé en France ou de la CFIA, Canadian Food Inspection Agency pour le Canada) et vous utilisez ce projet sous votre propre responsabilité et sous vos propres risques. Veuillez lire ces documents et vous familiariser avec Loop avant de l'utiliser.
 
-### Eros
+### Omnipod Eros
 
-Eros pods were launched in 2013 and continue to be sold by Insulet. As far as we know, there have been no plans or timelines announced for the discontinuation of Eros pods for existing customers. Insulet doesn't specifically call these "Eros" anymore, they just use the term "omnipod system". For clarity, from [Insulet's webpage](https://www.myomnipod.com/about):
+Les pods Eros ont été lancés en 2013 et continuent d'être vendus par Insulet. Pour autant que nous sachions, il n'y a pas eu de plans ou de calendriers annonçant l'abandon commercial des pods Eros pour les clients actuels. Insulet n'appelle plus ces pod "Eros", ils utilisent uniquement le terme "système omnipod". Pour plus de clarté, [la page web d’Insulet](https://www.myomnipod.com/about):
 
-Eros system has that PDM we all recognize from the last several years.
+Eros système a ce PDM que nous reconnaissons tous depuis plusieurs années.
 
-![../img/dash.png](img/eros.png)
+![img/eros.png](img/eros.png)
 
-### DASH
+### Omnipod DASH
 
-Insulet has announced their DASH system as an eventual replacement for Eros/Omnipod System. There has already been a limited release of DASH to a select group of users, with a wider public rollout of DASH expected in 2019. The DASH system has the newer, slimmer locked-android PDM and built-in BLE communications in POD. Loop will not be compatible with the DASH system.
+Insulet a annoncé son système DASH en tant que remplaçant éventuel du système Eros/Omnipod. Il y a déjà eu une diffusion limitée de DASH à un groupe restreint d’utilisateurs, avec un déploiement public plus large de DASH prévu en 2019. Le système DASH dispose d'une nouveau PDM, plus mince, basé sur un android verrouillé et fermé et utilisant comme moyen de communication avec le pod le Bluetooth ble. Loop ne sera pas compatible avec le système DASH.
 
 ![img/dash.png](img/dash.png)
 
-## Next Step: Compatible CGM
+## Prochaine étape : Un MGC/CGM compatible
 
-Now you are ready to move onto Step 4 to check if you have a [Compatible CGM](step4.md).
+Maintenant vous êtes prêt à passer à l'étape 4 pour vérifier si vous avez un [CGM compatible](step4.md).
