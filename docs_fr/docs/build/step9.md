@@ -9,15 +9,15 @@
     - Vérifiez que les outils de ligne de commande ont été correctement installés dans les préférences Xcode sous l’onglet "Emplacements" ou "Locations".
 
 !!!warning "FAQs"
-    - **"I still only see an account with `(personal team)` beside it even though I enrolled in the paid Developer Account program...what should I do?"** You should check your spam email box in case Apple sent you an email there. Make sure you've waited the 48 hours that Apple says it may take to get your account approved. If it's been 48 hours and you still don't see anything in your email, contact Apple support and ask them about the status of your enrollment. It may be held up by something on their end.
+    - **« Je ne vois encore qu’un compte avec `(équipe personnelle ou personal team)` à côté de lui, même si je me suis inscrit au programme de compte développeur payant... que dois-je faire? »** Vous devriez vérifier votre boîte e-mail spam/indésirable au cas où Apple vous ait envoyé un e-mail déplacé dans cette dossier la. Assurez-vous d’avoir attendu les 48 heures qu’Apple dit qu’il peut prendre pour obtenir la validation de votre compte. Si cela fait 48 heures et que vous ne voyez toujours rien dans votre e-mail, contactez le support Apple et demandez-leur le statut de votre inscription. Il peut être retardé par quelque chose de leur côté.
 
-Since you've been working in order, you will now have Xcode installed on your computer from Step 8. You will also have enrolled in the Apple Developer program with a paid account, if that was your selection, in Step 6. Now we need to tell Xcode about your Developer Account.
+Puisque vous avez travaillé dans l'ordre, Xcode est deja installé sur votre ordinateur depuis l'étape 8. Vous vous êtes également inscrit au programme Apple Developer avec un compte payant, si tel était votre choix, à l’étape 6. Maintenant, nous devons référencer votre compte développeur dans Xcode.
 
-Open Xcode from your Applications folder.
+Ouvrez Xcode depuis votre dossier Applications.
 
-## Command Line Tools
+## Outils de ligne de commande
 
-There may be a short delay the very first time you open Xcode because it will install a package of tools. Don't close that window out, let it finish...we will need those Command Line Tools. Helpful tip: When the Command Line Tools installation is done and the pop-up window closes, check that your Command Line Tools installed correctly. Make sure that Xcode 12.0.1 (or newer) is selected there. Open Xcode's Preferences by clicking on the word **`Xcode` ** in the top menu bar (just to the right of the Apple icon in the upper-left corner) and selecting `Preferences` in the drop-down menu. The keyboard shortcut to open Xcode Preferences is `command-comma` if that's easier for you. Then select the `Locations` tab of Preferences window and you'll see the dropdown menu for Command Line Tools.
+Il peut y avoir un court délai la première fois que vous ouvrez Xcode car il installera un paquet d'outils. Ne fermez pas cette fenêtre, laissez-la finir... nous aurons besoin de ces outils de ligne de commande. Conseils utiles : Lorsque l'installation des Outils en ligne de commande est terminée et que la fenêtre pop-up se ferme, vérifiez que vos Outils en ligne de commande sont correctement installés. Make sure that Xcode 12.0.1 (or newer) is selected there. Open Xcode's Preferences by clicking on the word **`Xcode` ** in the top menu bar (just to the right of the Apple icon in the upper-left corner) and selecting `Preferences` in the drop-down menu. The keyboard shortcut to open Xcode Preferences is `command-comma` if that's easier for you. Then select the `Locations` tab of Preferences window and you'll see the dropdown menu for Command Line Tools.
 
 ![img/command-line-error-3.png](img/command-line-error-3.png)
 
