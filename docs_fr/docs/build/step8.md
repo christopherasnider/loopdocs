@@ -30,30 +30,30 @@ Parce que la mise à jour semble si anodine et nous menons tous des vies occupé
 
 !!! danger « Loop et les mises à jour iOS»
 
-    Pour les Loopers (les utilisateurs de Loop)...la conséquence d'une mise à jour d'iOS n'a rien d'immédiate. Your Loop app won't die, it will keep humming along. </br></br>BUT, before you ***<u>update or rebuild</u>*** your Loop app on that phone, you will likely need to update your macOS and Xcode applications because of the newer iOS.  And you will need to do the updates/checks in a certain order:</br></br>
-    1st: Check if your macOS has updates</br></br>
-    2nd: Check for an Xcode update.</br></br>
+    Pour les Loopers (les utilisateurs de Loop)...la conséquence d'une mise à jour d'iOS n'a rien d'immédiate. Votre application Loop ne mourra pas, elle continuera à fredonner. </br></br>MAINTENANT, avant que vous ***<u>mettez à jour ou reconstruisez</u>*** votre application Loop sur ce téléphone, vous devrez probablement mettre à jour vos applications macOS et Xcode à cause de nouveaux iOS.  Et vous devrez faire les mises à jour/vérifications dans un certain ordre :</br></br>
+    1er : Vérifiez si votre macOS a des mises à jour</br></br>
+    2nd: Vérifiez s'il y a une mise à jour de Xcode.</br></br>
 
-The chart below is a helpful visual of the minimum versions you'll need based on your iOS.
+Le graphique ci-dessous est un visuel utile des versions minimales dont vous aurez besoin en fonction de votre iOS.
 
-* macOS: If you are running an iPhone with iOS 14, you need to make sure your macOS is 10.15.4 at a minimum as the first step. If you don't have the minimum version, go to [Step 1 Compatible Computer](step1.md#check-your-macos) and follow directions for updating your macOS.
+* macOS : Si vous utilisez un iPhone avec iOS 14, vous devez vous assurer que votre macOS est 10.15.4 au minimum comme première étape. Si vous n'avez pas la version minimale, allez à [l'Étape 1 Compatibilité de l'Ordinateur](step1.md#check-your-macos) et suivez les instructions pour mettre à jour votre macOS.
 
-* Xcode: Now that your macOS is updated to 10.15.4 minimum, the App Store in your computer will have Xcode 12.0.1 (or newer) available for you to download/update.
+* Xcode : Maintenant que votre macOS est mis à jour à 10.15.4 minimum, l'App Store sur votre ordinateur indiquera Xcode 12.0.1 (ou une version plus récente) disponible pour le téléchargement/mise à jour.
 
-If you have a brainfart and leave your macOS back at 10.15.2...the App Store won't even tell you Xcode version 12 or newer exists. That's why it is important to do the macOS updates FIRST. I can't tell you how many people post for help saying "I'm trying to update my Loop app but am getting errors." If I ask what Xcode version they have and if they've updated, the response is "I don't have any Xcode updates available in the App Store...so I must be running the most current version." When actually what's happened is they have forgotten to check for macOS updates FIRST and therefore cannot see the needed Xcode update yet.
+Si vous avez un oubli et laissez votre macOS à 10.15.2...l'App Store ne vous proposera même pas Xcode version 12 ou plus récente. C’est pourquoi il est important de faire les mises à jour macOS EN PREMIER. Je ne peux pas vous dire combien de personnes postent pour obtenir de l’aide en disant " J’essaie de mettre à jour mon application Loop mais j'ai des messages d'erreurs. » Si je demande quelle version Xcode ils ont et s'ils ont mis à jour, la réponse est "Je n'ai aucune mise à jour Xcode disponible dans l'App Store... donc c'est que je dois utiliser la version la plus récente." Alors qu'en fait ce qui s'est passé, c'est qu'ils ont oublié de vérifier les mises à jour macOS EN PREMIER et donc ne peuvent pas encore voir la mise à jour Xcode nécessaire.
 
-(Source for the chart is [wikipedia](https://en.wikipedia.org/wiki/Xcode))
+(La source du graphique est [wikipedia](https://en.wikipedia.org/wiki/Xcode))
 
 ![img/minimum-related.png](img/minimum-related.png)
 
-## What happens if you try using too old of Xcode?
+## Que se passe-t-il si vous essayez d’utiliser un trop vieux Xcode?
 
-It isn't some catastrophic failure if you try to build with an outdated Xcode without realizing it. You'll see a pretty obvious error message during your Loop build that says "Could not locate device support files." That messages is telling you that your iOS on the phone requires you to get a newer version of Xcode to be able to build Loop onto that phone.
+Ce n'est pas un erreur catastrophique si vous essayez de construire avec un Xcode obsolète sans vous en rendre compte. Vous verrez un message d'erreur assez évident pendant votre compilation de Loop qui dit "Impossible de localiser les fichiers de support du périphérique." Ce message vous disent que votre iOS sur le téléphone vous oblige à obtenir une nouvelle version de Xcode pour être en mesure de construire Loop sur ce téléphone.
 
 ![../img/device-support-files.jpg](img/device-support-files.jpg)
 
-So, if you see that error message realize you may have to update your macOS to be able to see the newest Xcode version that you will need. Make sure to check that chart to see what your minimum versions are for the iOS you are running on your iPhone.
+Donc, si vous voyez ce message d'erreur, vous devrez peut-être mettre à jour votre macOS pour pouvoir voir la dernière version de Xcode dont vous aurez besoin. Assurez-vous de vérifier ce graphique pour voir quelles sont vos versions minimales pour l’iOS que vous utilisez sur votre iPhone.
 
-## Next Step: Xcode Preferences
+## Prochaine étape : Préférences d'Xcode
 
-Now you are ready to move onto Step 9 to [work on Xcode Preferences](step9.md).
+Maintenant vous êtes prêt à passer à l'étape 9 pour [travailler sur les Préférences Xcode](step9.md).
