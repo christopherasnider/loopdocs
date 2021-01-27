@@ -19,7 +19,7 @@ Respirer profondément ... cette étape ressemble à une sorte de « code progr
 
 Homebrew est un programme qui nous permettra d'installer les paquets nécessaires pour construire Loop. Avant d’installer Homebrew, nous devons vérifier une chose... que le compte utilisateur sur l’ordinateur que vous utilisez pour construire Loop, est un **compte d’utilisateur avec les droits administratifs sur l’ordinateur**. « Comment pouvez-vous le savoir ? » Allez dans l'application Préférences Système de l'ordinateur, ouvrez la section Utilisateurs et groupes . Si le compte que vous utilisez ne dit pas "Admin" sous votre nom, alors vous devez cliquer sur le verrou et le modifier pour un compte administrateur avant de continuer. Si vous utilisez un ordinateur professionnel, il se peut que vous n'ayez pas les droits d'administration sur cet ordinateur. Alors, sachez que vous pouvez avoir des restrictions sur les ordinateurs appartenant à l'entreprise.
 
-![img/admin-user.png](img/admin-user.png)
+![../img/carthage-done.png](img/admin-user.png)
 
 Remarque : Si vous êtes une (1) personne pointue en informatique et (2) avez déjà installé Homebrew sur un compte utilisateur différent précédemment. Veuillez utiliser ce compte utilisateur sur cet ordinateur pour compiler Loop. Ou bien, supprimez Homebrew de ce compte utilisateur et re-installez-le sur l'autre compte. Homebrew est un peu pointilleux.
 
