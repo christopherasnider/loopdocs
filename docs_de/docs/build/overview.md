@@ -1,8 +1,8 @@
 # Installationsübersicht
 
-Der Installationsprozess ist einfach. Überprüfe zuerst, ob Du die kompatible Ausstattung hast, um Loop benutzen zu können. Dann musst Du ein paar Dinge mit dem Computer vorbereiten und kannst anschliessend mit der Erstellung der Loop-App beginnen.
+Der Installationsprozess ist einfach. Überprüfe zuerst, ob Sie die kompatible Ausstattung hast, um Loop benutzen zu können. Dann mussen Sie ein paar Dinge mit dem Computer vorbereiten und anschließend können Sie die Erstellung der Loop-App beginnen.
 
-Obwohl dies alles auf den ersten Blick einschüchternd sein kann, verspreche ich dir, dass es trozdem für den durchschnittlichen Computer-Benutzer gut machbar ist.
+Obwohl dies alles auf den ersten Blick einschüchternd aussehen kann, verspreche ich Ihnen, dass es trotzdem für den durchschnittlichen Computer-Benutzer gut machbar wird.
 
 !!!info "Einfach einen Schritt nach dem anderen..."
 

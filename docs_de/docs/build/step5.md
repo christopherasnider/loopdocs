@@ -8,7 +8,7 @@
 !!! Info "Zusammenfassung"
     - Bestellen deinen [Omnipod RileyLink](https://getrileylink.org/product/rileylink433) oder [Medtronic RileyLink](https://getrileylink.org/product/rileylink916).
     - Baue den RileyLink zusammen, nachdem du den Postboten freudig verabschiedet hast
-    - Lies die "Extradetails" um mehr über die RileyLink Signallämpchen, das Aufladen, die Empfangsreichweite usw. zu erfahren.
+    - Lies die "Extradetails" um mehr über die RileyLink Status-LEDs, das Aufladen, die Empfangsreichweite usw. zu erfahren.
 
 !!!warning "FAQs"
     - **"Brauche ich einen RileyLink?"** Ja. Loop funktioniert nicht ohne RileyLink und Omnipod Benutzer können ohne RileyLink auch keinen Bolus geben.
@@ -37,7 +37,7 @@ Es gibt zwei Typen des RileyLinks: [einen für Omnipod](https://getrileylink.org
 
 Dein RileyLink wird in Einzelteilen geliefert, also Akku getrennt, die kleine Platine und das Gehäuse. Du wirst den Akku verbinden und alles in das Gehäuse stecken.
 
-Pass auf, dass die Steckverbindung vom Lipo-Akku gut eingerastet ist. Richte die kleine Nut richtig aus und drücke den Stecker ziemlich fest in die Buchse, um eine sichere Verbindung zu bekommen.  Eine schlechte Akkuverbindung kann dazu führen, dass die Loop-Kommunikation fehlschlägt.  Siehe die Beispielfotos unten an.
+Pass auf, dass die Steckverbindung vom Lithium-Polymer (Lipo) Akku gut eingerastet ist. Richte die kleine Nut richtig aus und drücke den Stecker ziemlich fest in die Buchse, um eine sichere Verbindung zu bekommen.  Eine schlechte Akkuverbindung kann dazu führen, dass die Loop-Kommunikation fehlschlägt.  Siehe die Beispielfotos unten an.
 
 !!!info "Typische Benutzerfehler"
 

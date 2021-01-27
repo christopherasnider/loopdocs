@@ -6,6 +6,6 @@ Alors que tout cela est probablement assez intimidant au debut, je vous promets 
 
 !!!info "Une étape à la fois..."
 
-    Si vous vous inquiétez du temps que cela prendre, vous pouvez toujours vous arrêter à l'une des étapes et revenir plus tard. Les étapes sont conçues pour être de beaux points d'arrêt pour prendre des pauses si nécessaire.
+    Si vous vous inquiétez du temps que cela va prendre, vous pouvez toujours vous arrêter à l'une des étapes et revenir plus tard. Les étapes sont conçues pour être de beaux points d'arrêt pour prendre des pauses si nécessaire.
 
 ![alt](https://media.giphy.com/media/xThta8UkUaoqJoJQC4/giphy.gif)

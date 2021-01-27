@@ -8,82 +8,82 @@
 !!!info "Résumé"
     - If you have a big clunky PDM with built-in BG meter...you can use your pods for Loop.
     - If you have a slim touch screen android-looking PDM...you can NOT use your pods for Loop.
-    - If you have a Medtronic, check the list to ensure compatible model/firmware.
+    - Si vous avez une pompe Medtronic, vérifiez dans la liste pour vous assurer de la compatibilité des modèles/firmware.
 
 !!!warning "FAQs"
-    - **"How can I find a compatible Medtronic pump?"** That question is answered in the Extra Details section below.
-    - **"What are the differences between Medtronic pump models?"** This question is also answered in the Extra Details section below.
-    - **"But what about the other types of pumps?"** Too bad, so sad...unless it is a DanaRS, DanaR, Accu-Chek Insight, Accu-Chek Combo. If you have one of those pumps, you could check out [AndroidAPS looping system](https://androidaps.readthedocs.io/en/latest/index.html) instead of Loop. If you have a Medtronic 512 or 712, you could check out [OpenAPS](https://openaps.readthedocs.io/en/latest/) as that system supports the 512 and 712 models in addition to the other Loop-compatible Medtronic pumps. Neither of those systems currently support Omnipod for looping.
-    - **"Can I change the firmware of my Medtronic pump?"** Do you work at Medtronic with insider access to the secret tools and firmware versions to do that? Might lose your job, but I'd bet you could do it then. We don't have access to that though.
+    - **« Comment puis-je trouver une pompe Medtronic compatible ?** Cette question est traitée dans la section Détails supplémentaires ci-dessous.
+    - **« Quelles sont les différences entre les modèles de pompes Medtronic ? »** cette question est également répondue dans la section Détails supplémentaires ci-dessous.
+    - **« Mais qu’en est-il des autres types de pompes? »** trop mauvais, si triste ... sauf s’il s’agit d’une DanaRS, DanaR, Accu-Chek Insight, Accu-Chek Combo. Si vous avez une de ces pompes, vous pouvez consulter [le système de boucle AndroidAPS](https://androidaps.readthedocs.io/en/latest/index.html) au lieu de Loop. Si vous avez un Medtronic 512 ou 712, vous pouvez consulter [OpenAPS](https://openaps.readthedocs.io/en/latest/) car ce système prend en charge les modèles 512 et 712 en plus des autres pompes Medtronic compatibles Loop. Neither of those systems currently support Omnipod for looping.
+    - **« Puis-je changer le firmware de ma pompe Medtronic ?** Travaillez-vous chez Medtronic avec des accès interne aux outils confidentiels et aux différentes versions de firmware pour faire ça ? Vous pourriez perdre votre emploi, mais je parierais que vous pourriez le faire alors. Nous n'avons cependant pas accès à cela.
 
-## Check pump version
+## Vérifier la version de la pompe
 
-This is a pretty simple step...check that you have a compatible pump to use Loop:
+Il s’agit d’une étape assez simple ... vérifiez que vous avez une pompe compatible pour utiliser Loop :
 
-* Medtronic 515 or 715 (any firmware)
-* Medtronic 522 or 722 (any firmware)
-* Medtronic 523 or 723 (firmware 2.4 or lower)
-* Medtronic Worldwide Veo 554 or 754 (firmware 2.6A or lower)
-* Medtronic Canadian/Australian Veo 554 or 754 (firmware 2.7A or lower)
-* Omnipod "Eros" pods
+* Medtronic 515 ou 715 (n'importe quel firmware)
+* Medtronic 522 ou 722 (n'importe quel firmware)
+* Medtronic 523 ou 723 (firmware 2.4 ou inférieur)
+* Medtronic "Monde" Veo 554 ou 754 (firmware 2.6A ou inférieur)
+* Medtronic version Canadienne / Australienne Veo 554 ou 754 (firmware 2.7A ou inférieur)
+* Pods Omnipod "Eros"
 
-If you have one of the pumps listed above, you are good to go on Loop! Congrats!
+Si vous avez l’une des pompes énumérées ci-dessus, vous êtes bon pour aller sur Loop! Félicitations !
 
-## Extra Details on Medtronic
+## Détails supplémentaires sur les Medtronic
 
 ![insulin pumps](img/pump.png)
 
-There are a number of Medtronic insulin pumps manufactured between 2006 – 2012 which are Loop compatible.  Compatibility has two requirements; (1) pump model and (2) firmware.
+Il existe un certain nombre de pompes à insuline Medtronic fabriquées entre 2006 et 2012 qui sont compatibles Loop.  La compatibilité a deux pré-requis : (1) le modèle de pompe et (2) le firmware.
 
-### Medtronic Pump Model
+### Modèle de pompe Medtronic
 
-To determine your pump model, look at the backside of your pump.  There should be a sticker on the underside of the pump.  On the right-hand side of the sticker, it says REF MMT-XXXXXX
+Pour déterminer le modèle de votre pompe, regardez à l'arrière de votre pompe.  Il devrait y avoir un autocollant sur le dessous de la pompe.  Sur le côté droit de l'autocollant, c'est écrit REF MMT-XXXXXX
 
 ![Pump](img/pump_model.jpg)
 
 !!!note ""
 
-    MMT ---> Pump Manufacturer Model (MiniMed Medtronic)</br>
-    722 ---> Pump Model Number</br>
-    NA ---> Pump Region (NA=North America, CA=Canada/Australia, WW=Worldwide)</br>
-    S ---> Pump Color (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)</br>
+    MMT ---> Modèle de fabricant de pompe (MiniMed Medtronic)</br>
+    722 ---> Numéro du modèle de pompe</br>
+    NA ---> Région de la pompe (NA=Amérique du Nord, Amérique du Nord, CA=Canada/Australie, WW=Monde)</br>
+    S ---> Couleur de la pompe (S=Fumée, L=Clair/Lucite, B=Bleu, P=Rose/Violet)</br>
 
-Some pumps may have an “L” or “S” or "R" before the pump region, e.g. a model number like MMT-722LNAS.  This does not affect Loop compatibility.
+Certaines pompes peuvent avoir un « L » ou « S » ou « R » avant la région de la pompe, par exemple un numéro de modèle comme MMT-722LNAS.  Cela n’affecte pas la compatibilité avec loop.
 
-### Medtronic Pump Firmware
+### Firmware de la pompe Medtronic
 
-A pump’s firmware is the internal software that runs your pump.  Older Medtronic firmware allows Loop to act as a “remote control” to set temp basals and report back pump data.  Newer firmware disabled that “remote control” access and therefore cannot be used with these DIY closed-loop systems.  There is currently no ability to downgrade a pump’s firmware or replace it with older firmware.  Before you buy a used pump, make sure you are getting one with compatible firmware.
+Le firmware (ou micrologiciel) d’une pompe est le logiciel interne qui exécute votre pompe.  Les anciens firmwares Medtronic permettent à Loop d’agir comme une « télécommande » pour définir des debits basaux temporaires et récupérer les données de la pompe.  Les firmwares plus recents ont désactivés ce mode d'accès « télécommande  et ne peuvent donc pas être utilisé avec ce système "fait le toi meme" (DIY) de boucle fermée.  Il n’y a actuellement aucune possibilité de revenir à une ancienne version du firmware d’une pompe ou de le remplacer par un firmware plus ancien.  Avant d'acheter une pompe d'occasion, assurez-vous d'en obtenir une avec un firmware compatible.
 
 !!!note ""
 
-    The firmware on all 515/715 and 522/722 model Medtronic pumps are all compatible with Loop. You will only need to check the firmware version for 523/723 and 554/754 model Medtronic pumps.</br></br>
-    + Medtronic 515 or 715 --> any firmware</br>
-    + Medtronic 522 or 722  --> any firmware</br>
-    + Medtronic 523 or 723 --> firmware 2.4 or lower</br>
-    + Medtronic Worldwide Veo 554 or 754 --> firmware 2.6A or lower</br>
-    + Medtronic Canadian/Australian Veo 554 or 754 --> firmware 2.7A or lower</br>
+    Les firmwares de toutes les pompes Medtronic 515/715 et 522/722 sont compatibles avec Loop. Il vous suffit de vérifier la version du firmware pour les pompes Medtronic 523/723 et 554/754.</br></br>
+    + Medtronic 515 ou 715 --> tout firmware</br>
+    + Medtronic 522 ou 722 --> tout firmware</br>
+    + Medtronic 523 ou 723 --> firmware 2.4 ou inférieur</br>
+    + Medtronic Monde Veo 554 ou 754 --> firmware 2.6A ou inférieur</br>
+    + Medtronic Canadien/Australien Veo 554 ou 754 --> firmware 2.7A ou inférieur</br>
 
-To find your pump’s firmware you will need to power it on. If the pump has not been powered on for some time (i.e., has been in storage without a battery for a while), it will run through a start-up count and the firmware version will appear on the bottom right of the pump’s screen.  Don’t turn away, as the version number will only be displayed for a little while before the screen moves onto other information displays.
+Pour trouver le firmware de votre pompe, vous devrez l'allumer. Si la pompe n’a pas été mise sous tension depuis un certain temps (c.-à-d. qu’elle a été entreposée sans batterie depuis un certain temps), elle se passera par une étape de démarrage et la version du firmware apparaîtra en bas à droite de l’écran de la pompe.  Ne vous retournez pas, car le numéro de version ne sera affiché que pendant un court instant avant que l'écran n'affiche d'autres informations.
 
-If the pump has been active recently or has a reservoir installed, follow these steps:
+Si la pompe a été active récemment ou a un réservoir installé, suivez ces étapes :
 
-1. Press the <img src="../img/esc.png" width="40" alt="ESC" /> button on your pump.
+1. Appuyer sur le bouton <img src="../img/esc. png" width="40" alt="Esc" /> de votre pompe.
 
-2. Scroll down with the <img src="../img/light_button.png" width="40" alt="Down Arrow" /> button to the bottom of the status display.
+2. Faites défiler vers le bas avec le bouton <img src="../img/light_button. png" width="40" alt="Flèche vers le bas" /> vers le bas de l'affichage des statuts.
 
-3. Read the bottom line of the display.
+3. Lire la ligne du bas de l'écran.
 
 ![Firmware](img/pump_firmware.png)
 
-### Medtronic Pump Differences
+### Les différences de pompes Medtronic
 
-If you are in the position of being able to shop around for different pump models, there are some slight differences between the Loop-compatible Medtronic pumps.
+Si vous êtes en mesure de récupérer autour de vous différent modèles de pompe, il y a de légères différences entre les pompes Medtronic compatibles Loop.
 
-<font color ="orange">500 vs 700</font>:  The difference between the Medtronic 500 series and the 700 series pumps is the size of the insulin reservoirs.  The 500 series pumps use a 180 unit reservoir, and the 700 series pumps use a 300 unit reservoir (or smaller 180 unit reservoir, if you want).
+<font color ="orange">500 vs 700</font>:  La différence entre la série Medtronic 500 et la serie 700est la taille du reservoir d'insuline.  Les pompes de la série 500 utilisent un réservoir de 180 unités, et les pompes de la série 700 utilisent un réservoir de 300 unités (ou un réservoir plus petit de 180 unités, si vous voulez).
 
-<font color ="orange">x15/x22 vs x23/x54</font>:  The difference between the x15 and x22 pumps versus the x23 and x54 series pumps has only a few notable mentions:
+<font color ="orange">x15/x22 vs x23/x54</font>:  la différence entre les pompes x15 and x22 et les series x23 and x54 n'a que quelques mentions notables:
 
-* The x23/x54 pumps will allow for smaller insulin deliveries in certain situations, if the smaller scroll rate is selected in the Bolus>Setup>Scroll Rate menu.  **Loop will have the insulin delivery automatically rounded by the pump to the units available in the pump model, and any smaller adjustments (to make up for the rounding) will be made through Loop’s use of temp basals.  If you want the smaller increments of basal rates, you can still enter those values in Loop app's settings and Loop will use those values for the purposes of insulin delivery calculations.**
+* Les pompes x23/x54 permettront de plus petites injections d’insuline dans certaines situations, si le taux de défilement plus petit est sélectionné dans le menu Bolus>Setup>Scroll Rate.  **Loop aura l'injection d’insuline automatiquement arrondie par la pompe aux unités disponibles dans le modèle de pompe, et tous les ajustements plus petits (pour rattraper l’arrondi) seront effectués grâce à l’utilisation des débits basaux temporaires par Loop.  Si vous voulez de plus petits increments pour les taux basaux, vous pouvez toujours saisir ces valeurs dans les paramètres de l’application Loop et Loop utilisera ces valeurs pour les calculs d'injection d’insuline.**
 
 | Pump Model                  | Basal increments       | Bolus increments         | Range                                                                              |
 | --------------------------- | ---------------------- | ------------------------ | ---------------------------------------------------------------------------------- |
@@ -142,26 +142,26 @@ Red flags that may indicate a scam:
 
 Medtronic will not typically sell pump supplies directly to customers who have not previously purchased a registered Medtronic pump. Ask your insurance about purchasing pump supplies through a durable medical equipment (DME) provider. Typically, the DME provider will coordinate with your insurance and doctor's office to get the necessary insurance approval and prescriptions for the supplies. If you are brand new to Medtronic infusion sites, you may want to ask for help from friends to try a variety of infusion sets before purchasing a full 90-day supply of any type in particular.
 
-## Extra Details on Omnipods
+## Détails supplémentaires sur les Omnipods
 
-!!!warning "Reminder and Disclaimer"
+!!!warning "Rappel et avertissement"
 
-    Through the work of the DIY community, Insulet's Omnipod (Eros) system is now Loop compatible. Using Eros pods with Loop is not supported by Insulet. Do not call Insulet asking for help with your Loop build, setup, or operation. This project is not FDA-approved and you are using this project under your own responsibility and risk. Please read these documents and familiarize yourself with Loop before using.
+    Grâce au travail de la communauté DIY, le système Omnipod (Eros) d’Insulet est désormais compatible avec Loop. L'utilisation des pods Eros avec Loop n'est pas supportée par Insulet. N'appelez pas Insulet pour demander de l'aide avec votre compilation, installation ou configuration de Loop. Ce projet n'est pas approuvé par la FDA (l'Agence américaine des produits alimentaires et médicamenteux, l'equivalent de l'AFSSAPS, Agence Française de Sécurité Sanitaires des Produits de Santé en France ou de la CFIA, Canadian Food Inspection Agency pour le Canada) et vous utilisez ce projet sous votre propre responsabilité et sous vos propres risques. Veuillez lire ces documents et vous familiariser avec Loop avant de l'utiliser.
 
-### Eros
+### Omnipod Eros
 
-Eros pods were launched in 2013 and continue to be sold by Insulet. As far as we know, there have been no plans or timelines announced for the discontinuation of Eros pods for existing customers. Insulet doesn't specifically call these "Eros" anymore, they just use the term "omnipod system". For clarity, from [Insulet's webpage](https://www.myomnipod.com/about):
+Les pods Eros ont été lancés en 2013 et continuent d'être vendus par Insulet. Pour autant que nous sachions, il n'y a pas eu de plans ou de calendriers annonçant l'abandon commercial des pods Eros pour les clients actuels. Insulet n'appelle plus ces pod "Eros", ils utilisent uniquement le terme "système omnipod". Pour plus de clarté, [la page web d’Insulet](https://www.myomnipod.com/about):
 
-Eros system has that PDM we all recognize from the last several years.
+Eros système a ce PDM que nous reconnaissons tous depuis plusieurs années.
 
-![../img/dash.png](img/eros.png)
+![img/eros.png](img/eros.png)
 
-### DASH
+### Omnipod DASH
 
-Insulet has announced their DASH system as an eventual replacement for Eros/Omnipod System. There has already been a limited release of DASH to a select group of users, with a wider public rollout of DASH expected in 2019. The DASH system has the newer, slimmer locked-android PDM and built-in BLE communications in POD. Loop will not be compatible with the DASH system.
+Insulet a annoncé son système DASH en tant que remplaçant éventuel du système Eros/Omnipod. Il y a déjà eu une diffusion limitée de DASH à un groupe restreint d’utilisateurs, avec un déploiement public plus large de DASH prévu en 2019. Le système DASH dispose d'une nouveau PDM, plus mince, basé sur un android verrouillé et fermé et utilisant comme moyen de communication avec le pod le Bluetooth ble. Loop ne sera pas compatible avec le système DASH.
 
 ![img/dash.png](img/dash.png)
 
-## Next Step: Compatible CGM
+## Prochaine étape : Un MGC/CGM compatible
 
-Now you are ready to move onto Step 4 to check if you have a [Compatible CGM](step4.md).
+Maintenant vous êtes prêt à passer à l'étape 4 pour vérifier si vous avez un [CGM compatible](step4.md).
