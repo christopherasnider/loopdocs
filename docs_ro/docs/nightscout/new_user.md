@@ -8,7 +8,7 @@ There are two options for setting up Nightscout; one option requires a small fee
 
 ## T1Pal (paid service)
 
-!!! warning "European Nightscout Dexcom Devices"
+!!!warning "European Nightscout Dexcom Devices"
 
     T1Pal does NOT support European Dexcom Devices at this time.
 
