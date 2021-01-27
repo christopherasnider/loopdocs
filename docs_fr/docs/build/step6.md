@@ -1,17 +1,17 @@
-# Step 6: Enroll in Apple Developer Program
+# Étape 6 S'inscrire dans le programme de développement Apple
 
-!!!danger "Time Estimate"
-    - 15-20 minutes to complete the enrollment forms
-    - up to 2 days to wait for confirmation email that enrollment has been activated
+!!!danger "Temps estimé"
+    - 15-20 minutes pour remplir les formulaires d'inscription
+    - jusqu'à 2 jours pour attendre l'e-mail de confirmation que l'inscription a été activée
 
-!!!info "Summary"
-    - If you've decided to you'd like to use a paid developer account, you need to enroll now. Go to the [Apple Developer website](https://developer.apple.com/programs/enroll/) to enroll in an individual account.
-    - If you've decided you'd like to use a free developer account, you don't need to do anything now. We'll get you covered later.
+!!!info "Résumé"
+    - Si vous avez décidé d'utiliser un compte développeur payant, vous devez vous inscrire dès maintenant. Rendez-vous sur le site [Apple Developer](https://developer.apple.com/programs/enroll/) pour vous inscrire à un compte individuel.
+    - Si vous avez décidé d'utiliser un compte développeur gratuit, vous n'avez pas besoin de faire quoi que ce soit maintenant. Nous allons revenir dessus plus tard.
 
 !!!warning "FAQs"
-    - **"Can I use someone else's Apple Developer account?"** Great question...answer is [here](/faqs/FAQs/#can-i-use-someone-elses-apple-developer-account).
-    - **"Do I use my Apple ID or my kid's Apple ID to enroll in the Apple Developer program?"** The Apple ID you use to enroll in the developer program does not need to be the same Apple ID as the Loop iPhone or Looper uses, for example a parent installing Loop on kid's iPhone. Typically for the developer enrollment, use the Apple ID of the person who will be doing the Loop app building.
-    - **"How long does it take to have my Apple Development account active after I enroll?"** After you enroll, make sure you look for a confirmation email. Apple says it can take up to 24-48 hours to confirm and setup a new Apple developer account, however some people have had the process only take minutes. It can vary. One SURE way to make it take longer? Use a different credit card to pay for the Apple Developer account enrollment than is already associated with the Apple ID you'll be enrolling with. When you do that, I've heard Apple makes you send in a xerox copy of your driver's license and a bunch of other hassle.
+    - **"Puis-je utiliser le compte Apple Developer de quelqu'un d'autre ?"** Bonne question...la réponse est [ici](/faqs/FAQs/#can-i-use-someone-elses-apple-developer-account).
+    - **"Est-ce que j'utilise mon identifiant Apple ou l'identifiant Apple de mon enfant pour m'inscrire au programme Apple Developer ?** L'identifiant Apple que vous utilisez pour vous inscrire au programme développeur n'a pas besoin d'être le même ID Apple que l'iPhone qui va utiliser Loop , par exemple, un parent installant Loop sur l'iPhone des enfants. En règle générale, pour l’inscription du développeur, utilisez l’identifiant Apple de la personne qui va construire l’application Loop.
+    - **« Combien de temps faut-il pour que mon compte Apple Development soit actif après mon inscription ?** Une fois que vous vous êtes inscrit, assurez-vous de rechercher un e-mail de confirmation. Apple says it can take up to 24-48 hours to confirm and setup a new Apple developer account, however some people have had the process only take minutes. It can vary. One SURE way to make it take longer? Use a different credit card to pay for the Apple Developer account enrollment than is already associated with the Apple ID you'll be enrolling with. When you do that, I've heard Apple makes you send in a xerox copy of your driver's license and a bunch of other hassle.
 
 In order to build your own Loop app, you will need to use an Apple developer account.  You will have two options for an individual account; free or paid.
 
