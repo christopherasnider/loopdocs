@@ -1,12 +1,12 @@
-# Step 9: Xcode Preferences
+# Étape 9 : Préférences d'Xcode
 
-!!!danger "Time Estimate"
-    - about 10-15 minutes to install the Command Line Tools
-    - 5 minutes to add your Apple ID, assuming you remember your password
+!!!danger "Temps estimé"
+    - environ 10-15 minutes pour installer les outils en ligne de commande
+    - 5 minutes pour ajouter votre identifiant Apple, en supposant que vous vous rappeliez de votre mot de passe
 
-!!!info "Summary"
-    - Open Xcode Preferences and add your Apple ID under the Accounts tab.
-    - Verify that Command Line Tools has been properly installed under Xcode Preferences under the Locations tab.
+!!!info "Résumé"
+    - Ouvrez les Préférences Xcode et ajoutez votre identifiant Apple sous l'onglet "Comptes" ou "Account".
+    - Vérifiez que les outils de ligne de commande ont été correctement installés dans les préférences Xcode sous l’onglet "Emplacements" ou "Locations".
 
 !!!warning "FAQs"
     - **"I still only see an account with `(personal team)` beside it even though I enrolled in the paid Developer Account program...what should I do?"** You should check your spam email box in case Apple sent you an email there. Make sure you've waited the 48 hours that Apple says it may take to get your account approved. If it's been 48 hours and you still don't see anything in your email, contact Apple support and ask them about the status of your enrollment. It may be held up by something on their end.
