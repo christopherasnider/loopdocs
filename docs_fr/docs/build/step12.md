@@ -45,20 +45,20 @@ Le langage descriptif ne signifie pas les mots de quatre lettres qui vous fait f
 
 **Mauvais:** « Mon application Loop ne compile/se construit pas. » <----- À quelle étape êtes-vous ? Quel type d'ordinateur utilisez-vous ? Quel macOS ? Quelle version de d'Xcode ? Avez-vous construit avec succès un Loop avant ou est-ce nouveau pour vous ?
 
-**Ok:** "I'm trying to update my Loop app to the new omnipod-testing branch, and am getting a few errors that I don't understand." <----- Wow, sure would be nice to know what those error messages are. Are they red or yellow? A screenshot sure would help here.
+**Ok :** « J'essaie de mettre à jour mon application Loop vers la nouvelle branche omnipod-testing et j'ai des erreurs que je ne comprends pas. » <----- Wow, c'est sûr que c'est plus pratique de savoir quelles sont ces messages d'erreur. Sont-ils rouges ou jaunes? Une capture d'écran serait utile ici.
 
-**Better:** "I have a macOS Mojave 10.14.5 computer with Xcode 10.3. Downloaded Loop-omnipod-testing branch this morning and I'm getting some red errors about an exit code that I don't understand." <----- Cool, now I don't have to ask if they updated their macOS like the directions say to do, and I can rule out Xcode being old. Still would be great to have screenshots so I can see the exact error message.
+**Mieux :** « J'ai un ordinateur macOS Mojave 10.14.5 avec Xcode 10.3. J'ai téléchargé la branche Loop-omnipod-test ce matin et je rencontre quelques erreurs de sortie en rouges que je ne comprends pas. » <----- Cool, maintenant je n'ai pas besoin de demander s'ils ont mis à jour leur macOS comme préconisé, et je peux exclure la piste d'une ancienne version d'Xcode. Ce serait toujours génial d'avoir des captures d'écran pour que je puisse voir le message d'erreur exact.
 
-**Awesome:** "I have a macOS Mojave 10.14.5 computer with Xcode 10.3. Downloaded Loop-omnipod-testing branch this morning and I'm getting some red errors about an exit code that I don't understand. I've tried everything in the docs and nothing worked." <---- While I'm super happy they "tried everything", I'm no closer to knowing what the exact error message is nor which "stuff" exactly they tried.
+**Génial :** « J'ai un ordinateur macOS Mojave 10.14.5 avec Xcode 10.3. J'ai téléchargé la branche Loop-omnipod-test ce matin et je rencontre quelques erreurs de sortie en rouges que je ne comprends pas. J’ai tout essayé dans les docs et rien n’a fonctionné." <---- Bien que je sois super heureux, qu'ils "aient tout essayé", Je ne suis pas plus avancé et je ne sais pas quel est le message d'erreur exact ou quelles sont les "choses" exactement qu'ils ont essayées.
 
-**GOLD MEDAL WORTHY:** "I have a macOS Mojave 10.14.5 computer with Xcode 10.3. Downloaded Loop-omnipod-testing branch this morning and I'm getting some red errors about an exit code 645 that I don't understand. Here's the screenshot of the error message. I tried searching the docs for "exit code 645" and didn't see any responses that helped. I tried the "carthage update" solution but got an error message during that too...here's the screenshot for that as well." <---- OH BABY I love you. This is the kind of detail that will get you to an answer very fast.
+**MÉDAILLE D’OR:** « J’ai un macOS Mojave 10.14.5 ordinateur avec Xcode 10.3. J'ai téléchargé la branche de test de Loop-omnipod ce matin et je reçois quelques erreurs en rouges à propos d'un code d'arrêt 645 que je ne comprends pas. Voici la capture d'écran du message d'erreur. J'ai essayé de chercher dans la documentation "code d'arrêt 645" et je n'ai pas trouvé de réponses qui m'ont aidé. J'ai essayé la solution de "mise à jour de carthage" mais j'ai reçu un message d'erreur pendant ce temps...voici également la capture d'écran pour cela." <---- Oh mon gars, toi je t’aime. C’est le genre de détail qui vous permettra d’obtenir une réponse très rapidement.
 
-## Be ok with links
+## Être à l'aise avec les liens
 
-A lot of time, the answer to your question for help will be answered with a link. Please don't take offense to getting a quick link back to LoopDocs or LoopTips. This is most often because the question is already answered there and the person is simply saving time by not typing out what already exists elsewhere.  There's a ton of information between these two sites, so it can be easy to overlook something if you're not sure what to search for.
+Dans pas mal de cas, l'aide apportée pour répondre à votre question sera une réponse sous forme d'un lien. S’il vous plaît ne vous offusquez pas d’obtenir un rapide lien vers LoopDocs ou LoopTips. C'est le plus souvent parce que la question y est déjà posée et que la personne gagne simplement du temps en ne saisissant pas ce qui existe déjà ailleurs.  Il y a une tonne d'informations entre ces deux sites, donc il peut être facile de louper quelque chose si vous n'êtes pas sûr ce qu'il faut chercher.
 
-If you've searched the docs and read the info already, then please include that in your post. That way you don't get linked back to the same part you're already confused about. Plus, letting us know when these docs can be improved is very useful.
+Si vous avez déjà fait une recherche dans la documentation et que vous avez déjà lu les informations, veuillez inclure cela dans votre message. De cette façon, vous ne recevrez pas les liens sir la même partie que vous avez deja vu. De plus, faire nous savoir quand ces docs peuvent être améliorés, c'est très utile pour tous.
 
-## Next Step: Download Loop Code
+## Prochaine étape : Télécharger le code source de Loop
 
-Now you are ready to move onto Step 13 to [Download Loop Code](step13.md).
+Maintenant vous êtes prêt à passer à l'étape 13 pour [Télécharger le code de Loop](step13.md).
