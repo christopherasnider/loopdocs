@@ -32,68 +32,68 @@ Un avertissement peut apparaître vous demandant si vous voulez vraiment l'ouvri
 
 Une fois l'indexation terminée, les différents dossiers et fichiers du projet Loop apparaîtront dans la colonne de gauche. Nous allons maintenant faire trois séries de clics importants:
 
-1. Premier clic : En haut de tous les dossiers et fichiers listés, cliquez sur le bleu "Loop". This will populate the middle part of the Xcode window with some information. **If a couple of little boxes appear saying "The folder “DerivedWatchAssets.xcassets” doesn’t exist."...just click the ok buttons and ignore those. They will come up a couple of times during your build if you are using dev branch right now...don't worry, won't be a problem.**
+1. Premier clic : En haut de tous les dossiers et fichiers listés, cliquez sur le "Loop" bleu. Cela va remplir la partie centrale de la fenêtre Xcode avec quelques informations. **Si quelques petites boîtes apparaissent en disant « Le dossier « DerivedWatchAssets.xcassets » n’existe pas. » ... il suffit de cliquer sur les boutons ok et les ignorer. Ils apparaitreront plusieurs fois pendant votre compilation si vous utilisez la branche de développement en ce moment...ne vous inquiétez pas, ne sera pas un problème.**
 
 ![img/loop-first-click.png](img/loop-first-click.png)
 
-2. Second (set of) clicks: Now click on the box in the middle screen to reveal the targets column underneath that box. The four targets we will sign in the upcoming steps are now easily viewable. Now also click on the Loop target like shown in the screenshot below. It will be highlighted in blue to let you know it is selected. Loop, Loop Status Extension, Watch App, and WatchApp Extension are the targets we are interested in later.
+2. Deuxième (ensemble de clics) : cliquez maintenant sur la case de l'écran du milieu pour révéler la colonne des Projets et Cibles sous cette boîte. Les quatre objectifs que nous allons signer dans les prochaines étapes sont maintenant facilement visibles. Maintenant, cliquez également sur la cible Loop comme indiqué dans la capture d’écran ci-dessous. Il sera surligné en bleu pour vous dire qu'il est sélectionné. Loop, Loop Status Extension, Watch App, and WatchApp Extension sont les cibles qui nous intéressent.
 
 ![img/loop-second-click.png](img/loop-second-click.png)
 
-3. Third Click: With the Loop target selected, click on the "Signing & Capabilities" up near the top of the screen. After you click on that, you should see a "Signing" section occupying the bulk of your middle window. If you are missing the "Signing & Capabilities" section and didn't have to click somewhere else to see that part...that means you have missed updating to Xcode 11 from an older version of Xcode. Please go back and update Xcode now. Thanks.
+3. Troisième clic : Avec la cible Loop sélectionnée, cliquez sur les "Signing & Capabilities" près du haut de l’écran (dans les onglets). Après avoir cliqué sur cela, vous devriez voir une section « Signing » qui occupe la majeure partie de votre fenêtre centrale. Si vous avez manqué la section "Signing & Capabilities" et que vous n'avez pas trouver ou cliquer pour voir cette partie...cela signifie que vous avez manqué la mise à jour vers Xcode 11 à partir d'une ancienne version de Xcode. Veuillez revenir en arrière et mettre à jour Xcode maintenant. Merci.
 
 ![img/loop-third-click.png](img/loop-third-click.png)
 
-## Connect your iPhone to Computer
+## Connectez votre iPhone à l’ordinateur
 
-Connect your iPhone via cable to the computer, select your iPhone from the very top of the drop-down list.  Your **<u>iPhone’s personal name</u>** should be at the top of the list. Don't accidentally select the generic iOS simulators listed below your iPhone's name.
+Connectez votre iPhone par câble à l'ordinateur, sélectionnez votre iPhone en haut de la liste déroulante.  Votre **nom personnel de l’iPhone** devrait être en haut de la liste. Ne sélectionnez pas accidentellement les simulateurs génériques iOS listés sous le nom de votre iPhone.
 
-!!!info "Helpful Tips"
+!!!info "Conseils utiles"
 
-    - If your iPhone has a lock enabled, Xcode will not be able to install Loop app once your phone locks during the build progress.  Please temporarily disable the lock until you finish building Loop app.  Go to your iPhone Settings >> Display & Brightness >> Auto-Lock and set it to `Never`.  You can reset your lock once Loop is done building onto the phone. If you can't or don't want to set the auto-lock to never, then please remember to tap your phone screen periodically during the build process later to keep it "awake".</br></br>
-    - If this is the first time your iPhone has been plugged into this computer, you will need to open the iPhone and select "Trust this Computer" before your device will be useable in the menu selection.</br></br>
+    - Si votre iPhone est verouillé, Xcode ne sera pas en mesure d’installer l’application Loop qu'une fois que votre téléphone est déverrouille pendant la progression de la compilation.  Veuillez désactiver temporairement le verrou jusqu'à ce que vous ayez terminé la construction de l'application Loop.  Allez dans les paramètres de votre iPhone >> Affichage & Luminosité >> Verrouillage automatique et définissez-le sur `Jamais`.  Vous pouvez réactiver votre verrouillage une fois que Loop est installé sur le téléphone. Si vous ne pouvez pas ou ne voulez pas régler le verrouillage automatique à jamais, alors s’il vous plaît n’oubliez pas d’appuyer sur l’écran de votre téléphone périodiquement pendant le processus de construction pour le garder « éveillé ».</br></br>
+    - Si c'est la première fois que votre iPhone est branché sur cet ordinateur, vous devrez ouvrir l'iPhone et sélectionner "Faire confiance à cet ordinateur" avant que votre appareil soit utilisable dans la sélection du menu.</br></br>
 
-!!!danger "Most Common Mistake"
+!!!danger "Erreur la plus courante"
 
-    - The most common mistake in this step is not selecting your actual phone as shown in the second screenshot below. The default list is just a name of general phone models under a subheading called "iOS Simulators"...don't be fooled by those. Your ACTUAL phone will be up above that list of all the various simulator phone models.  You may need to scroll to the top of the list in order to see it.  Make sure you select your actual phone, not just a simulator phone model.
+    - L'erreur la plus courante dans cette étape est de ne pas sélectionner votre téléphone comme indiqué dans la deuxième capture d'écran ci-dessous. La liste par défaut n’est qu’un nom de modèles de téléphones généraux rattaché à la partie « simulateurs iOS »... ne vous y trompez pas. Votre téléphone ACTUEL sera au-dessus de la liste des différents modèles de téléphones du simulateur.  Vous devrez peut-être faire défiler vers le haut de la liste afin de le voir.  Assurez-vous de sélectionner votre téléphone actuel, pas seulement un modèle de téléphone de simulateur.
 
 ![img/select_device.png](img/select_device.png)
 
 ![img/your_device.png](img/your_device.png)
 
-## Sign Four Targets
+## Signer les 4 cibles (targets)
 
-Once you select your device (your iPhone's name), we are ready to start signing the four targets. We will start with the Loop target, the first one on the target list.  Under the "Signing" area, ensure that you have "All" selected near the top and then select the dropdown menu where it currently says "none". Choose your team that you'd like to sign with. If you select a team name with (personal team), your app will expire after 7 days. If you select a team name without that (personal team), your app will last a full year.  If you never signed up for a free developer account, you will not have a (personal team) showing. Make sure you keep the "automatically manage signing" box checked above the team selection area.
+Une fois que vous avez sélectionné votre appareil (nom de votre iPhone), nous sommes prêts à signer les quatre cibles. Nous commencerons par la cible Loop, la première sur la liste des cibles.  Dans la zone « Signing », assurez-vous d’avoir « All » sélectionnés près du haut, puis sélectionnez le menu défilant où on peut lire actuellement « aucun ». Choisissez votre équipe avec qui vous souhaitez signer. Si vous sélectionnez un nom d’équipe avec (équipe personnelle/personal team), votre application expirera dans 7 jours. Si vous sélectionnez un nom d'équipe sans (équipe personnelle/personal team), votre application durera une année complète.  Si vous ne vous êtes jamais inscrit à un compte de développeur gratuit, vous n’aurez pas d’affichage (équipe personnelle/personal team). Assurez-vous de garder la case "Gérer automatiquement la signature/Automatically manage signing" cochée au-dessus de la zone de sélection de l'équipe.
 
 ![img/team.png](img/team.png)
 
-Once you choose your signing team, Xcode will automatically generate provisioning profiles and signing certificates.  If this is the first time you are building on this iPhone with this developer account, you may be prompted to register the device.  Simply click on the "Register Device" button to confirm.
+Une fois que vous aurez choisi votre équipe de signature, Xcode générera automatiquement des profils d’approvisionnement et des certificats de signature.  Si c'est la première fois que vous construisez sur cet iPhone avec ce compte développeur, vous pouvez être invité à enregistrer l'appareil.  Il vous suffit de cliquer sur le bouton « Enregistrer l'appareil » pour confirmer.
 
 ![img/register_device.png](img/register_device.png)
 
-!!!danger "Free Developer Account Users: READ ME"
+!!!danger "Utilisateurs du compte développeur gratuits: LISEZ-MOI
 
-    If you are using a free developer account to sign your targets, you will need to do an extra step. As a free developer, you are restricted from building apps that have Siri or push notification capabilities built-in. Loop has both of these capabilities...so you will need to disable them before proceeding on with signing and building your app. The push notification capability is used for setting remote overrides; disabling it will not affect regular notifications (like ones for Loop not looping). Click on the small x next to the Siri and push notification lines located at the bottom of your Signing & Capabilities page. You need to do this in both the Loop and WatchApp Extension targets.
+    Si vous utilisez un compte développeur gratuit pour signer vos cibles, vous devrez faire une étape supplémentaire. En tant que développeur gratuit, il vous est interdit de construire des applications qui ont des fonctionnalités de notification Siri ou push intégrées. Loop a ces deux capacités... vous devrez donc les désactiver avant de procéder à la signature et à la construction de votre application. La fonction de notification push est utilisée pour définir les remplacements à distance ; la désactivation n'affectera pas les notifications normales (comme celles pour Loop qui n'arrive pas à effectuer sa boucle). Cliquez sur le petit x à côté de Siri et poussez les lignes de notification situées au bas de votre page Signing & Capabilities. Vous devez le faire à la fois dans les parties de l'extension Loop et WatchApp.
     
     <p align="center">
     <img src="../img/siri-errors.png" width="750">
     </p>
 
-A successfully signed target will have a provisioning profile and signing certificate similar to the screenshot below.  Click on each of the three remaining targets, and repeat the signing steps by choosing the same team name as you selected in the first target.
+Une cible signée avec succès aura un profil d’approvisionnement et un certificat de signature similaire à la capture d’écran ci-dessous.  Cliquez sur chacune des trois cibles restantes, et répétez les étapes de signature en choisissant le même nom d'équipe que vous avez sélectionné dans la première cible.
 
 ![img/success.png](img/success.png)
 
-## Code Customizations
+## Personnalisations du code
 
-**New Loop users**: Customizations are not a required part of any Loop build. As you gain experience in how you use your Loop app, you may want to customize some of the features. You can always update your Loop app to add customizations at a later time. Really though, building with the standard, the default installation is JUST FINE.
+**Nouveaux utilisateurs de Loop**: Les personnalisations ne sont pas une partie nécessaire pour la construction de Loop. Au fur et à mesure que vous gagnerez de l'expérience dans la façon dont vous utilisez votre application Loop, vous voudrez peut-être personnaliser certaines fonctionnalités. Vous pouvez toujours mettre à jour votre application Loop pour ajouter des personnalisations ultérieurement. En fait, construit dans les normes, l’installation par défaut est très bien.
 
-If you want any custom configurations to your Loop or Loop Apple Watch apps, now is the time to make them before you finish with the last step of Loop installation on your iPhone. Follow the step-by-step instructions on the [Code Customizations](code_customization.md) page. If you are a person familiar with Apple's Swift language, feel free to make your own customizations as well.
+Si vous souhaitez des configurations personnalisées pour vos applications Loop ou Loop Apple Watch, il est maintenant temps de les réaliser avant de terminer avec la dernière étape de l’installation Loop sur votre iPhone. Suivez les instructions étape par étape sur la page [Personnalisations du Code](code_customization.md). Si vous êtes une personne familière avec la langue Swift d'Apple, n'hésitez pas à faire vos propres personnalisations.
 
-When you've finished your customizations, come on back to this section and continue on with the rest of the build.
+Lorsque vous aurez terminé vos personnalisations, revenez à cette section et continuez avec le reste de la construction.
 
-## Pair your Apple Watch
+## Associez votre Apple Watch
 
-**New Apple Watch users**: If you have an unopened Apple watch and want to use it with Loop, first pair the watch with the iPhone before continuing to the next steps.  If you get a new watch after building the Loop app, you'll need to redo your Loop build. (Don't worry, it's as easy as pressing play on your saved Loop project.)</br>
+**Nouveaux utilisateurs d'Apple Watch**: Si vous avez une montre Apple neuve et que vous voulez l'utiliser avec Loop, il faut deja activer le pairage de la montre avec l'iPhone avant de passer aux étapes suivantes.  Si vous obtenez une nouvelle montre après avoir construit l'application Loop, vous devrez refaire votre version Loop. (Don't worry, it's as easy as pressing play on your saved Loop project.)</br>
 
 **Existing Apple Watch users**: Please update your watchOS prior to building the Loop app.  The current version of Loop requires watchOS 4.1 or newer.
 
