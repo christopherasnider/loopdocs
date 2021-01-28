@@ -93,95 +93,94 @@ Lorsque vous aurez terminé vos personnalisations, revenez à cette section et c
 
 ## Associez votre Apple Watch
 
-**Nouveaux utilisateurs d'Apple Watch**: Si vous avez une montre Apple neuve et que vous voulez l'utiliser avec Loop, il faut deja activer le pairage de la montre avec l'iPhone avant de passer aux étapes suivantes.  Si vous obtenez une nouvelle montre après avoir construit l'application Loop, vous devrez refaire votre version Loop. (Don't worry, it's as easy as pressing play on your saved Loop project.)</br>
+**Nouveaux utilisateurs d'Apple Watch**: Si vous avez une montre Apple neuve et que vous voulez l'utiliser avec Loop, il faut deja activer le pairage de la montre avec l'iPhone avant de passer aux étapes suivantes.  Si vous obtenez une nouvelle montre après avoir construit l'application Loop, vous devrez refaire votre version Loop. (Ne vous inquiétez pas, c'est aussi facile que d'appuyer sur la lecture de votre projet Boucle sauvegardée.)</br>
 
-**Existing Apple Watch users**: Please update your watchOS prior to building the Loop app.  The current version of Loop requires watchOS 4.1 or newer.
+**Utilisateurs Apple Watch existants**: Veuillez mettre à jour votre watchOS avant de construire l'application Loop.  La version actuelle de Loop nécessite watchOS 4.1 ou plus récente.
 
-## INTERMISSION
+## PAUSE
 
 STOP STOP STOP
 
-You guys...this is about safety.
+Vous les gars ... c’est une question de sécurité.
 
-People keep ignoring this advice and I'm frankly a little stumped as to why. So, I'm moving this advice up in the process so that you don't ignore it. ![alt](https://media.giphy.com/media/xT9DPJVjlYHwWsZRxm/source.gif)
+Les gens continuent d’ignorer ce conseil et je suis franchement un peu perplexe à comprendre pourquoi. Donc, je déplace ce conseil dans le processus afin que vous ne l’ignorez pas. ![alt](https://media.giphy.com/media/xT9DPJVjlYHwWsZRxm/source.gif)
 
-!!!warning "DO NOT WING THE SETUP"
+!!!warning « NE PAS SURVOLER CETTE PROCEDURE »
 
-    I have warnings all over these instructions to **continue to use these docs to finish setting up your app after it builds. DO NOT IGNORE THAT ADVICE. DO NOT ENTER ONE LOOP APP SETTING WITHOUT HAVING THE DOCS OPEN AND FOLLOWING ALONG AT THE SAME TIME.**
+    J’ai des avertissements partout dans ces instructions pour **continuer à utiliser ces documents pour terminer la configuration de votre application après sa construction. N’IGNOREZ PAS CE CONSEIL. N’ENTREZ PAS UN PARAMÈTRE D’APPLICATION DE LOOP SANS S'APPUYER SUR LES DOCUMENTS OUVERTS ET EN SUIVANT LA PROGRESSION EN MÊME TEMPS.**
 
-The section in these docs called "Set up App" (See it? Look for it now...at the top of your webpage) needs to be used to input all the settings in your Loop app when it is done building. READ ALONG WITH THE DOCS to enter those settings. There are important safety tips and advice in there. And then after you finish setup, you need to read the "Operate" section...like BEFORE YOU OPERATE LOOP. Don't bolus for a meal, or enter a meal, until you've read through the Operate section.
+La section dans ces documents est appelé « Configurer l'application » (Voir) ? Cherchez-la maintenant... en haut de votre page Web) doit être utilisé pour entrer tous les paramètres de votre application Loop quand la construction est terminée. LISEZ EN ACCOMPAGNEMENT LES DOCS pour entrer ces paramètres. Il y a des astuces et des conseils importants en matière de sécurité. Ensuite, une fois l'installation terminée, vous devez lire la section "Operate"... AVANT DE FAIRE FONCTIONNER LOOP. Ne prenez pas de bolus pour un repas ou entrez un repas tant que vous n'avez pas lu la section Opération.
 
-I'm worried you will fail to heed the advice about using the setup and operate sections. People have ignored it before. They skim read and think that's good enough. DO NOT BE LIKE THAT. Read each section.
+Je crains que vous n'écoutiez pas les conseils concernant l'utilisation des sections d'installation et d'exploitation. Les gens l'ont déjà ignoré. Ils lisent et pensent que c'est suffisant. NE SOYEZ PAS COMME ÇA. Lisez chaque section.
 
-BUT, to mitigate the inevitable people who will ignore that advice....here's the two most important safety tips that I feel obliged to present out of order because (damn it), people will ignore my advice still.
+MAIS, pour atténuer le nombre inévitables de personnes qui ignoreront ce conseil.... voici les deux conseils de sécurité les plus importants que je me sens obligé de présenter ici, par ordre parce que (merde), des gens ignoreront encore mes conseils.
 
-!!!warning "TOP TWO SAFETY MISTAKES YOU SHOULD AVOID"
-    1. DO NOT ENTER SETTINGS YOU ARE UNSURE OF. If you don't know your settings or know what the terms mean, stop. Read the docs, all the settings entries are explained there. Ask your endo if you don't have established values for those settings. Don't just guess an ISF, carb ratio, basal rate, or maximum delivery limits.</br></br>
+!!!warning « TOP DES DEUX ERREURS DE SÉCURITÉ QUE VOUS DEVEZ ÉVITER »
+    1. N’ENTREZ PAS LES PARAMÈTRES DONT VOUS N’ÊTES PAS SÛR. Si vous ne connaissez pas vos paramètres ou si vous ne savez pas ce que signifient les termes, arrêtez. Lisez la documentation, toutes les entrées de paramètres y sont expliquées. Demandez à votre endo si vous n'avez pas de valeurs validées pour ces paramètres. Ne vous contentez pas de deviner un FSI, un ratio de glucides, un taux de basal ou des limites maximales d'injection.</br></br>
 
-    2. DO NOT ENTER ACCIDENTAL DUPLICATE CARB ENTRIES. When you enter a meal in Loop and press the `save` button...those carbs are saved. Let me repeat: THOSE CARBS ARE SAVED...even if you cancel the bolus for them. This is an automated insulin delivery system and if it thinks you have carbs on board, it will try to give you appropriate insulin for those carbs. Most common new user mistake: enters a meal, saves the carbs, has a change of heart or gets confused, and cancels the bolus screen...thinking they've just canceled the entire meal entry. Then they enter in a new carb entry. AND NOW, when you go to bolus...you'll be bolusing for the meal you wanted AND the meal you are mistakenly thinking you had "canceled". You didn't cancel that carb entry though, you had only canceled the bolus...you didn't "unsave" the carbs. If you make a mistake or change your mind on a carb entry after you pressed save, then tap the green carb chart in Loop's main display and edit or delete that entry. **CANCELING A BOLUS DOES NOT CANCEL THE CARB ENTRY THAT GOT YOU THERE. You must delete or edit a saved carb entry if you no longer want Loop to provide insulin for it.**
+    2. N’ENTREZ PAS D’ENTRÉES DE GLUCIDES ACCIDENTELLEMENT EN DOUBLE. Lorsque vous entrez un repas dans Loop et appuyez sur le bouton `Enregistrer` ... ces glucides sont enregistrés. Permettez-moi de répéter: CES GLUCIDES SONT ENREGISTRES ... même si vous annulez le bolus lié à cet ajout. Il s'agit d'un système de distribution automatique d'insuline et s'il pense que vous avez des glucides actif, il essaiera de vous donner l'insuline appropriée pour ces glucides. Les erreurs les plus courantes pour les nouveaux utilisateurs : entrer un repas, sauver les glucides, puis change d'avis ou est confus, et annule l'écran de bolus...en pensant qu'ils viennent d'annuler toute l'entrée du repas. Puis ils entrent de nouveau une entrée de glucides. ET MAINTENANT quand vous allez à bolus...vous allez faire un bolus pour le repas que vous venez de saisir ET le repas que vous pensez avoir "annulé". Vous n'avez pas annulé cette entrée de glucides, vous n'avez annulé que le bolus...vous n'avez pas "annulé" les glucides. Si vous faites une erreur ou changez d'avis sur une entrée de glucide après avoir appuyé sur sauvegarder, puis appuyez sur le graphique de glucides vert dans l'affichage principal de la boucle, puis modifiez ou supprimez cette entrée. **L'ANNULATION D’UN BOLUS N’ANNULE PAS L’ENTRÉE DES GLUCIDES QUE VOUS AVEZ FAITE. Vous devez supprimer ou modifier une entrée de glucides déjà enregistrée si vous ne voulez plus que la Loop lui fournisse de l'insuline.**
 
-Ok, so now that I've got your attention, you can continue on with the last step in building you app...but remember, we just pinky swore that you would use the setup and operate sections to finish this all? Don't break my heart, keep your promise.
+Ok, maintenant que j'ai votre attention, vous pouvez continuer avec la dernière étape dans la construction de votre application... rappelez-vous, nous avons juste juré que vous utiliseriez les sections Configuration et Operation pour terminer tout cela ? « Ne brisez pas mon cœur, tenez votre promesse. ».
 
-## Build Loop
+## Construire Loop
 
-Have you signed the four targets? Are you all done with any customizations? Has your Apple watch been paired and updated? Is your iPhone unlocked and plugged into the computer?
+Avez-vous signé les quatre cibles ? Avez-vous tous terminé avec des personnalisations? Votre montre Apple a-t-elle été jumelée et mise à jour ? Votre iPhone est-il déverrouillé et branché sur l'ordinateur?
 
-Let’s finish the installation of the Loop app onto your iPhone. Double-check to make sure your iPhone's name is still selected and then press the “build” button to start Xcode on its way.
+Finissons l’installation de l’application Loop sur votre iPhone. Vérifiez deux fois pour vous assurer que le nom de votre iPhone est toujours sélectionné, puis appuyez sur le bouton « build » pour lancer la compilation avec Xcode.
 
 ![img/build_button.png](img/build_button.png)
 
-You’ll see the progression of the build in the status window (top middle of Xcode). New builds can take about 40-60 minutes depending on the speed of the computer and the internet.  **Just be patient.**  The progress will get "stuck" on one step/task for a very long time, and then the others will fly by when that one slow step is done. Not every step is equal in duration. Do not give up on the build. <u>**Xcode will ALWAYS tell you eventually that the build either succeeded or failed via a short (self-disappearing) pop-up message on the computer display. If you miss the message, you can look at the top of the Xcode window to see a "Running Loop..." (success) or "Build Failed" (failure) message where the step progress was previously counting down.**</u>
+Vous verrez la progression de la compilation dans la fenêtre de statut (en haut de Xcode). Les nouvelles constructions peuvent prendre environ 40-60 minutes selon la vitesse de l'ordinateur et Internet.  **Soyez patient.**  La progression va être "coincé" sur une étape/tâche pendant très longtemps, et ensuite les autres seront rapide quand cette étape lente sera terminée. Toutes les étapes ne sont pas égales en durée. N’abandonnez pas la construction. **Xcode vous dira TOUJOURS que la construction a réussi ou a échoué via un message pop-up court (auto-disparition) sur l'écran de l'ordinateur. Si vous manquez le message, vous pouvez regarder en haut de la fenêtre Xcode pour voir une "Loop en cours d'execution ou Running Loop..." un message de succès (success) ou "Build Failed" (erreur) à l'emplacement ou les étapes de progression était visible.**</u>**
 
-!!!danger "Are you the impatient type?"
+!!!danger « Êtes-vous du genre impatient? »
 
-    If you just simply can't bear the uncertainty of not seeing that things are progressing, you can take a peek "under the hood" and watch the individual build steps by clicking on the report navigator icon and then the build row at the top of the list. You can watch the slow list of scheme building while you wait.
+    Si vous ne pouvez tout simplement pas supporter l’incertitude de ne pas voir que les choses progresser, vous pouvez jeter un coup d’oeil « sous le capot » et regarder les étapes de construction individuelle en cliquant sur l’icône navigateur rapport, puis la ligne de construction en haut de la liste. Vous pouvez regarder la liste lente de la construction de schéma pendant que vous attendez.
     
     <p align="center">
     <img src="../img/build-scheme.png" width="650">
     </p></br>
 
-!!!info "First-time builders"
+!!!info « Les utilisateurs debutants »
 
-    Be aware though! Sometime during your first ever build on a computer, be ready for a codesign/keychain access prompt that you will see part-way through the build process.</br></br>
+    Attention! Parfois, au cours de votre première compilation sur un ordinateur, soyez prêt pour une invite d'accès codesign/trousseau que vous verrez pendant le processus de construction.</br></br>
     
-    <p align="center">
-    <img src="../img/keychain-prompt.png" width="350">
-    </p></br>
     
-    This prompt above, when you see it, requires you to enter your computer password and then select "Always Allow". Normal behavior, this prompt will come up four times in a row even after you enter the correct password. In frustration, people think the prompt must be broken because it keeps reappearing and then people will press deny or cancel. **Don't press deny.** Keep entering your computer password and pressing the "Always Allow" button...as many times as it takes (four times to be exact; one for each target that Xcode is saving the password for). After four times of successful password entry, the build will keep proceeding.
-
-!!!warning "While I have you here..."
-
-    While I have you here, I'm going to give you a piece of Loop troubleshooting advice for once you start looping. This is a little out of order, but too many people miss this super simple **troubleshooting step when their Loop turns red**. Try turning your RileyLink off/on at its physical switch on the side of the case. Carrying a paperclip on the keychain can help you access that recessed switch. The other useful troubleshooting step is to simply close the Loop app (upswipe in iPhone app selector) and reopen it. Wait 5 minutes after each of these steps and see if your issue resolves. It usually will. Don't forget to do these two simple steps to get back to a green loop.  For more red loop troubleshooting, you can check out [this page](../troubleshooting/yellow-red-loop.md).
+    ![img/keychain-prompt. ng](img/keychain-prompt.png)
+    </br>
     
-    Also, be aware that there's a **troubleshooting page for Pod pairing** issues, too. If you run into any issues during Pod pairing, PLEASE make sure to read [this page](../troubleshooting/pod-pairing.md) to save yourself from wasting Pods unnecessarily.
+    Cet invite ci-dessus, lorsque vous le voyez, vous devez entrer votre mot de passe de l'ordinateur et ensuite sélectionner "Toujours autoriser". C'est un comportement normal, cet invite apparaîtra quatre fois de suite même après avoir entré le mot de passe correct. Dans la frustration, les gens pensent que le prompt doit être cassé parce qu'il ne cesse de réapparaître et ensuite les gens vont presser ignorer ou d'annuler. **N’appuyez pas sur refuser.** Continuez à entrer votre mot de passe d’ordinateur et en appuyant sur le bouton « Toujours autoriser »... autant de fois qu’il le faut (quatre fois pour être exact; une pour chaque cible pour qui Xcode sauve le mot de passe). Après quatre fois , la construction continuera à progresser.
+
+!!!warning "Tant que je vous ai ici..."
+
+    Pendant que je t’ai ici, je vais te donner un conseil de dépannage loop une fois que vous commencez à utiliser Loop. C'est un peu déplacé, mais trop de gens manquent cette étape de **dépannage simple quand leur boucle devient rouge**. Essayez d’éteindre/allumer votre RileyLink avec son interrupteur physique sur le côté de l’étui. Porter un trombone sur la porte-clés peut vous aider à accéder à ce commutateur encastré. L’autre étape de dépannage utile consiste simplement à fermer l’application Loop (glisser vers le haut dans le sélecteur d’applications iPhone) et à la rouvrir. Attendez 5 minutes après chacune de ces étapes et vérifiez si votre problème est résolu. C'est généralement le cas. N'oubliez pas de faire ces deux étapes simples pour revenir à une boucle verte.  Pour plus de dépannage en boucle rouge, vous pouvez consulter [cette page](../troubleshooting/yellow-red-loop.md).
     
-    Ok, back to the building instructions.
+    Notez également qu'il y a une page de **dépannage pour les problèmes d'appairage de Pod**. Si vous rencontrez des problèmes lors de l'appairage du Pod, merci de lire [cette page](../troubleshooting/pod-pairing.md) pour vous éviter de gaspiller des Pods inutilement.
+    
+    Ok, revenons aux instructions de construction.
 
-## Build Finished
+## Construction terminée
 
-!!!info "First time building on a new device?"
+!!!info "Première construction sur un nouvel appareil?"
 
-    If this is the first time you have installed an app on your iPhone using your developer account, you may get a warning like below after a successful build. Don't worry, Loop usually installed just fine on the phone but needs you to do an extra step on the phone before Loop app can open. Just follow the directions shown in the warning for what you need to do on your iPhone. Go to Settings->General->Device Management (or profiles, Profiles & Device Management on newer iOS) and enable trust for your Developer Account. If you are missing the Device Management/Profiles option in your iPhone settings, then head over to [this Build Error section](build_errors.md#device-management-could-not-launch-loop) to find the solution.
+    Si c'est la première fois que vous avez installé une application sur votre iPhone en utilisant votre compte développeur, vous pouvez obtenir un avertissement comme ci-dessous après une compilation réussie. Ne vous inquiétez pas, Loop est généralement installée correctement sur le téléphone, mais a besoin que vous fassiez une étape supplémentaire sur le téléphone avant que l'application Loop puisse s'ouvrir. Suivez simplement les instructions indiquées dans l'avertissement pour savoir ce qu'il faut faire sur votre iPhone. Allez dans Paramètres->Général->Gestion de Périphériques (ou profils, Profils & Gestion de Périphériques sur les derniers iOS) et activez faire confiance pour votre compte Développeur. Si vous ne disposez pas de l'option Gestion des périphériques/Profils dans vos paramètres iPhone, rendez-vous sur [cette section Erreur de construction](build_errors.md#device-management-could-not-launch-loop) pour trouver la solution.
     
     <p align="center">
     <img src="../img/trust_device.jpg" width="750">
     </p>
 
-!!!danger "BUILD SUCCEEDED"
+!!!danger « CONSTRUCTION REUSSIE »
 
-    Congrats! If the build is successful, you'll see the message or "Running Loop..." across the top of the Xcode window. Your brand new Loop app will have a screen open immediately on the iPhone asking about allowing Loop notifications and Health App access. `Allow` Loop to send you notifications. In the next screen that follows that, click on the `Turn All Categories On` line and then click `Allow` in the upper right corner.
+    Félicitations ! Si la build est réussie, vous verrez le message ou « Running Loop... » en haut de la fenêtre Xcode. Votre toute nouvelle application Loop aura un écran ouvert immédiatement sur l’iPhone demandant à autoriser les notifications Loop et l’accès à l’application Santé. 'Autoriser' Loop pour vous envoyer des notifications. Dans l’écran suivant qui suit, cliquez sur la ligne « Activer toutes les catégories », puis cliquez sur « Autoriser » dans le coin supérieur droit.
     
     
-    <p align="center">
-    <img src="../img/health-start.JPEG" width="450">
-    </p></br></br>
+    ![img/health-start.JPEG](img/health-start.JPEG)
+    </br></br>
     
-    **You can unplug your phone from the computer now.** And like we promised earlier, you will use the [Setup App section of this website](../operation/overview.md) to keep proceeding safely.
+    **Vous pouvez débrancher votre téléphone de l'ordinateur maintenant. * Comme nous l'avons promis plus tôt, vous utiliserez la section [Setup App section de ce site web](../operation/overview.md) pour continuer en toute sécurité.
 
-!!!warning "FAQ: But what about those yellow alerts that remain in Xcode? Should I worry about them?"
+!!!warning « FAQ: Mais qu’en est-il des alertes jaunes qui restent dans Xcode? Dois-je m’inquiéter pour eux ?"
 
-    If you see yellow alerts after your build is done...those are not an issue. Whether your build succeeded or failed...the yellow warnings play no role in either outcome. Don't try to resolve them or fret about them. They mean nothing to the successful use of your Loop app.
+    Si vous voyez des alertes jaunes après la fin de votre build... ce n’est pas un problème. Que votre build ait réussi ou échoué... les avertissements jaunes ne jouent aucun rôle dans l’un ou l’autre résultat. Don't try to resolve them or fret about them. They mean nothing to the successful use of your Loop app.
     
     <p align="center">
     <img src="../img/yellow-warnings.png" width="750">
