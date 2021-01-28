@@ -21,18 +21,18 @@ Il peut y avoir un court délai la première fois que vous ouvrez Xcode car il i
 
 ![img/command-line-error-3.png](img/command-line-error-3.png)
 
-## Add Apple ID
+## Ajouter un ID Apple
 
-Go to the Xcode Preferences window from above, click on the `Accounts` tab and then press the `+` in the lower-left corner to add an Apple ID account.
+Accédez à la fenêtre Préférences Xcode du haut, cliquez sur l’onglet `Accounts` , puis appuyez sur le `+` dans le coin inférieur gauche pour ajouter un compte Apple ID.
 
 ![img/xcode_account.png](img/xcode_account.png)
 
-If you want to use a free developer account, you will simply enter your Apple ID in this section and Xcode will automatically enroll your Apple ID in the free developer program. If you enrolled in the paid account already and have confirmation that your account is active, enter the Apple ID of the paid developer account. The screenshot below shows the labeling of team names based on whether from free account vs. paid account. Free teams will have `(personal team)` after the name.
+Si vous souhaitez utiliser un compte de développeur gratuit, il vous suffit d’entrer votre identifiant Apple dans cette section et Xcode va automatiquement inscrire votre identifiant Apple dans le programme de développeur gratuit. Si vous êtes déjà inscrit sur un compte payant et que vous avez la confirmation que votre compte est actif, entrez l'identifiant Apple du compte payant. La capture d’écran ci-dessous montre l’étiquetage des noms d’équipe selon que ce soit à partir d’un compte gratuit ou d’un compte payant. Les équipes gratuites auront `(équipe personnelle ou personal team)` après le nom.
 
 ![img/apple_id.png](img/apple_id.png)
 
-You are now done setting up Xcode.  Great job!  You will not need to redo the account setup steps on any subsequent builds or updates of your Loop app.  Xcode will remember these settings.
+Vous avez maintenant terminé la configuration de Xcode.  Excellent travail!  Vous n'aurez pas besoin de refaire les étapes de configuration du compte sur les versions suivantes ou les mises à jour de votre application Loop.  Xcode se souviendra de ces paramètres.
 
-## Next Step: Test Settings
+## Prochaine étape: Les réglages de test
 
-Now you are ready to move onto Step 10 to [Test Your Settings](step10.md).
+Maintenant vous êtes prêt à passer à l'étape 10 pour [Tester vos paramètres](step10.md).
