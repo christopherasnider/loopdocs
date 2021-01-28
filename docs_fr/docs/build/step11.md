@@ -1,13 +1,13 @@
-# Step 11: Make Plans for your Loop Data
+# Étape 11 : Gérer vos données Loop
 
-!!!danger "Time Estimate"
-    - Nightscout: 1-2 hours if you've never done it before and work slowly
-    - Nightscout: 20-30 minutes if you have experience in Github and Heroku previously
-    - Tidepool: 30-40 minutes to set up account and Tidepool Mobile app
-    - Apple Health: 0 minutes, already a part of your system
+!!!danger "Temps estimé"
+    - Nuit : 1-2 heures si vous ne l'avez jamais fait auparavant et que vous travaillez lentement
+    - Nuit : 20-30 minutes si vous avez de l'expérience dans Github et Heroku
+    - Tidepool : 30 à 40 minutes pour configurer le compte et l'application Tidepool Mobile
+    - Apple Health: 0 minutes, c'est déjà intégré à votre système
 
-!!!info "Summary"
-    - Review the three major systems that can store and show your Loop data.
+!!!info "Résumé"
+    - Passez en revue les trois principaux systèmes qui peuvent stocker et afficher vos données Loop.
     - Set up either Tidepool or Nightscout prior to your next endo appointment in order to provide them Looping data to review.
 
 !!!warning "FAQs"
