@@ -124,7 +124,7 @@
       </trans-unit>
       <trans-unit id="0025">
         <source>Step 11 Make plans for Loop Data</source>
-        <target state="translated">Étape 11 Faire des plans pour les données de Loop</target>
+        <target state="translated">Étape 11 : Gérer vos données Loop</target>
         <note>build/step11.md</note>
       </trans-unit>
       <trans-unit id="0026">
@@ -359,7 +359,7 @@
       </trans-unit>
       <trans-unit id="0072">
         <source>Time Changes</source>
-        <target state="needs-translation">Time Changes</target>
+        <target state="translated">Changements d’heure</target>
         <note>troubleshooting/time-change.md</note>
       </trans-unit>
       <trans-unit id="0073">
