@@ -1,43 +1,43 @@
-# Step 12: Meet the Community
+# Étape 12 : Rencontrez la communauté
 
-!!!danger "Time Estimate"
-    - Joining Looped Group: 5 minutes
-    - Joining Zulipchat: 10 minutes
+!!!danger "Temps estimé"
+    - Rejoindre le groupe Loop : 5 minutes
+    - Rejoindre Zulipchat : 10 minutes
 
-!!!info "Summary"
-    - Use the search tools in Looped, Zulipchat, Loopdocs, and Looptips
-    - If asking for help, remember the motto "Help me help you"...provide information. Avoid vague phrases and the word "it". Aim for details and specifics. Screenshots are gold.
+!!!info "Résumé"
+    - Utilisez les outils de recherche dans Looped, Zulipchat, Loopdocs et Looptips
+    - Si vous demandez de l’aide, souvenez-vous de la devise « Aidez-moi à vous aider »... fournir des informations. Évitez les phrases vagues et le mot "c'est". Visez les détails et les spécificités. Les captures d'écran sont du pain béni pour aider à comprendre.
 
 !!!warning "FAQs"
-    - **"I'm worried I'll ask a stupid question"** Don't worry about that...instead just focus on asking a **thorough** question. A thorough question explains what you've already tried or read, has screenshots of what you are confused by, and any other details that you can provide.
+    - **« J’ai peur de poser une question stupide »** Ne vous inquiétez pas à ce sujet ... au lieu de cela il suffit de se concentrer sur une question ** approfondie**. Une question approfondie explique ce que vous avez déjà essayé ou lu, montre des captures d’écran de vos problématiques, et tous les autres détails que vous pouvez fournir.
 
-## Online groups
+## Groupes en ligne
 
-There's a whole wonderful community of people already Looping who willing to help you through the process. You can find them in two main areas; [Looped group on Facebook](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf) and [Zulipchat](https://loop.zulipchat.com).
+Il ya toute une merveilleuse communauté de personnes utilisant déjà Loop qui est prête à vous aider. Vous pouvez les trouver dans deux domaines principaux; [Groupe "Loop" et/ou "Loop France" sur Facebook](https://www.facebook.com/groups/TheLoopedGroup/?fref=nf) et [Zulipchat](https://loop.zulipchat.com).
 
-These groups, as with Loop itself, are entirely driven by VOLUNTEERS. None of the people are paid to answer questions or spend time troubleshooting...they do it because they want to help others. Please decrease that support burden by doing some simple steps yourself before turning to others for help. Please click the image below to watch this video full of tips to make the most of your online resources.
+Ces groupes, comme avec Loop lui-même, sont entièrement gérés par des VOLONTAIRES. Aucune des personnes n’est payée pour répondre aux questions ou passer du temps à dépanner... ils le font parce qu’ils veulent aider les autres. Veuillez minimiser cette contrainte de support en faisant vous-même quelques étapes simples avant de vous adresser à d'autres personnes pour obtenir de l'aide. Veuillez cliquer sur l'image ci-dessous pour regarder cette vidéo pleine de conseils pour tirer le meilleur parti de vos ressources en ligne.
 
 [![../img/looped-group.png](img/looped-group.png)](https://youtu.be/_vSN6C-Uo04)
 
-## Screenshots
+## Captures d'écran
 
-One super valuable tool for posting to online groups is the ability to take screenshots of your issue and use them in your posts. On an Apple computer, simply press `shift-command-4` keys at the same time and a little crosshairs tool for taking screenshots will appear. Click-and-drag across the area you'd like to screenshot. When you let go of the button, the screenshot will be saved to your desktop with a file name starting with "screenshot". Use screenshots over cell phone images or words whenever possible...screenshots are higher resolution and easier to read.
+Un outil super précieux pour poster sur les groupes en ligne est la possibilité de prendre des captures d’écran de votre problème et de les utiliser dans vos messages. Sur un ordinateur Apple, il suffit d’appuyer sur les touches `Majuscule-Commande-4` en même temps et un petit outil de en forme de croix apparaîtra pour prendre des captures d’écran. Cliquez et faites dimensionner sur la zone souhaitée pour la capture d'écran. Lorsque vous lâchez le bouton, la capture d’écran sera enregistrée sur votre bureau avec un nom de fichier commençant par « capture d’écran ». Utilisez des captures d’écran avec les téléphones cellulaire dans la mesure du possible ... les captures d’écran sont de plus hautes résolutions et plus faciles à lire.
 
-Additionally, take a wider screenshot than you may initially think you need. Especially if you are posting asking for help with settings or Xcode build errors. Nightscout and Xcode have lots of valuable information off-to-the-side that many people dismiss, when really it can be valuable for troubleshooters.
+De plus, prenez une capture d'écran plus large que ce que vous pensez être nécessaire. Surtout si vous demandez de l'aide pour les paramètres ou les erreurs de construction de Xcode. Nightscout et Xcode ont de nombreuses et précieuses informations que beaucoup de gens oublient, alors qu'elles peuvent vraiment être utiles pour le dépannage.
 
-## Descriptive Language
+## Langage descriptif
 
-Descriptive language doesn't mean the four-letter words that get you frowns at the cocktail parties. Instead, this phrase means to use the most accurate, detailed words that you can when asking for help. In summary, try to avoid the word "it" and instead use details and information to help fill in the story about why you're asking for help, what you've already tried, and what happened when you tried those things (including screenshots). Let's illustrate with a couple of examples.
+Le langage descriptif ne signifie pas les mots de quatre lettres qui vous fait froncer les sourcils lors des cocktails. Au lieu de cela, cette phrase signifie utiliser les mots les plus précis et détaillés que vous pouvez lorsque vous demandez de l'aide. En résumé, essayez d'éviter le mot "c'est" et utilisez plutôt des détails et des informations pour vous aider à remplir l'histoire sur les raisons pour lesquelles vous demandez de l'aide, ce que vous avez déjà essayé, et ce qui s'est passé quand vous avez essayé ces choses (y compris les captures d'écran). Prenons quelques exemples.
 
-### Example 1
+### Exemple 1
 
-**Bad:** "It's not working." <----makes me wonder what "it" is? What part of "it" isn't working exactly? The app? The BG control? The pump integration? Alarms? Bolusing? Their Dexcom?
+**Mauvais:** « Ça ne marche pas. » <----"Ca", je voudrais bien savoir ce qu'il y a dernière ce mot? Quelle partie de « ça » ne fonctionne pas exactement ? L'application ? Le contrôle de glycémie ? L'intégration de la pompe ? les alarmes? Le Bolus en cours? Leur Dexcom ?
 
-**Ok:** "My Loop app won't open." <---- Ok, so now I know the Loop app itself seems to be the problem, but still don't know if this is a build error or an error that has happened after building. The solutions would be different potentially.
+**Ok:** « Mon application Loop ne s’ouvre pas. » <---- Ok, maintenant je sais que c'est l'application Loop elle-même qui semble être le problème, mais je ne sais toujours pas si c'est une erreur de compilation ou une erreur qui s'est produite après la compilation. Les solutions seraient potentiellement différentes.
 
-**Better:** "My Loop app was working yesterday just fine, and now today it's not doing the things like I expect." <----- Getting closer. Now I know this is not a build error and that it sounds like a more recent issue. I'm starting to narrow down the potential causes...this is about as much detail as it takes for me, as a volunteer, to consider to start helping. I might not have to ask 42 questions but instead only 4 questions now to find the remaining information for troubleshooting. But, if there were more details...I'd be more likely to wade in to help because more details saves me from questions.
+**Mieux :** « Mon application Boucle fonctionnait très bien hier, et aujourd'hui, elle ne fait pas les choses comme je m'y attendais. » <----- On se rapproche d'une bonne description. Maintenant, je sais que ce n'est pas une erreur de compilation et que cela ressemble à un problème plus récent. Je commence à réduire les causes potentielles ... c’est à peu près autant de détails qu’il me faut, en tant que bénévole, pour envisager de commencer à aider. Je n'aurais peut-être pas à poser 42 questions, mais au lieu de cela, seulement 4 questions maintenant pour trouver les informations restantes pour le dépannage. Mais s'il y avait encore plus de détails...Je serais plus susceptible de vous aider parce que plus de détails m'épargnent des questions.
 
-**Awesome:** "My Loop app was working yesterday just fine. Around lunch time, I went into the settings screen and made some adjustments and ever since it just turns white and closes no matter what I try." <---- DEFINITELY getting closer. Now I have a strong suspicion about where the bug is happening and can help with a couple links.
+**Génial :** "Mon application Boucle fonctionnait très bien hier. Vers l’heure du déjeuner, je suis allé dans l’écran des paramètres et fait quelques ajustements et depuis l'écran devient juste tout blanc et se ferme peu importe ce que j’essaie <---- on se rapproche de la question COMPLETE. Maintenant, j’ai un fort soupçon sur l’endroit où le bug se trouve et peut aider avec quelques liens.
 
 **GOLD MEDAL WORTHY:** "My Loop app was working yesterday just fine. Around lunch time, I went into the settings screen and made some adjustments to correction ranges. Ever since I did that, the app immediately turns white and shuts down. I have tried restarting my phone, but it has not fixed the problem. I tried searching the docs for 'loop closing' but didn't see results that matched my issue." <----- This person is doing an outstanding job of describing the problem. Lots of good details. Has shown initiative to try to use the resources already. Throw in a screenshot, if it was appropriate, and this person will have done an excellent job of helping all of us help him/her.
 
