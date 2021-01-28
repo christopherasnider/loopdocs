@@ -41,9 +41,9 @@ Le langage descriptif ne signifie pas les mots de quatre lettres qui vous fait f
 
 **MÉDAILLE D’OR:** « Mon application Loop fonctionnait hier très bien. Vers l’heure du déjeuner, je suis allé dans l’écran des paramètres et fait quelques ajustements sur les plages de correction. Depuis que j’ai fait cela, l’application devient immédiatement blanc et s’arrête. J'ai essayé de redémarrer mon téléphone, mais cela n'a pas résolu le problème. J'ai essayé de rechercher dans les docs sur 'Loop se referme tout seul', mais je n'ai pas vu les résultats correspondant à mon problème." <----- Cette personne fait un travail remarquable de description du problème. Beaucoup de bons détails. A fait preuve d’initiative pour essayer d’utiliser les ressources déjà existantes. Ajouter une capture d’écran, si c’était approprié, et cette personne aurait fait un excellent travail de description pour faciliter l'aide à donner.
 
-### Example 2
+### Exemple 2
 
-**Bad:** "My Loop app won't build." <----- What step are you on? What kind of computer are you using? What macOS? What Xcode version? Have you built successfully before or is this new?
+**Mauvais:** « Mon application Loop ne compile/se construit pas. » <----- À quelle étape êtes-vous ? Quel type d'ordinateur utilisez-vous ? Quel macOS ? Quelle version de d'Xcode ? Avez-vous construit avec succès un Loop avant ou est-ce nouveau pour vous ?
 
 **Ok:** "I'm trying to update my Loop app to the new omnipod-testing branch, and am getting a few errors that I don't understand." <----- Wow, sure would be nice to know what those error messages are. Are they red or yellow? A screenshot sure would help here.
 
