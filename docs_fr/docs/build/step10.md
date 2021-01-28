@@ -6,7 +6,7 @@
     - 1 à 3 jours pour tester les paramètres si vous êtes une personne normale qui veut tirer le maximum de Loop
 
 !!!info "Résumé"
-    - A small amount of effort to test/validate basals, carb ratios, and ISF (correction factor) will eliminate a lot of uncertainty when you start Looping.
+    - Un petit effort pour tester/valider les basals, les ratios de glucides et le FSI(facteur de sensibilité à l'insuline) éliminera beaucoup d’incertitude lorsque vous commencerez à utiliser Loop.
     - Keep an open mind that settings may need to change just as you start Loop. Hormones, illness, and failed sites can still happen just like always.
 
 !!!warning "FAQs"
