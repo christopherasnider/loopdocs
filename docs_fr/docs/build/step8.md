@@ -1,59 +1,59 @@
-# Step 8: Download Xcode
+# Étape 8 : Télécharger Xcode
 
-!!!danger "Time Estimate"
-    - 45 minutes to 2 hours, depending on internet connection...but you don't need to babysit the download.
+!!!danger "Temps estimé"
+    - 45 minutes à 2 heures, selon la connexion à Internet...mais vous n'avez pas besoin de surveiller le téléchargement.
 
-!!!info "Summary"
-    - After making sure your macOS is up-to-date for your iPhone's iOS (see the info below), download Xcode from your computer's App Store application.
+!!!info "Résumé"
+    - Après s'être assuré que votre macOS est à jour pour iOS de votre iPhone (voir les informations ci-dessous), téléchargez Xcode depuis l'application App Store de votre ordinateur.
 
 !!!warning "FAQs"
-    - **"Why isn't my Xcode installing?"** I can't see your computer to know exactly why...but the two most common reasons are (1) lack of internet connection or (2) not enough free space on the computer's hard drive. Xcode is a pretty beefy-sized download...and needs even a little more space to properly unpack and install itself. Best to try to have about 20-25GB of free space on your hard drive before starting to be on the safe side. If you get low on free space, I've seen installation failures. You can check your free space by clicking on the `About this Mac` (like in Step 1) and clicking the `Storage` tab.
+    - **« Pourquoi mon Xcode n'est-il pas installé ?** Je ne peux pas voir votre ordinateur pour savoir exactement pourquoi... Les deux raisons les plus courantes sont : (1) le manque de connexion à Internet ou (2) le manque d'espace libre sur le disque dur de l'ordinateur. Xcode est un téléchargement assez costaud... et a besoin d’un peu plus d’espace encore pour bien se décompresser et s’installer. Mieux pour essayer d’avoir environ 20-25 Go d’espace libre sur votre disque dur avant de commencer à se sentir à l'aise sur ce point. Si vous avez peu d'espace libre, j'ai vu des échecs d'installation pour cette raison. Vous pouvez vérifier votre espace libre en cliquant sur `À propos de ce Mac` (comme à l'étape 1) et en cliquant sur l'onglet `Stockage`.
 
-Today is an easy one, but probably takes the longest of most of any of the steps in terms of time...only because the download takes a while. The good news is that you don't have to watch this. Instead, you can start the download and simply walk away for the rest of it.
+Aujourd'hui, c'est facile, mais c'est probablement la plus longue de toutes les étapes en termes de temps....uniquement parce que le téléchargement prend un certain temps. La bonne nouvelle, c’est que tu n’as pas à surveiller ça. Au lieu de cela, vous pouvez commencer le téléchargement et tout simplement vaquer à d'autres occupations.
 
-Xcode is a free application for Apple computers. Xcode will turn the Loop "raw" code into an iOS application and install it onto your iPhone/iPod. **Make sure you have updated your macOS AND checked the `Software Updates` button before proceeding...in other words, make sure you did Step 1's work.**
+Xcode est une application gratuite pour les ordinateurs Apple. Xcode va transformer le code Loop "brut" en une application iOS et l'installer sur votre iPhone/iPod. **Assurez-vous d'avoir mis à jour votre macOS ET vérifiez le bouton `Mises à jour du logiciel` avant de continuer... en d'autres termes, assurez-vous que vous avez fait le travail de l'étape 1.**
 
-Open your App Store in your computer and search for Xcode...you'll either be downloading it brand new or updating an existing installation. The minimum version you need will depend on the iOS your iPhone is running. The version number should be showing in the "what's new" description as shown in the image below. This is a big download, so don't expected this to be fast.
+Ouvrez votre App Store dans votre ordinateur et recherchez Xcode...vous allez en télécharger un tout neuf ou mettre à jour une installation existante. La version minimale dont vous avez besoin dépendra de l'iOS de votre iPhone. Le numéro de version doit être affiché dans la description « quoi de neuf » comme indiqué dans l’image ci-dessous. Il s'agit d'un gros téléchargement, donc ne vous attendez pas à ce que ce soit rapide.
 
 ![../img/xcode.png](img/xcode.png)
 
-!!!warning "Two important facts"
+!!!warning "Deux choses importantes"
 
-    1. The minimum version of Xcode that you need is dependent on the version of iOS you have on the iPhone. The newer the version of iOS, the newer of Xcode you'll also need. </br></br>The most current version of iOS (14+) requires Xcode 12 and macOS 10.15.4 at a minimum</br></br>
-    2. The newest Xcode version **may also require you to update your macOS version**. If you have an old version of macOS, then the App Store will not show you that a newer version of Xcode is available. This can create confusion because your iOS could be requiring a newer Xcode, but the App Store won't show it as available.
+    1. La version minimale de Xcode dont vous avez besoin dépend de la version d'iOS de votre iPhone. Plus la version d’iOS est récente, plus vous aurez besoin d'une version récente d'Xcode. </br></br>La version la plus récente d'iOS (14+) nécessite Xcode 12 et macOS 10.15.4 au minimum</br></br>
+    2. La dernière version de Xcode **peut également vous obliger à mettre à jour votre version de macOS**. Si vous avez une ancienne version de macOS, alors l’App Store ne vous montrera pas qu’une nouvelle version de Xcode est disponible. Cela peut créer de la confusion parce que votre iOS pourrait nécessiter un Xcode plus nouveau, mais l’App Store ne le montrera pas comme disponible.
 
-## How do all the minimum versions relate to each other?
+## Comment toutes les versions minimales sont-elles reliées les unes aux autres?
 
-Most often what happens is that people will update their iOS on the iPhones more often than they update their macOS or Xcode.  You know how it goes...you're tapping on your phone one day and it says there's a new version of iOS available for your phone. Want to update it now? Or be reminded of it later? Or maybe you even have the setting on your phone set to automatically install iOS updates.
+Le plus souvent ce qui se passe, c'est que les gens vont mettre à jour leur iOS sur les iPhones plus souvent qu'ils ne mettent à jour leur macOS ou Xcode.  Vous savez comment ça se passe... vous tapotez un jour sur votre téléphone et il dit qu'il y a une nouvelle version d'iOS disponible pour votre téléphone. Voulez vous le mettre à jour maintenant? Ou vous le rappelez plus tard? Ou peut-être que vous avez même le réglage sur votre téléphone pour installer automatiquement les mises à jour iOS.
 
-Because the update looks so innocuous and we all lead busy lives, we forget that there might be consequences to iOS updates.
+Parce que la mise à jour semble si anodine et nous menons tous des vies occupées, nous oublions qu’il pourrait y avoir des conséquences liées aux mises à jour iOS.
 
-!!!danger "Loop and iOS updates"
+!!! danger « Loop et les mises à jour iOS»
 
-    For Loopers...the consequence to an iOS update is nothing immediate. Your Loop app won't die, it will keep humming along. </br></br>BUT, before you ***<u>update or rebuild</u>*** your Loop app on that phone, you will likely need to update your macOS and Xcode applications because of the newer iOS.  And you will need to do the updates/checks in a certain order:</br></br>
-    1st: Check if your macOS has updates</br></br>
-    2nd: Check for an Xcode update.</br></br>
+    Pour les Loopers (les utilisateurs de Loop)...la conséquence d'une mise à jour d'iOS n'a rien d'immédiate. Votre application Loop ne mourra pas, elle continuera à fredonner. </br></br>MAINTENANT, avant que vous ***<u>mettez à jour ou reconstruisez</u>*** votre application Loop sur ce téléphone, vous devrez probablement mettre à jour vos applications macOS et Xcode à cause de nouveaux iOS.  Et vous devrez faire les mises à jour/vérifications dans un certain ordre :</br></br>
+    1er : Vérifiez si votre macOS a des mises à jour</br></br>
+    2nd: Vérifiez s'il y a une mise à jour de Xcode.</br></br>
 
-The chart below is a helpful visual of the minimum versions you'll need based on your iOS.
+Le graphique ci-dessous est un visuel utile des versions minimales dont vous aurez besoin en fonction de votre iOS.
 
-* macOS: If you are running an iPhone with iOS 14, you need to make sure your macOS is 10.15.4 at a minimum as the first step. If you don't have the minimum version, go to [Step 1 Compatible Computer](step1.md#check-your-macos) and follow directions for updating your macOS.
+* macOS : Si vous utilisez un iPhone avec iOS 14, vous devez vous assurer que votre macOS est 10.15.4 au minimum comme première étape. Si vous n'avez pas la version minimale, allez à [l'Étape 1 Compatibilité de l'Ordinateur](step1.md#check-your-macos) et suivez les instructions pour mettre à jour votre macOS.
 
-* Xcode: Now that your macOS is updated to 10.15.4 minimum, the App Store in your computer will have Xcode 12.0.1 (or newer) available for you to download/update.
+* Xcode : Maintenant que votre macOS est mis à jour à 10.15.4 minimum, l'App Store sur votre ordinateur indiquera Xcode 12.0.1 (ou une version plus récente) disponible pour le téléchargement/mise à jour.
 
-If you have a brainfart and leave your macOS back at 10.15.2...the App Store won't even tell you Xcode version 12 or newer exists. That's why it is important to do the macOS updates FIRST. I can't tell you how many people post for help saying "I'm trying to update my Loop app but am getting errors." If I ask what Xcode version they have and if they've updated, the response is "I don't have any Xcode updates available in the App Store...so I must be running the most current version." When actually what's happened is they have forgotten to check for macOS updates FIRST and therefore cannot see the needed Xcode update yet.
+Si vous avez un oubli et laissez votre macOS à 10.15.2...l'App Store ne vous proposera même pas Xcode version 12 ou plus récente. C’est pourquoi il est important de faire les mises à jour macOS EN PREMIER. Je ne peux pas vous dire combien de personnes postent pour obtenir de l’aide en disant " J’essaie de mettre à jour mon application Loop mais j'ai des messages d'erreurs. » Si je demande quelle version Xcode ils ont et s'ils ont mis à jour, la réponse est "Je n'ai aucune mise à jour Xcode disponible dans l'App Store... donc c'est que je dois utiliser la version la plus récente." Alors qu'en fait ce qui s'est passé, c'est qu'ils ont oublié de vérifier les mises à jour macOS EN PREMIER et donc ne peuvent pas encore voir la mise à jour Xcode nécessaire.
 
-(Source for the chart is [wikipedia](https://en.wikipedia.org/wiki/Xcode))
+(La source du graphique est [wikipedia](https://en.wikipedia.org/wiki/Xcode))
 
 ![img/minimum-related.png](img/minimum-related.png)
 
-## What happens if you try using too old of Xcode?
+## Que se passe-t-il si vous essayez d’utiliser un trop vieux Xcode?
 
-It isn't some catastrophic failure if you try to build with an outdated Xcode without realizing it. You'll see a pretty obvious error message during your Loop build that says "Could not locate device support files." That messages is telling you that your iOS on the phone requires you to get a newer version of Xcode to be able to build Loop onto that phone.
+Ce n'est pas un erreur catastrophique si vous essayez de construire avec un Xcode obsolète sans vous en rendre compte. Vous verrez un message d'erreur assez évident pendant votre compilation de Loop qui dit "Impossible de localiser les fichiers de support du périphérique." Ce message vous disent que votre iOS sur le téléphone vous oblige à obtenir une nouvelle version de Xcode pour être en mesure de construire Loop sur ce téléphone.
 
 ![../img/device-support-files.jpg](img/device-support-files.jpg)
 
-So, if you see that error message realize you may have to update your macOS to be able to see the newest Xcode version that you will need. Make sure to check that chart to see what your minimum versions are for the iOS you are running on your iPhone.
+Donc, si vous voyez ce message d'erreur, vous devrez peut-être mettre à jour votre macOS pour pouvoir voir la dernière version de Xcode dont vous aurez besoin. Assurez-vous de vérifier ce graphique pour voir quelles sont vos versions minimales pour l’iOS que vous utilisez sur votre iPhone.
 
-## Next Step: Xcode Preferences
+## Prochaine étape : Préférences d'Xcode
 
-Now you are ready to move onto Step 9 to [work on Xcode Preferences](step9.md).
+Maintenant vous êtes prêt à passer à l'étape 9 pour [travailler sur les Préférences Xcode](step9.md).

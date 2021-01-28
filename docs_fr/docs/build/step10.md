@@ -1,11 +1,11 @@
-# Step 10: Test Settings
+# Étape 10 : Paramètres de test
 
-!!!danger "Time Estimate"
+!!!danger "Temps estimé"
     - 2 hours to read the the rest of LoopDocs (particularly "Set up App", "Operate", and "FAQ" sections) and [LoopTips](https://kdisimone.github.io/looptips/) thoroughly and thoughtfully
-    - 15 minutes to take [this quiz](https://docs.google.com/forms/d/e/1FAIpQLSfTkL0pWC-x3a5l_I3aJYBSx3xAS7dtkBbQiiLd348H70TTWg/viewform) to make sure you've familiarized yourself with Loop's expected behavior
-    - 1-3 days to test settings if you are a normal person who wants to get the most out of Loop
+    - 15 minutes pour completer [ce quiz](https://docs.google.com/forms/d/e/1FAIpQLSfTkL0pWC-x3a5l_I3aJYBSx3xAS7dtkBbQiiLd348H70TTWg/viewform) pour vous assurer que vous vous êtes familiarisé avec le comportement attendu de Loop
+    - 1 à 3 jours pour tester les paramètres si vous êtes une personne normale qui veut tirer le maximum de Loop
 
-!!!info "Summary"
+!!!info "Résumé"
     - A small amount of effort to test/validate basals, carb ratios, and ISF (correction factor) will eliminate a lot of uncertainty when you start Looping.
     - Keep an open mind that settings may need to change just as you start Loop. Hormones, illness, and failed sites can still happen just like always.
 
