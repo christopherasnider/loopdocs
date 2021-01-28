@@ -1,38 +1,38 @@
-# Step 14: Build Loop app
+# Étape 14 : Créer l'application Loop
 
-!!!danger "Time Estimate"
-    - 60-80 minutes if first time builder
-    - 10-15 minutes if a repeat builder
+!!!danger "Temps estimé"
+    - 60-80 minutes si c'est la première fois
+    - 10-15 minutes si c'est une compilation répétée
 
-!!!info "Summary"
-    - Open the Loop code you downloaded in [Step 13](step13.md)
-    - Connect the phone to the computer
-    - Set the phone to not lock for awhile
-    - Trust the computer (on the phone)
-    - Select your phone from the device list
-    - Register the device
-    - Sign the 4 targets
-    - Press the build button
-    - Enter computer password four times during the build (if this is your first ever build)
-    - Watch in awe as you just built your very own Loop app
+!!!info "Résumé"
+    - Ouvrez le code Loop que vous avez téléchargé dans [l'étape 13](step13.md)
+    - Connectez le téléphone à l'ordinateur
+    - Réglez le téléphone pour ne pas se verrouiller pendant un certain temps
+    - Faire confiance à l'ordinateur (sur le téléphone)
+    - Sélectionnez votre téléphone dans la liste des appareils
+    - Enregistrer l'appareil
+    - Signer les 4 cibles
+    - Appuyez sur le bouton build
+    - Entrez le mot de passe de l’ordinateur quatre fois pendant la construction (si c’est votre première génération)
+    - Regardez avec admiration car vous venez de construire votre propre application Loop
 
 !!!warning "FAQs"
-    - **"I got a build error! YIKES...what do I do?"** Check out the [Build Errors](build_errors.md) page for all the solutions you'd need.
-    - **"The build seems to take a long time, is that normal?"** Yes, the first build of a new download will take quite a long time. Just be patient...one of the build steps to take *much* longer than all the others. The build process does always end in a success or failure message, so just wait it out until you see one of those displayed.
+    - **« J'ai une erreur de compilation ! Aïe... que dois-je faire?"** consultez la page [Erreurs de compilation](build_errors.md) pour toutes les solutions dont vous avez besoin.
+    - **« La construction semble prendre beaucoup de temps, est-ce normal ? »** Oui, la première version d'un nouveau téléchargement prendra beaucoup de temps. Juste soyez patient... une des étapes de construction pour prendre *beaucoup* de plus que tous les autres. Le processus de compilation se termine toujours par un message de succès ou d'échec, alors attendez qu'il s'affiche jusqu'à ce que vous voyez l'un des messages affichés.
 
-## Open Loop project in Xcode
+## Ouvrir le projet Loop dans Xcode
 
-Go to your Downloads folder, open your downloaded Loop code folder and double click on Loop.xcodeproj. If you downloaded dev branch, your folder would be named `Loop-dev` and similar for `Loop-master` download.
+Allez dans votre dossier Téléchargements, ouvrez le dossier de code Loop téléchargé et double-cliquez sur Loop.xcodeproj. Si vous avez téléchargé la branche de développement, votre dossier s'appellerait `Loop-dev` et de même pour le téléchargement de `Loop-master`.
 
 ![../img/build_button.png](img/loop_code.png)
 
-A warning may appear asking if you really want to open it, click Open. Xcode will get itself organized, this may take a few minutes.
+Un avertissement peut apparaître vous demandant si vous voulez vraiment l'ouvrir, cliquez sur Ouvrir. Xcode va s'organiser, cela peut prendre quelques minutes.
 
 ![img/loop_open.jpg](img/loop_open.jpg)
 
-Once Xcode has finished indexing, the Loop project's various folders and files will appear in the far left column. We are now going to make three important sets of clicks:
+Une fois l'indexation terminée, les différents dossiers et fichiers du projet Loop apparaîtront dans la colonne de gauche. Nous allons maintenant faire trois séries de clics importants:
 
-1. First click: At the very top of all the folders and files listed, click on the blue "Loop". This will populate the middle part of the Xcode window with some information. **If a couple of little boxes appear saying "The folder “DerivedWatchAssets.xcassets” doesn’t exist."...just click the ok buttons and ignore those. They will come up a couple of times during your build if you are using dev branch right now...don't worry, won't be a problem.**
+1. Premier clic : En haut de tous les dossiers et fichiers listés, cliquez sur le bleu "Loop". This will populate the middle part of the Xcode window with some information. **If a couple of little boxes appear saying "The folder “DerivedWatchAssets.xcassets” doesn’t exist."...just click the ok buttons and ignore those. They will come up a couple of times during your build if you are using dev branch right now...don't worry, won't be a problem.**
 
 ![img/loop-first-click.png](img/loop-first-click.png)
 
