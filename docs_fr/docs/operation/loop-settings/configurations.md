@@ -1,40 +1,40 @@
 # Configuration
 
-This page will cover two general parts of the Loop's settings, circled in red in the screenshot below. The headings will match the flow of the screen, top to bottom.
+Cette page couvrira deux parties générales des paramètres de Loop, encerclées en rouge dans la capture d'écran ci-dessous. Les rubriques correspondent à l'ordre d'affichage sur l’écran, de haut en bas.
 
-* The first circled section covers your Loop's closed/open loop status and Loop's Issue Report.
+* La première section encerclée couvre l’état de boucle fermée/ouverte de votre Loop et le rapport de problème de la boucle.
 
-* The second circled section is the configuration section. This section contains a lot of really important settings that control how your Loop will calculate your predicted BG curve. Given the importance of your predicted BG curve to Loop's actions, please make sure you read over this page carefully to know how to navigate the selections and entries.
+* La deuxième section entourée est la zone de configuration. Cette section contient beaucoup de paramètres vraiment importants qui contrôlent la façon dont votre boucle va calculer votre courbe de glycémie prévue. Compte tenu de l'importance de votre courbe de glycémie prévue pour les actions de Loop, Assurez-vous de lire attentivement cette page pour savoir comment naviguer dans les sélections et les entrées.
 
 ![img/configurations.jpg](img/configurations.jpg)
 
-## Closed/Open Loop
+## Boucle fermée/ouverte
 
-The Closed Loop switch controls whether Loop automatically enacts its recommended temporary basal adjustments (closed loop mode) or whether you have to manually tap to enact the recommendations (open loop mode). In addition to the visual indicator on this switch discussed below, the [Loop's status icon on the main screen](displays.md#loop-status) will also appear differently depending on the mode selected. Open loop mode will have an incomplete circle for the Loop's status icon.</br></br>.
+Le commutateur de Boucle Fermée contrôle si la Boucle active automatiquement les réglages de basal temporaire recommandés (mode Boucle Fermée) ou si vous devez appuyer manuellement pour activer les recommandations (mode Boucle Ouverte). En plus de l'indicateur visuel de ce commutateur discuté ci-dessous, l'icône d'état de la boucle [sur l'écran principal](displays.md#loop-status) apparaîtra également différemment en fonction du mode sélectionné. Le mode Boucle Ouverte aura un cercle incomplet pour l'icône de statut de la Boucle.
 
-### Open Loop Mode
+### Mode Boucle Ouverte
 
 ![img/open_loop.png](img/open_loop.png)
 
-When the Closed Loop switch is in the (Off&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ) position, Loop WILL NOT enact recommended temp basals automatically. Instead, Loop will display recommended temp basals on the main status display, just above the blood glucose graph. This is called **open loop**, and is a good way to understand how Loop will function, and what type of recommendations it would make. If you click on the recommended temp basal line while in open loop mode, Loop will implement the temp basal.
+Lorsque l'interrupteur Boucle Fermée est dans la position (Off&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ), la Boucle N'INJECTERA PAS automatiquement les Basals temporaires recommandées. Au lieu de cela, la boucle affichera les Basales temporaires recommandées sur l'affichage de l'état principal, juste au-dessus du graphique de glycémie. Ceci est appelé **boucle ouverte**, et est une bonne façon de comprendre comment la boucle va fonctionner, et quel type de recommandations il ferait. Si vous cliquez sur la ligne basale temporaire recommandée en mode boucle ouverte, Loop exécute l'ordre préconisé de le basal temporaire.
 
-### Closed Loop Mode
+### Mode Boucle Fermée
 
 ![img/closed_loop.png](img/closed_loop.png)
 
-When the Closed Loop switch is in the (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   On) position, Loop WILL automatically enact recommended temp basals on the configured insulin pump. This is known as **closed loop**. Typically, Loop will show the recommended temp basal just above the blood glucose graph prior to automatically enacting it. It may take a minute or so for the Loop to enact the recommended basal. Once the temp basal has been enacted successfully on the pump, the recommended temp basal will disappear from the screen and the new temp basal rate will be represented in the insulin delivery graphs.
+Lorsque l'interrupteur Boucle Fermée est en position (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   On ) La boucle INJECTERA AUTOMATIQUEMENT les Basals temporaires recommandés via la pompe à insuline configurée. C’est ce qu’on appelle **la boucle fermée**. En règle générale, Loop affichera le basal temporaire recommandé juste au-dessus du graphique de glycémie avant de l’adopter automatiquement. Il peut prendre une minute ou deux pour que la Boucle promulgue le basal recommandé. Une fois que le basal temporaire a été activé avec succès sur la pompe, le basal temporaire recommandé disparaîtra de l'écran et le nouveau taux de basal temporaire sera représenté dans les graphiques de distribution d'insuline.
 
-## Issue Report
+## Rapport de problèmes
 
-If you run into problems or errors with your Loop, an Issue Report can be used to help identify where the problem is occurring. The Issue Report is automatically generated and you can share it via email. Frequently, if you seek help with a technical problem, an Issue Report will provide insight for the developers and troubleshooters. Please email yourself an Issue Report anytime you are questioning Loop actions or displays. You can then use that Issue Report later to help debug the problem.
+Si vous rencontrez des problèmes ou des erreurs avec votre Loop, un rapport de problèmes peut être utilisé pour aider à identifier où le problème se produit. Le rapport de problème est généré automatiquement et vous pouvez le partager par e-mail. Souvent, si vous cherchez de l’aide pour un problème technique, un rapport de problème fournira un aperçu pour les développeurs et les dépannages. Veuillez vous envoyer un rapport de problème à chaque fois que vous vous interrogez des comportements ou des affichages de Loop. Vous pouvez ensuite utiliser ce rapport de problèmes plus tard pour aider à déboguer le problème.
 
-!!!info "Before you continue further, a word about BG units"
+!!!info "Avant de continuer plus loin, un mot sur les unités Glycémie"
 
-    Entries into the configuration section will be available in mg/dL or mmol/L automatically, based upon how your blood glucose values are received. By default they are set to mg/dL, however once CGM values arrive in mmol/L these Loop settings can be entered in mmol/L. **If you are planning to use mmol/L, be sure to wait to set your entries until after you have started to receive CGM values in Loop.** If you do these in the wrong order, then your charts and entries may have incorrect units.
+    Les entrées dans la section de configuration seront disponibles en mg/dL ou mmol/L automatiquement, en fonction de la façon dont vos valeurs de glycémie sont reçues. Par défaut, ils sont définis à mg/dL, cependant une fois que les valeurs CGM arrivent en mmol/L, ces paramètres Loop peuvent être saisis en mmol/L. **Si vous prévoyez d’utiliser du mmol/L, assurez-vous d’attendre de définir vos entrées jusqu’à ce que vous avez commencé à recevoir des valeurs CGM en boucle.** Si vous les faites dans le mauvais ordre, vos graphiques et entrées peuvent avoir des unités incorrectes.
 
-## Correction Range
+## Plage de Correction
 
-The correction range is your blood glucose range that you would like Loop to correct to. Correction range is not necessarily the same target blood glucose range that you have discussed with your endocrinologist; generally the doctor's range may be much wider. For example, you may keep a correction target of 100-110 for Loop to aim to, but use a desired BG target range of 80-180 when discussing things with your endo about "time in range".
+La plage de correction est la plage de glycémie vers laquelle vous voudriez que Loop vous corrige. La plage de correction n’est pas nécessairement la même plage "cible" de glycémie discutée avec votre endocrinologue ; en règle générale, la plage du médecin est beaucoup plus large. For example, you may keep a correction target of 100-110 for Loop to aim to, but use a desired BG target range of 80-180 when discussing things with your endo about "time in range".
 
 ![img/premeal_entry.jpg](img/premeal_entry.jpg)
 
