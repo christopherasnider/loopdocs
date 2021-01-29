@@ -50,21 +50,21 @@ C'est un peu erroné de considérer la nouvelle antenne de bobine de cuivre comm
 
 La réponse dépendra d'abord de l'âge du RileyLink et de quel firmware est installé dessus.
 
-Avant août 2018, les RileyLinks avaient un firmware qui ne fonctionne que pour la communication avec la pompe Medtronic. Donc, si vous avez ce firmware ancien sur un RileyLink, votre pod ne pourra jamais s'appairer en utilisant ce RileyLink. The GetRileyLink site does offer a [RileyLink firmware update service](https://getrileylink.org/product/rileylink-fw-update/), if you want to update to the newer pod-usable firmware.
+Avant août 2018, les RileyLinks avaient un firmware qui ne fonctionne que pour la communication avec la pompe Medtronic. Donc, si vous avez ce firmware ancien sur un RileyLink, votre pod ne pourra jamais s'appairer en utilisant ce RileyLink. Le site GetRileyLink offre un service de mise à jour du firmware [RileyLink](https://getrileylink.org/product/rileylink-fw-update/)si vous voulez le mettre à jour vers le nouveau firmware utilisable par un pod.
 
-RileyLinks produced after August 2018, include newer firmware that is needed for Omnipod pump communications as well. The newer firmware will say `subg_rfspy 2.2/ble_rfspy 2.0` in the RileyLink menu, like below when paired in Loop.
+Les RileyLinks produit après août 2018, comprennent un firmware plus récent qui est nécessaire pour les communications de la pompe Omnipod. Le nouveau firmware est `subg_rfspy 2.2/ble_rfspy 2.0` dans le menu RileyLink, comme ci-dessous lorsqu'il est jumelé à Loop.
 
 ![img/rl-firmware.jpg](img/rl-firmware.jpg)
 
-Assuming your has the newer RileyLink firmware, you can *technically* use that RileyLink with either pump on Loop. But, you will have significant frustrations with the short distances required between the pump/pod and RileyLink when using the "wrong" antenna. Even keeping RileyLink in the pocket on the opposite of where the POD is on your body can cause issues with the 916MHz antenna. With mismatched antenna/pump, the RileyLink needs to be very close and in clear line-of-sight to pump/pod, that it makes everyday living a bit hard. If you use the appropriate-antenna-for-your-pump RileyLink, the distances the pump/pod and RileyLink can tolerate from each other is much more "real world" friendly and stable.
+En supposant que vous avez le nouveau firmware RileyLink, vous pouvez *techniquement* utiliser ce RileyLink avec une pompe sur Loop. Mais vous aurez beaucoup de frustrations avec les courtes distances requises entre la pompe/pod et le RileyLink lorsque vous utilisez la "mauvaise" antenne. Même en gardant le RileyLink dans la poche à l'opposé de l'endroit où se trouve votre POD sur votre corps, cela peut déja causer des problèmes avec l'antenne 916MHz. Avec une antenne/pompe mal assortie, le RileyLink doit être très proche et en ligne de mire avec la pompe/pod, qu'il rend la vie quotidienne un peu difficile. Si vous utilisez l'antenne appropriée pour votre pompe RileyLink, les distances que la pompe/pod et le RileyLink est plus acceptable et proche d'un «monde réel» convivial et stable.
 
-In summary, definitely use the appropriate RileyLink with the antenna that matches your pump so that you are less frustrated. In a pinch, your old RileyLink might work as a backup, but you won't love it.
+En résumé, utilisez définitivement le RileyLink approprié avec l'antenne qui correspond à votre pompe afin que vous soyez moins frustré. Dans un dernier recours, votre vieux RileyLink pourrait fonctionner comme une sauvegarde, mais vous ne l’aimerez pas.
 
 ![img/rl-antenna-chart.png](img/rl-antenna-chart.png)
 
-## Can you swap out the old antenna on a RileyLink?
+## Pouvez-vous échanger l'ancienne antenne sur un RileyLink ?
 
-Yes, the antenna swap is not a hard swap if you just have basic soldering skills. The old antenna can be removed easily by reheating the solder. New 433MHz antennas and a cap can be found on [GetRileyLink site](https://getrileylink.org/product/433diyupgrade/). Tips: use flux and clean the antenna stub before soldering. Poorly DIY-soldered antennas can lead to a decreased range and frequent communication drops between Loop and the pods.
+Oui, l'échange d'antenne n'est pas un changement compliqué si vous avez des compétences de soudage basique. L'ancienne antenne peut être retirée facilement en réchauffant la soudure. De nouvelles antennes 433MHz et une casquette de boitier peuvent être trouvées sur le site [GetRileyLink](https://getrileylink.org/product/433diyupgrade/). Astuces : utilisez du flux et nettoyez le base de l'antenne avant de la souder. Les antennes mal soudées/bricolé peuvent entraîner une diminution de la portée et de fréquentes pertes de communication entre Loop et les pods.
 
 ## Combien de temps mon RileyLink durera-t-il entre 2 recharges?
 
@@ -78,9 +78,9 @@ Un jour ou l'autre, les batteries lithium polymère (LiPo) perdront la capacité
 
 Vous ne pouvez pas. Il n'y a pas d'indicateur de niveau de charge. Il suffit de le charger tous les soirs, et vous n'aurez pas de problème. La pleine charge de la batterie devrait durer entre 30 et 36 heures selon l'état de la batterie. La recharge prend moins de 2 heures.
 
-## How should I carry the RileyLink? Does it make a difference?
+## Comment dois-je porter le RileyLink ? Cela fait-il une différence?
 
-In general, you want to get in the habit of carrying RileyLink with you, yes. A pocket, carabiner, lanyard, SPIbelt...the options are endless. What you don't want to do is put the RileyLink in a blocking bag that has RFID blocking (some travel fanny packs have that). The distance that your RileyLink can be away from your pump will depend heavily on the environment you are in.
+En général, vous voulez prendre l'habitude de porter RileyLink avec vous, oui. Une poche, un mousqueton, une lanière, une ceinture, une ceinture... les options sont infinies. Ce que vous ne voulez pas faire, c'est mettre le RileyLink dans un sac de blocage qui a un blocage RFID (certains sacs de voyage ont ça). L'espacement entre votre RileyLink et votre pompe dépendra fortement de l'environnement dans lequel vous vous trouvez.
 
 ## RileyLink est-il étanche?
 
