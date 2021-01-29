@@ -86,15 +86,15 @@ Le taux de basal maximum et les paramètres de bolus maximum sont collectivement
 
 ### Débit Basal Maximum
 
-Le débit basal maximal limitera le débit de base temporaire maximal autorisé par Loop pour atteindre votre plage de correction. Typically, Loop users set their maximum basal rate around 3-4 times their highest scheduled basal rate. When you are first beginning to use Loop, it is wise to start conservative (low) in setting your maximum basal rate. If your settings are incorrect in other areas (basal rates, insulin sensitivity, carb ratio, etc), you may need time to identify where settings need to be adjusted. This process is easier if Loop is given less latitude to set high basal rates. Gradually increase your maximum basal rate as your comfort and confidence in Loop increases. If you need help with your settings adjustment, head over to LoopTips for some [initial settings help](https://kdisimone.github.io/looptips/settings/settings/)
+Le débit basal maximal limitera le débit de base temporaire maximal autorisé par Loop pour atteindre votre plage de correction. Généralement, les utilisateurs de Loop définissent leur débit basal maximum autour de 3-4 fois leur taux de basal le plus élevé. Lorsque vous commencez à utiliser Loop pour la première fois, il est sage de commencer à choisi une approche prudence en définissant votre taux (bas) de basal maximum . Si vos paramètres sont incorrects dans d'autres zones (débit basal, sensibilité à l'insuline, Ratio de glucides, etc.), vous aurez peut-être besoin de temps pour identifier où les paramètres doivent être ajustés. Ce processus est plus facile si Loop a moins de latitude pour fixer des taux basaux élevés. Augmentez graduellement votre taux basal maximum à mesure que votre confort et votre confiance en Loop augmentent. Si vous avez besoin d'aide pour régler vos paramètres, rendez-vous sur LoopTips pour quelques [aide de configuration initiale](https://kdisimone.github.io/looptips/settings/settings/)
 
-#### **Maximum Bolus**
+#### **Bolus Maximum**
 
-Enter your desired single bolus maximum here. For safety, don't set a maximum bolus limit any higher than your typical large meal bolus.
+Entrez ici la valeur désiré maximale votre bolus. Pour plus de sécurité, ne fixez pas de limite bolus maximale plus élevée que votre bolus typique de repas copieux.
 
-## Insulin Model
+## Modèle d'insuline
 
-There are four insulin models to choose from; Walsh, Rapid-Acting Adults, Rapid-Acting Children, and Fiasp. If you want to read the nitty-gritty discussion that went into the development of the Rapid-Acting and Fiasp curves (collectively called "exponential insulin models"), you can see that in GitHub [here](https://github.com/LoopKit/Loop/issues/388#issuecomment-317938473).
+Il y a quatre modèles d'insuline parmi lesquels il faut choisir: Walsh, A action rapide pour Adultes, A action rapide pour Enfants et Fiasp. If you want to read the nitty-gritty discussion that went into the development of the Rapid-Acting and Fiasp curves (collectively called "exponential insulin models"), you can see that in GitHub [here](https://github.com/LoopKit/Loop/issues/388#issuecomment-317938473).
 
 **We highly recommend selecting one of the exponential insulin models (in other words, not the Walsh model).**
 
