@@ -34,59 +34,59 @@ Si vous rencontrez des problèmes ou des erreurs avec votre Loop, un rapport de 
 
 ## Plage de Correction
 
-La plage de correction est la plage de glycémie vers laquelle vous voudriez que Loop vous corrige. La plage de correction n’est pas nécessairement la même plage "cible" de glycémie discutée avec votre endocrinologue ; en règle générale, la plage du médecin est beaucoup plus large. For example, you may keep a correction target of 100-110 for Loop to aim to, but use a desired BG target range of 80-180 when discussing things with your endo about "time in range".
+La plage de correction est la plage de glycémie vers laquelle vous voudriez que Loop vous corrige. La plage de correction n’est pas nécessairement la même plage "cible" de glycémie discutée avec votre endocrinologue ; en règle générale, la plage du médecin est beaucoup plus large. Par exemple, vous pouvez garder un objectif de correction de 100-110 que Loop s'efforcera de viser, mais utilisez une plage cible de glycémie souhaitée entre 80-180 lorsque vous en discutez avec votre endo sur « la zone dans la cible ».
 
 ![img/premeal_entry.jpg](img/premeal_entry.jpg)
 
-Click the + in the upper right corner to add correction BG range(s). You can have multiple ranges based on time of day, but the first setting of the day needs to begin at midnight.
+Cliquez sur le + dans le coin supérieur droit pour ajouter des plages de correction de glycémie. Vous pouvez avoir plusieurs plages basées sur l'heure de la journée, mais le premier réglage de la journée doit commencer à minuit.
 
-Correction ranges can be a single number, such as 100-100 mg/dL, or a range such as 100-120 mg/dL. Generally speaking, if you choose to use a range, keeping the range between about 10-30 mg/dL between the lowest and highest value is a good starting place.
+Les plages de correction peuvent être un nombre unique, comme 100-100 mg/dL, ou une plage telle que 100-120 mg/dL. En général, si vous choisissez d'utiliser une gamme, garder la plage entre 10 et 30 mg/dL entre la valeur la plus basse et la plus élevée est un bon point de départ.
 
-### Override Ranges
+### Plage de substitution
 
-Below the Correction Range entry is a section called "Overrides" with a Pre-Meal setting. While active, the pre-meal targets will replace the usual correction range for Loop's temp basal recommendations. If a pre-meal range is not entered in this section, the icon will remain grey and unusable on the main screen's toolbar.
+Au-dessous de la zone de correction se trouve une section appelée « Substitution » avec un paramètre Pré-Repas. Pendant son activation, les cibles pré repas remplaceront la plage de correction habituelle pour les recommandations de Basal temporaire de Loop. Si une plage de pré-repas n'est pas entrée dans cette section, l'icône restera grise et inutilisable sur la barre d'outils de l'écran principal.
 
-The pre-meal override target can be used to as an easy way to get a small amount of insulin delivered before a meal in order to help control post-meal blood glucose spikes.
+La cible de substitution avant repas (ou pré-repas) peut être utilisée comme moyen facile d'obtenir une petite quantité d'insuline avant un repas afin d'aider à contrôler les pics de glycémie post-repas.
 
-If your normal target is 100-110 mg/dL and pre-meal target is 80-80 mg/dL, for example, Loop will give you an extra push to get you to the lower target number before the meal. This early insulin brings you into the meal with a mini-prebolus. The pre-meal target, when activated by pressing on the icon, will stay active for one hour, until carbs are entered, or until it is manually cancelled...whichever comes first.
+Si votre cible normale est de 100-110 mg/dL et que la cible avant le repas est de 80-80 mg/dL, par exemple, Loop vous donnera un petit coup supplémentaire pour vous amener au nombre cible inférieur avant le repas. Cette dose d'insuline vous prépare à un repas avec un mini-prébolus. La cible du pré-repas, lorsqu'elle est activée en appuyant sur l'icône, restera active pendant une heure, jusqu'à ce que les glucides soient saisis, ou jusqu'à ce qu'ils soient annulés manuellement... quelle que soit l'action qui a été faite en premier.
 
-Loop will adjust any insulin bolus as needed based on the extra insulin provided during this pre-meal time.
+La boucle ajustera tous les bolus d'insuline selon les besoins en fonction de l'insuline supplémentaire fournie pendant cette période pré-repas.
 
-## Suspend Threshold
+## Seuil de suspension
 
-The suspend threshold must be set up for successful configuration of Loop. **Your Loop will not turn green without setting this value.** This value affects both bolus and basal recommendations by Loop.
+Le seuil de suspension doit être mis en place pour la configuration réussie de Loop. **votre boucle ne deviendra pas verte sans définir cette valeur.** cette valeur affecte à la fois bolus et recommandations basales par Loop.
 
 ### Bolus
 
-* If you are trying to bolus a meal while any part of the predicted BG curve is below this suspend threshold value, Loop will not recommend a bolus.  Instead, you will need to wait until your prediction curve is above the suspend threshold value in order to bolus.
+* Si vous essayez d'injecter un bolus pour un repas alors que n’importe quelle partie de la courbe prévisionnelle de glycémie est en dessous de cette valeur seuil de suspension, Loop ne recommandera pas un bolus.  Au lieu de cela, vous devrez attendre que votre courbe de prédiction soit supérieure à la valeur de seuil de suspension afin de pouvoir faire un bolus.
 
 ### Basal
 
-* If your current or any point on your predicted BG curve is below the suspend threshold, Loop will always recommend a temporary basal rate of 0 U/hr.
+* Si votre point actuel ou n'importe quel point de votre courbe de glycémie prévue est inférieur au seuil de suspension, La boucle recommandera toujours un débit basal temporaire de 0 U/h.
 
-Reasonable settings for suspend threshold will depend on user preference, but recommended not set lower than 65 mg/dL.
+Les paramètres raisonnables pour le seuil de suspension dépendront de la préférence de l'utilisateur, mais il n'est pas recommandé de définir une valeur inférieure à 65 mg/dL.
 
-## Basal Rates
+## Débit Basaux
 
 !!!danger ""
 
-    **Note: You cannot enter basal rates until you first add a pump in Loop settings.** Your basal rates will be initially populated when you walk through the `Add Pump` part of the setup at the beginning of this setup guide.
+    **Remarque : Vous ne pouvez pas entrer de débits basaux tant que vous n'avez pas ajouté une pompe dans les paramètres de Loop. * Vos débits de basal seront initialement remplis lorsque vous compléterez la partie `Ajouter une pompe` de la configuration au début de ce guide d'installation.
 
-Only one basal schedule may be set in each Loop app. The basal increments are available according to the increments of the particular pump/pod you are using. Not all pumps provide the same increments for basal deliveries. Basal schedule must start at midnight and cannot contain rates of 0 U/hr.
+Un seul planning de basal peut être défini dans chaque application Loop. Les incréments de basal sont disponibles en fonction de la precision incrémentale de la pompe/pod que vous utilisez. Toutes les pompes ne fournissent pas les mêmes incréments pour les injections de basal. L'horaire de basal doit commencer à minuit et ne peut pas contenir des taux de 0 U/h.
 
-To edit a line in your basal schedule, tap the line and adjust the time and/or amount.  To remove a line, select Edit in the top right and delete it.  If tapping the line doesn't work, try closing and re-opening the app.  When finished editing, click on the `Save to Pump...` or `Sync With Pod` button, depending on which pump you are using.
+Pour modifier une ligne dans votre planning de basale, appuyez sur la ligne et ajustez l'heure et/ou le montant.  Pour supprimer une ligne, sélectionnez Modifier en haut à droite et supprimez-la.  Si en appuyant sur la ligne, cela ne fonctionne pas, essayez de fermer et de rouvrir l'application.  Lorsque l'édition est terminée, cliquez sur le bouton `Enregistrer dans la pompe...` ou `Synchroniser avec le Pod` en fonction de la pompe que vous utilisez.
 
 !!!info ""
 
-    If you make any basal edits and use the `Cancel` button to go back to the menu without successfully saving/syncing to pump/pod, the changes you made will not be saved. Loop makes saving/syncing to pump a mandatory step to successfully editing basal rates. If you get an error message while trying to save/sync the edited basal rates, please retry until successful.
+    Si vous faites des modifications de basal et utilisez le bouton `Annuler` pour retourner au menu sans enregistrer / synchroniser avec succès vers la pompe/pod, les modifications que vous avez apportées ne seront pas enregistrées. La boucle fait de l'enregistrement/synchronisation vers la pomper une étape obligatoire pour éditer correctement les débits de basal. Si vous obtenez un message d'erreur en essayant de sauvegarder/synchroniser les taux de basal modifiés, veuillez réessayer jusqu'à succès.
 
-## Delivery Limits
+## Limites d'Administration
 
-The maximum basal rate and maximum bolus settings are collectively referred to as Delivery Limits. This section will have been initially populated when you finished the `Add Pump` part of the setup previously. For safety, similar to basal schedule, you must keep these values the same on both the Loop app and within the pump/pod settings. If you edit these settings in Loop app, always use the `Save to Pump...` or `Sync With Pod` button, depending on which pump you are using.
+Le taux de basal maximum et les paramètres de bolus maximum sont collectivement désignés sous le nom de limites de livraison. Cette section aura d’abord été peuplée lorsque vous avez terminé la `ajouter la Pompe` partie de la configuration vu précédemment. Pour plus de sécurité, similaire à l’horaire basal, vous devez conserver ces valeurs de la même façon à la fois sur l’application Loop et dans les paramètres de la pompe/pod. Si vous modifiez ces paramètres dans l'application Loop, utilisez toujours le bonton `Enregistrer dans la pompe...` ou `Synchroniser avec le bouton Pod` selon la pompe que vous utilisez.
 
-### Maximum Basal Rate
+### Débit Basal Maximum
 
-Maximum basal rate will cap the the maximum temporary basal rate that the Loop is allowed to enact to meet your correction range. Typically, Loop users set their maximum basal rate around 3-4 times their highest scheduled basal rate. When you are first beginning to use Loop, it is wise to start conservative (low) in setting your maximum basal rate. If your settings are incorrect in other areas (basal rates, insulin sensitivity, carb ratio, etc), you may need time to identify where settings need to be adjusted. This process is easier if Loop is given less latitude to set high basal rates. Gradually increase your maximum basal rate as your comfort and confidence in Loop increases. If you need help with your settings adjustment, head over to LoopTips for some [initial settings help](https://kdisimone.github.io/looptips/settings/settings/)
+Le débit basal maximal limitera le débit de base temporaire maximal autorisé par Loop pour atteindre votre plage de correction. Typically, Loop users set their maximum basal rate around 3-4 times their highest scheduled basal rate. When you are first beginning to use Loop, it is wise to start conservative (low) in setting your maximum basal rate. If your settings are incorrect in other areas (basal rates, insulin sensitivity, carb ratio, etc), you may need time to identify where settings need to be adjusted. This process is easier if Loop is given less latitude to set high basal rates. Gradually increase your maximum basal rate as your comfort and confidence in Loop increases. If you need help with your settings adjustment, head over to LoopTips for some [initial settings help](https://kdisimone.github.io/looptips/settings/settings/)
 
 #### **Maximum Bolus**
 
