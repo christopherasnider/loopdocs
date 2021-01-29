@@ -1,74 +1,74 @@
-# General Loop FAQs
+# FAQ générale sur Loop
 
-Welcome to LoopDocs - a place for all things Frequently Asked.
+Bienvenue sur LoopDocs - un endroit pour toutes les choses fréquemment demandé.
 
-## What is Loop?
+## Qu’est-ce que Loop?
 
-Click on the image below to watch a short [Introduction to Loop video](https://youtu.be/qw_u1lqboCs).
+Cliquez sur l'image ci-dessous pour regarder une courte [Introduction à Loop en vidéo](https://youtu.be/qw_u1lqboCs).
 
 [![../img/loop_gear.jpg](img/intro-to-loop.png)](https://youtu.be/qw_u1lqboCs)
 
-## What do I need to Loop?
+## De quoi ai-je besoin pour utiliser Loop ?
 
-Loop has both hardware and software requirements. In general, to use Loop you need to have seven components.
+La boucle a des exigences matérielles et logicielles. En général, pour utiliser Loop, vous devez avoir sept composants.
 
-- Compatible insulin pump: [Medtronic or Omnipod](../build/step3.md)
-- [Compatible CGM](../build/step4.md)
+- Pompe à insuline compatible : [Medtronic ou Omnipod](../build/step3.md)
+- [MGC compatible](../build/step4.md)
 - [RileyLink](../build/step5.md)
-- [Compatible iPhone/iPod Touch](../build/step2.md)
-- [Apple computer running Mojave macOS 10.14.3 or later](../build/step1.md)
-- [Xcode (a free Apple application)](../build/step8.md)
-- [Apple Developer Membership](../build/step6.md)
+- [IPhone/iPod Touch compatible](../build/step2.md)
+- [Ordinateur Apple exécutant Mojave macOS 10.14.3 ou ultérieur](../build/step1.md)
+- [Xcode (une application Apple gratuite)](../build/step8.md)
+- [Membre de l'Apple Developer](../build/step6.md)
 
 ![img/loop_gear.jpg](img/loop_gear.jpg)
 
-## Can I download Loop from the App store?
+## Puis-je télécharger Loop depuis l’App Store ?
 
-No. Loop is not available for download. You must build your own Loop app. Loop app will not be available in the Apple App store because that would be distribution of a medical device, and we are not in that "business".  You can build yourself, but we are not distributors.
+Non. Loop n’est pas disponible au téléchargement. Vous devez construire votre propre application Loop. L'application Loop ne sera pas disponible dans l'App Store d'Apple car ce serait considéré comme la distribution d'un appareil médical, et nous ne sommes pas ce type «d'entreprise».  Vous pouvez construire vous-même, mais nous ne sommes pas des distributeurs.
 
-Don't worry though, building your Loop app is actually quite easy and that's what these docs are all about. The harder part will be having the patience to read all the documents before you start. New Loop users are so excited to get started that they skip reading all the great info that these docs contain. So, as you begin the build...please include time to read the documents that follow what happens AFTER you successfully build your Loop app.
+Ne vous inquiétez pas, la construction de votre application Loop est en fait assez facile et c'est de cela qu'il s'agit. La partie la plus difficile sera d'avoir la patience de lire tous les documents avant de commencer. Les nouveaux utilisateurs de la Loop sont tellement excités de commencer qu'ils ne lisent pas toutes les bonnes infos que contiennent ces documentations. Donc, au fur et à mesure que vous commencez la compilation...veuillez prendre le temps de lire les documents qui suivent ce qui se passe APRÈS que vous ayez compilé avec succès votre application Loop.
 
-If you have any questions, these docs have a nice search feature in the dark blue top menu bar that may help you find your answers pretty quickly too.
+Si vous avez des questions, ces docs ont une belle fonction de recherche dans la barre de menu bleu foncé qui peut vous aider également à trouver vos réponses assez rapidement.
 
-## Can I use an android phone for Loop?
+## Puis-je utiliser un téléphone Android pour Loop ?
 
-No, this is purely iPhone or iPod touch.
+Non, c’est uniquement compatible pour iPhone ou iPod touch.
 
-## Do I have to be "tech-smart" to build Loop?
+## Dois-je être un "pro de l'informatique" pour construire Loop?
 
-No. You do not need any experience in code or computers to build Loop. If you have already owned an Apple computer and iPhone, you already have the required level of experience. Beyond that, simply read the directions slowly and diligently...all the information you will need are in these documents.
+Non. Vous n'avez pas besoin d'expérience dans le code ou les ordinateurs pour construire Loop. Si vous avez déjà possédé un ordinateur Apple et un iPhone, vous avez déjà le niveau d'expérience requis. En plus de cela, il suffit de lire les indications lentement et assidûment ... toutes les informations dont vous aurez besoin sont dans ces documents.
 
-Often times the non-tech people do better than the tech people in building Loop. Why? Because the non-tech people take the time to read slowly and look at the screenshots in the directions. The tech people often skim read and miss sentences...which then leads to build errors that have to be retraced and fixed.
+Souvent, les gens non-tech font mieux que les gens de la technologie dans la construction de loop. Pourquoi ? Parce que les non-tech prennent le temps de lire lentement et de regarder les captures d'écran dans les directions. Les gens de la technologie survole et manquent des phrases ... ce qui conduit ensuite à créer des erreurs qui doivent être retracées et corrigées.
 
-## Is there a cheat sheet for a school nurse to use?
+## Y a-t-il une feuille de triche à utiliser pour une infirmière scolaire?
 
-Sure, you can give this one a try. [School nurse's cheat sheet download](https://github.com/Kdisimone/images/raw/master/school_nurse.pdf)
+Bien sûr, vous pouvez essayer celle-la. [Feuille de triche de l’infirmière scolaire](https://github.com/Kdisimone/images/raw/master/school_nurse.pdf)
 
-## How long does it take to build Loop?
+## Combien de temps faut-il pour construire Loop ?
 
-The answer is varied, but a few hours from start to finish, depending on where you are starting and how comfortable you are with your computer.
+La réponse est variée, mais quelques heures du début à la fin, selon l’endroit où vous commencez et comment vous êtes à l’aise avec votre ordinateur.
 
-If you'd rather break it up into several shorter bits of effort, the [`Build App`](../build/step1.md) section is divided into convenient stopping points with Time Estimates for each step. You can do one or more steps depending on what kind of time you have available.
+Si vous préférez decomposer en plusieurs parties votre effort, la section [`Construire son Appli`](../build/step1.md) est divisée en points d'arrêt pratiques avec des estimations de temps pour chaque étape. Vous pouvez faire une ou plusieurs étapes en fonction du type de temps dont vous avez besoin.
 
-## Does Loop cost money?
+## Loop coûte-t-il de l’argent ?
 
-Yes, there are some costs, beyond the obvious costs of owning a pump and CGM.
+Oui, il y a des coûts, au-delà des coûts évidents de posséder une pompe et un MGC.
 
-The [RileyLink kit](https://getrileylink.org/) costs $150. This is a one-time cost and many people still have their original RileyLinks from nearly 3 years ago running just fine. I highly recommend purchasing two RileyLinks when financially feasible, to have one as a backup in case of accidental damage.
+Le kit [RileyLink coûte](https://getrileylink.org/) 150 $. C'est un coût unique et beaucoup de gens ont encore leur RileyLinks original après 3 années de fonctionnement. Je recommande fortement l'achat de deux RileyLinks lorsque c'est financièrement réalisable, d'en avoir un en secours en cas de dommages accidentels.
 
-The Apple Developer License can be done for free, however, you will have to rebuild your Loop app every 7 days. That could get very tedious. The $99 annual Apple Developer program enrollment is an excellent investment.
+La licence Apple Developer peut être faite gratuitement, cependant, vous devrez reconstruire votre application Loop tous les 7 jours. Ça pourrait devenir très fastidieux. L'inscription annuelle du programme Apple Developer à 99 $ est un excellent investissement.
 
-There are no other costs, ongoing or initial, to use Loop.
+Il n’y a pas d’autres coûts, periodique ou initiaux, à utiliser Loop.
 
-## Do I need to own my own Apple computer?
+## Dois-je posséder mon propre ordinateur Apple ?
 
-You don't have to own your own Apple computer, but you do need to at least borrow one. It would be really good to have longer term ability to borrow that computer again for [updating Loop](../build/updating.md#when-to-update) later, when needed.
+Vous n'avez pas besoin de posséder votre propre ordinateur Apple, mais vous devez au moins en emprunter un. Il serait vraiment bon d'avoir une capacité à long terme d'emprunter cet ordinateur à nouveau pour [mettre à jour Loop](../build/updating.md#when-to-update) plus tard, lorsque c'est nécessaire.
 
-If you are borrowing an Apple computer, you should ask the person to (1) update to Mojave and (2) [download Xcode for free](https://developer.apple.com/xcode/) before you get together to build your Loop app. The updates and download of Xcode can take a couple hours depending on the person's internet speed...so best to do those steps well ahead of time to save trouble.
+Si vous empruntez un ordinateur Apple, vous devriez demander à la personne de (1) mettre à jour vers Mojave et (2) [télécharger Xcode gratuitement](https://developer.apple.com/xcode/) avant de vous réunir pour construire votre application Loop. Les mises à jour et le téléchargement de Xcode peuvent prendre quelques heures selon la vitesse Internet de la personne... Alors, mieux vaut faire ces étapes bien avant, pour éviter des problèmes.
 
-## Can I use a PC or Windows computer to build?
+## Puis-je utiliser un PC ou un ordinateur Windows pour construire ?
 
-Yes, you can...sort of. There is a hacked way of installing macOS on a Windows computer called "Virtual Machine". [This link](https://macosvmware.tech.blog/) may provide some helpful information for that if you want to learn more...but it's up to you and Google if you hit a road block. This Virtual Machine method will not work on PCs that have AMD processors either, so double check your computer before to confirm you don't have an old AMD processor. These docs do not provide troubleshooting tips for Virtual Machine installation or use.
+Oui, vous pouvez... en quelque sorte. Il existe une façon piratée d’installer macOS sur un ordinateur Windows appelé « Virtual Machine ». [Ce lien](https://macosvmware.tech.blog/) peut vous fournir des informations utiles pour ceux qui veulent en savoir plus... mais c'est à vous et à Google si vous rencontrer des embuches. This Virtual Machine method will not work on PCs that have AMD processors either, so double check your computer before to confirm you don't have an old AMD processor. These docs do not provide troubleshooting tips for Virtual Machine installation or use.
 
 ## How often do I need to get on the computer for Loop?
 
