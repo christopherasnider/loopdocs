@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#code-customizations" class="md-skip">
+        <a href="#personnalisations-du-code" class="md-skip">
           Aller au contenu
         </a>
       
@@ -760,36 +760,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#disable-authentication-for-bolusing" class="md-nav__link">
-    Disable Authentication for Bolusing
+  <a href="#desactivation-de-lauthentification-pour-le-bolus" class="md-nav__link">
+    Désactivation de l’authentification pour le Bolus
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#default-carb-absorption-times" class="md-nav__link">
-    Default Carb Absorption Times
+  <a href="#temps-dabsorption-par-defaut-des-glucides" class="md-nav__link">
+    Temps d’absorption par défaut des glucides
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exponential-insulin-curve" class="md-nav__link">
-    Exponential Insulin Curve
+  <a href="#courbe-exponentielle-de-linsuline" class="md-nav__link">
+    Courbe exponentielle de l’insuline
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#loop-logo" class="md-nav__link">
-    Loop Logo
+  <a href="#logo-de-loop" class="md-nav__link">
+    Logo de Loop
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#adjust-the-sensitivity-of-watchs-digital-crown-for-carb-and-bolus-entry" class="md-nav__link">
-    Adjust the sensitivity of Watch's digital crown for carb and bolus entry
+  <a href="#ajustez-la-sensibilite-de-la-couronne-numerique-de-la-montre-pour-lentree-de-glucides-et-de-bolus" class="md-nav__link">
+    Ajustez la sensibilité de la couronne numérique de la montre pour l’entrée de glucides et de bolus
   </a>
   
 </li>
@@ -1661,36 +1661,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#disable-authentication-for-bolusing" class="md-nav__link">
-    Disable Authentication for Bolusing
+  <a href="#desactivation-de-lauthentification-pour-le-bolus" class="md-nav__link">
+    Désactivation de l’authentification pour le Bolus
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#default-carb-absorption-times" class="md-nav__link">
-    Default Carb Absorption Times
+  <a href="#temps-dabsorption-par-defaut-des-glucides" class="md-nav__link">
+    Temps d’absorption par défaut des glucides
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exponential-insulin-curve" class="md-nav__link">
-    Exponential Insulin Curve
+  <a href="#courbe-exponentielle-de-linsuline" class="md-nav__link">
+    Courbe exponentielle de l’insuline
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#loop-logo" class="md-nav__link">
-    Loop Logo
+  <a href="#logo-de-loop" class="md-nav__link">
+    Logo de Loop
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#adjust-the-sensitivity-of-watchs-digital-crown-for-carb-and-bolus-entry" class="md-nav__link">
-    Adjust the sensitivity of Watch's digital crown for carb and bolus entry
+  <a href="#ajustez-la-sensibilite-de-la-couronne-numerique-de-la-montre-pour-lentree-de-glucides-et-de-bolus" class="md-nav__link">
+    Ajustez la sensibilité de la couronne numérique de la montre pour l’entrée de glucides et de bolus
   </a>
   
 </li>
@@ -1708,44 +1708,43 @@
               
                 
                 
-                <h1 id="code-customizations">Code Customizations<a class="headerlink" href="#code-customizations" title="Permanent link">&para;</a></h1>
-<p>Based on Loop users’ experience, there are some customizations that you may want to incorporate ahead of building your Loop app and Apple Watch app.  These customizations must be done prior to building the Loop app onto your iPhone, they cannot be done from within the app itself.</p>
-<div class="admonition info">
-<p class="admonition-title">Line numbers may change</p>
-<p>Every effort will be made to update the line numbers as the code is updated, but there may be times where the screenshots and line numbers are slightly different than the current version of Loop code.  These instructions have been updated for Loop v2.0 master branch. If you can't find the same exact line on that line number listed, then look nearby and you'll likely find it just a couple lines away.</p>
-</div>
-<h2 id="disable-authentication-for-bolusing">Disable Authentication for Bolusing<a class="headerlink" href="#disable-authentication-for-bolusing" title="Permanent link">&para;</a></h2>
-<p>Depending on your iPhone preferences and model, you may have Face ID or Touch ID enabled.  Those security features will also be used to authenticate bolus delivery in Loop.  You can choose to disable authentication (i.e., not require Face ID, Touch ID, or passcode for bolusing) through the following code customization:</p>
-<p>Modify Line 201 in the Loop&gt;&gt;View Controllers&gt;&gt;BolusViewController.swift.  Add the <code>false &amp;&amp;</code> as shown in the screenshot below:</p>
+                <h1 id="personnalisations-du-code">Personnalisations du code<a class="headerlink" href="#personnalisations-du-code" title="Permanent link">&para;</a></h1>
+<p>D’après l’expérience des utilisateurs de Loop, il existe certaines personnalisations que vous voudrez peut-être intégrer avant la création de votre application Loop et de votre application Apple Watch.  Ces personnalisations doivent être effectuées avant de créer l’application Loop sur votre iPhone, elles ne peuvent pas être effectuées à partir de l’application elle-même.</p>
+<p>!!!info « Les numéros de ligne peuvent changer »</p>
+<pre><code>Tous les efforts seront faits pour mettre à jour les numéros de ligne au fur et à mesure de l'evolution du code, mais il peut y avoir des moments où les captures d'écran et les numéros de ligne soient légèrement différentes que la version actuelle du code de Loop.  Ces instructions ont été mises à jour pour la branche master Loop v2.0. Si vous ne trouvez pas exactement le même numéro de ligne référencé, alors vous trouverez probablement la bonne ligne à proximité .
+</code></pre>
+<h2 id="desactivation-de-lauthentification-pour-le-bolus">Désactivation de l’authentification pour le Bolus<a class="headerlink" href="#desactivation-de-lauthentification-pour-le-bolus" title="Permanent link">&para;</a></h2>
+<p>Selon les préférences et le modèle de votre iPhone, il se peut que vous ayez activé Face ID ou Touch ID.  Ces fonctionnalités de sécurité seront également utilisées pour authentifier les injections de bolus dans Loop.  Vous pouvez choisir de désactiver l’authentification (c.-à-d. de ne pas exiger la reconnaissance par Face ID, Touch ID ou par le code d’accès pour la délivrance de Bolus) grâce à la personnalisation du code suivant :</p>
+<p>Modifier la ligne 201 dans la boucle&gt;&gt;View Controllers&gt;&gt;BolusViewController.swift.  Ajouter le <code>false &amp;&amp;</code> comme indiqué dans la capture d'écran ci-dessous:</p>
 <p><img alt="img/custom-id.png" src="../img/custom-id.png" /></p>
-<h2 id="default-carb-absorption-times">Default Carb Absorption Times<a class="headerlink" href="#default-carb-absorption-times" title="Permanent link">&para;</a></h2>
+<h2 id="temps-dabsorption-par-defaut-des-glucides">Temps d’absorption par défaut des glucides<a class="headerlink" href="#temps-dabsorption-par-defaut-des-glucides" title="Permanent link">&para;</a></h2>
 <p><img alt="img/carb_screen.png" src="../img/carb_screen.png" /></p>
-<p>Loop’s default carb absorption times are based on the high, medium, and low glycemic index absorption curves presented in <i>Think Like A Pancreas</i> by Gary Scheiner.  Currently the lollipop (fast) icon is set for 2 hours, taco (medium) icon for 3 hours, and pizza (slow) icon for 4 hours.</p>
-<p>If you would like to modify those defaults, you can do so in the Loop Core&gt;&gt;LoopSettings.swift Line 16.</p>
+<p>Les temps d’absorption par défaut des glucides de Loop sont basés sur les courbes d’absorption de l’indice glycémique élevées, moyennes et faibles présentées dans <i>Think Like A Pancreas</i> par Gary Scheiner.  Actuellement l’icône sucette (rapide) est réglée pour 2 heures, l’icône tacos (moyenne) pendant 3 heures, et l’icône pizza (lente) pendant 4 heures.</p>
+<p>Si vous souhaitez modifier ces valeurs par défaut, vous pouvez le faire dans le Loop Core&gt;&gt;LoopSettings.swift ligne 16.</p>
 <p><img alt="img/carb_times.png" src="../img/carb_times.png" /></p>
-<p>For example, if you wanted to make lollipop a 30 minute absorption and pizza a 5 hour absorption, the edit would look like below:</p>
+<p>Par exemple, si vous voulez passer la sucette à une absorption de 30 minutes et une absorption de pizza de 5 heures, le changement ressemblerait à ce qui suit :</p>
 <p><img alt="img/carb_times_example.png" src="../img/carb_times_example.png" /></p>
-<h2 id="exponential-insulin-curve">Exponential Insulin Curve<a class="headerlink" href="#exponential-insulin-curve" title="Permanent link">&para;</a></h2>
-<p>The Exponential Insulin Curve Models (Rapid-Acting Adult, Rapid-Acting Child, and Fiasp) default to an insulin duration of 360 minutes...but the peak activity of the various curves differs, as follows:</p>
+<h2 id="courbe-exponentielle-de-linsuline">Courbe exponentielle de l’insuline<a class="headerlink" href="#courbe-exponentielle-de-linsuline" title="Permanent link">&para;</a></h2>
+<p>Les modèles de courbe de l'insuline exponentielle (adulte à action rapide, Enfant à action rapides et Fiasp) sont par défaut réglés pour une durée d'insuline de 360 minutes... mais le pic d''activité des différentes courbes diffère, comme suit:</p>
 <ul>
-<li>Rapid-acting adult curve peaks at 75 minutes</li>
-<li>Rapid-acting child curve peaks at 65 minutes</li>
-<li>Fiasp peaks curve peaks at 55 minutes</li>
+<li>Le pic de courbe adulte à action rapide est à 75 minutes</li>
+<li>Le pic de courbe enfant à action rapide est à 65 minutes</li>
+<li>Fiasp culmine à 55 minutes</li>
 </ul>
-<p>If you wish to customize these values, you can adjust them on Lines 34-38 in the LoopCore&gt;&gt;Insulin&gt;&gt;ExponentialInsulinModelPreset.swift.</p>
+<p>Si vous souhaitez personnaliser ces valeurs, vous pouvez les ajuster sur les lignes 34-38 dans LoopCore&gt;&gt;Insulin&gt;&gt;ExponentialInsulinModelPreset.swift.</p>
 <p><img alt="img/exponential.png" src="../img/exponential.png" /></p>
-<h2 id="loop-logo">Loop Logo<a class="headerlink" href="#loop-logo" title="Permanent link">&para;</a></h2>
-<p>If you want an app logo other than the default green circle for your Loop app, you can easily customize this.  To make it easy to generate the correct sizes of icons, you can use a site like <a href="http://www.appicon.build/">appicon.build</a> or <a href="https://appicon.co/">appicon.co</a> and just drag and drop your source image. The source image needs to be 1024 pixels x 1024 pixels.  The site will email you a zip file or automatically download a set of files.  Highlight and copy the contents of the Appicon.appiconset that you are sent, including the Contents.json file</p>
-<p>Now navigate to the corresponding Loop folder (DefaultAssessts.xcassets, Appicon.appiconset) as shown below.</p>
+<h2 id="logo-de-loop">Logo de Loop<a class="headerlink" href="#logo-de-loop" title="Permanent link">&para;</a></h2>
+<p>Si vous souhaitez un logo d’application autre que le cercle vert par défaut de votre application Loop, vous pouvez facilement personnaliser cette application.  Pour faciliter la génération de la bonne taille des icônes, vous pouvez utiliser un site comme <a href="http://www.appicon.build/">appicon.build</a> ou <a href="https://appicon.co/">appicon.co</a> et il suffit de glisser-déposer votre image source. L'image source doit être de 1024 pixels x 1024 pixels.  Le site vous enverra un fichier zip ou téléchargera automatiquement un ensemble de fichiers.  Mettez en surbrillance et copiez le contenu de l'Appicon.appiconset que vous avez été envoyé, y compris le fichier Contents.json</p>
+<p>Naviguez maintenant vers le dossier Loop correspondant (DefaultAssessts.xcassets, Appicon.appiconset) comme indiqué ci-dessous.</p>
 <p><img alt="img/appicon1.png" src="../img/appicon1.png" /></p>
-<p>Replace the contents of the Appicon.appiconset with your copied images and Contents.json file.</p>
+<p>Remplacez le contenu de l'Appicon.appiconset par vos images copiées et le fichier Contents.json.</p>
 <p><img alt="img/appicon2.png" src="../img/appicon2.png" /></p>
-<p>You can confirm the successful change by looking in Xcode under Loop -&gt; DefaultAssets.xcassets -&gt; Appicon.  You should see your custom logo in the Appicon set now.  You may also see a yellow alert that there are “unassigned children” depending on the images the app icon generator tool produced. The unassigned children alert will not prevent your app from building, it’s simply because there are more more sizes of images than Loop app uses.  You can just leave the unassigned children alone (wow...how often do you get to say that phrase?).</p>
+<p>Vous pouvez confirmer le changement réussi en regardant dans Xcode sous Loop -&gt; DefaultAssets.xcassets -&gt; Appicon.  Vous devriez voir votre logo personnalisé dans l'ensemble Appicon maintenant.  Vous pouvez également voir une alerte jaune indiquant qu'il y a des « unassigned children » selon les images produites par l'outil générateur d'icônes d'applications. Cette alerte n'empêchera pas votre application de se construire, tout simplement parce qu'il y a plus de tailles d'images possible que celles qui vont être utilisées par Loop.  Vous pouvez simplement laisser les images non assignés (wow...combien de fois avez-vous à dire cette phrase?).</p>
 <p><img alt="img/appicon3.png" src="../img/appicon3.png" /></p>
-<p>And now you'll be the proud new owner of a custom Loop icon.</p>
+<p>Et maintenant, vous serez le fier nouveau propriétaire d’une icône Loop personnalisée.</p>
 <p><img alt="img/unicorn-logo.jpeg" src="../img/unicorn-logo.jpeg" /></p>
-<h2 id="adjust-the-sensitivity-of-watchs-digital-crown-for-carb-and-bolus-entry">Adjust the sensitivity of Watch's digital crown for carb and bolus entry<a class="headerlink" href="#adjust-the-sensitivity-of-watchs-digital-crown-for-carb-and-bolus-entry" title="Permanent link">&para;</a></h2>
-<p>The rate of change of the carb and bolus entry pickers when using the digital crown can be altered. You'll need to edit two lines in files within the WatchApp Extension&gt;&gt;Controllers folder.  In BolusInterfaceController.swift edit line 191, and in AddCarbsInterfaceController.swift edit line 249. The 1/24 value is the ratio of rotations of the crown to the amount of change in the value. Changing it to 1/12 would mean that twice as many turns would be needed for the same amount of carb or bolus entry.</p>
+<h2 id="ajustez-la-sensibilite-de-la-couronne-numerique-de-la-montre-pour-lentree-de-glucides-et-de-bolus">Ajustez la sensibilité de la couronne numérique de la montre pour l’entrée de glucides et de bolus<a class="headerlink" href="#ajustez-la-sensibilite-de-la-couronne-numerique-de-la-montre-pour-lentree-de-glucides-et-de-bolus" title="Permanent link">&para;</a></h2>
+<p>Le taux de changement des sélecteurs d'entrée de glucides et de bolus lors de l'utilisation de la couronne numérique peut être modifié. Vous devrez modifier deux lignes dans les fichiers dans le dossier WatchApp Extension&gt;&gt;Controllers.  Dans BolusInterfaceController.swift éditer la ligne 191, et dans AddCarbsInterfaceController.swift éditer la ligne 249. La valeur 1/24 est le rapport de rotation de la couronne par rapport au une unité de changement de la valeur. Le changement à 1/12 signifierait que deux fois plus de tours seraient nécessaires pour la même quantité de glucides ou de bolus entrée.</p>
 <p><img alt="img/sensitivity1.png" src="../img/sensitivity1.png" /></p>
 <p><img alt="img/sensitivity2.png" src="../img/sensitivity2.png" /></p>
                 
