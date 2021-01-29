@@ -27,26 +27,26 @@ Si vous ne saisissez pas correctement vos identifiants Share, vous obtiendrez un
 
 ![img/shareclient.jpg](img/shareclient.jpg)
 
-## Dexcom G5 and G6
+## Les CGM Dexcom G5 et G6
 
-The Dexcom G5 and G6 options only require the addition of the active transmitter ID, and the matching Dexcom app to be running on the Loop iPhone. You do not have to add your Dexcom Share account credentials, but if you do, make sure they match what you originally entered into your Dexcom app.
+Les options Dexcom G5 et G6 ne nécessitent que l'ajout de l'identifiant de l'émetteur actif, et l'application Dexcom correspondante pour fonctionner sur l'iPhone Loop. Vous n'avez pas à ajouter vos identifiants de compte Dexcom Share, mais si vous le faites, assurez-vous qu'ils correspondent à ce que vous avez entré initialement dans votre application Dexcom.
 
-When you change transmitters, you will need to select the `Delete CGM` button at the very bottom of the CGM info page in Loop. Then you will select your Dexcom system again and add the new transmitter ID. You cannot just tap on your old transmitter ID to update it.
+Lorsque vous changez d'émetteurs, vous devrez sélectionner le bouton `Supprimer le MGC` en bas de la page d'information MGC de la boucle. Ensuite, vous allez à nouveau sélectionner votre système Dexcom et ajouter le nouvel identifiant du transmetteur. Vous ne pouvez pas simplement appuyer sur votre ancien identifiant de transmetteur pour le mettre à jour.
 
-If you don't update your transmitter ID when you change active transmitters, your Loop will be forced to go to your Dexcom Share server to get your CGM data and will not work without cell or wifi connection. When Loop is using data from Dexcom Share servers, a small cloud will appear above the BG reading in Loop and should tip you off that maybe you forgot to update your transmitter ID.
+Si vous ne mettez pas à jour votre identifiant de transmetteur lorsque vous changez d'émetteurs actifs, votre Loop sera forcé d'aller sur votre serveur Dexcom Share pour obtenir vos données MGC et ne fonctionnera pas sans connexion cellulaire ou wifi. Quand Loop utilise les données des serveurs Dexcom Partage, un petit nuage apparaîtra au-dessus de la lecture de glycémie et devrait vous rappeler que vous avez peut-être oublié de mettre à jour votre identifiant de transmetteur.
 
 ## Dexcom G4
 
-Dexcom G4 users will need the Dexcom G4 Share2 app active on their iPhone and paired to their Dexcom G4 Share receiver.
+Les utilisateurs de Dexcom G4 auront besoin de l’application Dexcom G4 Share2 active sur leur iPhone et jumelée à leur récepteur Dexcom G4 Share.
 
 ## Dexcom Share
 
-The Dexcom Share selection is primarily for people who wish to test Loop function without a local CGM source and who are not running the Dexcom app on their Loop iPhone. This selection will require login access to a Dexcom Share account with live data and active internet connection in order to work.
+La choix Dexcom Share est principalement destinée aux personnes qui souhaitent tester la fonction Loop sans source CGM locale et qui n'exécutent pas l'application Dexcom sur leur iPhone Loop. Cette sélection nécessitera l'accès à un compte Dexcom Share avec des données en direct et une connexion internet active pour fonctionner.
 
-## Spike Users
+## Utilisateurs de Spike
 
-Users who are using Spike app to access other CGM types (or to avoid using the Dexcom app), you will need to follow the directions contained within the Spike app in order to build/modify Loop with Spike. Loop does not natively support Spike app and does not currently plan to. You are responsible for modifying or adapting Loop in order to use Spike so that it is an available option as a CGM source.
+Les utilisateurs qui utilisent l’application Spike pour accéder à d’autres types de CGM (ou pour éviter d’utiliser l’application Dexcom), vous devrez suivre les instructions contenues dans l’application Spike afin de construire/modifier Loop avec Spike. Loop ne prend pas en charge l’application Spike de manière native et ne prévoit pas actuellement de le faire. Vous êtes responsable de la modification ou de l’adaptation de Loop afin d’utiliser Spike et d'ajouter cette nouvelle option disponible en tant que source CGM.
 
-## Next Step: Configuration
+## Prochaine étape : Configuration
 
-Now that you have added your CGM source, we need to complete the configuration and settings in your Loop. Please head over to the [Configuration page](configurations.md) for guidance with this important part of Loop's setup.
+Maintenant que vous avez ajouté votre source MGC, nous avons besoin de compléter la configuration et les paramètres de votre Loop. S’il vous plaît [la page de configuration](configurations.md) pour obtenir des conseils avec cette partie importante de la configuration de loop.
