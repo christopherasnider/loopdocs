@@ -68,47 +68,47 @@ Si vous empruntez un ordinateur Apple, vous devriez demander à la personne de (
 
 ## Puis-je utiliser un PC ou un ordinateur Windows pour construire ?
 
-Oui, vous pouvez... en quelque sorte. Il existe une façon piratée d’installer macOS sur un ordinateur Windows appelé « Virtual Machine ». [Ce lien](https://macosvmware.tech.blog/) peut vous fournir des informations utiles pour ceux qui veulent en savoir plus... mais c'est à vous et à Google si vous rencontrer des embuches. This Virtual Machine method will not work on PCs that have AMD processors either, so double check your computer before to confirm you don't have an old AMD processor. These docs do not provide troubleshooting tips for Virtual Machine installation or use.
+Oui, vous pouvez... en quelque sorte. Il existe une façon piratée d’installer macOS sur un ordinateur Windows appelé « Virtual Machine ». [Ce lien](https://macosvmware.tech.blog/) peut vous fournir des informations utiles pour ceux qui veulent en savoir plus... mais c'est à vous et à Google si vous rencontrer des embuches. Cette méthode de machine virtuelle ne fonctionnera pas non plus sur les PC qui ont des processeurs AMD, alors vérifiez votre ordinateur avant de confirmer que vous n'avez pas d'ancien processeur AMD. Ces docs ne fournissent pas de conseils de dépannage pour l'installation ou l'utilisation d'une machine virtuelle.
 
-## How often do I need to get on the computer for Loop?
+## À quelle fréquence dois-je utiliser l’ordinateur pour Loop ?
 
-The short answer is (1) when you first build and (2) once per year minimum after that. (If you decide to use a free Apple Developer Account, you will need to get on the computer every 7 days.)
+La réponse courte est (1) lorsque vous construisez et (2) une fois par an minimum après cela. (Si vous décidez d’utiliser un compte de développeur Apple gratuit, vous devrez utiliser l’ordinateur tous les 7 jours.)
 
-The longer answer is that Loop code is updated periodically to include new features and bug fixes. When those updates are released, you'll need access to an Apple computer again to update your Loop app.  In general, probably a few times a year there are updates to Loop released that you'd want to take the time to install. Loop updates are not available through the iPhone's app store...instead you do the app update yourself with [update instructions here](../build/updating.md).
+La réponse longue est que le code Loop est mis à jour périodiquement pour inclure de nouvelles fonctionnalités et corrections de bogues. Lorsque ces mises à jour sont publiées, vous aurez besoin d’accéder à nouveau à un ordinateur Apple pour mettre à jour votre application Loop.  En général, probablement plusieurs fois par an, il y a des mises à jour de Loop publiées que vous souhaitez prendre le temps d’installer. Loop updates are not available through the iPhone's app store...instead you do the app update yourself with [update instructions here](../build/updating.md).
 
-## Will I need to build a new Loop if I switch between Medtronic and Omnipod?
+## Vais-je avoir besoin de construire un nouveau Loop si je passe entre Medtronic et Omnipod?
 
-No. Loop will have the option to move between different pump types from within the same Loop app. You'll simply use the "Switch from Omnipods" or "Delete Pump" options to move to the other kind of pump.
+Non. Loop aura la possibilité de basculer entre différents types de pompes à partir de la même application Loop. Vous utiliserez simplement les options « Basculer vers Omnipods » ou « Supprimer la pompe » pour passer d'une pompe à l'autre.
 
-## Can I use someone else's Apple Developer account for my Loop build?
+## Puis-je utiliser le compte Apple Developer de quelqu'un d'autre pour ma version Loop ?
 
-Technically, yes...however there are major drawbacks. The person's developer account can only be "linked" to a limited number of build computers. So one person "loaning out" their developer license to a lot of people will quickly exceed the number of allowed computers. In those cases, that person will be told they need to revoke the certificates on some computers (essentially dropping old ones to make room for new ones). When they do that, they may have forgotten about your Loop app on your computer. When they revoke your computer's certificate (and they can do that without you knowing through their developer portal), your Loop app will immediately stop working and not even open.
+Techniquement, oui... mais il y a des inconvénients majeurs. Le compte développeur de la personne ne peut être « lié » qu'à un nombre limité d'ordinateurs pour construire les applications. Ainsi, une personne « prêtant » sa licence de développeur à un grand nombre de personnes dépassera rapidement le nombre d'ordinateurs autorisés. Dans ces cas, cette personne sera informée qu'elle doit révoquer les certificats sur certains ordinateurs (essentiellement en abandonnant les anciens pour faire de la place pour les nouveaux). Quand ils font cela, ils peuvent avoir oublié votre application Loop sur votre ordinateur. Lorsqu'ils révoquent le certificat de votre ordinateur (et qu'ils peuvent le faire sans que vous le sachiez via leur portail développeur), votre application Loop cessera immédiatement de fonctionner et ne s'ouvrira même plus.
 
-Your Loop app will also die immediately if their developer account is not renewed or expires. Your Loop updates will also not be able to be built unless that person maintains the developer license agreement updates.
+Votre application Loop mourra immédiatement si son compte développeur n'est pas renouvelé ou expiré. Vos mises à jour de Loop ne pourront pas non plus être construites à moins que cette personne ne maintienne les mises à jour du contrat de licence de développeur.
 
-Moral of the story, out of all the ways to save money...borrowing someone's developer account is not a good place to save money. You could find yourself unexpectedly without a Loop app without notice.
+La morale de l'histoire, c'est que pour essayer d'économiser de l'argent... emprunter le compte de développeur de quelqu'un n'est pas forcement une solution si économique. Vous pourriez vous retrouver de façon inattendue et sans préavis préalable avec une application Loop non fonctionnelle.
 
-## Can I use MY Apple Developer account to build for others?
+## Puis-je utiliser MON compte Apple Developer pour créer Loop pour d’autres personnes ?
 
-Technically yes...however, there are reasons this is discouraged. When you build for others, you must be careful to not unintentionally revoke the signing certificate that had been used for other people's apps (see note in FAQ above). You also need to let the people know that the MAXIMUM their app will last is 12 months. It will need to be rebuilt no matter what every 12 months.
+Oui techniquement...mais il y a des raisons pour lesquelles cela est découragé. Quand vous construisez pour les autres, vous devez veiller à ne pas révoquer involontairement le certificat de signature qui a été utilisé pour les applications d'autres personnes (voir la note dans la FAQ ci-dessus). Vous devez également informer les gens que leur application durera MAXIMUM 12 mois. Il faudra la reconstruire quoi qu’il arrive tous les 12 mois.
 
-But the biggest issue with building for others is that they may be left without a decent method of getting Loop updates. There are a lot of new Loopers on Omnipod system and their apps will likely need updating on a regular basis over the first year. Unless you plan on meeting with that person regularly to update their app, you could leave them on an old app that doesn't work as well as the new versions.
+Mais le plus gros problème avec la compilation pour les autres est qu'ils peuvent être laissés sans une méthode décente pour obtenir des mises à jour de Loop. Il ya beaucoup de nouveaux utilisateurs de Loop avec le système Omnipod et leurs applications auront probablement besoin d’être mis à jour régulièrement au cours de la première année. À moins que vous ne prévoyiez de rencontrer cette personne régulièrement pour mettre à jour son application, vous pourriez les laisser sur une ancienne application qui ne fonctionne pas aussi bien que les nouvelles versions.
 
-## How can I find a compatible pump? supplies?
+## Comment puis-je trouver une pompe compatible ? les fournitures ?
 
-There is a [whole page with detailed information about Medtronic pumps](../build/step3.md); how to find them, how to find supplies, and assessing whether your Medtronic pump is compatible. Please check out that page for more info.
+Il y a une [page entière avec des informations détaillées sur les pompes Medtronic](../build/step3.md); comment les trouver, comment trouver des fournitures, et évaluer si votre pompe Medtronic est compatible. Veuillez consulter cette page pour plus d'informations.
 
-With the addition of Omnipod support, you can also now use Omnipod suppliers the way you'd normally source them.
+Avec l’ajout de la prise en charge Omnipod, vous pouvez également maintenant utiliser les fournisseurs Omnipod de la meme manière que d'habitude.
 
-## Can I pay someone else to do this?
+## Puis-je payer quelqu'un d'autre pour faire cela?
 
-NOOOO...you really need to figure this out yourself. This is an automated insulin delivery system and you really need to know how to build and operate this yourself.
+NOOOON... vous avez vraiment besoin de comprendre cela vous-même. Il s’agit d’un système automatisé d’administration d’insuline et vous avez vraiment besoin de savoir comment le construire et le faire fonctionner.
 
-## What if I lose my RileyLink?
+## Que faire si je perds mon RileyLink ?
 
-For Medtronic users, you simply go back to old school pump use until you get a new RileyLink. You can either let your temp basal finish by itself (30 minutes or less) or cancel the temp basal on the pump's menu. For bolusing, you'd go back to using the pump's bolus commands. When you get a RileyLink (either finding your old one or getting your backup RileyLink out) and Loop running again, you'll want to do one thing. Enter in any carbs to Loop that you may have eaten in the recent past that could still be affecting blood glucose. While Loop will read whatever insulin deliveries had happened while the RileyLink was missing, it will not read any carbs you entered into the pump...so make sure to add those to Loop and backdate them to the time they were eaten. That will help make the transition smoother to Looping again.
+Pour les utilisateurs de Medtronic, il vous suffit de revenir à l’utilisation de la pompe comme avant Loop jusqu’à ce que vous obtenez un nouveau RileyLink. Vous pouvez soit laisser votre débit basal temporaire se terminer par lui-même (30 minutes ou moins) ou annuler le basal temporaire dans le menu de la pompe. Pour faire un bolus, vous devriez retourner à l'aide des commandes bolus de la pompe. Quand vous obtenez un RileyLink (soit retrouver votre ancien RileyLink ou récupérer votre RileyLink de secours) et Loop de nouveau vous aurez envie de faire qu'une chose. Entrez tous les glucides dans Loop que vous avez peut-être mangé récemment qui pourraient toujours affecter votre glycémie. Bien que Loop lira les livraisons d'insuline qui se sont produites pendant que le RileyLink était manquant, il ne lira pas les glucides que vous avez entrés dans la pompe... Alors, assurez-vous de les ajouter dans Loop et à la date de leur consommation. Cela aidera à faciliter la transition vers Loop.
 
-For Pod users, your Pod will finish any currently running temporary basal rate (maximum of 30 minutes) and then revert back to your scheduled basal rate. Without a RileyLink, you will not be able to affect any Pod use other than normal basals. No temp basals, suspends, or boluses will be possible, similar to if you were to lose your PDM. If you have a backup RileyLink, you can simply connect to the new RileyLink on the same Loop app and it will work with the existing pod session. If you don't have a backup RileyLink, you'll have to remove the pod and start a new pod paired with your PDM until you get a new RileyLink.
+Pour les utilisateurs de Pod, votre Pod finira tout débit de basal temporaire en cours d'exécution (maximum de 30 minutes) et retournera ensuite à votre débit basal planifié. Without a RileyLink, you will not be able to affect any Pod use other than normal basals. No temp basals, suspends, or boluses will be possible, similar to if you were to lose your PDM. If you have a backup RileyLink, you can simply connect to the new RileyLink on the same Loop app and it will work with the existing pod session. If you don't have a backup RileyLink, you'll have to remove the pod and start a new pod paired with your PDM until you get a new RileyLink.
 
 ## What if I lose or get a new iPhone?
 
