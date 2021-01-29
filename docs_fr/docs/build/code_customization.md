@@ -1,10 +1,10 @@
 # Personnalisations du code
 
-Based on Loop users’ experience, there are some customizations that you may want to incorporate ahead of building your Loop app and Apple Watch app.  These customizations must be done prior to building the Loop app onto your iPhone, they cannot be done from within the app itself.
+D’après l’expérience des utilisateurs de Loop, il existe certaines personnalisations que vous voudrez peut-être intégrer avant la création de votre application Loop et de votre application Apple Watch.  Ces personnalisations doivent être effectuées avant de créer l’application Loop sur votre iPhone, elles ne peuvent pas être effectuées à partir de l’application elle-même.
 
-!!!info "Line numbers may change"
+!!!info « Les numéros de ligne peuvent changer »
 
-    Every effort will be made to update the line numbers as the code is updated, but there may be times where the screenshots and line numbers are slightly different than the current version of Loop code.  These instructions have been updated for Loop v2.0 master branch. If you can't find the same exact line on that line number listed, then look nearby and you'll likely find it just a couple lines away.
+    Tous les efforts seront faits pour mettre à jour les numéros de ligne au fur et à mesure de l'evolution du code, mais il peut y avoir des moments où les captures d'écran et les numéros de ligne soient légèrement différentes que la version actuelle du code de Loop.  Ces instructions ont été mises à jour pour la branche master Loop v2.0. If you can't find the same exact line on that line number listed, then look nearby and you'll likely find it just a couple lines away.
 
 ## Disable Authentication for Bolusing
 
