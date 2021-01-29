@@ -126,6 +126,6 @@ Le FSI mal réglé est la cause la plus fréquente de glycémie en forme de mont
 
 ## Prochaine étape: Services de Loop
 
-Vous avez terminé les configurations et paramètres requis dans votre application Loop. If you have a Nightscout site you'd like to connect Loop to, please continue on to the [Loop Services page](services.md).
+Vous avez terminé les configurations et paramètres requis dans votre application Loop. Si vous avez un site Nightscout auquel vous souhaitez connecter Loop, veuillez continuer sur la [page des services de boucle](services.md).
 
-If you are not integrating with a Nightscout site and don't want any optional logging services connected, then please proceed to the [Loop's displays page](displays.md). Understanding the Loop displays can be a valuable tool to understanding your Loop's actions, and also for troubleshooting, if you are having issues.
+Si vous n'avez pas un site Nightscout et que vous ne voulez pas de services de journalisation optionnels connectés, alors veuillez vous rendre à la page [d'affichage de la boucle ](displays.md). Comprendre les affichages Loop peut être un outil précieux pour comprendre les actions de votre Boucle, et aussi pour le dépannage, si vous avez des problèmes.
