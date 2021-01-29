@@ -6,7 +6,7 @@ Bienvenue sur LoopDocs - un endroit pour toutes les choses fréquemment demandé
 
 Cliquez sur l'image ci-dessous pour regarder une courte [Introduction à Loop en vidéo](https://youtu.be/qw_u1lqboCs).
 
-[![../img/loop_gear.jpg](img/intro-to-loop.png)](https://youtu.be/qw_u1lqboCs)
+[![img/intro-to-loop.png](img/intro-to-loop.png)](https://youtu.be/qw_u1lqboCs)
 
 ## De quoi ai-je besoin pour utiliser Loop ?
 
@@ -108,22 +108,22 @@ NOOOON... vous avez vraiment besoin de comprendre cela vous-même. Il s’agit d
 
 Pour les utilisateurs de Medtronic, il vous suffit de revenir à l’utilisation de la pompe comme avant Loop jusqu’à ce que vous obtenez un nouveau RileyLink. Vous pouvez soit laisser votre débit basal temporaire se terminer par lui-même (30 minutes ou moins) ou annuler le basal temporaire dans le menu de la pompe. Pour faire un bolus, vous devriez retourner à l'aide des commandes bolus de la pompe. Quand vous obtenez un RileyLink (soit retrouver votre ancien RileyLink ou récupérer votre RileyLink de secours) et Loop de nouveau vous aurez envie de faire qu'une chose. Entrez tous les glucides dans Loop que vous avez peut-être mangé récemment qui pourraient toujours affecter votre glycémie. Bien que Loop lira les livraisons d'insuline qui se sont produites pendant que le RileyLink était manquant, il ne lira pas les glucides que vous avez entrés dans la pompe... Alors, assurez-vous de les ajouter dans Loop et à la date de leur consommation. Cela aidera à faciliter la transition vers Loop.
 
-Pour les utilisateurs de Pod, votre Pod finira tout débit de basal temporaire en cours d'exécution (maximum de 30 minutes) et retournera ensuite à votre débit basal planifié. Without a RileyLink, you will not be able to affect any Pod use other than normal basals. No temp basals, suspends, or boluses will be possible, similar to if you were to lose your PDM. If you have a backup RileyLink, you can simply connect to the new RileyLink on the same Loop app and it will work with the existing pod session. If you don't have a backup RileyLink, you'll have to remove the pod and start a new pod paired with your PDM until you get a new RileyLink.
+Pour les utilisateurs de Pod, votre Pod finira tout débit de basal temporaire en cours d'exécution (maximum de 30 minutes) et retournera ensuite à votre débit basal planifié. Sans un RileyLink, vous ne serez pas en mesure d''utiliser le Pod autre que pour les debits Basal normaux. Aucun basal temporaire, suspendu ou bolus ne sera possible, comme si vous perdiez votre PDM. Si vous avez un RileyLink de secours, vous pouvez simplement vous connecter au nouveau RileyLink sur la même application Loop et il fonctionnera avec la session de pod existante. Si vous n'avez pas de RileyLink de secours, vous devrez enlever le pod et démarrer une nouvelle pode jumelée avec votre PDM jusqu'à ce que vous obteniez un nouveau RileyLink.
 
-## What if I lose or get a new iPhone?
+## Et si je perds ou si j'ai un nouvel iPhone?
 
-When you get a new iPhone, Loop will need to be built onto that new iPhone in the same way that you built on your old iPhone. Loop will not restore from any iCloud or iTunes backups, so make sure you plan on finding an Apple computer to rebuild on before you plan on Looping with the new iPhone.
+Lorsque vous obtenez un nouvel iPhone, Loop devra être construit sur ce nouvel iPhone de la même manière que vous avez construit sur votre ancien iPhone. Loop ne sera pas restaurée à partir de toutes les sauvegardes iCloud ou iTunes, alors assurez-vous de trouver un ordinateur Apple pour reconstruire avant de planifier une utilisation de Loop avec le nouvel iPhone.
 
-## What about other pumps? When will they Loop?
+## Qu’en est-il des autres pompes ? Quand vont-ils fonctionner avec Loop ?
 
-Hey now...let's be grateful for what we have first. The ability to use Loop is the result of tremendous amounts of effort, time, and sacrifice by volunteers. Cracking the pumps for Loop use is a large undertaking. If and when another set of people spend a large amount of time figuring out other pumps, then they could conceivably be added to Loop. But, you don't need to let us know that you'd love to see more pumps compatible with Loop. So would we. There is just an awful lot of work that needs to happen and it is not easy nor quick.
+Salut maintenant...soyons reconnaissants d'avoir ce que l'on a. La capacité d’utiliser Loop est le résultat d’énormes efforts, de temps et de sacrifices de la part des bénévoles. Craquer des pompes pour l'utilisation sur Loop est une sacrée entreprise. Si et quand un autre groupe de personnes passera beaucoup de temps à sur d'autres pompes, elles pourraient être ajoutés à Loop. Mais vous n'avez pas besoin de nous faire savoir que vous aimeriez voir plus de pompes compatibles avec Loop. Nous aussi. Il y a juste énormément de travail à accomplir et ce n’est ni facile ni rapide.
 
-Tandem pumps are not Loop compatible. Animas pumps are not Loop compatible. DASH pods are not Loop compatible. And those all likely won't be compatible anytime in the future.
+Les pompes tandem ne sont pas compatibles Loop. Les pompes Animas ne sont pas compatibles Loop. Les pods DASH ne sont pas compatibles Loop. Et tous ces éléments ne seront probablement pas compatibles à l'avenir.
 
-## Can I have more than one Loop app on a phone?
+## Puis-je avoir plus d'une application Loop sur un téléphone ?
 
-Yes, technically possible. You can have multiple Loop apps built onto the same iPhone. However, having multiple Loop apps on a single phone may lead to unexpected conflicts that can negatively affect your Loop's ability to stay green (keep looping). Additionally, your Pod will only work on one Loop app at a time anyways. So for smooth looping, just keep one Loop app on any phone for looping use.
+Oui, techniquement possible. Vous pouvez avoir plusieurs applications Loop intégrées sur le même iPhone. Toutefois, le fait d’avoir plusieurs applications Loop sur un seul téléphone peut entraîner des conflits inattendus qui peuvent affecter négativement la capacité de votre boucle à rester verte (et à continuer à fonctionner). De plus, votre Pod ne fonctionnera que sur une seule application Loop à la fois de toute façon. Donc, pour boucler en douceur, il suffit de garder une application Loop sur n’importe quel téléphone.
 
-## Will I be able to Loop on a plane? Or in the mountains?
+## Pourrai-je faire utiliser Loop dans un avion? Ou dans les montagnes?
 
-Yes. Loop does not require internet or cell coverage to work. So long as the Loop user has Bluetooth turned on on the iPhone (or iPod touch), then the Dexcom and RileyLink will still be able to do their work with Loop and your pump/Pod.
+Oui. Loop ne nécessite pas de couverture internet ou cellulaire pour fonctionner. Tant que l’utilisateur de Loop a son Bluetooth allumé sur l’iPhone (ou iPod touch), et que le Dexcom et RileyLink sont toujours en mesure de faire leur travail avec Loop et votre pompe / Pod.
