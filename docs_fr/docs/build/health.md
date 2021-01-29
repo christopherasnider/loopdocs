@@ -10,6 +10,6 @@ L'application Loop utilise l'application Santé de l'iPhone pour stocker les don
 
 ## Autorisations Dexcom
 
-Vous devez également autoriser votre application Dexcom pour écrire dans l'application Santé. Vous pouvez les trouver dans les paramètres de votre application Dexcom, sous Santé.  Cliquez sur le bouton `Activer` , puis `Activer toutes les catégories` de sorte que les curseurs permettant à Dexcom d’écrire des données soient maintenant avec une couleur verte.
+Vous devez également autoriser votre application Dexcom à écrire dans l'application Santé. Vous pouvez les trouver dans les paramètres de votre application Dexcom, sous Santé.  Cliquez sur le bouton `Activer` , puis `Activer toutes les catégories` de sorte que les curseurs permettant à Dexcom d’écrire des données soient maintenant avec une couleur verte.
 
 ![img/health_g5.jpg](img/health_g5.jpg)

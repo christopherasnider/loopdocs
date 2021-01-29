@@ -180,29 +180,29 @@ Vous verrez la progression de la compilation dans la fenêtre de statut (en haut
 
 !!!warning « FAQ: Mais qu’en est-il des alertes jaunes qui restent dans Xcode? Dois-je m’inquiéter pour eux ?"
 
-    Si vous voyez des alertes jaunes après la fin de votre build... ce n’est pas un problème. Que votre build ait réussi ou échoué... les avertissements jaunes ne jouent aucun rôle dans l’un ou l’autre résultat. Don't try to resolve them or fret about them. They mean nothing to the successful use of your Loop app.
+    Si vous voyez des alertes jaunes après la fin de votre build... ce n’est pas un problème. Que votre build ait réussi ou échoué... les avertissements jaunes ne jouent aucun rôle dans l’un ou l’autre résultat. N’essayez pas de les résoudre ou de vous inquiéter à leur sujet. Ils ne signifient rien pour l’utilisation réussie de votre application Loop.
     
     <p align="center">
     <img src="../img/yellow-warnings.png" width="750">
      </p>
 
-!!!danger "BUILD FAILED"
+!!!danger « ECHEC DE CONSTRUCTION »
 
-    Don't despair. Build failures are pretty easily fixed. If you get a message that your build failed and see **RED ERROR** messages, just go to the [Build Errors](build_errors.md) page to find the steps to fix your build error based on the message displayed.
+    Ne désespérez pas. Les échecs de construction sont assez faciles à corriger. Si vous recevez un message indiquant que votre compilation a échoué et que vous voyez les messages **ERREUR ROUGE**, rendez-vous sur les [erreurs de compilation](build_errors. d) pour trouver les étapes pour corriger votre erreur de construction en fonction du message affiché.
     
     
     <p align="center">
     <img src="../img/general-error.jpg" width="750">
     </p>
 
-## Summary
+## Récapitulatif
 
-If your build failed, you need to proceed to the [Build Errors](build_errors.md) page to find the solution. Please head there to find the help you need.
+Si votre compilation a échoué, vous devez passer à la page [Build Errors](build_errors.md) pour trouver la solution. Rendez-vous sur place pour trouver l'aide dont vous avez besoin.
 
-If no build errors, you're done building your Loop app...
+Si aucune erreur de construction, vous avez fini de construire votre application Loop...
 
 ![alt](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
-## Next steps
+## Prochaines étapes
 
-Remember your promise though? You still owe me that you will use the [`Setup App`](../operation/overview.md) section of this website now to keep proceeding safely.
+Vous vous souvenez de votre promesse? Vous m'avez promis d'utiliser la section [`Application de configuration`](../operation/overview.md) de ce site Web pour continuer à procéder en toute sécurité.
