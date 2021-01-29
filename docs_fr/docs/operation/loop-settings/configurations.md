@@ -94,38 +94,38 @@ Entrez ici la valeur désiré maximale votre bolus. Pour plus de sécurité, ne 
 
 ## Modèle d'insuline
 
-Il y a quatre modèles d'insuline parmi lesquels il faut choisir: Walsh, A action rapide pour Adultes, A action rapide pour Enfants et Fiasp. If you want to read the nitty-gritty discussion that went into the development of the Rapid-Acting and Fiasp curves (collectively called "exponential insulin models"), you can see that in GitHub [here](https://github.com/LoopKit/Loop/issues/388#issuecomment-317938473).
+Il y a quatre modèles d'insuline parmi lesquels il faut choisir: Walsh, A action rapide pour Adultes, A action rapide pour Enfants et Fiasp. Si vous voulez lire la discussion pertinente qui s'est penchée sur le développement des courbes Rapid-Acting et Fiasp (collectivement appelées "modèles d'insuline exponentielle"), vous pouvez le voir sur GitHub [ici](https://github.com/LoopKit/Loop/issues/388#issuecomment-317938473).
 
-**We highly recommend selecting one of the exponential insulin models (in other words, not the Walsh model).**
+**Nous vous recommandons fortement de choisir l'un des modèles d'insuline exponentielle (en d'autres termes, pas le modèle Walsh).**
 
-A common new Loop user error is to select Walsh model in order to easily shorten their insulin duration (DIA) to one like they used prior to Looping. This almost invariably leads to insulin stacking. If you would like to read more about why the duration of insulin action is important in Loop vs how you've traditionally used it, please click [here](https://seemycgm.com/2017/08/09/why-dia-matters/) to read a blog post about the subject. In summary, choosing Walsh curve just to shorten your DIA will lead to insulin stacking and less than desired bolusing recommendations.
+Une erreur habituelle des nouveaux utilisateurs de Loop est de sélectionner le modèle Walsh afin de réduire facilement leur durée d'insuline (DIA) à celle qu'ils avaient utilisée avant de boucler. Cela conduit presque invariablement à l’empilage d’insuline. Si vous souhaitez en savoir plus sur les raisons pour lesquelles la durée de l'action d'insuline est importante dans Loop par rapport à comment vous l'avez traditionnellement utilisée, veuillez cliquer [ici](https://seemycgm.com/2017/08/09/why-dia-matters/) pour lire un article de blog sur le sujet. En résumé, choisir la courbe Walsh simplement pour raccourcir votre DIA conduira à l'empilage d'insuline et sera inférieur aux recommandations de bolus souhaitées.
 
-You can click on each model and see what each model's insulin activity curve looks like, active one selected in blue.
+Vous pouvez cliquer sur chaque modèle et voir à quoi ressemble la courbe d'activité de l'insuline de chaque modèle, l'active est sélectionnée en bleu.
 
 ![img/models.jpg](img/models.jpg)
 
-The differences between the three exponential models (two Rapid-Acting and Fiasp) models has to do with the timing of the peak insulin activity timing. Not surprising, since Fiasp is marketed as the "faster acting" insulin. Currently all the exponential models are defaulted to an insulin duration of 6 hours, but the peak activity of the curves differs:
+Les différences entre les trois modèles exponentiels (deux modèles à actions rapide et Fiasp) sont liés au moment du l'activité du pic d'insuline. Pas étonnant, puisque Fiasp est commercialisé comme l’insuline « à action plus rapide ». Actuellement, tous les modèles exponentiels sont par défaut basés pour une durée d’insuline de 6 heures, mais l’activité maximale des courbes diffère:
 
-* Rapid-acting adult curve peaks at 75 minutes
-* Rapid-acting child curve peaks at 65 minutes
-* Fiasp peaks curve peaks at 55 minutes
+* Le pic de courbe adulte à action rapide est à 75 minutes
+* Le pic de courbe enfant à action rapide est à 65 minutes
+* Les pics de Fiasp se situe vers 55 minutes
 
-## Carb Ratios
+## Ratios de glucides
 
-Click the + in the upper right to add carb ratios for various times of day. Loop works best if you have [tested and optimized](https://kdisimone.github.io/looptips/settings/settings/) your carb ratio settings for accuracy.
+Cliquez sur le + en haut à droite pour ajouter des ratios de glucides pour diverses heures de la journée. Loop fonctionne mieux si vous avez [testé et optimisé](https://kdisimone.github.io/looptips/settings/settings/) vos paramètres de taux de glucides avec précision.
 
-!!!info "Beware of other apps writing carbs to Health app"
+!!!info « Méfiez-vous des autres applications qui écrivent des glucides à l’application Santé »
 
-    If you are using a third-party app (such as Spike or MyFitness) that can write carbohydrates to the phone's Health app, you will need to edit the permissions to make sure Loop doesn't double carb entries.  You should disable the third-party app's permissions in Health so that they can only `read` and not `write`.  See [Carb Entries with Third Party apps](../features/carbs.md#third-party-apps) for more information about this setting.
+    Si vous utilisez une application tierce (comme Spike ou MyFitness) qui peuvent écrire des glucides sur l'application Santé du téléphone, vous devrez modifier les permissions pour vous assurer que Loop ne double pas les entrées de glucides.  Vous devez désactiver les permissions de l'application tierce dans Santé afin qu'elle ne puisse que `lire` et non `écrire`.  Voir [Entrées de Glucides avec des applications tierces](../features/carbs.md#third party-apps) pour plus d'informations sur ce paramètre.
 
-## Insulin Sensitivities
+## Facteurs de sensibilité à l'insuline
 
-Insulin Sensitivity Factor (ISF) is the same term as Correction Factor used in some clinics and endocrinology offices. ISF represents the drop in blood glucose levels expected from one unit of insulin. Click the + in the upper right to add insulin sensitivities for various times of day. Loop works best if you have [tested and optimized](https://kdisimone.github.io/looptips/settings/settings/) your ISF settings for accuracy. Insulin sensitivities can change for many reasons including waiting too long to change your infusion set. Loop will not auto-detect changes in ISF.
+Le facteur de sensibilité à l'insuline (FSI) est le même terme que le facteur de correction utilisé dans certaines cliniques et bureaux endocrinologiques. La FSI représente la baisse du taux de glycémie prévue à partir d'une unité d'insuline. Cliquez sur le + en haut à droite pour ajouter des sensibilités à l'insuline pour diverses heures de la journée. Loop fonctionne mieux si vous avez [testés et optimisés](https://kdisimone.github.io/looptips/settings/settings/) les paramètres FSI pour plus de précision. Les sensibilités à l’insuline peuvent changer pour de nombreuses raisons, y compris attendre trop longtemps pour changer votre ensemble de perfusion. Loop ne détectera pas automatiquement les modifications apportées à l’ISF.
 
-Incorrectly set ISF is the most common cause of roller coaster BGs for new Loop users. You will need to raise (increase) your ISF value/number to help smooth a roller coaster BG trend. You can read about that topic more over in LoopTips [here](https://kdisimone.github.io/looptips/settings/settings/#3rd-insulin-sensitivity-factor).
+Le FSI mal réglé est la cause la plus fréquente de glycémie en forme de montagnes russes pour les nouveaux utilisateurs de Loop. Vous devrez augmenter votre valeur/nombre FSI pour aider à lisser une tendance glycémique en montagnes russes. Vous pouvez en savoir plus sur ce sujet dans LoopTips [ici](https://kdisimone.github.io/looptips/settings/settings/#3rd-insulin-sensitivity-factor).
 
-## Next Step: Loop Services
+## Prochaine étape: Services de Loop
 
-You have completed the required configurations and settings in your Loop app. If you have a Nightscout site you'd like to connect Loop to, please continue on to the [Loop Services page](services.md).
+Vous avez terminé les configurations et paramètres requis dans votre application Loop. If you have a Nightscout site you'd like to connect Loop to, please continue on to the [Loop Services page](services.md).
 
 If you are not integrating with a Nightscout site and don't want any optional logging services connected, then please proceed to the [Loop's displays page](displays.md). Understanding the Loop displays can be a valuable tool to understanding your Loop's actions, and also for troubleshooting, if you are having issues.
