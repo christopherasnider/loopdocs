@@ -1,8 +1,8 @@
-# RileyLink FAQs
+# FAQs sur le RileyLink
 
-## What is the RileyLink? Do I have to have one?
+## Qu'est-ce que RileyLink? Est-ce que je dois en avoir un ?
 
-Yes, RileyLink is a required part of Loop. The RileyLink is a little device that helps your iPhone and pump (or Omnipod...that's a pump, too) speak to each other. The RileyLink is a critical part of the Loop system because the pump needs communications in radio form, and the iPhone needs communications in Bluetooth form. RileyLink is like a translator and can speak both formats so that the pump and iPhone can loop together. RileyLink helps get information to/from your pump by radio communications, and to/from your iPhone using Bluetooth.
+Oui, RileyLink est une partie requise de Loop. Le RileyLink est un petit appareil qui aide votre iPhone et la pompe (ou Omnipod ... c’est une pompe, aussi) à se parler les uns aux autres. Le RileyLink est une partie critique du système Loop parce que la pompe a besoin de communications sous forme de radio, et l’iPhone a besoin de communications sous forme Bluetooth. RileyLink est comme un traducteur et peut parler les deux formats afin que la pompe et l’iPhone peuvent boucler ensemble. RileyLink aide à obtenir des informations des/depuis votre pompe par des communications radio et de/vers votre iPhone en utilisant Bluetooth.
 
 ## Where can I buy a RileyLink?
 
