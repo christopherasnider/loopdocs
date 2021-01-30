@@ -1,8 +1,8 @@
-# Branch FAQs
+# FAQs sur les branches
 
-This page is mostly suited to people who have built the app once already and then are coming back to update. In the course of updating, you may be wondering about the different branches, what the differences are, and such...so let's try to answer some of those questions as best we can.
+Cette page est surtout adaptée aux personnes qui ont déjà construit l'application et qui reviennent ensuite pour mettre à jour. Au cours de la mise à jour, vous vous demandez peut-être quelles sont les différentes branches, quelles sont les différences, etc., alors essayons de répondre au mieux à certaines de ces questions.
 
-## What are branches?
+## Qu’est-ce que les branches?
 
 Yes, there are a lot of "branches" in Loop talk but the concept is simple. I'll use an analogy to help. Basically, they are all slightly different versions of Loop...kind of like different edits of the same book.
 
