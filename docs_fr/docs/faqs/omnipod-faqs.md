@@ -1,4 +1,4 @@
-# FAQs sur Omnipod
+# FAQs sur les Omnipod
 
 ## Omnipod est-il pris en charge sur Loop ?
 
