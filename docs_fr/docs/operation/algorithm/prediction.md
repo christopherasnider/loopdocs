@@ -1,70 +1,70 @@
 # Blood Glucose Prediction
 
-Loop uses an algorithm to maintain blood glucose in a correction range by predicting the contributions from four individual effects (insulin, carbohydrates, retrospective correction, and blood glucose momentum) at any time *t* to recommend temporary basal rate corrections and boluses.
+La boucle utilise un algorithme pour maintenir la glycémie dans une plage de correction en prédisant les apports de quatre effets individuels (insuline, glucides, correction rétrospective, et dynamisme glycémique) à tout moment *m* pour recommander des corrections de débit de basal temporaire et des bolus.
 
 ![combined effects basic equation](img/predicted_glucose_equation.png)
 
-You can see the individual contributions of these effects by tapping on the predicted blood glucose chart on Loop's status screen. Loop updates this blood glucose prediction every five minutes when a new CGM value has been received and the pump's status has been updated.
+Vous pouvez voir les contributions individuelles de ces effets en appuyant sur le graphique de glycémie prédictive sur l'écran d'état de Loop. Loop met à jour cette prédiction de glycémie toutes les cinq minutes quand une nouvelle valeur du MGC a été reçue et que le statut de la pompe a été mis à jour.
 
-Just a note, this whole section is fairly technical. While perhaps not the most interesting topic for many readers, if you are seeking the detailed view of the Loop algorithm this discussion is quite useful. If you want a more surface understanding, the overview and temporary basal recommendations sections alone are probably sufficient.
+Juste une remarque, toute cette section est assez technique. Bien que ce n'est peut-être pas le sujet le plus intéressant pour de nombreux lecteurs, si vous cherchez la vue détaillée de l'algorithme de Loop, cette discussion est assez utile. Si vous voulez une compréhension générale, la vue d'ensemble et les recommandations basales temporaires suffiront probablement.
 
-## Overview
+## Présentation
 
-Before we delve into each of the four individual effects, a general overview figure may be a helpful start. There are four effects summed together to produce Loop's final predicted blood glucose curve. Each individual effect, along with their combined effect, is illustrated in the figure below. Insulin, from boluses and temporary basals, will have a decreasing effect on the prediction. Carbohydrates will have an increasing effect on the prediction. Blood glucose momentum effect can have a positive or negative effect, depending on how blood glucose is trending in the most recent CGM values. As shown in the example below, blood glucose is trending slightly upwards at the time of the prediction. Therefore, the blood glucose momentum effect’s contribution is pulling up the overall prediction from the other three effects for a short time. Retrospective correction is having a decreasing effect on the prediction, indicating that the recent rise in blood glucose was not as large as had been previously predicted by Loop in the recent past.
+Avant de nous plonger dans chacun des quatre effets individuels, un aperçu général est probablement un bon début. Il y a quatre effets réunis ensemble pour produire la courbe finale de prédiction glycémique de Loop. Chaque effet individuel, ainsi que leur effet combiné, est illustré dans la figure ci-dessous. L’insuline, des bolus et des basals temporaires, aura un effet décroissant sur la prédiction. Les glucides auront un effet croissant sur la prédiction. L'effet dynamique de la glycémie peut avoir un effet positif ou négatif, selon la comportement de la glycémie dans les dernières valeurs du MGC. Comme le montre l'exemple ci-dessous, la glycémie tend légèrement vers le haut au moment de la prédiction. Par conséquent, la contribution de l’effet d'impulsion de la glycémie tire la prédiction générale des trois autres effets pendant une courte période. La correction rétrospective a un effet décroissant sur la prédiction, indiquant que l’augmentation récente de la glycémie n’était pas aussi grande que cela avait été précédemment prédit par Loop dans un passé récent.
 
 ![combined effects curve](img/combined_effects.png)
 
-The sections below provide detailed information on each of the four contributions.
+Les sections ci-dessous fournissent des renseignements détaillés sur chacune des quatre contributions.
 
-## Insulin Effect
+## Effet de l'Insuline
 
-Most traditional pump users and caregivers are already familiar with the concept of an insulin activity curve, where the insulin’s effect is time-dependent. Insulin takes a little while to affect blood glucose. The insulin effect typically peaks around one hour after giving insulin and then gradually decays.
+La plupart des utilisateurs de pompes et des fournisseurs de soins traditionnels connaissent déjà le concept de courbe de l'activité d'insuline, où l'effet de l'insuline dans le temps. L'insuline prend un peu de temps pour affecter la glycémie. L'effet d'insuline atteint généralement son pic une heure après avoir donné de l'insuline, puis se dégrade progressivement.
 
 ![insulin activity curve](img/insulin_activity_curve.png)
 
-Loop provides users with two different classes of insulin models (i.e., an exponential model and the Walsh model). All of the exponential models have an insulin activity duration of 6 hours, whereas the insulin activity duration is customizable for the Walsh model. The rapid-acting and Fiasp insulin activity curves are modeled as exponential curves that match the shape of the insulin activity curves from insulin labeling, and as observed in both adults and children.
+Loop fournit aux utilisateurs deux classes différentes de modèles d'insuline (c'est-à-dire un modèle exponentiel et le modèle Walsh). Tous les modèles exponentiels ont une durée d’activité d’insuline de 6 heures, alors que la durée de l’activité de l’insuline est personnalisable pour le modèle Walsh. Les courbes d'activité de l'insuline rapide et Fiasp sont modélisées comme des courbes exponentielles qui correspondent à la forme des courbes d'activité de l'insuline, et comme observé chez les adultes et les enfants.
 
 ![insulin models](img/insulin_models.png)
 
-The amount of insulin effect remaining, or percent of remaining active insulin after an insulin bolus is delivered, is modeled mathematically in Loop with an exponential decay curve.
+La quantité d'effet d'insuline restante ou le pourcentage d'insuline active restante après la délivrance d'un bolus d'insuline, est modélisé mathématiquement dans Loop avec une courbe de décomposition exponentielle.
 
-### Insulin Effect Remaining
+### Effet de l'insuline restante
 
 ![insulin percent remaining](img/insulin_percent_remaining.png)
 
-If a user’s insulin sensitivity factor (ISF) is 50 mg/dL per 1 unit of insulin and the user gives 2 units of insulin, then the user’s blood glucose would be expected to drop 100 mg/dL within the 6 hours following the insulin delivery. This insulin effect can be visualized in several different ways: the expected active insulin, expected drop in blood glucose every 5 minutes after delivery, and the expected cumulative drop in blood glucose. The figures below use the Rapid Acting - Adult insulin model in Loop.
+Si le facteur de sensibilité à l'insuline (FSI) est de 50 mg/dL par unité d'insuline et que l'utilisateur donne 2 unités d'insuline, on s'attendrait à ce que la glycémie de l'utilisateur baisse de 100 mg/dL dans les 6 heures suivant la distribution d'insuline. Cet effet d'insuline peut être visualisé de différentes manières : l'insuline active attendue, la baisse prévue de la glycémie toutes les 5 minutes après l'injection, et la baisse cumulative prévue de la glycémie. Les chiffres ci-dessous utilisent le modèle d'insuline rapide - adulte en boucle.
 
-### Active Insulin
+### Insuline active
 
-This figure shows that 2 units of insulin are given initially, and the corresponding active insulin (i.e., insulin on board IOB) decays according to the curve below.
+Ce chiffre montre que 2 unités d'insuline sont données initialement, et l'insuline active correspondante (cad, l'insuline active, IOB en anglais) se décompose en fonction de la courbe ci-dessous.
 
 ![insulin remaining example](img/insulin_remaining_example.png)
 
-The active insulin at any time is the product of original insulin delivered and the percent of insulin activity remaining. Knowing the expected active insulin over the next 6 hours, and the insulin sensitivity factor (50 mg/dL, in this case), Loop can calculate the expected drop in blood glucose from that dose of insulin as shown in the figure below.
+L'insuline active à tout moment est le produit de l'insuline d'origine délivrée et le pourcentage de l'activité d'insuline restante. Connaître l'insuline active attendue dans les 6 prochaines heures et le facteur de sensibilité à l'insuline (50 mg/dL, dans ce cas), Loop peut calculer la baisse prévue de la glycémie à partir de cette dose d'insuline, comme indiqué dans la figure ci-dessous.
 
 ![bg drop from 2 units](img/bg_drop.png)
 
-NOTE: ISF is also a function of time, which means if the user’s scheduled ISF changes during the insulin activity time, it will change the expected drop in blood glucose due to the insulin effect.
+REMARQUE : Le FSI est également une fonction du temps, ce qui signifie que si le FSI de l'utilisateur planifié change pendant le temps d'activité de l'insuline, elle modifiera la baisse prévue de la glycémie en raison de l'effet d'insuline.
 
-### Expected Change in Blood Glucose
+### Changement prévu de la glycémie
 
-Lastly, taking the first derivative (i.e., the rate of change) of the cumulative drop in the blood glucose curve yields the expected change in blood glucose over the insulin activity duration. For each dose of insulin given, Loop calculates the expected discrete drop in blood glucose at each 5-minute period for the insulin activity duration, as shown below.
+Pour finir, en prenant la première dérivée (c.-à-d. le taux de changement) de la chute cumulée de la courbe de glycémie donne la variation prévue de la glycémie sur la durée de l'activité d'insuline. Pour chaque dose d’insuline administrée, Loop calcule la baisse prévue de la glycémie pour chaque période de 5 minutes pour la durée de l’activité de l’insuline, comme indiqué ci-dessous.
 
 ![rate of bg change](img/derivative.png)
 
-### Insulin Effect on Blood Glucose
+### Effet de l'insuline sur la Glycémie
 
-For this example, assuming a user’s blood glucose was 205 mg/dL at the time of insulin delivery, Loop would predict a drop in blood glucose due to the two units delivered at 12 pm as shown in the figure below.
+Pour cet exemple, en supposant que la glycémie d'un utilisateur était de 205 mg/dL au moment de la distribution d'insuline, Loop prédisait une baisse de la glycémie en raison des deux unités livrées à 12 heures, comme le montre le chiffre ci-dessous.
 
 ![two unit example](img/two_units.png)
 
-### Scheduled Basal Rates
+### Taux de Basal Planifié
 
-In traditional basal/bolus pump therapy, basal rates are set to accommodate the user's endogenous glucose production (EGP) that causes blood glucose to rise. If a user's basal settings were exactly right in traditional pump therapy, the user would have perfectly flat blood glucose all day, all other factors being equal.
+Dans la thérapie traditionnelle de pompe de basal/bolus, les taux basaux sont réglés pour s'adapter à la production endogène de glucose (EGP) de l’utilisateur qui fait augmenter la glycémie. Si les paramètres de basal d'un utilisateur étaient exactement corrects dans la thérapie traditionnelle de la pompe, l'utilisateur aurait un taux de glycémie parfaitement fixe toute la journée, tous les autres facteurs étant égaux.
 
-In reality, people with type 1 diabetes, and their caregivers, know that basal settings are never exactly right. Every day is a little different, and a myriad of factors that affect blood glucose (e.g., including stress, hormones, sleep, etc.) may affect insulin needs. Some people have different basal profiles to accommodate these variations. Some people regularly tune and adjust their basal rates, and/or do so at their endocrinology clinic visits.
+En réalité, les personnes atteintes de diabète de type 1 et leurs soignants savent que les paramètres basaux ne sont jamais exactement corrects. Chaque jour est un peu différent et une myriade de facteurs qui affectent la glycémie (par exemple, le stress, les hormones, le sommeil, etc.) peuvent affecter les besoins en insuline. Certaines personnes ont des profils basaux différents pour s'adapter à ces variations. Certaines personnes configurent régulièrement et ajustent leur taux de basal et/ou le font lors de leurs visites à la clinique endocrinologique.
 
-Since the Loop algorithm assumes that the user-set basal rates are correct, it calculates the effect of insulin relative to scheduled basal rates. If basal rates are not entirely correct, Loop can compensate a bit through the retrospective correction and blood glucose momentum effects, discussed later in this page.
+Puisque l'algorithme de Loop suppose que les taux de basal définis par l'utilisateur sont corrects, il calcule l'effet de l'insuline par rapport aux taux de basal planifiés. Si les débits de basal ne sont pas entièrement corrects, Loop peut compenser un peu grâce à la correction rétrospective et aux effets de la dynamique de la glycémie décrits plus loin dans cette page.
 
 The insulin delivery chart below displays a bar-graph history of the temporary basal rates enacted by Loop. The display is relative to the scheduled basal rates entered in the Loop settings. A rate displayed in this chart as +0 would indicate that no temporary basal rate was set and that the basal rate being delivered was the scheduled basal rate. Positive values indicate a temporary basal rate was set above the scheduled basal rate (i.e., more insulin delivered), and negative values indicate that a temporary basal rate was set below the scheduled basal rate (i.e., less insulin delivered).
 
