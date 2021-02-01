@@ -90,7 +90,7 @@ L'effet d'insuline peut être exprimé mathématiquement :
 
 ![insulin effect equation ](img/insulin_effect_equation.png)
 
-where BG is the expected change in blood glucose with the units (mg/dL/5min), ISF is the insulin sensitivity factor (mg/dL/U) at time t, and IA is the insulin activity (U/5min) at time <i>t</i>. Insulin activity can also be thought of as a velocity or rate of change in blood glucose due to insulin. The insulin activity accounts for the EGP and any active insulin from basals and boluses.
+où la glycémie est le changement attendu de glycémie avec les unités (mg/dL/5min), Le ISF est le facteur de sensibilité à l'insuline (mg/dL/U) au un instant t, et l'IA est l'activité de l'insuline (U/5min) à l'instant *t*. L'activité de l'insuline peut également être considérée comme une vitesse ou un taux de variation de la glycémie due à l'insuline. The insulin activity accounts for the EGP and any active insulin from basals and boluses.
 
 ## Carbohydrate Effect
 
