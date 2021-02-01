@@ -66,27 +66,27 @@ En réalité, les personnes atteintes de diabète de type 1 et leurs soignants s
 
 Puisque l'algorithme de Loop suppose que les taux de basal définis par l'utilisateur sont corrects, il calcule l'effet de l'insuline par rapport aux taux de basal planifiés. Si les débits de basal ne sont pas entièrement corrects, Loop peut compenser un peu grâce à la correction rétrospective et aux effets de la dynamique de la glycémie décrits plus loin dans cette page.
 
-The insulin delivery chart below displays a bar-graph history of the temporary basal rates enacted by Loop. The display is relative to the scheduled basal rates entered in the Loop settings. A rate displayed in this chart as +0 would indicate that no temporary basal rate was set and that the basal rate being delivered was the scheduled basal rate. Positive values indicate a temporary basal rate was set above the scheduled basal rate (i.e., more insulin delivered), and negative values indicate that a temporary basal rate was set below the scheduled basal rate (i.e., less insulin delivered).
+Le graphique de distribution d'insuline ci-dessous affiche un historique bar-graphique des débits de basal temporaires promulgués par Loop. L'affichage est relatif aux débits de basal programmés entrés dans les paramètres Loop. Un taux affiché dans ce graphique en tant que +0 indiquerait qu'aucun débit de basal temporaire n'a été défini et que le débit de basal fourni était le taux de basal planifié. Des valeurs positives indiquent qu'un taux de basal temporaire a été défini au-dessus du taux de basal planifié (c'est-à-dire plus d'insuline distribuée) et des valeurs négatives indiquent qu'un taux de basal temporaire a été défini en dessous du taux basal planifié (c'est-à-dire moins d'insuline distribuée).
 
 ![Loop's temp basal chart](img/temp_basal_chart.png)
 
-For example, if the user’s scheduled basal rate is 1 U/hr, and Loop gives a temporary basal rate of 3 U/hr, then it will calculate the expected drop in blood glucose due to +2 U/hr of insulin.
+Par exemple, si le débit de basal planifié de l'utilisateur est de 1 U/hr, et que la boucle donne un taux de basal temporaire de 3 U/hr, puis il calculera la chute prévue de la glycémie en raison de +2 U/h d'insuline.
 
-Similarly if Loop sets a temporary basal rate of 0 U/hr for 1 hour, then the insulin effect will also be relative to the current scheduled basal rate of 1 U/hr, and Loop would predict the user’s blood glucose to increase by the amount of change from -1 U/hr of insulin. If the user’s ISF is 50 mg/dL, then Loop would predict blood glucose to rise 50 mg/dL over the insulin activity duration (6 hours).
+De la même manière si Loop fixe un taux de basal temporaire de 0 U/h pendant 1 heure, alors l'effet d'insuline sera également relatif au taux de basal planifié actuel de 1 U/h, et Loop prédisait que le taux de glycémie de l’utilisateur augmenterait par la quantité de changement de -1 U/h d’insuline. Si la FSI de l’utilisateur est de 50 mg/dL, alors Loop prédit que la glycémie augmentera de 50 mg/dL sur la durée de l’activité de l’insuline (6 heures).
 
-Here is a real-world example where Loop is setting many temporary basal rates over the course of the day. The light orange bars are the temporary basal rates delivered and the solid orange line is the active insulin at any given time during the day.
+Voici un exemple réel où Loop définit de nombreux débits de basal temporaires au cours de la journée. Les barres orange sont les débits de base temporaires et la ligne orange solide est l'insuline active à tout moment de la journée.
 
 ![Loop's temp basal chart over day](img/temp_basal_day.png)
 
-### Total Insulin Effect (combining boluses and temporary basal rates)
+### Effet total de l'insuline (combinaison de bolus et taux basal temporaires)
 
-Loop will combine or stack the active insulin of all the discrete (individual) boluses and temporary basal rates over the past insulin activity duration (6 hours), to predict the active insulin for the next 6 hours. As demonstrated above, using the predicted active insulin Loop can predict the blood glucose drop over the next 6 hours.
+Loop combinera ou empilera l'insuline active de tous les bolus distincts (individuels) et les taux de basal temporaires sur la dernière durée d'activité de l'insuline (6 heures), pour prédire l'insuline active dans les 6 prochaines heures. Comme cela a été démontré ci-dessus, l'utilisation de la prediction d'insuline active de Loop peut prédire la baisse de glycémie au cours des 6 prochaines heures.
 
-Lastly, the combined effect of bolus and basal insulin are visually represented for the user by Loop’s insulin charts:
+Enfin, l'effet combiné du bolus et de l'insuline basale sont visuellement représentés pour l'utilisateur par les graphiques d'insuline de Loop:
 
 ![Loop's iob and temp basals](img/insulin_delivery_iob.jpg)
 
-The insulin effect can be expressed mathematically:
+L'effet d'insuline peut être exprimé mathématiquement :
 
 ![insulin effect equation ](img/insulin_effect_equation.png)
 
