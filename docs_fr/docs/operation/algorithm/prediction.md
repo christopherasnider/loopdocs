@@ -2,7 +2,7 @@
 
 La boucle utilise un algorithme pour maintenir la glycémie dans une plage de correction en prédisant les apports de quatre effets individuels (insuline, glucides, correction rétrospective, et dynamisme glycémique) à tout moment *m* pour recommander des corrections de débit de basal temporaire et des bolus.
 
-![combined effects basic equation](img/predicted_glucose_equation.png)
+![équation de base des effets combinés](img/predicted_glucose_equation.png)
 
 Vous pouvez voir les contributions individuelles de ces effets en appuyant sur le graphique de glycémie prédictive sur l'écran d'état de Loop. Loop met à jour cette prédiction de glycémie toutes les cinq minutes quand une nouvelle valeur du MGC a été reçue et que le statut de la pompe a été mis à jour.
 
@@ -12,7 +12,7 @@ Juste une remarque, toute cette section est assez technique. Bien que ce n'est p
 
 Avant de nous plonger dans chacun des quatre effets individuels, un aperçu général est probablement un bon début. Il y a quatre effets réunis ensemble pour produire la courbe finale de prédiction glycémique de Loop. Chaque effet individuel, ainsi que leur effet combiné, est illustré dans la figure ci-dessous. L’insuline, des bolus et des basals temporaires, aura un effet décroissant sur la prédiction. Les glucides auront un effet croissant sur la prédiction. L'effet dynamique de la glycémie peut avoir un effet positif ou négatif, selon la comportement de la glycémie dans les dernières valeurs du MGC. Comme le montre l'exemple ci-dessous, la glycémie tend légèrement vers le haut au moment de la prédiction. Par conséquent, la contribution de l’effet d'impulsion de la glycémie tire la prédiction générale des trois autres effets pendant une courte période. La correction rétrospective a un effet décroissant sur la prédiction, indiquant que l’augmentation récente de la glycémie n’était pas aussi grande que cela avait été précédemment prédit par Loop dans un passé récent.
 
-![combined effects curve](img/combined_effects.png)
+![courbe d’effets combinés](img/combined_effects.png)
 
 Les sections ci-dessous fournissent des renseignements détaillés sur chacune des quatre contributions.
 
@@ -20,17 +20,17 @@ Les sections ci-dessous fournissent des renseignements détaillés sur chacune d
 
 La plupart des utilisateurs de pompes et des fournisseurs de soins traditionnels connaissent déjà le concept de courbe de l'activité d'insuline, où l'effet de l'insuline dans le temps. L'insuline prend un peu de temps pour affecter la glycémie. L'effet d'insuline atteint généralement son pic une heure après avoir donné de l'insuline, puis se dégrade progressivement.
 
-![insulin activity curve](img/insulin_activity_curve.png)
+![courbe d’activité de l’insuline](img/insulin_activity_curve.png)
 
 Loop fournit aux utilisateurs deux classes différentes de modèles d'insuline (c'est-à-dire un modèle exponentiel et le modèle Walsh). Tous les modèles exponentiels ont une durée d’activité d’insuline de 6 heures, alors que la durée de l’activité de l’insuline est personnalisable pour le modèle Walsh. Les courbes d'activité de l'insuline rapide et Fiasp sont modélisées comme des courbes exponentielles qui correspondent à la forme des courbes d'activité de l'insuline, et comme observé chez les adultes et les enfants.
 
-![insulin models](img/insulin_models.png)
+![modèle d'insuline](img/insulin_models.png)
 
 La quantité d'effet d'insuline restante ou le pourcentage d'insuline active restante après la délivrance d'un bolus d'insuline, est modélisé mathématiquement dans Loop avec une courbe de décomposition exponentielle.
 
 ### Effet de l'insuline restante
 
-![insulin percent remaining](img/insulin_percent_remaining.png)
+![pourcentage d'insuline restant](img/insulin_percent_remaining.png)
 
 Si le facteur de sensibilité à l'insuline (FSI) est de 50 mg/dL par unité d'insuline et que l'utilisateur donne 2 unités d'insuline, on s'attendrait à ce que la glycémie de l'utilisateur baisse de 100 mg/dL dans les 6 heures suivant la distribution d'insuline. Cet effet d'insuline peut être visualisé de différentes manières : l'insuline active attendue, la baisse prévue de la glycémie toutes les 5 minutes après l'injection, et la baisse cumulative prévue de la glycémie. Les chiffres ci-dessous utilisent le modèle d'insuline rapide - adulte en boucle.
 
@@ -38,11 +38,11 @@ Si le facteur de sensibilité à l'insuline (FSI) est de 50 mg/dL par unité d'i
 
 Ce chiffre montre que 2 unités d'insuline sont données initialement, et l'insuline active correspondante (cad, l'insuline active, IOB en anglais) se décompose en fonction de la courbe ci-dessous.
 
-![insulin remaining example](img/insulin_remaining_example.png)
+![exemple restant d'insuline](img/insulin_remaining_example.png)
 
 L'insuline active à tout moment est le produit de l'insuline d'origine délivrée et le pourcentage de l'activité d'insuline restante. Connaître l'insuline active attendue dans les 6 prochaines heures et le facteur de sensibilité à l'insuline (50 mg/dL, dans ce cas), Loop peut calculer la baisse prévue de la glycémie à partir de cette dose d'insuline, comme indiqué dans la figure ci-dessous.
 
-![bg drop from 2 units](img/bg_drop.png)
+![glycémie chute de 2 unités](img/bg_drop.png)
 
 REMARQUE : Le FSI est également une fonction du temps, ce qui signifie que si le FSI de l'utilisateur planifié change pendant le temps d'activité de l'insuline, elle modifiera la baisse prévue de la glycémie en raison de l'effet d'insuline.
 
@@ -50,13 +50,13 @@ REMARQUE : Le FSI est également une fonction du temps, ce qui signifie que si l
 
 Pour finir, en prenant la première dérivée (c.-à-d. le taux de changement) de la chute cumulée de la courbe de glycémie donne la variation prévue de la glycémie sur la durée de l'activité d'insuline. Pour chaque dose d’insuline administrée, Loop calcule la baisse prévue de la glycémie pour chaque période de 5 minutes pour la durée de l’activité de l’insuline, comme indiqué ci-dessous.
 
-![rate of bg change](img/derivative.png)
+![taux de changement glycémie](img/derivative.png)
 
 ### Effet de l'insuline sur la Glycémie
 
 Pour cet exemple, en supposant que la glycémie d'un utilisateur était de 205 mg/dL au moment de la distribution d'insuline, Loop prédisait une baisse de la glycémie en raison des deux unités livrées à 12 heures, comme le montre le chiffre ci-dessous.
 
-![two unit example](img/two_units.png)
+![deux exemples d’unité](img/two_units.png)
 
 ### Taux de Basal Planifié
 
@@ -68,7 +68,7 @@ Puisque l'algorithme de Loop suppose que les taux de basal définis par l'utilis
 
 Le graphique de distribution d'insuline ci-dessous affiche un historique bar-graphique des débits de basal temporaires promulgués par Loop. L'affichage est relatif aux débits de basal programmés entrés dans les paramètres Loop. Un taux affiché dans ce graphique en tant que +0 indiquerait qu'aucun débit de basal temporaire n'a été défini et que le débit de basal fourni était le taux de basal planifié. Des valeurs positives indiquent qu'un taux de basal temporaire a été défini au-dessus du taux de basal planifié (c'est-à-dire plus d'insuline distribuée) et des valeurs négatives indiquent qu'un taux de basal temporaire a été défini en dessous du taux basal planifié (c'est-à-dire moins d'insuline distribuée).
 
-![Loop's temp basal chart](img/temp_basal_chart.png)
+![Graphique basal temporaire de Loop](img/temp_basal_chart.png)
 
 Par exemple, si le débit de basal planifié de l'utilisateur est de 1 U/hr, et que la boucle donne un taux de basal temporaire de 3 U/hr, puis il calculera la chute prévue de la glycémie en raison de +2 U/h d'insuline.
 
@@ -76,7 +76,7 @@ De la même manière si Loop fixe un taux de basal temporaire de 0 U/h pendant 1
 
 Voici un exemple réel où Loop définit de nombreux débits de basal temporaires au cours de la journée. Les barres orange sont les débits de base temporaires et la ligne orange solide est l'insuline active à tout moment de la journée.
 
-![Loop's temp basal chart over day](img/temp_basal_day.png)
+![Graphique basal temporaire de Loop pendant la journée](img/temp_basal_day.png)
 
 ### Effet total de l'insuline (combinaison de bolus et taux basal temporaires)
 
@@ -84,11 +84,11 @@ Loop combinera ou empilera l'insuline active de tous les bolus distincts (indivi
 
 Enfin, l'effet combiné du bolus et de l'insuline basale sont visuellement représentés pour l'utilisateur par les graphiques d'insuline de Loop:
 
-![Loop's iob and temp basals](img/insulin_delivery_iob.jpg)
+![Insuline active et temp Basal dans Loop](img/insulin_delivery_iob.jpg)
 
 L'effet d'insuline peut être exprimé mathématiquement :
 
-![insulin effect equation ](img/insulin_effect_equation.png)
+![équation de l'effet d'insuline ](img/insulin_effect_equation.png)
 
 où la glycémie est le changement attendu de glycémie avec les unités (mg/dL/5min), Le ISF est le facteur de sensibilité à l'insuline (mg/dL/U) au un instant t, et l'IA est l'activité de l'insuline (U/5min) à l'instant *t*. L'activité de l'insuline peut également être considérée comme une vitesse ou un taux de variation de la glycémie due à l'insuline. L’activité d’insuline explique l’PEG (production endogène de glucose) et toute insuline active des basals et des bolus.
 
@@ -106,7 +106,7 @@ Loop adopte une vision prudente de la vitesse à laquelle les glucides restants 
 
 En utilisant ce taux d'absorption minimum initial, les glucides restants sont modélisés pour être absorbés linéairement. Par exemple, si l'utilisateur entre dans un repas de 72g de glucides et sélectionne une période d'absorption estimée de 4 heures, alors Loop prévoit un taux d'absorption de 12g/h pour les 6 prochaines heures. Ce taux peut être appelé le taux minimum d’absorption, qui peut être représenté mathématiquement comme :
 
-![linear carb effect equation ](img/linear_carb_effect_equation.png)
+![équation de l'effet Linéaire des glucides ](img/linear_carb_effect_equation.png)
 
 où MAR est le taux d'absorption minimum (g/h), CA est le nombre glucides (g) et d est la durée prévue (hr) nécessaire à l'absorber les glucides.
 
@@ -114,7 +114,7 @@ où MAR est le taux d'absorption minimum (g/h), CA est le nombre glucides (g) et
 
 Le modèle linéaire ci-dessus est modulé par un calcul supplémentaire qui utilise des données de glycémie récemment observées pour estimer la vitesse d’absorption des glucides. La modification prévue de la glycémie en raison des seuls effets d'insuline est comparée aux changements observés du taux de glycémie. Cette différence est appelée l'effet de contre-action de l'insuline (ICE):
 
-![dynamic carb effect equation ](img/dynamic_carb_effect.png)
+![équation dynamique d’effet des glucides ](img/dynamic_carb_effect.png)
 
 où, ICE (mg/dL/5 min) est l'effet de contre-action de l'insuline, OA est l'activité observée (mg/dL/5min) ou le changement observé de glycémie à l'instant <i>t</i>, et IA est l'activité de l'insuline (mg/dL/5min).
 
@@ -122,7 +122,7 @@ Les effets de contre-action de l'insuline sont causés par plus que par de simpl
 
 L'effet de contre-action de l'insuline est converti en une quantité estimée d'absorption de glucides en utilisant le ratio actuel glucide/insuline et le facteur de sensibilité à l'insuline au moment de l'entrée de repas enregistrée.
 
-![ice carb effect equation ](img/ice_carb_effect_equation.png)
+![équation de l'effet de glucide ice ](img/ice_carb_effect_equation.png)
 
 où l'AC est le nombre glucides (g/5min), ICE est l'effet de contre-action de l'insuline, Le CIR est le ratio glucides / insuline (g/U), et la SI est le facteur de sensibilité à l'insuline (mg/dL/U) à l'instant <i>t</i>.
 
@@ -134,7 +134,7 @@ Si plusieurs entrées de repas sont activées (cad en cours d'absorption), l’a
 
 Examen de l’effet simple et linéaire des glucides de ces deux repas :
 
-![combined meal entries](img/mixed_meals.png)
+![entrées combinées de repas](img/mixed_meals.png)
 
 Si nous élargissons encore cet exemple, en assumant ce qui suit à 16 h :
 
@@ -144,13 +144,13 @@ Si nous élargissons encore cet exemple, en assumant ce qui suit à 16 h :
 
 alors la quantité estimée de glucides absorbés à 16h serait de 3g :
 
-![combined meal entries](img/at_4.png)
+![entrées combinées de repas](img/at_4.png)
 
 Ces 3 g de glucides seraient alors répartis entre les repas proportionnellement à leurs taux d'absorption minimum:
 
-![combined meal entries](img/meal1.png)
+![entrées combinées de repas](img/meal1.png)
 
-![combined meal entries](img/meal2.png)
+![entrées combinées de repas](img/meal2.png)
 
 ce qui fait que 2g d’absorption étant attribué au repas 1 et 1g attribué au repas 2.
 
@@ -162,7 +162,7 @@ Si l’absorption estimée en glucides d’une entrée de repas est inférieure 
 
 Après que les glucides absorbés ont été soustraits de chaque entrée de repas, les glucides restants (pour chaque entrée) sont ensuite prévus pour se détériorer ou être absorbés à l’aide du taux d’absorption minimum. Loop utilise cette prévision pour estimer l’effet (glucides actifs ou activité des glucides) des glucides restants. L’effet glucides peut être exprimé mathématiquement en utilisant les termes décrits ci-dessus:
 
-![combined meal entries](img/combined_bgc.png)
+![entrées combinées de repas](img/combined_bgc.png)
 
 ## Effet de correction rétrospective
 
@@ -174,13 +174,13 @@ En plus des effets modélisés de l'insuline et des glucides, il existe de nombr
 
 Pour ce faire, Loop calcule une prévision rétrospective avec une heure de début de 30 minutes dans le passé, se terminant à l'heure actuelle. Loop compare les prévisions rétrospectives au changement réel observé dans la glycémie, et la différence se résume à une vitesse de glycemie ou à un taux de différence :
 
-![blood glucose velocity equation](img/bgvel.png)
+![équation de vitesse de glycémie](img/bgvel.png)
 
 où BG*vel* est un terme de vitesse (mg/dL par 5min) qui représente la différence moyenne de glycémie entre la prévision rétrospective (RF) et la glycémie réelle (BG) au cours des 30 dernières minutes. Ce terme est appliqué à la prévision actuelle des effets d'insuline et de glucides avec une décomposition linéaire au cours de l'heure suivante. Par exemple, le premier point de prévision (t=5) est d’environ 100 % de cette vitesse, le point de prévision dans une demi-heure est ajusté de 50 % de la vitesse, et les points d’une heure ou plus dans le futur ne sont pas affectés par ce terme.
 
 L’effet de correction rétrospective peut être exprimé mathématiquement :
 
-![blood glucose retrospective equation](img/bgrc.png)
+![équation rétrospective de la glycémie](img/bgrc.png)
 
 où BG est le changement prévu de la glycémie avec les unités (mg /dL/5min) à la fois *t* sur la plage de temps de 5 à 60 minutes, et l’autre terme donne le pourcentage de BG*vel* qui est appliqué à cet effet.
 
@@ -203,7 +203,7 @@ L’effet de correction rétrospective peut être illustré par un exemple : si 
 
 Voici un exemple ci-dessous qui montre l'effet de correction rétrospective lorsque le vel*glycémie* au cours des 30 dernières minutes était de -10mg/dL/5min.
 
-![bg retrospective graph example](img/bgrc_graphic.png)
+![exemple de graphique rétrospectif glycemie](img/bgrc_graphic.png)
 
 ## Effet dynamique de la glycémie
 
@@ -215,7 +215,7 @@ La partie de la dynamique de la glycémie de l'algorithme donne du poids ou de l
 
 La pente de la dynamique est ensuite mélangée dans les 20 prochaines minutes de glycémie prédite des autres effets (i. ., insuline, glucides, et effets de correction rétrospective). Cela rend les 20 prochaines minutes de glycémie plus sensibles aux tendances récentes de glycémie. Le mélange de la pente de tendance récente dans les 20 prochaines minutes est pondéré, de sorte que le premier point de prédiction (5 minutes dans l'avenir) est fortement influencé par la pente, et l'influence de la pente se dégrade progressivement sur la période de 20 minutes. L'effet de la dynamique peut être exprimé mathématiquement comme:
 
-![blood glucose momentum equation](img/momentum_equation.png)
+![équation de la dynamique de glycémie](img/momentum_equation.png)
 
 REMARQUE : Le terme ![blood glucose momentum term](img/momentum_term.png) est également appliqué aux effets combinés d'insuline, de glucides et de correction rétrospective pour obtenir la prédiction du delta glycémique.
 
@@ -232,7 +232,7 @@ En outre, si l'effet combiné de l'insuline, des glucides et de la correction r�
 
 Cet exemple est illustré dans la figure ci-dessous.
 
-![blood glucose momentum graphic](img/momentum_graphic.png)
+![graphique de la dynamique de glycémie](img/momentum_graphic.png)
 
 Il convient également de noter que Loop ne calculera pas la dynamique de la glycémie dans les cas où les données MGC ne sont pas continues (c.-à-d. doivent avoir au moins trois lectures continues de CGM pour dessiner la tendance en ligne droite la mieux adaptée). Il ne calculera pas non plus l'élan glycémique lorsque les trois dernières lectures CGM contiennent des points d'étalonnage. car ils ne sont peut-être pas représentatifs des véritables tendances du taux de glycémie.
 
@@ -240,12 +240,12 @@ Il convient également de noter que Loop ne calculera pas la dynamique de la gly
 
 Tel que décrit dans la section effet de la dynamique, l’effet d’impulsion est mélangé avec les effets de correction insuline, glucide, et rétrospective pour prévoir le changement de la glycémie :
 
-![predicted glucose equation](img/delta_predicted_equation.png)
+![équation de glucides prévues](img/delta_predicted_equation.png)
 
 Enfin, la prévision ou prédiction de la glycémie BG à l'instant *t* est le BG de la glycémie actuel plus la somme de tous les effets de glycémie BG au cours de l’intervalle de temps [t5, t]:
 
-![adding all the deltas](img/sigma_bg_delta.png)
+![ajout de tous les deltas](img/sigma_bg_delta.png)
 
-Chaque effet individuel ainsi que les effets combinés sont illustrés dans la figure ci-dessous. Comme nous l'avons montré, le taux de glycémie augmente légèrement au moment de la prédiction. Therefore, the blood glucose momentum effect’s contribution is pulling up the overall prediction from the other three effects for a short time. Retrospective correction is having a dampening effect on the prediction, indicating that the recent rise in blood glucose was not as great as had been previously predicted in the recent past.
+Chaque effet individuel ainsi que les effets combinés sont illustrés dans la figure ci-dessous. Comme nous l'avons montré, le taux de glycémie augmente légèrement au moment de la prédiction. Par conséquent, la contribution de l’effet de la dynamique de la glycémie tire la prédiction générale des trois autres effets pendant une courte période. La correction rétrospective a un effet d'amortissement sur la prédiction, indiquant que la récente augmentation de la glycémie n’était pas aussi importante que ce qui avait été prédit dans le passé récent.
 
-![combined effects curve](img/combined_effects.png)
+![courbe d’effets combinés](img/combined_effects.png)
