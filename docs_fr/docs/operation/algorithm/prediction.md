@@ -1,16 +1,16 @@
 # Blood Glucose Prediction
 
-Loop uses an algorithm to maintain blood glucose in a correction range by predicting the contributions from four individual effects (insulin, carbohydrates, retrospective correction, and blood glucose momentum) at any time *t* to recommend temporary basal rate corrections and boluses.
+La boucle utilise un algorithme pour maintenir la glycémie dans une plage de correction en prédisant les apports de quatre effets individuels (insuline, glucides, correction rétrospective, et dynamisme glycémique) à tout moment *m* pour recommander des corrections de débit de basal temporaire et des bolus.
 
 ![combined effects basic equation](img/predicted_glucose_equation.png)
 
-You can see the individual contributions of these effects by tapping on the predicted blood glucose chart on Loop's status screen. Loop updates this blood glucose prediction every five minutes when a new CGM value has been received and the pump's status has been updated.
+Vous pouvez voir les contributions individuelles de ces effets en appuyant sur le graphique de glycémie prédictive sur l'écran d'état de Loop. Loop met à jour cette prédiction de glycémie toutes les cinq minutes quand une nouvelle valeur du MGC a été reçue et que le statut de la pompe a été mis à jour.
 
-Just a note, this whole section is fairly technical. While perhaps not the most interesting topic for many readers, if you are seeking the detailed view of the Loop algorithm this discussion is quite useful. If you want a more surface understanding, the overview and temporary basal recommendations sections alone are probably sufficient.
+Juste une remarque, toute cette section est assez technique. Bien que ce n'est peut-être pas le sujet le plus intéressant pour de nombreux lecteurs, si vous cherchez la vue détaillée de l'algorithme de Loop, cette discussion est assez utile. Si vous voulez une compréhension générale, la vue d'ensemble et les recommandations basales temporaires suffiront probablement.
 
-## Overview
+## Présentation
 
-Before we delve into each of the four individual effects, a general overview figure may be a helpful start. There are four effects summed together to produce Loop's final predicted blood glucose curve. Each individual effect, along with their combined effect, is illustrated in the figure below. Insulin, from boluses and temporary basals, will have a decreasing effect on the prediction. Carbohydrates will have an increasing effect on the prediction. Blood glucose momentum effect can have a positive or negative effect, depending on how blood glucose is trending in the most recent CGM values. As shown in the example below, blood glucose is trending slightly upwards at the time of the prediction. Therefore, the blood glucose momentum effect’s contribution is pulling up the overall prediction from the other three effects for a short time. Retrospective correction is having a decreasing effect on the prediction, indicating that the recent rise in blood glucose was not as large as had been previously predicted by Loop in the recent past.
+Avant de nous plonger dans chacun des quatre effets individuels, un aperçu général est probablement un bon début. Il y a quatre effets réunis ensemble pour produire la courbe finale de prédiction glycémique de Loop. Chaque effet individuel, ainsi que leur effet combiné, est illustré dans la figure ci-dessous. L’insuline, des bolus et des basals temporaires, aura un effet décroissant sur la prédiction. Les glucides auront un effet croissant sur la prédiction. Blood glucose momentum effect can have a positive or negative effect, depending on how blood glucose is trending in the most recent CGM values. As shown in the example below, blood glucose is trending slightly upwards at the time of the prediction. Therefore, the blood glucose momentum effect’s contribution is pulling up the overall prediction from the other three effects for a short time. Retrospective correction is having a decreasing effect on the prediction, indicating that the recent rise in blood glucose was not as large as had been previously predicted by Loop in the recent past.
 
 ![combined effects curve](img/combined_effects.png)
 
