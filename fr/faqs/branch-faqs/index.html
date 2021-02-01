@@ -10,7 +10,7 @@
       
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.6">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.7">
     
     
       
@@ -482,8 +482,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#uploading-of-bgs-to-nightscout" class="md-nav__link">
-    Uploading of BGs to Nightscout
+  <a href="#telechargement-des-glycemies-vers-nightscout" class="md-nav__link">
+    Téléchargement des glycémies vers Nightscout
   </a>
   
 </li>
@@ -1891,8 +1891,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#uploading-of-bgs-to-nightscout" class="md-nav__link">
-    Uploading of BGs to Nightscout
+  <a href="#telechargement-des-glycemies-vers-nightscout" class="md-nav__link">
+    Téléchargement des glycémies vers Nightscout
   </a>
   
 </li>
@@ -2135,9 +2135,9 @@
 <p>Cette question est très populaire et cette version se présente sous quelques formes...</p>
 <p>Quoi de neuf dans Loop v2.0? Quelle est la différence entre la branche Loop v2.0 et la branche dev ? Dois-je mettre à jour si j’utilise la branche dev maintenant?</p>
 <p>La question de savoir quelles différences quelqu’un remarquera entre son application Loop existante et la nouvelle version... eh bien, je ne peux répondre que si je savais quelle version / branche que vous utilisez actuellement (ET quelle date vous avez construit sur si vous utilisez dev branche). Parce que la branche de dev change si souvent, la version que quelqu’un utilise à partir d’octobre 2019 ne sera pas nécessairement la même que la version que quelqu’un a construite en novembre 2019.</p>
-<p>So, I'll make a highlights reel compared to the last release and you can check it over to see if any of these seem "new" to you based on the version of Loop you have been using. They are listed roughly in reverse order of when they were merged into dev, so the higher up on the list, the greater the chance is that you haven't seen the feature yet.</p>
-<h3 id="uploading-of-bgs-to-nightscout">Uploading of BGs to Nightscout<a class="headerlink" href="#uploading-of-bgs-to-nightscout" title="Permanent link">&para;</a></h3>
-<p>Loop v2.0 has an option to upload your BG data to Nightscout directly. It is a new slider under the CGM configuration section for Dexcom users. After you add your CGM transmitter ID, go back into the CGM info and you'll see a new slider called "Upload Readings."  Technically, Loop's dev branch had that feature for a hot minute before Loop v2.0 was released...but for almost everyone this will be a brand new feature they haven't had before. This feature can help if/when Dexcom's Share servers ever go through another large outage like we had before. If that happens, you can turn on the "Upload Readings" switch and your CGM data will now be in Nightscout even without Share servers working properly. Good practice would be to temporarily disable your Share bridge in Nightscout while Loop is responsible for CGM uploading so that you don't get duplicate data. You can disable Share bridge by logging into your Heroku account, going to the Settings tab, clicking on "reveal config vars" and then deleting the word "bridge" from the ENABLE line.</p>
+<p>Donc, je vais faire une déroulé des nouveautés comparé à la dernière version et vous pouvez vérifier si l'un d'entre eux vous semble "nouveau" en fonction de la version de Loop que vous utilisez. Ils sont répertoriés à peu près dans l’ordre inverse de quand ils ont été fusionnés en dev, de sorte que plus c'est haut dans la liste, plus il y a de chance est que vous n’ayez pas encore vu la fonctionnalité.</p>
+<h3 id="telechargement-des-glycemies-vers-nightscout">Téléchargement des glycémies vers Nightscout<a class="headerlink" href="#telechargement-des-glycemies-vers-nightscout" title="Permanent link">&para;</a></h3>
+<p>Loop v2.0 a une option pour envoyer vos données de glycémie directement sur Nightscout. C'est un nouveau slider dans la section de configuration de la MGC pour les utilisateurs de Dexcom. Après avoir ajouté votre identifiant de transmetteur MGC, retournez dans les informations du MGC et vous verrez un nouveau curseur appelé "Télécharger des lectures"  Techniquement, la branche de développement de Loop avait cette fonctionnalité est sortie peut de temps avant la sortie de Loop v2.0. ...mais pour presque tout le monde ce sera une toute nouvelle fonctionnalité qu'ils n'ont pas eu auparavant. Cette fonctionnalité peut aider si les serveurs de Dexcom Share traversent une autre panne comme rencontrée précédemment. Si cela se produit, vous pouvez activer le bouton "Envoyer les lectures" et vos données MGC seront maintenant dans Nightscout même si les serveurs Share ne fonctionnent pas correctement. Good practice would be to temporarily disable your Share bridge in Nightscout while Loop is responsible for CGM uploading so that you don't get duplicate data. You can disable Share bridge by logging into your Heroku account, going to the Settings tab, clicking on "reveal config vars" and then deleting the word "bridge" from the ENABLE line.</p>
 <h3 id="a-fix-for-settings-loss">A fix for settings loss<a class="headerlink" href="#a-fix-for-settings-loss" title="Permanent link">&para;</a></h3>
 <p>iOS 13 brought about a quirky little bug where you could suddenly lose settings in Loop. But, it wasn't just limited to Loop, sometimes people lost Dexcom app settings too. The issue is most common when the phone goes through a power cycle, but it has happened at other times, too. There's a fix for that new bug in Loop now...so that's a good reason to update. (If you encounter that bug before you have a chance to update your Loop app, simply restart the Loop app and your settings should reappear.)</p>
 <h3 id="spin-for-watch-bolus">Spin for Watch Bolus<a class="headerlink" href="#spin-for-watch-bolus" title="Permanent link">&para;</a></h3>
