@@ -1,17 +1,17 @@
-# Loop Notifications
+# Notifications de Loop
 
-Loop provides discrete notifications on the iPhone and Watch which will appear on the (locked) screen and vibrate, depending on your notification settings of Loop.
+Loop fournit des notifications sur l’iPhone et la Watch qui apparaîtront sur l’écran (verrouillé) et vibreront, en fonction de vos paramètres de notification de Loop.
 
 ## Omnipod
 
 <font color ="orange">**Omnipod**</font>  
-Most beep alarms are disabled for a much more discrete use of the omnipod. Only the following audible acknowledgments or alarms are currently used:
+La plupart des alarmes sonores sont désactivées pour une utilisation beaucoup plus discrète de l'omnipod. Seuls les accusés ou alarmes audibles suivants sont actuellement utilisés :
 
-- Pod activated acknowledgment when filling the pod with enough insulin when pairing a new Pod.
-- Pod expiration advisory alarm at 72 hours/3 days (which you can silence in the [pod status  settings](../loop-settings/omnipod-pump.md#status))
-- Pod empty reservoir (which you can silence in the [pod status  settings](../loop-settings/omnipod-pump/#status))
-- Pod deactivation acknowledgment
-- Pod fault alarm (also called a screamer) when reaching the max life of the Pod: 80 hours (3 days + 8 hours) or a fault/occlusion happens. (which you can silence using the [replace pod](../loop-settings/omnipod-pump.md#pod-commands)) command in the pod settings page)
+- Reconnaissance du pod activé lors du remplissage du pod avec suffisamment d’insuline lors de l’appariement d’un nouveau Pod.
+- Alerte d'expiration du pod à 72 heures/3 jours (que vous pouvez désactiver dans les [paramètres de statut du pod](../loop-settings/omnipod-pump.md#status))
+- Réservoir vide du Pod (que vous pouvez couper en silence dans les paramètres de statut du pod [](../loop-settings/omnipod-pump/#status))
+- Reconnaissance de désactivation du Pod
+- Alarme de panne de pod (également appelé hurleur) lorsque vous atteignez la vie maximale du Pod : 80 heures (3 jours + 8 heures) ou si une défaillance/occlusion se produit. (que vous pouvez réduire au silence en utilisant la commande [remplacer le pod](../loop-settings/omnipod-pump.md#pod-commands)) dans la page des paramètres du pod)
 
 ## Notification settings for Loop
 
