@@ -1,12 +1,12 @@
 # Batterie de la pompe
 
-One common confusion point for new Loop users is how to interpret their pump's battery levels and whether they need to change their pump batteries based on which pieces of information.
+Un des points de confusion courants pour les nouveaux utilisateurs de Loop est la façon d'interpréter le niveau de batterie de leur pompe si il est nécessaire de changer les piles de leur pompe en fonction des éléments d'information.
 
-## Discharge Curves
+## Courbes de décharge
 
-There are generally two different types of AAA batteries that we use in these Medtronic pumps; alkaline or lithium.
+Il y a généralement deux types de piles AAA que nous utilisons dans ces pompes Medtronic : les alcaline ou les lithium.
 
-To understand pump battery levels, you first need to know a little about **battery discharge curves**.  It's not a hard concept...basically how a battery dies over time as it is used or sits in a drawer.  More technically said, a battery discharge curve is the measure of volts that a battery puts out over time.  Batteries start at a higher voltage output and slowly that voltage output degrades over time (or use) until the battery no longer provides enough "ummph" to keep the electronic gadget going.  BUT, alkaline batteries and lithium batteries have different discharge curves due to the chemistry inside them, and the curves can be slightly different depending on the environment (temperature) and battery manufacturer.
+Pour comprendre les niveaux de batterie de la pompe, vous devez d'abord en savoir un peu sur **les courbes de décharge des batteries**.  Ce n’est pas un concept difficile... en gros, comment une batterie meurt au fil du temps car utilisé ou laissé dans un tiroir.  Plus techniquement, une courbe de décharge de la batterie est la mesure des volts qu'une batterie perd au fil du temps.  Batteries start at a higher voltage output and slowly that voltage output degrades over time (or use) until the battery no longer provides enough "ummph" to keep the electronic gadget going.  BUT, alkaline batteries and lithium batteries have different discharge curves due to the chemistry inside them, and the curves can be slightly different depending on the environment (temperature) and battery manufacturer.
 
 Alkaline batteries have a relatively steady voltage drop over time, as shown below.  Notice the shape of the curve has a significant amount of time in the 1.3 to 1.2 volts range, and a relatively smooth decline to about 1.2 volts.
 
