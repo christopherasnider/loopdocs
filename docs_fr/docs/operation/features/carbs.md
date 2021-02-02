@@ -1,36 +1,36 @@
-# Carb Entry
+# Apport de Glucides
 
 ![img/toolbar.png](img/toolbar.png)
 
-New carb entries can be made by using the green carb tool in the toolbar at the bottom of the status screen.  Do not use your pump's bolus wizard or pump's carb entry to record carbs into the Loop app.  Nor should you use Nightscout's careportal to enter carbs, as Loop does not read carb entries remotely.
+De nouvelles entrées de glucides peuvent être faites en utilisant l'outil Glucides vert dans la barre d'outils en bas de l'écran d'état.  N'utilisez pas l'assistant de bolus de votre pompe ou l'entrée de glucides de votre pompe pour enregistrer des glucides dans l'application Loop.  Vous ne devriez pas non plus utiliser le portail de soins de Nightscout pour entrer dans les glucides, car Loop ne lit pas à distance les entrées de glucides.
 
-## New Carbs
+## Nouveaux Glucides
 
-To begin a new meal entry, simply enter the number of carbs to be eaten in the `amount consumed` line.  By default, the carb absorption time for a new carb entry will correspond to the taco icon.  If you haven't made any customizations to the lollipop, taco, or pizza icons during your Loop build, then the default carb absorption time will display as 3 hours.  The default time entry is for the current time and date.  Once you press `Save` on the carb entry screen, the Loop's bolus tool will open to provide a recommended bolus.
+Pour commencer une nouvelle entrée de repas, entrez simplement le nombre de glucides à consommer dans la ligne de ` la quantité consommée`.  Par défaut, le temps d'absorption des glucides pour une nouvelle entrée de glucides correspond à l'icône de tacos.  Si vous n'avez pas fait de personnalisation aux icônes de sucettes, tacos ou pizza pendant votre compilation de Loop, alors le temps d'absorption par défaut des glucides s'affichera sous la forme de 3 heures.  L’entrée de temps par défaut est pour l’heure et la date actuelles.  Une fois que vous appuyez sur `Enregistrer` sur l'écran d'entrée de glucides, l'outil bolus de Loop s'ouvrira pour fournir un bolus recommandé.
 
 ![img/carb_entry.png](img/carb_entry.png)
 
-## Avoid Double Carb Entries
+## Éviter les entrées doubles de glucides
 
-!!!info "Be Aware"
+!!!info "Soyez attentif"
 
-    When you press `Save` for a carb entry, Loop will consider that carb entry saved and use it for calculating temp basals and recommended boluses.  Be cautious about repeated attempts to enter the same meal...Loop will continue to save the carb entries UNLESS you push cancel on the carb entry screen.</br></br>
-    **Simply canceling a bolus does not cancel the carb entry.**</br></br>
-    If you have accidentally made multiple entries for the same carbs, click on the Carbs Chart in the main Loop display and you can delete the redundant carb entries by swiping left on the entries.
+    Lorsque vous appuyez sur « Enregistrer » pour une entrée de glucides, Loop considérera l’entrée de glucides enregistré et l’utilisera pour le calcul des basals temp et bolus recommandés.  Soyez prudent s’il y a des tentatives répétées d’entrer plusieurs fois le même repas... Loop continuera à enregistrer les entrées de glucides sauf si vous appuyer sur annuler sur l’écran d’entrée Glucides.</br></br>
+    **Annuler un bolus n’annule pas l’entrée de glucides.**</br></br>
+    Si vous avez accidentellement fait plusieurs entrées pour les mêmes glucides, cliquez sur le graphique des glucides dans l’affichage principale de Loop et vous pouvez supprimer les entrées de glucides doublons en faisant glisser à gauche sur les entrées.
 
-## Carb Absorption Time
+## Durée d’absorption des Glucides
 
 ![img/food_icons_times.png](img/food_icons_times.png)
 
-To select your carb entry's absorption time, you can either click on the default food emojis or manually enter carb absorption time by selecting the `absorption time` line in the carb entry tool.
+Pour sélectionner la durée d'absorption de votre entrée de glucides, vous pouvez soit cliquer sur les émojis alimentaires par défaut ou entrer manuellement le temps d'absorption des glucides en sélectionnant la ligne `temps d'absorption` dans l'outil d'entrée des glucides.
 
-Tapping the `Food Type` row can also be used if you are unsure of a new food.  There are other food emojis grouped into fast, medium, and slow absorbing foods.  This may be particularly useful for teens that are trying to learn new foods/meals.  Additionally, you can add text to your `food type` by selecting the `abc` button in the bottom left corner of the screen.
+Appuyer sur la ligne `type de nourriture` peut également être utilisé si vous n'êtes pas sûr d'un nouvel aliment.  Il existe d’autres emojis alimentaires regroupés en aliments à absorption rapide, moyenne et lente.  Cela peut être particulièrement utile pour les adolescents qui essaient d'apprendre de nouveaux aliments ou repas.  De plus, vous pouvez ajouter du texte à votre `type de nourriture` en sélectionnant le bouton `abc` dans le coin inférieur gauche de l'écran.
 
 ![img/plate.png](img/plate.png)
 
 ![img/ns-plate.png](img/ns-plate.png)
 
-The default carb absorption times in Loop app are average representations for high, medium, and low glycemic index foods.  Ever since Loop v1.4.0, the algorithm incorporates dynamic carb absorption.  Previous Loop versions were based on a curve that assumed the rate of carb absorption would start out slow, increase to a mid-point, and then taper off.  However, in the real world, carb absorption is quite variable.  Dynamic carb absorption model is able to model some of this variability and allow Loop to respond more reasonably when actual carb absorption is not matching well with the selected carb absorption time for a meal.  In short, while entering a carb absorption time is still part of recording meals in Loop, it is much less critical to get it right.  Now your entry serves more as a guideline, than a rule, for Loop to model carb absorption.  For a more detailed explanation of the new dynamic carb absorption model, please read about it [here](https://github.com/LoopKit/Loop/pull/507).
+Les temps d'absorption des glucides par défaut dans l'application Loop sont des représentations moyennes pour les aliments à indice glycémique élevé, moyen et faible.  Depuis la version 1.4.0, l'algorithme intègre l'absorption dynamique des glucides.  Les versions précédentes de loop étaient basées sur une courbe qui supposait que le taux d’absorption des glucides commencerait lentement, augmenterait à un point médian, puis diminuerait.  Cependant, dans le monde réel, l’absorption des glucides est assez variable.  Le modèle d'absorption dynamique des glucides est en mesure de modéliser une partie de cette variabilité et de permettre à Loop de répondre plus raisonnablement lorsque l'absorption réelle des glucides ne correspond pas bien à l'heure d'absorption des glucides sélectionnée pour un repas.  In short, while entering a carb absorption time is still part of recording meals in Loop, it is much less critical to get it right.  Now your entry serves more as a guideline, than a rule, for Loop to model carb absorption.  For a more detailed explanation of the new dynamic carb absorption model, please read about it [here](https://github.com/LoopKit/Loop/pull/507).
 
 To help Loop adjust for carbs that may digest slower than your original estimate, Loop will initially apply a 1.5x multiplier to your entered carb absorption time.  So, a meal entered using the taco icon will initially be treated as a 4.5 hour absorption meal.  As Loop observes the BG impacts of the meal, Loop will shorten the meal's absorption time if BGs are showing quicker impacts than expected, as well as adjust insulin deliveries (e.g., increase temp basals).  You can watch the progression of the Loop's observations of your meal by clicking on the Carbs Chart and watching the insulin counteraction effects.
 
