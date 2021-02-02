@@ -35,9 +35,9 @@ class LoopDocs:
         sitedir=self.buildsitePath
         topdirectory=self.loopDocsPath
 
-       # self.runBuilder(os.path.join(topdirectory, "mainsite", "mkdocs.yml"), sitedir)
-       # self.runBuilder(os.path.join(topdirectory,  "mkdocs_en.yml"), os.path.join(sitedir,"en" ))
-       # self.runBuilder(os.path.join(topdirectory,  "mkdocs_old.yml"), os.path.join(sitedir,"en_old" ))   
+       self.runBuilder(os.path.join(topdirectory, "mainsite", "mkdocs.yml"), sitedir)
+       self.runBuilder(os.path.join(topdirectory,  "mkdocs_en.yml"), os.path.join(sitedir,"en" ))
+       self.runBuilder(os.path.join(topdirectory,  "mkdocs_old.yml"), os.path.join(sitedir,"en_old" ))   
 
         for site in self.sites:
             site.buildSite()
