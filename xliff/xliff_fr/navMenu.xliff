@@ -364,7 +364,7 @@
       </trans-unit>
       <trans-unit id="0073">
         <source>MDT Pump Errors</source>
-        <target state="needs-translation">MDT Pump Errors</target>
+        <target state="translated">Erreurs de pompe MDT</target>
         <note>troubleshooting/pump-errors.md</note>
       </trans-unit>
       <trans-unit id="0074">
@@ -389,12 +389,12 @@
       </trans-unit>
       <trans-unit id="0078">
         <source>Retrofit Existing NS</source>
-        <target state="needs-translation">Retrofit Existing NS</target>
+        <target state="translated">Moderniser le NS existant</target>
         <note>nightscout/update_user.md</note>
       </trans-unit>
       <trans-unit id="0079">
         <source>Setup Troubleshooting</source>
-        <target state="needs-translation">Setup Troubleshooting</target>
+        <target state="translated">Dépannage d’installation</target>
         <note>nightscout/troublehoot.md</note>
       </trans-unit>
       <trans-unit id="0080">
