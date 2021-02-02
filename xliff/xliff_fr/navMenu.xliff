@@ -349,7 +349,7 @@
       </trans-unit>
       <trans-unit id="0070">
         <source>Pod Uncertain Boluses</source>
-        <target state="needs-translation">Pod Uncertain Boluses</target>
+        <target state="translated">Bolus incertains du Pod</target>
         <note>troubleshooting/uncertain-bolus.md</note>
       </trans-unit>
       <trans-unit id="0071">
