@@ -18,7 +18,7 @@ Un petit mot : Ne pas rapidement décider de retirer un omnipod qui ne répond p
     * Fermez votre application Loop (en la faisant glisser vers le haut dans le sélecteur d'applications de l'iPhone) et rouvrez-la.
 
 
-    ![../img/riley-switch.png](img/riley-switch.png) </br>
+    ![img/riley-switch.png](img/riley-switch.png) </br>
 
     C'est à peu près tout ce que vous avez à faire pour l'option 1 pour restaurer une boucle verte en 5 minutes, 99% du temps. Vous pouvez confirmer que les choses sont de retour au boulot en revoyant une boucle verte et/ou en émettant une "commande de test" ou "presser des boutons" avec succès dans le menu RileyLink.
 
@@ -54,39 +54,39 @@ Si vous n'avez pas mis à jour votre application Loop depuis fin Juillet 2019 et
 
 ### Supprimer le compte Share
 
-En fait, nous voyons beaucoup d'erreurs signalées parce que les gens ont des problèmes avec leurs informations de serveur de partage dans l'application Loop. **Veuillez supprimer les informations de votre compte de partage dans les paramètres de Loop.** En d'autres termes, la partie d'identification des informations du compte de partage, comme indiqué dans la capture d'écran ci-dessous, devrait dire `Appuyer pour définir` et ne pas avoir les informations de votre compte. Il est inutile de remplir cette portion car la recuperation en local et non via Internet d'un émetteur est de toute façon la source de MGC préférée. In fact, by leaving this information out, it will help you remember to change your transmitter ID when you change transmitters because CGM data won't appear in Loop. By not including Share account in Loop, you will prevent yourself from accidentally becoming internet dependent.
+En fait, nous voyons beaucoup d'erreurs signalées parce que les gens ont des problèmes avec leurs informations de serveur de partage dans l'application Loop. **Veuillez supprimer les informations de votre compte de partage dans les paramètres de Loop.** En d'autres termes, la partie d'identification des informations du compte de partage, comme indiqué dans la capture d'écran ci-dessous, devrait dire `Appuyer pour définir` et ne pas avoir les informations de votre compte. Il est inutile de remplir cette portion car la recuperation en local et non via Internet d'un émetteur est de toute façon la source de MGC préférée. En fait, en laissant ces informations de coté, il vous aidera à vous rappeler de changer votre identifiant d'émetteur lorsque vous changez d'émetteur parce que les données MGC n'apparaîtront pas dans Loop. En n’incluant pas le compte Share dans Loop, vous vous empêcherez de devenir accidentellement dépendant d’Internet.
 
-![../img/no-share.jpg](img/no-share.jpg)
+![img/no-share.jpg](img/no-share.jpg)
 
-## Pump is not responding
+## La pompe ne répond pas
 
-The obvious fix is to make sure the RileyLink is not so far away from the pump or Pod that they cannot communicate. Assuming you've addressed this, then you can move on to other steps. For Pod Loopers, Option 1 almost always fixes this issue. For Medtronic Loopers, you will see some times where the pump is not responding and you may see "decoding" errors or various other messages about pump responses. For Medtronic users, try the following:
+La solution évidente est de s'assurer que le RileyLink n'est pas si éloigné de la pompe ou du Pod et qu'ils ne peuvent pas communiquer. En supposant que vous ayez abordé ce problème, vous pouvez passer à d'autres étapes. Pour Pod Loopers, l'option 1 corrige presque toujours ce problème. Pour les Loopers de Medtronic, vous verrez parfois que la pompe ne répond pas et que vous pouvez voir des erreurs de décodage ou d'autres messages à propos des réponses de la pompe. Pour les utilisateurs de Medtronic, essayez ce qui suit :
 
-1. Change pump battery. Low pump battery will cause radio communications to fail.
-2. Use the `Change Time` command in the RileyLink menu to update the pump's clock. If you've accidentally changed the pump's time in the pump itself, this will get the Loop app and pump back in sync.
-3. If using a x23 or x54 pump, try deleting all the IDs under the "Other Devices" submenu in the pump's "Connect Devices" menu.  Then go to the RileyLink menu and use the MySentry pairing command to get a fresh ID issued. Follow the directions listed in the MySentry pairing command's screen to scan for devices. A fresh ID can help prevent recurring red loops for x23 and x54 users, particularly if they started to occur after a recent Loop update.
-4. Make sure the following are checked in the pump:
-    * Your pump cannot be suspended.  Resume insulin deliveries.
-    * Temp basal type must be set to unit/hour, not percent, in pump's Basal menu.
+1. Changer la batterie de la pompe. La faible batterie de la pompe provoquera une panne des communications radio.
+2. Utilisez la commande `Changer le temps` dans le menu RileyLink pour mettre à jour l'horloge de la pompe. Si vous avez accidentellement modifié la durée de la pompe dans la pompe elle-même, l'application Loop et la pompe seront à nouveau synchronisées.
+3. Si vous utilisez une pompe x23 ou x54, essayez de supprimer tous les identifiants dans le sous-menu « Autres périphériques » du menu « Connecter périphériques » de la pompe.  Ensuite, allez au menu RileyLink et utilisez la commande d'appairage MySentry pour obtenir un nouvel ID émis. Suivez les instructions indiquées dans l'écran de la commande d'appairage MySentry pour rechercher des périphériques. Un nouvel identifiant peut aider à prévenir les boucles rouges pour les utilisateurs x23 et x54, en particulier si elles ont commencé à se produire après une mise à jour récente de Loop.
+4. Assurez-vous que les éléments suivants sont vérifiés dans la pompe :
+    * Votre pompe ne peut pas être suspendue.  Reprendre l'injection d'insuline.
+    * Le type de basal temporaire doit être réglé sur unité/heure, pas en pourcentage, dans le menu Basal de la pompe.
 
-## Resolving Frequent Red Loops
+## Résoudre les boucles rouges fréquentes
 
-Here's some things to check if you have frequent red loops:
+Voici quelques choses à vérifier si vous avez des boucles rouges fréquentes :
 
-* Have you [cleaned your mLab database in Nightscout](../nightscout/mlab_cleanup/) recently? If your database gets backlogged (or Nightscout otherwise isn't working properly), Loop can get clogged up with a bunch of unfinished Nightscout uploads. This clogged condition can cause red loops. So, make sure you are periodically checking your mLab and cleaning it. Try deleting your Nightscout account from Loop settings and see if your Loop stops having red loops. If it does, then you'll need to assess what's going wrong in your Nightscout site and fix it. Most of the time that is your mLab database cleanup needing to be done.
+* Avez-vous [nettoyé votre base de données mLab dans Nightscout](../nightscout/mlab_cleanup/) récemment ? Si votre base de données est en retard (ou Nightscout autrement ne fonctionne pas correctement), Loop peut être bouché avec un tas de téléchargements Nightscout inachevés. Cette condition obstruée peut provoquer des boucles rouges. Assurez-vous donc de vérifier régulièrement votre mLab et de le nettoyer. Essayez de supprimer votre compte Nightscout des paramètres loop et voir si votre Loop cesse d’avoir des boucles rouges. Si c'est le cas, vous devrez évaluer ce qui ne va pas dans votre site Nightscout et le corriger. La plupart du temps, votre base de données mLab doit être nettoyée.
 
-* Is your [RileyLink battery plugged in all the way](../build/step5.md#assemble-rileylink) on the board?
+* Votre batterie [RileyLink est-elle branchée jusqu'au bout](../build/step5.md#assemble-rileylink) sur la carte ?
 
-* Has your RL been fully charged? Try charging your RL for an hour or two, make sure the red light comes on while charging. Try a new charger.
+* Votre RL a-t-il été entièrement chargé? Essayez de charger votre RL pendant une ou deux heures, assurez-vous que le voyant rouge s'allume pendant la charge. Essayez un nouveau chargeur.
 
-* Oddly, some people have found that turning off Siri integrations for Loop and Dexcom apps in your iPhone settings has helped. I don't know if this is coincidental or an actual help yet, but I'll mention it here.
+* Étrangement, certaines personnes ont découvert que la désactivation des applications Siri pour Loop et Dexcom dans vos paramètres iPhone a aidé. Je ne sais pas si c'est une coïncidence ou une aide réelle encore, mais je vais le mentionner ici.
 
-* Check for sources of wireless interference. If you have a certain environment that seems to have more drops than others, it is likely that there is a source of wireless communication interfering with your Loop. Lots of Medtronic Loopers in a room together will often interfere with each other and get "cross-talk" red loop error messages. If it is a bedroom at night causing problems, try moving other wireless devices such as routers or baby monitors farther away from where you and your RileyLink are.
+* Vérifiez les sources d'interférence sans fil. Si vous avez un certain environnement qui semble avoir plus de pertes que d'autres, il est probable qu'une source de communication sans fil interfère avec votre Loop. Beaucoup d'utilisateur Loop avec les Medtronic dans une pièce vont souvent interférer les uns avec les autres et obtenir des messages d'erreur de boucle rouge "cross-talk". S'il s'agit d'une chambre à coucher la nuit, causant des problèmes. essayez de déplacer d'autres appareils sans fil comme des routeurs ou des moniteurs pour bébés plus éloignés de l'endroit où vous et votre RileyLink se trouvent.
 
-## Posting for Help
+## Poster à l'aide
 
-Before you post on Looped group for help with a red loop, please make sure you've tried Option 1 and have restarted your RileyLink and Loop app.
+Avant de poster sur le groupe Looped pour obtenir de l'aide avec une boucle rouge, Veuillez vous assurer que vous avez essayé l'option 1 et que vous avez redémarré votre application RileyLink and Loop.
 
-Before you post for help, please also check your mLab and Nightscout status. This step is often overlooked and yet solves a lot of problems.
+Avant de poster pour obtenir de l'aide, veuillez également vérifier votre statut mLab et Nightscout. Cette étape est souvent négligée et résout cependant de nombreux problèmes.
 
-When posting for help, include two screenshots of Loop's main screen; one with the red loop's error message and the other just the plain Loop main screen. Include a detailed description of what you have tried doing from the troubleshooting list above. For example, state if you've double checked the transmitter ID, deleted the Share account info from Loop settings, and updated your Loop app since July 19, 2019 so that we can rule out some of the causes of CGM issues.
+Lorsque vous publiez pour de l'aide, incluez deux captures d'écran de l'écran principal de Loop; l'un avec le message d'erreur de la boucle rouge et l'autre avec l'écran principal de la boucle simple. Inclure une description détaillée de ce que vous avez essayé de faire de la liste de dépannage ci-dessus. Par exemple, indiquer si vous avez vérifié l’iD de l’émetteur, supprimé les informations du compte Share des paramètres de Loop et mis à jour votre application Loop depuis le 19 juillet 2019 afin que nous puissions exclure certaines des causes des problèmes de MGC.
