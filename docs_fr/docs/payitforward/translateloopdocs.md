@@ -31,44 +31,44 @@ Vous pouvez également rejoindre le flux zulip [ici](https://loop.zulipchat.com/
 
 Lorsque vous avez sélectionné votre langue et un fichier, l'éditeur Crowdin s'ouvre.
 
-L'éditeur Crowdin a 5 zones principales qui sont surlignées ci-dessous: ![Crowdin areas](img/crowdinareas.png)
+L'éditeur Crowdin a 5 zones principales qui sont surlignées ci-dessous: ![Zones Crowdin](img/crowdinareas.png)
 
-**1. Document à traduire** - contient toutes les phrases dans le document.Vous traduisez une phrase à la fois. Vous pouvez cliquer sur la phrase que vous voulez traduire. When you click a sentence the 4 other areas change.
+**1. Document à traduire** - contient toutes les phrases dans le document.Vous traduisez une phrase à la fois. Vous pouvez cliquer sur la phrase que vous voulez traduire. Lorsque vous cliquez sur une phrase, les 4 autres zones changent.
 
-The sentences are colored in:
+Les phrases sont colorées en:
 
-- Red: Sentences that needs translating.
-- Yellow: the sentence you are translating.
-- Green: Sentences that has been translated.
+- Rouge : phrases qui doivent être traduites.
+- Jaune : la phrase que vous traduisez.
+- Vert : phrases qui ont été traduites.
 
-**2. Sentence you are translating now** - Shows the sentence you have selected in the document.
+**2. La phrase que vous traduisez maintenant** - Affiche la phrase que vous avez sélectionnée dans le document.
 
-**3. Enter translation here** - this is where you enter you translation. After you have entered your translation click the save button. Crowdin will then take you to the next sentence.
+**3. Entrez la traduction ici** - c'est là que vous entrez votre traduction. Après avoir entré votre traduction, cliquez sur le bouton Enregistrer. Crowdin vous emmènera alors à la phrase suivante.
 
-!!!important "Save your work!"
+!!!important "Sauvegardez votre travail!"
 
-    Remember to click the save button otherwise your translation will not get saved.
+    N'oubliez pas de cliquer sur le bouton Enregistrer sinon votre traduction ne sera pas enregistrée.
 
-**4. Suggested translation of the sentence** - here you will see a list of sentences that Crowdin suggest to use for your translation. You can even see the translation for other languages at the bottom of the list. If you want to use the suggested translation you can just click it and the sentence goes into the "Enter your translation". Then you can edit the sentence and click save. If you just want to use the suggested sentence and not edit it, you can just click "Use and save".
+**4. Traduction suggérée de la phrase** - ici vous verrez une liste de phrases que Crowdin suggère d'utiliser pour votre traduction. Vous pouvez même voir la traduction d'autres langues en bas de la liste. Si vous souhaitez utiliser la traduction suggérée, vous pouvez simplement cliquer dessus et la phrase va dans la zone « Entrez votre traduction ». Ensuite, vous pouvez modifier la phrase et cliquer sur Enregistrer. Si vous voulez juste utiliser la phrase suggérée et ne pas la modifier, vous pouvez simplement cliquer sur "Utiliser et enregistrer".
 
 ![Suggestion](img/suggestion.png)
 
-**5. Comments** - Here you can enter you comments about the translation that you are doing. Other users can see it and you can have a discussion about the usage of the sentence.
+**5. Commentaires** - Ici vous pouvez entrer vos commentaires sur la traduction que vous faites. D'autres utilisateurs peuvent le voir et vous pouvez avoir une discussion sur l'utilisation de la phrase.
 
-!!!info "All translators read the comments"
+!!!info "Tous les traducteurs voient les commentaires"
 
-    It is standard practice to use the source language for comments in this case you should use english.
+    Il est de pratique courante d'utiliser la langue source pour les commentaires dans ce cas, vous devriez utiliser l'anglais.
 
-## To translate or not to translate
+## Traduire ou ne pas traduire
 
-### The "!!!" text
+### Le texte "!!!"
 
-In most files there is sections the text "!!!note" or "!!!danger" or something other text with "!!!" in front. It is shown like this in Crowdin:
+Dans la plupart des fichiers, il y a des sections le texte "!!!note" ou "!!!danger" ou quelque chose de texte avec "!!!" en premier. Il est affiché comme cela dans Crowdin :
 
 ![image](img/admontion.png)
 
-You should NOT translate the text just after the "!!!" in this case "warning", but you should translate "FAQs" in this case. Sometimes there is no text after "!!!warning" you should still NOT translate this. Some of Crowdins translation suggestions would like to translate the "warning" text.
+Vous ne devriez PAS traduire le texte juste après le "!!!" dans ce cas "warning", mais vous devez traduire "FAQ" dans ce cas. Parfois, il n'y a pas de texte après "!!!warning" vous ne devriez toujours PAS le traduire . Certaines suggestions de traduction de Crowdins voudraient traduire le texte "warning".
 
-### The "<0>" text
+### Le texte "<0>"
 
-There can be strings in a sentence that looks like this "<0>". Just ignore them and do not translate them. They should be untouched.
+Il peut y avoir des chaînes dans une phrase qui ressemble à ceci "<0>". Il suffit de les ignorer et de ne pas les traduire. Ils doivent rester intacts.
