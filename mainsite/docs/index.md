@@ -15,8 +15,12 @@ hide:
 
 [<span class="flag-icon flag-icon-ro"></span> Romania](ro/)
 
+[![Crowdin](https://badges.crowdin.net/loopdoctranslation/localized.svg)](https://crowdin.com/project/loopdoctranslation)
+
 Missing a language? Want to help translate [click here](en/payitforward/translateloopdocs/)
 
-**BETA**: Try the new in-context translation by [clicking here](ach/) and then you can see the translation in the website as you type.
+## In-context translation - BETA
 
-Notice that the translation is not going directly into the language-site as I am still overseeing the pull-requests manually.
+Try the new in-context translation by [clicking here](ach/) and then you can see the translation in the website as you type.
+
+Notice that the in-context-translation is not going directly into the language-site as I am still overseeing the pull-requests manually. (same thing goes for translations done in Crowdin.)
