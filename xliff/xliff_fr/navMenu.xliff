@@ -224,7 +224,7 @@
       </trans-unit>
       <trans-unit id="0045">
         <source>How to Use Loop App</source>
-        <target state="translated">Comment utiliser l’application Loop</target>
+        <target state="translated">Utilisation de l’application Loop</target>
         <note/>
       </trans-unit>
       <trans-unit id="0046">
@@ -424,7 +424,7 @@
       </trans-unit>
       <trans-unit id="0085">
         <source>Pay It Forward</source>
-        <target state="needs-translation">Pay It Forward</target>
+        <target state="translated">Contributions</target>
         <note/>
       </trans-unit>
       <trans-unit id="0086">

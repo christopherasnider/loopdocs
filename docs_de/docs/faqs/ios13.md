@@ -1,37 +1,37 @@
 # iOS 13 FAQs
 
-Every time a new iOS release comes out...there's loads of questions and a flurry of activity. To help answer these questions, this page will be here short term to help answer these FAQs.
+Jedes mal, wenn eine neue Version von iOS herauskommt, gibt es eine Menge Fragen und hektisches Durcheinander. Diese Seite ist dafür da, diese Fragen schnell zu beantworten.
 
-## Should I update to iOS 13?
+## Soll ich auf iOS 13 updaten?
 
-That is a question that you should answer separate from Loop considerations. New iOS releases often have bugs in them, so I tend to avoid updating my daughter's phone for a bit. Instead, I update my phone and test things out first. Dexcom's app could have problems even...who knows. But, I certainly want to get a chance to kick-the-tires (or watch other people kick tires) for a bit before I try new iOS releases. Once I see things are ok and working without major issues, then I'll update her phone's iOS. Plus, going backwards once you've updated is a pain and usually not possible shortly after the new version is released.
+Das ist eine Frage, die du unabhängig von Loop betrachten solltest. Neue iOS Versionen haben häufig Fehler, also würde ich eine Zeit lang versuchen zu vermeiden, die iOS Version des Handys meiner Tochter zu aktualisieren. Stattdessen aktualisiere ich mein iPhone und probiere die Sachen zuerst aus. Die Dexcom App könnte auch Fehler haben, wer weiss das schon? Ich möchte aber auf jeden Fall erst einmal die ganze Sachen funktionieren sehen (oder es von jemandem hören), bevor ich neue iOS Versionen ausprobiere. Sobald ich sehe, dass die Sache bei mir ohne große Probleme läuft, aktualisiere ich das iOS des iPhones meiner Tochter. Außerdem ist ein Zurück auf die alte Version echt aufwendig und häufig nicht einmal möglich.
 
-Also, I don't update iOS until I've had time to update my macOS and Xcode as well. Once you update iOS, you'll likely have to do matching updates to other Apple software for Loop building...so you might as well make sure you successfully update the other pieces so that everything is squared away.
+Es geht weniger darum, was du in Bezug auf Loop beachten musst, wenn du iOS aktualisierst. Es geht mehr darum, was du vorher bei der nächsten Loop Erstellung brauchst und hinterher in iOS aktualisieren musst.
 
-## Will my Loop keep working if I don't update to iOS 13?
+## Wird meine Loop-App weiter funktionieren, wenn ich nicht auf iOS 13 aktualisiere?
 
-Yes. Your Loop app will work for one year after you built it (or until the developer team's enrollment/signing certificate expires, whichever comes first). So, if you don't update iOS...no big deal for your Loop app.
+Ja. Deine Loop-App wird ein Jahr lang funktinieren, nachdem du sie gebaut hast (oder solange bis das Entwicklungs-Zertifikat ausläuft, was immer zuerst eintritt). Also, wenn du nicht auf iOS 13 aktualisierst, ist das keine große Sache für die Loop-App.
 
-## Will my Loop keep working if I update to iOS 13?
+## Wird meine Loop-App funktionieren, wenn ich auf iOS 13 aktualisiere?
 
-Yes. We have not had one iOS update that has broken Loop apps already installed on the phone. I think we started Loop on iOS 9? Loop has worked through all the updates.
+Ja. Wir hatten nicht ein iOS 13 Update, welches die Loop-App gestört hat, das bereits auf dem jeweiligen iPhone installiert war. Soweit ich mich erinnern kann, haben wir mit iOS 9 angefangen und die Loop-App hat über alle Versionen hinweg funktioniert. Loop has worked through all the updates.
 
-## Do I have to update my Loop if I change to iOS 13?
-
-Nope. Unless you want to try dark mode which is in dev branch and being developed there...that's about the only thing that is iOS 13 specific in Loop.
-
-## Is there a benefit to updating my Loop if I use iOS 13?
+## Muss ich die Loop-App aktualisieren, wenn ich auf iOS 13 wechsle?
 
 Nope. Unless you want to try dark mode which is in dev branch and being developed there...that's about the only thing that is iOS 13 specific in Loop.
 
-## Why is iOS update a big deal then?
+## Habe ich irgendeinen Vorteil, wenn ich meine Loop-App aktualisieren, wenn ich iOS 13 verwende?
 
-Because iOS major releases (like going from iOS 12 to 13...where the whole number changes) involve updates to several major other Apple-related things. It's a cascade effect.
+Nein. Außer du willst den Dark Mode ausprobieren, der sich im Entwicklungs-Branch befindet. Das ist das einzige, was iOS 13 spezifisch in der Loop-App ist.
 
-If you update iOS with a major release, then Xcode will need to update, too. Because Xcode will need the new command tools, Swift language updates, and simulators to be able to properly build for devices that have the new iOS.
+## Warum ist das iOS-Update dann so eine große Sache?
 
-And then the cascade continues...that new Xcode will likely require a macOS update. And sometimes (as happened when Xcode 10 was released), the required update to macOS was also a major update (High Sierra to Mojave) that some computers couldn't do. They were "unsupported" by Apple and were aged-out. Luckily, the update to Xcode 11 does not involve aging out any computers this time. If you were running Xcode 10 already, you'll be able to update to Xcode 11 without fear that you'll be left out based on macOS age.
+Weil Major-Releases (wie beim Wechsel von iOS 12 auf iOS 13, bei dem sich der erste Teil der Versionsnummer ändert) eine Reihe von Aktualisierungen anderer großer Apple-Angelegenheiten nach sich ziehen. Das ist halt der Kaskadeneffekt.
 
-So, iOS updates are a big deal (for Loopers) because they involve needing to do some updates to be able to properly build Loop again the next time you want to. And people forget about updates. And then they forget about LoopDocs' page specifically to help with Updating your Loop app. And so they just blindly download and build like they did last time...unaware there were needed updates.
+Wenn man iOS auf eine neue Major-Version bringt, muss Xcode ebenfalls akualisiert werden, da Xcode neue Kommandozeilenwerkzeuge braucht, es Aktualisierungen in der SWIFT-Sprache gibt und die Simulatoren, die zum korrekten Erstellen der Versionen mit dem neuen iOS auf den verschiedenen Geräten notwendig sind, müssen ebenfalls aktualisiert werden. Because Xcode will need the new command tools, Swift language updates, and simulators to be able to properly build for devices that have the new iOS.
 
-It's not so much about Loop when you update iOS...the issue is about what other things you need to update BEFORE you build Loop again and AFTER you update iOS.
+Und die Kaskade geht weiter. Das neue Xcode braucht wahrscheinlich ein neues macOS. Und manchmal (was bei der Aktualisierung auf Xcode 10 der Fall war) ist die benötigte Aktualisierung von macOS ebenfalls ein Major Release, was bei manchen Rechnern nicht funktioniert. They were "unsupported" by Apple and were aged-out. Dadurch wurden diese Rechner nicht mehr von Apple unterstützt und waren zu alt. Glücklicherweise hat die Aktualisierung auf Xcode 11 kein Ausmustern von Rechnern zur Folge. Wenn bei dir schon Xcode 10 läuft, kann du auf Xcode 11 ohne Problem aktualisieren.
+
+Also sind iOS-Aktualisierungen eine große Sache für Looper, da sie andere Aktualisierungen zur Folge haben, um beim nächsten Mal weiterhin die Loop-App bauen zu können. Und die Leute vergessen zu aktualisieren. Und dann vergessen sie auch noch die spezielle LoopDoc-Seite, die ihnen beim Aktualisieren helfen soll. Also laden sie blindlings den Code herunter, bauen die App wie beim letzten mal und sind sich nicht bewusst, dass sie zuerst aktualsieren müssen.
+
+Außerdem aktualisiere ich mein iPhone solange nicht, bis ich mein MacOS und Xcode aktualisiert habe. Sobald du dein iOS aktualisiert hast, musst du die Aktualisierungen andere Programme auf dem Mac koordinieren, die dir beim Erstellen der Loop-App helfen.
