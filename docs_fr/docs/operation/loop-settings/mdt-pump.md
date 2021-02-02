@@ -32,7 +32,7 @@ You now need to follow a few simple screen prompts to add your Medtronic pump to
 
 ![../img/add_pump.png](img/add_pump.png)
 
-!!! info "For x23 and x54 Medtronic pump users only"
+!!!info "For x23 and x54 Medtronic pump users only"
 
     For x23 and x54 Medtronic pump users, there is a packet of information special to those pumps called MySentry messages. If you have never setup this part of the pump previously, you may see a screen, called "Pump Broadcasts", at this point in the setup process.</br></br>Follow the directions on the screen. They will require you to take some manual steps on your pump to "pair" it with your Loop app.</br></br>Basically, you will need to go to your pump's main menu, scroll down to Utilities, then Connect Devices, then Other Devices, turn that setting On, and then select Find Device. Once you do that, click on the `Continue` button in Loop app and the pairing will take place. This will allow those MySentry packets of information to flow to Loop app.</br></br>This step does not apply for x22 or x15 pump users, since those pumps do not have MySentry capabilities.
 

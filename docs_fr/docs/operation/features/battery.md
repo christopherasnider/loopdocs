@@ -1,4 +1,4 @@
-# Pump Battery
+# Batterie de la pompe
 
 One common confusion point for new Loop users is how to interpret their pump's battery levels and whether they need to change their pump batteries based on which pieces of information.
 

@@ -1,4 +1,4 @@
-# Build Errors
+# Erreurs de compilation
 
 There are two types of build errors that happen; they are yellow warnings and red alerts. You'll see the warnings and alerts in the left-hand column of the Xcode window.
 

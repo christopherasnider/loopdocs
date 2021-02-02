@@ -9,6 +9,7 @@
 The app is built on top of [LoopKit](https://github.com/LoopKit/LoopKit). LoopKit is a set of frameworks that provide data storage, retrieval, and calculation, as well as boilerplate view controllers used in Loop.
 
 !!!warning "Important"
+
     Please understand that this project:
     - Is highly experimental
     - Is not approved for therapy

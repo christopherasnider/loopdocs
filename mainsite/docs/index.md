@@ -5,7 +5,7 @@ hide:
 ---
 # Choose language
 
-[<span class="flag-icon flag-icon-us"></span> English](ro/) [(original)](en_old/)
+[<span class="flag-icon flag-icon-us"></span> English](en/) [(original)](en_old/)
 
 [<span class="flag-icon flag-icon-dk"></span> Danish](da/)
 

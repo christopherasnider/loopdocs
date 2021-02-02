@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:xlf="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="source.txt" source-language="en" target-language="ach">
+    <body>
+      <trans-unit id="0001">
+        <source>Home</source>
+        <target>crwdns68940:0crwdne68940:0</target>
+        <note>index.md</note>
+      </trans-unit>
+      <trans-unit id="0002">
+        <source>FAQs</source>
+        <target>crwdns68942:0crwdne68942:0</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="0003">
+        <source>Using This Site FAQs</source>
+        <target>crwdns68944:0crwdne68944:0</target>
+        <note>faqs/docs-faqs.md</note>
+      </trans-unit>
+      <trans-unit id="0004">
+        <source>General Loop FAQs</source>
+        <target>crwdns68946:0crwdne68946:0</target>
+        <note>faqs/FAQs.md</note>
+      </trans-unit>
+      <trans-unit id="0005">
+        <source>Omnipod FAQs</source>
+        <target>crwdns68948:0crwdne68948:0</target>
+        <note>faqs/omnipod-faqs.md</note>
+      </trans-unit>
+      <trans-unit id="0006">
+        <source>Branch FAQs</source>
+        <target>crwdns68950:0crwdne68950:0</target>
+        <note>faqs/branch-faqs.md</note>
+      </trans-unit>
+      <trans-unit id="0007">
+        <source>Update/Rebuild Loop FAQs</source>
+        <target>crwdns68952:0crwdne68952:0</target>
+        <note>faqs/update-faqs.md</note>
+      </trans-unit>
+      <trans-unit id="0008">
+        <source>iOS 13 FAQs</source>
+        <target>crwdns68954:0crwdne68954:0</target>
+        <note>faqs/ios13.md</note>
+      </trans-unit>
+      <trans-unit id="0009">
+        <source>RileyLink FAQs</source>
+        <target>crwdns68956:0crwdne68956:0</target>
+        <note>faqs/rileylink-faqs.md</note>
+      </trans-unit>
+      <trans-unit id="0010">
+        <source>Algorithm FAQs</source>
+        <target>crwdns68958:0crwdne68958:0</target>
+        <note>faqs/algorithm-faqs.md</note>
+      </trans-unit>
+      <trans-unit id="0011">
+        <source>CGM FAQs</source>
+        <target>crwdns68960:0crwdne68960:0</target>
+        <note>faqs/cgm-faqs.md</note>
+      </trans-unit>
+      <trans-unit id="0012">
+        <source>Safety Tips</source>
+        <target>crwdns68962:0crwdne68962:0</target>
+        <note>faqs/safety-faqs.md</note>
+      </trans-unit>
+      <trans-unit id="0013">
+        <source>Build App</source>
+        <target>crwdns68964:0crwdne68964:0</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="0014">
+        <source>Overview</source>
+        <target>crwdns68966:0crwdne68966:0</target>
+        <note>build/overview.md</note>
+      </trans-unit>
+      <trans-unit id="0015">
+        <source>Step 1 Compatible Computer</source>
+        <target>crwdns68968:0crwdne68968:0</target>
+        <note>build/step1.md</note>
+      </trans-unit>
+      <trans-unit id="0016">
+        <source>Step 2 Compatible iPhone/iPod touch</source>
+        <target>crwdns68970:0crwdne68970:0</target>
+        <note>build/step2.md</note>
+      </trans-unit>
+      <trans-unit id="0017">
+        <source>Step 3 Compatible Pump</source>
+        <target>crwdns68972:0crwdne68972:0</target>
+        <note>build/step3.md</note>
+      </trans-unit>
+      <trans-unit id="0018">
+        <source>Step 4 Compatible CGM</source>
+        <target>crwdns68974:0crwdne68974:0</target>
+        <note>build/step4.md</note>
+      </trans-unit>
+      <trans-unit id="0019">
+        <source>Step 5 Order a RileyLink</source>
+        <target>crwdns68976:0crwdne68976:0</target>
+        <note>build/step5.md</note>
+      </trans-unit>
+      <trans-unit id="0020">
+        <source>Step 6 Enroll in Apple Developer Program</source>
+        <target>crwdns68978:0crwdne68978:0</target>
+        <note>build/step6.md</note>
+      </trans-unit>
+      <trans-unit id="0021">
+        <source>Step 7 Install Homebrew</source>
+        <target>crwdns68980:0crwdne68980:0</target>
+        <note>build/step7.md</note>
+      </trans-unit>
+      <trans-unit id="0022">
+        <source>Step 8 Download Xcode</source>
+        <target>crwdns68982:0crwdne68982:0</target>
+        <note>build/step8.md</note>
+      </trans-unit>
+      <trans-unit id="0023">
+        <source>Step 9 Xcode Preferences</source>
+        <target>crwdns68984:0crwdne68984:0</target>
+        <note>build/step9.md</note>
+      </trans-unit>
+      <trans-unit id="0024">
+        <source>Step 10 Test Settings</source>
+        <target>crwdns68986:0crwdne68986:0</target>
+        <note>build/step10.md</note>
+      </trans-unit>
+      <trans-unit id="0025">
+        <source>Step 11 Make plans for Loop Data</source>
+        <target>crwdns68988:0crwdne68988:0</target>
+        <note>build/step11.md</note>
+      </trans-unit>
+      <trans-unit id="0026">
+        <source>Step 12 Meet Community</source>
+        <target>crwdns68990:0crwdne68990:0</target>
+        <note>build/step12.md</note>
+      </trans-unit>
+      <trans-unit id="0027">
+        <source>Step 13 Download Loop code</source>
+        <target>crwdns68992:0crwdne68992:0</target>
+        <note>build/step13.md</note>
+      </trans-unit>
+      <trans-unit id="0028">
+        <source>Step 14 Build Loop app</source>
+        <target>crwdns68994:0crwdne68994:0</target>
+        <note>build/step14.md</note>
+      </trans-unit>
+      <trans-unit id="0029">
+        <source>Oh dear! Build errors?</source>
+        <target>crwdns68996:0crwdne68996:0</target>
+        <note>build/build_errors.md</note>
+      </trans-unit>
+      <trans-unit id="0030">
+        <source>Customize your Loop</source>
+        <target>crwdns68998:0crwdne68998:0</target>
+        <note>build/code_customization.md</note>
+      </trans-unit>
+      <trans-unit id="0031">
+        <source>Updating/Rebuilding your Loop</source>
+        <target>crwdns69000:0crwdne69000:0</target>
+        <note>build/updating.md</note>
+      </trans-unit>
+      <trans-unit id="0032">
+        <source>LoopWorkspace</source>
+        <target>crwdns69002:0crwdne69002:0</target>
+        <note>build/loopworkspace.md</note>
+      </trans-unit>
+      <trans-unit id="0033">
+        <source>Set up App</source>
+        <target>crwdns69004:0crwdne69004:0</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="0034">
+        <source>Overview</source>
+        <target>crwdns69006:0crwdne69006:0</target>
+        <note>operation/overview.md</note>
+      </trans-unit>
+      <trans-unit id="0035">
+        <source>Step 1 Health Permissions</source>
+        <target>crwdns69008:0crwdne69008:0</target>
+        <note>build/health.md</note>
+      </trans-unit>
+      <trans-unit id="0036">
+        <source>Step 2 Add Pump</source>
+        <target>crwdns69010:0crwdne69010:0</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="0037">
+        <source>Add Medtronic</source>
+        <target>crwdns69012:0crwdne69012:0</target>
+        <note>operation/loop-settings/mdt-pump.md</note>
+      </trans-unit>
+      <trans-unit id="0038">
+        <source>Add Omnipod</source>
+        <target>crwdns69014:0crwdne69014:0</target>
+        <note>operation/loop-settings/omnipod-pump.md</note>
+      </trans-unit>
+      <trans-unit id="0039">
+        <source>Step 3 Add CGM</source>
+        <target>crwdns69016:0crwdne69016:0</target>
+        <note>operation/loop-settings/cgm.md</note>
+      </trans-unit>
+      <trans-unit id="0040">
+        <source>Step 4 Configurations</source>
+        <target>crwdns69018:0crwdne69018:0</target>
+        <note>operation/loop-settings/configurations.md</note>
+      </trans-unit>
+      <trans-unit id="0041">
+        <source>Step 5 Loop Services</source>
+        <target>crwdns69020:0crwdne69020:0</target>
+        <note>operation/loop-settings/services.md</note>
+      </trans-unit>
+      <trans-unit id="0042">
+        <source>Loop Displays</source>
+        <target>crwdns69022:0crwdne69022:0</target>
+        <note>operation/loop-settings/displays.md</note>
+      </trans-unit>
+      <trans-unit id="0043">
+        <source>RileyLink menu</source>
+        <target>crwdns69024:0crwdne69024:0</target>
+        <note>operation/loop-settings/rileylink.md</note>
+      </trans-unit>
+      <trans-unit id="0044">
+        <source>Operate</source>
+        <target>crwdns69026:0crwdne69026:0</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="0045">
+        <source>How to Use Loop App</source>
+        <target>crwdns69028:0crwdne69028:0</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="0046">
+        <source>Carb Entries</source>
+        <target>crwdns69030:0crwdne69030:0</target>
+        <note>operation/features/carbs.md</note>
+      </trans-unit>
+      <trans-unit id="0047">
+        <source>Bolus</source>
+        <target>crwdns69032:0crwdne69032:0</target>
+        <note>operation/features/bolus.md</note>
+      </trans-unit>
+      <trans-unit id="0048">
+        <source>Overrides</source>
+        <target>crwdns69034:0crwdne69034:0</target>
+        <note>operation/features/workout.md</note>
+      </trans-unit>
+      <trans-unit id="0049">
+        <source>Pre-meal target</source>
+        <target>crwdns69036:0crwdne69036:0</target>
+        <note>operation/features/premeal.md</note>
+      </trans-unit>
+      <trans-unit id="0050">
+        <source>Health app</source>
+        <target>crwdns69038:0crwdne69038:0</target>
+        <note>operation/features/healthapp.md</note>
+      </trans-unit>
+      <trans-unit id="0051">
+        <source>Using ICE info</source>
+        <target>crwdns69040:0crwdne69040:0</target>
+        <note>operation/features/ice.md</note>
+      </trans-unit>
+      <trans-unit id="0052">
+        <source>Apple Watch</source>
+        <target>crwdns69042:0crwdne69042:0</target>
+        <note>operation/features/watch.md</note>
+      </trans-unit>
+      <trans-unit id="0053">
+        <source>iPhone widget</source>
+        <target>crwdns69044:0crwdne69044:0</target>
+        <note>operation/features/widget.md</note>
+      </trans-unit>
+      <trans-unit id="0054">
+        <source>Loop Notifications</source>
+        <target>crwdns69046:0crwdne69046:0</target>
+        <note>operation/features/notifications.md</note>
+      </trans-unit>
+      <trans-unit id="0055">
+        <source>Pump Battery</source>
+        <target>crwdns69048:0crwdne69048:0</target>
+        <note>operation/features/battery.md</note>
+      </trans-unit>
+      <trans-unit id="0056">
+        <source>Looping Tips</source>
+        <target>crwdns69050:0crwdne69050:0</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="0057">
+        <source>Open Loop</source>
+        <target>crwdns69052:0crwdne69052:0</target>
+        <note>operation/loop/open-loop.md</note>
+      </trans-unit>
+      <trans-unit id="0058">
+        <source>Closed Loop</source>
+        <target>crwdns69054:0crwdne69054:0</target>
+        <note>operation/loop/close-loop.md</note>
+      </trans-unit>
+      <trans-unit id="0059">
+        <source>Loop Tips</source>
+        <target>crwdns69056:0crwdne69056:0</target>
+        <note>operation/loop/looptips.md</note>
+      </trans-unit>
+      <trans-unit id="0060">
+        <source>Algorithm</source>
+        <target>crwdns69058:0crwdne69058:0</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="0061">
+        <source>Overview</source>
+        <target>crwdns69060:0crwdne69060:0</target>
+        <note>operation/algorithm/overview.md</note>
+      </trans-unit>
+      <trans-unit id="0062">
+        <source>Bolus Recommendations</source>
+        <target>crwdns69062:0crwdne69062:0</target>
+        <note>operation/algorithm/bolus.md</note>
+      </trans-unit>
+      <trans-unit id="0063">
+        <source>Glucose Prediction</source>
+        <target>crwdns69064:0crwdne69064:0</target>
+        <note>operation/algorithm/prediction.md</note>
+      </trans-unit>
+      <trans-unit id="0064">
+        <source>Temp Basal Adjustments</source>
+        <target>crwdns69066:0crwdne69066:0</target>
+        <note>operation/algorithm/temp-basal.md</note>
+      </trans-unit>
+      <trans-unit id="0065">
+        <source>Troubleshoot</source>
+        <target>crwdns69068:0crwdne69068:0</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="0066">
+        <source>Overview</source>
+        <target>crwdns69070:0crwdne69070:0</target>
+        <note>troubleshooting/overview.md</note>
+      </trans-unit>
+      <trans-unit id="0067">
+        <source>Loop App crashes</source>
+        <target>crwdns69072:0crwdne69072:0</target>
+        <note>troubleshooting/loop-crashing.md</note>
+      </trans-unit>
+      <trans-unit id="0068">
+        <source>Red Loop</source>
+        <target>crwdns69074:0crwdne69074:0</target>
+        <note>troubleshooting/yellow-red-loop.md</note>
+      </trans-unit>
+      <trans-unit id="0069">
+        <source>Pod Pairing Failures</source>
+        <target>crwdns69076:0crwdne69076:0</target>
+        <note>troubleshooting/pod-pairing.md</note>
+      </trans-unit>
+      <trans-unit id="0070">
+        <source>Pod Uncertain Boluses</source>
+        <target>crwdns69078:0crwdne69078:0</target>
+        <note>troubleshooting/uncertain-bolus.md</note>
+      </trans-unit>
+      <trans-unit id="0071">
+        <source>MDT Priming and Sites</source>
+        <target>crwdns69080:0crwdne69080:0</target>
+        <note>troubleshooting/priming.md</note>
+      </trans-unit>
+      <trans-unit id="0072">
+        <source>Time Changes</source>
+        <target>crwdns69082:0crwdne69082:0</target>
+        <note>troubleshooting/time-change.md</note>
+      </trans-unit>
+      <trans-unit id="0073">
+        <source>MDT Pump Errors</source>
+        <target>crwdns69084:0crwdne69084:0</target>
+        <note>troubleshooting/pump-errors.md</note>
+      </trans-unit>
+      <trans-unit id="0074">
+        <source>Omnipod Faults</source>
+        <target>crwdns69086:0crwdne69086:0</target>
+        <note>troubleshooting/omnipod-faults.md</note>
+      </trans-unit>
+      <trans-unit id="0075">
+        <source>Nightscout</source>
+        <target>crwdns69088:0crwdne69088:0</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="0076">
+        <source>Overview</source>
+        <target>crwdns69090:0crwdne69090:0</target>
+        <note>nightscout/overview.md</note>
+      </trans-unit>
+      <trans-unit id="0077">
+        <source>Brand New NS</source>
+        <target>crwdns69092:0crwdne69092:0</target>
+        <note>nightscout/new_user.md</note>
+      </trans-unit>
+      <trans-unit id="0078">
+        <source>Retrofit Existing NS</source>
+        <target>crwdns69094:0crwdne69094:0</target>
+        <note>nightscout/update_user.md</note>
+      </trans-unit>
+      <trans-unit id="0079">
+        <source>Setup Troubleshooting</source>
+        <target>crwdns69096:0crwdne69096:0</target>
+        <note>nightscout/troublehoot.md</note>
+      </trans-unit>
+      <trans-unit id="0080">
+        <source>Remote Overrides</source>
+        <target>crwdns69098:0crwdne69098:0</target>
+        <note>nightscout/remote-overrides.md</note>
+      </trans-unit>
+      <trans-unit id="0081">
+        <source>IFTTT</source>
+        <target>crwdns69100:0crwdne69100:0</target>
+        <note>nightscout/ifttt.md</note>
+      </trans-unit>
+      <trans-unit id="0082">
+        <source>Pebble</source>
+        <target>crwdns69102:0crwdne69102:0</target>
+        <note>nightscout/pebble.md</note>
+      </trans-unit>
+      <trans-unit id="0083">
+        <source>Remote Notifications</source>
+        <target>crwdns69104:0crwdne69104:0</target>
+        <note>nightscout/pushover.md</note>
+      </trans-unit>
+      <trans-unit id="0084">
+        <source>Reports</source>
+        <target>crwdns69106:0crwdne69106:0</target>
+        <note>nightscout/reports.md</note>
+      </trans-unit>
+      <trans-unit id="0085">
+        <source>Pay It Forward</source>
+        <target>crwdns69108:0crwdne69108:0</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="0086">
+        <source>Translate Loopdocs</source>
+        <target>crwdns69110:0crwdne69110:0</target>
+        <note>payitforward/translateloopdocs.md</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

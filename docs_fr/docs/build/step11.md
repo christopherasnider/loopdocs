@@ -1,32 +1,32 @@
-# Step 11: Make Plans for your Loop Data
+# Étape 11 : Gérer vos données Loop
 
-!!!danger "Time Estimate"
-    - Nightscout: 1-2 hours if you've never done it before and work slowly
-    - Nightscout: 20-30 minutes if you have experience in Github and Heroku previously
-    - Tidepool: 30-40 minutes to set up account and Tidepool Mobile app
-    - Apple Health: 0 minutes, already a part of your system
+!!!danger "Temps estimé"
+    - Nuit : 1-2 heures si vous ne l'avez jamais fait auparavant et que vous travaillez lentement
+    - Nuit : 20-30 minutes si vous avez de l'expérience dans Github et Heroku
+    - Tidepool : 30 à 40 minutes pour configurer le compte et l'application Tidepool Mobile
+    - Apple Health: 0 minutes, c'est déjà intégré à votre système
 
-!!!info "Summary"
-    - Review the three major systems that can store and show your Loop data.
-    - Set up either Tidepool or Nightscout prior to your next endo appointment in order to provide them Looping data to review.
+!!!info "Résumé"
+    - Passez en revue les trois principaux systèmes qui peuvent stocker et afficher vos données Loop.
+    - Configurez soit Tidepool soit Nightscout avant votre prochain rendez-vous d'endo afin de leur fournir des données sur votre gestion du diabète.
 
 !!!warning "FAQs"
-    - **"Do I have to set one of these up?"** No. But, your health care provider really does need data. Insurance companies definitely demand data too...so make them happy.
-    - **"Do I need all three?"** No, you can mix-and-match. Apple Health is already built into your iPhone, so there's no setup involved anyways. Nightscout has a lot of useful alarms and alerts, too. Tidepool is free and easy to set up, and many clinics already have Tidepool integration. Nightscout setup is really actually quite easy and Loopdocs has a [complete set of instructions for Loop users](../nightscout/new_user.md).
-    - **Is it worth the time to setup Nightscout? I feel like I'm already doing so much outside my comfort zone."** Yes. The feedback from the thousands of people that have come before you is YES, it is worth the minimal time investment to set up a Nightscout site.
+    - **"Dois-je en configurer un?"** Non. Mais votre prestataire de soins de santé a vraiment besoin de données. Les compagnies d’assurance exigent certainement des données aussi... alors rendez-les heureux.
+    - **« Ai-je besoin des trois»?** Non, vous pouvez mixer les choix. Apple Santé est déjà intégré dans votre iPhone, il n’y a donc pas de configuration à effectuer de toute façon. Nightscout possède un tas d'alarmes utiles et d'alertes également. Tidepool est gratuit et facile à configurer, et beaucoup d'hôpitaux/cliniques l'utilisent. (Note du traducteur: Peut-être sur le continent Américains, mais rarement sur le continent Européen, pas mon CHU de province en France par exemple). Nightscout setup is really actually quite easy and Loopdocs has a [complete set of instructions for Loop users](../nightscout/new_user.md).
+    - **Est-ce que ça vaut le temps de configurer Nightscout ? J’ai l’impression d'en faire tellement et d'être sortie de ma zone de confort."** Oui. Les commentaires des milliers de personnes qui sont venus avant vous est OUI, Cela vaut la peine d'investir un peu de temps pour mettre en place un site Nightscout.
 
-Ok, technically this step could wait until after you build Loop app...but I have your attention now, so I'm taking advantage of it.
+Ok, techniquement, cette étape pourrait attendre jusqu’à ce que vous construisez l’application Loop ... mais maintenant que j’ai votre attention, j’en profite.
 
-With Loop use, you will no longer be using your PDM (if you use Omnipods) and your pump (if you use Medtronic) will be so full of temp basals that the endos will have nothing to download at your next visit. This [lack of data](https://kdisimone.github.io/looptips/data/overview/) will cause a little friction with the health care industry; not good for your insurance records, not good for your endo to feel comfortable, and not good for you to know how your Loop use might be improved with settings tweaks.
+Avec l’utilisation de Loop, vous n’utiliserez plus votre PDM (si vous utilisez Omnipods) et votre pompe (si vous utilisez Medtronic) sera si remplie de basals temporaires que les endos n’auront rien à télécharger lors de votre prochaine visite. Ce [manque de données](https://kdisimone.github.io/looptips/data/overview/) provoquera un peu de friction avec l'industrie des soins de santé ; pas bon pour vos dossiers d'assurance, pas bon pour que votre endo se sente à l'aise et pas bon pour vous de savoir comment votre utilisation de Loop peut être améliorée avec les réglages des paramètres.
 
-So let's explore options for your Loop data. There are three great options for where your Loop data can be stored and retrieved:
+Examinons donc les options pour vos données Loop. Il existe trois excellentes options pour l’endroit où vos données Loop puissent être stockées et récupérées :
 
-* [Apple Health app](https://kdisimone.github.io/looptips/data/health/)
+* [Apple Santé](https://kdisimone.github.io/looptips/data/health/)
 * [Nightscout](https://kdisimone.github.io/looptips/data/nightscout/)
 * [Tidepool](https://kdisimone.github.io/looptips/data/tidepool/)
 
-All of the options are free and easy to setup. Take some time to familiarize yourself with these options and setup your preferred system(s). Personally, I use all three for various aspects of my data's story to me...Nightscout being the most useful day-to-day as a remote caregiver of a young Looper.
+Toutes ces options sont gratuites et faciles à installer. Prenez le temps de vous familiariser avec ces options et configurer votre ou vos systèmes préférés. Personnellement, j’utilise les trois pour divers aspects de l’histoire de mes données pour moi (note du traducteur: Idem)... Nightscout étant le plus utile au quotidien pour un utilisateur Loop débutant.
 
-## Next Step: Meet Community
+## Prochaine étape: Rencontrer la communauté
 
-Now you are ready to move onto Step 12 to [Meet Community](step12.md).
+Maintenant vous êtes prêt à passer à l'étape 12 pour [Rencontrer la communauté](step12.md).

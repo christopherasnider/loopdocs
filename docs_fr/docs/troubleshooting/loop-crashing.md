@@ -1,10 +1,10 @@
-# Loop Crashes Upon Opening
+# Loop plante à l'ouverture
 
-If your Loop app crashes immediately upon opening, you have a problem that needs to be fixed. What do I mean by "crashes"? That your Loop app immediately turns to a white screen and shuts itself down, landing you back at your iPhone's main screen. No amount of tapping will let you keep your Loop app open.
+Si votre application Loop plante immédiatement à l'ouverture, vous avez un problème qui doit être résolu. Qu'est-ce que je veux dire par "plantage"? Que votre application Loop se tourne immédiatement vers un écran blanc et s'éteint, vous ramenant sur l'écran principal de votre iPhone. Aucune actio ne vous permettra de garder votre application Loop ouverte.
 
-There are only two potential causes of this:
+Il n'y a que deux causes possibles à cela:
 
-1. App expired, or
+1. L'application a expiré, ou
 2. A correction range was saved backward.
 
 ## Expired app

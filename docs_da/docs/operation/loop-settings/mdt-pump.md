@@ -32,7 +32,7 @@ You now need to follow a few simple screen prompts to add your Medtronic pump to
 
 ![img/add_pump.png](img/add_pump.png)
 
-!!! info "For x23 and x54 Medtronic pump users only"
+!!!info "For x23 and x54 Medtronic pump users only"
 
     |||
     |---|---|
