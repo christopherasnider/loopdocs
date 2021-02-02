@@ -12,7 +12,7 @@ Loop-Entwickler haben ein Konto bei GitHub. Dort gibt es ein Projekt, welches [L
 
 Wenn du Loop-App zusammenbaust, werden diese Hilfswerkzeuge (insgesamt sieben) im Hintergrund von "Carthage" heruntergeladen und hinzugefügt.  Carthage ist so etwas wie ein persönlicher Einkäufer. You give it a shopping list (the cartfile in Loop code is that shopping list) and it goes and fetches that for you during the build process. Manchmal hat dein Rechner aber eine veraltete Einkaufsliste und so etwas kann Fehler beim Zusammenbauen (Build errors) verursachen. Das ist dann der Grund für den sog. "Carthage Update Fix" in der Fehlerliste beim Zusammenbauen der App. Über dieses Kommando aktualisiert du die Einkaufsliste, um für den Zusammenbau die richtigen Versionen der Komponenten zu verwenden.
 
-![../img/commit.png](img/loopkit.png)
+![img/loopkit.png](img/loopkit.png)
 
 Jedenfalls weisst du jetzt über den generellen Aufbau der Loop-App in Github Bescheid. Jetzt können wir etwas näher auf die Loop-App selbst eingehen.
 
@@ -62,7 +62,7 @@ IoS 13 brachte uns einen eigenartigen kleinen Fehler, bei dem plötzlich deine E
 
 Um einen unabsichtlichen Bolus zu verhindern, solltest du nicht deine Kinder mit der iWatch spielen lassen. Nur Spass, wir haben eine bessere Option hinzugefügt. Es gibt einen neuen Schieber, um den Bolus zu bestätigen, nachdem du den Bolus-Knopf gedrückt hast. Es wird dir dann so etwas wie auf der unteren Grafik angezeigt. Sobald du an der Digital Crown drehst, gehen die zwei Dreiecke inneinander über. Wenn sie dann übereinstimmen, wird der Bolus durch einen kleinen haptischen Hinweis bestätigt und ein weißer Haken erscheint auf der iWatch Anzeige.
 
-![../img/loopdashboard.png](img/spin-to-confirm.png)
+![img/spin-to-confirm.png](img/spin-to-confirm.png)
 
 ### iWatch vorgeschlagene Bolusmenge
 
