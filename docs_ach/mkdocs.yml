@@ -1,0 +1,107 @@
+site_name: Loop documentation
+
+markdown_extensions:
+    - meta
+    - admonition
+    - toc:
+        permalink: true
+    
+plugins:
+  - search
+
+theme:
+  name: material
+  custom_dir: ../overrides_ach
+  language: ach
+  features:
+      - navigation.tabs
+
+use_directory_urls: false
+
+nav:
+- "crwdns68940:0crwdne68940:0" : "index.md" 
+- "crwdns68942:0crwdne68942:0" :
+    - "crwdns68944:0crwdne68944:0" : "faqs/docs-faqs.md"
+    - "crwdns68946:0crwdne68946:0" : "faqs/FAQs.md"
+    - "crwdns68948:0crwdne68948:0" : "faqs/omnipod-faqs.md"
+    - "crwdns68950:0crwdne68950:0" : "faqs/branch-faqs.md"
+    - "crwdns68952:0crwdne68952:0" : "faqs/update-faqs.md"
+    - "crwdns68954:0crwdne68954:0" : "faqs/ios13.md"
+    - "crwdns68956:0crwdne68956:0" : "faqs/rileylink-faqs.md"
+    - "crwdns68958:0crwdne68958:0" : "faqs/algorithm-faqs.md"
+    - "crwdns68960:0crwdne68960:0" : "faqs/cgm-faqs.md"
+    - "crwdns68962:0crwdne68962:0" : "faqs/safety-faqs.md"
+- "crwdns68964:0crwdne68964:0" :
+    - "crwdns68966:0crwdne68966:0" : "build/overview.md" 
+    - "crwdns68968:0crwdne68968:0" : "build/step1.md"
+    - "crwdns68970:0crwdne68970:0" : "build/step2.md"
+    - "crwdns68972:0crwdne68972:0" : "build/step3.md"
+    - "crwdns68974:0crwdne68974:0" : "build/step4.md"
+    - "crwdns68976:0crwdne68976:0" : "build/step5.md"
+    - "crwdns68978:0crwdne68978:0" : "build/step6.md"
+    - "crwdns68980:0crwdne68980:0" : "build/step7.md"
+    - "crwdns68982:0crwdne68982:0" : "build/step8.md"
+    - "crwdns68984:0crwdne68984:0" : "build/step9.md"
+    - "crwdns68986:0crwdne68986:0" : "build/step10.md"
+    - "crwdns68988:0crwdne68988:0" : "build/step11.md"
+    - "crwdns68990:0crwdne68990:0" : "build/step12.md"
+    - "crwdns68992:0crwdne68992:0" : "build/step13.md"
+    - "crwdns68994:0crwdne68994:0" : "build/step14.md"
+    - "crwdns68996:0crwdne68996:0" : "build/build_errors.md"
+    - "crwdns68998:0crwdne68998:0" : "build/code_customization.md"
+    - "crwdns69000:0crwdne69000:0" : "build/updating.md"
+    - "crwdns69002:0crwdne69002:0" : "build/loopworkspace.md"
+- "crwdns69004:0crwdne69004:0" :
+    - "crwdns69006:0crwdne69006:0" : "operation/overview.md"
+    - "crwdns69008:0crwdne69008:0" : "build/health.md"
+    - "crwdns69010:0crwdne69010:0" :
+        - "crwdns69012:0crwdne69012:0" : "operation/loop-settings/mdt-pump.md"
+        - "crwdns69014:0crwdne69014:0" : "operation/loop-settings/omnipod-pump.md"
+    - "crwdns69016:0crwdne69016:0" : "operation/loop-settings/cgm.md"
+    - "crwdns69018:0crwdne69018:0" : "operation/loop-settings/configurations.md"
+    - "crwdns69020:0crwdne69020:0" : "operation/loop-settings/services.md"
+    - "crwdns69022:0crwdne69022:0" : "operation/loop-settings/displays.md"
+    - "crwdns69024:0crwdne69024:0" : "operation/loop-settings/rileylink.md"
+- "crwdns69026:0crwdne69026:0" :
+    - "crwdns69028:0crwdne69028:0" :
+        - "crwdns69030:0crwdne69030:0" : "operation/features/carbs.md"
+        - "crwdns69032:0crwdne69032:0" : "operation/features/bolus.md"
+        - "crwdns69034:0crwdne69034:0" : "operation/features/workout.md"
+        - "crwdns69036:0crwdne69036:0" : "operation/features/premeal.md"
+        - "crwdns69038:0crwdne69038:0" : "operation/features/healthapp.md"
+        - "crwdns69040:0crwdne69040:0" : "operation/features/ice.md"
+        - "crwdns69042:0crwdne69042:0" : "operation/features/watch.md"
+        - "crwdns69044:0crwdne69044:0" : "operation/features/widget.md"
+        - "crwdns69046:0crwdne69046:0" : "operation/features/notifications.md"
+        - "crwdns69048:0crwdne69048:0" : "operation/features/battery.md"
+    - "crwdns69050:0crwdne69050:0" :
+        - "crwdns69052:0crwdne69052:0" : "operation/loop/open-loop.md"
+        - "crwdns69054:0crwdne69054:0" : "operation/loop/close-loop.md"
+        - "crwdns69056:0crwdne69056:0" : "operation/loop/looptips.md"
+    - "crwdns69058:0crwdne69058:0" :
+        - "crwdns69060:0crwdne69060:0" : "operation/algorithm/overview.md"
+        - "crwdns69062:0crwdne69062:0" : "operation/algorithm/bolus.md"
+        - "crwdns69064:0crwdne69064:0" : "operation/algorithm/prediction.md"
+        - "crwdns69066:0crwdne69066:0" : "operation/algorithm/temp-basal.md"
+    - "crwdns69068:0crwdne69068:0" :
+        - "crwdns69070:0crwdne69070:0" : "troubleshooting/overview.md"
+        - "crwdns69072:0crwdne69072:0" : "troubleshooting/loop-crashing.md"
+        - "crwdns69074:0crwdne69074:0" : "troubleshooting/yellow-red-loop.md"
+        - "crwdns69076:0crwdne69076:0" : "troubleshooting/pod-pairing.md"
+        - "crwdns69078:0crwdne69078:0" : "troubleshooting/uncertain-bolus.md"
+        - "crwdns69080:0crwdne69080:0" : "troubleshooting/priming.md"
+        - "crwdns69082:0crwdne69082:0" : "troubleshooting/time-change.md"
+        - "crwdns69084:0crwdne69084:0" : "troubleshooting/pump-errors.md"
+        - "crwdns69086:0crwdne69086:0" : "troubleshooting/omnipod-faults.md"
+- "crwdns69088:0crwdne69088:0" :
+    - "crwdns69090:0crwdne69090:0" : "nightscout/overview.md"
+    - "crwdns69092:0crwdne69092:0" : "nightscout/new_user.md"
+    - "crwdns69094:0crwdne69094:0" : "nightscout/update_user.md"
+    - "crwdns69096:0crwdne69096:0" : "nightscout/troublehoot.md"
+    - "crwdns69098:0crwdne69098:0" : "nightscout/remote-overrides.md"
+    - "crwdns69100:0crwdne69100:0" : "nightscout/ifttt.md"
+    - "crwdns69102:0crwdne69102:0" : "nightscout/pebble.md"
+    - "crwdns69104:0crwdne69104:0" : "nightscout/pushover.md"
+    - "crwdns69106:0crwdne69106:0" : "nightscout/reports.md"
+- "crwdns69108:0crwdne69108:0" :
+    - "crwdns69110:0crwdne69110:0" : "payitforward/translateloopdocs.md"

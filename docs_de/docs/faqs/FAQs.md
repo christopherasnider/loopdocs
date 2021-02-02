@@ -6,14 +6,14 @@ Willkommen bei den LoopDocs - ein Platz für alle häufigen Fragen (FAQs).
 
 Durch Klicken auf das untere Bild kommst du zu einer kurzen [Einführung in Loop (englisch)](https://youtu.be/qw_u1lqboCs) .
 
-[![../img/loop_gear.jpg](../img/intro-to-loop.png)](https://youtu.be/qw_u1lqboCs)
+[![img/loop_gear.jpg](img/intro-to-loop.png)](https://youtu.be/qw_u1lqboCs)
 
 ## Was benötige ich, um zu loopen?
 
 Die Loop-App hat sowohl Hard-, als auch Software-Anforderungen. Allgemein brauchst du sieben Komponenten:
 
 - Eine kompatible Insulinpumpe: [Medtronic or Omnipod](https://loopkit.github.io/loopdocs/build/step3/)
-- [Compatible CGM](../img/loop_gear.jpg)
+- [Compatible CGM](img/loop_gear.jpg)
 - [RileyLink](../build/step5.md)
 - [Ein \[kompatibles iPhone und/oder iPod Touch\](https://loopkit.github.io/loopdocs/build/step2/)](../build/step2.md)
 - [Einen \[Apple Computer mit Mojave macOS 10.14.3 oder neuer\](https://loopkit.github.io/loopdocs/build/step1/).](../build/step1.md)

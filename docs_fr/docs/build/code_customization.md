@@ -58,7 +58,7 @@ Vous pouvez confirmer le changement réussi en regardant dans Xcode sous Loop ->
 
 Et maintenant, vous serez le fier nouveau propriétaire d’une icône Loop personnalisée.
 
-![img/unicorn-logo.jpeg](../img/unicorn-logo.jpeg)
+![img/unicorn-logo.jpeg](img/unicorn-logo.jpeg)
 
 ## Ajustez la sensibilité de la couronne numérique de la montre pour l’entrée de glucides et de bolus
 

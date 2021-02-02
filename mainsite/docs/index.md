@@ -16,3 +16,7 @@ hide:
 [<span class="flag-icon flag-icon-ro"></span> Romania](ro/)
 
 Missing a language? Want to help translate [click here](en/payitforward/translateloopdocs/)
+
+**BETA**: Try the new in-context translation by [clicking here](/ach) and then you can see the translation in the website as you type.
+
+Notice that the translation is not going directly into the language-site as I am still overseeing the pull-requests manually.

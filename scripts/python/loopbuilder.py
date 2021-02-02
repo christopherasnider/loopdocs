@@ -27,16 +27,17 @@ class LoopDocs:
         for subdir in directory_contents:
             fullpath=os.path.join(self.loopDocsPath,subdir)
             if os.path.isdir(fullpath) and "docs_" in subdir:
-                lang=subdir[-2:] 
+                splitted=subdir.split("_")
+                lang=splitted[1] #subdir[-2:] 
                 self.sites.append(LoopDocLanguageSite(lang,self))
     
     def buildSites(self):
         sitedir=self.buildsitePath
         topdirectory=self.loopDocsPath
 
-        self.runBuilder(os.path.join(topdirectory, "mainsite", "mkdocs.yml"), sitedir)
-        self.runBuilder(os.path.join(topdirectory,  "mkdocs_en.yml"), os.path.join(sitedir,"en" ))
-        self.runBuilder(os.path.join(topdirectory,  "mkdocs_old.yml"), os.path.join(sitedir,"en_old" ))   
+       # self.runBuilder(os.path.join(topdirectory, "mainsite", "mkdocs.yml"), sitedir)
+       # self.runBuilder(os.path.join(topdirectory,  "mkdocs_en.yml"), os.path.join(sitedir,"en" ))
+       # self.runBuilder(os.path.join(topdirectory,  "mkdocs_old.yml"), os.path.join(sitedir,"en_old" ))   
 
         for site in self.sites:
             site.buildSite()
@@ -122,6 +123,10 @@ class LoopDocLanguageSite:
         with open(self.langyamlpath,'r',encoding="utf-8") as file:
             data=file.read()
             data=data.replace("language: en",f"language: {self.language}")
+            if self.language=="ach":
+                data=data.replace("custom_dir: ../overrides","custom_dir: ../overrides_ach")
+                data=data.replace("use_directory_urls: true","use_directory_urls: false")
+                
             # content=yaml.load(file)
             # content['theme']['language']=self.language
         newfile = open(self.langyamlpath, "w",encoding="utf-8")
