@@ -1,4 +1,4 @@
-# Step 4: Compatible CGM
+# Trin 4 Kompatibel CGM
 
 !!!danger "Time Estimate"
 
