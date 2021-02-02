@@ -1,6 +1,6 @@
 # Step 3: Compatible Pump
 
-!!!danger "Time Estimate"
+!!!danger "Tidsestimat"
     - Omnipod users: 3 seconds to remember which PDM you've been using.
     - Medtronic users: 10 minutes to put a battery in and look at model and firmware
     - Other pump users: 5 days to email friends asking them to check closets for their old Medtronic pump or call your insurance to start prior authorization for Omnipod
