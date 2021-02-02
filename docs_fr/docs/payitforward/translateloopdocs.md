@@ -1,39 +1,39 @@
-# Translate Loopdocs
+# Traduire Loopdocs
 
-This guide will explain how you can help translating Loopdocs.
+Ce guide vous expliquera comment vous pouvez aider à traduire Loopdocs.
 
-First check to see if your language is in the Loopdoc language page. The language page can be found here: [Loopdocs language page](https://loopdocs.github.io/loopdocs/)
+Vérifiez d’abord si votre langue se trouve dans la page de langue Loopdoc. La page de langue peut être trouvée ici : [Page de langue Loopdocs](https://loopdocs.github.io/loopdocs/)
 
-If your language is listed here the translation-project is already setup and you can join the translation team by follow the guide below.
+Si votre langue est listée ici, le projet de traduction est déjà configuré et vous pouvez rejoindre l'équipe de traduction en suivant le guide ci-dessous.
 
-!!!note "Is your language not there?"
+!!!note "Votre langue n'est pas là ?"
 
-    If your language is not listed and you want to start translating Loopdocs into a new language, please submit an issue on github [here](https://www.github.com/LoopDocs/loopdocs/issues/new?title=New language request&body=Can you please add [ENTER COUNTRY] for translation.).
+    Si votre langue n'est pas listée et que vous voulez commencer à traduire Loopdocs dans une nouvelle langue, veuillez soumettre un problème sur github [here](https://www.github.com/LoopDocs/loopdocs/issues/new?title=New language request&body=Can you please add [ENTER COUNTRY] for translation.).
     
-    The translation team will then setup it up for you. Once it ready for translation, we will notify you in the issue and then you can join the Crowdin Team.
+    L’équipe de traduction le mettra en place pour vous. Une fois qu'il sera prêt pour la traduction, nous vous informerons et vous pourrez rejoindre l'équipe Crowdin.
 
-## Join the Crowdin Team
+## Rejoignez l'équipe Crowdin
 
-1. Goto [Crowdin](https://crowdin.com/project/loopdoctranslation)
-2. Login (or sign up by creating a new login or use your github, facebook or other account)
-3. Choose your language
-4. Select a file to translate.
+1. Aller dans [Crowdin](https://crowdin.com/project/loopdoctranslation)
+2. Connectez-vous (ou inscrivez-vous en créant une nouvelle connexion ou utilisez votre compte github, facebook ou autre compte)
+3. Sélectionnez votre langue
+4. Sélectionnez un fichier à traduire.
 
-And you are ready to translate.
+Et vous êtes prêt à traduire.
 
-If you have not use crowdin before there is a short introduction to Crowdin below.
+Si vous n'avez jamais utilisé crowdin avant, il y a une courte introduction à Crowdin ci-dessous.
 
-If you want a more detailed explanation of how to use Crowdin, please visit [Crowdin - for translators](https://support.crowdin.com/online-editor/)
+Si vous voulez une explication plus détaillée sur la façon d'utiliser Crowdin, veuillez visiter [Crowdin - pour les traducteurs](https://support.crowdin.com/online-editor/)
 
-You can also join the zulip stream [here](https://loop.zulipchat.com/#narrow/stream/270362-documentation/topic/Translation) which are dedicated to the translation of loopdocs.
+Vous pouvez également rejoindre le flux zulip [ici](https://loop.zulipchat.com/#narrow/stream/270362-documentation/topic/Translation) dédié à la traduction de loopdocs.
 
-## Crowdin introduction
+## Introduction à Crowdin
 
-When you have selected your language and a file, the Crowdin editor opens.
+Lorsque vous avez sélectionné votre langue et un fichier, l'éditeur Crowdin s'ouvre.
 
-The Crowdin editor has 5 main areas which are highlighted below: ![Crowdin areas](img/crowdinareas.png)
+L'éditeur Crowdin a 5 zones principales qui sont surlignées ci-dessous: ![Crowdin areas](img/crowdinareas.png)
 
-**1. Document to translate** - contain all the sentences in the document.You translate one sentence at the time. You can click the sentence you want to translate. When you click a sentence the 4 other areas change.
+**1. Document à traduire** - contient toutes les phrases dans le document.Vous traduisez une phrase à la fois. Vous pouvez cliquer sur la phrase que vous voulez traduire. When you click a sentence the 4 other areas change.
 
 The sentences are colored in:
 
