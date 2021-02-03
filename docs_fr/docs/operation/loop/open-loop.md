@@ -1,6 +1,6 @@
-# Open-Loop
+# Boucle Ouverte
 
-Open-loop is a great place to start with Loop. When you are operating in open-loop mode, Loop is offering recommendations for temp basals and will display them on the main screen.  The recommendations will not be enacted unless you specifically choose to enact the temp basal.  Usually in open-loop mode, you aren't really enacting the recommended basals but instead watching how the recommendations come in and figuring out WHY they are being recommended.
+La boucle ouverte est un excellent endroit pour commencer avec Loop. Lorsque vous fonctionnez en mode boucle ouverte, Loop propose des recommandations pour les basals temporaires et les affichera sur l’écran principal.  The recommendations will not be enacted unless you specifically choose to enact the temp basal.  Usually in open-loop mode, you aren't really enacting the recommended basals but instead watching how the recommendations come in and figuring out WHY they are being recommended.
 
 It is understandable to want to jump straight away into close-loop mode, but a lot can be learned by watching Loop operate in open mode.  Becoming familiar with the algorithm can be easier by watching it in action rather than only reading about it in docs.
 
