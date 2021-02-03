@@ -36,25 +36,25 @@ Pour aider Loop à ajuster les glucides qui peuvent digérer plus lentement que 
 
 ## Mixer les glucides d'un repas
 
-Vous n’avez pas à entrer tous les glucides pour un repas au même temps d’absorption ou de consommation.  If you want to enter some of the meal's carbs as faster, and some slower, you can log the meal over several individual carb entries.  For example, for meals that have sugary carbs as well as slow acting carbs (Chinese food), you may wish to do part of the carbs as lollipop and part of the carbs as pizza.
+Vous n’avez pas à entrer tous les glucides pour un repas au même temps d’absorption ou de consommation.  Si vous voulez entrer certains glucides du repas avec une vitesse d'absorption rapide, et certains plus lents, vous pouvez enregistrer le repas en décomposant en plusieurs entrées de glucides.  Par exemple, pour les repas qui contiennent des glucides sucrés ainsi que des glucides à action lente (nourriture chinoise), vous pouvez faire une partie des glucides avec le logo sucette et une partie des glucides avec celui de la pizza.
 
-Pressing the `Save` button in the top right corner will save the carbs into the Loop app and bring up the Loop's bolus tool.  When entering multiple carb absorption durations for a single meal, press save on the carb entry and then press cancel on the bolus tool when it appears.  When you have entered your last carb entry for the meal, then use the bolus tool to deliver the bolus for the entire meal.  Loop will provide a recommendation based on all the saved carbs and their respective absorption durations in total.
+En appuyant sur le bouton `Enregistrer` dans le coin supérieur droit pour enregistrer les glucides dans l’application Loop et de faire apparaitre l’outil bolus.  Lorsque vous entrez plusieurs durées d’absorption des glucides pour un seul repas, appuyez sur enregistrer sur l’entrée de glucides, puis appuyez sur annuler sur l’outil bolus quand il apparaît.  Lorsque vous avez entré votre dernière entrée de glucides pour le repas, utilisez l'outil bolus pour fournir le bolus pour le repas entier.  Loop fournira une recommandation basée sur le total des glucides enregistrés et leurs durées d’absorption respectives.
 
 ## Prebolus
 
-You can let Loop know you are going to prebolus a meal by adjusting the time of the carb entry on the “date” line of the carb entry.  If you are prebolusing by 20 minutes, simply add 20 minutes to the carb entry time.
+Vous pouvez indiquer à Loop que vous pré annoncer un bolus d'un repas en ajustant l'heure de l'entrée de glucides sur la ligne « date » de l'entrée de glucides.  Si vous avez un prébolus de 20 minutes, ajoutez simplement 20 minutes à l'heure d'entrée des glucides.
 
-## Edit Carbs
+## Modifier les Glucides
 
-Clicking on the Carbohydrate chart in the Loop's main status screen will open the carb entry history and previous entries can be modified or deleted through this screen.  If you need to change a prebolus time, add/subtract carbs, adjust carb absorption times (even mid-meal), just go into that edit screen and tap on the carb entry you'd like to edit, or left-swipe to delete the entry entirely.  This can be a particularly useful tool when:
+En cliquant sur le graphique des glucides dans l'écran principal de Loop, vous ouvrirez l'historique de l'entrée de glucides et les entrées précédentes pourront être modifiées ou supprimées à travers cet écran.  Si vous avez besoin de changer l'heure du prébolus, ajouter/soustraire les glucides, ajuster les temps d'absorption des glucides (même au milieu du repas), entrez simplement dans cet écran d'édition et appuyez sur l'entrée de glucides que vous souhaitez modifier, ou glissez vers la gauche pour supprimer complètement l'entrée.  Cela peut être un outil particulièrement utile lorsque :
 
-* You did not finish an entire meal that you bolused for,
-* You did not get to eat meal at the time you originally expected,
-* You ate more servings than originally entered, or
-* You suspect your carb count was in error because BGs are rising more/less than expected.
+* Vous n'avez pas terminé un repas entier pour lequel vous avez deja déclaré un bolus,
+* Vous n'avez pas mangé de repas au moment initialement prévu,
+* Vous avez mangé plus de quantité que ce qui était entré prévu initialement, ou
+* Vous soupçonnez que votre nombre de glucides était erroné parce que la glycemie augmente plus/moins que prévu.
 
 ![img/carb_edit.png](img/carb_edit.png)
 
-## Third Party Apps
+## Applications tierces
 
-If you use a 3rd party app, such as My Fitness Pal, to enter and track carbs and that app also stores the carb values in HealthKit, Loop will read those values from Apple HealthKit and display and use them in calculating temp basal rates. Entries from 3rd party apps can not be removed from within Loop.  You will have to edit them in the third party app, or from the Health app. Because of this potential for confusion, it is recommended to turn off Loop's ability to read other apps' carbohydrate data from HealthKit. You are asked if you want to enable this when Loop is first installed. After installation, you can also go to the Settings App -> Privacy -> Health -> Loop and turn off `Read Data for Carbohydrates`.
+Si vous utilisez une application tierce, telle que My Fitness Pal, pour entrer et suivre les glucides et cette application stocke également les valeurs de glucides dans Santé, Loop lira ces valeurs depuis Apple Santé et les affichera et les utilisera dans le calcul des débits de basal temporaires. Les entrées des applications tierces ne peuvent pas être retirées à partir de Loop.  Vous devrez les modifier dans l'application tierce ou depuis l'application Santé. En raison de ce risque de confusion, il est recommandé de désactiver la capacité de Loop à lire les données sur les glucides des autres applications de Santé. On vous demande si vous voulez activer cette option lorsque Loop est installé pour la première fois. Après l'installation, vous pouvez également aller dans l'application Paramètres -> Confidentialité -> Santé -> Loop et désactiver `Lire les données pour les glucides`.
