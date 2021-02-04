@@ -1,18 +1,18 @@
-# Loop Tips
+# Conseils sur Loop
 
-These docs are a great resource for the technical aspects of building your Loop app.  However, they don't really cover in detail a lot of the frequently asked questions about *USING* Loop.
+Ces documents sont une excellente ressource pour les aspects techniques de la construction de votre application Loop.  Cependant, ils ne couvrent pas vraiment en détail beaucoup des questions fréquemment posées à propos de l'*UTILISATION* de Loop.
 
-Things such as:
+Des choses telles que:
 
 * How to enter low treatments while using Loop?</br></br>
-* What to discuss with your Endo?</br></br>
-* What data reports might be useful?</br></br>
-* How to deal with failed sites?</br></br>
-* What about pizza boluses?</br></br>
-* What do I do when I shower or swim?</br></br>
+* Quoi discuter avec votre Endo ?</br></br>
+* Quels rapports de données peuvent être utiles?</br></br>
+* Comment faire face aux sites en panne?</br></br>
+* Qu'en est-il des bolus de pizza ?</br></br>
+* Que dois-je faire lorsque je me douche ou que je nage?</br></br>
 
-All of those usability questions and more are addressed over in the companion site called [Looptips](https://looptips.org).
+Toutes ces questions d'utilisation et plus encore sont traitées dans le site compagnon appelé [Looptips](https://looptips.org).
 
-Please head over to Looptips in order to read some really helpful tips to make your Looping easier.
+Veuillez vous rendre sur Looptips afin de lire quelques conseils très utiles pour faciliter votre utilisation de Loop.
 
 ![img/looptips.png](img/looptips.png)
