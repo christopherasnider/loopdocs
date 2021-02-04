@@ -2,22 +2,22 @@
 
 !!!danger "Geschätzte Zeit"
 
-    - 10-15 minutes assuming you know your computer's password
-    - 35 minutes if you can't remember your password and have to guess
+    - 10-15 Minuten vorausgesetzt, du kennst das Passwort deines Computers
+    - 35 Minuten, wenn du dein Passwort nicht mehr weist und raten musst
 
 !!!info "Zusammenfassung"
 
-    - Install Homebrew by simply copying and pasting a long line of gibberish into the ugly Terminal application.
+    - Installiere Homebrew einfach, indem du einen langen kauderwelsch Text in die Terminalanwendung kopierst und bestätigst.
 
 !!!warning "FAQs"
 
-    - **"What if I don't get an "Installation successful" message?"** If you don't see a successful installation message, please try the copy-paste again. If you fail to get Homebrew installed, your Loop build will also fail. You can't just skip this step. The most common cause of errors is failing to copy the ENTIRE line of code ...people sometimes fail to get that last `"` at the end of the line. Also, you need to be using a user account on the computer that has "admin" rights, since this process is installing a program on the computer.
+    - **"Was passiert, wenn ich keine "Installation erfolgreich" Rückmeldung bekomme?"** Wenn du keine erfolgreiche Installationsnachricht siehst, probiere es bitte einfach noch einmal. Wenn du Homebrew nicht installiert hast, wird auch die Erstellung von Loop fehlschlagen. Diesen Schritt kannst du nicht überspringen. Die häufigste Fehlerursache ist das Nichtkopieren der ganzen -Codezeile ... Manchmal gelingt es den Leuten nicht, das letzte `"` am Ende der Zeile zu erwischen. Außerdem musst du ein Benutzerkonto auf dem Computer mit "Admin"-Rechten verwenden, da Homebrew ein Programm ist und auf dem Computer installiert wird.
 
-Breath deep...this step looks kind of "programmer code" weirdness. BUT, it isn't. Well, it is...but we will be just simply copying and pasting one line of the weirdness and then walking away. We don't actually have to know much about Homebrew itself or what the line of code means exactly.
+Tief durchatmen... dieser Schritt sieht aus wie "Programmiercode". Ist es aber nicht. Na ja, ist es doch... aber wir kopieren einfach nur eine Zeile dieser Seltsamkeit, fügen sie ein und fertig. Wir müssen eigentlich nicht viel über Homebrew selbst wissen, oder was die Zeile Code genau bedeutet.
 
-## User needs to be an Admin account on computer
+## Der Benutzer muss ein Admin-Konto auf dem Computer habem
 
-Homebrew is a program that will allow us to install the needed packages to build Loop. Before installing Homebrew, we need to double check one thing...that the user account on the computer that you are using to build Loop, that **user account needs to have Administrative rights on the computer**. How can you tell? Go to the computer's System Preferences application, open the Users & Groups section. If your account that you are using doesn't say "Admin" under your name, then you need to click the lock and change that to an Admin account before proceeding. If you are using a work computer, you may not have admin rights on that computer...so be aware that you may have restrictions on company owned computers.
+Homebrew ist ein Programm, mit dem wir die benötigten Pakete installieren können, um Loop zu erstellen. Before installing Homebrew, we need to double check one thing...that the user account on the computer that you are using to build Loop, that **user account needs to have Administrative rights on the computer**. How can you tell? Go to the computer's System Preferences application, open the Users & Groups section. If your account that you are using doesn't say "Admin" under your name, then you need to click the lock and change that to an Admin account before proceeding. If you are using a work computer, you may not have admin rights on that computer...so be aware that you may have restrictions on company owned computers.
 
 ![../img/carthage-done.png](img/admin-user.png)
 
