@@ -9,7 +9,7 @@
       </trans-unit>
       <trans-unit id="0002">
         <source>FAQs</source>
-        <target state="needs-translation">FAQs</target>
+        <target state="translated">FAQs</target>
         <note/>
       </trans-unit>
       <trans-unit id="0003">
@@ -374,7 +374,7 @@
       </trans-unit>
       <trans-unit id="0075">
         <source>Nightscout</source>
-        <target state="needs-translation">Nightscout</target>
+        <target state="translated">Nightscout</target>
         <note/>
       </trans-unit>
       <trans-unit id="0076">
