@@ -2,7 +2,7 @@
 
 ![img/toolbar.png](img/toolbar.png)
 
-Bolus entries can be made manually through the bolus tool (double orange triangles) in the toolbar, either as part of a meal bolus or as a correction for a high BG.
+Les entrées de Bolus peuvent être faites manuellement à travers l'outil bolus (double triangles orange) dans la barre d'outils, soit dans le cadre d'un bolus de repas ou comme correction pour une glycémie élevée.
 
 ## Meal Bolus
 

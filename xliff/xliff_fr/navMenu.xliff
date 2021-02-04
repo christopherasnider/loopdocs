@@ -219,7 +219,7 @@
       </trans-unit>
       <trans-unit id="0044">
         <source>Operate</source>
-        <target state="translated">Exploiter</target>
+        <target state="translated">Utilisation</target>
         <note/>
       </trans-unit>
       <trans-unit id="0045">
@@ -429,7 +429,7 @@
       </trans-unit>
       <trans-unit id="0086">
         <source>Translate Loopdocs</source>
-        <target state="translated">Traduire la Loopdocs</target>
+        <target state="translated">Traduire Loopdocs</target>
         <note>payitforward/translateloopdocs.md</note>
       </trans-unit>
     </body>
