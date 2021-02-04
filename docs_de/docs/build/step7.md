@@ -43,7 +43,7 @@ Ok, da wir jetzt das Benutzerkonto bestätigt haben, öffne die Terminal-Anwendu
     <img src="../img/rosetta.png" width="350">
     </p>
 
-Jetzt, wo du die Terminal-App im Dienstprogramme Ordner gefunden hast (und bereits Rosetta aktiviert hast, wenn du ein M1-Benutzer bist)...doppelklicke auf den Namen der Terminal-App, damit sie geöffnet wird. Die Terminal-App sieht wirklich sehr simple aus, wenn du sie geöffnet hast, das ist richtig so. Kopiere und füge die Zeile in aus dem kleinen grauen Feld unten hinter die Terminal Eingabeaufforderung ein.
+Jetzt, wo du die Terminal-Anwendung im Dienstprogramme Ordner gefunden hast (und bereits Rosetta aktiviert hast, wenn du ein M1-Benutzer bist)...doppelklicke auf den Namen der Terminal-Anwendung , damit sie geöffnet wird. Die Terminal-App sieht wirklich sehr simple aus, wenn du sie geöffnet hast, das ist richtig so. Kopiere und füge die Zeile in aus dem kleinen grauen Feld unten hinter die Terminal Eingabeaufforderung ein.
 
  `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
@@ -79,7 +79,7 @@ Du solltest so etwas wie unten sehen, wenn der Befehl erfolgreich ausgeführt wu
 
 ![img/carthage-done.png](img/carthage-done.png)
 
-Du kannst jetzt die Terminal-App schließen. Du bist damit fertig und musst diese Schritte NICHT mehr für weitere Loop Erstellungen wiederholen. Dies ist einer der "nach einem Mal erledigt" Schritte beim einem neuen Computer. Nur wenn du einen neuen Computer bekommst, musst du diesen Schritt wiederholen.
+Du kannst jetzt die Terminal-Anwendung schließen. Du bist damit fertig und musst diese Schritte NICHT mehr für weitere Loop Erstellungen wiederholen. Dies ist einer der "nach einem Mal erledigt" Schritte beim einem neuen Computer. Nur wenn du einen neuen Computer bekommst, musst du diesen Schritt wiederholen.
 
 ## Homebrew deinstallieren
 
@@ -87,8 +87,8 @@ Wenn bei dir etwas mit der Homebrew Installation schief gegangen ist, du es lös
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"`
 
-Kopiere und füge diese ganze Zeile in die Terminal-Anwendung ein. Then you can retry the installation of Homebrew using the install command listed earlier in this page.
+Kopiere und füge diese ganze Zeile in die Terminal-Anwendung ein. Dann kannst du die Installation von Homebrew mit dem zuvor auf dieser Seite aufgelisteten Installationsbefehl erneut versuchen.
 
-## Next Step: Download Xcode
+## Nächster Schritt: Herunterladen von Xcode
 
-Now you are ready to move onto Step 8 to [download Xcode](step8.md).
+Jetzt kannst du mit Schritt 8 weitermachen [Herunterladen von Xcode](step8.md).
