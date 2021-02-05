@@ -10,7 +10,7 @@
       
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.7">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
     
     
       
@@ -1030,29 +1030,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#meal-bolus" class="md-nav__link">
-    Meal Bolus
+  <a href="#bolus-de-repas" class="md-nav__link">
+    Bolus de repas
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#correction-bolus" class="md-nav__link">
-    Correction Bolus
+  <a href="#bolus-de-correction" class="md-nav__link">
+    Bolus de correction
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#starting-bolus-notification" class="md-nav__link">
-    Starting Bolus Notification
+  <a href="#demarrage-de-la-notification-de-bolus" class="md-nav__link">
+    Démarrage de la notification de Bolus
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#bolus-failure-notifications" class="md-nav__link">
-    Bolus Failure Notifications
+  <a href="#notifications-dechec-du-bolus" class="md-nav__link">
+    Notifications d'échec du Bolus
   </a>
   
 </li>
@@ -1670,29 +1670,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#meal-bolus" class="md-nav__link">
-    Meal Bolus
+  <a href="#bolus-de-repas" class="md-nav__link">
+    Bolus de repas
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#correction-bolus" class="md-nav__link">
-    Correction Bolus
+  <a href="#bolus-de-correction" class="md-nav__link">
+    Bolus de correction
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#starting-bolus-notification" class="md-nav__link">
-    Starting Bolus Notification
+  <a href="#demarrage-de-la-notification-de-bolus" class="md-nav__link">
+    Démarrage de la notification de Bolus
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#bolus-failure-notifications" class="md-nav__link">
-    Bolus Failure Notifications
+  <a href="#notifications-dechec-du-bolus" class="md-nav__link">
+    Notifications d'échec du Bolus
   </a>
   
 </li>
@@ -1727,17 +1727,17 @@
                 <h1 id="bolus">Bolus<a class="headerlink" href="#bolus" title="Permanent link">&para;</a></h1>
 <p><img alt="img/toolbar.png" src="../img/toolbar.png" /></p>
 <p>Les entrées de Bolus peuvent être faites manuellement à travers l'outil bolus (double triangles orange) dans la barre d'outils, soit dans le cadre d'un bolus de repas ou comme correction pour une glycémie élevée.</p>
-<h2 id="meal-bolus">Meal Bolus<a class="headerlink" href="#meal-bolus" title="Permanent link">&para;</a></h2>
-<p>Loop has a bolus tool, similar to a pump’s bolus wizard. After a carb entry is saved, Loop will provide a bolus screen with a recommended bolus amount. The only time the bolus screen wouldn't appear is if Loop believes the insulin-on-board is already sufficient to cover the added carbs or you are missing current blood glucose data. If you want to deliver the total amount of the recommended bolus, simply tap on the recommended amount of units and the bolus delivery line will automatically be filled in with the same units. If you want to give fewer units than the recommended amount, you can manually enter the desired amount to be delivered.</p>
-<p>The bolus tool will not offer a recommended bolus if your BG is predicted to go below your specified suspend threshold. A screen will appear letting you know the reason no bolus is being recommended, as well as the status of your active COB and IOB. You can choose to override that warning and give a bolus, or treat the low BG and come back to the bolus tool when your BG has recovered.</p>
+<h2 id="bolus-de-repas">Bolus de repas<a class="headerlink" href="#bolus-de-repas" title="Permanent link">&para;</a></h2>
+<p>Loop dispose d’un outil bolus, similaire à l’assistant bolus d’une pompe. Après l’enregistrement d’une entrée de glucides, Loop fournira un écran bolus avec une quantité de bolus recommandée. La seule fois où l’écran bolus n’apparaîtrait pas, c’est si Loop croit que l’insuline active est déjà suffisante pour couvrir les glucides ajoutés ou si il n'y a pas de données actuelles sur la glycémie. Si vous voulez livrer la quantité totale du bolus recommandé, il suffit de tapoter simplement sur la quantité recommandée d’unités et la ligne de livraison bolus sera automatiquement rempli avec les mêmes chiffres. Si vous voulez donner moins d'unités que le montant recommandé, vous pouvez entrer manuellement la quantité désirée à livrer.</p>
+<p>L'outil bolus n'offrira pas de bolus recommandé si votre glycémie prévisionnelle va être en dessous du seuil de suspension spécifié. Un écran apparaîtra vous informant de la raison pour laquelle aucun bolus n'est recommandé, ainsi que de l'état de vos glucides actifs et votre Insuline active. Vous pouvez choisir de passer outre à cet avertissement et de donner un bolus, ou de traiter le faible glycémie et revenir à l’outil bolus lorsque votre glycémie a récupéré.</p>
 <p><img alt="img/below_min.png" src="../img/below_min.png" /></p>
-<h2 id="correction-bolus">Correction Bolus<a class="headerlink" href="#correction-bolus" title="Permanent link">&para;</a></h2>
-<p>Occasionally, a recommended bolus will be offered in the bolus tool unrelated to a newly saved carb entry. In those cases, Loop is calculating that it will not be able to stay in the BG correction range through the use of high temp basals alone and is offering a “correction bolus”. Correction boluses will not be delivered automatically by Loop, they must be delivered by the user. Loop will also not give an alert when a correction bolus is being offered, the bolus entry tool must be clicked to check for one. The Loop pill in Nightscout will display when Loop has a recommended bolus calculated. In a well-tuned Loop with decent carb counting, correction boluses should be infrequently needed.</p>
-<h2 id="starting-bolus-notification">Starting Bolus Notification<a class="headerlink" href="#starting-bolus-notification" title="Permanent link">&para;</a></h2>
-<p>A new status line will appear when Loop is sending a bolus command to the pump. Just above the main screen's glucose chart, you will see a "starting bolus" indicator.</p>
+<h2 id="bolus-de-correction">Bolus de correction<a class="headerlink" href="#bolus-de-correction" title="Permanent link">&para;</a></h2>
+<p>Parfois, un bolus recommandé sera proposé dans l'outil bolus sans lien avec une entrée nouvellement enregistrée en glucides. Dans ces cas, Loop calcule si il ne sera pas en mesure de rester dans la plage de correction de glycémie grâce à l’utilisation de basals temporaire uniquement et offre un « bolus de correction ». Les bolus de correction ne seront pas livrés automatiquement par Loop, ils doivent être livrés par l’utilisateur. Loop ne donnera pas non plus une alerte quand un bolus de correction est suggéré, l’outil d’entrée bolus doit être cliqué pour vérifier si il le propose. La pilule Loop dans Nightscout s’affichera lorsque Loop aura calculé un bolus recommandé. Pour un Loop bien réglée avec un comptage des glucides correct, un bolus de correction devrait être rarement nécessaire.</p>
+<h2 id="demarrage-de-la-notification-de-bolus">Démarrage de la notification de Bolus<a class="headerlink" href="#demarrage-de-la-notification-de-bolus" title="Permanent link">&para;</a></h2>
+<p>Une nouvelle ligne d'état apparaîtra lorsque la boucle enverra une commande bolus à la pompe. Juste au-dessus du graphique de glycémie de l'écran principal, vous verrez un indicateur "Commencer un bolus".</p>
 <p><img alt="img/starting_bolus.png" src="../img/starting_bolus.png" /></p>
-<h2 id="bolus-failure-notifications">Bolus Failure Notifications<a class="headerlink" href="#bolus-failure-notifications" title="Permanent link">&para;</a></h2>
-<p>On occasion, you will receive notification that a bolus may have failed. In some of these cases, the bolus actually will begin delivery. Therefore, you should always check the pump screen to verify the bolus status before attempting to redeliver a failed bolus.</p>
+<h2 id="notifications-dechec-du-bolus">Notifications d'échec du Bolus<a class="headerlink" href="#notifications-dechec-du-bolus" title="Permanent link">&para;</a></h2>
+<p>À l’occasion, vous recevrez une notification qu’un bolus peut avoir échoué. Dans certains de ces cas, le bolus commencera en fait à être administré. Par conséquent, vous devriez toujours vérifier l'écran de la pompe pour vérifier le statut du bolus avant d'essayer de redélivrer un bolus après un échec.</p>
 <h2 id="square-or-dual-waves">Square or Dual Waves<a class="headerlink" href="#square-or-dual-waves" title="Permanent link">&para;</a></h2>
 <p>Unfortunately, Loop cannot enact temp basals while the pump is delivering a square- or dual-wave bolus. Therefore, you will need to use alternate bolusing strategies for situation where you would've previously used those extended bolusing techniques.</p>
 <p>The good news is that Loop has the only "smart" bolus tool available in any DIY or commercial loop. Because you are entering a carb absorption time with each carb entry, Loop is also using that information to predict how well your insulin bolusing and carb absorption will align. So when Loop offers you a bolus, it may actually offer less of a bolus upfront for long, slow-carb meals...and will make up the remaining bolus amount via high temp basals later.</p>
@@ -1875,8 +1875,8 @@ Need the utteranc-app on repository.
       
     </div>
     
-      <script src="../../../assets/javascripts/vendor.53cc9318.min.js"></script>
-      <script src="../../../assets/javascripts/bundle.e9c9f54f.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copier dans le presse-papier", "clipboard.copied": "Copi\u00e9 dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../../../assets/javascripts/vendor.18f0862e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.994580cf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copier dans le presse-papier", "clipboard.copied": "Copi\u00e9 dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
