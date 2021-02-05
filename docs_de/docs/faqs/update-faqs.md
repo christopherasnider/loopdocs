@@ -1,62 +1,62 @@
-# Updating/Rebuilding Loop FAQs
+# Aktualisierung/Neubau der Loop-App FAQs
 
-SOOOO many questions about updating or rebuilding Loop. The general answer is that people tend to overthink this. Rebuilding your Loop app is really quite easy...so a short read of these questions should help a lot.
+SOOOO many questions about updating or rebuilding Loop. The general answer is that people tend to overthink this. Die Aktualisierung deiner Loop App ist im Grunde genommen sehr einfach. Also das Durchlesen dieser Seite sollte die meisten Fragen beantworten.
 
-First, please take a minute to understand what the words mean.
+Zuerst solltest du dir die Zeit nehmen und die Bedeutung der Begriffe vestehen.
 
-"Updating Loop" is the process of getting a new download of Loop's code and using that to update your Loop. You do this when you want to switch branches. You do this when you want to get fixes or new features from the same branch. The process doesn't care if you are moving from omnipod-testing -> dev or jojo -> dev or master -> dev or any other combination.
+"Aktualisieren der Loop-App" ist der Prozess des Herunterladens des Quellcodes und Aktualisierens der Loop-App. Dies ist notwendig, wenn du auf eine andere Version wechseln möchtest. Dies ist auch notwendig, wenn du neue Features oder Fehlerkorrekturen aus dem bereits von dir verwendeten Versionszweig verwenden möchtest. Bei diesem Prozess ist es egal, ob du vom Versionszweig "omnipod-testing" auf "dev" oder "jojo" nach "dev" oder "master" nach "dev oder irgend eine andere Kombination wechselst.
 
-Updating Loop is the same idea as what happens to your other apps on your iPhone when you update them from the App Store on the phone. A refreshed version of the same app appears on the phone, simply replacing-in-place the same Loop you were using with an updated version.
+Die Loop-App zu aktualisieren ist im Grunde das gleiche, wie wenn du eine andere App auf deinem iPhone über den App Store aktualisierst. Eine neue Version der Loop App erscheint auf deinem iPhone und ersetzt die alte Version.
 
-## Where should I start when I want to update my Loop?
+## Womit soll ich anfangen, wenn ich meine Loop App aktualisieren möchte?
 
-**ALWAYS start with the [Update Loop page](../build/updating.md) before any new build that you'd be doing.** That page is important because it will offer information on the updates you need to do before building, as well as any late breaking things that might need to be considered.
+**Beginne IMMER mit der [Update Loop Seite](../build/updating.md) bevor die irgendwelche Builds startest.** Diese Seite ist sehr wichtig, da sie dir Informationen über die Aktualisierungen liefert, bevor du die App zusammenbaust und sie dir die neuesten Hinweise gibt, die du bei diesem Vorgaang beachten solltest.
 
-Do not simply build with your old downloaded folder from months ago. There is a high likelihood that your original code from awhile ago is outdated. Grab new code and you will get the version that has all the latest and greatest features and bug fixes.
+Erstelle die App nicht einfach mit der schon Monate alten, bereits heruntergeladen Version. Es ist sehr wahrscheinlich, dass die alte Version nicht mehr aktuell ist. Nimm die neueste Version, die bereits die neuesten und besten Features und Fehlerkorrekturen enthält.
 
-## When do I have to update/rebuild?
+## Wann soll ich aktualisieren oder neu erstellen?
 
-Absolute minimum: 1 year from when you last built (paid account).
+Das absolute Minimum ist: Ein Jahr nach deinem letzten Build (nur beim bezahlten Apple Account, beim unbezahlten Account sieben Tage).
 
-Good idea minimum: If on dev branch, frequently. I've found valuable updates to dev branch at least once a week lately...but I'd say monthly minimum at least for dev right now. Master and omnipod-testing branch do not have changes frequently.
+Gut gemeintes Minimum: Wenn du einen Entwicklungszweig (Dev-Branch) verwendest, möglichst oft. Ich habe wertvolle Updates im Entwicklungszweig mindestens einmal pro Woche gefunden. Aber monatlich sollte das Minimum sein. Der Hauptzweig (Master Branch) und der Omnipod-Testing-Zweig haben weniger häufig Aktualisierungen.
 
-Issue specific minimum: There are also times where you may need to update for "hot-fixes" to keep your Loop working when other things change. For example, the new style Dexcom transmitters changed their Bluetooth protocol. Loop's code was updated for the new transmitters so that offline looping can continue to work. If you don't update to get that fix, you will be forced to rely on internet-required looping because older versoin of Loop won't have the updated protocols.
+Fallspezifisches Minimum: Es kann auch der Fall auftreten, dass du aktualisieren solltest, weil es "Hot-Fixes" für deine Version gibt, die das ganze am Laufen halten sollen. Ein Beispiel war, dass bei den Dexcom Empfänger das Bluetooth-Protokoll geändert wurde. Der Quellcode für die Loop-App wurde so angepasst, dass sie mit dem neuen Protokoll auch im Offline-Fall umgehen kann. Solltest du in so einem Fall nicht aktualisieren, wärst du gezwungen, dass die Loop-App immer eine Internetverbindung hat, um die Loop zu schließen.
 
-## Will I have to delete my old Loop app?
+## Muss ich meine alte Version der Loop-App löschen?
 
-No. No. No. No. No. No. Do not delete your old Loop. In fact, that is a bad idea as you will lose your currently paired pod and/or settings if you do that. So, don't delete (except for two situations below):
+No. No. No. No. No. No. Do not delete your old Loop. Das wäre eine wirklich keine gute Idee, da du dann die Verbindung zu deinem momentanen Pod und deine ganzen Einstellungen verlierst. Also lösche die alte Version nur in den folgenden beiden Situationen:
 
-1. You broke it: There is a glitch in Loop where if you enter the target correction range backwards, then your Loop app will stop working. Correction range needs to be in minimum-maximum, for example 100-120 mg/dL. If you entered that as 120-100 mg/dL, Loop will not work during the time that backwards correction range is supposed to be active. In this case you would need to delete the app and rebuild.</br></br>
-2. Moving from dev branch back down to jojo branch. The way the new dev branch is coded will require you to delete your dev build prior to going back jojo branch.
+1. Du hast es kaputt gespielt: Es gab eine Unschönheit in der Loop App, die auftrat, wenn du falsch herum deinen Zielbereich angepasst hast. Dann ging die Loop-App kaputt. Der Zielbereich muss als Minimum-Maximum-Werte angegeben werden, z.B. 100-120 mg/dl. If you entered that as 120-100 mg/dL, Loop will not work during the time that backwards correction range is supposed to be active. In diesem Fall musst du Loop App löschen und neu zusammenbauen.</br></br>
+2. Wechsel vom Entwicklungszweig zum jojo-Zweig. Die Art und Weise wie der neue Entwicklungszweig implementiert wurde, setzt voraus, dass du deine Entwicklungsversion löschst, bevor du die jojo-Version aufspielen kannst.
 
-## Does updating make a separate, second Loop app?
-
-Yes. So long as you use the same developer team as you originally built the app with before.
-
-The only exception to this is if you update/build using a different developer signing team than your original Loop app was built with. The app's identity on your phone is defined by the developer team that you signed the app with. That team has a unique ID to identify the app. So, if you change that unique ID, your phone interprets that as a unique app as well...giving you two Loop apps on the phone. Therefore, if changing developer accounts...you will get a new Loop app, and you would need a new Pod. You'll need to transfer your settings manually to the new app and delete your old app.
-
-## Will my settings be saved when I update?
-
-Yes. That's why we don't delete the app. Your settings will be saved.
-
-## Will my pod still work when I update?
+## Erstellt eine Aktualisierung eine zweite Loop App?
 
 Yes. So long as you use the same developer team as you originally built the app with before.
 
-## How can I confirm what version was installed?
+Die einzige Ausnahme ist, wenn du beim Erstellen ein anderes Team zum Signieren der App verwendest, als das, welches du bei der vorherigen Version verwendet hast. Die Identität der App wird mit Hilfe des Entwicklungsteams definiert, über das du die App signierst. Jedes Team hat eine eindeutige ID über die Eindeutigkeit deiner App bestimmt wird. Wenn du diese ID änderst, interpretiert dein iPhone auch diese ID als eine neue App, was in zwei Loop Apps auf deinem iPhone mündet. Deswegen, wenn du das Entwicklerkonto änderst, bekommst du eine zweite Loop App und du wirst einen neuen Pod starten müssen. Du musst deine Einstellungen dann von Hand in die neue App übertragen und die alte Version löschen.
 
-The Loop's version is given at the top of the Loop settings page. Even better though, the new dev branch has very detailed info about the version of Loop you are using at the top of your Loop's Issue Report. This is a great new addition to help identify where, what, and when of your Loop version.
+## Werden meine Einstellungen bim Aktualisieren gesichert?
+
+Yes. Ja, deswegen sollte die App nicht gelöscht werden. Deine Einstellungen werden gesichert.
+
+## Funktioniert mein Pod noch, wenn ich aktualisiere?
+
+Yes. Nein, solange du das gleiche Entwicklungsteam zum Signieren beim Erstellen der App benutzt, wie das, dass du bei der vorherigen Version verwendet hast.
+
+## Wie kann ich nachschauen, welche Version ich installiert habe?
+
+Die Loop App Version wird oben in der Einstellungsansicht angezeigt. Es geht noch besser: Die Entwicklungszweige haben eine sehr detaillierte Beschreibung über die Version von Loop, der beim Problemreport den oberen Teil der Nachricht einnimmt. Das ist wieder eine tolle Neuerung, beim Suchen nach dem was, wo, wie und wann in deiner Version.
 
 ![../img/loop-version.jpg](img/loop-version.jpg)
 
-## What if I'm changing branches? Does that matter?
+## Was passiert, wenn ich den Versionszweig wechsle? Spielt das eine Rolle?
 
-Does not matter. Moving between branches is an "updating Loop" action. Nothing about the information above changes.
+Das spielt keine Rolle. Der Wechsel zwischen den Versionszweigen entspricht einer Aktualisierung der App. Es ändert sich nichts an den Einstellungen.
 
-## What if I'm changing phones?
+## Was ist, wenn ich mein iPhone wechsle?
 
-Changing phones is a little different than updating. You will need to change pods in order to move to the new phone's Loop. And you will have to enter all your setting in again. Loop will not be "restored from backup" the way other apps are when switching phones...so you will have to actually build it fresh.
+Der iPhone-Wechsel unterscheidet sich etwas vom Aktualisieren der App. You will need to change pods in order to move to the new phone's Loop. And you will have to enter all your setting in again. Die Loop-App kann nicht wie andere Apps aus einem Backup wieder hergestellt werden. Du musst die Loop-App also neu erstellen.
 
-## How long does it take?
+## Wie lange dauert das?
 
-Assuming your macOS and Xcode updates are done, then plan on about 30 minutes.
+Vorausgesetzt das alle Updates auf deinem Mac und Xcode erledigt sind, kann man von ca. 30 Minuten ausgehen.
