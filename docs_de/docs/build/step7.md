@@ -2,36 +2,36 @@
 
 !!!danger "Geschätzte Zeit"
 
-    - 10-15 minutes assuming you know your computer's password
-    - 35 minutes if you can't remember your password and have to guess
+    - 10-15 Minuten vorausgesetzt, du kennst das Passwort deines Computers
+    - 35 Minuten, wenn du dein Passwort nicht mehr weist und raten musst
 
 !!!info "Zusammenfassung"
 
-    - Install Homebrew by simply copying and pasting a long line of gibberish into the ugly Terminal application.
+    - Installiere Homebrew einfach, indem du einen langen kauderwelsch Text in die Terminalanwendung kopierst und bestätigst.
 
 !!!warning "FAQs"
 
-    - **"What if I don't get an "Installation successful" message?"** If you don't see a successful installation message, please try the copy-paste again. If you fail to get Homebrew installed, your Loop build will also fail. You can't just skip this step. The most common cause of errors is failing to copy the ENTIRE line of code ...people sometimes fail to get that last `"` at the end of the line. Also, you need to be using a user account on the computer that has "admin" rights, since this process is installing a program on the computer.
+    - **"Was passiert, wenn ich keine "Installation erfolgreich" Rückmeldung bekomme?"** Wenn du keine erfolgreiche Installationsnachricht siehst, probiere es bitte einfach noch einmal. Wenn du Homebrew nicht installiert hast, wird auch die Erstellung von Loop fehlschlagen. Diesen Schritt kannst du nicht überspringen. Die häufigste Fehlerursache ist das Nichtkopieren der ganzen -Codezeile ... Manchmal gelingt es den Leuten nicht, das letzte `"` am Ende der Zeile zu erwischen. Außerdem musst du ein Benutzerkonto auf dem Computer mit "Admin"-Rechten verwenden, da Homebrew ein Programm ist und auf dem Computer installiert wird.
 
-Breath deep...this step looks kind of "programmer code" weirdness. BUT, it isn't. Well, it is...but we will be just simply copying and pasting one line of the weirdness and then walking away. We don't actually have to know much about Homebrew itself or what the line of code means exactly.
+Tief durchatmen... dieser Schritt sieht aus wie "Programmiercode". Ist es aber nicht. Na ja, ist es doch... aber wir kopieren einfach nur eine Zeile dieser Seltsamkeit, fügen sie ein und fertig. Wir müssen eigentlich nicht viel über Homebrew selbst wissen, oder was die Zeile Code genau bedeutet.
 
-## User needs to be an Admin account on computer
+## Der Benutzer muss ein Admin-Konto auf dem Computer habem
 
-Homebrew is a program that will allow us to install the needed packages to build Loop. Before installing Homebrew, we need to double check one thing...that the user account on the computer that you are using to build Loop, that **user account needs to have Administrative rights on the computer**. How can you tell? Go to the computer's System Preferences application, open the Users & Groups section. If your account that you are using doesn't say "Admin" under your name, then you need to click the lock and change that to an Admin account before proceeding. If you are using a work computer, you may not have admin rights on that computer...so be aware that you may have restrictions on company owned computers.
+Homebrew ist ein Programm, mit dem wir die benötigten Pakete installieren können, um Loop zu erstellen. Bevor wir Homebrew installieren, müssen wir eine Sache überprüfen... auf dem Computer, den du verwendest um Loop zu erstellen, ** das Benutzerkonto auf dem Computer muss Administratorrechten haben**. "Wie kannst du das herausfinden?" Gehe zur den Systemeinstellungen und öffne Benutzer & Gruppen. Wenn dein Konto, das du verwendest, nicht "Admin" unter deinem Namen anzeigt, dann musst du auf das kleine Schloss klicken und es zu einem Admin-Konto ändern, bevor du weitermachst. Wenn du einen Firmenrechner verwendest, hast du möglicherweise keine Administratorrechte... sei dir also bewusst, dass du auf firmeneigenen Computern möglicherweise Einschränkungen hast.
 
 ![../img/carthage-done.png](img/admin-user.png)
 
-Side note: If you are a (1) computer-savvy person and (2) already installed Homebrew on a different user account on the computer previously...please go use that user account on the computer to build Loop. Or, delete Homebrew from that User account and install on your account. Homebrew is a bit picky.
+Bemerkung: Wenn du (1) ein erfahrener Computerbenutzer bist und (2) Homebrew bereits auf einem anderen Benutzerkonto auf dem Computer installiert hast...dann benutze bitte genau dieses Benutzerkonto, um Loop zu erstellen. Oder lösche Homebrew wieder von diesem Benutzerkonto und installiere es auf denem Konto. Homebrew ist da ein bisschen zimperlich.
 
-## Installing Homebrew
+## Homebrew installieren
 
-Ok, now that we have the user account confirmed, let's open the Terminal application on your computer. It is located in your Applications folder and then look in the Utilities subfolder...the Terminal application is in there like shown in the screenshot below.
+Ok, da wir jetzt das Benutzerkonto bestätigt haben, öffne die Terminal-Anwendung auf deinem Computer. Es befindet sich in deinem "Programme" Ordner und dort im Unterordner "Dienstprogramme"... die Terminal-Anwendung ist im folgenden Screenshot zu sehen.
 
 ![../img/carthage.jpg](img/terminal.png)
 
-!!!info "New Apple M1 chip users: IMPORTANT STEP"
+!!!info "Benutzer neuer Apple Computer mit M1 Chip: WICHTIGER SCHRITT"
 
-    If you purchased one of the new Apple computers that have the brand new Apple M1 chip, you will need to do a little step to start with. Homebrew doesn't run natively on the new M1 chips...so we have to open Terminal app using a little "converter" app, in these situations, called Rosetta. It's no big deal...simply find the Terminal app like was described above and instead of opening it by double clicking...I want you to click on the Terminal app's name just once so it is highlighted. Then right-click on the Terminal app's name to bring up some additional choices. Thanks! You will want to select the "Get Info" option.</br></br>
+    Wenn du einen der neuen Apple Computer mit einem M1-Chip gekauft hast, musst du jetzt noch einen kleinen extra Schritt machen. Homebrew läuft nicht nativ auf den neuen M1-Chips...daher müssen wir die Terminal App mittels der "Converter"-App "Rosetta" öffnen. Ganz einfach... finden die Terminal-App wie oben beschrieben und anstatt sie durch Doppelklick zu öffnen...möchte ich, dass du auf den Namen der Terminal App nur einmal klickst, so dass sie hervorgehoben wird. Klicke nun mit der rechten Maustaste auf den Namen der Terminal App, um weitere Optionen anzuzeigen. Thanks! You will want to select the "Get Info" option.</br></br>
     
     <p align="center">
     <img src="../img/get-info.png" width="550">
@@ -43,52 +43,52 @@ Ok, now that we have the user account confirmed, let's open the Terminal applica
     <img src="../img/rosetta.png" width="350">
     </p>
 
-Now that you've located where the Terminal app is located in the Utilities folder (and already turned on Rosetta check box, if you are an M1 user)...double-click the Terminal app's name so that the app opens. The Terminal app is very plain looking when you open it. That is normal. Copy and paste the line in the little grey box below into Terminal prompt.
+Jetzt, wo du die Terminal-Anwendung im Dienstprogramme Ordner gefunden hast (und bereits Rosetta aktiviert hast, wenn du ein M1-Benutzer bist)...doppelklicke auf den Namen der Terminal-Anwendung , damit sie geöffnet wird. Die Terminal-App sieht wirklich sehr simple aus, wenn du sie geöffnet hast, das ist richtig so. Kopiere und füge die Zeile in aus dem kleinen grauen Feld unten hinter die Terminal Eingabeaufforderung ein.
 
  `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-Your screen should look like something like this after you copy it in...if it does, then go ahead and press return to continue on with the installation command.
+Dein Bildschirm sollte so aussehen, nachdem du es kopiert hast... wenn ja, dann mache weiter und bestätige mit der Eingabetaste, um mit dem Installationsbefehl fortzufahren.
 
 ![../img/homebrew-copy-line.png](img/homebrew-copy-line.png)
 
-There will be a prompt asking if you want to continue.  Press return to continue, then it will prompt for your password.  <u>The password is your computer's password.</u>
+Es wird eine Aufforderung angezeigt und gefragt, ob du fortfahren möchtest.  Bestätige wieder mit der Eingabetaste um fortzufahren, dann wirst du nach deinem Passwort gefragt.  **Das Passwort ist das Passwort deines Computers.**
 
-!!!danger "Don't freak out"
+!!!danger "Keine Panik"
 
-    Don't freak out that you can't see your password while you type. That is normal. The Terminal app doesn't show keystrokes when you enter passwords, but it is still recording your password entry. If you think you messed up because you were confused, press the delete key a bunch of times and then start fresh with the password entry.
+    **Keine Panik, dass du nicht dass Passwort während der Eingabe sehen kannst. das ist richtig so. Die Terminal-App zeigt keine Tastatureingaben, wenn Passwörter eingeben werden, aber sie erfasst trotzdem deine Eingabe. If you think you messed up because you were confused, press the delete key a bunch of times and then start fresh with the password entry.
 
-Wait while the script does its thing...you’ll see info scroll by and then it will pause for a while. Eventually, it will be done and you’ll see something that says “Installation successful” and you’ll have a ready Terminal prompt again.
+Warte, während das Skript läuft...du siehst den Fortschritt und dann wird es eine Weile pausieren. Am Schluss ist es erledigt und du siehst dann so etwas wie „Installation erfolgreich“ und dann wieder die Terminal Eingabeaufforderung.
 
 ![img/carthage.jpg](img/carthage.jpg)
 
-!!!info "If you get an error about homebrew-core being a "shallow clone""
+!!!info "Wenn du eine Fehlerrückmeldung bekommst, dass "homebrew-core" ein "shallow clone"" ist
 
-    You will need to follow the instructions given in the error, and update your homebrew installation with the following command:
+    musst den Anweisungen in der Fehlerbeschreibung folgen und deine Homebrew Installation mit folgendem Befehl aktualisieren:
     
-    `git -C "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core" fetch --unshallow`
+    `git -C "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core" holen Sie --unselow`
 
-## Install Carthage
+## Carthage installieren
 
-We are going to finish with one little last installation of something called Carthage. It's a helper that does some of the work during Loop building. Technically, Loop has an automated script that will use Homebrew to install Carthage when you first build Loop.
+Zum Schluss müssen wir noch eine letzte Installation durchführen, von etwas namens "Carthage" (Karthago). Es unterstützt ein paar Schritte während der Erstellung von Loop. Technisch gesehen hat Loop ein automatisiertes Skript, das Homebrew verwendet, um Carthage zu installieren, wenn du Loop zum ersten Mal erstellst.
 
-Now that Homebrew has successfully installed, copy and paste the line in the little grey box below into Terminal prompt (similar to how you did for Homebrew installation line above).
+Jetzt, da Homebrew erfolgreich installiert wurde, kopiere und füge die Zeile in dem kleinen grauen Feld unten hinter die Terminal Eingabeaufforderung ein (genauso, wie du es für die Homebrew Installation weiter oben gemacht hast).
 
 `brew install carthage`
 
-You should see something like below when the command has finished running successfully. Your messages might look slightly different (version number might be newer, for example), but the summary should look similar to seeing a carthage version installed and complete.
+Du solltest so etwas wie unten sehen, wenn der Befehl erfolgreich ausgeführt wurde. Deine Rückmeldungen können etwas anders aussehen (z.B. eine neuere Versionsnummer anzeigen), aber die Zusammenfassung sollte soetwas, wie Carthage-Version installiert und vollständig.
 
 ![img/carthage-done.png](img/carthage-done.png)
 
-You can close the Terminal application now. You’re done with it. You do not need to do these steps again for any subsequent Loop builds. This is one of those "just do it once" on new computer installations. If you get a new computer though, you will have to repeat this step for the new computer.
+Du kannst jetzt die Terminal-Anwendung schließen. Du bist damit fertig und musst diese Schritte NICHT mehr für weitere Loop Erstellungen wiederholen. Dies ist einer der "nach einem Mal erledigt" Schritte beim einem neuen Computer. Nur wenn du einen neuen Computer bekommst, musst du diesen Schritt wiederholen.
 
-## Uninstall Homebrew
+## Homebrew deinstallieren
 
-If you have something go wrong in Homebrew installation, want to delete it and start fresh, the uninstall command is:
+Wenn bei dir etwas mit der Homebrew Installation schief gegangen ist, du es löschen und on vorne anfangen möchtest, ist der Deinstallations-Befehl:
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"`
 
-Copy and paste that entire line into Terminal application. Then you can retry the installation of Homebrew using the install command listed earlier in this page.
+Kopiere und füge diese ganze Zeile in die Terminal-Anwendung ein. Dann kannst du die Installation von Homebrew mit dem zuvor auf dieser Seite aufgelisteten Installationsbefehl erneut versuchen.
 
-## Next Step: Download Xcode
+## Nächster Schritt: Herunterladen von Xcode
 
-Now you are ready to move onto Step 8 to [download Xcode](step8.md).
+Jetzt kannst du mit Schritt 8 weitermachen [Herunterladen von Xcode](step8.md).
