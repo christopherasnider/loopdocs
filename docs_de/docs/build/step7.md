@@ -61,7 +61,7 @@ Warte, während das Skript läuft...du siehst den Fortschritt und dann wird es e
 
 ![img/carthage.jpg](img/carthage.jpg)
 
-!!!info "Wenn du eine Fehlerrückmeldung bekommst, dass "homebrew-core" ein "shallow clone"" ist
+!!!info "Wenn du eine Fehlerrückmeldung bekommst, dass "homebrew-core" ein "shallow clone" ist"
 
     musst den Anweisungen in der Fehlerbeschreibung folgen und deine Homebrew Installation mit folgendem Befehl aktualisieren:
     
