@@ -52,8 +52,8 @@ Es passiert nichts schlimmes, wenn du, ohne es zu bemerken, versuchts Loop mit e
 
 ![../img/device-support-files.jpg](img/device-support-files.jpg)
 
-Also, wenn du diese Fehlermeldung siehst, musst du möglicherweise dein macOS aktualisieren, um dann die neueste Xcode Version angezeigt zu bekommen, die du benötigst. Make sure to check that chart to see what your minimum versions are for the iOS you are running on your iPhone.
+Also, wenn du diese Fehlermeldung siehst, musst du möglicherweise dein macOS aktualisieren, um dann die neueste Xcode Version angezeigt zu bekommen, die du benötigst. Benutze also diese Tabelle, um zu bestimmen, welche minimalen Versionen für das iOS auf deinem iPhone verwenden werden müssen.
 
-## Next Step: Xcode Preferences
+## Nächster Schritt: Xcode Einstellungen
 
-Now you are ready to move onto Step 9 to [work on Xcode Preferences](step9.md).
+Jetzt kannst du mit Schritt 9 weitermachen [Xcode Einstellungen](step9.md).
