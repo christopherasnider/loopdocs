@@ -9,9 +9,9 @@
     - Überprüfe, dass die Kommandozeilen-Programme in den Xcode Einstellungen und dort in der Registerkarte "Locations" korrekt installiert wurden.
 
 !!!warning "FAQs"
-    - **"I still only see an account with `(personal team)` beside it even though I enrolled in the paid Developer Account program...what should I do?"** You should check your spam email box in case Apple sent you an email there. Make sure you've waited the 48 hours that Apple says it may take to get your account approved. If it's been 48 hours and you still don't see anything in your email, contact Apple support and ask them about the status of your enrollment. It may be held up by something on their end.
+    - **"Ich sehe immer noch nur ein Konto mit `(personal team)`, obwohl ich mich für das bezahlte Entwicklerkonto eingeschrieben habe...was soll ich machen? "** Bitte überprüfe deine Spam-Mailbox für den Fall, dass die E-Mail von Apple dort gelandet ist. Stellen Sie sicher, dass du die 48 Stunden gewartet hast, die Apple sagt, dass es dauern kann, um dein Konto zu aktivieren. Wenn bereits 48 Stunden vergangen sind und du noch keine E-Mail bekommen hast, kontaktiere den Apple Support und fragen nach dem Status deiner Anmeldung. Vielleicht steckt es bei Apple fest und ihr könnt es zusammen klären.
 
-Since you've been working in order, you will now have Xcode installed on your computer from Step 8. You will also have enrolled in the Apple Developer program with a paid account, if that was your selection, in Step 6. Now we need to tell Xcode about your Developer Account.
+Da du alles der Reihe nach gemacht hast, hast du Xcode in Schritt 8 auf deinem Computer installiert. Du hast dich auch in Schritt 6, wenn dies deine Wahl war, für das Apple Developer-Programm mit einem kostenpflichtigen Konto registriert. Now we need to tell Xcode about your Developer Account.
 
 Open Xcode from your Applications folder.
 
