@@ -37,7 +37,7 @@ Ok, da wir jetzt das Benutzerkonto bestätigt haben, öffne die Terminal-Anwendu
     <img src="../img/get-info.png" width="550">
     </p>
     
-    Now in the informational window that appears...you'll see a checkbox that says "Open using Rosetta".  Check that box...that will allow Terminal app to open in such a way that we can install Homebrew in the next steps. You can close that informational window, after you check the box for "Open using Rosetta", and proceed with the rest of the directions just like normal.
+    In dem Infofenster, das aufgeht...siehst du ein Kästchen wo "Öffnen mit Rosetta" steht.  Klicke das Kästchen an...dadurch wird die Terminal-Anwendung so geöffnet, dass wir in den nächsten Schritten Homebrew installieren können. Du kannst das Informationsfenster wieder schliessen, wenn du das Häckchen bei "Öffnen mit Rosetta" gesetzt hast und machst dann ganz normal mit dem Rest der Anleitung weiter.
     
     <p align="center">
     <img src="../img/rosetta.png" width="350">
@@ -61,7 +61,7 @@ Warte, während das Skript läuft...du siehst den Fortschritt und dann wird es e
 
 ![img/carthage.jpg](img/carthage.jpg)
 
-!!!info "Wenn du eine Fehlerrückmeldung bekommst, dass "homebrew-core" ein "shallow clone"" ist
+!!!info "Wenn du eine Fehlerrückmeldung bekommst, dass "homebrew-core" ein "shallow clone" ist"
 
     musst den Anweisungen in der Fehlerbeschreibung folgen und deine Homebrew Installation mit folgendem Befehl aktualisieren:
     

@@ -1,11 +1,11 @@
-# Step 9: Xcode Preferences
+# Schritt 9: Xcode Einstellungen
 
-!!!danger "Time Estimate"
-    - about 10-15 minutes to install the Command Line Tools
-    - 5 minutes to add your Apple ID, assuming you remember your password
+!!!danger "Geschätzte Zeit"
+    - etwa 10-15 Minuten für die Installation der Kommandozeilen-Programme
+    - 5 Minuten, um deine Apple-ID hinzuzufügen, vorausgesetzt, du erinnerst dich an dein Passwort
 
-!!!info "Summary"
-    - Open Xcode Preferences and add your Apple ID under the Accounts tab.
+!!!info "Zusammenfassung"
+    - Öffnen Sie Xcode Einstellungen und füge deine Apple-ID unter dem Accounts Tab hinzu.
     - Verify that Command Line Tools has been properly installed under Xcode Preferences under the Locations tab.
 
 !!!warning "FAQs"
