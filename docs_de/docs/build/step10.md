@@ -22,8 +22,8 @@ Unter der Haube ist Loop nur ein ausgefallener Taschenrechner. Die mathematische
 
 **Kohlenhydrat zu Insulin Verhältnis** ist die Menge an Kohlenhydraten, die von einer Insulineinheit abgedeckt werden. Idealerweise bringt ein gutes Kohlenhydrat-Insulin Verhältnis deinen Blutzucker innerhalb von 2-3 Stunden nach *der Mahlzeit* wieder an den Ausgangspunkt zurück. (Fettreiche/Protein-Mahlzeiten können den Blutzucker aber länger beeinflussen.) Wenn dein Blutzucker nach einer Mahlzeit höher geht, als du möchtest, du aber trotzdem wieder zum Ausgangspunkt zurück kommst, dann kannst du dir überlegen 15-20 Minuten vor dem Essen den Bolus zu geben, anstatt das Kohlenhydrat-Insulin Verhältnis zu ändern.
 
-In [LoopTips.org](https://looptips.org) findest du einen Artikel darüber, wie du alle diese Einstellungen [überprüfen](https://kdisimone.github.io/looptips/settings/settings/) kannst und [, warum sie](https://kdisimone.github.io/looptips/settings/overview/) wichtig sind. Wenn du an diesem Thema interessiert bist, dann kannst du das Buch *"Think Like A Pancreas"* lesen, dort ist es wirklich gut erklärt. Finally remember settings can change periodically. Hormone cycles, steroids, illness, etc may lead to a [need to change settings](https://kdisimone.github.io/looptips/settings/adjust/).
+In [LoopTips.org](https://looptips.org) findest du einen Artikel darüber, wie du alle diese Einstellungen [überprüfen](https://kdisimone.github.io/looptips/settings/settings/) kannst und [, warum sie](https://kdisimone.github.io/looptips/settings/overview/) wichtig sind. Wenn du an diesem Thema interessiert bist, dann kannst du das Buch *"Think Like A Pancreas"* lesen, dort ist es wirklich gut erklärt. Zum Schluss denke daran, dass die Einstellungen nicht für immer gültig sind, sondern auch wieder angepasst werden müssen. Hormon-Zyklen, Steroide, Krankheit, usw. können es [Notwendig machen, die Einstellungen](https://kdisimone.github.io/looptips/settings/adjust/) zu ändern.
 
-## Next Step: Make Plans for Loop Data
+## Nächster Schritt: Plane, wie du mit Loop-Daten umgehst
 
-Now you are ready to move onto Step 11 to [Make Plans for Loop Data](step11.md).
+Jetzt kannst du mit Schritt 11 weitermachen, und </a> Pläne für Loop-Daten machen.</p>
