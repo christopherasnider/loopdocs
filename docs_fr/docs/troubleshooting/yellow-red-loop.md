@@ -18,7 +18,8 @@ Un petit mot : Ne pas rapidement décider de retirer un omnipod qui ne répond p
     * Fermez votre application Loop (en la faisant glisser vers le haut dans le sélecteur d'applications de l'iPhone) et rouvrez-la.
 
 
-    ![img/riley-switch.png](img/riley-switch.png) </br>
+    ![img/riley-switch.png](img/riley-switch.png)
+
 
     C'est à peu près tout ce que vous avez à faire pour l'option 1 pour restaurer une boucle verte en 5 minutes, 99% du temps. Vous pouvez confirmer que les choses sont de retour au boulot en revoyant une boucle verte et/ou en émettant une "commande de test" ou "presser des boutons" avec succès dans le menu RileyLink.
 
