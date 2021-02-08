@@ -19,7 +19,8 @@ Open your App Store in your computer and search for Xcode...you'll either be dow
 
 !!!warning "Two important facts"
 
-    1. The minimum version of Xcode that you need is dependent on the version of iOS you have on the iPhone. The newer the version of iOS, the newer of Xcode you'll also need. </br></br>The most current version of iOS (14+) requires Xcode 12 and macOS 10.15.4 at a minimum</br></br> 
+    1. The minimum version of Xcode that you need is dependent on the version of iOS you have on the iPhone. The newer the version of iOS, the newer of Xcode you'll also need. </br></br>The most current version of iOS (14+) requires Xcode 12 and macOS 10.15.4 at a minimum
+
     2. The newest Xcode version **may also require you to update your macOS version**. If you have an old version of macOS, then the App Store will not show you that a newer version of Xcode is available. This can create confusion because your iOS could be requiring a newer Xcode, but the App Store won't show it as available. 
 
 ## How do all the minimum versions relate to each other?
@@ -30,9 +31,13 @@ Because the update looks so innocuous and we all lead busy lives, we forget that
 
 !!!danger "Loop and iOS updates"
 
-    For Loopers...the consequence to an iOS update is nothing immediate. Your Loop app won't die, it will keep humming along. </br></br>BUT, before you ***<u>update or rebuild</u>*** your Loop app on that phone, you will likely need to update your macOS and Xcode applications because of the newer iOS.  And you will need to do the updates/checks in a certain order:</br></br>
-    1st: Check if your macOS has updates</br></br>
-    2nd: Check for an Xcode update.</br></br>
+    For Loopers...the consequence to an iOS update is nothing immediate. Your Loop app won't die, it will keep humming along. 
+    
+    BUT, before you **update or rebuild** your Loop app on that phone, you will likely need to update your macOS and Xcode applications because of the newer iOS.  And you will need to do the updates/checks in a certain order:
+
+    1st: Check if your macOS has updates
+    
+    2nd: Check for an Xcode update.
 
 The chart below is a helpful visual of the minimum versions you'll need based on your iOS.
 

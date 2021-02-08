@@ -18,7 +18,7 @@ Depending on your iPhone preferences and model, you may have Face ID or Touch ID
 
 ![img/carb_screen.png](img/carb_screen.png)
 
-Loop’s default carb absorption times are based on the high, medium, and low glycemic index absorption curves presented in <i>Think Like A Pancreas</i> by Gary Scheiner.  Currently the lollipop (fast) icon is set for 2 hours, taco (medium) icon for 3 hours, and pizza (slow) icon for 4 hours.  
+Loop’s default carb absorption times are based on the high, medium, and low glycemic index absorption curves presented in *Think Like A Pancreas* by Gary Scheiner.  Currently the lollipop (fast) icon is set for 2 hours, taco (medium) icon for 3 hours, and pizza (slow) icon for 4 hours.  
 
 If you would like to modify those defaults, you can do so in the Loop Core>>LoopSettings.swift Line 16.
 

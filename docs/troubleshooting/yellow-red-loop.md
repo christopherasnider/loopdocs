@@ -19,7 +19,7 @@ Quick side note: Do not quickly decide to pull an omnipod that isn't responding 
     
     
     ![img/riley-switch.png](img/riley-switch.png)
-    </br>
+    
 
     That's pretty much all you need to do for option 1 to restore a green Loop within 5 minutes, 99% of the time. You can confirm things are back to working order by seeing a green loop again and/or issuing a "test command" or "button press" successfully through the RileyLink menu.
 

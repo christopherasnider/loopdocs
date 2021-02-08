@@ -36,7 +36,7 @@ Under ordinary circumstances, you do not *have to* update your Loop app until yo
 
 !!!danger "Update to Xcode (12.1 minimum currently for iOS 14.1)"
 
-    Now that you have updated your macOS, you should have the ability to see the most recent version of Xcode (12.1 is the latest release) in the App Store on your computer. **UPDATE TO XCODE 12.1 BEFORE UPDATING YOUR LOOP APP. **</u> Phones running iOS 14.1 will not be able to have Loop installed using older Xcode versions.
+    Now that you have updated your macOS, you should have the ability to see the most recent version of Xcode (12.1 is the latest release) in the App Store on your computer. **UPDATE TO XCODE 12.1 BEFORE UPDATING YOUR LOOP APP. ** Phones running iOS 14.1 will not be able to have Loop installed using older Xcode versions.
 
 !!!info "Restart computer after updating Xcode"
 
