@@ -10,7 +10,7 @@ Le système Loop décrit dans ces documents (alias DIY Loop) fonctionne avec les
 
 Résumé des systèmes éventuels:
 
-* DIY Loop + Eros pods + RileyLink</br></br>
+* DIY Loop + Eros pods + RileyLink
 * Tidepool Loop + DASH pods (sans RileyLink)
 
 ## Ai-je encore besoin d’un PDM avec Omnipod Loop ?
