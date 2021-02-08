@@ -19,8 +19,9 @@ Ouvrez votre App Store dans votre ordinateur et recherchez Xcode...vous allez en
 
 !!!warning "Deux choses importantes"
 
-    1. La version minimale de Xcode dont vous avez besoin dépend de la version d'iOS de votre iPhone. Plus la version d’iOS est récente, plus vous aurez besoin d'une version récente d'Xcode. </br></br>La version la plus récente d'iOS (14+) nécessite Xcode 12 et macOS 10.15.4 au minimum</br></br>
-    2. La dernière version de Xcode **peut également vous obliger à mettre à jour votre version de macOS**. Si vous avez une ancienne version de macOS, alors l’App Store ne vous montrera pas qu’une nouvelle version de Xcode est disponible. Cela peut créer de la confusion parce que votre iOS pourrait nécessiter un Xcode plus nouveau, mais l’App Store ne le montrera pas comme disponible.
+    1. The minimum version of Xcode that you need is dependent on the version of iOS you have on the iPhone. The newer the version of iOS, the newer of Xcode you'll also need. </br></br>The most current version of iOS (14+) requires Xcode 12 and macOS 10.15.4 at a minimum
+
+    2. The newest Xcode version **may also require you to update your macOS version**. If you have an old version of macOS, then the App Store will not show you that a newer version of Xcode is available. This can create confusion because your iOS could be requiring a newer Xcode, but the App Store won't show it as available.
 
 ## Comment toutes les versions minimales sont-elles reliées les unes aux autres?
 
@@ -30,9 +31,13 @@ Parce que la mise à jour semble si anodine et nous menons tous des vies occupé
 
 !!! danger « Loop et les mises à jour iOS»
 
-    Pour les Loopers (les utilisateurs de Loop)...la conséquence d'une mise à jour d'iOS n'a rien d'immédiate. Votre application Loop ne mourra pas, elle continuera à fredonner. </br></br>MAINTENANT, avant que vous ***<u>mettez à jour ou reconstruisez</u>*** votre application Loop sur ce téléphone, vous devrez probablement mettre à jour vos applications macOS et Xcode à cause de nouveaux iOS.  Et vous devrez faire les mises à jour/vérifications dans un certain ordre :</br></br>
-    1er : Vérifiez si votre macOS a des mises à jour</br></br>
-    2nd: Vérifiez s'il y a une mise à jour de Xcode.</br></br>
+    Pour les Loopers (les utilisateurs de Loop)...la conséquence d'une mise à jour d'iOS n'a rien d'immédiate. Votre application Loop ne mourra pas, elle continuera à fredonner. 
+    
+    BUT, before you **update or rebuild** your Loop app on that phone, you will likely need to update your macOS and Xcode applications because of the newer iOS.  And you will need to do the updates/checks in a certain order:
+    
+    1st: Check if your macOS has updates
+    
+    2nd: Check for an Xcode update.
 
 Le graphique ci-dessous est un visuel utile des versions minimales dont vous aurez besoin en fonction de votre iOS.
 
