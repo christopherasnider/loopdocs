@@ -50,7 +50,7 @@ A cloned version of Loop doesn't go to your "Downloads" folder like you are used
 
 How can you find your home directory?
 
-1. In Terminal, if you use `cd` that will take you there automatically.</br>
+1. In Terminal, if you use `cd` that will take you there automatically.
 2. In Finder, shift-command-H will open your "home" folder.
 
 ![../img/root-finder.png](img/root-finder.png)

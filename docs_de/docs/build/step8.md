@@ -19,8 +19,11 @@ Xcode ist eine kostenlose Anwendung für Apple-Computer. Xcode verwandelt den Lo
 
 !!!warning "Zwei wichtige Fakten"
 
-    1. Die minimale Version von Xcode ist abhängig von der iOS Version auf deinem iPhone. Je neuer die Version vom iOS, desto neuer muss auch die Version von Xcode sein. </br></br>Die aktuellste Version von iOS (14+) benötigt Xcode 12 und mindestens macOS 10.15.4</br></br>
-    2. Die neueste Xcode Version **erfordert möglicherweise auch eine Aktualisierung deiner macOS Version**. Wenn du eine alte macOS Version hast, wird dir der App Store nicht zeigen, dass eine neuere Version von Xcode verfügbar ist. Dies kann Verwirrung stiften, da dein iOS zwar einen neueres Xcode benötigt, der App Store es dir aber nicht als verfügbar anzeigt.
+    1. The minimum version of Xcode that you need is dependent on the version of iOS you have on the iPhone. The newer the version of iOS, the newer of Xcode you'll also need.
+
+        The most current version of iOS (14+) requires Xcode 12 and macOS 10.15.4 at a minimum
+
+    2. The newest Xcode version **may also require you to update your macOS version**. If you have an old version of macOS, then the App Store will not show you that a newer version of Xcode is available. This can create confusion because your iOS could be requiring a newer Xcode, but the App Store won't show it as available.
 
 ## Wie stehen diese Mindestanforderungen miteinander in Beziehung?
 
@@ -30,9 +33,13 @@ Weil Update so harmlos wirken und wir alle ein geschäftiges Leben führen, verg
 
 !!!danger "Loop- und iOS-Updates"
 
-    Für jemanden der Loop benutzt...ist die Folge eines iOS-Updates nicht gleich zu spüren. Deine Loop App geht davon nicht kaputt, sie wird fröhlich weiter funktionieren. </br></br>ABER, bevor du ***</u>*** deine Loop-App auf diesem Telefon aktualisierst oder neu erstellst<u>, musst du wahrscheinlich dein macOS und Xcode aufgrund des neueren iOS auf deinem Telefon aktualisieren.  Du musst die Updates/Überprüfungen in einer bestimmten Reihenfolge machen:</br></br>
-    1. Prüfe, ob es für dein macOS Updates gibt</br></br>
-    2. Prüfe, ob es ein Xcode Update gibt</br></br>
+    Für jemanden der Loop benutzt...ist die Folge eines iOS-Updates nicht gleich zu spüren. Deine Loop App geht davon nicht kaputt, sie wird fröhlich weiter funktionieren. 
+    
+    BUT, before you **update or rebuild** your Loop app on that phone, you will likely need to update your macOS and Xcode applications because of the newer iOS.  And you will need to do the updates/checks in a certain order:
+    
+    1st: Check if your macOS has updates
+    
+    2nd: Check for an Xcode update.
 
 Die folgende Tabelle ist hilfreich, um die Mindestvoraussetzungen für dein macOS und Xcode basierend auf deinem iOS festzustellen.
 

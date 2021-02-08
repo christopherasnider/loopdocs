@@ -31,17 +31,13 @@ Ok, maintenant que nous avons confirmé le compte d’utilisateur, nous allons o
 
 !!!info "Nouveaux utilisateurs de puces Apple M1: ÉTAPE IMPORTANTE"
 
-    Si vous avez acheté un des nouveaux ordinateurs Apple qui ont la toute nouvelle puce Apple M1, vous devrez faire une petite étape pour commencer. Homebrew ne s'exécute pas nativement sur les nouvelles puces M1... donc nous devons ouvrir l'application Terminal en utilisant une petite application "convertisseur", appelée Rosetta. Ce n’est pas grave... il suffit de trouver l’application Terminal comme cela a été décrit ci-dessus et au lieu de l’ouvrir en cliquant deux fois ... Je veux que vous cliquez sur le nom de l’application Terminal juste une fois afin qu’il soit mis en surbrillance. Puis cliquez avec le bouton droit sur le nom de l'application Terminal pour afficher quelques choix supplémentaires. Thanks! You will want to select the "Get Info" option.</br></br>
+    Si vous avez acheté un des nouveaux ordinateurs Apple qui ont la toute nouvelle puce Apple M1, vous devrez faire une petite étape pour commencer. Homebrew ne s'exécute pas nativement sur les nouvelles puces M1... donc nous devons ouvrir l'application Terminal en utilisant une petite application "convertisseur", appelée Rosetta. Ce n’est pas grave... il suffit de trouver l’application Terminal comme cela a été décrit ci-dessus et au lieu de l’ouvrir en cliquant deux fois ... Je veux que vous cliquez sur le nom de l’application Terminal juste une fois afin qu’il soit mis en surbrillance. Puis cliquez avec le bouton droit sur le nom de l'application Terminal pour afficher quelques choix supplémentaires. You will want to select the "Get Info" option.
     
-    <p align="center">
-    <img src="../img/get-info.png" width="550">
-    </p>
+    ![img/get-info.png](img/get-info.png)
     
-    Now in the informational window that appears...you'll see a checkbox that says "Open using Rosetta".  Check that box...that will allow Terminal app to open in such a way that we can install Homebrew in the next steps. You can close that informational window, after you check the box for "Open using Rosetta", and proceed with the rest of the directions just like normal.
+    Now in the informational window that appears...you'll see a checkbox that says "Open using Rosetta". Check that box...that will allow Terminal app to open in such a way that we can install Homebrew in the next steps.  You can close that informational window, after you check the box for "Open using Rosetta", and proceed with the rest of the directions just like normal. Thanks!
     
-    <p align="center">
-    <img src="../img/rosetta.png" width="350">
-    </p>
+    ![img/rosetta.png](img/rosetta.png)
 
 Maintenant que vous avez localisé où se trouve l'application Terminal dans le dossier Utilitaires (et déjà activé la case à cocher Rosetta si vous êtes un utilisateur M1). .double-cliquez sur le nom de l'application Terminal pour que l'application s'ouvre. L’application Terminal est très simple lorsque vous l’ouvrez. C'est normal. Copiez et collez la ligne dans la petite boîte grise ci-dessous dans l'invite de commande Terminal.
 

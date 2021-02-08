@@ -19,17 +19,17 @@ Afin de construire votre propre application Loop, vous devrez utiliser un compte
 
 Si vous décidez d'utiliser un compte développeur **GRATUIT** , voici ce que vous devez savoir :
 
-1. Les applications Loop signées avec des comptes de développeurs gratuite expireront au bout de 7 jours.  Le 7ème jour, votre application Loop deviendra simplement vide lorsque vous l'ouvrirez puis se refermera immédiatement. Pour reconstruire l'application Loop, vous devrez trouver un ordinateur et reconstruire l'application sur votre iPhone à nouveau. Vous ne pouvez pas reconstruire l'application le jour 5 (quand c'est pratique, par exemple)... en espérant réinitialiser l'horloge de 7 jours.  L’application expirera toujours le 7ème jour à partir du moment où elle a été signée et créée pour la première fois.</br></br>
-2. Si vous décidez de passer à un compte payant après avoir essayé le compte gratuit, vous devrez reconstruire votre application Loop pour la signer avec le nouveau compte payant.</br></br>
-3. Vous devrez effectuer une étape supplémentaire pendant le processus de construction pour supprimer les fonctionnalités Siri et Apple Push pour de construire Loop avec des comptes gratuits. Parce que les comptes gratuits n'ont pas accès aux notifications Push d'Apple, vous ne pourrez pas non plus utiliser les substitutions à distance via Nightscout.</br></br>
+1. Les applications Loop signées avec des comptes de développeurs gratuite expireront au bout de 7 jours.  Le 7ème jour, votre application Loop deviendra simplement vide lorsque vous l'ouvrirez puis se refermera immédiatement. Pour reconstruire l'application Loop, vous devrez trouver un ordinateur et reconstruire l'application sur votre iPhone à nouveau. Vous ne pouvez pas reconstruire l'application le jour 5 (quand c'est pratique, par exemple)... en espérant réinitialiser l'horloge de 7 jours.  L’application expirera toujours le 7ème jour à partir du moment où elle a été signée et créée pour la première fois.
+2. Si vous décidez de passer à un compte payant après avoir essayé le compte gratuit, vous devrez reconstruire votre application Loop pour la signer avec le nouveau compte payant.
+3. Vous devrez effectuer une étape supplémentaire pendant le processus de construction pour supprimer les fonctionnalités Siri et Apple Push pour de construire Loop avec des comptes gratuits. Parce que les comptes gratuits n'ont pas accès aux notifications Push d'Apple, vous ne pourrez pas non plus utiliser les substitutions à distance via Nightscout.
 
 ## Compte développeur payant
 
 Si vous décidez d’utiliser compte développeur **PAYANT** , voici ce que vous devez savoir :
 
-1. Les applications Loop signées avec un compte/équipe de développeurs payants dureront une année complète.</br></br>
-2. Le compte de développeur payant est de 99 € (ou 99 $) par année et est par défaut configuré pour le renouvellement automatique annuel. Vous pouvez modifier ce choix dans les paramètres de votre compte développeur à tout moment.</br></br>
-3. Si votre foyer a plusieurs utilisateurs de Loop, un seul compte développeur est nécessaire.  Ce seul compte développeur peut être utilisé pour signer plusieurs applications Loop.</br></br>
+1. Les applications Loop signées avec un compte/équipe de développeurs payants dureront une année complète.
+2. Le compte de développeur payant est de 99 € (ou 99 $) par année et est par défaut configuré pour le renouvellement automatique annuel. Vous pouvez modifier ce choix dans les paramètres de votre compte développeur à tout moment.
+3. Si votre foyer a plusieurs utilisateurs de Loop, un seul compte développeur est nécessaire.  Ce seul compte développeur peut être utilisé pour signer plusieurs applications Loop.
 
 ## Passage d'un abonnement gratuit à un payant
 

@@ -144,7 +144,8 @@ This IFTTT/Nightscout-Alarms folder will eventually contain numerous Google Spre
 
 !!!info
 
-    This applet can't be created unless your filename (alarm spreadsheet) already exists.  If your 1st applet we created above hasn't run for a long time, the spreadsheets may not exist yet because the alarms haven't triggered.  You have two options...(1) manually create the file in your Google Drive so that you can finish the applet now or (2) wait several days/weeks for the alarms to happen and that will automatically create the files in your Google drive.</br></br>
+    This applet can't be created unless your filename (alarm spreadsheet) already exists.  If your 1st applet we created above hasn't run for a long time, the spreadsheets may not exist yet because the alarms haven't triggered.  You have two options...(1) manually create the file in your Google Drive so that you can finish the applet now or (2) wait several days/weeks for the alarms to happen and that will automatically create the files in your Google drive.
+    
     If you choose option 1, here's a partial list of some of the filenames you could create in advance:
 
     * Loop isn't looping

@@ -6,33 +6,33 @@
 
 !!!info "Zusammenfassung"
     - Öffnen Sie Xcode Einstellungen und füge deine Apple-ID unter dem Accounts Tab hinzu.
-    - Verify that Command Line Tools has been properly installed under Xcode Preferences under the Locations tab.
+    - Überprüfe, dass die Kommandozeilen-Programme in den Xcode Einstellungen und dort in der Registerkarte "Locations" korrekt installiert wurden.
 
 !!!warning "FAQs"
-    - **"I still only see an account with `(personal team)` beside it even though I enrolled in the paid Developer Account program...what should I do?"** You should check your spam email box in case Apple sent you an email there. Make sure you've waited the 48 hours that Apple says it may take to get your account approved. If it's been 48 hours and you still don't see anything in your email, contact Apple support and ask them about the status of your enrollment. It may be held up by something on their end.
+    - **"Ich sehe immer noch nur ein Konto mit `(personal team)`, obwohl ich mich für das bezahlte Entwicklerkonto eingeschrieben habe...was soll ich machen? "** Bitte überprüfe deine Spam-Mailbox für den Fall, dass die E-Mail von Apple dort gelandet ist. Stellen Sie sicher, dass du die 48 Stunden gewartet hast, die Apple sagt, dass es dauern kann, um dein Konto zu aktivieren. Wenn bereits 48 Stunden vergangen sind und du noch keine E-Mail bekommen hast, kontaktiere den Apple Support und fragen nach dem Status deiner Anmeldung. Vielleicht steckt es bei Apple fest und ihr könnt es zusammen klären.
 
-Since you've been working in order, you will now have Xcode installed on your computer from Step 8. You will also have enrolled in the Apple Developer program with a paid account, if that was your selection, in Step 6. Now we need to tell Xcode about your Developer Account.
+Da du alles der Reihe nach gemacht hast, hast du Xcode in Schritt 8 auf deinem Computer installiert. Du hast dich auch in Schritt 6, wenn dies deine Wahl war, für das Apple Developer-Programm mit einem kostenpflichtigen Konto registriert. Dann müssen wir noch in Xcode dein Entwicklerkonto angeben. Übrigens gibt es Xcode nur in der englischen Version, deshalb übersetzte ich das, was du in Xcode angezeigt bekommst und hier beschrieben wird nicht.
 
-Open Xcode from your Applications folder.
+Öffne Xcode in deinem Ordner Programme.
 
-## Command Line Tools
+## Kommandozeilen-Programme (Command Line Tools)
 
-There may be a short delay the very first time you open Xcode because it will install a package of tools. Don't close that window out, let it finish...we will need those Command Line Tools. Helpful tip: When the Command Line Tools installation is done and the pop-up window closes, check that your Command Line Tools installed correctly. Make sure that Xcode 12.0.1 (or newer) is selected there. Open Xcode's Preferences by clicking on the word **`Xcode` ** in the top menu bar (just to the right of the Apple icon in the upper-left corner) and selecting `Preferences` in the drop-down menu. The keyboard shortcut to open Xcode Preferences is `command-comma` if that's easier for you. Then select the `Locations` tab of Preferences window and you'll see the dropdown menu for Command Line Tools.
+Beim allerersten Öffnen von Xcode kann es einen kleinen Moment dauern, da noch ein paar Hilfsprogramme installiert werden. Schließe dieses Fenster nicht, lasse es fertig werden...wir brauchen diese Komandozeilen-Programme. Ein Tipp: Wenn die Installation der Komandozeilen-Programme abgeschlossen ist und das Pop-up-Fenster geschlossen wurde, überprüfe, ob die Komandozeilen-Programme auch ordnungsgemäß installiert wurden. Öffnen Sie Xcode's Einstellungen, indem du auf das Wort **`Xcode`** in der oberen Menüleiste (rechts neben dem Apple-Symbol in der oberen linken Ecke) klickst und `Preferences` im Dropdown-Menü auswählst. Das Tastaturkürzel zum Öffnen der Xcode Einstellungen ist `Strg-Komma` wenn das für dich einfacher ist. Wähle dann die Registerkrate `Locations` in den Preferences aus, dort siehst du das Dropdown-Menü für die Kommandozeilen-Programme. Achte darauf, dass dort Xcode 12.0.1 (oder neuer) ausgewählt ist.
 
 ![img/command-line-error-3.png](img/command-line-error-3.png)
 
-## Add Apple ID
+## Apple-ID hinzufügen
 
-Go to the Xcode Preferences window from above, click on the `Accounts` tab and then press the `+` in the lower-left corner to add an Apple ID account.
+Gehe zu Xcode Preferences von oben, klicke auf die Registerkarte `Accounts` und drücke dann `+` in der unteren linken Ecke, um ein Apple-ID-Konto hinzuzufügen.
 
 ![img/xcode_account.png](img/xcode_account.png)
 
-If you want to use a free developer account, you will simply enter your Apple ID in this section and Xcode will automatically enroll your Apple ID in the free developer program. If you enrolled in the paid account already and have confirmation that your account is active, enter the Apple ID of the paid developer account. The screenshot below shows the labeling of team names based on whether from free account vs. paid account. Free teams will have `(personal team)` after the name.
+Wenn du ein kostenloses Entwickler-Konto verwenden möchtest gib einfach deine Apple-ID dort ein und Xcode wird deine Apple-ID automatisch in dem kostenlosen Entwicklerprogramm registrieren. Wenn du dich aber bereits für das kostenpflichtige Konto registriert hast und auch die Bestätigung hast, dass dein Konto aktiv ist, gib die Apple-ID des kontopflichtigen Entwicklerkontos ein. Das folgende Bildschirmfoto zeigt, wie die Team-Namen beschriftet sind, die entweder von einem Gratis-Konto oder bezahltem Konto sind. Bei Gratis Teams steht `(personal team)` hinter dem Namen.
 
 ![img/apple_id.png](img/apple_id.png)
 
-You are now done setting up Xcode.  Great job!  You will not need to redo the account setup steps on any subsequent builds or updates of your Loop app.  Xcode will remember these settings.
+Du bist nun mit der Einrichtung von Xcode fertig.  Gut gemacht!  Du musst die Kontoeinrichtungsschritte bei späteren Erstellungen oder Updates deiner Loop App nicht wiederholen.  Xcode merkt sich diese Einstellungen.
 
-## Next Step: Test Settings
+## Nächster Schritt: Test der Einstellungen
 
-Now you are ready to move onto Step 10 to [Test Your Settings](step10.md).
+Du kannst jetzt mit Schritt 10 weitermachen [Testen der Einstellungen](step10.md).
