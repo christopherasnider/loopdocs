@@ -43,10 +43,10 @@ Um dein Insulinpumpenmodell zu bestimmen, schauen auf der Rückseite deiner Pump
 
 !!!note ""
 
-    MMT ---> Pumpen Hersteller (MiniMed Medtronic)</br>
-    722 ---> Pumpenmodell Number</br>
-    WW ---> Pumpen Region (NA=North America, CA=Canada/Australia, WW=Worldwide)</br>
-    S ---> Pumpenfarbe (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)</br>
+    - MMT ---> Pump Manufacturer Model (MiniMed Medtronic)
+    - 722 ---> Pump Model Number
+    - NA ---> Pump Region (NA=North America, CA=Canada/Australia, WW=Worldwide)
+    - S ---> Pump Color (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)
 
 Einige Pumpen können vor der Pumpenregion noch ein „L“ oder „S“ oder „R“ haben, z.B. eine Modellnummer wie MMT-722LNAS.  Dieses hat keinen Einfluss auf die Kompatibilität mit Loop.
 
@@ -56,12 +56,13 @@ Die Firmware einer Insulinpumpe ist die interne Software, die deren grundlegende
 
 !!!note ""
 
-    Die Firmware auf allen 515/715 und 522/722 Medtronic Insulinpumpenmodellen sind kompatibel mit Loop. Du musst nur die Firmware-Version bei den Modellen 523/723 und 554/754 überprüfen.</br></br>
-    + Medtronic 515 oder 715 --> jede Firmware</br>
-    + Medtronic 522 oder 722 --> jede Firmware</br>
-    + Medtronic 523 oder 723 --> Firmware 2.4 oder niedriger</br>
-    + Medtronic Worldwide Veo 554 or 754 --> Firmware 2.6A oder niedriger</br>
-    + Medtronic Kanada/Australien Veo 554 oder 754 --> Firmware 2.7A oder niedriger</br>
+    The firmware on all 515/715 and 522/722 model Medtronic pumps are all compatible with Loop. You will only need to check the firmware version for 523/723 and 554/754 model Medtronic pumps.
+
+    + Medtronic 515 or 715 --> any firmware
+    + Medtronic 522 or 722  --> any firmware
+    + Medtronic 523 or 723 --> firmware 2.4 or lower
+    + Medtronic Worldwide Veo 554 or 754 --> firmware 2.6A or lower
+    + Medtronic Canadian/Australian Veo 554 or 754 --> firmware 2.7A or lower
 
 Um die Firmware deiner Insulinpumpe nachzuschauen, musst du sie einschalten. Falls die Pumpe längere Zeit ausgeschaltet war (d.h. einige Zeit ohne Batterie herumlag), wird sie zuerst durch eine Startprozedur gehen und die Firmware-Version wird dann unten rechts auf dem Bildschirm der Insulinpumpe angezeigt.  Du musst gut aufpassen, die Firmeware-Version wird nur kurz angezeigt, bevor der Bildschirm andere Informationen zeigt.
 
@@ -146,7 +147,7 @@ Medtronic will not typically sell pump supplies directly to customers who have n
 
 !!!warnung "Hinweis und Haftungsausschluss"
 
-    Durch die Arbeit der DIY Gemeinschaft ist Insulet's Omnipod (Eros) System jetzt mit Loop kompatibel. Die Verwendung von Eros Pods mit Loop wird von Insulet nicht unterstützt. Bitte rufe Insulet nicht mit Fragen und Hilfe bezüglich deiner Loop Installation, -Einrichtung oder -Betrieb an. Loop ist nicht von der EMA (European Medical Agency) zugelassen und du verwendest Loop auf eigene Verantwortung und Risiko. Bitte lies diese Dokumente sehr sorgfältig und mache dich vor der Verwendung mit Loop vertraut.
+    Through the work of the DIY community, Insulet's Omnipod (Eros) system is now Loop compatible. Using Eros pods with Loop is not supported by Insulet. Do not call Insulet asking for help with your Loop build, setup, or operation. This project is not FDA-approved and you are using this project under your own responsibility and risk. Please read these documents and familiarize yourself with Loop before using.
 
 ### Eros
 
