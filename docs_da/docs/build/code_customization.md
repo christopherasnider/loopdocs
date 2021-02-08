@@ -18,7 +18,7 @@ Afhængigt af dine iPhone-præferencer og -model, kan du have Face ID eller Touc
 
 ![img/carb_screen.png](img/carb_screen.png)
 
-Loops standard carb absorptionstider er baseret på det høje, medium, og lave glykæmiske indeks absorptionskurver præsenteret i <i>Think Like A Pancreas</i> af Gary Scheiner.  I øjeblikket slikkepind (hurtig) ikon er indstillet til 2 timer, taco (medium) ikon for 3 timer, og pizza (langsom) ikon for 4 timer.
+Loop’s default carb absorption times are based on the high, medium, and low glycemic index absorption curves presented in *Think Like A Pancreas* by Gary Scheiner.  I øjeblikket slikkepind (hurtig) ikon er indstillet til 2 timer, taco (medium) ikon for 3 timer, og pizza (langsom) ikon for 4 timer.
 
 Hvis du vil ændre disse standarder, kan du gøre det i Loop Core>>LoopSettings.swift Linje 16.
 
