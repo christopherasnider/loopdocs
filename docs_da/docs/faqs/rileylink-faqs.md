@@ -6,10 +6,9 @@ Yes, RileyLink is a required part of Loop. The RileyLink is a little device that
 
 ## Where can I buy a RileyLink?
 
-RileyLinks are made in batch productions (meaning sometimes they can go on backorder as another production is in process) and are available at GetRileyLink.org.</br>
+RileyLinks are made in batch productions (meaning sometimes they can go on backorder as another production is in process) and are available at GetRileyLink.org.
 
-* If you want to buy a RileyLink for Omnipods, click [here](https://getrileylink.org/product/rileylink433). </br>
-
+* If you want to buy a RileyLink for Omnipods, click [here](https://getrileylink.org/product/rileylink433).
 * If you want to buy a RileyLink for Loop-compatible Medtronic pumps, click [here](https://getrileylink.org/product/rileylink916).
 
 ## Do I have to carry the RileyLink everywhere?
