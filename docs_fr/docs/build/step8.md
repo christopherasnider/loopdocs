@@ -19,7 +19,9 @@ Ouvrez votre App Store dans votre ordinateur et recherchez Xcode...vous allez en
 
 !!!warning "Deux choses importantes"
 
-    1. The minimum version of Xcode that you need is dependent on the version of iOS you have on the iPhone. The newer the version of iOS, the newer of Xcode you'll also need. </br></br>The most current version of iOS (14+) requires Xcode 12 and macOS 10.15.4 at a minimum
+    1. The minimum version of Xcode that you need is dependent on the version of iOS you have on the iPhone. The newer the version of iOS, the newer of Xcode you'll also need.
+
+        The most current version of iOS (14+) requires Xcode 12 and macOS 10.15.4 at a minimum
 
     2. The newest Xcode version **may also require you to update your macOS version**. If you have an old version of macOS, then the App Store will not show you that a newer version of Xcode is available. This can create confusion because your iOS could be requiring a newer Xcode, but the App Store won't show it as available.
 
