@@ -4,12 +4,12 @@ Ces documents sont une excellente ressource pour les aspects techniques de la co
 
 Des choses telles que:
 
-* How to enter low treatments while using Loop?</br></br>
-* Quoi discuter avec votre Endo ?</br></br>
-* Quels rapports de données peuvent être utiles?</br></br>
-* Comment faire face aux sites en panne?</br></br>
-* Qu'en est-il des bolus de pizza ?</br></br>
-* Que dois-je faire lorsque je me douche ou que je nage?</br></br>
+* How to enter low treatments while using Loop?
+* Quoi discuter avec votre Endo ?
+* Quels rapports de données peuvent être utiles?
+* Comment faire face aux sites en panne?
+* Qu'en est-il des bolus de pizza ?
+* Que dois-je faire lorsque je me douche ou que je nage?
 
 Toutes ces questions d'utilisation et plus encore sont traitées dans le site compagnon appelé [Looptips](https://looptips.org).
 
