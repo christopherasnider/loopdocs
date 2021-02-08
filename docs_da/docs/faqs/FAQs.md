@@ -2,9 +2,9 @@
 
 Welcome to LoopDocs - a place for all things Frequently Asked.
 
-## What is Loop?
+## Hvad er Loop?
 
-Click on the image below to watch a short [Introduction to Loop video](https://youtu.be/qw_u1lqboCs).
+Klik på billedet nedenfor for at se en kort [Introduktion til Loop](https://youtu.be/qw_u1lqboCs).
 
 [![img/intro-to-loop.png](img/intro-to-loop.png)](https://youtu.be/qw_u1lqboCs)
 

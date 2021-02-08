@@ -1,21 +1,21 @@
-# Safety Tips
+# Sicherheitstipps
 
-## Beware the Medtronic Easy Bolus button
+## Hüte dich vor dem Medtronic Easy Bolus Knopf
 
-Medtronic's easy bolus button has been the cause of several accidental boluses when the pump has been carried in a pocket. Best practice would be to disable the Easy Bolus button since you will be doing boluses from the phone anyways.
+Der Medtronic Easy Bolus Knopf ist der Grund für einige unabsichtliche Bolusabgaben, wenn man die Pumpe in der Tasche trägt. Am besten deaktiviert man den Easy Bolus Knopf, da man Boluse eh über das iPhone abgeben kann.
 
-## Health app permissions
+## Healt App Berechtigungen
 
-Do not let other apps, such as Spike App or MyFitnessPal, on your iPhone write carbohydrates to Health app. Loop could read those carbohydrates and you could be dosed for those carbohydrates. You can read more about Health permissions [here](../build/health.md#loop-permissions).
+Lass keine anderen Apps auf deinem iPhone, wie Spike oder MyFitnessPal, Kohlenhydrate in die Health App schreiben. Die Loop-App wird diese Kohlenhydrate auslesen und Insulin dafür verabreichen. Näheres über die Health App Berechtigungen erfährst du [hier](../build/health.md#loop-permissions).
 
-## Finish your Medtronic priming
+## Beende den Medtronic Befüllungsvorgang
 
-After a site change and reservoir rewind, Medtronic's pump will have a menu on the pump screen related to finishing your prime. Make sure you complete that screen and always return to the main menu. Medtronic's pump won't resume basal insulin delivery until that priming screen is completed.
+Nach einem Katheterwechsel und Pumpenrücklauf zeigt die Medtronic Pumpe eine Ansicht, um die Befüllung abzuschließen. Stelle sicher, dass du diesen Vorgang vollständig abgeschlossen hast und wieder in der Hauptansicht bist. Medtronic Pumpen starten keine Basalabgabe, solange der Befüllvorgang nicht vollständig abgeschlossen ist.
 
-## Know your settings
+## Kenne deine Einstellungen
 
-Do not enter in settings that you are unsure of. For example, if you haven't any idea what your carb ratio is, please don't enter a zero or a wild guess. Instead, test your settings and talk to your health care provider about what your appropriate settings should be.
+Stelle nichts in den Einstellungen ein, wenn du dir unsicher bist. Wenn du z.B. keine Ahnung hast, wie hoch dein Kohlenhydratfaktor ist, stelle keine Null oder irgend eine wilde Schätzung ein. Stattdessen solltest du deine Einstellungen austesten und dich mit deinem Diabetologen über die passenden Einstellungen unterhalten.
 
-## How to Cancel Carbs
+## Wie kann ich die Eingabe für eine Mahlzeit löschen?
 
-DO NOT ENTER ACCIDENTAL DUPLICATE CARB ENTRIES. When you enter a meal in Loop and press the save button...those carbs are saved. Let me repeat: THOSE CARBS ARE SAVED...even if you cancel the bolus for them. This is an automated insulin delivery system and if it thinks you have carbs on board, it will try to give you appropriate insulin for those carbs. Most common new user mistake: enters a meal, saves the carbs, has a change of heart or gets confused, and cancels the bolus screen...thinking they've just canceled the entire meal entry. Then they enter in a new carb entry. AND NOW, when you go to bolus...you'll be bolusing for the meal you wanted AND the meal you are mistakenly thinking you had "canceled". You didn't cancel that carb entry though, you had only canceled the bolus...you didn't "unsave" the carbs. If you make a mistake or change your mind on a carb entry after you pressed save, then tap the green carb chart in Loop's main display and edit or delete that entry. CANCELING A BOLUS DOES NOT CANCEL THE CARB ENTRY THAT GOT YOU THERE. You must delete or edit a saved carb entry if you no longer want Loop to provide insulin for it.
+DO NOT ENTER ACCIDENTAL DUPLICATE CARB ENTRIES. Wenn du in die Loop-App eine Mahlzeit einträgst und auf Speichern drückst, sind diese Kohlenhydrate eingegeben. Let me repeat: THOSE CARBS ARE SAVED...even if you cancel the bolus for them. This is an automated insulin delivery system and if it thinks you have carbs on board, it will try to give you appropriate insulin for those carbs. Ein häufiger Anfängerfehler sieht so aus: Eingabe einer Mahlzeit, Speichern der Kohlenhydrate, Verwirrung oder Umentscheiden und Abruch der Bolusabgabe. Dabei wird angenommen, dass dadurch die gesamte Mahlzeit gelöscht wurde. Then they enter in a new carb entry. AND NOW, when you go to bolus...you'll be bolusing for the meal you wanted AND the meal you are mistakenly thinking you had "canceled". You didn't cancel that carb entry though, you had only canceled the bolus...you didn't "unsave" the carbs. If you make a mistake or change your mind on a carb entry after you pressed save, then tap the green carb chart in Loop's main display and edit or delete that entry. DAS ABBRECHEN EINES BOLUS LÖSCHT NICHT DIE DAZUGEHÖRENDE MAHLZEIT! Du musst die Mahlzeit löschen oder ändern, wenn du möchtest, dass die Loop dafür kein weiteres Insulin verabreicht.

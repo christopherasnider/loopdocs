@@ -1,56 +1,56 @@
 # Omnipod FAQs
 
-## Is Omnipod supported on Loop?
+## Wird Omnipod von Loop untersützt?
 
-YES IT IS!!! WOOHOO!!
+JA, ES WIRD!!! WOOHOO!!
 
-## Which pods will work with Loop?
+## Welche Pods funktionieren mit Loop?
 
-The Loop system described in these documents (aka DIY Loop) works with Eros pods...these are the current pods on the market in wide release. The newer DASH pods are not compatible with DIY Loop. Tidepool has begun a process to bring [DIY Loop through FDA approval](https://tidepool.org/blog/tidepool-delivering-loop) and Insulet has been announced as the [first pump partner for that project](https://diatribe.org/omnipod-first-insulin-pump-partner-tidepool-loop). Tidepool Loop will be using DASH pods, no RileyLink required.  If you would like to stay informed about Tidepool Loop progress, you can fill out an interest form [here](https://tidepool.org/loop).
+Die in dieser Dokumentation beschriebene Loop-App (sog. DIY Loop) arbeitet mit den Eros Pods zusammen. Die neueren DASH Pods werden nicht von der DIY-Loop unterstützt. [Tidepool](https://www.tidepool.org/) ist damit gestartet, die [DIY Loop bei der FDA als Hilfsmittel bestätigen zu lassen](https://tidepool.org/blog/tidepool-delivering-loop) und die Firma Insulet wurde als [erste Partnerfirma für Pumpen](https://diatribe.org/omnipod-first-insulin-pump-partner-tidepool-loop) angekündigt. Die Tidepool Loop wird die DASH Pumpe verwenden, ohne einen RileyLink zu benötigen.  Wenn du über den Fortgang informiert werden willst, kannst du dich [hier](https://tidepool.org/loop) für den Newsletter anmelden.
 
-Summary of eventual systems:
+Liste möglicher Systeme:
 
 * DIY Loop + Eros pods + RileyLink</br></br>
-* Tidepool Loop + DASH pods (no RileyLink)
+* Tidepool Loop + DASH Pods ohne RileyLink
 
-## Do I still need a PDM with Omnipod Loop?
+## Brauche ich immer noch den PDM mit der Omnipod Loop?
 
-No, pods are monogamous little creatures. They will pair with only one device at a time for safety reasons...so a pod is either paired with a PDM or your Loop app on your iPhone. In other words, your PDM can stay in the diabetes closet while you are Looping. You cannot use the PDM for a pod that has been activated with Loop. That doesn't mean you should get rid of your PDM. Instead, keep it for backup situations if you lose your phone. See below for what to do if you lose your phone or RileyLink.
+Nein. Pods sind monogame kleine Kreaturen. Sie paaren sich aus Sicherheitsgründen nur mit einem einzigen Gerät. Ein Pod kann also nur entweder mit deinem PDM oder der Loop-App auf deinem iPhone zusammenarbeiten. Mit anderen Worten, der PDM kann in der Schublade bleiben, während du loopst. Du kannst deinen Pod nicht mit deinem PDM steuern, wenn du ihn mit der Loop-App aktiviert hast. Das heisst aber nicht, dass du deinen PDM loswerden kannst. Instead, keep it for backup situations if you lose your phone. Weiter unten findest du Hinweise was zu tun ist, wenn du dein iPhone oder deinen RileyLink verlierst.
 
-## Can I cancel a temp basal Loop sets? How about a bolus?
+## Kann ich eine von Loop gesetzte temporäre Basalrate abbrechen? Wie sieht es mit einem Bolus aus?
 
-Yes, you can cancel a temp basal or a bolus in progress. There is a "suspend delivery" command that is easy to access by tapping on the [pod age icon in your Heads Up Display, upper right area](../operation/loop-settings/displays.md#pod-age-omnipod-users). Suspending insulin delivery will cancel any running temp basal or bolus in progress. The suspend command will run indefinitely. A banner notification will be displayed on the Loop main screen while insulin delivery is suspended.
+Ja, du kannst eine temporäre Basalrate oder einen Bolus jederzeit abbrechen. Du erreichst den "Abgabe unterbrechen" Knopf durch Tippen auf auf [das Pod-Alter-Icon](../operation/loop-settings/displays.md#pod-age-omnipod-users) im Head-UP-Display in der oberen rechten Ecke. Das Abbrechen der Insulinabgabe stoppt jede laufende temporäre Basalrate oder Bolusabgabe. The suspend command will run indefinitely. So lange die Insulinabgabe gestoppt ist, wird eine Banner-Benachrichtigung auf der Hauptansicht der Loop-App angezeigt.
 
 ![img/pump-suspend-banner.png](img/pump-suspend-banner.png)
 
-Insulin will remain suspended until the user either clicks on the "Tap to Resume" command from Loop's main screen or the "resume delivery" command accessed by tapping the pod age icon. Once insulin delivery is resumed, you will be resumed at your scheduled basal rate. If a bolus was interrupted, the bolus will not resume. If you don't turn on open loop mode, within 5 minutes of resuming insulin delivery, your Loop should resume automatic temp basal adjustments.
+Die Insulinabgabe bleibt solange gestoppt, bis der Benutzer etweder auf der Hauptansicht auf "Tap to Resume" tippt oder über das Pod-Alter Icon den "Abgabe fortsetzen"-Befehl startet. Sobald die Insulinabgabe fortgesetzt wird, wird wieder die normale zeitliche Basalrate angewendet. Falls ein Bolus unterbrochen wurde, wird dieser nicht fortgesetzt. Solltest du innerhalb der nächsten fünf Minuten nicht auf "Open Loop" umschalten, wird die Loop-App automatisch die temporäre Basalrate einstellen.
 
-## Can I prime or set my own temp basal on Loop?
+## Kann ich meine eigenen temmporären Basalraten einstellen?
 
 No. No. No. No. No. No. Loop does not allow you to pick your own temp basal rate or prime insulin in.
 
-If you find yourself in a situation where you would like to specify an exact temp basal rate of your own, you would need to (1) change your scheduled basal rate for the time(s) that you'd like a temp basal rate to run, and (2) suspend/resume insulin delivery (in order to cancel any currently running temp basal that Loop has running) and then (3) turn the slider so that you are running in "open loop" mode for the duration of the time you want to use that specific basal rate.
+Solltest du dich in einer Situation befinden, in der du deine eigenen temporären Basalraten benötigst, könntest du (1) deine momentane Basalrate für die benötigte Zeit anpassen oder zuerst die momentan laufende temporäre Basalrate durch Stoppen und Fortsetzen der Insulinabgabe abbrechen und dann für die Zeit, für die du deine spezielle Basalrate benötigst, in den "Open Loop" Modus umschalten, um dann die benötigte Basalrate von Hand einzustellen.
 
-## What if I lose my phone or RileyLink?
+## Was passiert, wenn ich mein Telefon oder RileyLink verliere?
 
-For pod users, your pod will finish any currently running temporary basal rate and then revert back to your scheduled basal rate. Without a phone or RileyLink however, you will not be able to affect any pod use; no basal change, suspend, cancel, or bolus. To do anything other than let basals continue, you will need to take action depending on the situation.
+Bei Pod-Benutzern wird der Pod die momentan laufende temporäre Basalrate bis zum Ende laufen lassen (maximal eine halbe Stunde) und dann auf die normale Basalrate zurückschalten. Allerdings kannst du ohne Telefon oder RileyLink nichts am Pod einstellen, keine Basalratenänderung, -abbruch oder fortsetzen, oder Bolusabgabe. Um irgendetwas anderes mit dem Pod zu tun, außer Basalabgabe, musst du je nach Situation handeln.
 
-* Lost RileyLink only: You can replace your missing RileyLink with one from your backup supplies. No problem to switch out to a different Rileylink mid-pod session. If you don't have a backup RileyLink to use, then you will need to remove the pod and put on a new pod paired with your PDM until you can get a new RileyLink.
+* Nur den RileyLink verloren: Du kannst den verlorenen RileyLink mit einem anderen aus deinem Nachschub ersetzen. Es gibt kein Problem beim Wechseln des RileyLinks inmitten einer Pod-Session. Solltest du allerdings keinen Ersatz-RileyLink zur Hand haben, musst du den aktuellen Pod durch einen neuen, mit deinem PDM aktivierten, Pod ersetzen und zwar so lange, bis du einen neuen RileyLink hast.
 
-* Lost iPhone only: You will need to remove the pod and put on a new pod paired with your PDM until you can get a new phone and Loop app built onto it.
+* Nur das iPhone verloren: Du musst den Pod durch einen neuen, mit deinem PDM aktivierten Pod ersetzen und zwar so lange, bis du ein neues iPhone und die Loop-App aufgespielt hast.
 
-* Lost both RileyLink and phone: You're having a really bad day. You'll need a hug and follow the same directions as if you lost the phone as shown in the bullet above.
+* RileyLink und iPhone verloren: Du hast einen wirklich schlechten Tag! Du brauchst eine Umarmung und solltest den Anweisungen im vorgerigen Punkt befolgen, als hättest du nur dein iPhone verloren.
 
-## Is there an increase in pod failures on Loop?
+## Gibt es eine Häufung der Pod-Fehler mit der Loop-App?
 
-In the early stages of development, there were. Thankfully to the hard work of Pete Schwamb and others, pod failure rate is now no longer increased compared to typical pod use with a PDM.
+In der Anfangszeit der Entwicklung gab es diese. Dank der harten Arbeit von Pete Schwamb und anderen gibt es diese Häufung von Pod-Fehlern bei normalem Gebrauch im Vergleich zu einem mit dem PDM aktivierten Pod nicht mehr.
 
-## What do I do if a pod fails to pair?
+## Was soll ich machen, wenn die Aktivierung des Pods fehlschlägt?
 
-The most common time of pod errors on Loop will be during the pairing process. If you get a pod that is failing to pair, please see [this page](../troubleshooting/pod-pairing.md) for steps on how to fix the failure and recover before you lose the pod.
+Die meisten Fehler beim Pod mit der Loop-App treten während des Aktivierungsprozesses auf. Sollten bei dir Fehler bei der Aktivierung auftreten, solltest du dir [diese Seite](../troubleshooting/pod-pairing.md) anschauen, die dir Möglichkeiten aufzeigt, wie du das Problem beheben kannst, bevor du den Pod verlierst.
 
-## What do you do to stop a screaming pod?
+## Was kann ich tun, um einen schreienden Pod zu stoppen?
 
-Screaming pods can be silenced by carrying a paperclip. Simply put the paperclip in the small hole that is on the bottom (the side opposite where the cannula is) of the pod as shown. Push the paperclip in until you hear a little click, that click is breaking the circuit that lets the audible scream go.
+Screaming pods can be silenced by carrying a paperclip. Einfach ein Ende der Büroklammer in das kleine Loch auf der Unterseite des Pods stecken (die Seite, auf der sich die Kanüle befindet), wie auf dem Bild gezeigt. Drücke die Bürklammer so weit rein, bis du einen kleinen Klick hörst. Dieser Klick zerbricht ein Bauteil und lässt das akustische Schreien verstummen.
 
 ![img/paperclip.jpg](img/paperclip.jpg)

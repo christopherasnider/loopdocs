@@ -25,23 +25,23 @@ Hvis du ikke har brug crowdin før der er en kort introduktion til Crowdin neden
 
 Hvis du ønsker en mere detaljeret forklaring på, hvordan du bruger Crowdin, kan du [Crowdin - for oversættere](https://support.crowdin.com/online-editor/)
 
-You can also join the zulip stream [here](https://loop.zulipchat.com/#narrow/stream/270362-documentation/topic/Translation) which are dedicated to the translation of loopdocs.
+Du kan også deltage i zulip stream [her](https://loop.zulipchat.com/#narrow/stream/270362-documentation/topic/Translation) , som er dedikeret til oversættelse af loopdocs.
 
 ## Crowdin introduktion
 
-When you have selected your language and a file, the Crowdin editor opens.
+Når du har valgt dit sprog og en fil, åbnes Crowdin-editoren.
 
-The Crowdin editor has 5 main areas which are highlighted below: ![Crowdin areas](img/crowdinareas.png)
+Crowdin-editoren har 5 hovedområder, som er fremhævet nedenfor: ![Crowdin areas](img/crowdinareas.png)
 
-**1. Document to translate** - contain all the sentences in the document.You translate one sentence at the time. You can click the sentence you want to translate. When you click a sentence the 4 other areas change.
+**1. Document to translate** - indeholder alle sætninger i dokumentet. Du oversætter en sætning ad gangen.</0> Du kan klikke på den sætning, du vil oversætte. Når du klikker på en sætning, ændres de fire andre områder.
 
-The sentences are colored in:
+Sætningerne er farvet i:
 
 - Rød: Sætninger, der skal oversættes.
 - Gul: den sætning, du oversætter.
 - Grøn: Sætninger, der er blevet oversat.
 
-**2. Sentence you are translating now** - Shows the sentence you have selected in the document.
+**2. Sentence you are translating now** - Viser den sætning du har valgt i dokumentet.
 
 **3. Enter translation here** - this is where you enter you translation. After you have entered your translation click the save button. Crowdin will then take you to the next sentence.
 

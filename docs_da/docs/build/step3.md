@@ -1,6 +1,6 @@
-# Step 3: Compatible Pump
+# Trin 3 Kompatibel pumpe
 
-!!!danger "Time Estimate"
+!!!danger "Tidsestimat"
     - Omnipod users: 3 seconds to remember which PDM you've been using.
     - Medtronic users: 10 minutes to put a battery in and look at model and firmware
     - Other pump users: 5 days to email friends asking them to check closets for their old Medtronic pump or call your insurance to start prior authorization for Omnipod
@@ -16,7 +16,7 @@
     - **"But what about the other types of pumps?"** Too bad, so sad...unless it is a DanaRS, DanaR, Accu-Chek Insight, Accu-Chek Combo. If you have one of those pumps, you could check out [AndroidAPS looping system](https://androidaps.readthedocs.io/en/latest/index.html) instead of Loop. If you have a Medtronic 512 or 712, you could check out [OpenAPS](https://openaps.readthedocs.io/en/latest/) as that system supports the 512 and 712 models in addition to the other Loop-compatible Medtronic pumps. Neither of those systems currently support Omnipod for looping.
     - **"Can I change the firmware of my Medtronic pump?"** Do you work at Medtronic with insider access to the secret tools and firmware versions to do that? Might lose your job, but I'd bet you could do it then. We don't have access to that though.
 
-## Check pump version
+## Tjek pumpe version
 
 This is a pretty simple step...check that you have a compatible pump to use Loop:
 
@@ -65,11 +65,11 @@ A pump’s firmware is the internal software that runs your pump.  Older Medtron
 
 To find your pump’s firmware you will need to power it on. If the pump has not been powered on for some time (i.e., has been in storage without a battery for a while), it will run through a start-up count and the firmware version will appear on the bottom right of the pump’s screen.  Don’t turn away, as the version number will only be displayed for a little while before the screen moves onto other information displays.
 
-If the pump has been active recently or has a reservoir installed, follow these steps:
+Hvis pumpen har været aktiv for nylig eller har et reservoir installeret, skal du følge disse trin:
 
-1. Press the <img src="../img/esc.png" width="40" alt="ESC" /> button on your pump.
+1. Tryk på ![img/esc.png](img/esc.png) knappen på din pumpe.
 
-2. Scroll down with the <img src="../img/light_button.png" width="40" alt="Down Arrow" /> button to the bottom of the status display.
+2. Rul ned med ![img/light_button.png](img/light_button.png) knappen til bunden af statusdisplayet.
 
 3. Read the bottom line of the display.
 

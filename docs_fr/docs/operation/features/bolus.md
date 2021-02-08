@@ -2,29 +2,29 @@
 
 ![img/toolbar.png](img/toolbar.png)
 
-Bolus entries can be made manually through the bolus tool (double orange triangles) in the toolbar, either as part of a meal bolus or as a correction for a high BG.
+Les entrées de Bolus peuvent être faites manuellement à travers l'outil bolus (double triangles orange) dans la barre d'outils, soit dans le cadre d'un bolus de repas ou comme correction pour une glycémie élevée.
 
-## Meal Bolus
+## Bolus de repas
 
-Loop has a bolus tool, similar to a pump’s bolus wizard. After a carb entry is saved, Loop will provide a bolus screen with a recommended bolus amount. The only time the bolus screen wouldn't appear is if Loop believes the insulin-on-board is already sufficient to cover the added carbs or you are missing current blood glucose data. If you want to deliver the total amount of the recommended bolus, simply tap on the recommended amount of units and the bolus delivery line will automatically be filled in with the same units. If you want to give fewer units than the recommended amount, you can manually enter the desired amount to be delivered.
+Loop dispose d’un outil bolus, similaire à l’assistant bolus d’une pompe. Après l’enregistrement d’une entrée de glucides, Loop fournira un écran bolus avec une quantité de bolus recommandée. La seule fois où l’écran bolus n’apparaîtrait pas, c’est si Loop croit que l’insuline active est déjà suffisante pour couvrir les glucides ajoutés ou si il n'y a pas de données actuelles sur la glycémie. Si vous voulez livrer la quantité totale du bolus recommandé, il suffit de tapoter simplement sur la quantité recommandée d’unités et la ligne de livraison bolus sera automatiquement rempli avec les mêmes chiffres. Si vous voulez donner moins d'unités que le montant recommandé, vous pouvez entrer manuellement la quantité désirée à livrer.
 
-The bolus tool will not offer a recommended bolus if your BG is predicted to go below your specified suspend threshold. A screen will appear letting you know the reason no bolus is being recommended, as well as the status of your active COB and IOB. You can choose to override that warning and give a bolus, or treat the low BG and come back to the bolus tool when your BG has recovered.
+L'outil bolus n'offrira pas de bolus recommandé si votre glycémie prévisionnelle va être en dessous du seuil de suspension spécifié. Un écran apparaîtra vous informant de la raison pour laquelle aucun bolus n'est recommandé, ainsi que de l'état de vos glucides actifs et votre Insuline active. Vous pouvez choisir de passer outre à cet avertissement et de donner un bolus, ou de traiter le faible glycémie et revenir à l’outil bolus lorsque votre glycémie a récupéré.
 
 ![img/below_min.png](img/below_min.png)
 
-## Correction Bolus
+## Bolus de correction
 
-Occasionally, a recommended bolus will be offered in the bolus tool unrelated to a newly saved carb entry. In those cases, Loop is calculating that it will not be able to stay in the BG correction range through the use of high temp basals alone and is offering a “correction bolus”. Correction boluses will not be delivered automatically by Loop, they must be delivered by the user. Loop will also not give an alert when a correction bolus is being offered, the bolus entry tool must be clicked to check for one. The Loop pill in Nightscout will display when Loop has a recommended bolus calculated. In a well-tuned Loop with decent carb counting, correction boluses should be infrequently needed.
+Parfois, un bolus recommandé sera proposé dans l'outil bolus sans lien avec une entrée nouvellement enregistrée en glucides. Dans ces cas, Loop calcule si il ne sera pas en mesure de rester dans la plage de correction de glycémie grâce à l’utilisation de basals temporaire uniquement et offre un « bolus de correction ». Les bolus de correction ne seront pas livrés automatiquement par Loop, ils doivent être livrés par l’utilisateur. Loop ne donnera pas non plus une alerte quand un bolus de correction est suggéré, l’outil d’entrée bolus doit être cliqué pour vérifier si il le propose. La pilule Loop dans Nightscout s’affichera lorsque Loop aura calculé un bolus recommandé. Pour un Loop bien réglée avec un comptage des glucides correct, un bolus de correction devrait être rarement nécessaire.
 
-## Starting Bolus Notification
+## Démarrage de la notification de Bolus
 
-A new status line will appear when Loop is sending a bolus command to the pump. Just above the main screen's glucose chart, you will see a "starting bolus" indicator.
+Une nouvelle ligne d'état apparaîtra lorsque la boucle enverra une commande bolus à la pompe. Juste au-dessus du graphique de glycémie de l'écran principal, vous verrez un indicateur "Commencer un bolus".
 
 ![img/starting_bolus.png](img/starting_bolus.png)
 
-## Bolus Failure Notifications
+## Notifications d'échec du Bolus
 
-On occasion, you will receive notification that a bolus may have failed. In some of these cases, the bolus actually will begin delivery. Therefore, you should always check the pump screen to verify the bolus status before attempting to redeliver a failed bolus.
+À l’occasion, vous recevrez une notification qu’un bolus peut avoir échoué. Dans certains de ces cas, le bolus commencera en fait à être administré. Par conséquent, vous devriez toujours vérifier l'écran de la pompe pour vérifier le statut du bolus avant d'essayer de redélivrer un bolus après un échec.
 
 ## Square or Dual Waves
 

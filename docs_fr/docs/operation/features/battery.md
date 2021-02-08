@@ -1,34 +1,34 @@
 # Batterie de la pompe
 
-One common confusion point for new Loop users is how to interpret their pump's battery levels and whether they need to change their pump batteries based on which pieces of information.
+Un des points de confusion courants pour les nouveaux utilisateurs de Loop est la façon d'interpréter le niveau de batterie de leur pompe si il est nécessaire de changer les piles de leur pompe en fonction des éléments d'information.
 
-## Discharge Curves
+## Courbes de décharge
 
-There are generally two different types of AAA batteries that we use in these Medtronic pumps; alkaline or lithium.
+Il y a généralement deux types de piles AAA que nous utilisons dans ces pompes Medtronic : les alcaline ou les lithium.
 
-To understand pump battery levels, you first need to know a little about **battery discharge curves**.  It's not a hard concept...basically how a battery dies over time as it is used or sits in a drawer.  More technically said, a battery discharge curve is the measure of volts that a battery puts out over time.  Batteries start at a higher voltage output and slowly that voltage output degrades over time (or use) until the battery no longer provides enough "ummph" to keep the electronic gadget going.  BUT, alkaline batteries and lithium batteries have different discharge curves due to the chemistry inside them, and the curves can be slightly different depending on the environment (temperature) and battery manufacturer.
+Pour comprendre les niveaux de batterie de la pompe, vous devez d'abord en savoir un peu sur **les courbes de décharge des batteries**.  Ce n’est pas un concept difficile... en gros, comment une batterie meurt au fil du temps car utilisé ou laissé dans un tiroir.  Plus techniquement, une courbe de décharge de la batterie est la mesure des volts qu'une batterie perd au fil du temps.  Les piles commencent à une tension plus élevée et lentement cette sortie de tension se dégrade au fil du temps (ou à l'utiliser) jusqu'à ce que la batterie ne fournisse plus assez de "ummph" pour maintenir le fonctionnement du gadget électronique.  MAIS, les piles alcalines et les piles au lithium ont des courbes de décharge différentes en raison de la chimie qu'elles contiennent, et les courbes peuvent être légèrement différentes en fonction de l'environnement (température) et du fabricant de batteries.
 
-Alkaline batteries have a relatively steady voltage drop over time, as shown below.  Notice the shape of the curve has a significant amount of time in the 1.3 to 1.2 volts range, and a relatively smooth decline to about 1.2 volts.
+Les piles alcalines ont une baisse de tension relativement régulière au fil du temps, comme indiqué ci-dessous.  Notez que la forme de la courbe a une durée significative dans la plage de 1,3 à 1,2 volts et une baisse relativement douce à environ 1,2 volts.
 
 ![img/alkaline.jpg](img/alkaline.jpg)
 
-Lithium batteries have a much steadier voltage output over time, as shown below.  Notice how the shape of the curve is relatively flat for a large portion of the battery life before suddenly off around 1.3 volts.
+Les batteries au lithium ont une sortie de tension beaucoup plus stable au fil du temps, comme indiqué ci-dessous.  Notez que la forme de la courbe est relativement plate pour une grande partie de la durée de vie de la batterie avant de s'éteindre soudainement autour de 1,3 volts.
 
 ![img/lithium.jpg](img/lithium.jpg)
 
-What does the above information mean in terms of Looping?  A lithium battery at 1.3v is going to have a much quicker time to death than an alkaline battery sitting at 1.3v.  You might only get a couple of hours of looping left when a lithium battery is at 1.3v, but an alkaline battery at 1.3v might go for several more days.  So when we talk about setting alarm levels in either system, your battery type is an important consideration.
+Que signifie les informations ci-dessus en termes de fonctionnement de Loop ?  Une batterie au lithium à 1.3v est beaucoup plus proche de sa fin de vie qu’une batterie alcaline à 1.3v.  Il ne vous reste peut-être que quelques heures de fonctionnement quand une batterie au lithium est à 1.3v , mais une batterie alcaline à 1.3v pourrait encore durer plusieurs jours.  Donc, lorsque nous parlons de régler les niveaux d'alarme dans l'un ou l'autre système, votre type de batterie est un élément important à prendre en compte.
 
-## Medtronic Pump Battery Level Indicator
+## Indicateur de niveau de la batterie de la pompe Medtronic
 
-If you read Medtronic's literature, it will tell you to use Energizer alkaline batteries in their pumps.  Why would that be?  Hint: the answer doesn't mean that Duracell batteries are inherently worse than Energizer or that lithium batteries won't work in Medtronic pumps.
+Si vous lisez la documentation de Medtronic, ils vous diront d'utiliser les piles alcalines Energizer dans leurs pompes.  Pourquoi?  Astuce : la réponse ne veut pas dire que les piles Duracell sont intrinsèquement pires que Energizer ou que les piles au lithium ne fonctionneront pas dans les pompes Medtronic.
 
-**The answer is all about the accuracy of their little pump battery level indicator on their pump's screen.**  Medtronic calibrated their pump battery level indicator to:
+**La réponse porte sur la précision de l'indicateur de niveau de la pile de leur petite pompe sur l'écran de leur pompe.**  Medtronic a calibré l'indicateur de niveau de la batterie de la pompe à :
 
-* Energizer alkaline batteries
-* Normal (non-Loop) uses
-* Temperatures between 37°F (3°C) to 104°F (40°C).
+* Piles alcalines Energizer
+* Utilisations normales (cad pas avec Loop)
+* Températures comprises entre 37°F (3°C) et 104°F (40°C).
 
-In other words, Medtronic ran experiments to see exactly how long an Energizer alkaline battery will last in normal pump use and made their own discharge curve.  They programmed their pump battery level indicator to change from 4 bars to 3 bars to 2 bars to 1 bar based on that particular discharge curve.
+En d'autres termes, Medtronic a fait des essais pour voir exactement combien de temps une batterie alcaline Energizer durera en utilisation normale de la pompe et a fait sa propre courbe de décharge.  They programmed their pump battery level indicator to change from 4 bars to 3 bars to 2 bars to 1 bar based on that particular discharge curve.
 
 However, Loop users are slightly more demanding on the pump's battery/voltage than simply delivering insulin.  We are also asking for the pump to perform radio communications, in addition to delivering insulin.  Those radio communications needs a slightly higher voltage than the typical "normal" pump use.  So while a non-Looper might be ok running their pump until a voltage of about 1.12 for insulin delivery, radio communications might stop at a voltage output of about 1.17.  If you experiment with your Looping pump, you'll find Loop will turn red from failed pump comms before the pump actually fails at insulin delivery.  This difference between "failure" voltages needs to be considered when determining how much useful battery life is left for a pump battery.
 

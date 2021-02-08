@@ -1,24 +1,24 @@
 # RileyLink FAQs
 
-## What is the RileyLink? Do I have to have one?
+## Was ist der RileyLink? Brauche ich den überhaupt?
 
-Yes, RileyLink is a required part of Loop. The RileyLink is a little device that helps your iPhone and pump (or Omnipod...that's a pump, too) speak to each other. The RileyLink is a critical part of the Loop system because the pump needs communications in radio form, and the iPhone needs communications in Bluetooth form. RileyLink is like a translator and can speak both formats so that the pump and iPhone can loop together. RileyLink helps get information to/from your pump by radio communications, and to/from your iPhone using Bluetooth.
+Ja, RileyLink ist ein notwendiger Bestandteil der Loop. Er ist ein kleines Gerät, welches deinem iPhone hilft, mit deiner Pumpe (oder deinem Omnipod, was ja auch eine Pumpe ist) zu sprechen. The RileyLink ist ein wiklich kritischer Teil des Loop-Systems, da die Pumpe über Funk angesprochen wird und das iPhone nur in BlueTooth-Form sprechen kann. Der RileyLink ist wie ein Übersetzer, der beide Sprachen sprechen kann, so dass die Pumpe und das iPhone zusammen kommen können. Der RileyLinke holt/sendet Information von/zu der Pumpe per Funk und von/zu deinem iPhone per BlueTooth.
 
-## Where can I buy a RileyLink?
+## Wo kann ich einen RileyLink kaufen?
 
-RileyLinks are made in batch productions (meaning sometimes they can go on backorder as another production is in process) and are available at GetRileyLink.org.</br>
+Die RileyLinks werden in Chargen hergestellt, d.h., dass sie manchmal im Lieferückstand sind, weil gerade eine neue Charge produziert wird. Sie können [hier](https://getrileylink.org/) bestellt werden.</br>
 
-* If you want to buy a RileyLink for Omnipods, click [here](https://getrileylink.org/product/rileylink433). </br>
+* Falls du einen RileyLink für den Omnipod brauchst, klicke [hier](https://getrileylink.org/product/rileylink433). </br>
 
-* If you want to buy a RileyLink for Loop-compatible Medtronic pumps, click [here](https://getrileylink.org/product/rileylink916).
+* Falls du einen RileyLink für eine Loop-kompatible Medtronic Pumpe kaufen willst, klicke [hier](https://getrileylink.org/product/rileylink916).
 
-## Do I have to carry the RileyLink everywhere?
+## Muss ich den RileyLink immer mit mir herumtragen?
 
-The short answer is yes. If you want your Loop to keep automatically adjusting basals and issuing commands to your pump, you will need the RileyLink so that these communications can happen. Put it in a purse, pocket, SPIbelt. Clip it to a backpack, belt, or bra...but please do bring it with you.
+Die einfache Antwort ist ja. Wenn du möchtest, dass Loop immer automatisch deine Basalraten anpasst und Kommandos an deine Pumpe sendet kann, wirst du den RileyLink benötigen, damit die Kommunikation stattfinden kann. Steck ihn in den Geldbeutel, Hosen- oder Gürteltasche. Klemm ihn an den Rucksack, Gürtel oder BH, aber bitte, nimm ihn mit.
 
-## What are some ideas for carrying the RileyLink?
+## Welche Möglichkeiten gibt es, den RileyLink mitzunehmen?
 
-I'm shocked that this question comes up so often...but here's some ideas. Please do not post in Looped group or Zulipchat for more ideas. This horse has been well-beaten, so use the search function in Looped group to see the previous responses. But, here's some samples for those of you who won't use the search function. ;)
+Ich bin wirklich erstaunt, wie häufig diese Frage auftaucht, aber hier sind mal ein paar Vorschläge. Stellt bitte keine neuen Ideen in die Loop-Gruppe oder den Zulip-Chat. This horse has been well-beaten, so use the search function in Looped group to see the previous responses. But, here's some samples for those of you who won't use the search function. ;)
 
 [Post 1](https://www.facebook.com/groups/TheLoopedGroup/permalink/2340802992803020/)
 
@@ -28,72 +28,72 @@ I'm shocked that this question comes up so often...but here's some ideas. Please
 
 [Post 4](https://www.facebook.com/groups/TheLoopedGroup/permalink/2324172164466103/)
 
-## How far away can the RileyLink be?
+## Wie weit entfernt kann ich mich vom RileyLink entfernen?
 
-That answer will depend, it is environmentally dependent. Generally speaking, RileyLink is solid about 10-12 feet away in most environments. In some situations, you could have RileyLink work fine even at 20+feet away. Other times, you may need to get RileyLink closer. What influences this distance? The biggest influences are (1) body-blocking and (2) "noisy" environments. The human body is a lot of water, and water is an excellent blocker of wireless communication.  So, sleeping on a pod and smothering it entirely with your body will possibly decrease the ability of RileyLink to communicate with the pod. Environments with a high concentration of wireless signals can also interfere with RileyLink's communications and make closer proximity a benefit. Where might those kinds of situations happen? Concerts, conferences, and sporting arenas are pretty prone to interference.
+Die Antwort ist umgebungsabhängig. Im Allgemeinen funktioniert der RileyLink in den meisten Umgebungen gut über eine Distanz von drei bis vier Meter. In manchen Situationen geht das auch über sechs bis acht Meter gut. In anderen Fällen musst du aber wieder näher an den RileyLink ran. Welche Einflussfaktoren sind das? Der größte Einfluss ist (1) die Abschirmung durch den Körper und (2) eine "verschmutzte" Umgebung. Der menschliche Körper enthält viel Wasser und Wasser blockiert drahtlose Funkverbindungen stark.  Also auf dem RileyLink zu schlafen und ihn vollständig mit deinem Körper zu ersticken, wird definitiv die Möglichkeiten deines RileyLinks mit dem Pod zu kommunizieren eingrenzen. Umgebungen mit einer hohen Konzentration drahtloser Funksignale werden sich auch störend auf die Kommunikation auswirken und machen ein Näherkommen vorteilhaft. Wo könnten solche Situationen auftreten? Konzerte, Konferenzen, Sport Arenas sind wirklich empfänglich für solche Interferenzen.
 
-## What happens if I walk away from my RileyLink?
+## Was passiert, wenn ich mich von meinem RileyLink entferne?
 
-While you are out of the communication range for your RileyLink, any running temp basal will keep going until it finishes (the longest temp basal that Loop sets are for 30 minutes duration...so within 30 minutes or less your pump would go back to your regularly scheduled basal). When you come back into range of your RileyLink, Loop will pick back up within 5-10 minutes without you needing to do anything.
+Sobald du außerhalb des Kommunikationsbereichs deines RileyLinks bist, wird die aktuell eingestellte temporäre Basalrate weiterlaufen, bis sie fertig ist (die längsten temporären Basalraten gehen über 30 Minuten. Deine Pumpe wird also innerhalb dieser Zeitspanne wieder auf ihre normale Basalrate zurückgehen). Wenn du wieder in den Funkbereich deines RileyLinks kommst, wid die Loop-App wieder innerhalb von fünf bis zehn Minuten übernehmen, ohne dass du etwas tun musst.
 
-## What are the differences between Medtronic and Omnipod RileyLinks?
+## Welche Unterschiede gibt es zwischen dem Medtronic und dem Omnipod RileyLink?
 
-There are two different types of RileyLink currently; the difference being the antenna is optimized for the pump you are using. Otherwise they are identical.
+Es gibt momentan zwei Arten von RileyLinks. Die Unterschiede liegen aber nur in der Antenne, die auf die jeweilige Funkfrequenz deiner Pumpe angepasst ist. Ansonsten sind sie identisch.
 
 ![img/two-rl.png](img/two-rl.png)
 
-## Is the new antenna an "upgrade" in Loop performance?
+## Ist die neue Antenne eine Verbesserung für die Loop-App?
 
-It is a bit of a misnomer to think of the newer copper coil antenna as an "upgrade". It is only an upgrade if you want to pod Loop. The new antenna will actually decrease your range if you try to use it with a Medtronic Loop.  See the next FAQ for a more detailed description and chart.
+Die Bezeichnung "Verbesserung" durch die Verwendung einer Kupferspulenantenne trifft die Sache nicht genau. Sie ist nur eine Verbesserung in Bezug auf eine Loop mit einem Pod. Eigentlich verschlechtert diese Antenne den Empfang bei der Verwendung einer Medtronic Pumpe.  Die nächste FAQ erläutert den Punkt etwas genauer.
 
-## What will happen if you use a 916MHz antenna RileyLink with an Omnipod? Or vice versa?
+## Was passiert, wenn ich einen RileyLink mit einer 916MHz-Antenne bei einem Omnipod verwende oder umgekehrt? Or vice versa?
 
-The answer will first depend on exactly how old that RileyLink is and what firmware it has installed.
+Die Antwort hängt zuerst davon ab, wie alt der RileyLink ist und welche Firmware darauf installiert ist.
 
-Before August 2018, RileyLinks had a firmware that works for only Medtronic pump communication. So, if you have the older firmware on a RileyLink, your pod will never pair in Loop using that RileyLink. The GetRileyLink site does offer a [RileyLink firmware update service](https://getrileylink.org/product/rileylink-fw-update/), if you want to update to the newer pod-usable firmware.
+Vor August 2018 hatte der RileyLink eine Firmware, die nur mit Medtronic Pumpen kommunizieren konnte. Wenn du also einen RileyLink mit einer Firmware vor diesem Datum hast, kannst du keinen Omnipod damit aktivieren. Es gibt einen [RileyLink firmware Update Service](https://getrileylink.org/product/rileylink-fw-update/), falls du eine eine Firmware installiert haben willst, die auch mit dem Omnipod kommuniziert.
 
-RileyLinks produced after August 2018, include newer firmware that is needed for Omnipod pump communications as well. The newer firmware will say `subg_rfspy 2.2/ble_rfspy 2.0` in the RileyLink menu, like below when paired in Loop.
+RileyLinks, die nach August 2018 hergestellt wurden, haben bereits eine Firmware, die auch mit den Omnipods kommunizieren kann. Diese Firmware wird im RileyLink Menü als `subg_rfspy 2.2/ble_rfspy 2.0` angezeigt, wie unten im Bild zu sehen ist.
 
 ![img/rl-firmware.jpg](img/rl-firmware.jpg)
 
-Assuming your has the newer RileyLink firmware, you can *technically* use that RileyLink with either pump on Loop. But, you will have significant frustrations with the short distances required between the pump/pod and RileyLink when using the "wrong" antenna. Even keeping RileyLink in the pocket on the opposite of where the POD is on your body can cause issues with the 916MHz antenna. With mismatched antenna/pump, the RileyLink needs to be very close and in clear line-of-sight to pump/pod, that it makes everyday living a bit hard. If you use the appropriate-antenna-for-your-pump RileyLink, the distances the pump/pod and RileyLink can tolerate from each other is much more "real world" friendly and stable.
+Angenommen du hast diese neue Firmware auf deinem RileyLink, dann kannst du *technisch* gesehen mit beiden Pumpen in der Loop-App arbeiten. Du wirst aber starke Frustrationen erleiden mit dem Umstand, dass du die beiden immer sehr nahe zusammenbringen musst, falls dein RileyLink noch die alte Antenne hat. Selbst wenn du den RileyLink nur in der falschen Hosentasche trägst, kann das zu Problemen führen, wenn du die 916MHz Antenne hast. Mit der falschen Pumpen-/Antennenkombination muss man den RileyLink sehr nahe an die Pumpe halten und das alles noch in einer gerade Linie, was den täglichen Gebrauch sehr schwierig gestaltet. Bei der richtigen Pumpen-/Antennenkombi kann die Entfernung größer sein, was die Sache deutlich alltagstauglicher gestaltet.
 
-In summary, definitely use the appropriate RileyLink with the antenna that matches your pump so that you are less frustrated. In a pinch, your old RileyLink might work as a backup, but you won't love it.
+Zusammengefasst ist die Benutzung des richtigen RileyLinks besser, da es weniger frustriert. Im Notfall kann der alte RileyLink als Ersatz dienen, aber du wirst es nicht lieben.
 
 ![img/rl-antenna-chart.png](img/rl-antenna-chart.png)
 
-## Can you swap out the old antenna on a RileyLink?
+## Kann man die alte Antenne eines RileyLinks austauschen?
 
-Yes, the antenna swap is not a hard swap if you just have basic soldering skills. The old antenna can be removed easily by reheating the solder. New 433MHz antennas and a cap can be found on [GetRileyLink site](https://getrileylink.org/product/433diyupgrade/). Tips: use flux and clean the antenna stub before soldering. Poorly DIY-soldered antennas can lead to a decreased range and frequent communication drops between Loop and the pods.
+Ja, der Austausch der Antenne ist keine große Sache und erfordert keine besonderen Lötkenntnisse. Die alte Antenne kann durch Erhitzen des Lötzinns leicht ausgebaut werden. Eine 433MHz Antenne und einen passenden Deckel dazu findest du auf der [GetRileyLink Webseite](https://getrileylink.org/product/433diyupgrade/). Tipp: Benutze Flußmittel und säubere den Antennenanschluss, bevor du ihn einlötest. Schlecht eingelötete Antennen können zu einem Rückgang der Reichweite und häufigen Kommunikationsabbrüchen zwischen der Loop-App und den Pods führen.
 
-## How long will my RileyLink go between charging?
+## Wie lange kann ich den RileyLink benutzen, bevor ich ihn wieder aufladen muss?
 
-RileyLinks can go about 30-32 hours (more or less) on a single charge. There is no way to see the remaining charge level, so most people just get into the habit of charging overnight while they sleep. The actual time to fully recharge is about 1 or 2 hours; you'll know it is fully charged when the red light turns off. After a full charge, the red light will turn off and then periodically turn on for short times while it "tops off" while still on a charger.
+RileyLinks halten rund 30-32 Stunden nach dem vollständigen Laden durch. Es gibt keine Möglichkeit, den aktuellen Ladezustand zu einzusehen. Die meisten Leute haben sich daher angewöhnt, ihn über Nacht, während des Schlafens, zu laden. The actual time to fully recharge is about 1 or 2 hours; you'll know it is fully charged when the red light turns off. Nach dem vollständigen Laden erlischt die rote LED und leuchtet immer wieder periodisch kurz auf, solange wieder nachgeladen wird.
 
-## How long will my RileyLink battery last?
+## Wie lange funktioniert die RileyLink Batterie?
 
-Eventually, lithium polymer (LiPo) batteries will lose charging capacity and you would want to replace if you notice the battery not lasting the full day. We've been using our current battery for nearly 2 years without issue.
+Letztendich verliert eine Lithium Polymer Batterie mit der Zeit an Kapazität und du solltest die Batterie austauschen, falls sie keinen ganzen Tag mehr durchhält. Wir benutzen die Batterien ohne irgendwelche Probleme schon seit mehr als zwei Jahre.
 
-## How can I tell how much charge my RileyLink has?
+## Woher weiss ich, wie lange meine Batterie noch hält?
 
-You can't. There is no charge level indicator. Just charge it nightly, and you won't have a problem. Full battery charge should last about 30-36 hours depending on battery health. Charging takes less than 2 hours.
+You can't. There is no charge level indicator. Lade sie über Nacht und du wirst keine Probleme haben. Eine volle Batterie hält, abhängig vom Alter der Batterie, rund 30-32 Stunden. Das Laden braucht weniger als zwei Stunden.
 
-## How should I carry the RileyLink? Does it make a difference?
+## Wie soll ich den RileyLink mit mir herumtragen? Gibt es da unterschiedliche Möglichkeiten?
 
-In general, you want to get in the habit of carrying RileyLink with you, yes. A pocket, carabiner, lanyard, SPIbelt...the options are endless. What you don't want to do is put the RileyLink in a blocking bag that has RFID blocking (some travel fanny packs have that). The distance that your RileyLink can be away from your pump will depend heavily on the environment you are in.
+Im Allgemeinen wirst du deinen RileyLink mit dir herumtragen wollen. Ein Täschchen, am Karabiner, am Halsband, SPIbelt, ... es gibt unendlich viele Möglichkeiten. Du solltest den RileyLink aber nicht in eine Tasche stecken, die RFID-Kommunikation abschirmt (einige Bauchtaschen tun so etwas). Die mögliche Distanz zwischen deinem RileyLink und deiner Pumpe hängt stark von der Umgebung ab, in der du dich bewegst.
 
-## Is RileyLink waterproof?
+## Ist der RileyLink wasserfest?
 
-Nope. Nor is it sweat-proof. Be careful.
+Nein. Er ist auch nicht spritzwassergeschützt. Sei also vorsichtig!
 
-## What is the most common issue for RileyLink?
+## Welche häufigen Probleme treten mit dem RileyLink auf?
 
-People not [pushing the LiPo battery](../build/step5.md#assemble-rileylink) in all the way when they first assemble their RileyLink. It takes quite a bit of push to get the plug inserted far enough. If not secured well, Loop will have more frequent problems.
+Leute [drücken den Stecker der LiPo Batterie](../build/step5.md#assemble-rileylink) nicht vollständig in die Halterung, wenn sie den RileyLink das erste Mal zusammenbauen. Es braucht schon ein bischen Druck, den Stecken weit genug reinzudrücken. If not secured well, Loop will have more frequent problems.
 
-## Can I use more than one RileyLink at a time? Will it improve anything?
+## Kann ich mehr als einen RileyLink auf einmal verwenden? Wird das irgendetwas helfen?
 
-Yes, you can have two turned on, but it won't help anything really. Loop only uses one RileyLink at a time. If you have several RileyLinks turned on in Loop settings, your Loop will only look for another RileyLink after Loop fails for over 15 minutes on the original RileyLink. In my experience, it is rare that Loop would fail for more than 15 minutes and a second RileyLink would help in the same environment. If one RileyLink gets damaged though and you need to swap out to a second RileyLink, there are no issues with that.
+Ja, du kannst zwei benutzen, es wird dir aber nicht wirklich helfen. Die Loop-App benutzt immer nur einen RileyLink zur Zeit. Wenn du mehrere RileyLinks in den Loop-Einstellungen aktiviert hast, sucht die Loop-App nur 15 Minuten nach einem Fehler in der Kommunikation mit der Pumpe nach einem neuen RileyLink. Meiner Erfharung nach kommt es sehr selten vor, dass die Loop länger als 15 Minuten nicht funktioniert und der zweite RileyLink arbeitet ja auch in der gleichen Umgebung. Falls ein RileyLink kaputt geht, kannst du ihn gegen den zweiten ohne Probleme austauschen.
 
-## Can I run Loop without a RileyLink?
+## Funktioniert die Loop ohne RileyLink?
 
-Nope.
+Nein.

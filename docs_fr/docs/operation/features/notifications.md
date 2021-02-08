@@ -1,66 +1,66 @@
-# Loop Notifications
+# Notifications de Loop
 
-Loop provides discrete notifications on the iPhone and Watch which will appear on the (locked) screen and vibrate, depending on your notification settings of Loop.
+Loop fournit des notifications sur l’iPhone et la Watch qui apparaîtront sur l’écran (verrouillé) et vibreront, en fonction de vos paramètres de notification de Loop.
 
 ## Omnipod
 
 <font color ="orange">**Omnipod**</font>  
-Most beep alarms are disabled for a much more discrete use of the omnipod. Only the following audible acknowledgments or alarms are currently used:
+La plupart des alarmes sonores sont désactivées pour une utilisation beaucoup plus discrète de l'omnipod. Seuls les accusés ou alarmes audibles suivants sont actuellement utilisés :
 
-- Pod activated acknowledgment when filling the pod with enough insulin when pairing a new Pod.
-- Pod expiration advisory alarm at 72 hours/3 days (which you can silence in the [pod status  settings](../loop-settings/omnipod-pump.md#status))
-- Pod empty reservoir (which you can silence in the [pod status  settings](../loop-settings/omnipod-pump/#status))
-- Pod deactivation acknowledgment
-- Pod fault alarm (also called a screamer) when reaching the max life of the Pod: 80 hours (3 days + 8 hours) or a fault/occlusion happens. (which you can silence using the [replace pod](../loop-settings/omnipod-pump.md#pod-commands)) command in the pod settings page)
+- Reconnaissance du pod activé lors du remplissage du pod avec suffisamment d’insuline lors de l’appariement d’un nouveau Pod.
+- Alerte d'expiration du pod à 72 heures/3 jours (que vous pouvez désactiver dans les [paramètres de statut du pod](../loop-settings/omnipod-pump.md#status))
+- Réservoir vide du Pod (que vous pouvez couper en silence dans les paramètres de statut du pod [](../loop-settings/omnipod-pump/#status))
+- Reconnaissance de désactivation du Pod
+- Alarme de panne de pod (également appelé hurleur) lorsque vous atteignez la vie maximale du Pod : 80 heures (3 jours + 8 heures) ou si une défaillance/occlusion se produit. (que vous pouvez réduire au silence en utilisant la commande [remplacer le pod](../loop-settings/omnipod-pump.md#pod-commands)) dans la page des paramètres du pod)
 
-## Notification settings for Loop
+## Paramètres des notifications
 
-You can customize the way notifications of Loop are behaving in the Settings App of the iPhone:
+Vous pouvez personnaliser le comportement des notifications de Loop dans l'application Réglages de l'iPhone :
 
-![../img/iphone-settings-notifications.png](img/iphone-settings-notifications.png)
+![img/iphone-settings-notifications.png](img/iphone-settings-notifications.png)
 
-Settings of Loop:
+Paramètres de Loop:
 
-![../img/iphone-notifications-loop.png](img/iphone-notifications-loop.png)
+![img/iphone-notifications-loop.png](img/iphone-notifications-loop.png)
 
-## Loop Failure
+## Défaillance de Loop
 
-At 20, 40, 60, and 120 minutes, there is a Loop Failure notification. This mostly happens when the connection is lost for a longer period of time between the CGM or the Rileylink and Loop.
+À 20, 40, 60 et 120 minutes, il y a une notification de défaillance de Loop. Cela se produit principalement lorsque la connexion est perdue pendant une longue période entre le MGC ou le Rileylink et Loop.
 
-![../img/loop-failure.png](img/loop-failure.png)
+![img/loop-failure.png](img/loop-failure.png)
 
-## Bolus Failure
+## Échec de Bolus
 
-If Loop detects that a bolus was not able to be delivered, it will provide a notification.  Bolus failures are usually due to stale pump data.  Try fetching recent history from the RileyLink menu to update pump data.  Loop will also notify of partial bolus deliveries.
+Si Loop détecte qu’un bolus n’a pas pu être livré, il fournira une notification.  Les défaillances de Bolus sont généralement dues à des données de pompe périmées.  Essayez d’obtenir l’historique récent du menu RileyLink pour mettre à jour les données de la pompe.  Loop notifiera également les injections partielles de bolus.
 
-![../img/loop-bolus-failure.png](img/loop-bolus-failure.png)
+![img/loop-bolus-failure.png](img/loop-bolus-failure.png)
 
-## Low Reservoir
-<font color ="orange">**Medtronic**</font>  
-At 20% and 10% remaining reservoir volume, there is a Low Reservoir notification.
+## Niveau réservoir bas
+<font color ="orange">**Medtronique**</font>  
+À 20% et 10% de volume restant, il y a une notification de réservoir faible.
 <font color ="orange">**Omnipod**</font>  
-At <30U, <20U, <10U
+À <30U, <20U, <10U
 
-![../img/pod-reservoir-10U.png](img/pod-reservoir-10U.png)
+![img/pod-reservoir-10U.png](img/pod-reservoir-10U.png)
 
-## Empty Reservoir
+## Réservoir vide
 
-Loop will notify when the reservoir is empty. Loop will notify you every minute with this notification.
+Loop avisera lorsque le réservoir est vide. Loop vous avertira chaque minute avec cette notification.
 <font color ="orange">**Omnipod**</font>  
-Normally you will have 5-30 minutes to replace the pod, but do know the pod can [scream](https://soundcloud.com/eelke-jager/1f-nibble-f) at any moment from this point on.
+Normalement, vous aurez 5-30 minutes pour remplacer la nacelle, mais vous savez que la nacelle peut [crier](https://soundcloud.com/eelke-jager/1f-nibble-f) à tout moment à partir de ce point.
 
-![../img/pod-expiration-notice.png](img/loop-reservoir-empty.png)
+![img/loop-reservoir-empty.png](img/loop-reservoir-empty.png)
 
-## Pod Expiration (Omnipod)
+## Expiration du Pod (Omnipod)
 
-You can customize the time of notification when to replace your pod any time from 1 hour up to 71 hours (3 days - 1 hour) [after staring a new pod](../loop-settings/omnipod-pump.md#expiration-reminder) or you change the time later in the [pod configuration settings]../loop-settings/omnipod-pump.md#configuration). The expiry alarm will always sound when the pod reaches a running full 3 days (72 hours) which you can silence [in the pod status settings](../loop-settings/omnipod-pump.md#status).
+Vous pouvez personnaliser l'heure de notification quand vous remplacez votre pod à tout moment de 1 heure à 71 heures (3 jours - 1 heure) [après avoir lancé un nouveau pod](../loop-settings/omnipod-pump.md#expiration-reminder) ou changer l'heure plus tard dans les [paramètres de configuration du pod]. /loop-settings/omnipod-pump.md#configuration). L'alarme d'expiration sonnera toujours lorsque le pod atteint un total de 3 jours (72 heures) que vous pouvez faire taire [dans les paramètres d'état du pod](../loop-settings/omnipod-pump.md#status).
 
 ![img/pod-expiration-notice.png](img/pod-expiration-notice.png)
 
-## Low Battery (Medtronic)
+## Batterie Faible (Medtronic)
 
-Loop will notify when battery levels have approximately 8-10 hours of battery life remaining.
+Loop avisera quand il reste environ 8-10 heures d’autonomie de batterie.
 
-## Remote Notifications
+## Notifications distantes
 
-Loop does not have a remote notification to other devices.  If you are a remotely monitoring parent, you will want to read [here](../../nightscout/pushover.md#pushover) about setting up pushover alerts using your Nightscout site if you want proactive notifications of looping related information.
+Loop n’a pas de notification à distance vers d’autres appareils.  Si vous êtes un parent demandeur de surveillance à distance, vous voudrez lire [ici](../../nightscout/pushover.md#pushover) sur la mise en place d'alertes à l'aide de votre site Nightscout si vous voulez des notifications proactives liées à Loop.
