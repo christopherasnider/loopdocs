@@ -1815,24 +1815,26 @@
 <p><img alt="img/loop_open.jpg" src="../img/loop_open.jpg" /></p>
 <p>Once Xcode has finished indexing, the Loop project's various folders and files will appear in the far left column. We are now going to make three important sets of clicks:</p>
 <ol>
-<li>First click: At the very top of all the folders and files listed, click on the blue "Loop". This will populate the middle part of the Xcode window with some information. <strong>If a couple of little boxes appear saying "The folder “DerivedWatchAssets.xcassets” doesn’t exist."...just click the ok buttons and ignore those. They will come up a couple of times during your build if you are using dev branch right now...don't worry, won't be a problem.</strong></li>
-</ol>
+<li>
+<p>First click: At the very top of all the folders and files listed, click on the blue "Loop". This will populate the middle part of the Xcode window with some information. <strong>If a couple of little boxes appear saying "The folder “DerivedWatchAssets.xcassets” doesn’t exist."...just click the ok buttons and ignore those. They will come up a couple of times during your build if you are using dev branch right now...don't worry, won't be a problem.</strong></p>
 <p><img alt="img/loop-first-click.png" src="../img/loop-first-click.png" /></p>
-<ol>
-<li>Second (set of) clicks: Now click on the box in the middle screen to reveal the targets column underneath that box. The four targets we will sign in the upcoming steps are now easily viewable. Now also click on the Loop target like shown in the screenshot below. It will be highlighted in blue to let you know it is selected. Loop, Loop Status Extension, Watch App, and WatchApp Extension are the targets we are interested in later.</li>
-</ol>
+</li>
+<li>
+<p>Second (set of) clicks: Now click on the box in the middle screen to reveal the targets column underneath that box. The four targets we will sign in the upcoming steps are now easily viewable. Now also click on the Loop target like shown in the screenshot below. It will be highlighted in blue to let you know it is selected. Loop, Loop Status Extension, Watch App, and WatchApp Extension are the targets we are interested in later.</p>
 <p><img alt="img/loop-second-click.png" src="../img/loop-second-click.png" /></p>
-<ol>
-<li>Third Click: With the Loop target selected, click on the "Signing &amp; Capabilities" up near the top of the screen. After you click on that, you should see a "Signing" section occupying the bulk of your middle window. If you are missing the "Signing &amp; Capabilities" section and didn't have to click somewhere else to see that part...that means you have missed updating to Xcode 11 from an older version of Xcode. Please go back and update Xcode now. Thanks.</li>
+</li>
+<li>
+<p>Third Click: With the Loop target selected, click on the "Signing &amp; Capabilities" up near the top of the screen. After you click on that, you should see a "Signing" section occupying the bulk of your middle window. If you are missing the "Signing &amp; Capabilities" section and didn't have to click somewhere else to see that part...that means you have missed updating to Xcode 11 from an older version of Xcode. Please go back and update Xcode now. Thanks.</p>
+</li>
 </ol>
 <p><img alt="img/loop-third-click.png" src="../img/loop-third-click.png" /></p>
 <h2 id="connect-your-iphone-to-computer">Connect your iPhone to Computer<a class="headerlink" href="#connect-your-iphone-to-computer" title="Permanent link">&para;</a></h2>
-<p>Connect your iPhone via cable to the computer, select your iPhone from the very top of the drop-down list.  Your <strong><u>iPhone’s personal name</u></strong> should be at the top of the list. Don't accidentally select the generic iOS simulators listed below your iPhone's name.</p>
+<p>Connect your iPhone via cable to the computer, select your iPhone from the very top of the drop-down list.  Your <strong>iPhone’s personal name</strong> should be at the top of the list. Don't accidentally select the generic iOS simulators listed below your iPhone's name.</p>
 <div class="admonition info">
 <p class="admonition-title">Helpful Tips</p>
 <ul>
-<li>If your iPhone has a lock enabled, Xcode will not be able to install Loop app once your phone locks during the build progress.  Please temporarily disable the lock until you finish building Loop app.  Go to your iPhone Settings &gt;&gt; Display &amp; Brightness &gt;&gt; Auto-Lock and set it to <code>Never</code>.  You can reset your lock once Loop is done building onto the phone. If you can't or don't want to set the auto-lock to never, then please remember to tap your phone screen periodically during the build process later to keep it "awake".</br></br></li>
-<li>If this is the first time your iPhone has been plugged into this computer, you will need to open the iPhone and select "Trust this Computer" before your device will be useable in the menu selection.</br></br></li>
+<li>If your iPhone has a lock enabled, Xcode will not be able to install Loop app once your phone locks during the build progress.  Please temporarily disable the lock until you finish building Loop app.  Go to your iPhone Settings &gt;&gt; Display &amp; Brightness &gt;&gt; Auto-Lock and set it to <code>Never</code>.  You can reset your lock once Loop is done building onto the phone. If you can't or don't want to set the auto-lock to never, then please remember to tap your phone screen periodically during the build process later to keep it "awake".</li>
+<li>If this is the first time your iPhone has been plugged into this computer, you will need to open the iPhone and select "Trust this Computer" before your device will be useable in the menu selection.</li>
 </ul>
 </div>
 <div class="admonition danger">
@@ -1862,7 +1864,7 @@
 <p>If you want any custom configurations to your Loop or Loop Apple Watch apps, now is the time to make them before you finish with the last step of Loop installation on your iPhone. Follow the step-by-step instructions on the <a href="../code_customization/">Code Customizations</a> page. If you are a person familiar with Apple's Swift language, feel free to make your own customizations as well.</p>
 <p>When you've finished your customizations, come on back to this section and continue on with the rest of the build.</p>
 <h2 id="pair-your-apple-watch">Pair your Apple Watch<a class="headerlink" href="#pair-your-apple-watch" title="Permanent link">&para;</a></h2>
-<p><strong>New Apple Watch users</strong>: If you have an unopened Apple watch and want to use it with Loop, first pair the watch with the iPhone before continuing to the next steps.  If you get a new watch after building the Loop app, you'll need to redo your Loop build. (Don't worry, it's as easy as pressing play on your saved Loop project.)</br></p>
+<p><strong>New Apple Watch users</strong>: If you have an unopened Apple watch and want to use it with Loop, first pair the watch with the iPhone before continuing to the next steps.  If you get a new watch after building the Loop app, you'll need to redo your Loop build. (Don't worry, it's as easy as pressing play on your saved Loop project.)</p>
 <p><strong>Existing Apple Watch users</strong>: Please update your watchOS prior to building the Loop app.  The current version of Loop requires watchOS 4.1 or newer.</p>
 <h2 id="intermission">INTERMISSION<a class="headerlink" href="#intermission" title="Permanent link">&para;</a></h2>
 <p>STOP STOP STOP</p>
@@ -1879,7 +1881,7 @@
 <p class="admonition-title">TOP TWO SAFETY MISTAKES YOU SHOULD AVOID</p>
 <ol>
 <li>
-<p>DO NOT ENTER SETTINGS YOU ARE UNSURE OF. If you don't know your settings or know what the terms mean, stop. Read the docs, all the settings entries are explained there. Ask your endo if you don't have established values for those settings. Don't just guess an ISF, carb ratio, basal rate, or maximum delivery limits.</br></br></p>
+<p>DO NOT ENTER SETTINGS YOU ARE UNSURE OF. If you don't know your settings or know what the terms mean, stop. Read the docs, all the settings entries are explained there. Ask your endo if you don't have established values for those settings. Don't just guess an ISF, carb ratio, basal rate, or maximum delivery limits.</p>
 </li>
 <li>
 <p>DO NOT ENTER ACCIDENTAL DUPLICATE CARB ENTRIES. When you enter a meal in Loop and press the <code>save</code> button...those carbs are saved. Let me repeat: THOSE CARBS ARE SAVED...even if you cancel the bolus for them. This is an automated insulin delivery system and if it thinks you have carbs on board, it will try to give you appropriate insulin for those carbs. Most common new user mistake: enters a meal, saves the carbs, has a change of heart or gets confused, and cancels the bolus screen...thinking they've just canceled the entire meal entry. Then they enter in a new carb entry. AND NOW, when you go to bolus...you'll be bolusing for the meal you wanted AND the meal you are mistakenly thinking you had "canceled". You didn't cancel that carb entry though, you had only canceled the bolus...you didn't "unsave" the carbs. If you make a mistake or change your mind on a carb entry after you pressed save, then tap the green carb chart in Loop's main display and edit or delete that entry. <strong>CANCELING A BOLUS DOES NOT CANCEL THE CARB ENTRY THAT GOT YOU THERE. You must delete or edit a saved carb entry if you no longer want Loop to provide insulin for it.</strong></p>
@@ -1891,20 +1893,16 @@
 <p>Have you signed the four targets? Are you all done with any customizations? Has your Apple watch been paired and updated? Is your iPhone unlocked and plugged into the computer?</p>
 <p>Let’s finish the installation of the Loop app onto your iPhone. Double-check to make sure your iPhone's name is still selected and then press the “build” button to start Xcode on its way.</p>
 <p><img alt="img/build_button.png" src="../img/build_button.png" /></p>
-<p>You’ll see the progression of the build in the status window (top middle of Xcode). New builds can take about 40-60 minutes depending on the speed of the computer and the internet.  <strong>Just be patient.</strong>  The progress will get "stuck" on one step/task for a very long time, and then the others will fly by when that one slow step is done. Not every step is equal in duration. Do not give up on the build. <u><strong>Xcode will ALWAYS tell you eventually that the build either succeeded or failed via a short (self-disappearing) pop-up message on the computer display. If you miss the message, you can look at the top of the Xcode window to see a "Running Loop..." (success) or "Build Failed" (failure) message where the step progress was previously counting down.</strong></u></p>
+<p>You’ll see the progression of the build in the status window (top middle of Xcode). New builds can take about 40-60 minutes depending on the speed of the computer and the internet.  <strong>Just be patient.</strong>  The progress will get "stuck" on one step/task for a very long time, and then the others will fly by when that one slow step is done. Not every step is equal in duration. Do not give up on the build. <strong>Xcode will ALWAYS tell you eventually that the build either succeeded or failed via a short (self-disappearing) pop-up message on the computer display. If you miss the message, you can look at the top of the Xcode window to see a "Running Loop..." (success) or "Build Failed" (failure) message where the step progress was previously counting down.</strong></p>
 <div class="admonition danger">
 <p class="admonition-title">Are you the impatient type?</p>
 <p>If you just simply can't bear the uncertainty of not seeing that things are progressing, you can take a peek "under the hood" and watch the individual build steps by clicking on the report navigator icon and then the build row at the top of the list. You can watch the slow list of scheme building while you wait.</p>
-<p><p align="center">
-<img src="../img/build-scheme.png" width="650">
-</p></br></p>
+<p><img alt="img/build-scheme.png" src="../img/build-scheme.png" /></p>
 </div>
 <div class="admonition info">
 <p class="admonition-title">First-time builders</p>
-<p>Be aware though! Sometime during your first ever build on a computer, be ready for a codesign/keychain access prompt that you will see part-way through the build process.</br></br></p>
-<p><p align="center">
-<img src="../img/keychain-prompt.png" width="350">
-</p></br></p>
+<p>Be aware though! Sometime during your first ever build on a computer, be ready for a codesign/keychain access prompt that you will see part-way through the build process.</p>
+<p><img alt="img/keychain-prompt.png" src="../img/keychain-prompt.png" /></p>
 <p>This prompt above, when you see it, requires you to enter your computer password and then select "Always Allow". Normal behavior, this prompt will come up four times in a row even after you enter the correct password. In frustration, people think the prompt must be broken because it keeps reappearing and then people will press deny or cancel. <strong>Don't press deny.</strong> Keep entering your computer password and pressing the "Always Allow" button...as many times as it takes (four times to be exact; one for each target that Xcode is saving the password for). After four times of successful password entry, the build will keep proceeding.</p>
 </div>
 <div class="admonition warning">
@@ -1924,9 +1922,7 @@
 <div class="admonition danger">
 <p class="admonition-title">BUILD SUCCEEDED</p>
 <p>Congrats! If the build is successful, you'll see the message or "Running Loop..." across the top of the Xcode window. Your brand new Loop app will have a screen open immediately on the iPhone asking about allowing Loop notifications and Health App access. <code>Allow</code> Loop to send you notifications. In the next screen that follows that, click on the <code>Turn All Categories On</code> line and then click <code>Allow</code> in the upper right corner.</p>
-<p><p align="center">
-<img src="../img/health-start.JPEG" width="450">
-</p></br></br></p>
+<p><img alt="img/health-start.JPEG" src="../img/health-start.JPEG" /></p>
 <p><strong>You can unplug your phone from the computer now.</strong> And like we promised earlier, you will use the <a href="../../operation/overview/">Setup App section of this website</a> to keep proceeding safely.</p>
 </div>
 <div class="admonition warning">

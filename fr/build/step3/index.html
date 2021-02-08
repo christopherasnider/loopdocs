@@ -1874,21 +1874,25 @@
 <p>Pour déterminer le modèle de votre pompe, regardez à l'arrière de votre pompe.  Il devrait y avoir un autocollant sur le dessous de la pompe.  Sur le côté droit de l'autocollant, c'est écrit REF MMT-XXXXXX</p>
 <p><img alt="Pump" src="../img/pump_model.jpg" /></p>
 <div class="admonition note">
-<p>MMT ---&gt; Modèle de fabricant de pompe (MiniMed Medtronic)</br>
-722 ---&gt; Numéro du modèle de pompe</br>
-NA ---&gt; Région de la pompe (NA=Amérique du Nord, Amérique du Nord, CA=Canada/Australie, WW=Monde)</br>
-S ---&gt; Couleur de la pompe (S=Fumée, L=Clair/Lucite, B=Bleu, P=Rose/Violet)</br></p>
+<ul>
+<li>MMT ---&gt; Pump Manufacturer Model (MiniMed Medtronic)</li>
+<li>722 ---&gt; Pump Model Number</li>
+<li>NA ---&gt; Pump Region (NA=North America, CA=Canada/Australia, WW=Worldwide)</li>
+<li>S ---&gt; Pump Color (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)</li>
+</ul>
 </div>
 <p>Certaines pompes peuvent avoir un « L » ou « S » ou « R » avant la région de la pompe, par exemple un numéro de modèle comme MMT-722LNAS.  Cela n’affecte pas la compatibilité avec loop.</p>
 <h3 id="firmware-de-la-pompe-medtronic">Firmware de la pompe Medtronic<a class="headerlink" href="#firmware-de-la-pompe-medtronic" title="Permanent link">&para;</a></h3>
 <p>Le firmware (ou micrologiciel) d’une pompe est le logiciel interne qui exécute votre pompe.  Les anciens firmwares Medtronic permettent à Loop d’agir comme une « télécommande » pour définir des debits basaux temporaires et récupérer les données de la pompe.  Les firmwares plus recents ont désactivés ce mode d'accès « télécommande  et ne peuvent donc pas être utilisé avec ce système "fait le toi meme" (DIY) de boucle fermée.  Il n’y a actuellement aucune possibilité de revenir à une ancienne version du firmware d’une pompe ou de le remplacer par un firmware plus ancien.  Avant d'acheter une pompe d'occasion, assurez-vous d'en obtenir une avec un firmware compatible.</p>
 <div class="admonition note">
-<p>Les firmwares de toutes les pompes Medtronic 515/715 et 522/722 sont compatibles avec Loop. Il vous suffit de vérifier la version du firmware pour les pompes Medtronic 523/723 et 554/754.</br></br>
-+ Medtronic 515 ou 715 --&gt; tout firmware</br>
-+ Medtronic 522 ou 722 --&gt; tout firmware</br>
-+ Medtronic 523 ou 723 --&gt; firmware 2.4 ou inférieur</br>
-+ Medtronic Monde Veo 554 ou 754 --&gt; firmware 2.6A ou inférieur</br>
-+ Medtronic Canadien/Australien Veo 554 ou 754 --&gt; firmware 2.7A ou inférieur</br></p>
+<p>The firmware on all 515/715 and 522/722 model Medtronic pumps are all compatible with Loop. You will only need to check the firmware version for 523/723 and 554/754 model Medtronic pumps.</p>
+<ul>
+<li>Medtronic 515 or 715 --&gt; any firmware</li>
+<li>Medtronic 522 or 722  --&gt; any firmware</li>
+<li>Medtronic 523 or 723 --&gt; firmware 2.4 or lower</li>
+<li>Medtronic Worldwide Veo 554 or 754 --&gt; firmware 2.6A or lower</li>
+<li>Medtronic Canadian/Australian Veo 554 or 754 --&gt; firmware 2.7A or lower</li>
+</ul>
 </div>
 <p>Pour trouver le firmware de votre pompe, vous devrez l'allumer. Si la pompe n’a pas été mise sous tension depuis un certain temps (c.-à-d. qu’elle a été entreposée sans batterie depuis un certain temps), elle se passera par une étape de démarrage et la version du firmware apparaîtra en bas à droite de l’écran de la pompe.  Ne vous retournez pas, car le numéro de version ne sera affiché que pendant un court instant avant que l'écran n'affiche d'autres informations.</p>
 <p>Si la pompe a été active récemment ou a un réservoir installé, suivez ces étapes :</p>
@@ -1909,7 +1913,7 @@ S ---&gt; Couleur de la pompe (S=Fumée, L=Clair/Lucite, B=Bleu, P=Rose/Violet)<
 <p><font color ="orange">500 vs 700</font>:  La différence entre la série Medtronic 500 et la serie 700est la taille du reservoir d'insuline.  Les pompes de la série 500 utilisent un réservoir de 180 unités, et les pompes de la série 700 utilisent un réservoir de 300 unités (ou un réservoir plus petit de 180 unités, si vous voulez).</p>
 <p><font color ="orange">x15/x22 vs x23/x54</font>:  la différence entre les pompes x15 and x22 et les series x23 and x54 n'a que quelques mentions notables:</p>
 <ul>
-<li>Les pompes x23/x54 permettront de plus petites injections d’insuline dans certaines situations, si le taux de défilement plus petit est sélectionné dans le menu Bolus&gt;Setup&gt;Scroll Rate.  <strong>Loop aura l'injection d’insuline automatiquement arrondie par la pompe aux unités disponibles dans le modèle de pompe, et tous les ajustements plus petits (pour rattraper l’arrondi) seront effectués grâce à l’utilisation des débits basaux temporaires par Loop.  Si vous voulez de plus petits increments pour les taux basaux, vous pouvez toujours saisir ces valeurs dans les paramètres de l’application Loop et Loop utilisera ces valeurs pour les calculs d'injection d’insuline.</strong></li>
+<li>The x23/x54 pumps will allow for smaller insulin deliveries in certain situations, if the smaller scroll rate is selected in the Bolus&gt;Setup&gt;Scroll Rate menu.  <strong>Loop will have the insulin delivery automatically rounded by the pump to the units available in the pump model, and any smaller adjustments (to make up for the rounding) will be made through Loop’s use of temp basals.  If you want the smaller increments of basal rates, you can still enter those values in Loop app's settings and Loop will use those values for the purposes of insulin delivery calculations.</strong></li>
 </ul>
 <table>
 <thead>
@@ -2006,7 +2010,7 @@ S ---&gt; Couleur de la pompe (S=Fumée, L=Clair/Lucite, B=Bleu, P=Rose/Violet)<
 <h2 id="details-supplementaires-sur-les-omnipods">Détails supplémentaires sur les Omnipods<a class="headerlink" href="#details-supplementaires-sur-les-omnipods" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Rappel et avertissement</p>
-<p>Grâce au travail de la communauté DIY, le système Omnipod (Eros) d’Insulet est désormais compatible avec Loop. L'utilisation des pods Eros avec Loop n'est pas supportée par Insulet. N'appelez pas Insulet pour demander de l'aide avec votre compilation, installation ou configuration de Loop. Ce projet n'est pas approuvé par la FDA (l'Agence américaine des produits alimentaires et médicamenteux, l'equivalent de l'AFSSAPS, Agence Française de Sécurité Sanitaires des Produits de Santé en France ou de la CFIA, Canadian Food Inspection Agency pour le Canada) et vous utilisez ce projet sous votre propre responsabilité et sous vos propres risques. Veuillez lire ces documents et vous familiariser avec Loop avant de l'utiliser.</p>
+<p>Through the work of the DIY community, Insulet's Omnipod (Eros) system is now Loop compatible. Using Eros pods with Loop is not supported by Insulet. Do not call Insulet asking for help with your Loop build, setup, or operation. This project is not FDA-approved and you are using this project under your own responsibility and risk. Please read these documents and familiarize yourself with Loop before using.</p>
 </div>
 <h3 id="omnipod-eros">Omnipod Eros<a class="headerlink" href="#omnipod-eros" title="Permanent link">&para;</a></h3>
 <p>Les pods Eros ont été lancés en 2013 et continuent d'être vendus par Insulet. Pour autant que nous sachions, il n'y a pas eu de plans ou de calendriers annonçant l'abandon commercial des pods Eros pour les clients actuels. Insulet n'appelle plus ces pod "Eros", ils utilisent uniquement le terme "système omnipod". Pour plus de clarté, <a href="https://www.myomnipod.com/about">la page web d’Insulet</a>:</p>
