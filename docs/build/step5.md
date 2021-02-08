@@ -21,9 +21,9 @@
 
 ## What is RileyLink
 
-The RileyLink (RL) is an open-source hardware device that can bridge Bluetooth Low Energy (BLE) to 916MHz or 433MHz wireless communication. What does that mean to you? It means RileyLink is the communication highway between your insulin pump, CGM, and iPhone.</br></br>
+The RileyLink (RL) is an open-source hardware device that can bridge Bluetooth Low Energy (BLE) to 916MHz or 433MHz wireless communication. What does that mean to you? It means RileyLink is the communication highway between your insulin pump, CGM, and iPhone.
 
-Loop will not work without the RileyLink.</b></br></br>
+**Loop will not work without the RileyLink.**
 
 ![img/rl_diag.png](img/rl_diag.png)
 

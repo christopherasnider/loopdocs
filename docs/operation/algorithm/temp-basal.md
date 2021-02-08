@@ -84,7 +84,7 @@ To illustrate how the Loop calculates the temporary basal rate to issue, conside
 
 * Maximum basal setting (set by user in Loop) = 6 U/hr  
 
-</br>First, calculate the dose:
+First, calculate the dose:
 
 ![basal dose example](img/basal_dose_example.png)
 
