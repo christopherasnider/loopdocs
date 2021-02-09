@@ -6,7 +6,7 @@ Der er to typer af byggefejl, der sker. De er gule advarsler og røde advarsler.
 
 <font color="red">**Rød fejl advarsler** </font> skal løses, før du kan opbygge Loop appen. Nedenstående trin forklarer, hvordan du løser dem baseret på de meddelelser, du ser.
 
-## Start med den åbenlyse fejl årsager
+## Start med de åbenlyse fejl årsager
 
 Før du begynder at forsøge at løse dine røde fejl...starte med de mest indlysende ting, der kan forårsage en rød fejlmeddelelse:
 
