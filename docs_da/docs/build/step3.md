@@ -5,15 +5,15 @@
     - Medtronic users: 10 minutes to put a battery in and look at model and firmware
     - Other pump users: 5 days to email friends asking them to check closets for their old Medtronic pump or call your insurance to start prior authorization for Omnipod
 
-!!!info "Summary"
+!!!info "Resumé"
     - If you have a big clunky PDM with built-in BG meter...you can use your pods for Loop.
     - If you have a slim touch screen android-looking PDM...you can NOT use your pods for Loop.
     - If you have a Medtronic, check the list to ensure compatible model/firmware.
 
-!!!warning "FAQs"
-    - **"How can I find a compatible Medtronic pump?"** That question is answered in the Extra Details section below.
-    - **"What are the differences between Medtronic pump models?"** This question is also answered in the Extra Details section below.
-    - **"But what about the other types of pumps?"** Too bad, so sad...unless it is a DanaRS, DanaR, Accu-Chek Insight, Accu-Chek Combo. If you have one of those pumps, you could check out [AndroidAPS looping system](https://androidaps.readthedocs.io/en/latest/index.html) instead of Loop. If you have a Medtronic 512 or 712, you could check out [OpenAPS](https://openaps.readthedocs.io/en/latest/) as that system supports the 512 and 712 models in addition to the other Loop-compatible Medtronic pumps. Neither of those systems currently support Omnipod for looping.
+!!!warning "Ofte stillede spørgsmål"
+    - **"Hvordan kan jeg finde en kompatibel Medtronic pumpe?"** Dette spørgsmål besvares i afsnittet Ekstra detaljer nedenfor.
+    - **"Hvad er forskellene mellem Medtronic pumpemodeller?"** Dette spørgsmål er også besvaret i afsnittet Ekstra detaljer nedenfor.
+    - **"Men hvad med de andre typer af pumper?"** Ærgeligt... medmindre det er en DanaRS, DanaR, Accu-Chek Insight, Accu-Chek Combo. If you have one of those pumps, you could check out [AndroidAPS looping system](https://androidaps.readthedocs.io/en/latest/index.html) instead of Loop. If you have a Medtronic 512 or 712, you could check out [OpenAPS](https://openaps.readthedocs.io/en/latest/) as that system supports the 512 and 712 models in addition to the other Loop-compatible Medtronic pumps. Neither of those systems currently support Omnipod for looping.
     - **"Can I change the firmware of my Medtronic pump?"** Do you work at Medtronic with insider access to the secret tools and firmware versions to do that? Might lose your job, but I'd bet you could do it then. We don't have access to that though.
 
 ## Tjek pumpe version
@@ -27,9 +27,9 @@ This is a pretty simple step...check that you have a compatible pump to use Loop
 * Medtronic Canadian/Australian Veo 554 or 754 (firmware 2.7A or lower)
 * Omnipod "Eros" pods
 
-If you have one of the pumps listed above, you are good to go on Loop! Congrats!
+Hvis du har en af de pumper, der er anført ovenfor, er du klar til Loop! Tillykke!
 
-## Extra Details on Medtronic
+## Ekstra oplysninger om Medtronic
 
 ![insulin pumps](img/pump.png)
 
