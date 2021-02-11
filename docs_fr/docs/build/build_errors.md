@@ -1,18 +1,18 @@
 # Erreurs de compilation
 
-There are two types of build errors that happen; they are yellow warnings and red alerts. You'll see the warnings and alerts in the left-hand column of the Xcode window.
+Il existe deux types d’erreurs de construction qui se produisent; les avertissements jaunes et les alertes rouges. Vous verrez les avertissements et alertes dans la colonne de gauche de la fenêtre Xcode.
 
-<font color="orange">**Yellow warnings**</font> do not cause the build to fail, those are just warnings.  Occasionally, a Loop version may have some minor discrepancies that cause a yellow alert...ignore those. Do not try to do anything to fix those...leave them alone.
+<font color="orange">**Avertissements jaunes**</font> ne causent pas l’échec de la compilation, ce ne sont que des avertissements.  Parfois, une version Loop peut avoir quelques petites différences qui provoquent une alerte jaune... ignorez les. N’essayez pas de faire quoi que ce soit pour les résoudre... laissez-les tranquilles.
 
-<font color="red">**Red error alerts** </font> will have to be resolved before you can successfully build the Loop app. The steps below explain how to resolve them based on the messages you are seeing.
+<font color="red">**Les alertes d'erreurs rouges** </font> devront être résolues avant de pouvoir construire l'application Loop correctement. Les étapes ci-dessous expliquent comment les résoudre en fonction des messages que vous voyez.
 
-## Start with the obvious error causes
+## Commencez par les causes d'erreurs évidentes
 
-Before you start trying to resolve your red errors...start with the most obvious things that can cause a red error message:
+Avant de commencer à essayer de résoudre vos erreurs rouges... commencez par les choses les plus évidentes qui peuvent causer un message d'erreur rouge :
 
-1. **DO NOT USE BETA VERSIONS**  If you are using an iOS beta version or an Xcode beta version, your Loop will not build. If you have Xcode beta, uninstall it and get regular Xcode. If you have iOS beta on your iPhone, you will need to restore your iPhone entirely. You can restore to either (1) the last non-beta backup version you saved or (2) restore as a new iPhone (default settings). Yes, deleting iOS beta is a pain...so don't install it in the first place.
+1. **N’UTILISEZ PAS DE VERSIONS BÊTA**  Si vous utilisez une version bêta iOS ou une version bêta d'Xcode, votre Loop ne se construira pas. Si vous avez Xcode bêta, désinstallez-le et récupérer un Xcode stable. Si vous avez la bêta iOS sur votre iPhone, vous devrez restaurer votre iPhone entièrement. Vous pouvez restaurer soit (1) la dernière version de sauvegarde non bêta que vous avez enregistrée, soit (2) restaurer en tant que nouvel iPhone (paramètres par défaut). Oui, la suppression de la bêta d’iOS est douloureux... alors ne l’installez pas en premier lieu.
 
-2. **Did you check for Xcode updates?** Cannot emphasize this one enough...you should check for Xcode updates (and install them) before building. If you are updating your Loop app, you often have updated your iOS since the previous build. This may require a macOS update in order to have the App Store tell you there's an even newer Xcode available. So...check both macOS and then Xcode for updates!!
+2. **avez-vous vérifié les mises à jour Xcode?** je ne saurait trop insister sur ce point... vous devez vérifier les mises à jour Xcode (et les installer) avant de compiler. If you are updating your Loop app, you often have updated your iOS since the previous build. This may require a macOS update in order to have the App Store tell you there's an even newer Xcode available. So...check both macOS and then Xcode for updates!!
 
 3. **Did you check your Apple developer account for new license agreement?** Periodically, Apple will release a new developer license agreement that you need to sign before you can build new apps. You will get a build failure if there is a pending license agreement to sign. [Login to your Apple developer account](https://developer.apple.com/account) to check if there's a new license agreement.
 
