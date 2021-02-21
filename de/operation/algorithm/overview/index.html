@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#overview" class="md-skip">
+        <a href="#ubersicht" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -1230,8 +1230,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#terminology" class="md-nav__link">
-    Terminology
+  <a href="#terminologie" class="md-nav__link">
+    Terminologie
   </a>
   
 </li>
@@ -1635,8 +1635,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#terminology" class="md-nav__link">
-    Terminology
+  <a href="#terminologie" class="md-nav__link">
+    Terminologie
   </a>
   
 </li>
@@ -1654,11 +1654,11 @@
               
                 
                 
-                <h1 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h1>
-<p>Loop’s algorithm for adjusting insulin delivery is oriented around making a blood glucose prediction. Every five minutes, triggered by new blood glucose data, it generates a new prediction. Both <a href="bolus">bolus recommendations</a> and <a href="temp_basal">temporary basal rates</a> are set based on this prediction.</p>
-<h2 id="terminology">Terminology<a class="headerlink" href="#terminology" title="Permanent link">&para;</a></h2>
-<p>This graph and legend illustrates terms commonly used in discussing Loop's algorithm, and shows them in the context of historical and forecasted blood glucose in style similar to the status screen of Loop.</p>
-<p><img alt="Chart illustrating terms" src="../img/terms_graph.png" /></p>
+                <h1 id="ubersicht">Übersicht<a class="headerlink" href="#ubersicht" title="Permanent link">&para;</a></h1>
+<p>Der Algorithmus für die Insulindosierung der Loop App arbeitet mit Hilfe einer Vorhersage der Bluzuckerverlaufs. Er generiert alle fünf Minuten, angestossen durch einen neuen Bluzuckermesswert, eine neuen Vorhersageverlauf. Sowohl <a href="bolus">Bolus-Empfehlungen</a> als auch <a href="temp_basal">Temporäre Basalraten</a> basieren auf dieser Vorhersage des Verlaufs.</p>
+<h2 id="terminologie">Terminologie<a class="headerlink" href="#terminologie" title="Permanent link">&para;</a></h2>
+<p>Die folgende Grafik illustriert die allgemein verwendeten Begriffe, die bei der Diskussion über den Algorithmus der Loop App Verwendung finden. Sie zeigt die Begriffe im Kontext des Blutzuckerverlaufs für historische und vorhergesagte Werte.</p>
+<p><img alt="Anschauliche Erläuterung der verwendeteen Begriffe" src="../img/terms_graph.png" /></p>
 <table>
 <thead>
 <tr>
@@ -1668,56 +1668,56 @@
 </thead>
 <tbody>
 <tr>
-<td>Insulin activity duration</td>
-<td>The insulin activity duration is the duration of the insulin activity curve, and describes the point at which the delivered insulin dose no longer affects blood glucose. The insulin activity duration is 6 hours for Loop's rapid-acting and Fiasp insulin models.</td>
+<td>Insulinwirkdauer</td>
+<td>Die Insulinwirkdauer ist die Zeitspanne, in der das Insulin wirksam ist und definiert die Zeit zischen Start der Insulinabgabe und Ende, bis also das abgebene Insulin nicht weiter den Blutzucker beeinflusst. Die Insulinwirkdauer liegt beim schnellwirkenden und beim Fiasp Insulinmodell bei sechs Stunden.</td>
 </tr>
 <tr>
-<td>Correction range</td>
-<td>The correction range is the blood glucose range Loop uses to determine corrective actions (e.g., between 90 and 120 mg/dL in the figure). NOTE: Loop’s correction range is a user setting and should not be confused with the target range, typically 70-180 mg/dL, used for the purpose of calculating the percent time in range.</td>
+<td>Korrekturbereich</td>
+<td>Der Korrekturbereich ist der Bereich des Bluzuckerverlaufs, auf den die Loop App die Korrekturen anverwendet (im gezeigten Beispiel zwischen 90 und 120 mg/dL). Randnotiz: Der Korrekturbereich sollte nicht mit dem Zielbereich verwechselt werden, der verwendet wird, um die z.B. die Zeit im Zielbereich zu bestimmen (typischerweise 70 - 180 mg/dL).</td>
 </tr>
 <tr>
-<td>Correction minimum</td>
-<td>The lower or minimum value of the user’s correction range, which is 90 mg/dL in the figure.</td>
+<td>Korrekturminimum</td>
+<td>Der niedrigere oder Minimumwert des Korrekturbereiches des Benutzers. In unserem Beispiel ist dies 90 mg/dL.</td>
 </tr>
 <tr>
-<td>Correction maximum</td>
-<td>The upper or maximum value of the user’s correction range, which is 120 mg/dL in the figure.</td>
+<td>Korrekturmaximum</td>
+<td>Der obere oder Maximumwert des Korrekturbereiches. In unserem Beipsiel ist das 120 mg/dL.</td>
 </tr>
 <tr>
-<td>Correction target</td>
-<td>The correction target is the average value of the correction range. In the overview figure, this is 105 mg/dL given that the correction minimum is 90 mg/dL and the correction maximum is 120 mg/dL.</td>
+<td>Korrekturziel</td>
+<td>Das Korrekturziel ist der Mittelwert des Korrekturbereichs. In unserem vorliegenden Fall ist das 105 mg/dL, also genau zwischen 90 und 120 mg/dL.</td>
 </tr>
 <tr>
-<td>Predicted blood glucose</td>
-<td>Loop makes a prediction of blood glucose values out for a length of time equal to your insulin action duration. The predicted blood glucose is the basis for how Loop makes its insulin delivery recommendations and actions.</td>
+<td>Vorhersageverlauf</td>
+<td>Die Loop App versucht Vorhersagen über den Blutzuckerverlauf für die Zeit der Insulinwirkdauer zu treffen. Der Blutzuckervorhersagewert ist die Basis für Empfehlungen und Aktionen seitens der Loop App.</td>
 </tr>
 <tr>
-<td>Eventual blood glucose</td>
-<td>The last value of the predicted glucose curve, in other words the very last blood glucose predicted at the end of your insulin action duration. In the figure above, this is 85 mg/dL.</td>
+<td>Wahrscheinlicher Bluzuckerwert</td>
+<td>Dies ist der letzte Wert des Blutzuckervorhersageverlaufs am Ende der Insulinwirkdauer. Im obigen Beispiel ist er 85 mg/dL.</td>
 </tr>
 <tr>
-<td>Minimum predicted blood glucose</td>
-<td>The lowest blood glucose value at any point in time within the prediction. In the figure above, this is 77 mg/dL.</td>
+<td>Kleinster Vorhersagewert</td>
+<td>Der kleinste Wert innerhalb der Vorhersage für den Bluzuckerverlaufs. Im obigen Beispiel ist er 77 mg/dL.</td>
 </tr>
 <tr>
-<td>Delta</td>
-<td>The delta is the difference between the eventual blood glucose and the correction target. In the overview figure, the eventual blood glucose is 85 mg/dL and the correction target is 105 mg/dL, which means that the delta is  -20 mg/dL.</td>
+<td>Delte</td>
+<td>Das Delta bezeichnet die Differenz zwischen dem wahrscheinlichen Blutzuckerwert und dem Korrekturziel. Im obigen Beispiel ist der wahrscheinliche Blutzuckerwert 85 mg/dL und der Korrekturwert ist 105 mg/dL, d.h. die Differenz ist -20 mg/dL.</td>
 </tr>
 <tr>
-<td>Suspend Threshold</td>
-<td>The suspend threshold is a safety feature of the Loop algorithm. If any predicted blood glucose is below this threshold, the Loop algorithm will issue a temporary basal rate of 0</td>
+<td>Abschaltwert</td>
+<td>Der Abschaltwert ist ein Sicherheits-Feature des Loop Algorithmus. Sollte irgendein Vorhersagewert unterhalb diese Schwelle liegen, wird die Loop App eine temporäre Basalrate von 0 IE/h anwenden.</td>
 </tr>
 <tr>
-<td>CGM data</td>
-<td>Blood glucose readings made by a continuous glucose monitor.</td>
+<td>CGM Werte</td>
+<td>Das sind die Bluzuckerwerte, die vom CGM-System geliefert werden.</td>
 </tr>
 <tr>
-<td>Insulin sensitivity factor</td>
-<td>A configuration value that provides an estimate of how much blood glucose will drop given a unit of insulin.</td>
+<td>Insulinempfndlichkeitsfaktor</td>
+<td>Der Insulinempfndlichkeitsfaktor ist ein in der Konfiguration einstellbarer Wert, der angibt, um wieviel der Blutzuckerwert sinkt bei Verabreichung einer bestimmten Menge Insulin.</td>
 </tr>
 <tr>
-<td>Active insulin</td>
-<td>Active insulin is the remaining amount of insulin activity from boluses and temporary basal rates relative to a user’s scheduled basal rates. More specifically, it is the total amount of insulin activity due to all bolus and basal insulin delivered within the last N hours, where N is determined by the insulin activity duration. The amount of “active” insulin depends upon the insulin activity curve, and also accounts for the insulin withheld via basal suspensions. As such, it is possible that the active insulin can be negative. Negative active insulin will result in an increase in predicted blood glucose. The active insulin displayed in Loop's main display does not reflect the currently enacted temporary basal rate, as that basal rate may be canceled or modified before completion over the next 30 minutes. In others words, Loop doesn't count chickens before the eggs hatch...insulin delivery must be confirmed before being added to the active insulin reporting.</td>
+<td>Aktives Insulin</td>
+<td>Das aktive Insulin ist die verbleibende Restmenge an Insulin eines Bolus und einer temporären Basalrate im Verhältnis zur normalen, vom Benutzer eingestellten Basalrate. More specifically, it is the total amount of insulin activity due to all bolus and basal insulin delivered within the last N hours, where N is determined by the insulin activity duration. Die genaue Menge an "aktivem" Insulin hängt mit der Insulinverlaufskurve zusammen und berücksichtigt auch die Dasalratenabgabemenge. As such, it is possible that the active insulin can be negative. Negatives aktives Insulin hat eine Erhöhung des zukünftigen Blutzuckerwertes zur Folge. Das in der Loop App auf der Hauptseite angezeigte aktive Insulin berücksichtigt nicht, die momentane verwendete temporäre Basalrate, da diese in den nächsten 30 Minuten beendet oder verändert werden kann. In others words, Loop doesn't count chickens before the eggs hatch...insulin delivery must be confirmed before being added to the active insulin reporting.</td>
 </tr>
 </tbody>
 </table>
