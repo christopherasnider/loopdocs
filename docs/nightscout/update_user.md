@@ -26,7 +26,7 @@ Click on `Reveal Config Vars`.  Scroll down the bottom of the Config Vars lines 
 
 |  |  |
 |---------|---------|
-|ENABLE     |bridge loop pump iob cob basal careportal sage cage basal override dbsize</br></br> **(Note: If you are an existing NS user, you likely already have an ENABLE line in this section of Heroku. Don't add a new one. Simply find the existing ENABLE line, click on the little pencil icon to the right of it, and add the words shown on the ENABLE line below to the existing words already on the enable line.  Avoid duplicates. The remainder of the lines are likely going to be brand new additions to your Heroku settings.)** |
+|ENABLE     |bridge loop pump iob cob basal careportal sage cage bage override dbsize</br></br> **(Note: If you are an existing NS user, you likely already have an ENABLE line in this section of Heroku. Don't add a new one. Simply find the existing ENABLE line, click on the little pencil icon to the right of it, and add the words shown on the ENABLE line above to the existing words already on the enable line.  Avoid duplicates. The remainder of the lines are likely going to be brand new additions to your Heroku settings.)** |
 |DEVICESTATUS_ADVANCED     |true        |
 |PUMP_FIELDS     |battery reservoir clock status         |
 |PUMP_RETRO_FIELDS|battery reservoir clock status|
