@@ -24,20 +24,11 @@ Click on `Reveal Config Vars`.  Scroll down the bottom of the Config Vars lines 
 
 ![img/add_vars.jpg](img/add_vars.jpg)
 
-|                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ENABLE                | bridge loop pump iob cob basal careportal sage cage basal override dbsize</br></br> **(Note: If you are an existing NS user, you likely already have an ENABLE line in this section of Heroku. Don't add a new one. Simply find the existing ENABLE line, click on the little pencil icon to the right of it, and add the words shown on the ENABLE line below to the existing words already on the enable line.  Avoid duplicates. The remainder of the lines are likely going to be brand new additions to your Heroku settings.)** |
-| DEVICESTATUS_ADVANCED | true                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| PUMP_FIELDS           | battery reservoir clock status                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| PUMP_RETRO_FIELDS   | battery reservoir clock status                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| SHOW_FORECAST         | loop                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| SHOW_PLUGINS          | loop pump cob iob sage cage careportal basal override dbsize                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| PUMP_ENABLE_ALERTS  | true                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| PUMP_URGENT_BATT_U  | 30</br></br>(This is the pump battery percentage that will trigger a red, urgent alert in NS.)                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| PUMP_URGENT_BATT_V  | 1.25</br></br>(This is the pump battery voltage that will trigger a red, urgent alert in NS.)                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| PUMP_URGENT_RES     | 10</br></br>(This is the reservoir volume that will trigger a red, urgent alert in NS.)                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| PUMP_URGENT_CLOCK   | 30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
- 20</br></br>(This is the minutes since Loop last successfully looped, the t1d will have a similar notification at this time through the Loop app.  This will be a yellow alert in NS.)
+bridge loop pump iob cob basal careportal sage cage bage override dbsize</br></br> **(Note: If you are an existing NS user, you likely already have an ENABLE line in this section of Heroku. Don't add a new one. Simply find the existing ENABLE line, click on the little pencil icon to the right of it, and add the words shown on the ENABLE line above to the existing words already on the enable line.  Avoid duplicates. The remainder of the lines are likely going to be brand new additions to your Heroku settings.)</b></td> </tr> 
+
+</tbody> </table> 20</br></br>(This is the minutes since Loop last successfully looped, the t1d will have a similar notification at this time through the Loop app.  This will be a yellow alert in NS.) 
+
+
 
 ### Step 3: Open Your NS Site
 
@@ -45,15 +36,21 @@ Click on `Open App` in the top right corner of your Heroku site.
 
 ![img/open_app.jpg](img/open_app.jpg)
 
+
+
 ### Step 4: Turn on Plugins
 
 Click on the settings (those three horizontal lines in the upper right corner).  Now check that your basal render is selected to either default or icicle (personal preference for how the temp basals show as blue lines in NS site), check the boxes that you’d like display pills in the SHOW PLUGINS (usually all of them), and then click save. If you have not authenticated your site previously, you may be prompted to provide your API Secret prior to Nightscout saving your changes.
 
 ![img/settings_ns.jpg](img/settings_ns.jpg)
 
+
+
 ### Step 5: Update Profile Settings
 
 Double-check that your NS Profile settings are current and that you have a basal profile entered, if you want to see the temp basals that Loop is setting. The values in your Nightscout Profile settings will not impact or affect your Loop, but it is just nice to have them match up in the event you are looking at your data with an endocrinologist or retrospectively looking at data.
+
+
 
 ## Nightscout Version Update
 
@@ -73,17 +70,25 @@ Click the big green `Create pull request` button.
 
 * However, for some of you may encounter a red error message `x Can't automatically merge` message. If you have that message, you may want to post in FB for help on resolving that error message before proceeding any further.
 
+
+
 ---
 
 ![img/update1.jpg](img/update1.jpg)
+
+
 
 ---
 
 ![img/update2.jpg](img/update2.jpg)
 
+
+
 ---
 
 ![img/update3.jpg](img/update3.jpg)
+
+
 
 ---
 
