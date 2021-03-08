@@ -14,9 +14,11 @@ Pour commencer une nouvelle entrée de repas, entrez simplement le nombre de glu
 
 !!!info "Soyez attentif"
 
-    Lorsque vous appuyez sur « Enregistrer » pour une entrée de glucides, Loop considérera l’entrée de glucides enregistré et l’utilisera pour le calcul des basals temp et bolus recommandés.  Soyez prudent s’il y a des tentatives répétées d’entrer plusieurs fois le même repas... Loop continuera à enregistrer les entrées de glucides sauf si vous appuyer sur annuler sur l’écran d’entrée Glucides.</br></br>
-    **Annuler un bolus n’annule pas l’entrée de glucides.**</br></br>
-    Si vous avez accidentellement fait plusieurs entrées pour les mêmes glucides, cliquez sur le graphique des glucides dans l’affichage principale de Loop et vous pouvez supprimer les entrées de glucides doublons en faisant glisser à gauche sur les entrées.
+    Lorsque vous appuyez sur « Enregistrer » pour une entrée de glucides, Loop considérera l’entrée de glucides enregistré et l’utilisera pour le calcul des basals temp et bolus recommandés.  Be cautious about repeated attempts to enter the same meal...Loop will continue to save the carb entries UNLESS you push cancel on the carb entry screen.
+    
+    **Simply canceling a bolus does not cancel the carb entry.**
+    
+    If you have accidentally made multiple entries for the same carbs, click on the Carbs Chart in the main Loop display and you can delete the redundant carb entries by swiping left on the entries.
 
 ## Durée d’absorption des Glucides
 

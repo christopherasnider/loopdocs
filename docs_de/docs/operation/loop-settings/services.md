@@ -10,7 +10,7 @@ If you have an existing Nightscout site, add the Site URL and API Secret to have
 
 The two most common errors in filling out this section are:
 
-1. Failure to use `https://`  in the site URL.  If you use `http://` (see how that doesn't have the "s" at the end?), you will get an error message about an App Transport Security policy.  Take a look at the sample URL in the field before you start filling in that line, if you want an example to follow.</br></br>
+1. Failure to use `https://`  in the site URL.  If you use `http://` (see how that doesn't have the "s" at the end?), you will get an error message about an App Transport Security policy.  Take a look at the sample URL in the field before you start filling in that line, if you want an example to follow.
 2. Having a trailing slash on the end of the URL. If you copy and paste from a web browser, make sure to delete the trailing slash on the URL entry.
 
 ## Loggly

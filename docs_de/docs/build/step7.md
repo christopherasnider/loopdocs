@@ -31,17 +31,13 @@ Ok, da wir jetzt das Benutzerkonto bestätigt haben, öffne die Terminal-Anwendu
 
 !!!info "Benutzer neuer Apple Computer mit M1 Chip: WICHTIGER SCHRITT"
 
-    Wenn du einen der neuen Apple Computer mit einem M1-Chip gekauft hast, musst du jetzt noch einen kleinen extra Schritt machen. Homebrew läuft nicht nativ auf den neuen M1-Chips...daher müssen wir die Terminal App mittels der "Converter"-App "Rosetta" öffnen. Ganz einfach... finden die Terminal-App wie oben beschrieben und anstatt sie durch Doppelklick zu öffnen...möchte ich, dass du auf den Namen der Terminal App nur einmal klickst, so dass sie hervorgehoben wird. Klicke nun mit der rechten Maustaste auf den Namen der Terminal App, um weitere Optionen anzuzeigen. Thanks! You will want to select the "Get Info" option.</br></br>
+    Wenn du einen der neuen Apple Computer mit einem M1-Chip gekauft hast, musst du jetzt noch einen kleinen extra Schritt machen. Homebrew läuft nicht nativ auf den neuen M1-Chips...daher müssen wir die Terminal App mittels der "Converter"-App "Rosetta" öffnen. Ganz einfach... finden die Terminal-App wie oben beschrieben und anstatt sie durch Doppelklick zu öffnen...möchte ich, dass du auf den Namen der Terminal App nur einmal klickst, so dass sie hervorgehoben wird. Klicke nun mit der rechten Maustaste auf den Namen der Terminal App, um weitere Optionen anzuzeigen. You will want to select the "Get Info" option.
     
-    <p align="center">
-    <img src="../img/get-info.png" width="550">
-    </p>
+    ![img/get-info.png](img/get-info.png)
     
-    In dem Infofenster, das aufgeht...siehst du ein Kästchen wo "Öffnen mit Rosetta" steht.  Klicke das Kästchen an...dadurch wird die Terminal-Anwendung so geöffnet, dass wir in den nächsten Schritten Homebrew installieren können. Du kannst das Informationsfenster wieder schliessen, wenn du das Häckchen bei "Öffnen mit Rosetta" gesetzt hast und machst dann ganz normal mit dem Rest der Anleitung weiter.
+    Now in the informational window that appears...you'll see a checkbox that says "Open using Rosetta". Check that box...that will allow Terminal app to open in such a way that we can install Homebrew in the next steps.  You can close that informational window, after you check the box for "Open using Rosetta", and proceed with the rest of the directions just like normal. Thanks!
     
-    <p align="center">
-    <img src="../img/rosetta.png" width="350">
-    </p>
+    ![img/rosetta.png](img/rosetta.png)
 
 Jetzt, wo du die Terminal-Anwendung im Dienstprogramme Ordner gefunden hast (und bereits Rosetta aktiviert hast, wenn du ein M1-Benutzer bist)...doppelklicke auf den Namen der Terminal-Anwendung , damit sie geöffnet wird. Die Terminal-App sieht wirklich sehr simple aus, wenn du sie geöffnet hast, das ist richtig so. Kopiere und füge die Zeile in aus dem kleinen grauen Feld unten hinter die Terminal Eingabeaufforderung ein.
 

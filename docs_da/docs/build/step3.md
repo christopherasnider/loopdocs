@@ -5,15 +5,15 @@
     - Medtronic users: 10 minutes to put a battery in and look at model and firmware
     - Other pump users: 5 days to email friends asking them to check closets for their old Medtronic pump or call your insurance to start prior authorization for Omnipod
 
-!!!info "Summary"
+!!!info "Resumé"
     - If you have a big clunky PDM with built-in BG meter...you can use your pods for Loop.
     - If you have a slim touch screen android-looking PDM...you can NOT use your pods for Loop.
     - If you have a Medtronic, check the list to ensure compatible model/firmware.
 
-!!!warning "FAQs"
-    - **"How can I find a compatible Medtronic pump?"** That question is answered in the Extra Details section below.
-    - **"What are the differences between Medtronic pump models?"** This question is also answered in the Extra Details section below.
-    - **"But what about the other types of pumps?"** Too bad, so sad...unless it is a DanaRS, DanaR, Accu-Chek Insight, Accu-Chek Combo. If you have one of those pumps, you could check out [AndroidAPS looping system](https://androidaps.readthedocs.io/en/latest/index.html) instead of Loop. If you have a Medtronic 512 or 712, you could check out [OpenAPS](https://openaps.readthedocs.io/en/latest/) as that system supports the 512 and 712 models in addition to the other Loop-compatible Medtronic pumps. Neither of those systems currently support Omnipod for looping.
+!!!warning "Ofte stillede spørgsmål"
+    - **"Hvordan kan jeg finde en kompatibel Medtronic pumpe?"** Dette spørgsmål besvares i afsnittet Ekstra detaljer nedenfor.
+    - **"Hvad er forskellene mellem Medtronic pumpemodeller?"** Dette spørgsmål er også besvaret i afsnittet Ekstra detaljer nedenfor.
+    - **"Men hvad med de andre typer af pumper?"** Ærgeligt... medmindre det er en DanaRS, DanaR, Accu-Chek Insight, Accu-Chek Combo. If you have one of those pumps, you could check out [AndroidAPS looping system](https://androidaps.readthedocs.io/en/latest/index.html) instead of Loop. If you have a Medtronic 512 or 712, you could check out [OpenAPS](https://openaps.readthedocs.io/en/latest/) as that system supports the 512 and 712 models in addition to the other Loop-compatible Medtronic pumps. Neither of those systems currently support Omnipod for looping.
     - **"Can I change the firmware of my Medtronic pump?"** Do you work at Medtronic with insider access to the secret tools and firmware versions to do that? Might lose your job, but I'd bet you could do it then. We don't have access to that though.
 
 ## Tjek pumpe version
@@ -27,9 +27,9 @@ This is a pretty simple step...check that you have a compatible pump to use Loop
 * Medtronic Canadian/Australian Veo 554 or 754 (firmware 2.7A or lower)
 * Omnipod "Eros" pods
 
-If you have one of the pumps listed above, you are good to go on Loop! Congrats!
+Hvis du har en af de pumper, der er anført ovenfor, er du klar til Loop! Tillykke!
 
-## Extra Details on Medtronic
+## Ekstra oplysninger om Medtronic
 
 ![insulin pumps](img/pump.png)
 
@@ -43,10 +43,10 @@ To determine your pump model, look at the backside of your pump.  There should b
 
 !!!note ""
 
-    MMT ---> Pump Manufacturer Model (MiniMed Medtronic)</br>
-    722 ---> Pump Model Number</br>
-    NA ---> Pump Region (NA=North America, CA=Canada/Australia, WW=Worldwide)</br>
-    S ---> Pump Color (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)</br>
+    - MMT ---> Pump Manufacturer Model (MiniMed Medtronic)
+    - 722 ---> Pump Model Number
+    - NA ---> Pump Region (NA=North America, CA=Canada/Australia, WW=Worldwide)
+    - S ---> Pump Color (S=Smoke, L=Clear/Lucite, B=Blue, P=Pink/Purple)
 
 Some pumps may have an “L” or “S” or "R" before the pump region, e.g. a model number like MMT-722LNAS.  This does not affect Loop compatibility.
 
@@ -56,12 +56,13 @@ A pump’s firmware is the internal software that runs your pump.  Older Medtron
 
 !!!note ""
 
-    The firmware on all 515/715 and 522/722 model Medtronic pumps are all compatible with Loop. You will only need to check the firmware version for 523/723 and 554/754 model Medtronic pumps.</br></br>
-    + Medtronic 515 or 715 --> any firmware</br>
-    + Medtronic 522 or 722  --> any firmware</br>
-    + Medtronic 523 or 723 --> firmware 2.4 or lower</br>
-    + Medtronic Worldwide Veo 554 or 754 --> firmware 2.6A or lower</br>
-    + Medtronic Canadian/Australian Veo 554 or 754 --> firmware 2.7A or lower</br>
+    The firmware on all 515/715 and 522/722 model Medtronic pumps are all compatible with Loop. You will only need to check the firmware version for 523/723 and 554/754 model Medtronic pumps.
+
+    + Medtronic 515 or 715 --> any firmware
+    + Medtronic 522 or 722  --> any firmware
+    + Medtronic 523 or 723 --> firmware 2.4 or lower
+    + Medtronic Worldwide Veo 554 or 754 --> firmware 2.6A or lower
+    + Medtronic Canadian/Australian Veo 554 or 754 --> firmware 2.7A or lower
 
 To find your pump’s firmware you will need to power it on. If the pump has not been powered on for some time (i.e., has been in storage without a battery for a while), it will run through a start-up count and the firmware version will appear on the bottom right of the pump’s screen.  Don’t turn away, as the version number will only be displayed for a little while before the screen moves onto other information displays.
 

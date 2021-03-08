@@ -26,8 +26,9 @@ Fallspezifisches Minimum: Es kann auch der Fall auftreten, dass du aktualisieren
 
 No. No. No. No. No. No. Do not delete your old Loop. Das wäre eine wirklich keine gute Idee, da du dann die Verbindung zu deinem momentanen Pod und deine ganzen Einstellungen verlierst. Also lösche die alte Version nur in den folgenden beiden Situationen:
 
-1. Du hast es kaputt gespielt: Es gab eine Unschönheit in der Loop App, die auftrat, wenn du falsch herum deinen Zielbereich angepasst hast. Dann ging die Loop-App kaputt. Der Zielbereich muss als Minimum-Maximum-Werte angegeben werden, z.B. 100-120 mg/dl. If you entered that as 120-100 mg/dL, Loop will not work during the time that backwards correction range is supposed to be active. In diesem Fall musst du Loop App löschen und neu zusammenbauen.</br></br>
-2. Wechsel vom Entwicklungszweig zum jojo-Zweig. Die Art und Weise wie der neue Entwicklungszweig implementiert wurde, setzt voraus, dass du deine Entwicklungsversion löschst, bevor du die jojo-Version aufspielen kannst.
+1. You broke it: There is a glitch in Loop where if you enter the target correction range backwards, then your Loop app will stop working. Correction range needs to be in minimum-maximum, for example 100-120 mg/dL. If you entered that as 120-100 mg/dL, Loop will not work during the time that backwards correction range is supposed to be active. In this case you would need to delete the app and rebuild.
+
+2. Moving from dev branch back down to jojo branch. The way the new dev branch is coded will require you to delete your dev build prior to going back jojo branch.
 
 ## Erstellt eine Aktualisierung eine zweite Loop App?
 

@@ -33,7 +33,7 @@ Master vs Dev vs une autre branche? D’une manière générale, la plupart des 
 
 Il est préférable de laisser votre code Loop dans votre dossier Téléchargements. Si vous stockez votre code Loop dans un dossier différent des téléchargements (tels que votre dossier Documents ou Desktop), assurez-vous que le dossier spécifié n'est **pas** un lecteur iCloud. Le stockage de votre code Loop dans un dossier d'iCloud empêchera Loop de se construire avec succès.  Comment savoir si un dossier est un disque iCloud ? Vérifiez vos préférences système. Si vos préférences système pour iCloud sont définies comme indiqué ci-dessous, vos dossiers Documents et Bureau sont des lecteurs iCloud et **PAS** des endroits appropriés pour enregistrer votre téléchargement de boucles.
 
-![img/icloud-drive.png](img/icloud-drive.png) </br>
+![img/icloud-drive.png](img/icloud-drive.png)
 
 Selon votre navigateur et les paramètres, votre téléchargement Loop peut ou non se déziper automatiquement. S'il ne se dézippe pas automatiquement, vous pouvez faire un clic droit sur le fichier zip et choisir de "Ouvrir avec" Utilitaire d'archives. Ceci va créer un dossier bleu appelé `Loop-master`.  TOUTEFOIS, si vous avez déjà un dossier `Loop-master` existant à partir d’un téléchargement précédent, le nom du prochain téléchargement sera quelque chose comme `Loop-master (1)`.
 

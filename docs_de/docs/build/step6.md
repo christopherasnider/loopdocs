@@ -19,17 +19,17 @@ Um deine eigene Loop App zu erstellen, musst du ein Apple Entwicklerkonto haben.
 
 Wenn du dich für die Nutzung eines **KOSTENLOSEN** Entwicklerkontos entscheidest, musst folgendes wissen:
 
-1. Loop Apps, die mit einem kostenlosen Entwicklerteam signiert sind, laufen nach 7 Tagen ab.  Am 7. Tag wird deine Loop App beim Öffnen einfach weiß und schließt dann sofort. Um die Loop App neu zu erstellen, musst du dann einen Computer haben und die App auf dem iPhone neu erstellen. Du kannst die App z.B. nicht am 5. Tag neu erstellen (wenn es vielleicht gerade gut passt)...in der Hoffnung, den 7-Tage count-down zurückzusetzen.  Die App läuft immer noch am 7. Tag aus, bezogen auf den Tag an dem sie das erste Mal signiert und erstellt wurde.</br></br>
-2. Wenn du dich entscheidest, auf ein bezahltes Entwicklerkonto zu wechseln, nachdem du das kostenlose Entwicklerkonto ausgeprobiert hast, musst du die Loop App neu erstellen, um sie mit dem neuen bezahlten Entwicklerkonto zu signieren.</br></br>
-3. Du musst während des Erstellungsprozesses der Loop App mit dem kostenlosen Entwicklerkonto einen extra Schritt befolgen, um die Funktionen von Siri und Apple Push-Benachrichtigungen herauszunehmen. Kostenlose Entwicklerkonten haben nämlich keinen Zugriff auf Apple Push-Benachrichtigungen und können auch keine Ferneingriffe mittels Nightscout machen.</br></br>
+1. Loop Apps, die mit einem kostenlosen Entwicklerteam signiert sind, laufen nach 7 Tagen ab.  Am 7. Tag wird deine Loop App beim Öffnen einfach weiß und schließt dann sofort. Um die Loop App neu zu erstellen, musst du dann einen Computer haben und die App auf dem iPhone neu erstellen. Du kannst die App z.B. nicht am 5. Tag neu erstellen (wenn es vielleicht gerade gut passt)...in der Hoffnung, den 7-Tage count-down zurückzusetzen.  Die App läuft immer noch am 7. Tag aus, bezogen auf den Tag an dem sie das erste Mal signiert und erstellt wurde.
+2. Wenn du dich entscheidest, auf ein bezahltes Entwicklerkonto zu wechseln, nachdem du das kostenlose Entwicklerkonto ausgeprobiert hast, musst du die Loop App neu erstellen, um sie mit dem neuen bezahlten Entwicklerkonto zu signieren.
+3. Du musst während des Erstellungsprozesses der Loop App mit dem kostenlosen Entwicklerkonto einen extra Schritt befolgen, um die Funktionen von Siri und Apple Push-Benachrichtigungen herauszunehmen. Kostenlose Entwicklerkonten haben nämlich keinen Zugriff auf Apple Push-Benachrichtigungen und können auch keine Ferneingriffe mittels Nightscout machen.
 
 ## Bezahltes Entwicklerkonto
 
 Wenn du dich für die Nutzung eines **BEZAHLTEN** Entwicklerkontos entscheidest, musst folgendes wissen:
 
-1. Loop Apps, die mit einem bezahlten Entwicklerteam signiert wurden, laufen ein ganzes Jahr.</br></br>
-2. Das kostenpflichtige Entwicklerkonto kostet 99 USD pro Jahr und hat standardmäßig die Option mit automatischer Verlängerung. Du kannst diese Option aber jederzeit in deinen Entwicklerkonto Einstellungen ändern.</br></br>
-3. Auch wenn es in deinem Haushalt mehrere Loop Benutzer gibt, wird nur ein Entwicklerkonto benötigt.  Ein Entwicklerkonto kann verwendet werden, um mehrere Loop Apps zu signieren.</br></br>
+1. Loop Apps, die mit einem bezahlten Entwicklerteam signiert wurden, laufen ein ganzes Jahr.
+2. Das kostenpflichtige Entwicklerkonto kostet 99 USD pro Jahr und hat standardmäßig die Option mit automatischer Verlängerung. Du kannst diese Option aber jederzeit in deinen Entwicklerkonto Einstellungen ändern.
+3. Auch wenn es in deinem Haushalt mehrere Loop Benutzer gibt, wird nur ein Entwicklerkonto benötigt.  Ein Entwicklerkonto kann verwendet werden, um mehrere Loop Apps zu signieren.
 
 ## Wechsel von kostenlosen auf bezahltes Entwicklerkonto
 

@@ -18,7 +18,7 @@ Selon les préférences et le modèle de votre iPhone, il se peut que vous ayez 
 
 ![img/carb_screen.png](img/carb_screen.png)
 
-Les temps d’absorption par défaut des glucides de Loop sont basés sur les courbes d’absorption de l’indice glycémique élevées, moyennes et faibles présentées dans <i>Think Like A Pancreas</i> par Gary Scheiner.  Actuellement l’icône sucette (rapide) est réglée pour 2 heures, l’icône tacos (moyenne) pendant 3 heures, et l’icône pizza (lente) pendant 4 heures.
+Loop’s default carb absorption times are based on the high, medium, and low glycemic index absorption curves presented in *Think Like A Pancreas* by Gary Scheiner.  Actuellement l’icône sucette (rapide) est réglée pour 2 heures, l’icône tacos (moyenne) pendant 3 heures, et l’icône pizza (lente) pendant 4 heures.
 
 Si vous souhaitez modifier ces valeurs par défaut, vous pouvez le faire dans le Loop Core>>LoopSettings.swift ligne 16.
 
@@ -58,7 +58,7 @@ Vous pouvez confirmer le changement réussi en regardant dans Xcode sous Loop ->
 
 Et maintenant, vous serez le fier nouveau propriétaire d’une icône Loop personnalisée.
 
-![img/unicorn-logo.jpeg](img/unicorn-logo.jpeg)
+![img/unicorn-logo.jpeg](../img/unicorn-logo.jpeg)
 
 ## Ajustez la sensibilité de la couronne numérique de la montre pour l’entrée de glucides et de bolus
 
