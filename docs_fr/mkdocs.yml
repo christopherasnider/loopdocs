@@ -16,8 +16,6 @@ theme:
   features:
       - navigation.tabs
 
-use_directory_urls: true
-
 nav:
 - "Page d’accueil" : "index.md" 
 - "FAQs" :
@@ -62,8 +60,8 @@ nav:
     - "Étape 5 Services de Loop" : "operation/loop-settings/services.md"
     - "Affichages de Loop" : "operation/loop-settings/displays.md"
     - "Menu RileyLink" : "operation/loop-settings/rileylink.md"
-- "Exploiter" :
-    - "Comment utiliser l’application Loop" :
+- "Utilisation" :
+    - "Utilisation de l’application Loop" :
         - "Entrées de Glucides" : "operation/features/carbs.md"
         - "Bolus" : "operation/features/bolus.md"
         - "Substitutions" : "operation/features/workout.md"
@@ -88,7 +86,7 @@ nav:
         - "Les plantages de Loop" : "troubleshooting/loop-crashing.md"
         - "La boucle de Loop est rouge" : "troubleshooting/yellow-red-loop.md"
         - "Défaillances de jumelage du Pod" : "troubleshooting/pod-pairing.md"
-        - "Pod Uncertain Boluses" : "troubleshooting/uncertain-bolus.md"
+        - "Bolus incertains du Pod" : "troubleshooting/uncertain-bolus.md"
         - "MDT Priming and Sites" : "troubleshooting/priming.md"
         - "Changements d’heure" : "troubleshooting/time-change.md"
         - "Erreurs de pompe MDT" : "troubleshooting/pump-errors.md"
@@ -103,5 +101,5 @@ nav:
     - "Pebble" : "nightscout/pebble.md"
     - "Notifications à distance" : "nightscout/pushover.md"
     - "Rapports" : "nightscout/reports.md"
-- "Pay It Forward" :
-    - "Traduire la Loopdocs" : "payitforward/translateloopdocs.md"
+- "Contributions" :
+    - "Traduire Loopdocs" : "payitforward/translateloopdocs.md"

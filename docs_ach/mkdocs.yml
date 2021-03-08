@@ -16,8 +16,6 @@ theme:
   features:
       - navigation.tabs
 
-use_directory_urls: false
-
 nav:
 - "crwdns68940:0crwdne68940:0" : "index.md" 
 - "crwdns68942:0crwdne68942:0" :

@@ -11,8 +11,8 @@ plugins:
 
 theme:
   name: material
-  custom_dir: ../overrides
   language: da
+  custom_dir: ../overrides
   features:
       - navigation.tabs
 
