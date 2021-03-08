@@ -16,8 +16,6 @@ theme:
   features:
       - navigation.tabs
 
-use_directory_urls: true
-
 nav:
 - "Hjem" : "index.md" 
 - "FAQ" :
